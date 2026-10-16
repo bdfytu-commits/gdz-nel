@@ -11,7 +11,7 @@
 - [x] 5. Тёмная тема: localStorage gdz-nel-theme, prefers-color-scheme, контраст AA, палитра #1A1A1A/#242424/#E8E8E8/#9A9A9A/#1AA3A3
 - [x] 6. PWA: manifest.json, service-worker.js (cache-first статика, network-first JSON), apple-touch-icon 180×180, регистрация
 - [ ] 7. APK через Bubblewrap (если нет JDK/SDK — честно сказать и оставить заглушку)
-- [ ] 8. Клавиши ←/→/Esc + свайпы в /app + подсказки
+- [x] 8. Клавиши ←/→/Esc + свайпы в /app + подсказки
 - [ ] 9. Поиск по тексту условия с подсветкой, debounce 200ms
 - [ ] 10. Закладки (gdz-nel-bookmarks) + экран «Избранное»
 - [ ] 11. История последних 20 просмотров

@@ -1,1 +1,5 @@
 scripts/venv-shots/
+android-twa/
+android-signing/
+*.keystore
+*.jks
