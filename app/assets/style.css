@@ -946,24 +946,45 @@ mark {
 
 /* ---------- печать ---------- */
 
+@page { margin: 14mm; }
+
 @media print {
   .app-header, .task-actions, .task-nav, .crumbs, .toast, .hint,
-  .section-chips, .next-section, .no-print { display: none !important; }
+  .section-chips, .next-section, .list-actions, .no-print { display: none !important; }
 
   body { background: #fff; color: #000; }
 
+  a { color: #000 !important; text-decoration: none; }
+
   .app-main { max-width: none; padding: 0; }
 
+  .panel-title { font-size: 20px; margin: 0 0 4px; }
+  .panel-sub { font-size: 12px; color: #333; }
+
   .task-block {
-    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background: none !important;
     box-shadow: none;
     break-inside: avoid;
     page-break-inside: avoid;
   }
 
-  .task-block--cond { background: #f5f5f5; }
+  .task-block--cond { background: #f5f5f5 !important; }
 
-  .task-view .panel-title { font-size: 22px; }
+  .task-block--answer { border: 2px solid #000; }
+  .task-block--answer .answer { color: #000; }
+
+  .task-block .task-label { color: #333; }
+  .task-text, .task-view .step-line { color: #000; font-size: 13px; }
+
+  .step-line { break-inside: avoid; page-break-inside: avoid; }
+  .step-line .step-num { background: none; border: 1px solid #999; color: #000; }
+
+  .subject-icon, .icon-btn { display: none !important; }
+
+  .list-item { break-inside: avoid; page-break-inside: avoid; box-shadow: none; }
 }
 
 /* ---------- отключение анимаций в системе ---------- */
