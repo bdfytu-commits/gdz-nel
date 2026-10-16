@@ -313,6 +313,13 @@ a:hover { color: var(--c-accent); }
   outline: none;
 }
 
+/* клавиатурный фокус: рамка вокруг самого поля, а не только подсветка контейнера */
+.header-search input:focus-visible {
+  outline: 2px solid var(--c-primary);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
 .header-search input::placeholder { color: var(--c-text-muted); }
 
 .search-clear {

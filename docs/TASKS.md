@@ -20,7 +20,7 @@
 - [x] 14. «Сообщить об ошибке» (mailto, тема «Ошибка в задании X учебника Y»)
 - [x] 15. Группировка по section со sticky-заголовками и «следующий раздел»
 - [ ] 15. Группировка по section со sticky-заголовками и «следующий раздел»
-- [ ] 16. a11y-аудит: aria-label, alt, keyboard-only, фокус, семантика, aria-live
+- [x] 16. a11y-аудит: aria-label, alt, keyboard-only, фокус, семантика, aria-live
 - [ ] 17. SEO + Open Graph (og:image скриншот, sitemap.xml, robots.txt, favicon SVG + .ico)
 - [ ] 18. Lighthouse: Performance >90, A11y >95, BP >95, SEO >90; результаты в docs/CHANGELOG.md
 - [ ] 19. math/vilenkin-6-1.json — реальные задания
