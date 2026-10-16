@@ -748,6 +748,7 @@ a.task-cell:hover::before { opacity: 1; }
 .list { margin: 0; padding: 0; list-style: none; }
 
 .list-item {
+  position: relative;
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -770,6 +771,17 @@ a.task-cell:hover::before { opacity: 1; }
   font-size: 14px;
 }
 
+/* заголовок-ссылка растянут на всю карточку: кликается весь элемент,
+   а кнопки действий (.list-actions) лежат выше и перехватывают клик */
+.list-title::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-l);
+}
+
+.list-item:hover .list-title::after { background: rgba(26, 163, 163, 0.05); }
+
 .list-snippet {
   margin: 0;
   font-size: 13px;
@@ -782,7 +794,7 @@ a.task-cell:hover::before { opacity: 1; }
 
 .list-meta { margin: 4px 0 0; font-size: 12px; color: var(--c-text-muted); }
 
-.list-actions { display: flex; gap: 6px; }
+.list-actions { position: relative; z-index: 1; display: flex; gap: 6px; }
 
 .icon-btn--sm { width: 34px; height: 34px; }
 

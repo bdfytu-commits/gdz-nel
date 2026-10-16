@@ -12,7 +12,7 @@
 - [x] 6. PWA: manifest.json, service-worker.js (cache-first статика, network-first JSON), apple-touch-icon 180×180, регистрация
 - [ ] 7. APK через Bubblewrap (если нет JDK/SDK — честно сказать и оставить заглушку)
 - [x] 8. Клавиши ←/→/Esc + свайпы в /app + подсказки
-- [ ] 9. Поиск по тексту условия с подсветкой, debounce 200ms
+- [x] 9. Поиск по тексту условия с подсветкой, debounce 200ms
 - [ ] 10. Закладки (gdz-nel-bookmarks) + экран «Избранное»
 - [ ] 11. История последних 20 просмотров
 - [ ] 12. Print-friendly CSS
