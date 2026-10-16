@@ -24,6 +24,7 @@ const PRECACHE = [
   '../favicon.ico',
   '../favicon.svg',
   '../assets/img/logo.png',
+  '../assets/img/logo-120.png',
   '../assets/img/icons/apple-touch-icon.png',
   '../assets/img/icons/icon-192.png',
   '../assets/img/icons/icon-512.png',

@@ -11,10 +11,9 @@
 - Задача 3: 31 SVG-иконка в /assets/img/icons/ (предметы и UI), подключаются через CSS-маску → цвет currentColor.
 - Инфраструктура: scripts/write_stats.py (stats.json со счётчиками по предметам и учебникам), favicon.ico, apple-touch-icon, иконки PWA 192/512/maskable.
 - Задача 4: scripts/take_screenshots.py (playwright из scripts/venv-shots), 7 скриншотов в /assets/img/screens/ (моб. 390×844@2x, десктоп 1440×900, тёмный экран), лендинг показывает реальные скрины в phone-frame.
-
 - Задача 5: тёмная тема на обеих страницах (localStorage gdz-nel-theme + prefers-color-scheme), контраст AA подтверждён scripts/audit_contrast.py (все пары ≥4.5:1, графика ≥3:1). Для белого текста затемнены hero (накладка 20%) и кнопочный градиент, приглушённый текст #6E6E6E, ссылки #0E7C7C.
-
 - Задача 6: PWA — manifest.json (icons 192/512/maskable, standalone, start_url ./), service-worker.js (предкэш 50 файлов, статика cache-first, data network-first, навигация с офлайн-фолбэком), регистрация в script.js. e2e-тест подтвердил работу офлайн: главная, сетка и задание открываются из кэша.
+- Задача 7: APK собран настоящий. Итог: `download/app.apk` (3.2 МБ, ru.nel.gdz, versionName 2, minSdk 24, targetSdk 36), подписан ключом `android-signing/keystore.jks` (alias gdz-nel). Ход: bubblewrap 1.27.0 в /tmp/opencode/bw; init через pty-драйвер (`/tmp/opencode/bw_run.py`), домен-заглушка gdz-nel.example, startUrl /app/; build упал дважды: (1) нет sdkmanager в $SDK/bin — симлинки из cmdline-tools/latest/bin; (2) minSdkVersion 21 < 24 (androidbrowserhelper 2.7.4) — подняли до 24 в twa-manifest.json и app/build.gradle. Проект android-twa/ в git не попадает (.gitignore). Скрипт: `BUBBLEWRAP_DIR=/tmp/opencode/bw bash scripts/build_apk.sh build`.
 - Задача 8: клавиши ←/→/Esc (тест e2e), свайпы (порог 60px по горизонтали, вертикальные и короткие игнорируются — тест пройден), подсказка о клавишах и свайпах показывается один раз (gdz-nel-hint-done).
 - Задача 9: поиск — debounce 200мс, подсветка <mark>, фрагмент условия вокруг совпадения, до 50 результатов, клик по всей карточке результата (растянутая ссылка), очистка крестиком. Тест пройден.
 - Задачи 10–11: закладки (gdz-nel-bookmarks) и история (gdz-nel-history, лимит 20, свежие сверху, без дублей, очистка) — проверено e2e.
@@ -23,16 +22,19 @@
 - Задача 15: группировка по section — чипы разделов, sticky-заголовки со счётчиками, «следующий раздел», серая дыра 11 в третьем разделе. В тестовые данные математики добавлены три §-раздела (реальные появятся при наполнении). Проверено e2e.
 - Задача 16: a11y-аудит axe-core (0 нарушений на 5 экранах), правки: role=region у подсказки, :focus-visible у поиска; проверка клавиатуры (Tab, фокус, Enter) пройдена. Итоги — в docs/CHANGELOG.md.
 - Задача 17: SEO — описания, canonical, robots, Open Graph и twitter-карточки с картинкой 1200×630 (сгенерирована из скриншота), JSON-LD WebSite, sitemap.xml, robots.txt, favicon.svg (упрощённая эмблема) + favicon.ico 32/16. Домен пока плейсхолдер USER.github.io — заменить после деплоя.
+- Задача 18: Lighthouse 13.5.0 (chrome-headless-shell 1243, мобильный профиль). Итог: лендинг P98/A100/BP100/SEO100, /app P100/A100/BP100/SEO100, задание P99/A100/BP100/SEO100. Что чинили: шрифты Unbounded переведены в неблокирующую загрузку (media=print + onload), логотипы под DPR 2.625 (logo-120/160/280), og-картинка 1200×630. CSS/JS не минифицируем — это требование ТЗ («без минификации»), поэтому unminified-* остаются только возможностями. Полный отчёт — в docs/CHANGELOG.md.
 
 ## В работе
 
-- Задача 7: APK.
+- Задачи 19–26: наполнение заданиями (парсинг с фолбэком на ИИ-генерацию).
 
 ## Ждёт
 
-- Задачи 5–28.
+- Задачи 27–28: документация и деплой.
 
 ## Известные ограничения
 
-- нет JDK/Android SDK и sudo — APK (задача 7) будет заглушкой со скриптом и инструкцией.
-- локальный предпросмотр: `uv run python -m http.server 8000` из корня, без него fetch не работает (file:// запрещён).
+- APK собран с доменом-заглушкой `gdz-nel.example`: после реального деплоя заменить host в twa-manifest.json, пересобрать APK и добавить `/.well-known/assetlinks.json`, иначе TWA откроется с адресной строкой браузера. Пересборка: `BUBBLEWRAP_DIR=/tmp/opencode/bw bash scripts/build_apk.sh build`.
+- APK лежит в репозитории (download/app.apk, 3.2 МБ) — при обновлении заданий его не нужно трогать, содержимое подтягивается с сайта.
+- Локальный предпросмотр: `uv run python -m http.server 8000` из корня, без него fetch не работает (file:// запрещён).
+- canonical, og:url и sitemap.xml содержат плейсхолдер `https://USER.github.io/gdz-nel/` — заменить после деплоя.

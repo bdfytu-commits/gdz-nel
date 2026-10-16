@@ -21,6 +21,8 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 JDK="${JAVA_HOME:-/usr/lib/jvm/java-17-openjdk}"
 SDK="${ANDROID_HOME:-$HOME/Android/Sdk}"
+# на этой машине bubblewrap уже стоит в /tmp/opencode/bw — запускать так:
+#   BUBBLEWRAP_DIR=/tmp/opencode/bw bash scripts/build_apk.sh build
 BUBBLEWRAP_DIR="${BUBBLEWRAP_DIR:-$HOME/.local/share/gdz-nel-bubblewrap}"
 TWA_DIR="$ROOT/android-twa"
 KEYSTORE_DIR="$ROOT/android-signing"
@@ -57,9 +59,17 @@ case "${1:-build}" in
     if [ ! -x "$BUBBLEWRAP_DIR/node_modules/.bin/bubblewrap" ]; then
       echo "bubblewrap не установлен: bash scripts/build_apk.sh init"; exit 1
     fi
+    # androidbrowserhelper 2.7.x требует minSdk >= 24, а bubblewrap init ставит 21
+    [ -f "$TWA_DIR/app/build.gradle" ] && sed -i 's/minSdkVersion 21/minSdkVersion 24/' "$TWA_DIR/app/build.gradle"
+    [ -f "$TWA_DIR/twa-manifest.json" ] && sed -i 's/"minSdkVersion": 21,/"minSdkVersion": 24,/' "$TWA_DIR/twa-manifest.json"
+    echo "если bubblewrap спросит про изменения twa-manifest.json — нажми Enter (применить)"
     (cd "$TWA_DIR" && "$BUBBLEWRAP_DIR/node_modules/.bin/bubblewrap" build --skipPwaValidation)
-    APK="$(ls -t "$TWA_DIR"/app/build/outputs/apk/release/*.apk 2>/dev/null | head -1 || true)"
-    if [ -z "$APK" ]; then
+    # подписанный APK bubblewrap кладёт в корень проекта
+    APK="$TWA_DIR/app-release-signed.apk"
+    if [ ! -f "$APK" ]; then
+      APK="$(ls -t "$TWA_DIR"/app/build/outputs/apk/release/*.apk 2>/dev/null | head -1 || true)"
+    fi
+    if [ -z "${APK:-}" ] || [ ! -f "$APK" ]; then
       echo "APK не найден — смотри вывод сборки"; exit 1
     fi
     cp "$APK" "$ROOT/download/app.apk"
