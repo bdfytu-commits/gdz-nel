@@ -16,8 +16,9 @@
 - [x] 10. Закладки (gdz-nel-bookmarks) + экран «Избранное»
 - [x] 11. История последних 20 просмотров
 - [x] 12. Print-friendly CSS
-- [ ] 13. «Поделиться» (navigator.share, fallback clipboard + toast)
-- [ ] 14. «Сообщить об ошибке» (mailto, тема «Ошибка в задании X учебника Y»)
+- [x] 13. «Поделиться» (navigator.share, fallback clipboard + toast)
+- [x] 14. «Сообщить об ошибке» (mailto, тема «Ошибка в задании X учебника Y»)
+- [x] 15. Группировка по section со sticky-заголовками и «следующий раздел»
 - [ ] 15. Группировка по section со sticky-заголовками и «следующий раздел»
 - [ ] 16. a11y-аудит: aria-label, alt, keyboard-only, фокус, семантика, aria-live
 - [ ] 17. SEO + Open Graph (og:image скриншот, sitemap.xml, robots.txt, favicon SVG + .ico)
