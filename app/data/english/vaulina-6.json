@@ -1,0 +1,57 @@
+{
+  "subject": "english",
+  "textbook": "vaulina-6",
+  "author": "Ваулина Ю.Е., Дули Д., Подоляко О.Е.",
+  "year": "2026",
+  "part": null,
+  "tasks": [
+    {
+      "number": 1,
+      "condition": "Fill in: am, is or are. I ... from Russia. My friend ... twelve. They ... in Moscow.",
+      "solution": "Форма глагола be зависит от подлежащего.\nI (я) — am: I am from Russia.\nMy friend (он, ед. число) — is: My friend is twelve.\nThey (они, мн. число) — are: They are in Moscow.",
+      "answer": "am, is, are"
+    },
+    {
+      "number": 2,
+      "condition": "Choose the correct form: Tom (have got / has got) a new bike.",
+      "solution": "Have got употребляется с I, you, we, they.\nHas got употребляется с he, she, it.\nTom — это he, значит правильная форма has got.",
+      "answer": "Tom has got a new bike."
+    },
+    {
+      "number": 3,
+      "condition": "Put the verb into Present Simple: My sister (read) books every evening.",
+      "solution": "Present Simple для регулярных действий.\nshe — третье лицо единственного числа, к глаголу добавляется -s.\nread + s = reads.",
+      "answer": "My sister reads books every evening."
+    },
+    {
+      "number": 4,
+      "condition": "Make the sentence negative: We go to school by bus.",
+      "solution": "Отрицание в Present Simple строится с помощью do not (don't) для I, you, we, they.\nI, you, we, they + do not + глагол без -s.\nПолучаем: We don't go to school by bus.",
+      "answer": "We don't go to school by bus."
+    },
+    {
+      "number": 5,
+      "condition": "Fill in much or many. How ... apples do you need? How ... water is there in the bottle?",
+      "solution": "Many употребляется с исчисляемыми существительными: apples (яблоки можно посчитать).\nMuch употребляется с неисчисляемыми: water (воду не считаем поштучно).\nHow many apples... How much water...",
+      "answer": "many, much"
+    },
+    {
+      "number": 6,
+      "condition": "Complete with the correct pronoun: This is my sister. Look at ... (she).",
+      "solution": "После предлога at нужна объектная форма местоимения.\nI — me, he — him, she — her, we — us, they — them.\nShe превращается в her: Look at her.",
+      "answer": "Look at her."
+    },
+    {
+      "number": 7,
+      "condition": "Translate into English: «Я умею плавать».",
+      "solution": "Умение выражается модальным глаголом can.\nПосле can глагол идёт без частицы to.\nЯ — I, плавать — swim. Получаем: I can swim.",
+      "answer": "I can swim."
+    },
+    {
+      "number": 8,
+      "condition": "Choose the right preposition: on, in or at. He gets up ... 7 o'clock ... the morning.",
+      "solution": "С точным временем на часах употребляется at: at 7 o'clock.\nС частями дня употребляется in: in the morning.\nПолучаем: He gets up at 7 o'clock in the morning.",
+      "answer": "at, in"
+    }
+  ]
+}
