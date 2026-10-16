@@ -1,0 +1,33 @@
+{
+  "name": "ГДЗ НЭЛ — готовые домашние задания, 6 класс",
+  "short_name": "ГДЗ НЭЛ",
+  "description": "Условия, пошаговые решения и ответы по всем предметам 6 класса. Поиск, избранное, история, тёмная тема, офлайн.",
+  "lang": "ru",
+  "dir": "ltr",
+  "id": "gdz-nel-app",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1AA3A3",
+  "categories": ["education", "books"],
+  "icons": [
+    {
+      "src": "../assets/img/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../assets/img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "../assets/img/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

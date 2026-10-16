@@ -14,9 +14,11 @@
 
 - Задача 5: тёмная тема на обеих страницах (localStorage gdz-nel-theme + prefers-color-scheme), контраст AA подтверждён scripts/audit_contrast.py (все пары ≥4.5:1, графика ≥3:1). Для белого текста затемнены hero (накладка 20%) и кнопочный градиент, приглушённый текст #6E6E6E, ссылки #0E7C7C.
 
+- Задача 6: PWA — manifest.json (icons 192/512/maskable, standalone, start_url ./), service-worker.js (предкэш 50 файлов, статика cache-first, data network-first, навигация с офлайн-фолбэком), регистрация в script.js. e2e-тест подтвердил работу офлайн: главная, сетка и задание открываются из кэша.
+
 ## В работе
 
-- Задача 6: PWA.
+- Задача 7: APK.
 
 ## Ждёт
 
