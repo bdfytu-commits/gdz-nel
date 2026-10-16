@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ГДЗ НЭЛ">
+  <!-- упрощённая эмблема НЭЛ: бирюзовое кольцо, синяя волна-птица, три столбика -->
+  <circle cx="32" cy="32" r="29" fill="#FFFFFF" stroke="#1AA3A3" stroke-width="3.5"/>
+  <path d="M15 35 C24 27.5 32 25.5 42 24.5 C36.5 31.5 27 35.5 18 37 Z" fill="#0070C0"/>
+  <path d="M27 23.5 C32 18.5 38.5 16.5 46.5 16 C41.5 22 35 24.5 29 25.5 Z" fill="#4A90D9"/>
+  <rect x="25" y="41" width="5" height="10" rx="1" fill="#E53935"/>
+  <rect x="32" y="39" width="5" height="12" rx="1" fill="#1AA3A3"/>
+  <rect x="39" y="36" width="5" height="15" rx="1" fill="#F5C518"/>
+</svg>

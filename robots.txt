@@ -1,0 +1,6 @@
+# ГДЗ НЭЛ — правила для роботов
+User-agent: *
+Allow: /
+
+# заменить USER на реальный аккаунт после деплоя (задача 28)
+Sitemap: https://USER.github.io/gdz-nel/sitemap.xml
