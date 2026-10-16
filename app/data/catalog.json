@@ -19,7 +19,8 @@
           "year": "2021–2026",
           "file": "math/vilenkin-6-2.json"
         }
-      ]
+      ],
+      "icon": "math"
     },
     {
       "id": "russian",
@@ -40,7 +41,8 @@
           "year": "2023",
           "file": "russian/ladyzhenskaya-6-2.json"
         }
-      ]
+      ],
+      "icon": "russian"
     },
     {
       "id": "english",
@@ -54,7 +56,8 @@
           "year": "2026",
           "file": "english/vaulina-6.json"
         }
-      ]
+      ],
+      "icon": "english"
     },
     {
       "id": "biology",
@@ -68,7 +71,8 @@
           "year": "2023–2024",
           "file": "biology/pasechnik-6.json"
         }
-      ]
+      ],
+      "icon": "biology"
     },
     {
       "id": "history",
@@ -82,7 +86,8 @@
           "year": "2025",
           "file": "history/medinsky-6.json"
         }
-      ]
+      ],
+      "icon": "history"
     },
     {
       "id": "social",
@@ -96,7 +101,8 @@
           "year": "2023",
           "file": "social/bogolyubov-6.json"
         }
-      ]
+      ],
+      "icon": "social"
     }
   ]
 }

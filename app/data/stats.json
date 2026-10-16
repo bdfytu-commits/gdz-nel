@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-10-16T14:29:15Z",
+  "subjects": {
+    "math": {
+      "title": "Математика",
+      "icon": "math",
+      "tasks": 19
+    },
+    "russian": {
+      "title": "Русский язык",
+      "icon": "russian",
+      "tasks": 16
+    },
+    "english": {
+      "title": "Английский язык",
+      "icon": "english",
+      "tasks": 8
+    },
+    "biology": {
+      "title": "Биология",
+      "icon": "biology",
+      "tasks": 8
+    },
+    "history": {
+      "title": "История",
+      "icon": "history",
+      "tasks": 8
+    },
+    "social": {
+      "title": "Обществознание",
+      "icon": "social",
+      "tasks": 8
+    }
+  },
+  "books": {
+    "math/vilenkin-6-1.json": 11,
+    "math/vilenkin-6-2.json": 8,
+    "russian/ladyzhenskaya-6-1.json": 9,
+    "russian/ladyzhenskaya-6-2.json": 7,
+    "english/vaulina-6.json": 8,
+    "biology/pasechnik-6.json": 8,
+    "history/medinsky-6.json": 8,
+    "social/bogolyubov-6.json": 8
+  },
+  "total": 67,
+  "textbooks": 8
+}

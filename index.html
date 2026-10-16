@@ -4,8 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ГДЗ НЭЛ — готовые домашние задания для 6 класса</title>
-  <meta name="description" content="Готовые домашние задания для 6 класса Новосибирского экономического лицея: математика, русский язык, английский, биология, история, обществознание.">
-  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+  <meta name="description" content="Готовые домашние задания для 6 класса Новосибирского экономического лицея: математика, русский язык, английский, биология, история, обществознание. Условия, пошаговые решения и ответы.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ГДЗ НЭЛ — готовые домашние задания для 6 класса">
+  <meta property="og:description" content="Условия, пошаговые решения и ответы по шести предметам программы лицея.">
+  <meta property="og:image" content="assets/img/screens/app-subjects.png">
+  <meta property="og:url" content="./">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
@@ -13,144 +24,178 @@
 </head>
 <body>
 
-  <header class="site-header">
+  <header class="site-header" id="site-header">
     <a class="brand" href="index.html">
-      <img src="assets/img/logo.svg" alt="Эмблема НЭЛ" width="38" height="38">
+      <img src="assets/img/logo.png" alt="Эмблема НЭЛ" width="38" height="38">
       <span class="brand-name">ГДЗ НЭЛ</span>
     </a>
-    <a class="btn btn-outline btn-sm" href="app/index.html"><span>Открыть приложение</span></a>
+    <nav class="site-nav" aria-label="Разделы страницы">
+      <a href="#subjects">Предметы</a>
+      <a href="#how">Как это работает</a>
+      <a href="#shots">Скриншоты</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="icon i-moon" aria-hidden="true"></span>
+      </button>
+      <a class="btn btn-primary btn-sm" href="app/index.html">
+        <span class="icon i-book" aria-hidden="true"></span>
+        <span>Открыть приложение</span>
+      </a>
+    </div>
   </header>
 
   <main>
-    <!-- шапка сайта -->
+    <!-- ================= hero ================= -->
     <section class="hero">
       <div class="hero-inner">
-        <img class="hero-logo" src="assets/img/logo.svg" alt="Эмблема Новосибирского экономического лицея" width="92" height="92">
+        <img class="hero-logo" src="assets/img/logo.png" alt="Эмблема Новосибирского экономического лицея" width="104" height="104">
         <h1 class="hero-title">ГДЗ НЭЛ</h1>
-        <p class="hero-text">Готовые домашние задания для 6 класса: условия, пошаговые решения и ответы по всем предметам программы лицея.</p>
+        <p class="hero-text">Условия, пошаговые решения и ответы для 6 класса — по всем предметам.</p>
         <div class="hero-actions">
-          <a class="btn btn-light" href="app/index.html"><span>Открыть в браузере</span></a>
-          <a class="btn btn-ghost" href="download/app.apk" download><span>Скачать для Android</span></a>
+          <a class="btn btn-light btn-lg" href="app/index.html">
+            <span class="icon i-arrow-right" aria-hidden="true"></span>
+            <span>Открыть в браузере</span>
+          </a>
+          <a class="btn btn-ghost btn-lg" href="download/app.apk" download>
+            <span class="icon i-android" aria-hidden="true"></span>
+            <span>Скачать для Android</span>
+          </a>
         </div>
-        <p class="hero-note">Работает на телефоне и компьютере. Без регистрации и рекламы.</p>
+        <dl class="hero-stats">
+          <div><dt>6</dt><dd>предметов</dd></div>
+          <div><dt id="stat-tasks">67</dt><dd>заданий с решениями</dd></div>
+          <div><dt id="stat-books">8</dt><dd>учебников</dd></div>
+        </dl>
       </div>
     </section>
 
-    <!-- предметы -->
-    <section class="section">
-      <h2 class="section-title">Что внутри</h2>
-      <p class="section-sub">Шесть предметов по учебникам, которые используются в лицее</p>
+    <!-- ================= предметы ================= -->
+    <section class="section" id="subjects">
+      <div class="section-head reveal">
+        <h2 class="section-title">Что внутри</h2>
+        <p class="section-sub">Шесть предметов по учебникам, которые используются в лицее. Нажми на карточку — откроется нужный раздел приложения.</p>
+      </div>
       <div class="cards">
-        <article class="card reveal">
+        <a class="card reveal" href="app/index.html#/math" data-subject="math">
+          <span class="card-icon"><span class="icon i-math" aria-hidden="true"></span></span>
           <h3>Математика</h3>
-          <p>Виленкин, Жохов, Чесноков. Части 1 и 2</p>
-        </article>
-        <article class="card reveal">
+          <p class="card-meta">Виленкин, Жохов, Чесноков. Части 1 и 2</p>
+          <span class="card-foot"><span class="card-count" data-count>задания</span><span class="card-go">Открыть</span></span>
+        </a>
+        <a class="card reveal" href="app/index.html#/russian" data-subject="russian">
+          <span class="card-icon"><span class="icon i-russian" aria-hidden="true"></span></span>
           <h3>Русский язык</h3>
-          <p>Ладыженская, Баранов, Тростенцова. Части 1 и 2</p>
-        </article>
-        <article class="card reveal">
+          <p class="card-meta">Ладыженская, Баранов, Тростенцова. Части 1 и 2</p>
+          <span class="card-foot"><span class="card-count" data-count>задания</span><span class="card-go">Открыть</span></span>
+        </a>
+        <a class="card reveal" href="app/index.html#/english" data-subject="english">
+          <span class="card-icon"><span class="icon i-english" aria-hidden="true"></span></span>
           <h3>Английский язык</h3>
-          <p>Ваулина, Дули, Подоляко. Spotlight</p>
-        </article>
-        <article class="card reveal">
+          <p class="card-meta">Ваулина, Дули, Подоляко. Spotlight</p>
+          <span class="card-foot"><span class="card-count" data-count>задания</span><span class="card-go">Открыть</span></span>
+        </a>
+        <a class="card reveal" href="app/index.html#/biology" data-subject="biology">
+          <span class="card-icon"><span class="icon i-biology" aria-hidden="true"></span></span>
           <h3>Биология</h3>
-          <p>Пасечник, Суматохин, Гапонюк</p>
-        </article>
-        <article class="card reveal">
+          <p class="card-meta">Пасечник, Суматохин, Гапонюк</p>
+          <span class="card-foot"><span class="card-count" data-count>задания</span><span class="card-go">Открыть</span></span>
+        </a>
+        <a class="card reveal" href="app/index.html#/history" data-subject="history">
+          <span class="card-icon"><span class="icon i-history" aria-hidden="true"></span></span>
           <h3>История</h3>
-          <p>Мединский, Чубарьян. История Средних веков</p>
-        </article>
-        <article class="card reveal">
+          <p class="card-meta">Мединский, Чубарьян. История Средних веков</p>
+          <span class="card-foot"><span class="card-count" data-count>задания</span><span class="card-go">Открыть</span></span>
+        </a>
+        <a class="card reveal" href="app/index.html#/social" data-subject="social">
+          <span class="card-icon"><span class="icon i-social" aria-hidden="true"></span></span>
           <h3>Обществознание</h3>
-          <p>Боголюбов, Рутковская, Иванова</p>
-        </article>
+          <p class="card-meta">Боголюбов, Рутковская, Иванова</p>
+          <span class="card-foot"><span class="card-count" data-count>задания</span><span class="card-go">Открыть</span></span>
+        </a>
       </div>
     </section>
 
-    <!-- мокапы приложения -->
-    <section class="band">
+    <!-- ================= как это работает ================= -->
+    <section class="band" id="how">
       <div class="section">
-        <h2 class="section-title">Как это выглядит</h2>
-        <p class="section-sub">Выбор предмета, сетка номеров, задание с решением и ответом</p>
-        <div class="shots">
-
-          <figure class="shot-item reveal">
-            <div class="phone">
-              <div class="phone-screen">
-                <div class="mock-top">
-                  <span class="mock-title"></span>
-                  <span class="mock-sub"></span>
-                </div>
-                <div class="mock-body">
-                  <div class="mock-row"><span class="mock-chip"></span><span class="mock-lines"><i></i><i class="short"></i></span></div>
-                  <div class="mock-row"><span class="mock-chip alt"></span><span class="mock-lines"><i></i><i class="short"></i></span></div>
-                  <div class="mock-row"><span class="mock-chip alt2"></span><span class="mock-lines"><i></i><i class="short"></i></span></div>
-                  <div class="mock-row"><span class="mock-chip"></span><span class="mock-lines"><i></i><i class="short"></i></span></div>
-                </div>
-              </div>
-            </div>
-            <figcaption class="shot-caption">Выбор предмета</figcaption>
-          </figure>
-
-          <figure class="shot-item reveal">
-            <div class="phone">
-              <div class="phone-screen">
-                <div class="mock-top slim">
-                  <span class="mock-title"></span>
-                </div>
-                <div class="mock-body">
-                  <span class="mock-search"></span>
-                  <div class="mock-grid">
-                    <span class="mock-cell"></span>
-                    <span class="mock-cell"></span>
-                    <span class="mock-cell"></span>
-                    <span class="mock-cell"></span>
-                    <span class="mock-cell"></span>
-                    <span class="mock-cell active"></span>
-                    <span class="mock-cell"></span>
-                    <span class="mock-cell"></span>
-                    <span class="mock-cell"></span>
-                    <span class="mock-cell"></span>
-                    <span class="mock-cell"></span>
-                    <span class="mock-cell"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <figcaption class="shot-caption">Сетка заданий</figcaption>
-          </figure>
-
-          <figure class="shot-item reveal">
-            <div class="phone">
-              <div class="phone-screen">
-                <div class="mock-top slim">
-                  <span class="mock-title"></span>
-                </div>
-                <div class="mock-body">
-                  <span class="mock-line-lg"></span>
-                  <span class="mock-line"></span>
-                  <span class="mock-line short"></span>
-                  <span class="mock-box"><i></i><i></i><i class="short"></i></span>
-                  <span class="mock-answer"></span>
-                </div>
-              </div>
-            </div>
-            <figcaption class="shot-caption">Решение и ответ</figcaption>
-          </figure>
-
+        <div class="section-head reveal">
+          <h2 class="section-title">Как это работает</h2>
+          <p class="section-sub">Три шага от условия до ответа. Без регистрации, без рекламы.</p>
         </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-icon"><span class="icon i-book" aria-hidden="true"></span></span>
+            <h3>Выбери предмет и учебник</h3>
+            <p>Математика, русский, английский, биология, история и обществознание — с разбивкой по частям.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-icon"><span class="icon i-search" aria-hidden="true"></span></span>
+            <h3>Найди номер задания</h3>
+            <p>Сетка номеров, поиск по номеру и по тексту условия, избранное и история просмотров.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-icon"><span class="icon i-check" aria-hidden="true"></span></span>
+            <h3>Смотри решение и ответ</h3>
+            <p>Пошаговое решение, короткий ответ, кнопки «поделиться» и «сообщить об ошибке» — всё на месте.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= скриншоты ================= -->
+    <section class="section" id="shots">
+      <div class="section-head reveal">
+        <h2 class="section-title">Как это выглядит</h2>
+        <p class="section-sub">Реальные скриншоты приложения. Оно же ставится на Android и работает офлайн.</p>
+      </div>
+      <div class="shots">
+        <figure class="shot-item reveal">
+          <div class="phone">
+            <img class="phone-shot" src="assets/img/screens/app-subjects.png" alt="Экран выбора предмета" width="390" height="844" loading="lazy">
+          </div>
+          <figcaption>Выбор предмета</figcaption>
+        </figure>
+        <figure class="shot-item reveal">
+          <div class="phone">
+            <img class="phone-shot" src="assets/img/screens/app-tasks.png" alt="Сетка номеров заданий" width="390" height="844" loading="lazy">
+          </div>
+          <figcaption>Сетка заданий</figcaption>
+        </figure>
+        <figure class="shot-item reveal">
+          <div class="phone">
+            <img class="phone-shot" src="assets/img/screens/app-task.png" alt="Задание с решением и ответом" width="390" height="844" loading="lazy">
+          </div>
+          <figcaption>Решение и ответ</figcaption>
+        </figure>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <img src="assets/img/logo.svg" alt="" width="40" height="40">
-      <div>
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" alt="" width="52" height="52">
         <p class="footer-name">ГДЗ НЭЛ</p>
-        <p class="footer-meta">6 класс, Новосибирский экономический лицей, 2026–2027 учебный год</p>
+        <p class="footer-meta">6 класс, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
       </div>
+      <nav class="footer-col" aria-label="Разделы">
+        <h3>Разделы</h3>
+        <a href="app/index.html">Приложение</a>
+        <a href="#subjects">Предметы</a>
+        <a href="#how">Как это работает</a>
+      </nav>
+      <nav class="footer-col" aria-label="Проект">
+        <h3>Проект</h3>
+        <a href="README.md">О проекте</a>
+        <!-- заменить на свой репозиторий после форка -->
+        <a href="https://github.com/" rel="noopener">GitHub</a>
+        <a href="mailto:ivan@localhost?subject=ГДЗ%20НЭЛ">Обратная связь</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>Сделано для учеников и родителей лицея</span>
+      <span id="footer-stats">67 заданий · 8 учебников · 6 предметов</span>
     </div>
   </footer>
 

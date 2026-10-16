@@ -3,9 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ГДЗ НЭЛ — задания 6 класса</title>
-  <meta name="description" content="Готовые домашние задания для 6 класса: условия, пошаговые решения и ответы.">
-  <link rel="icon" type="image/svg+xml" href="../assets/img/logo.svg">
+  <title>ГДЗ НЭЛ — приложение</title>
+  <meta name="description" content="Приложение ГДЗ НЭЛ: готовые домашние задания для 6 класса лицея. Поиск по номеру и тексту, избранное, история, тёмная тема, офлайн-режим.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ГДЗ НЭЛ — приложение для 6 класса">
+  <meta property="og:description" content="Условия, пошаговые решения и ответы. Работает офлайн.">
+  <meta property="og:image" content="../assets/img/screens/app-subjects.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="../assets/img/logo.png">
+  <link rel="apple-touch-icon" href="../assets/img/icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1AA3A3">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
@@ -13,18 +25,52 @@
 </head>
 <body>
 
-  <header class="app-header">
-    <a class="brand" href="../index.html">
-      <img src="../assets/img/logo.svg" alt="Эмблема НЭЛ" width="36" height="36">
-      <span class="brand-name">ГДЗ НЭЛ</span>
-    </a>
-    <a class="btn btn-outline btn-sm" href="../index.html"><span>На главную</span></a>
+  <header class="app-header" id="app-header">
+    <div class="header-row">
+      <a class="brand" href="../index.html">
+        <img src="../assets/img/logo.png" alt="Эмблема НЭЛ" width="36" height="36">
+        <span class="brand-name">ГДЗ НЭЛ</span>
+      </a>
+
+      <div class="header-search" id="header-search">
+        <span class="icon i-search" aria-hidden="true"></span>
+        <input id="search-input" type="search" placeholder="Номер или текст задания"
+               autocomplete="off" aria-label="Поиск по заданиям">
+        <button class="search-clear" id="search-clear" type="button" aria-label="Очистить поиск" hidden>
+          <span class="icon i-close" aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="search-toggle" type="button" aria-label="Открыть поиск">
+          <span class="icon i-search" aria-hidden="true"></span>
+        </button>
+        <a class="icon-btn" href="#/favorites" aria-label="Избранное">
+          <span class="icon i-star" aria-hidden="true"></span>
+        </a>
+        <a class="icon-btn" href="#/recent" aria-label="Недавние">
+          <span class="icon i-clock" aria-hidden="true"></span>
+        </a>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Переключить тему">
+          <span class="icon i-moon" aria-hidden="true"></span>
+        </button>
+        <a class="icon-btn" href="../index.html" aria-label="На главную">
+          <span class="icon i-home" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
   </header>
 
   <main class="app-main">
-    <!-- сюда рендерится текущий экран -->
-    <div id="screen" class="screen"></div>
+    <div id="screen" class="screen" aria-live="polite"></div>
   </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <div id="hint" class="hint" hidden>
+    <p><strong>Подсказка:</strong> клавиши <kbd>←</kbd> и <kbd>→</kbd> переключают задания, <kbd>Esc</kbd> возвращает к списку. На телефоне работают свайпы.</p>
+    <button class="btn btn-outline btn-sm" id="hint-close" type="button"><span>Понятно</span></button>
+  </div>
 
   <script src="assets/script.js"></script>
 </body>
