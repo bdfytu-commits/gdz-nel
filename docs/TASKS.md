@@ -8,7 +8,7 @@
 - [x] 2. /app: sticky-шапка с поиском и темой, обложки учебников, сетка ≥56×56 с разделами, блоки условия/решения/ответа, «поделиться» и «сообщить об ошибке»
 - [x] 3. SVG-иконки предметов и UI в /assets/img/icons/ (stroke 2px, currentColor)
 - [x] 4. Реальные скриншоты через playwright (scripts/take_screenshots.py, /assets/img/screens/, 390×844 и 1440×900), заменить CSS-мокапы
-- [ ] 5. Тёмная тема: localStorage gdz-nel-theme, prefers-color-scheme, контраст AA, палитра #1A1A1A/#242424/#E8E8E8/#9A9A9A/#1AA3A3
+- [x] 5. Тёмная тема: localStorage gdz-nel-theme, prefers-color-scheme, контраст AA, палитра #1A1A1A/#242424/#E8E8E8/#9A9A9A/#1AA3A3
 - [ ] 6. PWA: manifest.json, service-worker.js (cache-first статика, network-first JSON), apple-touch-icon 180×180, регистрация
 - [ ] 7. APK через Bubblewrap (если нет JDK/SDK — честно сказать и оставить заглушку)
 - [ ] 8. Клавиши ←/→/Esc + свайпы в /app + подсказки

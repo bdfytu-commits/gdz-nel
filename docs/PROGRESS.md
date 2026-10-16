@@ -12,9 +12,11 @@
 - Инфраструктура: scripts/write_stats.py (stats.json со счётчиками по предметам и учебникам), favicon.ico, apple-touch-icon, иконки PWA 192/512/maskable.
 - Задача 4: scripts/take_screenshots.py (playwright из scripts/venv-shots), 7 скриншотов в /assets/img/screens/ (моб. 390×844@2x, десктоп 1440×900, тёмный экран), лендинг показывает реальные скрины в phone-frame.
 
+- Задача 5: тёмная тема на обеих страницах (localStorage gdz-nel-theme + prefers-color-scheme), контраст AA подтверждён scripts/audit_contrast.py (все пары ≥4.5:1, графика ≥3:1). Для белого текста затемнены hero (накладка 20%) и кнопочный градиент, приглушённый текст #6E6E6E, ссылки #0E7C7C.
+
 ## В работе
 
-- Задача 5: тёмная тема и контраст AA.
+- Задача 6: PWA.
 
 ## Ждёт
 
