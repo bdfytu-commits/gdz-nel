@@ -26,7 +26,9 @@
               "section": { "type": "string", "minLength": 1, "description": "Раздел/параграф/модуль" },
               "condition": { "type": "string", "minLength": 1 },
               "solution": { "type": "string", "minLength": 1 },
-              "answer": { "type": "string", "minLength": 1 }
+              "answer": { "type": "string", "minLength": 1 },
+              "source": { "type": "string", "enum": ["euroki.org", "otvet.plus", "reshalka.com"], "description": "Источник добранного задания (у основных заданий поля нет)" },
+              "sourceUrl": { "type": "string", "minLength": 1, "description": "Страница-источник решения" }
             },
             "additionalProperties": false
           }
