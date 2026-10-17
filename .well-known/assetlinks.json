@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ru.nel.gdz",
+      "sha256_cert_fingerprints": [
+        "B8:A5:1E:1A:E9:DC:CB:2D:9B:9C:C6:42:31:22:93:9B:7E:8A:54:B2:A7:A8:86:C9:1F:09:1F:E7:BB:5D:3A:1F"
+      ]
+    }
+  }
+]
