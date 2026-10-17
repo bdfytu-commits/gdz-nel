@@ -104,6 +104,24 @@ uv run --with jsonschema scripts/validate_data.py
 uv run python scripts/write_stats.py
 ```
 
+## Как добавить новый учебник
+
+1. Разведать страницы источника: режим «одна задача на страницу» (URL вида
+   `…-nomer-{i}/`) или «страница с блоками Номер K.» (`…/stranitsa-{n}/`).
+2. Добавить книгу в конфиг `BOOKS` (scripts/parse_gdz.py): `subject`, `textbook`,
+   `kind` (`single` или `page`/`rubric`), диапазон URL (`urls` или `pages` +
+   `page_pattern`), при необходимости `section` (раздел по умолчанию) и `section_map`
+   (раскладка разделов по номеру задания, если заголовков на страницах нет).
+3. Добавить запись в `app/data/catalog.json` (id, title, author, year, file).
+4. Проверить на превью: `scripts/parse_gdz.py <id> --limit 10 --dry`, посмотреть,
+   что условия/ответы разобрались корректно.
+5. Полный сбор: `scripts/parse_gdz.py <id>`, затем `validate_data.py` и
+   `write_stats.py` (см. выше).
+
+Правка данных вручную (если источник сломался): файл учебника —
+`app/data/<предмет>/<учебник>.json`, задание — объект в `tasks` (`number`, `section`,
+`condition`, `solution`, `answer`). После правок — те же две команды проверки.
+
 ## Журнал
 
 | дата | что | результат |

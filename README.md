@@ -42,6 +42,7 @@ gdz-nel/
     take_screenshots.py       скриншоты лендинга (playwright)
     build_apk.sh              сборка APK (Bubblewrap)
   docs/                       ТЗ, правила, задачи, прогресс, лог парсинга
+  .well-known/assetlinks.json Digital Asset Links для TWA-приложения
   .github/workflows/deploy.yml  публикация на GitHub Pages
 ```
 
@@ -65,8 +66,8 @@ GitHub Pages: репозиторий → Settings → Pages → Source: «GitHub
 Cloudflare Pages: подключить репозиторий, build command оставить пустым, output directory — корень.
 Все пути относительные, работает и там, и там.
 
-После деплоя заменить плейсхолдер `https://USER.github.io/gdz-nel/` в canonical/og/sitemap
-на настоящий адрес и пересобрать APK (см. «Что дальше»).
+После деплоя домен сайта прописан в canonical/og/twitter/sitemap/robots —
+при смене адреса (см. «TWA и assetlinks» в docs/README.md) обновить и там.
 
 ## Формат данных
 
@@ -115,23 +116,58 @@ Cloudflare Pages: подключить репозиторий, build command о�
 нумерации упражнений номер = «страница.K» («5.2»). `section` — раздел/параграф/модуль,
 приложение группирует задания по нему. Полная схема — `docs/data-schema.json`.
 
-## Как наполнить заданиями
+## Как наполнить или поправить задания
+
+Все задания уже собраны парсером (3541) — ниже инструкция на случай дополнения,
+ручной правки или поломки источника.
 
 ```bash
-# 1. собрать данные (пауза 1,1 с между запросами, robots.txt соблюдается)
-uv run --with beautifulsoup4 scripts/parse_gdz.py all --limit 30
+# один учебник целиком (id — карта учебников в docs/PARSING.md)
+uv run --with beautifulsoup4 scripts/parse_gdz.py vilenkin-6-1
 
-# 2. проверить и пересчитать счётчики
+# превью без записи или ограничение
+uv run --with beautifulsoup4 scripts/parse_gdz.py vilenkin-6-1 --limit 10 --dry
+
+# продолжить прерванный сбор: уже собранное не перекачивается
+uv run --with beautifulsoup4 scripts/parse_gdz.py all --resume
+
+# после любых изменений данных
 uv run --with jsonschema scripts/validate_data.py
 uv run python scripts/write_stats.py
 ```
 
-Проверить одну книгу без записи: `scripts/parse_gdz.py vilenkin-6-1 --limit 10 --dry`.
-Детали, карта учебников и ограничения источника — `docs/PARSING.md`.
+Вручную: файл учебника — `app/data/<предмет>/<учебник>.json`, задание — объект в `tasks`
+(`number`, `section`, `condition`, `solution`, `answer`; переносы строк в `solution`
+становятся абзацами). Новый учебник: положить файл рядом, добавить запись в
+`app/data/catalog.json` (id, title, author, year, file) и, если он должен собираться
+парсером, в конфиг `BOOKS` в `scripts/parse_gdz.py`. Пропущенные номера в приложении —
+серые некликабельные кнопки, это нормально.
 
-Вручную: добавить объект в массив `tasks` (переносы строк в `solution` станут абзацами),
-пропущенные номера показываются серыми некликабельными кнопками — это нормально.
-Новый учебник — добавить запись в `catalog.json` и положить файл рядом.
+Счётчики: `stats.json` генерируется (`write_stats.py`) — после правки данных достаточно
+перезапустить скрипт. Скриншоты лендинга при желании обновляются так: поднять локальный
+сервер и выполнить `scripts/venv-shots/bin/python scripts/take_screenshots.py`.
+
+## Пересборка APK
+
+APK — TWA-обёртка сайта (Bubblewrap). Нужны JDK 17, Android SDK и node/npm. Подпись —
+`android-signing/keystore.jks` (в git не входит; пароли по умолчанию — в начале
+`scripts/build_apk.sh`). Манифест Bubblewrap берёт с локального сервера, поэтому его
+надо запустить заранее.
+
+```bash
+uv run python -m http.server 8000 &
+
+# bubblewrap: если ещё не стоит — init поставит его сам в BUBBLEWRAP_DIR
+# (текущая машина: BUBBLEWRAP_DIR=/tmp/opencode/bw)
+BUBBLEWRAP_DIR="$HOME/.local/share/gdz-nel-bubblewrap" bash scripts/build_apk.sh init
+
+# сборка: подписанный APK кладётся в download/app.apk
+BUBBLEWRAP_DIR="$HOME/.local/share/gdz-nel-bubblewrap" bash scripts/build_apk.sh build
+```
+
+`versionCode`/`versionName` Bubblewrap поднимает сам. Отпечаток подписи для assetlinks:
+`apksigner verify --print-certs download/app.apk`. Варианты, как убрать адресную строку
+у TWA, — в `docs/README.md`, раздел «TWA и assetlinks».
 
 ## Маршруты (хэш-роутинг, ссылку можно скинуть)
 
@@ -146,14 +182,13 @@ uv run python scripts/write_stats.py
 
 - `assets/img/logo.svg` — нарисованная заглушка по описанию эмблемы (бирюзовая обводка, синяя птица, три столбика диаграммы). Чтобы поставить настоящую эмблему — заменить файл, имя оставить тем же.
 - Предмет с одним учебником открывается сразу на сетке заданий, минуя экран выбора. С двумя (математика, русский) — показывает выбор частей.
-- В приложении выложены первые 30 заданий каждого учебника — демо для заказчика. Расширение — `--limit` у парсера, приложение менять не нужно.
 - Номера страничных учебников (английский, биология, история, обществознание) условные — «страница.K»: на источнике у страниц нет номеров упражнений.
-- Задачи без ответа на источнике не выдумываются: в приложении это серые зачёркнутые ячейки (например, мат. №1.27).
-- Домен пока не выбран: canonical/og/sitemap содержат плейсхолдер `https://USER.github.io/gdz-nel/`.
+- Задачи без ответа на источнике не выдумываются: в приложении это серые зачёркнутые ячейки (например, мат. №2.540).
+- Разделы математики приложение получает не со страниц источника (там нет заголовков), а маппингом по номеру задания — названия § сверены с учебником.
 
 ## Что дальше
 
-- Опубликовать на GitHub Pages (workflow готов) и заменить плейсхолдер домена.
-- Пересобрать APK под настоящий домен: `BUBBLEWRAP_DIR=<bubblewrap> bash scripts/build_apk.sh build`,
-  добавить `/.well-known/assetlinks.json` с SHA-256 сертификата (иначе TWA откроется с адресной строкой).
-- Расширить наполнение на весь учебник (`--limit` и диапазоны URL в парсере).
+- TWA без адресной строки: перенести сайт на user-root репозиторий (`bdfytu-commits.github.io`)
+  или привязать свой домен — пошагово в `docs/README.md`, раздел «TWA и assetlinks».
+- Если источник добавит новые задания — повторный `parse_gdz.py all --resume` дособерёт их
+  без перекачки уже собранного; дальше `validate_data.py` и `write_stats.py`.
