@@ -768,7 +768,7 @@
   function reportHref(entry) {
     var subjectLine = 'Ошибка в задании ' + entry.number + ' учебника ' + entry.book;
     var body = 'Ссылка: ' + location.href + '\n\nОпиши ошибку: ';
-    return 'mailto:ivan@localhost?subject=' + encodeURIComponent(subjectLine) + '&body=' + encodeURIComponent(body);
+    return 'mailto:bdfy.tu@yandex.ru?subject=' + encodeURIComponent(subjectLine) + '&body=' + encodeURIComponent(body);
   }
 
   /* =========================================================

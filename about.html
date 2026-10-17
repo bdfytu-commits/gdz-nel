@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>О проекте — ГДЗ НЭЛ</title>
+  <meta name="description" content="Что такое ГДЗ НЭЛ: для кого сайт и приложение, какие предметы и учебники, откуда задания, ограничения и лицензия.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://bdfytu-commits.github.io/gdz-nel/about.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ГДЗ НЭЛ">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="О проекте — ГДЗ НЭЛ">
+  <meta property="og:description" content="Кто сделал, для кого, какие предметы, откуда задания и в чём ограничения.">
+  <meta property="og:image" content="https://bdfytu-commits.github.io/gdz-nel/assets/img/screens/og-1200x630.png">
+  <meta property="og:url" content="https://bdfytu-commits.github.io/gdz-nel/about.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="О проекте — ГДЗ НЭЛ">
+  <meta name="twitter:description" content="Кто сделал, для кого, какие предметы, откуда задания и в чём ограничения.">
+  <meta name="twitter:image" content="https://bdfytu-commits.github.io/gdz-nel/assets/img/screens/og-1200x630.png">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#1AA3A3">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- шрифты не блокируют рендер: грузим как print и переключаем на all -->
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo-120.png" alt="Эмблема НЭЛ" width="38" height="38">
+      <span class="brand-name">ГДЗ НЭЛ</span>
+    </a>
+    <nav class="site-nav" aria-label="Разделы сайта">
+      <a href="index.html#subjects">Предметы</a>
+      <a href="about.html">О проекте</a>
+      <a href="contact.html">Обратная связь</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="icon i-moon" aria-hidden="true"></span>
+      </button>
+      <a class="btn btn-primary btn-sm" href="app/index.html">
+        <span class="icon i-book" aria-hidden="true"></span>
+        <span>Открыть приложение</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="page-inner">
+      <div class="page-head">
+        <h1>О проекте</h1>
+        <p class="page-sub">Коротко: что это, кто сделал, для кого, на чём основано и в чём ограничения.</p>
+      </div>
+
+      <div class="prose">
+        <p>«ГДЗ НЭЛ» — сайт и приложение с условиями, пошаговыми решениями и ответами по учебникам 6 класса. Открывается в браузере (ссылкой можно поделиться на конкретный номер) и ставится на Android как приложение; работает офлайн.</p>
+
+        <ul>
+          <li>сайт — <a href="https://bdfytu-commits.github.io/gdz-nel/">bdfytu-commits.github.io/gdz-nel</a>;</li>
+          <li>приложение — <a href="app/index.html">/app</a> (на Android ставится как приложение, если открыть ссылку в Chrome);</li>
+          <li>APK для Android — <a href="download/app.apk" download>download/app.apk</a>;</li>
+          <li>исходный код — <a href="https://github.com/bdfytu-commits/gdz-nel" rel="noopener">github.com/bdfytu-commits/gdz-nel</a>;</li>
+          <li>заданий — 3601, из них 75 номеров остались серыми (почему — в разделе «Ограничения»).</li>
+        </ul>
+
+        <h2>Кто сделал</h2>
+        <p>Ученик МАОУ «Новосибирский экономический лицей» (идея, требования, приёмка) вместе с ИИ-агентом OpenCode (разработка, сбор данных, документация).</p>
+
+        <h2>Для кого</h2>
+        <p>Для учеников 6 классов МАОУ НЭЛ и их родителей: проверить себя после решения задания, разобрать непонятный номер, повторить перед контрольной. Это не замена учебника и не способ «списать», а подсказка для самопроверки.</p>
+
+        <h2>Предметы (6 класс)</h2>
+        <table>
+          <thead>
+            <tr><th>предмет</th><th>учебник</th><th>заданий</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>математика</td><td>Виленкин и др., части 1–2</td><td>926 + 641</td></tr>
+            <tr><td>русский язык</td><td>Ладыженская и др., части 1–2</td><td>383 + 332</td></tr>
+            <tr><td>английский язык</td><td>Ваулина и др., Spotlight</td><td>440</td></tr>
+            <tr><td>биология</td><td>Пасечник, Суматохин, Гапонюк</td><td>338</td></tr>
+            <tr><td>история</td><td>Мединский, Чубарьян. История Средних веков</td><td>353</td></tr>
+            <tr><td>обществознание</td><td>Боголюбов, Рутковская, Иванова</td><td>188</td></tr>
+          </tbody>
+        </table>
+        <p class="muted">Всего 3601 задание по 8 учебникам.</p>
+
+        <h2>Источники</h2>
+        <ul>
+          <li><a href="https://gdz-raketa.ru/" rel="noopener">gdz-raketa.ru</a> — условия заданий и тексты решений (основной источник);</li>
+          <li><a href="https://euroki.org/" rel="noopener">euroki.org</a> — добор 60 заданий, которых не было на основном источнике.</li>
+        </ul>
+        <p>Обход источников: robots.txt соблюдается, не чаще 1–1,5 запроса в секунду, честный User-Agent. Правила и карта учебников — в репозитории, <a href="https://github.com/bdfytu-commits/gdz-nel/blob/main/docs/PARSING.md" rel="noopener">docs/PARSING.md</a>.</p>
+
+        <h2>Ограничения</h2>
+        <ul>
+          <li>75 номеров остались серыми (некликабельными): у русского языка источники отдают только сканы страниц, у части заданий истории рубрики без номеров, где-то условия нет ни на одном источнике. Ничего не выдумываем — лучше серая кнопка;</li>
+          <li>у английского языка, биологии, истории и обществознания номера условные («страница.K») — на источнике у страниц нет нумерации упражнений;</li>
+          <li>в решениях возможны опечатки источника — на странице задания есть кнопка «Сообщить об ошибке».</li>
+        </ul>
+
+        <h2>Лицензия и использование</h2>
+        <p>Код открыт (репозиторий на GitHub). Условия заданий — из учебников, решения и ответы — с открытых сайтов-источников и принадлежат им. Проект использует эти материалы только в образовательных целях, без коммерции. Если вы правообладатель и хотите убрать материал — напишите на <a href="mailto:bdfy.tu@yandex.ru">bdfy.tu@yandex.ru</a> или через <a href="contact.html">форму обратной связи</a>, материал удалим.</p>
+
+        <p class="muted">Техническая документация проекта (структура, парсер, деплой) — в репозитории: <a href="https://github.com/bdfytu-commits/gdz-nel/blob/main/docs/README.md" rel="noopener">docs/README.md</a>.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/img/logo-160.png" alt="" width="52" height="52">
+        <p class="footer-name">ГДЗ НЭЛ</p>
+        <p class="footer-meta">6 класс, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
+        <a class="btn btn-primary btn-sm footer-apk" href="download/app.apk" download>
+          <span class="icon i-android" aria-hidden="true"></span>
+          <span>Скачать APK</span>
+        </a>
+      </div>
+      <nav class="footer-col" aria-label="Разделы">
+        <h3>Разделы</h3>
+        <a href="app/index.html">Приложение</a>
+        <a href="index.html#subjects">Предметы</a>
+        <a href="index.html#how">Как это работает</a>
+      </nav>
+      <nav class="footer-col" aria-label="Проект">
+        <h3>Проект</h3>
+        <a href="about.html">О проекте</a>
+        <a href="contact.html">Обратная связь</a>
+        <a href="mailto:bdfy.tu@yandex.ru">bdfy.tu@yandex.ru</a>
+        <a href="https://github.com/bdfytu-commits/gdz-nel" rel="noopener">GitHub</a>
+        <a href="https://ecl54.ru/" rel="noopener">Сайт школы</a>
+      </nav>
+      <nav class="footer-col" aria-label="Документы">
+        <h3>Документы</h3>
+        <a href="privacy.html">Конфиденциальность</a>
+        <a href="disclaimer.html">Дисклеймер</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>Сделано для учеников и родителей лицея</span>
+      <span id="footer-stats">3601 задание · 8 учебников · 6 предметов</span>
+    </div>
+    <p class="footer-legal">© 2026 ГДЗ НЭЛ. Материалы предназначены для личного использования.<br>Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
