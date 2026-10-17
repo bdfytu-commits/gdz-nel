@@ -6,8 +6,13 @@
 
 Использование:
     uv run --with beautifulsoup4 scripts/parse_gdz.py vilenkin-6-1
-    uv run --with beautifulsoup4 scripts/parse_gdz.py all --limit 30
-    uv run --with beautifulsoup4 scripts/parse_gdz.py all --dry   # превью в /tmp, без записи
+    uv run --with beautifulsoup4 scripts/parse_gdz.py all             # все доступные задания
+    uv run --with beautifulsoup4 scripts/parse_gdz.py all --limit 30  # первые 30 на книгу
+    uv run --with beautifulsoup4 scripts/parse_gdz.py all --resume    # дополнить после сбоя
+    uv run --with beautifulsoup4 scripts/parse_gdz.py all --dry       # превью в /tmp, без записи
+
+При 403/429/Cloudflare или серии недоступных страниц парсер останавливается сам
+и сохраняет собранное — не долбит источник.
 
 Логика:
   * math/russian  — одна задача на страницу: «Номер 1.1.» + условие + «Ответ:»
@@ -22,6 +27,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -82,14 +88,41 @@ def _robots_allowed(url: str) -> bool:
     return True
 
 
+class SourcesBlocked(RuntimeError):
+    """Источник перестал отдавать страницы (403/429/Cloudflare) — стоп без долбёжки."""
+
+
 def fetch(url: str) -> BeautifulSoup:
     if not _robots_allowed(url):
         raise RuntimeError(f"robots.txt запрещает {url}")
     _wait()
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ru"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        html = resp.read().decode("utf-8", "replace")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            html = resp.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as err:
+        if err.code in (403, 429, 503):
+            raise SourcesBlocked(f"HTTP {err.code} на {url} — похоже на бан или Cloudflare") from err
+        raise
+    head = html[:4000].lower()
+    if "just a moment" in head or "attention required" in head or "cf-error" in head:
+        raise SourcesBlocked(f"Cloudflare-заглушка на {url}")
     return BeautifulSoup(html, "html.parser")
+
+
+def _expected_number(url: str) -> str | None:
+    """Номер, который должна дать страница (для --resume), или None."""
+    m = re.search(r"-nomer-(\d+)-(\d+)/$", url)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
+    m = re.search(r"-nomer-(\d+)/$", url)
+    if m:
+        return m.group(1)
+    return None
+
+
+def _number_key(number: str) -> list[int]:
+    return [int(p) for p in re.split(r"[.\-]", number) if p.isdigit()]
 
 
 # --------------------------------------------------------------------------
@@ -370,16 +403,38 @@ BOOKS: dict[str, dict] = {
         "index": "https://gdz-raketa.ru/matematika/6-klass/uchebnik-vilenkin/",
         "kind": "single",
         "section": "§1. Вычисления и построения",
+        # названия § по учебнику (часть 1: стр. 44 — §2, дальше §3); страницы глав заголовков не несут
+        "section_map": {
+            "1": "§1. Вычисления и построения",
+            "2": "§2. Действия со смешанными числами",
+            "3": "§3. Отношения и пропорции",
+        },
+        # §1: 1..198, §2: 1..540, §3: 1..193 (по индексной странице источника)
         "urls": [f"https://gdz-raketa.ru/matematika/6-klass/uchebnik-vilenkin/1-chast-nomer-1-{i}/"
-                 for i in range(1, 200)],
+                 for i in range(1, 199)]
+        + [f"https://gdz-raketa.ru/matematika/6-klass/uchebnik-vilenkin/1-chast-nomer-2-{i}/"
+           for i in range(1, 541)]
+        + [f"https://gdz-raketa.ru/matematika/6-klass/uchebnik-vilenkin/1-chast-nomer-3-{i}/"
+           for i in range(1, 194)],
     },
     "vilenkin-6-2": {
         "subject": "math", "textbook": "vilenkin-6-2", "part": 2,
         "index": "https://gdz-raketa.ru/matematika/6-klass/uchebnik-vilenkin/",
         "kind": "single",
         "section": "§4",
+        # названия § по учебнику (часть 2)
+        "section_map": {
+            "4": "§4. Действия с рациональными числами",
+            "5": "§5. Решение уравнений",
+            "6": "§6. Координаты на плоскости",
+        },
+        # §4: 1..399, §5: 1..133, §6: 1..126
         "urls": [f"https://gdz-raketa.ru/matematika/6-klass/uchebnik-vilenkin/2-chast-nomer-4-{i}/"
-                 for i in range(1, 200)],
+                 for i in range(1, 400)]
+        + [f"https://gdz-raketa.ru/matematika/6-klass/uchebnik-vilenkin/2-chast-nomer-5-{i}/"
+           for i in range(1, 134)]
+        + [f"https://gdz-raketa.ru/matematika/6-klass/uchebnik-vilenkin/2-chast-nomer-6-{i}/"
+           for i in range(1, 127)],
     },
     "ladyzhenskaya-6-1": {
         "subject": "russian", "textbook": "ladyzhenskaya-6-1", "part": 1,
@@ -427,13 +482,34 @@ BOOKS: dict[str, dict] = {
 # сборка книги
 # --------------------------------------------------------------------------
 
-def collect(book_id: str, limit: int) -> dict:
+def collect(book_id: str, limit: int | None = None, resume: bool = False) -> dict:
     cfg = BOOKS[book_id]
     subject = cfg["subject"]
     author, year = HEADERS[subject]
     tasks: list[dict] = []
     skipped: list[str] = []
     last_section = cfg.get("section") or ""
+    consecutive_failures = 0
+    aborted: str | None = None
+
+    existing_tasks: list[dict] = []
+    existing_numbers: set[str] = set()
+    existing_pages: set[str] = set()
+    if resume:
+        old_path = DATA / subject / f"{cfg['textbook']}.json"
+        if old_path.exists():
+            try:
+                old = json.loads(old_path.read_text(encoding="utf-8"))
+                existing_tasks = old.get("tasks", [])
+                existing_numbers = {t["number"] for t in existing_tasks}
+                existing_pages = {n.split(".")[0] for n in existing_numbers if "." in n}
+                if existing_tasks:
+                    # страницы могут не нести собственный заголовок — наследуем раздел
+                    last_section = existing_tasks[-1].get("section") or last_section
+            except (json.JSONDecodeError, KeyError) as err:
+                print(f"  ! не удалось прочитать {old_path} для --resume: {err}")
+        print(f"  --resume: в файле уже {len(existing_tasks)} заданий")
+    skipped_existing = 0
 
     def take(task: dict | None, url: str) -> bool:
         nonlocal last_section
@@ -452,42 +528,88 @@ def collect(book_id: str, limit: int) -> dict:
         tasks.append(task)
         return True
 
-    if cfg["kind"] == "single":
-        for url in cfg["urls"]:
-            if len(tasks) >= limit:
-                break
-            try:
-                soup = fetch(url)
-            except Exception as err:
-                print(f"  ! {url}: {err}")
-                skipped.append(url)
-                continue
-            task = parse_single_task(soup)
-            take(task, url)
-            print(f"  {len(tasks):2d}/{limit}  {task['number'] if task else '—':>6}  {task['section'][:40] if task else 'пропуск':40s}")
-    else:
-        for page in cfg["pages"]:
-            if len(tasks) >= limit:
-                break
-            url = cfg["page_pattern"].format(n=page)
-            try:
-                soup = fetch(url)
-            except Exception as err:
-                print(f"  ! {url}: {err}")
-                skipped.append(url)
-                continue
-            page_tasks = parse_page_tasks(soup, str(page))
-            if not page_tasks and cfg["kind"] == "rubric":
-                page_tasks = parse_rubric_tasks(soup, str(page))
-            if not page_tasks:
-                skipped.append(url)
-                continue
-            for task in page_tasks:
-                if len(tasks) >= limit:
+    def fail(url: str, err: object) -> None:
+        """Сбой одной страницы; много подряд — источник явно не в духе, останавливаемся."""
+        nonlocal consecutive_failures
+        consecutive_failures += 1
+        print(f"  ! {url}: {err}")
+        skipped.append(url)
+        if consecutive_failures >= 12:
+            raise SourcesBlocked(f"{consecutive_failures} страниц подряд не отдались (последняя: {url})")
+
+    def ok_fetch(url: str) -> BeautifulSoup:
+        nonlocal consecutive_failures
+        soup = fetch(url)
+        consecutive_failures = 0
+        return soup
+
+    try:
+        if cfg["kind"] == "single":
+            total = len(cfg["urls"])
+            for i, url in enumerate(cfg["urls"], 1):
+                if limit is not None and len(tasks) >= limit:
                     break
+                expected = _expected_number(url)
+                if expected and expected in existing_numbers:
+                    skipped_existing += 1
+                    continue
+                try:
+                    soup = ok_fetch(url)
+                except SourcesBlocked:
+                    raise
+                except Exception as err:
+                    fail(url, err)
+                    continue
+                task = parse_single_task(soup)
                 take(task, url)
-            first = page_tasks[0] if page_tasks else None
-            print(f"  {len(tasks):2d}/{limit}  стр. {page:>3}  задач на странице: {len(page_tasks)}  {first['section'][:34] if first else ''}")
+                num = f"№{task['number']}" if task else "пропуск"
+                print(f"  {len(tasks):4d} задач  {i}/{total}  {num:>9}  {task['section'][:44] if task else ''}")
+        else:
+            pages = list(cfg["pages"])
+            total = len(pages)
+            for i, page in enumerate(pages, 1):
+                if limit is not None and len(tasks) >= limit:
+                    break
+                if resume and str(page) in existing_pages:
+                    skipped_existing += 1
+                    continue
+                url = cfg["page_pattern"].format(n=page)
+                try:
+                    soup = ok_fetch(url)
+                except SourcesBlocked:
+                    raise
+                except Exception as err:
+                    fail(url, err)
+                    continue
+                page_tasks = parse_page_tasks(soup, str(page))
+                if not page_tasks and cfg["kind"] == "rubric":
+                    page_tasks = parse_rubric_tasks(soup, str(page))
+                if not page_tasks:
+                    skipped.append(url)
+                    continue
+                for task in page_tasks:
+                    if limit is not None and len(tasks) >= limit:
+                        break
+                    take(task, url)
+                first = page_tasks[0] if page_tasks else None
+                print(f"  {len(tasks):4d} задач  стр. {page:>3} ({i}/{total})  на странице: {len(page_tasks)}  {first['section'][:36] if first else ''}")
+    except SourcesBlocked as err:
+        aborted = str(err)
+        print(f"  !! источник закрылся: {aborted}")
+
+    if resume and existing_tasks:
+        merged = {t["number"]: t for t in existing_tasks}
+        for t in tasks:
+            merged[t["number"]] = t
+        tasks = sorted(merged.values(), key=lambda t: _number_key(t["number"]))
+    if cfg.get("section_map"):
+        # страницы источника не несут заголовки § — раскладываем по номеру задания
+        for t in tasks:
+            mapped = cfg["section_map"].get(t["number"].split(".")[0])
+            if mapped:
+                t["section"] = mapped
+    if skipped_existing:
+        print(f"  --resume: пропущено (уже было в файле): {skipped_existing}")
 
     data = {
         "subject": subject,
@@ -501,36 +623,49 @@ def collect(book_id: str, limit: int) -> dict:
     }
     if "part" in cfg:
         data["part"] = cfg["part"]
-    return {"data": data, "skipped": skipped}
+    return {"data": data, "skipped": skipped, "aborted": aborted}
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Парсер ГДЗ (gdz-raketa.ru)")
     ap.add_argument("book", help="id учебника или all")
-    ap.add_argument("--limit", type=int, default=30, help="сколько заданий собрать (по умолчанию 30)")
+    ap.add_argument("--limit", type=int, default=None,
+                    help="сколько заданий собрать (по умолчанию — все доступные)")
     ap.add_argument("--dry", action="store_true", help="не писать в app/data, сохранить превью в /tmp")
+    ap.add_argument("--resume", action="store_true",
+                    help="дополнить существующий файл, не перекачивая уже собранное")
     args = ap.parse_args()
 
     ids = list(BOOKS) if args.book == "all" else [args.book]
+    blocked = False
     for book_id in ids:
         if book_id not in BOOKS:
             print(f"нет такого учебника: {book_id}", file=sys.stderr)
             sys.exit(1)
-        print(f"\n=== {book_id} (до {args.limit} заданий)")
-        result = collect(book_id, args.limit)
+        suffix = f" (до {args.limit} заданий)" if args.limit else " (полный сбор)"
+        print(f"\n=== {book_id}{suffix}{' +resume' if args.resume else ''}")
+        result = collect(book_id, args.limit, args.resume)
         data = result["data"]
-        if not data["tasks"]:
-            print("  !! ничего не собрано")
-            continue
-        if args.dry:
-            path = Path("/tmp") / f"gdz_preview_{book_id}.json"
+        if result["aborted"]:
+            blocked = True
+        if data["tasks"]:
+            if args.dry:
+                path = Path("/tmp") / f"gdz_preview_{book_id}.json"
+            else:
+                subject_dir = DATA / data["subject"]
+                subject_dir.mkdir(parents=True, exist_ok=True)
+                path = subject_dir / f"{data['textbook']}.json"
+            path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            print(f"  задач: {len(data['tasks'])}, пропущено страниц: {len(result['skipped'])}")
+            print(f"  записано: {path}")
         else:
-            subject_dir = DATA / data["subject"]
-            subject_dir.mkdir(parents=True, exist_ok=True)
-            path = subject_dir / f"{data['textbook']}.json"
-        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"  задач: {len(data['tasks'])}, пропущено страниц: {len(result['skipped'])}")
-        print(f"  записано: {path}")
+            print("  !! ничего не собрано")
+        if blocked:
+            break
+    if blocked:
+        print("\n!! СБОР ПРЕРВАН: источник перестал отдавать страницы. "
+              "Собранное записано; продолжать позже (правила — docs/PARSING.md).", file=sys.stderr)
+        sys.exit(2)
 
 
 if __name__ == "__main__":
