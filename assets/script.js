@@ -96,19 +96,23 @@
       var booksEl = document.getElementById('stat-books');
       var footerEl = document.getElementById('footer-stats');
 
-      if (tasksEl) tasksEl.textContent = stats.total;
-      if (booksEl) booksEl.textContent = stats.textbooks;
+      // лендинг рассказывает про 6 класс — берём счётчики его класса
+      var scope = (stats.grades && stats.grades['6']) || stats;
 
-      if (footerEl) {
+      if (tasksEl) tasksEl.textContent = scope.total;
+      if (booksEl) booksEl.textContent = scope.textbooks;
+
+      if (footerEl && scope.subjects) {
+        var subjectsCount = Object.keys(scope.subjects).length;
         footerEl.textContent =
-          stats.total + ' ' + plural(stats.total, 'задание', 'задания', 'заданий') +
-          ' · ' + stats.textbooks + ' ' + plural(stats.textbooks, 'учебник', 'учебника', 'учебников') +
-          ' · 6 предметов';
+          scope.total + ' ' + plural(scope.total, 'задание', 'задания', 'заданий') +
+          ' · ' + scope.textbooks + ' ' + plural(scope.textbooks, 'учебник', 'учебника', 'учебников') +
+          ' · ' + subjectsCount + ' ' + plural(subjectsCount, 'предмет', 'предмета', 'предметов');
       }
 
       document.querySelectorAll('[data-count]').forEach(function (el) {
         var card = el.closest('[data-subject]');
-        var subject = card && stats.subjects[card.getAttribute('data-subject')];
+        var subject = card && scope.subjects && scope.subjects[card.getAttribute('data-subject')];
         if (subject) {
           el.textContent = subject.tasks + ' ' + plural(subject.tasks, 'задание', 'задания', 'заданий');
         }

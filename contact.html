@@ -66,12 +66,12 @@
       <div class="prose">
         <!--
           Форма работает через Web3Forms (без бэкенда).
-          Чтобы подключить: получить access key на https://web3forms.com
-          (кнопка «Create your Form» → указать bdfy.tu@yandex.ru → ключ придёт письмом)
-          и вставить его в value у поля access_key ниже. Ключ публичный, секрета в нём нет.
+          Ключ публичный (секрета в нём нет) и привязан к аккаунту владельца проекта:
+          письма приходят на почту этого аккаунта. Чтобы сменить получателя —
+          перевыпустить ключ в кабинете Web3Forms и заменить value ниже.
         -->
         <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-          <input type="hidden" name="access_key" value="PASTE-WEB3FORMS-ACCESS-KEY">
+          <input type="hidden" name="access_key" value="b9f9951e-66cd-4eef-8caa-a027c6ba52f0">
           <input type="hidden" name="subject" value="ГДЗ НЭЛ: сообщение с сайта">
           <input type="hidden" name="from_name" value="ГДЗ НЭЛ">
 

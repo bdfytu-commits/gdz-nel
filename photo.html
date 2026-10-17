@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Решить по фото — ГДЗ НЭЛ</title>
+  <meta name="description" content="Сфотографируй задачу — ИИ распознает её и решит пошагово. Математика, физика, химия, программирование.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://bdfytu-commits.github.io/gdz-nel/photo.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ГДЗ НЭЛ">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Решить по фото — ГДЗ НЭЛ">
+  <meta property="og:description" content="Сфотографируй задачу — ИИ распознает её и решит пошагово.">
+  <meta property="og:image" content="https://bdfytu-commits.github.io/gdz-nel/assets/img/screens/og-1200x630.png">
+  <meta property="og:url" content="https://bdfytu-commits.github.io/gdz-nel/photo.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Решить по фото — ГДЗ НЭЛ">
+  <meta name="twitter:description" content="Сфотографируй задачу — ИИ распознает её и решит пошагово.">
+  <meta name="twitter:image" content="https://bdfytu-commits.github.io/gdz-nel/assets/img/screens/og-1200x630.png">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#1AA3A3">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo-120.png" alt="Эмблема НЭЛ" width="38" height="38">
+      <span class="brand-name">ГДЗ НЭЛ</span>
+    </a>
+    <nav class="site-nav" aria-label="Разделы сайта">
+      <a href="index.html#subjects">Предметы</a>
+      <a href="about.html">О проекте</a>
+      <a href="contact.html">Обратная связь</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="icon i-moon" aria-hidden="true"></span>
+      </button>
+      <span class="auth-slot" data-auth-slot>
+        <a class="btn btn-outline btn-sm auth-btn" href="auth.html">
+          <span class="icon i-user" aria-hidden="true"></span>
+          <span class="btn-label">Войти</span>
+        </a>
+      </span>
+      <a class="btn btn-primary btn-sm" href="app/index.html">
+        <span class="icon i-book" aria-hidden="true"></span>
+        <span class="btn-label">Открыть приложение</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="page-inner photo-wrap">
+      <div class="page-head">
+        <h1>Решить по фото</h1>
+        <p class="page-sub">Сфотографируй задачу — ИИ распознает текст и решит её пошагово. Работает для математики, физики, химии и кода.</p>
+      </div>
+
+      <p class="auth-note" id="photo-note" hidden role="status"></p>
+
+      <div class="dropzone" id="dropzone" role="button" tabindex="0" aria-label="Выбрать фото задачи">
+        <span class="icon i-camera" aria-hidden="true"></span>
+        <b>Нажми или перетащи фото задачи</b>
+        <span>JPG, PNG или WebP. Лучше — при хорошем свете и без наклона.</span>
+      </div>
+      <input type="file" id="photo-input" accept="image/*" capture="environment" hidden>
+
+      <div class="photo-preview" id="photo-preview" hidden>
+        <img id="photo-img" alt="Фото задачи">
+      </div>
+
+      <div class="photo-actions" id="photo-actions" hidden>
+        <button class="btn btn-primary" type="button" id="photo-send">
+          <span class="icon i-send" aria-hidden="true"></span>
+          <span>Решить</span>
+        </button>
+        <button class="btn btn-outline" type="button" id="photo-reset">
+          <span class="icon i-image" aria-hidden="true"></span>
+          <span>Другое фото</span>
+        </button>
+      </div>
+
+      <p class="photo-limit" id="photo-limit">Лимит: 5 фото в сутки на аккаунт.</p>
+      <p class="form-status" id="photo-status" role="status" aria-live="polite"></p>
+
+      <section class="answer-block" id="answer-block" hidden>
+        <h2>Ответ ИИ</h2>
+        <div class="md" id="answer-body"></div>
+        <p class="photo-limit">Это подсказка, а не гарантированно верное решение — проверяй.</p>
+      </section>
+
+      <p class="contact-alt">Фото хранятся в закрытой папке твоего аккаунта и видны администратору для проверки. Не загружай чужие личные фото и документы — это запрещено <a href="terms.html">правилами</a>.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/img/logo-160.png" alt="" width="52" height="52">
+        <p class="footer-name">ГДЗ НЭЛ</p>
+        <p class="footer-meta">6 класс, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
+      </div>
+      <nav class="footer-col" aria-label="Документы">
+        <h3>Документы</h3>
+        <a href="terms.html">Пользовательское соглашение</a>
+        <a href="privacy.html">Конфиденциальность</a>
+        <a href="disclaimer.html">Дисклеймер</a>
+      </nav>
+    </div>
+    <p class="footer-legal">© 2026 ГДЗ НЭЛ. Материалы предназначены для личного использования.<br>Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script type="module">
+    import { supabase, requireSession, escapeHtml } from './assets/supabase.js';
+
+    var session = await requireSession({ next: 'photo.html' });
+    if (!session) throw new Error('redirect');
+
+    var dropzone = document.getElementById('dropzone');
+    var input = document.getElementById('photo-input');
+    var preview = document.getElementById('photo-preview');
+    var imgEl = document.getElementById('photo-img');
+    var actions = document.getElementById('photo-actions');
+    var sendBtn = document.getElementById('photo-send');
+    var resetBtn = document.getElementById('photo-reset');
+    var statusEl = document.getElementById('photo-status');
+    var limitEl = document.getElementById('photo-limit');
+    var noteEl = document.getElementById('photo-note');
+    var answerBlock = document.getElementById('answer-block');
+    var answerBody = document.getElementById('answer-body');
+
+    var pendingBlob = null;
+    var previewUrl = '';
+
+    /* ---------- статусы ---------- */
+
+    function setStatus(kind, text) {
+      statusEl.textContent = text || '';
+      statusEl.className = 'form-status' + (text ? ' is-' + kind : '');
+    }
+
+    function setLimit(remaining) {
+      if (remaining == null) return;
+      limitEl.textContent = remaining > 0
+        ? 'Осталось фото сегодня: ' + remaining + ' из 5.'
+        : 'Лимит на сегодня исчерпан: 5 из 5. Возвращайся завтра.';
+    }
+
+    /* ---------- проверка блокировки и лимита ---------- */
+
+    var profileRes = await supabase.from('profiles').select('ban').eq('id', session.user.id).single();
+    if (profileRes.data && profileRes.data.ban) {
+      noteEl.hidden = false;
+      noteEl.textContent = 'Аккаунт заблокирован: «решить по фото» недоступно. Если это ошибка — напиши на bdfy.tu@yandex.ru.';
+      dropzone.hidden = true;
+      limitEl.hidden = true;
+      throw new Error('banned');
+    }
+
+    async function refreshLimit() {
+      var since = new Date(Date.now() - 24 * 3600 * 1000).toISOString();
+      var res = await supabase.from('photo_requests')
+        .select('id', { count: 'exact', head: true })
+        .eq('user_id', session.user.id)
+        .gte('created_at', since);
+      if (typeof res.count === 'number') setLimit(Math.max(0, 5 - res.count));
+    }
+    refreshLimit();
+
+    /* ---------- выбор файла ---------- */
+
+    dropzone.addEventListener('click', function () { input.click(); });
+    dropzone.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); input.click(); }
+    });
+    ['dragover', 'dragenter'].forEach(function (name) {
+      dropzone.addEventListener(name, function (event) {
+        event.preventDefault();
+        dropzone.classList.add('is-over');
+      });
+    });
+    ['dragleave', 'drop'].forEach(function (name) {
+      dropzone.addEventListener(name, function (event) {
+        event.preventDefault();
+        dropzone.classList.remove('is-over');
+      });
+    });
+    dropzone.addEventListener('drop', function (event) {
+      var file = event.dataTransfer && event.dataTransfer.files && event.dataTransfer.files[0];
+      if (file) handleFile(file);
+    });
+    input.addEventListener('change', function () {
+      if (input.files && input.files[0]) handleFile(input.files[0]);
+    });
+
+    async function handleFile(file) {
+      setStatus('', '');
+      answerBlock.hidden = true;
+
+      if (!/^image\//.test(file.type)) {
+        setStatus('err', 'Это не картинка. Выбери фото задачи (JPG, PNG или WebP).');
+        return;
+      }
+      if (file.size > 12 * 1024 * 1024) {
+        setStatus('err', 'Фото слишком большое (больше 12 МБ). Сделай снимок заново.');
+        return;
+      }
+
+      try {
+        pendingBlob = await compressImage(file);
+      } catch (err) {
+        setStatus('err', 'Не получилось обработать фото. Попробуй другую картинку.');
+        return;
+      }
+
+      if (previewUrl) URL.revokeObjectURL(previewUrl);
+      previewUrl = URL.createObjectURL(pendingBlob);
+      imgEl.src = previewUrl;
+      dropzone.hidden = true;
+      preview.hidden = false;
+      actions.hidden = false;
+    }
+
+    resetBtn.addEventListener('click', function () {
+      pendingBlob = null;
+      preview.hidden = true;
+      actions.hidden = true;
+      dropzone.hidden = false;
+      input.value = '';
+      if (previewUrl) { URL.revokeObjectURL(previewUrl); previewUrl = ''; }
+      setStatus('', '');
+    });
+
+    /* ---------- сжатие ---------- */
+
+    function loadImage(file) {
+      return new Promise(function (resolve, reject) {
+        var url = URL.createObjectURL(file);
+        var img = new Image();
+        img.onload = function () { resolve({ img: img, url: url }); };
+        img.onerror = function () { URL.revokeObjectURL(url); reject(new Error('image')); };
+        img.src = url;
+      });
+    }
+
+    async function compressImage(file) {
+      var loaded = await loadImage(file);
+      var img = loaded.img;
+      var maxSide = 1600;
+      var scale = Math.min(1, maxSide / Math.max(img.width, img.height));
+      var w = Math.max(1, Math.round(img.width * scale));
+      var h = Math.max(1, Math.round(img.height * scale));
+      var canvas = document.createElement('canvas');
+      canvas.width = w;
+      canvas.height = h;
+      var ctx = canvas.getContext('2d');
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, w, h);
+      ctx.drawImage(img, 0, 0, w, h);
+      URL.revokeObjectURL(loaded.url);
+      var blob = await new Promise(function (resolve) {
+        canvas.toBlob(function (b) { resolve(b); }, 'image/jpeg', 0.82);
+      });
+      if (!blob) throw new Error('compress');
+      return blob;
+    }
+
+    /* ---------- отправка ---------- */
+
+    sendBtn.addEventListener('click', async function () {
+      if (!pendingBlob) return;
+      setStatus('', '');
+      answerBlock.hidden = true;
+      sendBtn.disabled = true;
+      var label = sendBtn.querySelector('span:last-child');
+
+      try {
+        label.textContent = 'Загружаю…';
+        var path = session.user.id + '/' + Date.now() + '-' + Math.random().toString(36).slice(2, 8) + '.jpg';
+        var up = await supabase.storage.from('photos').upload(path, pendingBlob, {
+          contentType: 'image/jpeg',
+          upsert: false
+        });
+        if (up.error) {
+          setStatus('err', 'Не получилось загрузить фото: ' + up.error.message);
+          return;
+        }
+        var imageUrl = supabase.storage.from('photos').getPublicUrl(path).data.publicUrl;
+
+        label.textContent = 'ИИ решает…';
+        var res = await supabase.functions.invoke('solve-photo', { body: { image_url: imageUrl } });
+
+        if (res.error) {
+          var msg = 'Сервис временно недоступен — попробуй позже.';
+          try {
+            if (res.error.context && typeof res.error.context.json === 'function') {
+              var body = await res.error.context.json();
+              if (body && body.error) msg = body.error;
+            }
+          } catch (e) { /* тело не JSON — оставляем общий текст */ }
+          setStatus('err', msg);
+          return;
+        }
+
+        var data = res.data || {};
+        if (data.error) { setStatus('err', data.error); return; }
+
+        answerBody.innerHTML = mdToHtml(data.answer || 'Пустой ответ.');
+        answerBlock.hidden = false;
+        answerBlock.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setStatus('ok', 'Готово!');
+        if (typeof data.remaining === 'number') setLimit(data.remaining); else refreshLimit();
+      } catch (err) {
+        setStatus('err', 'Нет связи с сервером. Проверь интернет и попробуй ещё раз.');
+      } finally {
+        label.textContent = 'Решить';
+        sendBtn.disabled = false;
+      }
+    });
+
+    /* ---------- мини-markdown для ответа ---------- */
+
+    function inline(text) {
+      return escapeHtml(text)
+        .replace(/`([^`]+)`/g, '<code>$1</code>')
+        .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+        .replace(/(^|[^*])\*([^*]+)\*/g, '$1<em>$2</em>');
+    }
+
+    function mdText(text) {
+      var html = '';
+      var list = null;
+      function closeList() { if (list) { html += '</' + list + '>'; list = null; } }
+      String(text).split('\n').forEach(function (line) {
+        var t = line.trim();
+        if (!t) { closeList(); return; }
+        var h = /^(#{1,4})\s+(.*)$/.exec(t);
+        if (h) { closeList(); var level = Math.min(h[1].length + 2, 6); html += '<h' + level + '>' + inline(h[2]) + '</h' + level + '>'; return; }
+        var ul = /^[-*•]\s+(.*)$/.exec(t);
+        var ol = /^\d+[.)]\s+(.*)$/.exec(t);
+        if (ul) { if (list !== 'ul') { closeList(); html += '<ul>'; list = 'ul'; } html += '<li>' + inline(ul[1]) + '</li>'; return; }
+        if (ol) { if (list !== 'ol') { closeList(); html += '<ol>'; list = 'ol'; } html += '<li>' + inline(ol[1]) + '</li>'; return; }
+        closeList();
+        html += '<p>' + inline(t) + '</p>';
+      });
+      closeList();
+      return html;
+    }
+
+    function mdToHtml(md) {
+      var parts = String(md || '').replace(/\r\n/g, '\n').split('```');
+      var out = '';
+      parts.forEach(function (chunk, i) {
+        if (i % 2 === 1) {
+          out += '<pre><code>' + escapeHtml(chunk.replace(/^\n+|\n+$/g, '')) + '</code></pre>';
+        } else {
+          out += mdText(chunk);
+        }
+      });
+      return out;
+    }
+  </script>
+</body>
+</html>

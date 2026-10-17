@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Вход и регистрация — ГДЗ НЭЛ</title>
+  <meta name="description" content="Вход и регистрация в ГДЗ НЭЛ: аккаунт нужен для отзывов к заданиям и решения задач по фото.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://bdfytu-commits.github.io/gdz-nel/auth.html">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#1AA3A3">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo-120.png" alt="Эмблема НЭЛ" width="38" height="38">
+      <span class="brand-name">ГДЗ НЭЛ</span>
+    </a>
+    <nav class="site-nav" aria-label="Разделы сайта">
+      <a href="index.html#subjects">Предметы</a>
+      <a href="about.html">О проекте</a>
+      <a href="contact.html">Обратная связь</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="icon i-moon" aria-hidden="true"></span>
+      </button>
+      <span class="auth-slot" data-auth-slot>
+        <a class="btn btn-outline btn-sm auth-btn" href="auth.html">
+          <span class="icon i-user" aria-hidden="true"></span>
+          <span class="btn-label">Войти</span>
+        </a>
+      </span>
+      <a class="btn btn-primary btn-sm" href="app/index.html">
+        <span class="icon i-book" aria-hidden="true"></span>
+        <span class="btn-label">Открыть приложение</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="page-inner auth-card">
+      <div class="page-head">
+        <h1>Вход и регистрация</h1>
+        <p class="page-sub">Аккаунт нужен для отзывов к заданиям и решения задач по фото. Обычные ГДЗ доступны и без входа.</p>
+      </div>
+
+      <p class="auth-note" id="auth-note" hidden role="status"></p>
+
+      <div class="auth-tabs" role="tablist" aria-label="Вход или регистрация">
+        <button class="auth-tab is-active" id="tab-login" type="button" role="tab" aria-selected="true">Вход</button>
+        <button class="auth-tab" id="tab-register" type="button" role="tab" aria-selected="false">Регистрация</button>
+      </div>
+
+      <!-- ================= вход ================= -->
+      <form id="form-login" class="auth-form" novalidate>
+        <div class="field" data-field="email">
+          <label for="li-email">Email</label>
+          <input type="email" id="li-email" autocomplete="email" placeholder="name@example.com" required>
+          <p class="field-error" role="alert"></p>
+        </div>
+
+        <div class="field" data-field="password">
+          <label for="li-password">Пароль</label>
+          <input type="password" id="li-password" autocomplete="current-password" required>
+          <p class="field-error" role="alert"></p>
+        </div>
+
+        <button class="btn btn-primary" type="submit" id="login-submit">
+          <span class="icon i-user" aria-hidden="true"></span>
+          <span>Войти</span>
+        </button>
+
+        <p class="auth-alt">Нет аккаунта? Открой вкладку «Регистрация» выше.</p>
+        <p class="form-status" id="login-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <!-- ================= регистрация ================= -->
+      <form id="form-register" class="auth-form" hidden novalidate>
+        <div class="field" data-field="username">
+          <label for="rg-username">Логин</label>
+          <input type="text" id="rg-username" maxlength="30" autocomplete="nickname" placeholder="Как тебя показывать в отзывах" required>
+          <p class="field-error" role="alert"></p>
+        </div>
+
+        <div class="field" data-field="email">
+          <label for="rg-email">Email</label>
+          <input type="email" id="rg-email" autocomplete="email" placeholder="name@example.com" required>
+          <p class="field-error" role="alert"></p>
+        </div>
+
+        <div class="field" data-field="password">
+          <label for="rg-password">Пароль</label>
+          <input type="password" id="rg-password" autocomplete="new-password" minlength="6" placeholder="Минимум 6 символов" required>
+          <p class="field-error" role="alert"></p>
+        </div>
+
+        <div class="field-row">
+          <div class="field" data-field="age">
+            <label for="rg-age">Возраст</label>
+            <input type="number" id="rg-age" min="6" max="120" inputmode="numeric" placeholder="Например, 12">
+            <p class="field-error" role="alert"></p>
+          </div>
+          <div class="field" data-field="gender">
+            <label for="rg-gender">Пол</label>
+            <select id="rg-gender">
+              <option value="">Не указан</option>
+              <option value="м">Мужской</option>
+              <option value="ж">Женский</option>
+            </select>
+            <p class="field-error" role="alert"></p>
+          </div>
+        </div>
+
+        <div class="field" data-field="favorite_subject">
+          <label for="rg-subject">Любимый предмет</label>
+          <select id="rg-subject">
+            <option value="">Не выбран</option>
+            <option value="math">Математика</option>
+            <option value="russian">Русский язык</option>
+            <option value="english">Английский язык</option>
+            <option value="biology">Биология</option>
+            <option value="history">История</option>
+            <option value="social">Обществознание</option>
+          </select>
+          <p class="field-error" role="alert"></p>
+        </div>
+
+        <div class="field" data-field="terms">
+          <label class="check">
+            <input type="checkbox" id="rg-terms">
+            <span>Принимаю <a href="terms.html" target="_blank" rel="noopener">пользовательское соглашение</a>
+              и <a href="privacy.html" target="_blank" rel="noopener">политику конфиденциальности</a></span>
+          </label>
+          <p class="field-error" role="alert"></p>
+        </div>
+
+        <button class="btn btn-primary" type="submit" id="register-submit">
+          <span class="icon i-user" aria-hidden="true"></span>
+          <span>Зарегистрироваться</span>
+        </button>
+
+        <p class="auth-alt">Уже есть аккаунт? Открой вкладку «Вход» выше.</p>
+        <p class="form-status" id="register-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/img/logo-160.png" alt="" width="52" height="52">
+        <p class="footer-name">ГДЗ НЭЛ</p>
+        <p class="footer-meta">6 класс, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
+      </div>
+      <nav class="footer-col" aria-label="Документы">
+        <h3>Документы</h3>
+        <a href="terms.html">Пользовательское соглашение</a>
+        <a href="privacy.html">Конфиденциальность</a>
+        <a href="disclaimer.html">Дисклеймер</a>
+      </nav>
+    </div>
+    <p class="footer-legal">© 2026 ГДЗ НЭЛ. Материалы предназначены для личного использования.<br>Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script type="module">
+    import { supabase, getSession } from './assets/supabase.js';
+
+    /* ---------- вспомогательное ---------- */
+
+    var params = new URLSearchParams(location.search);
+
+    // куда вернуться после входа: только относительный путь внутри сайта
+    function safeNext(value) {
+      if (!value) return '';
+      if (/^[a-z][a-z0-9+.-]*:/i.test(value) || value.indexOf('//') === 0) return '';
+      return value;
+    }
+    var next = safeNext(params.get('next'));
+
+    var loginForm = document.getElementById('form-login');
+    var registerForm = document.getElementById('form-register');
+    var loginStatus = document.getElementById('login-status');
+    var registerStatus = document.getElementById('register-status');
+    var authNote = document.getElementById('auth-note');
+    var tabLogin = document.getElementById('tab-login');
+    var tabRegister = document.getElementById('tab-register');
+
+    function showTab(which) {
+      var isLogin = which === 'login';
+      loginForm.hidden = !isLogin;
+      registerForm.hidden = isLogin;
+      tabLogin.classList.toggle('is-active', isLogin);
+      tabRegister.classList.toggle('is-active', !isLogin);
+      tabLogin.setAttribute('aria-selected', String(isLogin));
+      tabRegister.setAttribute('aria-selected', String(!isLogin));
+    }
+
+    tabLogin.addEventListener('click', function () { showTab('login'); });
+    tabRegister.addEventListener('click', function () { showTab('register'); });
+
+    function setFieldError(form, name, text) {
+      var field = form.querySelector('[data-field="' + name + '"]');
+      if (!field) return;
+      field.classList.toggle('has-error', !!text);
+      var err = field.querySelector('.field-error');
+      if (err) err.textContent = text || '';
+    }
+
+    function setStatus(el, kind, text) {
+      el.textContent = text || '';
+      el.className = 'form-status' + (text ? ' is-' + kind : '');
+    }
+
+    function mapError(message) {
+      var m = String(message || '').toLowerCase();
+      if (m.indexOf('invalid login credentials') !== -1) return 'Неверный email или пароль.';
+      if (m.indexOf('email not confirmed') !== -1) return 'Почта ещё не подтверждена — проверь письмо (и папку «Спам»).';
+      if (m.indexOf('already registered') !== -1 || m.indexOf('already been registered') !== -1) {
+        return 'Такая почта уже зарегистрирована — войди.';
+      }
+      if (m.indexOf('password should be') !== -1) return 'Пароль короче 6 символов.';
+      if (m.indexOf('rate limit') !== -1 || m.indexOf('too many') !== -1) return 'Слишком много попыток — подожди пару минут.';
+      if (m.indexOf('unable to validate email') !== -1) return 'Проверь адрес почты.';
+      if (m.indexOf('signups not allowed') !== -1) return 'Регистрация сейчас закрыта.';
+      return 'Не получилось: ' + (message || 'неизвестная ошибка') + '. Попробуй ещё раз или напиши на bdfy.tu@yandex.ru.';
+    }
+
+    // ошибки исчезают, как только поле правят
+    [loginForm, registerForm].forEach(function (form) {
+      form.addEventListener('input', function (event) {
+        var field = event.target.closest('.field');
+        if (field) {
+          field.classList.remove('has-error');
+          var err = field.querySelector('.field-error');
+          if (err) err.textContent = '';
+        }
+      });
+    });
+
+    /* ---------- уже вошёл ---------- */
+
+    getSession().then(function (session) {
+      if (!session) return;
+      if (next) { location.replace(next); return; }
+      authNote.innerHTML = 'Ты уже вошёл как <b>' + String(session.user.email || '').replace(/[<>&"]/g, '') +
+        '</b>. <a href="profile.html">Перейти в профиль</a>.';
+      authNote.hidden = false;
+    });
+
+    /* ---------- вход ---------- */
+
+    loginForm.addEventListener('submit', async function (event) {
+      event.preventDefault();
+      setStatus(loginStatus, 'err', '');
+
+      var email = document.getElementById('li-email').value.trim();
+      var password = document.getElementById('li-password').value;
+
+      var bad = false;
+      if (!email || email.indexOf('@') === -1) { setFieldError(loginForm, 'email', 'Напиши email.'); bad = true; }
+      if (!password) { setFieldError(loginForm, 'password', 'Напиши пароль.'); bad = true; }
+      if (bad) return;
+
+      var btn = document.getElementById('login-submit');
+      btn.disabled = true;
+
+      try {
+        var res = await supabase.auth.signInWithPassword({ email: email, password: password });
+        if (res.error) {
+          var message = mapError(res.error.message);
+          if (/Неверный email или пароль/.test(message)) setFieldError(loginForm, 'password', message);
+          else setStatus(loginStatus, 'err', message);
+          return;
+        }
+        setStatus(loginStatus, 'ok', 'Получилось! Переходим…');
+        location.replace(next || 'profile.html');
+      } catch (err) {
+        setStatus(loginStatus, 'err', 'Нет связи с сервером. Проверь интернет и попробуй ещё раз.');
+      } finally {
+        btn.disabled = false;
+      }
+    });
+
+    /* ---------- регистрация ---------- */
+
+    registerForm.addEventListener('submit', async function (event) {
+      event.preventDefault();
+      setStatus(registerStatus, 'err', '');
+
+      var username = document.getElementById('rg-username').value.trim();
+      var email = document.getElementById('rg-email').value.trim();
+      var password = document.getElementById('rg-password').value;
+      var ageRaw = document.getElementById('rg-age').value.trim();
+      var age = ageRaw ? parseInt(ageRaw, 10) : null;
+      var gender = document.getElementById('rg-gender').value;
+      var favSubject = document.getElementById('rg-subject').value;
+      var terms = document.getElementById('rg-terms').checked;
+
+      var bad = false;
+      if (username.length < 2) { setFieldError(registerForm, 'username', 'Логин — от 2 символов.'); bad = true; }
+      if (!email || email.indexOf('@') === -1) { setFieldError(registerForm, 'email', 'Проверь адрес почты.'); bad = true; }
+      if (password.length < 6) { setFieldError(registerForm, 'password', 'Пароль — минимум 6 символов.'); bad = true; }
+      if (ageRaw && (isNaN(age) || age < 6 || age > 120)) { setFieldError(registerForm, 'age', 'Возраст — число от 6 до 120.'); bad = true; }
+      if (!terms) { setFieldError(registerForm, 'terms', 'Без согласия с правилами аккаунт создать нельзя.'); bad = true; }
+      if (bad) return;
+
+      var btn = document.getElementById('register-submit');
+      btn.disabled = true;
+
+      try {
+        var redirectUrl = location.origin + location.pathname + (next ? '?next=' + encodeURIComponent(next) : '');
+        var res = await supabase.auth.signUp({
+          email: email,
+          password: password,
+          options: {
+            emailRedirectTo: redirectUrl,
+            data: {
+              username: username,
+              age: age,
+              gender: gender || null,
+              favorite_subject: favSubject || null,
+              terms_accepted: true
+            }
+          }
+        });
+
+        if (res.error) {
+          var message = mapError(res.error.message);
+          if (/уже зарегистрирована/.test(message)) setFieldError(registerForm, 'email', message);
+          else if (/Пароль короче/.test(message)) setFieldError(registerForm, 'password', message);
+          else setStatus(registerStatus, 'err', message);
+          return;
+        }
+
+        if (res.data && res.data.session) {
+          // подтверждение почты выключено — вход сразу
+          setStatus(registerStatus, 'ok', 'Аккаунт создан! Переходим…');
+          location.replace(next || 'profile.html');
+          return;
+        }
+
+        setStatus(registerStatus, 'ok', 'Аккаунт создан! Мы отправили письмо на ' + email +
+          ' — подтверди почту и войди (письмо может попасть в «Спам»).');
+        registerForm.reset();
+      } catch (err) {
+        setStatus(registerStatus, 'err', 'Нет связи с сервером. Проверь интернет и попробуй ещё раз.');
+      } finally {
+        btn.disabled = false;
+      }
+    });
+
+    /* ---------- стартовая вкладка ---------- */
+
+    if (params.get('tab') === 'register') showTab('register');
+  </script>
+</body>
+</html>

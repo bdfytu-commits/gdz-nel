@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ГДЗ НЭЛ — готовые домашние задания для 6 класса</title>
-  <meta name="description" content="Готовые домашние задания для 6 класса Новосибирского экономического лицея: математика, русский язык, английский, биология, история, обществознание. Условия, пошаговые решения и ответы.">
+  <meta name="description" content="Готовые домашние задания для 6 класса Новосибирского экономического лицея: математика, русский язык, английский, биология, история, обществознание. Условия, пошаговые решения и ответы, отзывы, решение задач по фото.">
   <meta name="robots" content="index, follow">
 
   <!-- домен-плейсхолдер: заменить USER после деплоя (см. docs/CHANGELOG.md) -->
@@ -15,14 +15,14 @@
   <meta property="og:site_name" content="ГДЗ НЭЛ">
   <meta property="og:locale" content="ru_RU">
   <meta property="og:title" content="ГДЗ НЭЛ — готовые домашние задания для 6 класса">
-  <meta property="og:description" content="Условия, пошаговые решения и ответы по шести предметам программы лицея.">
+  <meta property="og:description" content="Условия, пошаговые решения и ответы по шести предметам программы лицея. Отзывы и решение задач по фото — в приложении.">
   <meta property="og:image" content="https://bdfytu-commits.github.io/gdz-nel/assets/img/screens/og-1200x630.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:url" content="https://bdfytu-commits.github.io/gdz-nel/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ГДЗ НЭЛ — готовые домашние задания для 6 класса">
-  <meta name="twitter:description" content="Условия, пошаговые решения и ответы по шести предметам программы лицея.">
+  <meta name="twitter:description" content="Условия, пошаговые решения и ответы по шести предметам программы лицея. Отзывы и решение задач по фото — в приложении.">
   <meta name="twitter:image" content="https://bdfytu-commits.github.io/gdz-nel/assets/img/screens/og-1200x630.png">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -68,9 +68,19 @@
       <button class="icon-btn" id="theme-toggle" type="button" aria-label="Переключить тему">
         <span class="icon i-moon" aria-hidden="true"></span>
       </button>
+      <a class="btn btn-outline btn-sm" href="photo.html">
+        <span class="icon i-camera" aria-hidden="true"></span>
+        <span class="btn-label">Решить по фото</span>
+      </a>
+      <span class="auth-slot" data-auth-slot>
+        <a class="btn btn-outline btn-sm auth-btn" href="auth.html">
+          <span class="icon i-user" aria-hidden="true"></span>
+          <span class="btn-label">Войти</span>
+        </a>
+      </span>
       <a class="btn btn-primary btn-sm" href="app/index.html">
         <span class="icon i-book" aria-hidden="true"></span>
-        <span>Открыть приложение</span>
+        <span class="btn-label">Открыть приложение</span>
       </a>
     </div>
   </header>
@@ -81,7 +91,7 @@
       <div class="hero-inner">
         <img class="hero-logo" src="assets/img/logo-280.png" alt="Эмблема Новосибирского экономического лицея" width="104" height="104">
         <h1 class="hero-title">ГДЗ НЭЛ</h1>
-        <p class="hero-text">Условия, пошаговые решения и ответы для 6 класса — по всем предметам.</p>
+        <p class="hero-text">Условия, пошаговые решения и ответы для 6 класса — по всем предметам. Скоро 7–9.</p>
         <div class="hero-actions">
           <a class="btn btn-light btn-lg" href="app/index.html">
             <span class="icon i-arrow-right" aria-hidden="true"></span>
@@ -107,37 +117,37 @@
         <p class="section-sub">Шесть предметов по учебникам, которые используются в лицее. Нажми на карточку — откроется нужный раздел приложения.</p>
       </div>
       <div class="cards">
-        <a class="card reveal" href="app/index.html#/math" data-subject="math">
+        <a class="card reveal" href="app/index.html#/6/math" data-subject="math">
           <span class="card-icon"><span class="icon i-math" aria-hidden="true"></span></span>
           <h3>Математика</h3>
           <p class="card-meta">Виленкин, Жохов, Чесноков. Части 1 и 2</p>
           <span class="card-foot"><span class="card-count" data-count>задания</span><span class="card-go">Открыть</span></span>
         </a>
-        <a class="card reveal" href="app/index.html#/russian" data-subject="russian">
+        <a class="card reveal" href="app/index.html#/6/russian" data-subject="russian">
           <span class="card-icon"><span class="icon i-russian" aria-hidden="true"></span></span>
           <h3>Русский язык</h3>
           <p class="card-meta">Ладыженская, Баранов, Тростенцова. Части 1 и 2</p>
           <span class="card-foot"><span class="card-count" data-count>задания</span><span class="card-go">Открыть</span></span>
         </a>
-        <a class="card reveal" href="app/index.html#/english" data-subject="english">
+        <a class="card reveal" href="app/index.html#/6/english" data-subject="english">
           <span class="card-icon"><span class="icon i-english" aria-hidden="true"></span></span>
           <h3>Английский язык</h3>
           <p class="card-meta">Ваулина, Дули, Подоляко. Spotlight</p>
           <span class="card-foot"><span class="card-count" data-count>задания</span><span class="card-go">Открыть</span></span>
         </a>
-        <a class="card reveal" href="app/index.html#/biology" data-subject="biology">
+        <a class="card reveal" href="app/index.html#/6/biology" data-subject="biology">
           <span class="card-icon"><span class="icon i-biology" aria-hidden="true"></span></span>
           <h3>Биология</h3>
           <p class="card-meta">Пасечник, Суматохин, Гапонюк</p>
           <span class="card-foot"><span class="card-count" data-count>задания</span><span class="card-go">Открыть</span></span>
         </a>
-        <a class="card reveal" href="app/index.html#/history" data-subject="history">
+        <a class="card reveal" href="app/index.html#/6/history" data-subject="history">
           <span class="card-icon"><span class="icon i-history" aria-hidden="true"></span></span>
           <h3>История</h3>
           <p class="card-meta">Мединский, Чубарьян. История Средних веков</p>
           <span class="card-foot"><span class="card-count" data-count>задания</span><span class="card-go">Открыть</span></span>
         </a>
-        <a class="card reveal" href="app/index.html#/social" data-subject="social">
+        <a class="card reveal" href="app/index.html#/6/social" data-subject="social">
           <span class="card-icon"><span class="icon i-social" aria-hidden="true"></span></span>
           <h3>Обществознание</h3>
           <p class="card-meta">Боголюбов, Рутковская, Иванова</p>
@@ -151,7 +161,7 @@
       <div class="section">
         <div class="section-head reveal">
           <h2 class="section-title">Как это работает</h2>
-          <p class="section-sub">Три шага от условия до ответа. Без регистрации, без рекламы.</p>
+          <p class="section-sub">Три шага от условия до ответа. Без рекламы: аккаунт понадобится только для отзывов и решения задач по фото.</p>
         </div>
         <ol class="steps">
           <li class="step reveal">
@@ -229,6 +239,7 @@
       </nav>
       <nav class="footer-col" aria-label="Документы">
         <h3>Документы</h3>
+        <a href="terms.html">Пользовательское соглашение</a>
         <a href="privacy.html">Конфиденциальность</a>
         <a href="disclaimer.html">Дисклеймер</a>
       </nav>
@@ -241,5 +252,11 @@
   </footer>
 
   <script src="assets/script.js"></script>
+  <script type="module">
+    // «Войти» превращается в аватар, если пользователь уже вошёл.
+    // Если модуль не загрузился (офлайн) — остаётся статичная кнопка «Войти».
+    import { initHeaderAuth } from './assets/supabase.js';
+    initHeaderAuth();
+  </script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ГДЗ НЭЛ — приложение</title>
-  <meta name="description" content="Приложение ГДЗ НЭЛ: готовые домашние задания для 6 класса лицея. Поиск по номеру и тексту, избранное, история, тёмная тема, офлайн-режим.">
+  <meta name="description" content="Приложение ГДЗ НЭЛ: готовые домашние задания для 6 класса лицея, 7–9 готовятся. Поиск по номеру и тексту, избранное, история, отзывы, решение по фото, тёмная тема, офлайн-режим.">
   <meta name="robots" content="index, follow">
 
   <!-- домен-плейсхолдер: заменить USER после деплоя (см. docs/CHANGELOG.md) -->
@@ -61,9 +61,17 @@
         <a class="icon-btn" href="#/recent" aria-label="Недавние">
           <span class="icon i-clock" aria-hidden="true"></span>
         </a>
+        <a class="icon-btn" href="../photo.html" aria-label="Решить по фото">
+          <span class="icon i-camera" aria-hidden="true"></span>
+        </a>
         <button class="icon-btn" id="theme-toggle" type="button" aria-label="Переключить тему">
           <span class="icon i-moon" aria-hidden="true"></span>
         </button>
+        <span class="auth-slot" data-auth-slot>
+          <a class="icon-btn" href="../auth.html?next=app/index.html" aria-label="Войти">
+            <span class="icon i-user" aria-hidden="true"></span>
+          </a>
+        </span>
         <a class="icon-btn" href="../index.html" aria-label="На главную">
           <span class="icon i-home" aria-hidden="true"></span>
         </a>
@@ -83,5 +91,26 @@
   </div>
 
   <script src="assets/script.js"></script>
+  <script type="module">
+    // Мост к Supabase: script.js ждёт window.gdzSupabase (или событие ниже).
+    // Если модуль не загрузился (офлайн) — в шапке остаётся статичная кнопка «Войти»,
+    // отзывы и решение по фото недоступны с понятным сообщением.
+    import { supabase, getSession, getProfile, avatarColor, escapeHtml, initHeaderAuth } from '../assets/supabase.js';
+
+    initHeaderAuth({
+      authHref: '../auth.html?next=app/index.html',
+      profileHref: '../profile.html',
+      variant: 'icon'
+    });
+
+    window.gdzSupabase = {
+      supabase: supabase,
+      getSession: getSession,
+      getProfile: getProfile,
+      avatarColor: avatarColor,
+      escapeHtml: escapeHtml
+    };
+    window.dispatchEvent(new Event('gdz-supabase-ready'));
+  </script>
 </body>
 </html>

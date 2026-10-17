@@ -37,33 +37,45 @@
       "additionalProperties": true
     },
     "catalog": {
-      "title": "Каталог предметов",
+      "title": "Каталог классов",
       "type": "object",
-      "required": ["subjects"],
+      "required": ["grades"],
       "properties": {
-        "subjects": {
+        "grades": {
           "type": "array",
           "minItems": 1,
           "items": {
             "type": "object",
-            "required": ["id", "title", "active", "textbooks", "icon"],
+            "required": ["id", "title", "active"],
             "properties": {
               "id": { "type": "string", "minLength": 1 },
               "title": { "type": "string", "minLength": 1 },
-              "active": { "type": "boolean" },
-              "icon": { "type": "string", "minLength": 1 },
-              "textbooks": {
+              "active": { "type": "boolean", "description": "false — данные класса ещё собираются" },
+              "subjects": {
                 "type": "array",
-                "minItems": 1,
                 "items": {
                   "type": "object",
-                  "required": ["id", "title", "author", "year", "file"],
+                  "required": ["id", "title", "active", "textbooks", "icon"],
                   "properties": {
                     "id": { "type": "string", "minLength": 1 },
                     "title": { "type": "string", "minLength": 1 },
-                    "author": { "type": "string", "minLength": 1 },
-                    "year": { "type": "string", "minLength": 1 },
-                    "file": { "type": "string", "pattern": "^[a-z]+/[a-z0-9-]+\\.json$" }
+                    "active": { "type": "boolean" },
+                    "icon": { "type": "string", "minLength": 1 },
+                    "textbooks": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": ["id", "title", "author", "year", "file"],
+                        "properties": {
+                          "id": { "type": "string", "minLength": 1 },
+                          "title": { "type": "string", "minLength": 1 },
+                          "author": { "type": "string", "minLength": 1 },
+                          "year": { "type": "string", "minLength": 1 },
+                          "file": { "type": "string", "pattern": "^[a-z]+/[a-z0-9-]+\\.json$" }
+                        },
+                        "additionalProperties": false
+                      }
+                    }
                   },
                   "additionalProperties": false
                 }
@@ -78,11 +90,12 @@
     "stats": {
       "title": "Счётчики",
       "type": "object",
-      "required": ["generatedAt", "subjects", "books", "total", "textbooks"],
+      "required": ["generatedAt", "subjects", "books", "grades", "total", "textbooks"],
       "properties": {
         "generatedAt": { "type": "string", "minLength": 1 },
-        "subjects": { "type": "object" },
+        "subjects": { "type": "object", "description": "Сумма по всем классам (для лендинга)" },
         "books": { "type": "object" },
+        "grades": { "type": "object", "description": "Счётчики по классам: total, textbooks, subjects, books" },
         "total": { "type": "integer", "minimum": 0 },
         "textbooks": { "type": "integer", "minimum": 0 }
       },

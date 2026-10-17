@@ -139,6 +139,16 @@ a:hover { color: var(--c-accent); }
 .i-alert { --icon: url(../../assets/img/icons/alert.svg); }
 .i-copy { --icon: url(../../assets/img/icons/copy.svg); }
 .i-code { --icon: url(../../assets/img/icons/code.svg); }
+.i-ban { --icon: url(../../assets/img/icons/ban.svg); }
+.i-camera { --icon: url(../../assets/img/icons/camera.svg); }
+.i-chart { --icon: url(../../assets/img/icons/chart.svg); }
+.i-eye { --icon: url(../../assets/img/icons/eye.svg); }
+.i-image { --icon: url(../../assets/img/icons/image.svg); }
+.i-logout { --icon: url(../../assets/img/icons/logout.svg); }
+.i-message { --icon: url(../../assets/img/icons/message.svg); }
+.i-send { --icon: url(../../assets/img/icons/send.svg); }
+.i-sparkles { --icon: url(../../assets/img/icons/sparkles.svg); }
+.i-user { --icon: url(../../assets/img/icons/user.svg); }
 .i-globe { --icon: url(../../assets/img/icons/globe.svg); }
 
 /* ---------- кнопки ---------- */
@@ -1002,3 +1012,195 @@ mark {
     animation: none !important;
   }
 }
+
+/* ---------- вход/аватар в шапке приложения ---------- */
+
+.auth-slot { display: inline-flex; align-items: center; }
+
+.auth-chip { display: inline-flex; align-items: center; }
+
+.auth-chip .avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--c-primary);
+  color: #fff;
+  font-family: var(--font-head);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* ---------- отзывы к заданию ---------- */
+
+.reviews {
+  margin-top: 34px;
+  padding-top: 26px;
+  border-top: 1px solid var(--c-border);
+}
+
+.reviews-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.reviews-head h2 { margin: 0; font-size: 20px; }
+
+.reviews-count { color: var(--c-text-muted); font-size: 14px; }
+
+.reviews-list { display: grid; gap: 12px; margin-bottom: 18px; }
+
+.review {
+  display: flex;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-l);
+  background: var(--c-surface);
+}
+
+.review.is-pending { border-style: dashed; }
+
+.review-avatar {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.review-body { min-width: 0; }
+
+.review-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  margin-bottom: 4px;
+}
+
+.review-name { font-weight: 600; font-size: 14px; overflow-wrap: anywhere; }
+
+.review-stars { display: inline-flex; gap: 2px; color: #F5B301; }
+
+.review-stars .icon { width: 14px; height: 14px; }
+
+.review-date { margin-left: auto; color: var(--c-text-muted); font-size: 12px; }
+
+.review-text { margin: 0; font-size: 14px; line-height: 1.55; overflow-wrap: anywhere; }
+
+.review-mine-badge {
+  display: inline-flex;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  background: var(--c-surface-2);
+  color: var(--c-text-muted);
+}
+
+.review-mine-badge.is-pending { background: rgba(245, 179, 1, 0.18); color: #8a6500; }
+.review-mine-badge.is-rejected { background: rgba(229, 57, 53, 0.12); color: var(--c-red); }
+.review-mine-badge.is-approved { background: rgba(22, 160, 133, 0.16); color: #0e7c6b; }
+
+.review-login {
+  margin: 0 0 10px;
+  padding: 14px 16px;
+  border: 1px dashed var(--c-border);
+  border-radius: var(--radius-l);
+  color: var(--c-text-muted);
+  font-size: 14px;
+}
+
+.review-login a { color: var(--c-link); }
+
+.review-form {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-l);
+  background: var(--c-surface-2);
+}
+
+.review-form.is-mine-note { gap: 8px; }
+
+.review-form textarea {
+  width: 100%;
+  min-height: 96px;
+  resize: vertical;
+  padding: 12px 14px;
+  color: var(--c-text);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-m);
+  font: inherit;
+  font-size: 15px;
+}
+
+.review-form textarea:focus {
+  outline: none;
+  border-color: var(--c-primary);
+  box-shadow: 0 0 0 3px rgba(26, 163, 163, 0.18);
+}
+
+.review-form-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+
+.review-form-label { font-size: 14px; font-weight: 600; }
+
+.review-form-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+
+.review-form .form-status { margin: 0; }
+
+.review-note { margin: 0; font-size: 13px; color: var(--c-text-muted); }
+
+.star-picker { display: inline-flex; gap: 4px; }
+
+.star-btn {
+  padding: 6px;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  color: var(--c-border);
+  cursor: pointer;
+  transition: color var(--t-fast) var(--ease), transform var(--t-fast) var(--ease);
+}
+
+.star-btn .icon { width: 22px; height: 22px; }
+
+.star-btn.is-on { color: #F5B301; }
+
+.star-btn:hover { transform: scale(1.12); }
+
+.form-status {
+  display: none;
+  margin: 0;
+  padding: 8px 12px;
+  border-radius: var(--radius-m);
+  font-size: 13px;
+}
+
+.form-status.is-ok { display: block; background: rgba(22, 160, 133, 0.16); color: #0e7c6b; }
+.form-status.is-err { display: block; background: rgba(229, 57, 53, 0.12); color: var(--c-red); }
+
+@media (max-width: 480px) {
+  .review-date { margin-left: 0; }
+  .review { padding: 12px; }
+}
+
+@media print {
+  .reviews { display: none !important; }
+}
+
+[data-theme="dark"] .review-mine-badge.is-approved { color: #4DB6AC; }
+[data-theme="dark"] .form-status.is-ok { color: #4DB6AC; }
+[data-theme="dark"] .review-mine-badge.is-pending { color: #E0B44A; }

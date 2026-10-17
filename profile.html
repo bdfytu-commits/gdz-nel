@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Профиль — ГДЗ НЭЛ</title>
+  <meta name="description" content="Профиль ГДЗ НЭЛ: логин, возраст, любимый предмет. Здесь можно изменить данные или выйти из аккаунта.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="https://bdfytu-commits.github.io/gdz-nel/profile.html">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#1AA3A3">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo-120.png" alt="Эмблема НЭЛ" width="38" height="38">
+      <span class="brand-name">ГДЗ НЭЛ</span>
+    </a>
+    <nav class="site-nav" aria-label="Разделы сайта">
+      <a href="index.html#subjects">Предметы</a>
+      <a href="about.html">О проекте</a>
+      <a href="contact.html">Обратная связь</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="icon i-moon" aria-hidden="true"></span>
+      </button>
+      <span class="auth-slot" data-auth-slot>
+        <a class="btn btn-outline btn-sm auth-btn" href="auth.html">
+          <span class="icon i-user" aria-hidden="true"></span>
+          <span class="btn-label">Войти</span>
+        </a>
+      </span>
+      <a class="btn btn-primary btn-sm" href="app/index.html">
+        <span class="icon i-book" aria-hidden="true"></span>
+        <span class="btn-label">Открыть приложение</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="page-inner">
+      <div class="profile-head" id="profile-head">
+        <div class="avatar-xl" id="profile-avatar" aria-hidden="true">…</div>
+        <div>
+          <h1 id="profile-name">Профиль</h1>
+          <p id="profile-email">Загружаю данные…</p>
+          <div id="profile-badges"></div>
+        </div>
+      </div>
+
+      <p class="auth-note" id="profile-note" hidden role="status"></p>
+
+      <form id="profile-form" class="auth-form profile-form" hidden novalidate>
+        <div class="field" data-field="username">
+          <label for="pf-username">Логин</label>
+          <input type="text" id="pf-username" maxlength="30" autocomplete="nickname" required>
+          <p class="field-error" role="alert"></p>
+        </div>
+
+        <div class="field-row">
+          <div class="field" data-field="age">
+            <label for="pf-age">Возраст</label>
+            <input type="number" id="pf-age" min="6" max="120" inputmode="numeric">
+            <p class="field-error" role="alert"></p>
+          </div>
+          <div class="field" data-field="gender">
+            <label for="pf-gender">Пол</label>
+            <select id="pf-gender">
+              <option value="">Не указан</option>
+              <option value="м">Мужской</option>
+              <option value="ж">Женский</option>
+            </select>
+            <p class="field-error" role="alert"></p>
+          </div>
+        </div>
+
+        <div class="field" data-field="favorite_subject">
+          <label for="pf-subject">Любимый предмет</label>
+          <select id="pf-subject">
+            <option value="">Не выбран</option>
+            <option value="math">Математика</option>
+            <option value="russian">Русский язык</option>
+            <option value="english">Английский язык</option>
+            <option value="biology">Биология</option>
+            <option value="history">История</option>
+            <option value="social">Обществознание</option>
+          </select>
+          <p class="field-error" role="alert"></p>
+        </div>
+
+        <button class="btn btn-primary" type="submit" id="profile-save">
+          <span class="icon i-check" aria-hidden="true"></span>
+          <span>Сохранить</span>
+        </button>
+        <p class="form-status" id="profile-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="profile-actions">
+        <a class="btn btn-outline" href="app/index.html">
+          <span class="icon i-book" aria-hidden="true"></span>
+          <span>К заданиям</span>
+        </a>
+        <button class="btn btn-outline" type="button" id="logout-btn">
+          <span class="icon i-logout" aria-hidden="true"></span>
+          <span>Выйти из аккаунта</span>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/img/logo-160.png" alt="" width="52" height="52">
+        <p class="footer-name">ГДЗ НЭЛ</p>
+        <p class="footer-meta">6 класс, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
+      </div>
+      <nav class="footer-col" aria-label="Документы">
+        <h3>Документы</h3>
+        <a href="terms.html">Пользовательское соглашение</a>
+        <a href="privacy.html">Конфиденциальность</a>
+        <a href="disclaimer.html">Дисклеймер</a>
+      </nav>
+    </div>
+    <p class="footer-legal">© 2026 ГДЗ НЭЛ. Материалы предназначены для личного использования.<br>Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script type="module">
+    import { supabase, requireSession, avatarColor, escapeHtml } from './assets/supabase.js';
+
+    var session = await requireSession({ next: 'profile.html' });
+    if (!session) throw new Error('redirect');
+
+    var profile = null;
+
+    var avatarEl = document.getElementById('profile-avatar');
+    var nameEl = document.getElementById('profile-name');
+    var emailEl = document.getElementById('profile-email');
+    var badgesEl = document.getElementById('profile-badges');
+    var noteEl = document.getElementById('profile-note');
+    var form = document.getElementById('profile-form');
+    var statusEl = document.getElementById('profile-status');
+
+    function setFieldError(name, text) {
+      var field = form.querySelector('[data-field="' + name + '"]');
+      if (!field) return;
+      field.classList.toggle('has-error', !!text);
+      var err = field.querySelector('.field-error');
+      if (err) err.textContent = text || '';
+    }
+
+    form.addEventListener('input', function (event) {
+      var field = event.target.closest('.field');
+      if (field) {
+        field.classList.remove('has-error');
+        var err = field.querySelector('.field-error');
+        if (err) err.textContent = '';
+      }
+    });
+
+    function render(profile) {
+      var name = profile.username || session.user.email.split('@')[0];
+      avatarEl.textContent = String(name).trim().charAt(0).toUpperCase() || 'П';
+      avatarEl.style.background = avatarColor(name);
+      nameEl.textContent = name;
+      emailEl.textContent = session.user.email;
+
+      var badges = '';
+      if (profile.role === 'admin') badges += '<span class="badge">администратор</span> ';
+      if (profile.ban) badges += '<span class="badge is-warn">аккаунт заблокирован</span>';
+      badgesEl.innerHTML = badges;
+
+      if (profile.ban) {
+        noteEl.hidden = false;
+        noteEl.innerHTML = 'Аккаунт заблокирован: нельзя оставлять отзывы и пользоваться «решить по фото». ' +
+          'Если это ошибка — напиши на <a href="mailto:bdfy.tu@yandex.ru">bdfy.tu@yandex.ru</a>.';
+      }
+
+      document.getElementById('pf-username').value = profile.username || '';
+      document.getElementById('pf-age').value = profile.age == null ? '' : profile.age;
+      document.getElementById('pf-gender').value = profile.gender || '';
+      document.getElementById('pf-subject').value = profile.favorite_subject || '';
+      form.hidden = false;
+      document.title = name + ' — профиль — ГДЗ НЭЛ';
+    }
+
+    // профиль должен существовать (создаётся триггером при регистрации);
+    // на всякий случай переживаем его отсутствие
+    var res = await supabase.from('profiles').select('*').eq('id', session.user.id).single();
+    if (res.error || !res.data) {
+      emailEl.textContent = session.user.email;
+      noteEl.hidden = false;
+      noteEl.textContent = 'Не получилось загрузить профиль. Обнови страницу или напиши на bdfy.tu@yandex.ru.';
+      throw new Error('no profile');
+    }
+    profile = res.data;
+    render(profile);
+
+    form.addEventListener('submit', async function (event) {
+      event.preventDefault();
+      statusEl.textContent = '';
+      statusEl.className = 'form-status';
+
+      var username = document.getElementById('pf-username').value.trim();
+      var ageRaw = document.getElementById('pf-age').value.trim();
+      var age = ageRaw ? parseInt(ageRaw, 10) : null;
+      var gender = document.getElementById('pf-gender').value;
+      var subject = document.getElementById('pf-subject').value;
+
+      if (username.length < 2) { setFieldError('username', 'Логин — от 2 символов.'); return; }
+      if (ageRaw && (isNaN(age) || age < 6 || age > 120)) { setFieldError('age', 'Возраст — число от 6 до 120.'); return; }
+
+      var btn = document.getElementById('profile-save');
+      btn.disabled = true;
+      try {
+        var upd = await supabase.from('profiles')
+          .update({ username: username, age: age, gender: gender || null, favorite_subject: subject || null })
+          .eq('id', session.user.id)
+          .select('*')
+          .single();
+        if (upd.error) {
+          statusEl.className = 'form-status is-err';
+          statusEl.textContent = 'Не получилось сохранить: ' + upd.error.message;
+          return;
+        }
+        profile = upd.data;
+        render(profile);
+        statusEl.className = 'form-status is-ok';
+        statusEl.textContent = 'Сохранено!';
+      } catch (err) {
+        statusEl.className = 'form-status is-err';
+        statusEl.textContent = 'Нет связи с сервером. Попробуй ещё раз.';
+      } finally {
+        btn.disabled = false;
+      }
+    });
+
+    document.getElementById('logout-btn').addEventListener('click', async function () {
+      await supabase.auth.signOut();
+      location.replace('index.html');
+    });
+  </script>
+</body>
+</html>

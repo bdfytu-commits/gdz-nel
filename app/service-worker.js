@@ -6,7 +6,7 @@
      - переходы по странице — сеть, офлайн — index.html из кэша
    ========================================================= */
 
-const VERSION = 'gdz-nel-v2';
+const VERSION = 'gdz-nel-v3';
 const STATIC_CACHE = VERSION + '-static';
 const DATA_CACHE = VERSION + '-data';
 
@@ -19,8 +19,13 @@ const PRECACHE = [
   './data/catalog.json',
   './data/stats.json',
   '../index.html',
+  '../auth.html',
+  '../profile.html',
+  '../photo.html',
+  '../terms.html',
   '../assets/style.css',
   '../assets/script.js',
+  '../assets/supabase.js',
   '../favicon.ico',
   '../favicon.svg',
   '../assets/img/logo.png',
@@ -34,8 +39,11 @@ const PRECACHE = [
   '../assets/img/icons/android.svg',
   '../assets/img/icons/arrow-left.svg',
   '../assets/img/icons/arrow-right.svg',
+  '../assets/img/icons/ban.svg',
   '../assets/img/icons/biology.svg',
   '../assets/img/icons/book.svg',
+  '../assets/img/icons/camera.svg',
+  '../assets/img/icons/chart.svg',
   '../assets/img/icons/check.svg',
   '../assets/img/icons/chevron-down.svg',
   '../assets/img/icons/chevron-right.svg',
@@ -46,21 +54,28 @@ const PRECACHE = [
   '../assets/img/icons/download.svg',
   '../assets/img/icons/english.svg',
   '../assets/img/icons/external.svg',
+  '../assets/img/icons/eye.svg',
   '../assets/img/icons/flag.svg',
   '../assets/img/icons/history.svg',
   '../assets/img/icons/home.svg',
+  '../assets/img/icons/image.svg',
   '../assets/img/icons/info.svg',
+  '../assets/img/icons/logout.svg',
   '../assets/img/icons/mail.svg',
   '../assets/img/icons/math.svg',
+  '../assets/img/icons/message.svg',
   '../assets/img/icons/moon.svg',
   '../assets/img/icons/russian.svg',
   '../assets/img/icons/search.svg',
+  '../assets/img/icons/send.svg',
   '../assets/img/icons/share.svg',
   '../assets/img/icons/social.svg',
+  '../assets/img/icons/sparkles.svg',
   '../assets/img/icons/star-filled.svg',
   '../assets/img/icons/star.svg',
   '../assets/img/icons/sun.svg',
-  '../assets/img/icons/trash.svg'
+  '../assets/img/icons/trash.svg',
+  '../assets/img/icons/user.svg'
 ];
 
 self.addEventListener('install', (event) => {

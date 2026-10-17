@@ -1,0 +1,12 @@
+# ГДЗ НЭЛ — конфиг Supabase CLI.
+# project_id нужен локальному стеку; для деплоя — `supabase link --project-ref qncqeoklwblztbnoktwk`.
+
+project_id = "qncqeoklwblztbnoktwk"
+
+# moderate-review вызывает база (вебхук pg_net) — JWT не передаётся.
+[functions.moderate-review]
+verify_jwt = false
+
+# solve-photo вызывает браузер залогиненного пользователя — JWT обязателен.
+[functions.solve-photo]
+verify_jwt = true

@@ -1,108 +1,133 @@
 {
-  "subjects": [
+  "grades": [
     {
-      "id": "math",
-      "title": "Математика",
+      "id": "6",
+      "title": "6 класс",
       "active": true,
-      "textbooks": [
+      "subjects": [
         {
-          "id": "vilenkin-6-1",
-          "title": "Виленкин. Часть 1",
-          "author": "Виленкин Н.Я., Жохов В.И., Чесноков А.С.",
-          "year": "2021–2026",
-          "file": "math/vilenkin-6-1.json"
+          "id": "math",
+          "title": "Математика",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "vilenkin-6-1",
+              "title": "Виленкин. Часть 1",
+              "author": "Виленкин Н.Я., Жохов В.И., Чесноков А.С.",
+              "year": "2021–2026",
+              "file": "math/vilenkin-6-1.json"
+            },
+            {
+              "id": "vilenkin-6-2",
+              "title": "Виленкин. Часть 2",
+              "author": "Виленкин Н.Я., Жохов В.И., Чесноков А.С.",
+              "year": "2021–2026",
+              "file": "math/vilenkin-6-2.json"
+            }
+          ],
+          "icon": "math"
         },
         {
-          "id": "vilenkin-6-2",
-          "title": "Виленкин. Часть 2",
-          "author": "Виленкин Н.Я., Жохов В.И., Чесноков А.С.",
-          "year": "2021–2026",
-          "file": "math/vilenkin-6-2.json"
-        }
-      ],
-      "icon": "math"
-    },
-    {
-      "id": "russian",
-      "title": "Русский язык",
-      "active": true,
-      "textbooks": [
-        {
-          "id": "ladyzhenskaya-6-1",
-          "title": "Ладыженская. Часть 1",
-          "author": "Ладыженская Т.А., Баранов М.Т., Тростенцова Л.А.",
-          "year": "2023",
-          "file": "russian/ladyzhenskaya-6-1.json"
+          "id": "russian",
+          "title": "Русский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "ladyzhenskaya-6-1",
+              "title": "Ладыженская. Часть 1",
+              "author": "Ладыженская Т.А., Баранов М.Т., Тростенцова Л.А.",
+              "year": "2023",
+              "file": "russian/ladyzhenskaya-6-1.json"
+            },
+            {
+              "id": "ladyzhenskaya-6-2",
+              "title": "Ладыженская. Часть 2",
+              "author": "Ладыженская Т.А., Баранов М.Т., Тростенцова Л.А.",
+              "year": "2023",
+              "file": "russian/ladyzhenskaya-6-2.json"
+            }
+          ],
+          "icon": "russian"
         },
         {
-          "id": "ladyzhenskaya-6-2",
-          "title": "Ладыженская. Часть 2",
-          "author": "Ладыженская Т.А., Баранов М.Т., Тростенцова Л.А.",
-          "year": "2023",
-          "file": "russian/ladyzhenskaya-6-2.json"
+          "id": "english",
+          "title": "Английский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "vaulina-6",
+              "title": "Spotlight (Ваулина)",
+              "author": "Ваулина Ю.Е., Дули Д., Подоляко О.Е.",
+              "year": "2026",
+              "file": "english/vaulina-6.json"
+            }
+          ],
+          "icon": "english"
+        },
+        {
+          "id": "biology",
+          "title": "Биология",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "pasechnik-6",
+              "title": "Пасечник",
+              "author": "Пасечник В.В., Суматохин С.В., Гапонюк З.Г.",
+              "year": "2023–2024",
+              "file": "biology/pasechnik-6.json"
+            }
+          ],
+          "icon": "biology"
+        },
+        {
+          "id": "history",
+          "title": "История",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "medinsky-6",
+              "title": "Мединский. История Средних веков",
+              "author": "Мединский В.Р., Чубарьян А.О.",
+              "year": "2025",
+              "file": "history/medinsky-6.json"
+            }
+          ],
+          "icon": "history"
+        },
+        {
+          "id": "social",
+          "title": "Обществознание",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "bogolyubov-6",
+              "title": "Боголюбов",
+              "author": "Боголюбов Л.Н., Рутковская Е.Л., Иванова Л.Ф.",
+              "year": "2023",
+              "file": "social/bogolyubov-6.json"
+            }
+          ],
+          "icon": "social"
         }
-      ],
-      "icon": "russian"
+      ]
     },
     {
-      "id": "english",
-      "title": "Английский язык",
-      "active": true,
-      "textbooks": [
-        {
-          "id": "vaulina-6",
-          "title": "Spotlight (Ваулина)",
-          "author": "Ваулина Ю.Е., Дули Д., Подоляко О.Е.",
-          "year": "2026",
-          "file": "english/vaulina-6.json"
-        }
-      ],
-      "icon": "english"
+      "id": "7",
+      "title": "7 класс",
+      "active": false,
+      "subjects": []
     },
     {
-      "id": "biology",
-      "title": "Биология",
-      "active": true,
-      "textbooks": [
-        {
-          "id": "pasechnik-6",
-          "title": "Пасечник",
-          "author": "Пасечник В.В., Суматохин С.В., Гапонюк З.Г.",
-          "year": "2023–2024",
-          "file": "biology/pasechnik-6.json"
-        }
-      ],
-      "icon": "biology"
+      "id": "8",
+      "title": "8 класс",
+      "active": false,
+      "subjects": []
     },
     {
-      "id": "history",
-      "title": "История",
-      "active": true,
-      "textbooks": [
-        {
-          "id": "medinsky-6",
-          "title": "Мединский. История Средних веков",
-          "author": "Мединский В.Р., Чубарьян А.О.",
-          "year": "2025",
-          "file": "history/medinsky-6.json"
-        }
-      ],
-      "icon": "history"
-    },
-    {
-      "id": "social",
-      "title": "Обществознание",
-      "active": true,
-      "textbooks": [
-        {
-          "id": "bogolyubov-6",
-          "title": "Боголюбов",
-          "author": "Боголюбов Л.Н., Рутковская Е.Л., Иванова Л.Ф.",
-          "year": "2023",
-          "file": "social/bogolyubov-6.json"
-        }
-      ],
-      "icon": "social"
+      "id": "9",
+      "title": "9 класс",
+      "active": false,
+      "subjects": []
     }
   ]
 }

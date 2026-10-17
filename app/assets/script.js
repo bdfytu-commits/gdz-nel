@@ -3,13 +3,16 @@
 /* =========================================================
    ГДЗ НЭЛ — приложение.
    Хэш-роутинг:
-     #/                      список предметов
-     #/favorites             избранное
-     #/recent                недавние
-     #/<subject>             учебники предмета
-     #/<subject>/<book>      сетка заданий
-     #/<subject>/<book>/<n>  задание
+     #/                          список классов
+     #/favorites                 избранное
+     #/recent                    недавние
+     #/<grade>                   предметы класса
+     #/<grade>/<subject>         учебники предмета
+     #/<grade>/<subject>/<book>  сетка заданий
+     #/<grade>/<subject>/<book>/<n>  задание
+   Старые ссылки без класса (#/math/...) ведут на 6 класс.
    Данные — app/data/*.json через fetch (кэш в памяти).
+   Отзывы — Supabase (window.gdzSupabase из assets/supabase.js).
    ========================================================= */
 
 (function () {
@@ -19,6 +22,8 @@
   var LS_BOOKMARKS = 'gdz-nel-bookmarks';
   var LS_HISTORY = 'gdz-nel-history';
   var LS_HINT = 'gdz-nel-hint-done';
+
+  var DEFAULT_GRADE = '6';
 
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -155,7 +160,10 @@
     try { localStorage.setItem(key, JSON.stringify(value)); } catch (err) { /* приватный режим */ }
   }
 
-  function entryKey(entry) { return entry.subject + '/' + entry.book + '/' + entry.number; }
+  // записи без класса — из старых версий приложения (тогда был только 6 класс)
+  function entryKey(entry) {
+    return (entry.grade || DEFAULT_GRADE) + '/' + entry.subject + '/' + entry.book + '/' + entry.number;
+  }
 
   function getBookmarks() { return storeGet(LS_BOOKMARKS, []); }
 
@@ -219,35 +227,50 @@
     });
   }
 
-  function findSubject(id) {
-    return loadCatalog().then(function (cat) {
-      return cat.subjects.filter(function (s) { return s.id === id; })[0] || null;
-    });
+  function findGrade(cat, id) {
+    var list = (cat && cat.grades) || [];
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].id === id) return list[i];
+    }
+    return null;
+  }
+
+  function findSubject(grade, id) {
+    var list = (grade && grade.subjects) || [];
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].id === id) return list[i];
+    }
+    return null;
   }
 
   function findBook(subject, id) {
     return (subject.textbooks || []).filter(function (b) { return b.id === id; })[0] || null;
   }
 
-  // все задания всех учебников — для глобального поиска
+  // все задания всех активных классов и учебников — для глобального поиска
   function loadAllTasks() {
     if (allTasks) return Promise.resolve(allTasks);
     return loadCatalog().then(function (cat) {
       var jobs = [];
-      cat.subjects.forEach(function (s) {
-        (s.textbooks || []).forEach(function (b) {
-          jobs.push(loadBook(b.file).then(function (book) {
-            return (book.tasks || []).map(function (t) {
-              return {
-                subject: s.id,
-                subjectTitle: s.title,
-                book: b.id,
-                bookTitle: b.title,
-                number: t.number,
-                condition: t.condition || ''
-              };
-            });
-          }));
+      (cat.grades || []).forEach(function (g) {
+        if (g.active === false) return;
+        (g.subjects || []).forEach(function (s) {
+          if (s.active === false) return;
+          (s.textbooks || []).forEach(function (b) {
+            jobs.push(loadBook(b.file).then(function (book) {
+              return (book.tasks || []).map(function (t) {
+                return {
+                  grade: g.id,
+                  subject: s.id,
+                  subjectTitle: s.title,
+                  book: b.id,
+                  bookTitle: b.title,
+                  number: t.number,
+                  condition: t.condition || ''
+                };
+              });
+            }));
+          });
         });
       });
       return Promise.all(jobs).then(function (chunks) {
@@ -370,27 +393,43 @@
     if (parts[0] === 'favorites') return renderList('favorites');
     if (parts[0] === 'recent') return renderList('recent');
 
-    return findSubject(parts[0]).then(function (subject) {
+    return loadCatalog().then(function (cat) {
       if (token !== renderToken) return;
+
+      var grade = findGrade(cat, parts[0]);
+      if (!grade) {
+        // старые ссылки без класса: #/math/... ведут на 6 класс
+        var legacySubject = findSubject(findGrade(cat, DEFAULT_GRADE), parts[0]);
+        if (legacySubject) {
+          location.replace('#/' + DEFAULT_GRADE + '/' + parts.map(encodeURIComponent).join('/'));
+          return;
+        }
+        return renderNotFound('Такого раздела нет.');
+      }
+
+      var rest = parts.slice(1);
+      if (!rest.length) return renderGrade(grade, token);
+
+      var subject = findSubject(grade, rest[0]);
       if (!subject) return renderNotFound('Такого предмета нет.');
       if (subject.active === false) return renderNotFound('Этот предмет пока не заполнен.');
 
       // предмет с одним учебником открываем сразу на сетке
-      if (parts.length === 1) {
+      if (rest.length === 1) {
         var books = subject.textbooks || [];
         if (books.length === 1) {
-          location.replace('#/' + subject.id + '/' + books[0].id);
+          location.replace('#/' + grade.id + '/' + subject.id + '/' + books[0].id);
           return;
         }
-        return renderSubject(subject);
+        return renderSubject(grade, subject);
       }
 
-      var bookRef = findBook(subject, parts[1]);
+      var bookRef = findBook(subject, rest[1]);
       if (!bookRef) return renderNotFound('Такого учебника нет.');
 
-      if (parts.length === 2) return renderTasks(subject, bookRef, token);
+      if (rest.length === 2) return renderTasks(grade, subject, bookRef, token);
 
-      return renderTask(subject, bookRef, parts[2], token);
+      return renderTask(grade, subject, bookRef, rest[2], token);
     });
   }
 
@@ -398,12 +437,12 @@
     document.title = 'Ничего не найдено — ГДЗ НЭЛ';
     screenEl.innerHTML = '<h1 class="panel-title">Ничего не найдено</h1>' +
       '<p class="panel-sub">' + esc(message) + '</p>' +
-      '<p><a class="btn btn-outline" href="#/"><span class="icon i-arrow-left" aria-hidden="true"></span><span>К предметам</span></a></p>';
+      '<p><a class="btn btn-outline" href="#/"><span class="icon i-arrow-left" aria-hidden="true"></span><span>К классам</span></a></p>';
     return Promise.resolve();
   }
 
   /* =========================================================
-     экран: предметы
+     экран: классы
      ========================================================= */
 
   function renderHome(token) {
@@ -412,15 +451,68 @@
       var cat = res[0];
       var stats = res[1];
 
-      document.title = 'ГДЗ НЭЛ — готовые домашние задания для 6 класса';
+      document.title = 'ГДЗ НЭЛ — готовые домашние задания';
 
-      var html = '<h1 class="panel-title">Предметы</h1>' +
-        '<p class="panel-sub">6 класс, 2026–2027 учебный год. Выбери предмет, затем учебник и номер задания.</p>' +
+      var html = '<h1 class="panel-title">Классы</h1>' +
+        '<p class="panel-sub">2026–2027 учебный год. Выбери класс, затем предмет и номер задания. Обычные ГДЗ открыты без входа.</p>' +
         '<div class="subject-grid">';
 
-      cat.subjects.forEach(function (s) {
+      (cat.grades || []).forEach(function (g) {
+        var gstats = stats && stats.grades && stats.grades[g.id] ? stats.grades[g.id] : null;
+        var subjects = (g.subjects || []).length;
+        var icon = '<span class="subject-icon"><span class="icon i-book" aria-hidden="true"></span></span>';
+
+        if (g.active === false) {
+          html += '<div class="subject-card is-soon">' + icon +
+            '<span class="subject-soon">собирается</span>' +
+            '<span class="subject-name">' + esc(g.title) + '</span>' +
+            '<span class="subject-meta">материалы готовятся</span></div>';
+        } else {
+          html += '<a class="subject-card" href="#/' + esc(g.id) + '">' + icon +
+            '<span class="subject-name">' + esc(g.title) + '</span>' +
+            '<span class="subject-meta">' + subjects + ' ' + plural(subjects, 'предмет', 'предмета', 'предметов') + '</span>' +
+            '<span class="subject-foot"><span>' + (gstats ? tasksWord(gstats.total) : 'задания') + '</span>' +
+            '<span class="icon i-chevron-right" aria-hidden="true"></span></span></a>';
+        }
+      });
+
+      html += '</div>';
+      screenEl.innerHTML = html;
+    });
+  }
+
+  /* =========================================================
+     экран: предметы класса
+     ========================================================= */
+
+  function renderGrade(grade, token) {
+    return loadStats().then(function (stats) {
+      if (token !== renderToken) return;
+
+      var crumbs = '<nav class="crumbs" aria-label="Навигация">' +
+        '<a href="#/">Главная</a><span class="crumb-sep">/</span>' +
+        '<span>' + esc(grade.title) + '</span></nav>';
+
+      document.title = grade.title + ' — ГДЗ НЭЛ';
+
+      if (grade.active === false) {
+        screenEl.innerHTML = crumbs +
+          '<h1 class="panel-title">' + esc(grade.title) + '</h1>' +
+          '<p class="panel-sub">Материалы для этого класса ещё собираются. Мы не выдумываем решения: задания появятся здесь, когда их соберут и проверят.</p>' +
+          '<p><a class="btn btn-outline" href="#/"><span class="icon i-arrow-left" aria-hidden="true"></span><span>К классам</span></a></p>';
+        return;
+      }
+
+      var gstats = stats && stats.grades && stats.grades[grade.id] ? stats.grades[grade.id] : null;
+
+      var html = crumbs +
+        '<h1 class="panel-title">' + esc(grade.title) + '</h1>' +
+        '<p class="panel-sub">Выбери предмет, затем учебник и номер задания.</p>' +
+        '<div class="subject-grid">';
+
+      (grade.subjects || []).forEach(function (s) {
         var books = (s.textbooks || []).length;
-        var count = stats && stats.subjects && stats.subjects[s.id] ? stats.subjects[s.id].tasks : null;
+        var count = gstats && gstats.subjects && gstats.subjects[s.id] ? gstats.subjects[s.id].tasks : null;
         var icon = '<span class="subject-icon"><span class="icon i-' + esc(s.icon || s.id) + '" aria-hidden="true"></span></span>';
         var meta = '<span class="subject-meta">' + booksWord(books) + '</span>';
         var foot = '<span class="subject-foot"><span>' +
@@ -433,7 +525,7 @@
             '<span class="subject-name">' + esc(s.title) + '</span>' +
             meta + '<span class="subject-foot"><span>готовится</span></span></div>';
         } else {
-          html += '<a class="subject-card" href="#/' + esc(s.id) + '">' + icon +
+          html += '<a class="subject-card" href="#/' + esc(grade.id) + '/' + esc(s.id) + '">' + icon +
             '<span class="subject-name">' + esc(s.title) + '</span>' +
             meta + foot + '</a>';
         }
@@ -448,12 +540,14 @@
      экран: учебники
      ========================================================= */
 
-  function renderSubject(subject) {
+  function renderSubject(grade, subject) {
     return loadStats().then(function (stats) {
-      document.title = subject.title + ' — ГДЗ НЭЛ';
+      document.title = subject.title + ' — ' + grade.title + ' — ГДЗ НЭЛ';
+      var gstats = stats && stats.grades && stats.grades[grade.id] ? stats.grades[grade.id] : null;
 
       var html = '<nav class="crumbs" aria-label="Навигация">' +
         '<a href="#/">Главная</a><span class="crumb-sep">/</span>' +
+        '<a href="#/' + esc(grade.id) + '">' + esc(grade.title) + '</a><span class="crumb-sep">/</span>' +
         '<span>' + esc(subject.title) + '</span></nav>' +
         '<h1 class="panel-title">' + esc(subject.title) + '</h1>' +
         '<p class="panel-sub">Выбери учебник или часть.</p>' +
@@ -461,12 +555,12 @@
 
       (subject.textbooks || []).forEach(function (b) {
         var partMatch = /Часть\s*(\d)/.exec(b.title);
-        var partLabel = partMatch ? ('ч. ' + partMatch[1]) : '6 класс';
+        var partLabel = partMatch ? ('ч. ' + partMatch[1]) : grade.title;
         var count = null;
-        if (stats && stats.books && typeof stats.books[b.file] === 'number') {
-          count = stats.books[b.file];
+        if (gstats && gstats.books && typeof gstats.books[b.file] === 'number') {
+          count = gstats.books[b.file];
         }
-        html += '<a class="bookcard" href="#/' + esc(subject.id) + '/' + esc(b.id) + '">' +
+        html += '<a class="bookcard" href="#/' + esc(grade.id) + '/' + esc(subject.id) + '/' + esc(b.id) + '">' +
           '<span class="bookcover"><span class="icon i-' + esc(subject.icon || subject.id) + '" aria-hidden="true"></span>' +
           '<span class="bookcover-part">' + esc(partLabel) + '</span></span>' +
           '<span class="bookmeta"><h2>' + esc(b.title) + '</h2>' +
@@ -484,7 +578,7 @@
      экран: сетка заданий
      ========================================================= */
 
-  function renderTasks(subject, bookRef, token) {
+  function renderTasks(grade, subject, bookRef, token) {
     return loadBook(bookRef.file).then(function (book) {
       if (token !== renderToken) return;
 
@@ -493,7 +587,8 @@
 
       var html = '<nav class="crumbs" aria-label="Навигация">' +
         '<a href="#/">Главная</a><span class="crumb-sep">/</span>' +
-        '<a href="#/' + esc(subject.id) + '">' + esc(subject.title) + '</a><span class="crumb-sep">/</span>' +
+        '<a href="#/' + esc(grade.id) + '">' + esc(grade.title) + '</a><span class="crumb-sep">/</span>' +
+        '<a href="#/' + esc(grade.id) + '/' + esc(subject.id) + '">' + esc(subject.title) + '</a><span class="crumb-sep">/</span>' +
         '<span>' + esc(bookRef.title) + '</span></nav>' +
         '<h1 class="panel-title">' + esc(bookRef.title) + '</h1>' +
         '<p class="panel-sub">' + esc(bookRef.author || '') + '</p>';
@@ -552,7 +647,7 @@
         html += '<div class="task-grid">';
         g.cells.forEach(function (cell) {
           if (cell.task) {
-            html += '<a class="task-cell" href="#/' + esc(subject.id) + '/' + esc(bookRef.id) + '/' +
+            html += '<a class="task-cell" href="#/' + esc(grade.id) + '/' + esc(subject.id) + '/' + esc(bookRef.id) + '/' +
               encodeURIComponent(cell.number) + '" ' +
               'data-number="' + esc(cell.number) + '" aria-label="Задание ' + esc(cell.number) + '">' +
               '<span>' + esc(cell.number) + '</span></a>';
@@ -627,7 +722,7 @@
      экран: задание
      ========================================================= */
 
-  function renderTask(subject, bookRef, number, token) {
+  function renderTask(grade, subject, bookRef, number, token) {
     return loadBook(bookRef.file).then(function (book) {
       if (token !== renderToken) return;
 
@@ -641,7 +736,7 @@
       var prev = index > 0 ? tasks[index - 1] : null;
       var next = index < tasks.length - 1 ? tasks[index + 1] : null;
 
-      var base = '#/' + subject.id + '/' + bookRef.id;
+      var base = '#/' + grade.id + '/' + subject.id + '/' + bookRef.id;
       var taskLabel = 'Задание ' + task.number;
 
       currentTask = {
@@ -653,6 +748,7 @@
       document.title = taskLabel + ' — ' + subject.title + ' — ГДЗ НЭЛ';
 
       var entry = {
+        grade: grade.id,
         subject: subject.id,
         book: bookRef.id,
         number: task.number,
@@ -665,7 +761,8 @@
 
       var html = '<nav class="crumbs" aria-label="Навигация">' +
         '<a href="#/">Главная</a><span class="crumb-sep">/</span>' +
-        '<a href="#/' + esc(subject.id) + '">' + esc(subject.title) + '</a><span class="crumb-sep">/</span>' +
+        '<a href="#/' + esc(grade.id) + '">' + esc(grade.title) + '</a><span class="crumb-sep">/</span>' +
+        '<a href="#/' + esc(grade.id) + '/' + esc(subject.id) + '">' + esc(subject.title) + '</a><span class="crumb-sep">/</span>' +
         '<a href="' + base + '">' + esc(bookRef.title) + '</a><span class="crumb-sep">/</span>' +
         '<span>' + taskLabel + '</span></nav>' +
         '<div class="task-view">' +
@@ -711,6 +808,8 @@
           : '<span class="btn btn-outline is-disabled" aria-hidden="true">' +
             '<span>Вперёд</span><span class="icon i-arrow-right"></span></span>') +
         '</nav>' +
+
+        reviewsSectionHtml() +
         '</div>';
 
       screenEl.innerHTML = html;
@@ -749,6 +848,9 @@
         });
       });
 
+      // отзывы к заданию
+      renderReviews({ taskId: bookRef.id + ':' + task.number }, token);
+
       // подсказка о клавишах — один раз
       if (!storeGet(LS_HINT, false)) hintEl.hidden = false;
     });
@@ -769,6 +871,211 @@
     var subjectLine = 'Ошибка в задании ' + entry.number + ' учебника ' + entry.book;
     var body = 'Ссылка: ' + location.href + '\n\nОпиши ошибку: ';
     return 'mailto:bdfy.tu@yandex.ru?subject=' + encodeURIComponent(subjectLine) + '&body=' + encodeURIComponent(body);
+  }
+
+  /* =========================================================
+     отзывы (Supabase)
+     ========================================================= */
+
+  // модуль supabase.js отдаёт window.gdzSupabase; если он не загрузился
+  // (офлайн, CDN недоступен) — через 6 секунд сдаёмся и показываем заглушку
+  var supaPromise = new Promise(function (resolve) {
+    if (window.gdzSupabase) { resolve(window.gdzSupabase); return; }
+    var timer = setTimeout(function () { resolve(window.gdzSupabase || null); }, 6000);
+    window.addEventListener('gdz-supabase-ready', function () {
+      clearTimeout(timer);
+      resolve(window.gdzSupabase || null);
+    }, { once: true });
+  });
+
+  function authHref() {
+    return '../auth.html?next=' + encodeURIComponent('app/index.html' + location.hash);
+  }
+
+  function starsHtml(n) {
+    var html = '';
+    for (var i = 1; i <= 5; i++) {
+      html += '<span class="icon ' + (i <= n ? 'i-star-filled' : 'i-star') + '" aria-hidden="true"></span>';
+    }
+    return html;
+  }
+
+  function reviewsSectionHtml() {
+    return '<section class="reviews no-print" id="reviews" aria-label="Отзывы к заданию">' +
+      '<div class="reviews-head"><h2>Отзывы</h2><span class="reviews-count" id="reviews-count"></span></div>' +
+      '<div class="reviews-list" id="reviews-list"><p class="empty">Загружаю отзывы…</p></div>' +
+      '<div id="review-form-wrap"></div>' +
+      '</section>';
+  }
+
+  function reviewCard(r, lib, mine) {
+    var name = r.username || 'Аноним';
+    var initial = String(name).trim().charAt(0).toUpperCase() || 'А';
+    var badge = '';
+    if (mine) {
+      if (r.ai_status === 'pending') badge = '<span class="review-mine-badge is-pending">на проверке ИИ</span>';
+      else if (r.ai_status === 'rejected') badge = '<span class="review-mine-badge is-rejected">отклонён</span>';
+      else badge = '<span class="review-mine-badge is-approved">опубликован</span>';
+    }
+    return '<article class="review' + (mine ? ' is-mine' : '') + (r.ai_status === 'pending' ? ' is-pending' : '') + '">' +
+      '<span class="review-avatar" style="background:' + lib.avatarColor(name) + '" aria-hidden="true">' + esc(initial) + '</span>' +
+      '<div class="review-body">' +
+      '<div class="review-top"><span class="review-name">' + esc(name) + '</span>' +
+      '<span class="review-stars" aria-label="Оценка: ' + r.rating + ' из 5">' + starsHtml(r.rating) + '</span>' +
+      badge +
+      '<time class="review-date">' + esc(formatDate(r.created_at)) + '</time></div>' +
+      '<p class="review-text">' + esc(r.text).replace(/\n/g, '<br>') + '</p>' +
+      '</div></article>';
+  }
+
+  function renderReviews(ctx, token) {
+    var listEl = byId('reviews-list');
+    if (!listEl) return;
+
+    supaPromise.then(function (lib) {
+      if (token !== renderToken) return;
+
+      if (!lib) {
+        listEl.innerHTML = '<p class="empty">Отзывы недоступны: не удалось подключиться к серверу. Проверь интернет и обнови страницу.</p>';
+        return;
+      }
+
+      var db = lib.supabase;
+
+      async function load() {
+        var session = await lib.getSession();
+        var res = await db.from('reviews').select('*').eq('task_id', ctx.taskId)
+          .order('created_at', { ascending: false }).limit(50);
+        if (token !== renderToken) return;
+
+        if (res.error) {
+          listEl.innerHTML = '<p class="empty">Не получилось загрузить отзывы. Попробуй обновить страницу.</p>';
+          return;
+        }
+
+        var rows = res.data || [];
+        var approved = rows.filter(function (r) { return r.is_approved; });
+        var mine = session ? rows.filter(function (r) { return r.user_id === session.user.id; })[0] : null;
+
+        var countEl = byId('reviews-count');
+        if (countEl) {
+          countEl.textContent = approved.length
+            ? approved.length + ' ' + plural(approved.length, 'отзыв', 'отзыва', 'отзывов')
+            : '';
+        }
+
+        listEl.innerHTML = approved.length
+          ? approved.map(function (r) { return reviewCard(r, lib, false); }).join('')
+          : '<p class="empty">Отзывов пока нет. Оставь первый — он поможет другим.</p>';
+
+        renderReviewForm(lib, db, session, mine, ctx, token);
+      }
+      load();
+    });
+  }
+
+  function renderReviewForm(lib, db, session, mine, ctx, token) {
+    var wrap = byId('review-form-wrap');
+    if (!wrap) return;
+
+    if (!session) {
+      wrap.innerHTML = '<p class="review-login">Чтобы оставить отзыв, <a href="' + authHref() + '">войди в аккаунт</a>.</p>';
+      return;
+    }
+
+    if (mine) {
+      var note = mine.ai_status === 'pending'
+        ? 'ИИ ещё проверяет отзыв — обычно это занимает меньше минуты. Обнови страницу чуть позже.'
+        : mine.ai_status === 'approved'
+          ? 'Опубликован. Спасибо!'
+          : 'Отклонён модерацией: отзывы с нарушениями правил не публикуются.';
+      wrap.innerHTML = '<div class="review-form is-mine-note">' +
+        '<p class="review-form-label">Твой отзыв</p>' +
+        reviewCard(mine, lib, true) +
+        '<p class="review-note">' + note + '</p>' +
+        '</div>';
+      return;
+    }
+
+    var rating = 5;
+
+    wrap.innerHTML =
+      '<form class="review-form" id="review-form" novalidate>' +
+      '<div class="review-form-row"><span class="review-form-label">Оценка:</span>' +
+      '<div class="star-picker" id="star-picker" role="group" aria-label="Оценка от 1 до 5">' +
+      [1, 2, 3, 4, 5].map(function (i) {
+        return '<button class="star-btn' + (i <= rating ? ' is-on' : '') + '" type="button" data-value="' + i +
+          '" aria-pressed="' + (i <= rating) + '" aria-label="' + i + ' из 5">' +
+          '<span class="icon i-star-filled" aria-hidden="true"></span></button>';
+      }).join('') +
+      '</div></div>' +
+      '<textarea id="review-text" maxlength="2000" placeholder="Понятно ли решение? Есть замечания? Отзыв проверит ИИ-модератор." required></textarea>' +
+      '<div class="review-form-foot">' +
+      '<button class="btn btn-primary btn-sm" type="submit" id="review-submit">' +
+      '<span class="icon i-send" aria-hidden="true"></span><span>Отправить</span></button>' +
+      '<p class="form-status" id="review-status" role="status" aria-live="polite"></p>' +
+      '</div></form>';
+
+    var picker = byId('star-picker');
+    picker.addEventListener('click', function (event) {
+      var btn = event.target.closest ? event.target.closest('.star-btn') : null;
+      if (!btn) return;
+      rating = Number(btn.getAttribute('data-value'));
+      Array.prototype.forEach.call(picker.querySelectorAll('.star-btn'), function (b) {
+        var on = Number(b.getAttribute('data-value')) <= rating;
+        b.classList.toggle('is-on', on);
+        b.setAttribute('aria-pressed', String(on));
+      });
+    });
+
+    byId('review-form').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      var textEl = byId('review-text');
+      var statusEl = byId('review-status');
+      var text = textEl.value.trim();
+
+      statusEl.className = 'form-status';
+      statusEl.textContent = '';
+
+      if (text.length < 3) {
+        statusEl.className = 'form-status is-err';
+        statusEl.textContent = 'Напиши хотя бы пару слов (минимум 3 символа).';
+        textEl.focus();
+        return;
+      }
+
+      var btn = byId('review-submit');
+      btn.disabled = true;
+      statusEl.textContent = 'Отправляю…';
+
+      db.from('reviews').insert({
+        task_id: ctx.taskId,
+        user_id: session.user.id,
+        rating: rating,
+        text: text
+      }).select('*').single().then(function (res) {
+        btn.disabled = false;
+        if (res.error) {
+          statusEl.className = 'form-status is-err';
+          var message = String(res.error.message || '');
+          statusEl.textContent = message.indexOf('row-level security') !== -1
+            ? 'Не получилось: возможно, аккаунт заблокирован или отзыв уже отправлен.'
+            : 'Не получилось отправить отзыв. Попробуй ещё раз.';
+          return;
+        }
+        showToast('Отзыв отправлен на проверку ИИ');
+        renderReviewForm(lib, db, session, res.data, ctx, token);
+        // ИИ-модерация обычно успевает за несколько секунд — обновим блок
+        setTimeout(function () {
+          if (token === renderToken) renderReviews(ctx, token);
+        }, 6000);
+      }).catch(function () {
+        btn.disabled = false;
+        statusEl.className = 'form-status is-err';
+        statusEl.textContent = 'Нет связи с сервером. Попробуй ещё раз.';
+      });
+    });
   }
 
   /* =========================================================
@@ -803,7 +1110,7 @@
       '<ul class="list">';
 
     items.forEach(function (item, i) {
-      var url = '#/' + item.subject + '/' + item.book + '/' + item.number;
+      var url = '#/' + (item.grade || DEFAULT_GRADE) + '/' + item.subject + '/' + item.book + '/' + item.number;
       html += '<li class="list-item">' +
         '<span class="subject-icon" style="width:40px;height:40px"><span class="icon i-' + esc(item.subject) + '" aria-hidden="true"></span></span>' +
         '<div class="list-main">' +
@@ -880,7 +1187,7 @@
       } else {
         html += '<ul class="list">';
         found.forEach(function (item) {
-          var url = '#/' + item.subject + '/' + item.book + '/' + item.number;
+          var url = '#/' + item.grade + '/' + item.subject + '/' + item.book + '/' + item.number;
           html += '<li class="list-item">' +
             '<span class="subject-icon" style="width:40px;height:40px"><span class="icon i-' + esc(item.subject) + '" aria-hidden="true"></span></span>' +
             '<div class="list-main">' +
@@ -908,7 +1215,7 @@
 
     var parts = currentParts();
     // на сетке заданий: цифры фильтруют номера, текст ищется глобально
-    if (parts.length === 2 && /^\d+(?:[.,]\d+)?$/.test(query)) {
+    if (parts.length === 3 && /^\d+(?:[.,]\d+)?$/.test(query)) {
       applyTaskFilter(query.replace(',', '.'));
       return;
     }

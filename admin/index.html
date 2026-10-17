@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Админка — ГДЗ НЭЛ</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#3C3C3C">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
+
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin-body">
+
+  <p class="admin-loading" id="admin-loading">Проверяю доступ…</p>
+
+  <div class="admin-denied" id="admin-denied" hidden>
+    <div class="admin-denied-card">
+      <span class="icon i-ban icon-lg" aria-hidden="true"></span>
+      <h1>Доступ только для администратора</h1>
+      <p>Эта страница открыта для аккаунтов с ролью «admin». Если это ошибка — напиши на
+        <a href="mailto:bdfy.tu@yandex.ru">bdfy.tu@yandex.ru</a>.</p>
+      <p>
+        <a class="btn btn-outline" href="../index.html">На главную</a>
+        <a class="btn btn-primary" href="../profile.html">В профиль</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="admin" id="admin" hidden>
+    <aside class="admin-side">
+      <a class="admin-brand" href="../index.html">
+        <img src="../assets/img/logo-120.png" alt="" width="34" height="34">
+        <span>ГДЗ НЭЛ<small>админка</small></span>
+      </a>
+
+      <nav class="admin-nav" aria-label="Разделы админки">
+        <a href="#overview" data-tab="overview"><span class="icon i-chart" aria-hidden="true"></span><span>Обзор</span></a>
+        <a href="#users" data-tab="users"><span class="icon i-user" aria-hidden="true"></span><span>Пользователи</span></a>
+        <a href="#reviews" data-tab="reviews"><span class="icon i-message" aria-hidden="true"></span><span>Модерация</span></a>
+        <a href="#ai" data-tab="ai"><span class="icon i-sparkles" aria-hidden="true"></span><span>ИИ-логи</span></a>
+        <a href="#photos" data-tab="photos"><span class="icon i-camera" aria-hidden="true"></span><span>Фото-логи</span></a>
+      </nav>
+
+      <div class="admin-side-foot">
+        <button class="admin-side-btn" id="theme-toggle" type="button">
+          <span class="icon i-moon" aria-hidden="true"></span><span>Тема</span>
+        </button>
+        <a class="admin-me" href="../profile.html" title="Профиль">
+          <span class="avatar" id="admin-avatar" aria-hidden="true">А</span>
+          <span class="admin-me-name">
+            <b id="admin-name">…</b>
+            <small>администратор</small>
+          </span>
+        </a>
+        <button class="admin-side-btn" id="logout" type="button">
+          <span class="icon i-logout" aria-hidden="true"></span><span>Выйти</span>
+        </button>
+      </div>
+    </aside>
+
+    <main class="admin-main">
+      <header class="admin-top">
+        <h1 id="admin-title">Обзор</h1>
+        <a class="btn btn-outline btn-sm" href="../index.html">
+          <span class="icon i-external" aria-hidden="true"></span><span>На сайт</span>
+        </a>
+      </header>
+      <div id="admin-content" class="admin-content" aria-live="polite"></div>
+    </main>
+  </div>
+
+  <div class="admin-toast" id="admin-toast" role="status" aria-live="polite"></div>
+
+  <script>
+    // если модуль supabase не загрузился (офлайн), не оставляем вечную заглушку
+    setTimeout(function () {
+      var el = document.getElementById('admin-loading');
+      if (el && !el.hidden) {
+        el.textContent = 'Не удалось подключиться к серверу входа. Проверь интернет и обнови страницу.';
+      }
+    }, 8000);
+  </script>
+  <script type="module" src="admin.js"></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T14:20:34Z",
+  "generatedAt": "2026-10-17T16:24:41Z",
   "subjects": {
     "math": {
       "title": "Математика",
@@ -41,6 +41,76 @@
     "biology/pasechnik-6.json": 338,
     "history/medinsky-6.json": 353,
     "social/bogolyubov-6.json": 188
+  },
+  "grades": {
+    "6": {
+      "title": "6 класс",
+      "subjects": {
+        "math": {
+          "title": "Математика",
+          "icon": "math",
+          "tasks": 1567
+        },
+        "russian": {
+          "title": "Русский язык",
+          "icon": "russian",
+          "tasks": 715
+        },
+        "english": {
+          "title": "Английский язык",
+          "icon": "english",
+          "tasks": 440
+        },
+        "biology": {
+          "title": "Биология",
+          "icon": "biology",
+          "tasks": 338
+        },
+        "history": {
+          "title": "История",
+          "icon": "history",
+          "tasks": 353
+        },
+        "social": {
+          "title": "Обществознание",
+          "icon": "social",
+          "tasks": 188
+        }
+      },
+      "books": {
+        "math/vilenkin-6-1.json": 926,
+        "math/vilenkin-6-2.json": 641,
+        "russian/ladyzhenskaya-6-1.json": 383,
+        "russian/ladyzhenskaya-6-2.json": 332,
+        "english/vaulina-6.json": 440,
+        "biology/pasechnik-6.json": 338,
+        "history/medinsky-6.json": 353,
+        "social/bogolyubov-6.json": 188
+      },
+      "total": 3601,
+      "textbooks": 8
+    },
+    "7": {
+      "title": "7 класс",
+      "subjects": {},
+      "books": {},
+      "total": 0,
+      "textbooks": 0
+    },
+    "8": {
+      "title": "8 класс",
+      "subjects": {},
+      "books": {},
+      "total": 0,
+      "textbooks": 0
+    },
+    "9": {
+      "title": "9 класс",
+      "subjects": {},
+      "books": {},
+      "total": 0,
+      "textbooks": 0
+    }
   },
   "total": 3601,
   "textbooks": 8
