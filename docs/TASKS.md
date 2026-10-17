@@ -30,8 +30,8 @@
 - [x] 24. biology/pasechnik-6.json — реальные задания
 - [x] 25. history/medinsky-6.json — реальные задания
 - [x] 26. social/bogolyubov-6.json — реальные задания
-- [ ] 27. Документация: docs/README.md, docs/CHANGELOG.md, docs/PARSING.md, корневой README
-- [ ] 28. GitHub Pages deploy (.github/workflows/deploy.yml)
+- [x] 27. Документация: docs/README.md, docs/CHANGELOG.md, docs/PARSING.md, корневой README
+- [x] 28. GitHub Pages deploy (.github/workflows/deploy.yml)
 
 ## Метод наполнения (задачи 19–26) — выполнено
 
