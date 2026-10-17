@@ -2,13 +2,13 @@
 <!-- заменить USER на реальный аккаунт после деплоя (задача 28) -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://USER.github.io/gdz-nel/</loc>
+    <loc>https://bdfytu-commits.github.io/gdz-nel/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://USER.github.io/gdz-nel/app/</loc>
+    <loc>https://bdfytu-commits.github.io/gdz-nel/app/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
