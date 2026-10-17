@@ -6,7 +6,7 @@
      - переходы по странице — сеть, офлайн — index.html из кэша
    ========================================================= */
 
-const VERSION = 'gdz-nel-v1';
+const VERSION = 'gdz-nel-v2';
 const STATIC_CACHE = VERSION + '-static';
 const DATA_CACHE = VERSION + '-data';
 

@@ -47,12 +47,12 @@ def main():
         page = mobile.new_page()
         shot(page, "app-subjects.png", BASE + "/app/#/", ".subject-grid")
         shot(page, "app-tasks.png", BASE + "/app/#/math/vilenkin-6-1", ".task-grid")
-        shot(page, "app-task.png", BASE + "/app/#/math/vilenkin-6-1/12", ".task-block--answer")
+        shot(page, "app-task.png", BASE + "/app/#/math/vilenkin-6-1/1.12", ".task-block--answer")
 
         # тёмная тема
         page.goto(BASE + "/app/#/")
         page.evaluate("localStorage.setItem('gdz-nel-theme', 'dark')")
-        shot(page, "app-task-dark.png", BASE + "/app/#/math/vilenkin-6-1/12", ".task-block--answer")
+        shot(page, "app-task-dark.png", BASE + "/app/#/math/vilenkin-6-1/1.12", ".task-block--answer")
         mobile.close()
 
         # десктоп: лендинг и приложение
@@ -60,8 +60,15 @@ def main():
         page = desktop.new_page()
         shot(page, "landing-1440.png", BASE + "/", ".hero")
         shot(page, "app-home-1440.png", BASE + "/app/#/", ".subject-grid")
-        shot(page, "app-task-1440.png", BASE + "/app/#/math/vilenkin-6-1/12", ".task-block--answer")
+        shot(page, "app-task-1440.png", BASE + "/app/#/math/vilenkin-6-1/1.12", ".task-block--answer")
         desktop.close()
+
+        # og-картинка 1200×630 для соцсетей
+        og = browser.new_context(viewport={"width": 1200, "height": 630}, device_scale_factor=1,
+                                 color_scheme="light", reduced_motion="reduce")
+        og_page = og.new_page()
+        shot(og_page, "og-1200x630.png", BASE + "/", ".hero")
+        og.close()
 
         browser.close()
 

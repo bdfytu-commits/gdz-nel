@@ -258,8 +258,46 @@
     });
   }
 
+  function numberParts(num) {
+    return String(num).split(/[.\-]/).map(function (part) { return parseInt(part, 10) || 0; });
+  }
+
+  function compareTaskNumbers(a, b) {
+    var pa = numberParts(a.number);
+    var pb = numberParts(b.number);
+    var len = Math.max(pa.length, pb.length);
+    for (var i = 0; i < len; i++) {
+      var diff = (pa[i] || 0) - (pb[i] || 0);
+      if (diff) return diff;
+    }
+    var sa = String(a.number);
+    var sb = String(b.number);
+    return sa < sb ? -1 : (sa > sb ? 1 : 0);
+  }
+
   function sortedTasks(book) {
-    return (book.tasks || []).slice().sort(function (a, b) { return a.number - b.number; });
+    return (book.tasks || []).slice().sort(compareTaskNumbers);
+  }
+
+  // пропущенные номера между соседними задачами — для серых зачёркнутых кнопок
+  function missingBetween(a, b) {
+    var sa = String(a);
+    var sb = String(b);
+    var out = [];
+    var ma = /^(\d+)\.(\d+)$/.exec(sa);
+    var mb = /^(\d+)\.(\d+)$/.exec(sb);
+    if (ma && mb && ma[1] === mb[1]) {
+      for (var k = Number(ma[2]) + 1; k < Number(mb[2]) && out.length < 30; k++) {
+        out.push(ma[1] + '.' + k);
+      }
+      return out;
+    }
+    if (/^\d+$/.test(sa) && /^\d+$/.test(sb)) {
+      for (var k2 = Number(sa) + 1; k2 < Number(sb) && out.length < 30; k2++) {
+        out.push(String(k2));
+      }
+    }
+    return out;
   }
 
   /* =========================================================
@@ -466,27 +504,27 @@
         return;
       }
 
-      // группировка по разделам: идём по номерам от 1 до последнего,
-      // дыры (нет задания) остаются в текущем разделе серыми кнопками
-      var max = 0;
-      var byNumber = {};
-      tasks.forEach(function (t) {
-        max = Math.max(max, Number(t.number) || 0);
-        byNumber[t.number] = t;
-      });
-
+      // группировка по разделам: задачи идут по порядку,
+      // пропущенные номера внутри раздела остаются серыми кнопками
       var groups = [];
       var current = null;
-      for (var n = 1; n <= max; n++) {
-        var task = byNumber[n];
-        var name = task && task.section ? task.section : (current ? current.name : 'Все задания');
+      var prevNumber = null;
+      tasks.forEach(function (t) {
+        var name = t.section || (current ? current.name : 'Все задания');
         if (!current || current.name !== name) {
           current = { name: name, cells: [], count: 0 };
           groups.push(current);
+          prevNumber = null;
         }
-        current.cells.push(n);
-        if (task) current.count++;
-      }
+        if (prevNumber !== null) {
+          missingBetween(prevNumber, t.number).forEach(function (missed) {
+            current.cells.push({ number: missed, task: null });
+          });
+        }
+        current.cells.push({ number: t.number, task: t });
+        current.count++;
+        prevNumber = t.number;
+      });
 
       var onlyDefault = groups.length === 1 && groups[0].name === 'Все задания';
 
@@ -512,12 +550,15 @@
           html += '<div class="group-head" id="group-' + i + '"><h2>Все задания</h2></div>';
         }
         html += '<div class="task-grid">';
-        g.cells.forEach(function (num) {
-          if (byNumber[num]) {
-            html += '<a class="task-cell" href="#/' + esc(subject.id) + '/' + esc(bookRef.id) + '/' + num + '" ' +
-              'data-number="' + num + '" aria-label="Задание ' + num + '"><span>' + num + '</span></a>';
+        g.cells.forEach(function (cell) {
+          if (cell.task) {
+            html += '<a class="task-cell" href="#/' + esc(subject.id) + '/' + esc(bookRef.id) + '/' +
+              encodeURIComponent(cell.number) + '" ' +
+              'data-number="' + esc(cell.number) + '" aria-label="Задание ' + esc(cell.number) + '">' +
+              '<span>' + esc(cell.number) + '</span></a>';
           } else {
-            html += '<span class="task-cell is-missing" data-number="' + num + '" aria-hidden="true"><span>' + num + '</span></span>';
+            html += '<span class="task-cell is-missing" data-number="' + esc(cell.number) + '" aria-hidden="true">' +
+              '<span>' + esc(cell.number) + '</span></span>';
           }
         });
         html += '</div></section>';
@@ -819,7 +860,7 @@
       if (token !== renderToken) return;
 
       var q = query.toLowerCase();
-      var isDigits = /^\d+$/.test(query);
+      var isDigits = /^\d+(?:[.,]\d+)?$/.test(query);
       var found = [];
       for (var i = 0; i < list.length && found.length < 50; i++) {
         var item = list[i];
@@ -867,8 +908,8 @@
 
     var parts = currentParts();
     // на сетке заданий: цифры фильтруют номера, текст ищется глобально
-    if (parts.length === 2 && /^\d+$/.test(query)) {
-      applyTaskFilter(query);
+    if (parts.length === 2 && /^\d+(?:[.,]\d+)?$/.test(query)) {
+      applyTaskFilter(query.replace(',', '.'));
       return;
     }
     renderSearchResults(query);
