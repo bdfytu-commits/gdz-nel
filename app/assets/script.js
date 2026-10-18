@@ -46,10 +46,165 @@
 
   function esc(value) {
     return String(value)
+      .replace(/\u2212/g, '-') // математический минус → обычный дефис-минус
+      .replace(/[\u2219\u22C5]/g, '·') // операторы умножения → средняя точка
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
+  }
+
+  // дроби: «1/2», «3 / 4» → вертикальная дробь (CSS .frac).
+  // Работает по уже экранированному тексту, поэтому безопасен для innerHTML.
+  var FRAC_RE = /(^|[^\p{L}\p{N}_/])(\d{1,3})\s*\/\s*(\d{1,3})(?=$|[^\p{L}\p{N}_/])/gu;
+
+  function fracify(escapedText) {
+    return String(escapedText).replace(FRAC_RE, function (all, pre, num, den) {
+      return pre + '<span class="frac" role="math"><span class="frac-n">' + num +
+        '</span><span class="frac-d">' + den + '</span></span>';
+    });
+  }
+
+  // текст задания с дробями: экранирование + красивые дроби
+  function mathHtml(text) {
+    return fracify(esc(text));
+  }
+
+  /* =========================================================
+     SVG-визуализации задачи (Ф29): круговая диаграмма и
+     координатная прямая строятся из текста условия.
+     ========================================================= */
+
+  var VIS_COLORS = ['#1AA3A3', '#0070C0', '#F5C518', '#E53935', '#16A085', '#8E44AD', '#E67E22', '#5D6D7E'];
+
+  function fmtNum(value) {
+    return String(Number(value.toFixed ? value.toFixed(3) : value)).replace('.', ',');
+  }
+
+  function escNum(value) {
+    return esc(fmtNum(value));
+  }
+
+  // круговая диаграмма: parts = [{ label, value }]
+  function pieSvg(parts) {
+    var total = parts.reduce(function (sum, p) { return sum + p.value; }, 0) || 1;
+    var cx = 120, cy = 120, r = 96;
+    var angle = -Math.PI / 2;
+    var slices = [];
+
+    parts.forEach(function (part, i) {
+      var share = part.value / total;
+      var end = angle + share * Math.PI * 2;
+      var x1 = cx + r * Math.cos(angle), y1 = cy + r * Math.sin(angle);
+      var x2 = cx + r * Math.cos(end), y2 = cy + r * Math.sin(end);
+      var large = share > 0.5 ? 1 : 0;
+      slices.push('<path d="M ' + cx + ' ' + cy + ' L ' + x1.toFixed(2) + ' ' + y1.toFixed(2) +
+        ' A ' + r + ' ' + r + ' 0 ' + large + ' 1 ' + x2.toFixed(2) + ' ' + y2.toFixed(2) + ' Z" fill="' +
+        VIS_COLORS[i % VIS_COLORS.length] + '" stroke="var(--c-surface)" stroke-width="2"></path>');
+      angle = end;
+    });
+
+    var legend = parts.map(function (part, i) {
+      return '<span class="vis-item"><span class="vis-swatch" style="background:' +
+        VIS_COLORS[i % VIS_COLORS.length] + '"></span>' + esc(part.label) + ' — ' +
+        escNum(part.value) + '%</span>';
+    }).join('');
+
+    return '<figure class="task-visual">' +
+      '<svg viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="Круговая диаграмма">' +
+      slices.join('') + '</svg>' +
+      '<figcaption class="vis-legend">' + legend + '</figcaption></figure>';
+  }
+
+  // «красивый» шаг разметки координатной прямой
+  function niceStep(raw) {
+    if (!raw || raw <= 0) return 1;
+    var pow = Math.pow(10, Math.floor(Math.log(raw) / Math.LN10));
+    var norm = raw / pow;
+    var factor = norm <= 1 ? 1 : norm <= 2 ? 2 : norm <= 5 ? 5 : 10;
+    return factor * pow;
+  }
+
+  // координатная прямая: points = [{ label, value }]
+  function numberLineSvg(points) {
+    var values = points.map(function (p) { return p.value; });
+    var min = Math.min.apply(null, values);
+    var max = Math.max.apply(null, values);
+    if (min === max) { min -= 1; max += 1; }
+    var pad = (max - min) * 0.15 || 1;
+    min -= pad;
+    max += pad;
+
+    var step = niceStep((max - min) / 8);
+    var first = Math.ceil(min / step) * step;
+    var width = 640, y = 78, left = 24, right = width - 24;
+    var toX = function (v) { return left + (v - min) / (max - min) * (right - left); };
+
+    var marks = '';
+    for (var v = first; v <= max + 1e-9; v += step) {
+      var x = toX(v);
+      marks += '<line x1="' + x.toFixed(1) + '" y1="' + (y - 7) + '" x2="' + x.toFixed(1) + '" y2="' + (y + 7) +
+        '" stroke="var(--c-text-muted)" stroke-width="1.4"></line>' +
+        '<text x="' + x.toFixed(1) + '" y="' + (y + 26) + '" text-anchor="middle" font-size="14" fill="var(--c-text-muted)">' +
+        escNum(v) + '</text>';
+    }
+
+    var dots = points.map(function (p) {
+      var x = toX(p.value);
+      return '<circle cx="' + x.toFixed(1) + '" cy="' + y + '" r="6" fill="#E53935"></circle>' +
+        '<text x="' + x.toFixed(1) + '" y="' + (y - 16) + '" text-anchor="middle" font-size="15" font-weight="600" fill="var(--c-text)">' +
+        esc(p.label) + '(' + escNum(p.value) + ')</text>';
+    }).join('');
+
+    return '<figure class="task-visual">' +
+      '<svg viewBox="0 0 ' + width + ' 120" role="img" aria-label="Координатная прямая" style="max-width:100%">' +
+      '<defs><marker id="vis-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">' +
+      '<path d="M0,0 L8,3 L0,6 Z" fill="var(--c-text-muted)"></path></marker></defs>' +
+      '<line x1="' + left + '" y1="' + y + '" x2="' + right + '" y2="' + y +
+      '" stroke="var(--c-text-muted)" stroke-width="1.8" marker-end="url(#vis-arrow)"></line>' +
+      marks + dots + '</svg></figure>';
+  }
+
+  function detectPie(text) {
+    if (!/кругов[аоуы][йеюая]?\s+диаграмм/i.test(text)) return null;
+    var re = /([A-Za-zА-Яа-яЁё][\wА-Яа-яЁё .-]{1,40}?)\s*[-–—:]\s*(\d{1,3}(?:[.,]\d+)?)\s*%/g;
+    var parts = [];
+    var match;
+    while ((match = re.exec(text)) !== null) {
+      var label = match[1].trim().replace(/[.\s]+$/, '');
+      if (label.length >= 2) parts.push({ label: label, value: Number(match[2].replace(',', '.')) });
+    }
+    if (parts.length < 2) return null;
+    var sum = parts.reduce(function (s, p) { return s + p.value; }, 0);
+    if (sum < 80 || sum > 120) return null;
+    return parts;
+  }
+
+  function detectNumberLine(text) {
+    if (!/координатн[а-яё]*\s+(прямой|оси|прямую|ось)/i.test(text)) return null;
+    var re = /([A-ZА-Я])\s*\(\s*([-–—−]?\d{1,4}(?:[.,]\d+)?)\s*\)/g;
+    var points = [];
+    var match;
+    while ((match = re.exec(text)) !== null) {
+      points.push({
+        label: match[1],
+        value: Number(match[2].replace(',', '.').replace(/[–—−]/, '-'))
+      });
+    }
+    if (points.length < 2 || points.length > 16) return null;
+    return points;
+  }
+
+  function taskVisualHtml(task) {
+    var text = String(task.condition || '') + '\n' + String(task.solution || '');
+
+    var pie = detectPie(text);
+    if (pie) return pieSvg(pie);
+
+    var line = detectNumberLine(text);
+    if (line) return numberLineSvg(line);
+
+    return '';
   }
 
   function byId(id) { return document.getElementById(id); }
@@ -65,13 +220,13 @@
   function tasksWord(n) { return n + ' ' + plural(n, 'задание', 'задания', 'заданий'); }
   function booksWord(n) { return n + ' ' + plural(n, 'учебник', 'учебника', 'учебников'); }
 
-  // текст с переносами -> абзацы
+  // текст с переносами -> абзацы (с дробями)
   function textToHtml(text) {
     return String(text || '')
       .split(/\n+/)
       .map(function (line) { return line.trim(); })
       .filter(Boolean)
-      .map(function (line) { return '<p>' + esc(line) + '</p>'; })
+      .map(function (line) { return '<p>' + mathHtml(line) + '</p>'; })
       .join('');
   }
 
@@ -907,20 +1062,20 @@
 
   // пошаговое решение: каждая строка — шаг
   // если строки уже пронумерованы («1) …», «2) …») — убираем номера,
-  // нумерацию списка рисует <ol> (Ф4)
+  // нумерацию рисует нумерованный список (Ф4, Ф29)
   function solutionSteps(solution) {
     var lines = String(solution || '').split(/\n+/)
       .map(function (line) { return line.trim(); })
       .filter(Boolean);
-    if (!lines.length) return '<li class="step-line"><p>Решение появится позже.</p></li>';
+    if (!lines.length) return '';
 
     var numbered = lines.some(function (line) { return /^1[).]\s+/.test(line); });
     if (numbered) {
       lines = lines.map(function (line) { return line.replace(/^\d{1,2}[).]\s+/, ''); });
     }
 
-    return lines.map(function (line, i) {
-      return '<li class="step-line"><span class="step-num" aria-hidden="true">' + (i + 1) + '</span><p>' + esc(line) + '</p></li>';
+    return lines.map(function (line) {
+      return '<li class="step-line"><p>' + mathHtml(line) + '</p></li>';
     }).join('');
   }
 
@@ -934,10 +1089,14 @@
       '<p class="task-label">Решение</p>';
 
     if (hasSolution) {
-      html += '<ol class="steps-list">' + solutionSteps(task.solution) + '</ol>';
+      html += '<p class="steps-intro">Выполните действие:</p>' +
+        '<ol class="steps-list">' + solutionSteps(task.solution) + '</ol>';
     } else if (!images.length && !column) {
-      html += '<ol class="steps-list"><li class="step-line"><p>Решение появится позже.</p></li></ol>';
+      html += '<p class="empty">Решение появится позже.</p>';
     }
+
+    // SVG-визуализация (круговая диаграмма / координатная прямая) — в блоке решения
+    html += taskVisualHtml(task);
 
     if (images.length) {
       html += '<div class="task-images">' + images.map(function (src, i) {
@@ -1622,4 +1781,7 @@
 
   window.addEventListener('hashchange', route);
   route();
+
+  // визуализации доступны автотестам (Ф23): SVG-диаграммы по тексту задачи
+  window.gdzVisuals = { taskVisualHtml: taskVisualHtml, pieSvg: pieSvg, numberLineSvg: numberLineSvg, fracify: fracify, mathHtml: mathHtml };
 })();

@@ -712,34 +712,50 @@ a.task-cell:hover::before { opacity: 1; }
 .task-text p:first-child { margin-top: 12px; }
 .task-text p:last-child { margin-bottom: 0; }
 
-/* пошаговое решение */
-.steps-list { margin: 12px 0 0; padding: 0; list-style: none; }
+/* пошаговое решение: строго нумерованный список (Ф29) */
+.steps-intro {
+  margin: 12px 0 0;
+  font-weight: 600;
+}
+
+.steps-list {
+  margin: 8px 0 0;
+  padding-left: 26px;
+  list-style-type: decimal;
+}
+
+.steps-list li::marker {
+  color: var(--c-link);
+  font-weight: 600;
+}
 
 .step-line {
-  display: flex;
-  gap: 12px;
   margin-bottom: 10px;
+  padding-left: 4px;
 }
 
 .step-line:last-child { margin-bottom: 0; }
 
-.step-line .step-num {
-  display: flex;
-  flex: none;
+.step-line p { margin: 0; }
+
+/* красивые дроби: числитель сверху, знаменатель снизу (Ф29) */
+.frac {
+  display: inline-flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
-  margin-top: 2px;
-  border-radius: 50%;
-  background: var(--c-surface-2);
-  color: var(--c-link);
-  font-size: 12px;
-  font-weight: 600;
-  font-family: var(--font-head);
+  vertical-align: middle;
+  margin: 0 3px;
+  font-size: 0.88em;
+  line-height: 1.05;
+  text-align: center;
 }
 
-.step-line p { margin: 0; }
+.frac .frac-n { padding: 0 4px; }
+
+.frac .frac-d {
+  padding: 0 4px;
+  border-top: 1.5px solid currentColor;
+}
 
 /* ---------- решение столбиком (Ф4) ---------- */
 
@@ -1252,7 +1268,6 @@ mark {
   .task-text, .task-view .step-line { color: #000; font-size: 13px; }
 
   .step-line { break-inside: avoid; page-break-inside: avoid; }
-  .step-line .step-num { background: none; border: 1px solid #999; color: #000; }
 
   .subject-icon, .icon-btn { display: none !important; }
 
@@ -1459,3 +1474,34 @@ mark {
 [data-theme="dark"] .review-mine-badge.is-approved { color: #4DB6AC; }
 [data-theme="dark"] .form-status.is-ok { color: #4DB6AC; }
 [data-theme="dark"] .review-mine-badge.is-pending { color: #E0B44A; }
+
+/* SVG-визуализации задачи: диаграммы, координатная прямая (Ф29) */
+.task-visual {
+  margin: 14px 0 0;
+  padding: 18px 16px 12px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-l);
+  background: var(--c-surface);
+  text-align: center;
+}
+
+.task-visual svg { max-width: 100%; height: auto; }
+
+.vis-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 18px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--c-text-muted);
+}
+
+.vis-item { display: inline-flex; align-items: center; gap: 7px; }
+
+.vis-swatch {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 3px;
+}
