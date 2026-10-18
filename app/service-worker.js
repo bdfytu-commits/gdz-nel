@@ -1,14 +1,25 @@
 /* =========================================================
-   service worker ГДЗ НЭЛ
-   стратегия:
-     - статика (css/js/svg/png/шрифты) — cache-first
-     - JSON данных (app/data/*.json) — network-first, офлайн из кэша
-     - переходы по странице — сеть, офлайн — index.html из кэша
+   service worker ГДЗ НЭЛ — v5 (Ф15, Ф29)
+
+   стратегии:
+     - навигация (HTML) — Network First, офлайн из кэша
+     - JSON данных (app/data/*.json) — Stale-While-Revalidate
+     - картинки — Cache First (включая решения с внешнего источника)
+     - шрифты — Cache First
+     - чужие домены, кроме картинок (Supabase REST и прочие API) —
+       только сеть, без кэша: иначе «живые» данные (отзывы, лайки)
+       навсегда залипают в старом состоянии
+     - остальная статика — Cache First
+
+   обновление: новая версия ждёт, страница показывает кнопку
+   «Обновить» и шлёт SKIP_WAITING (Ф15.8).
    ========================================================= */
 
-const VERSION = 'gdz-nel-v3';
+const VERSION = 'gdz-nel-v5';
 const STATIC_CACHE = VERSION + '-static';
 const DATA_CACHE = VERSION + '-data';
+const IMAGE_CACHE = VERSION + '-images';
+const FONT_CACHE = VERSION + '-fonts';
 
 const PRECACHE = [
   './',
@@ -22,10 +33,14 @@ const PRECACHE = [
   '../auth.html',
   '../profile.html',
   '../photo.html',
+  '../premium.html',
+  '../search.html',
   '../terms.html',
   '../assets/style.css',
   '../assets/script.js',
   '../assets/supabase.js',
+  '../assets/analytics.js',
+  '../assets/vendor/fuse.min.js',
   '../favicon.ico',
   '../favicon.svg',
   '../assets/img/logo.png',
@@ -36,10 +51,14 @@ const PRECACHE = [
   '../assets/img/icons/icon-maskable-512.png',
   // иконки (используются как CSS-маски, нужны офлайн)
   '../assets/img/icons/alert.svg',
+  '../assets/img/icons/algebra.svg',
   '../assets/img/icons/android.svg',
   '../assets/img/icons/arrow-left.svg',
   '../assets/img/icons/arrow-right.svg',
+  '../assets/img/icons/arrow-up.svg',
+  '../assets/img/icons/award.svg',
   '../assets/img/icons/ban.svg',
+  '../assets/img/icons/bell.svg',
   '../assets/img/icons/biology.svg',
   '../assets/img/icons/book.svg',
   '../assets/img/icons/camera.svg',
@@ -52,23 +71,30 @@ const PRECACHE = [
   '../assets/img/icons/code.svg',
   '../assets/img/icons/copy.svg',
   '../assets/img/icons/download.svg',
+  '../assets/img/icons/edit.svg',
   '../assets/img/icons/english.svg',
   '../assets/img/icons/external.svg',
   '../assets/img/icons/eye.svg',
   '../assets/img/icons/flag.svg',
+  '../assets/img/icons/filter.svg',
+  '../assets/img/icons/globe.svg',
   '../assets/img/icons/history.svg',
   '../assets/img/icons/home.svg',
   '../assets/img/icons/image.svg',
   '../assets/img/icons/info.svg',
+  '../assets/img/icons/key.svg',
+  '../assets/img/icons/literature.svg',
   '../assets/img/icons/logout.svg',
   '../assets/img/icons/mail.svg',
   '../assets/img/icons/math.svg',
   '../assets/img/icons/message.svg',
   '../assets/img/icons/moon.svg',
+  '../assets/img/icons/refresh.svg',
   '../assets/img/icons/russian.svg',
   '../assets/img/icons/search.svg',
   '../assets/img/icons/send.svg',
   '../assets/img/icons/share.svg',
+  '../assets/img/icons/shield.svg',
   '../assets/img/icons/social.svg',
   '../assets/img/icons/sparkles.svg',
   '../assets/img/icons/star-filled.svg',
@@ -82,8 +108,8 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(STATIC_CACHE)
       .then((cache) => cache.addAll(PRECACHE))
-      .then(() => self.skipWaiting())
   );
+  // ждём команды со страницы (SKIP_WAITING), чтобы не перезагружать её посреди чтения
 });
 
 self.addEventListener('activate', (event) => {
@@ -91,11 +117,15 @@ self.addEventListener('activate', (event) => {
     caches.keys()
       .then((keys) => Promise.all(
         keys
-          .filter((key) => key !== STATIC_CACHE && key !== DATA_CACHE)
+          .filter((key) => key.indexOf(VERSION) !== 0)
           .map((key) => caches.delete(key))
       ))
       .then(() => self.clients.claim())
   );
+});
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
 });
 
 // сеть, при обрыве — кэш
@@ -112,6 +142,17 @@ async function networkFirst(request, cacheName) {
   }
 }
 
+// кэш сразу, сеть — в фоне (данные обновятся к следующему заходу)
+async function staleWhileRevalidate(request, cacheName) {
+  const cache = await caches.open(cacheName);
+  const cached = await cache.match(request);
+  const network = fetch(request).then((fresh) => {
+    if (fresh && fresh.ok) cache.put(request, fresh.clone());
+    return fresh;
+  }).catch(() => cached);
+  return cached || network;
+}
+
 // кэш, при промахе — сеть (и кладём в кэш)
 async function cacheFirst(request, cacheName) {
   const cache = await caches.open(cacheName);
@@ -119,14 +160,14 @@ async function cacheFirst(request, cacheName) {
   if (cached) return cached;
 
   const fresh = await fetch(request);
-  // opaque — шрифты с CDN без CORS
+  // opaque — картинки и шрифты с чужих CDN без CORS
   if (fresh && (fresh.ok || fresh.type === 'opaque')) {
     cache.put(request, fresh.clone());
   }
   return fresh;
 }
 
-// переходы: сеть, офлайн — главная страница приложения из кэша
+// переходы: сеть, офлайн — страница из кэша
 async function navigationHandler(request) {
   try {
     const fresh = await fetch(request);
@@ -150,18 +191,40 @@ self.addEventListener('fetch', (event) => {
 
   const url = new URL(request.url);
 
-  // данные: всегда свежие, офлайн — из кэша
-  if (url.pathname.includes('/app/data/')) {
-    event.respondWith(networkFirst(request, DATA_CACHE));
+  // чужие домены: кэшируем только картинки (решения с внешнего источника),
+  // всё остальное (Supabase REST и прочие API) — всегда через сеть
+  if (url.origin !== self.location.origin) {
+    if (request.destination === 'image') {
+      event.respondWith(cacheFirst(request, IMAGE_CACHE));
+    }
     return;
   }
 
-  // навигация
+  // данные приложения: сначала кэш, свежее — в фоне
+  if (url.pathname.includes('/app/data/')) {
+    event.respondWith(staleWhileRevalidate(request, DATA_CACHE));
+    return;
+  }
+
+  // картинки (включая решения с внешнего источника): cache first
+  if (request.destination === 'image' || /\.(png|jpe?g|webp|gif|svg|ico)$/i.test(url.pathname)) {
+    event.respondWith(cacheFirst(request, IMAGE_CACHE));
+    return;
+  }
+
+  // шрифты: cache first
+  if (request.destination === 'font' ||
+      url.hostname === 'fonts.gstatic.com' || url.hostname === 'fonts.googleapis.com') {
+    event.respondWith(cacheFirst(request, FONT_CACHE));
+    return;
+  }
+
+  // навигация по страницам
   if (request.mode === 'navigate') {
     event.respondWith(navigationHandler(request));
     return;
   }
 
-  // статика
+  // прочая статика
   event.respondWith(cacheFirst(request, STATIC_CACHE));
 });

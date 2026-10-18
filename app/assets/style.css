@@ -65,6 +65,7 @@ body {
   color: var(--c-text);
   background: var(--c-bg);
   line-height: 1.55;
+  overflow-x: clip; /* защита от горизонтального переполнения (Ф14.9) */
 }
 
 img { display: block; }
@@ -150,6 +151,16 @@ a:hover { color: var(--c-accent); }
 .i-sparkles { --icon: url(../../assets/img/icons/sparkles.svg); }
 .i-user { --icon: url(../../assets/img/icons/user.svg); }
 .i-globe { --icon: url(../../assets/img/icons/globe.svg); }
+.i-arrow-up { --icon: url(../../assets/img/icons/arrow-up.svg); }
+.i-refresh { --icon: url(../../assets/img/icons/refresh.svg); }
+.i-award { --icon: url(../../assets/img/icons/award.svg); }
+.i-filter { --icon: url(../../assets/img/icons/filter.svg); }
+.i-edit { --icon: url(../../assets/img/icons/edit.svg); }
+.i-key { --icon: url(../../assets/img/icons/key.svg); }
+.i-shield { --icon: url(../../assets/img/icons/shield.svg); }
+.i-bell { --icon: url(../../assets/img/icons/bell.svg); }
+.i-literature { --icon: url(../../assets/img/icons/literature.svg); }
+.i-algebra { --icon: url(../../assets/img/icons/algebra.svg); }
 
 /* ---------- кнопки ---------- */
 
@@ -264,6 +275,17 @@ a:hover { color: var(--c-accent); }
 
 :root[data-theme="dark"] .app-header.is-stuck {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* полоска прогресса чтения (Ф13.11) */
+.read-progress {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 2px;
+  width: 0;
+  background: var(--grad-main);
+  transition: width 120ms linear;
 }
 
 .header-row {
@@ -549,6 +571,8 @@ a:hover { color: var(--c-accent); }
 }
 
 .section-chip {
+  position: relative;
+  overflow: hidden;
   padding: 6px 12px;
   border: 1px solid var(--c-border);
   border-radius: 999px;
@@ -640,14 +664,6 @@ a.task-cell:hover {
 
 a.task-cell:hover::before { opacity: 1; }
 
-/* номера, которых нет в базе */
-.task-cell.is-missing {
-  background: var(--c-surface-2);
-  color: var(--c-text-muted);
-  text-decoration: line-through;
-  cursor: not-allowed;
-}
-
 .task-cell[hidden] { display: none; }
 
 /* кнопка «следующий раздел» */
@@ -724,6 +740,79 @@ a.task-cell:hover::before { opacity: 1; }
 }
 
 .step-line p { margin: 0; }
+
+/* ---------- решение столбиком (Ф4) ---------- */
+
+.column-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--c-border);
+}
+
+.column-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-family: var(--font-head);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--c-text-muted);
+}
+
+/* вычисление в столбик: моноширинный шрифт, горизонтальный скролл на телефоне */
+.math-column-wrap {
+  margin-top: 12px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.math-column-wrap[hidden] { display: none; }
+
+.math-column {
+  display: inline-block;
+  min-width: 100%;
+  margin: 0;
+  padding: 16px 18px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-m);
+  background: var(--c-surface-2);
+  color: var(--c-text);
+  font-family: 'JetBrains Mono', 'Fira Mono', Consolas, 'Courier New', monospace;
+  font-size: 15px;
+  line-height: 1.4;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+/* картинки-решения (алгебра 7–9): вертикальный список страниц */
+.task-images {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.task-image {
+  display: block;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+  background: var(--c-surface-2);
+}
+
+.task-image img {
+  width: 100%;
+  height: auto;
+}
+
+.task-image:hover { border-color: var(--c-primary); }
 
 /* ответ — в бирюзовой рамке */
 .task-block--answer {
@@ -900,6 +989,150 @@ mark {
   font-size: 12px;
 }
 
+/* ---------- «наверх», офлайн, обновление, нижняя навигация ---------- */
+
+.to-top {
+  position: fixed;
+  right: 18px;
+  bottom: 24px;
+  z-index: 60;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background: var(--grad-btn);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: var(--shadow-2);
+  transition: transform var(--t-fast) var(--ease), opacity var(--t-fast) var(--ease);
+}
+
+.to-top[hidden] { display: none; }
+
+.to-top:hover { transform: translateY(-3px); }
+
+.offline-bar {
+  position: fixed;
+  left: 50%;
+  top: 8px;
+  transform: translateX(-50%);
+  z-index: 80;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: min(92vw, 460px);
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--c-text);
+  color: var(--c-bg);
+  font-size: 13px;
+  box-shadow: var(--shadow-2);
+}
+
+.offline-bar[hidden] { display: none; }
+
+.sw-update {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  z-index: 85;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  max-width: min(92vw, 460px);
+  padding: 10px 16px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-l);
+  background: var(--c-surface);
+  color: var(--c-text);
+  font-size: 14px;
+  box-shadow: var(--shadow-2);
+}
+
+.sw-update[hidden] { display: none; }
+
+/* нижняя навигация — только на телефоне (Ф14) */
+.bottom-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 70;
+  display: none;
+  padding: 4px 8px calc(4px + env(safe-area-inset-bottom, 0px));
+  border-top: 1px solid var(--c-border);
+  background: var(--c-bg);
+}
+
+.bottom-nav-item {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-height: 48px;
+  padding: 6px 2px;
+  border: none;
+  border-radius: var(--radius-s);
+  background: none;
+  color: var(--c-text-muted);
+  font: inherit;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.bottom-nav-item .icon { width: 22px; height: 22px; }
+
+.bottom-nav-item.is-active { color: var(--c-link); }
+
+/* ---------- ripple, тряска, звёзды ---------- */
+
+.ripple {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  margin: -7px 0 0 -7px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.25;
+  pointer-events: none;
+  transform: scale(0);
+  animation: ripple 500ms var(--ease) forwards;
+}
+
+@keyframes ripple {
+  to { transform: scale(9); opacity: 0; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+
+.is-shake { animation: shake 400ms var(--ease); }
+
+@keyframes star-pop {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.35); }
+  100% { transform: scale(1); }
+}
+
+.star-btn.is-pop .icon { animation: star-pop 320ms var(--ease); }
+
+/* кроссфейд темы (Ф13.13) */
+.theme-fade * {
+  transition: background-color 300ms var(--ease), color 300ms var(--ease),
+    border-color 300ms var(--ease) !important;
+}
+
 /* ---------- адаптив ---------- */
 
 @media (max-width: 760px) {
@@ -908,9 +1141,9 @@ mark {
   .brand img { width: 32px; height: 32px; }
   .brand-name { font-size: 14px; }
 
-  .header-actions { gap: 6px; }
-  .icon-btn { width: 36px; height: 36px; }
-  .icon { width: 18px; height: 18px; }
+  .header-actions { gap: 4px; }
+  .icon-btn { width: 44px; height: 44px; } /* тап-зоны ≥44px (Ф14.4) */
+  .icon { width: 20px; height: 20px; }
 
   .header-search { display: none; }
 
@@ -924,7 +1157,20 @@ mark {
 
   #search-toggle { display: inline-flex; }
 
-  .app-main { padding: 18px 12px 64px; }
+  /* место под нижнюю навигацию + safe-area (Ф14.5, 14.6) */
+  .app-main {
+    padding: 18px 12px calc(84px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .bottom-nav { display: flex; }
+
+  .to-top { bottom: calc(74px + env(safe-area-inset-bottom, 0px)); }
+
+  .toast { bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
+
+  .hint { bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
+
+  .sw-update { bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
 
   .subject-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
 
@@ -934,18 +1180,27 @@ mark {
 
   .book-grid { grid-template-columns: 1fr; }
 
-  .task-grid { grid-template-columns: repeat(auto-fill, minmax(56px, 1fr)); gap: 6px; }
+  /* сетка задач — ровно 4 колонки (Ф14.3) */
+  .task-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
 
-  .task-cell { min-height: 52px; font-size: 14px; }
+  .task-cell { min-height: 52px; font-size: 15px; }
 
   .group-head { top: calc(var(--header-h) + 4px); }
 
   .task-block { padding: 16px; }
 
+  /* читаемость: основной текст не меньше 14px (Ф14.11) */
+  .crumbs, .task-count, .list-snippet, .list-meta, .subject-meta,
+  .bookmeta p, .panel-sub { font-size: 14px; }
+
   /* кнопки навигации в столбик, чтобы не сжимались */
   .task-nav { flex-direction: column; align-items: stretch; }
 
-  .task-nav .btn { width: 100%; }
+  .task-nav .btn { width: 100%; min-height: 44px; }
+
+  .task-actions .btn { min-height: 44px; }
+
+  .btn-sm { min-height: 40px; }
 
   /* подсказка — в столбик, иначе текст ломается */
   .hint {

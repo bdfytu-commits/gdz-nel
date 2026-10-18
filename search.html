@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Поиск по заданиям — ГДЗ НЭЛ</title>
+  <meta name="description" content="Поиск по всем заданиям ГДЗ НЭЛ сразу в 7 учебниках: ищите по условию, разделу или номеру — поиск прощает опечатки.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://bdfytu-commits.github.io/gdz-nel/search.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ГДЗ НЭЛ">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Поиск по заданиям — ГДЗ НЭЛ">
+  <meta property="og:description" content="Ищите задания по условию, разделу или номеру — поиск прощает опечатки.">
+  <meta property="og:image" content="https://bdfytu-commits.github.io/gdz-nel/assets/img/screens/og-1200x630.png">
+  <meta property="og:url" content="https://bdfytu-commits.github.io/gdz-nel/search.html">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#1AA3A3">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo-120.png" alt="Эмблема НЭЛ" width="38" height="38">
+      <span class="brand-name">ГДЗ НЭЛ</span>
+    </a>
+    <nav class="site-nav" aria-label="Разделы сайта">
+      <a href="index.html#subjects">Предметы</a>
+      <a href="about.html">О проекте</a>
+      <a href="contact.html">Обратная связь</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="icon i-moon" aria-hidden="true"></span>
+      </button>
+      <a class="btn btn-primary btn-sm" href="app/index.html">
+        <span class="icon i-book" aria-hidden="true"></span>
+        <span>Открыть приложение</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="page-inner">
+      <div class="page-head">
+        <h1>Поиск по заданиям</h1>
+        <p class="page-sub">Введите часть условия, раздел или номер задания. Поиск понимает
+          опечатки и ищет сразу по всем учебникам.</p>
+      </div>
+
+      <form class="search-box" id="search-form" role="search" autocomplete="off">
+        <label class="sr-only" for="search-input">Поисковый запрос</label>
+        <span class="icon i-search search-box-icon" aria-hidden="true"></span>
+        <input type="search" id="search-input" placeholder="Например: урожайность или 1.10"
+               enterkeyhint="search" maxlength="80">
+        <button class="btn btn-primary" type="submit" id="search-submit">
+          <span class="icon i-search" aria-hidden="true"></span>
+          <span>Найти</span>
+        </button>
+      </form>
+
+      <div class="search-history" id="search-history" hidden>
+        <span class="search-history-label">Вы искали:</span>
+        <div class="search-history-chips" id="search-history-chips"></div>
+        <button class="link-btn" type="button" id="search-history-clear">Очистить</button>
+      </div>
+
+      <p class="search-status" id="search-status" role="status" aria-live="polite"></p>
+      <div class="search-results" id="search-results"></div>
+
+      <p class="search-tip">
+        Не нашли? Загляните в <a href="app/index.html">приложение</a> — там те же задания
+        разложены по классам и учебникам.
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/img/logo-160.png" alt="" width="52" height="52">
+        <p class="footer-name">ГДЗ НЭЛ</p>
+        <p class="footer-meta">6 класс, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
+        <a class="btn btn-primary btn-sm footer-apk" href="download/app.apk" download>
+          <span class="icon i-android" aria-hidden="true"></span>
+          <span>Скачать APK</span>
+        </a>
+      </div>
+      <nav class="footer-col" aria-label="Разделы">
+        <h3>Разделы</h3>
+        <a href="app/index.html">Приложение</a>
+        <a href="index.html#subjects">Предметы</a>
+        <a href="index.html#how">Как это работает</a>
+      </nav>
+      <nav class="footer-col" aria-label="Проект">
+        <h3>Проект</h3>
+        <a href="premium.html">ГДЗ+ подписка</a>
+        <a href="about.html">О проекте</a>
+        <a href="contact.html">Обратная связь</a>
+        <a href="mailto:bdfy.tu@yandex.ru">bdfy.tu@yandex.ru</a>
+        <a href="https://github.com/bdfytu-commits/gdz-nel" rel="noopener">GitHub</a>
+        <a href="https://ecl54.ru/" rel="noopener">Сайт школы</a>
+      </nav>
+      <nav class="footer-col" aria-label="Документы">
+        <h3>Документы</h3>
+        <a href="terms.html">Пользовательское соглашение</a>
+        <a href="privacy.html">Конфиденциальность</a>
+        <a href="cookie-policy.html">Cookie</a>
+        <a href="accessibility.html">Доступность</a>
+        <a href="disclaimer.html">Дисклеймер</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>Сделано для учеников и родителей лицея</span>
+      <span id="footer-stats">—</span>
+    </div>
+    <p class="footer-legal">Материалы для личного использования. Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script src="assets/analytics.js" defer></script>
+  <script src="assets/vendor/fuse.min.js" defer></script>
+  <script defer>
+    /* Поиск по заданиям (Ф17): Fuse.js, подсветка совпадений, история запросов. */
+    (function () {
+      var form = document.getElementById('search-form');
+      var input = document.getElementById('search-input');
+      var statusEl = document.getElementById('search-status');
+      var resultsEl = document.getElementById('search-results');
+      var historyBox = document.getElementById('search-history');
+      var historyChips = document.getElementById('search-history-chips');
+      var historyClear = document.getElementById('search-history-clear');
+
+      var HISTORY_KEY = 'gdz-nel-search-history';
+      var INDEX_URL = 'app/data/search-index.json';
+      var fuse = null;
+      var loading = false;
+      var started = false;
+      var timer = 0;
+
+      function esc(value) {
+        return String(value == null ? '' : value)
+          .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+      }
+
+      function getHistory() {
+        try {
+          var raw = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+          return Array.isArray(raw) ? raw.slice(0, 8) : [];
+        } catch (err) { return []; }
+      }
+
+      function pushHistory(query) {
+        query = query.trim();
+        if (query.length < 2) return;
+        var list = getHistory().filter(function (q) { return q !== query; });
+        list.unshift(query);
+        try { localStorage.setItem(HISTORY_KEY, JSON.stringify(list.slice(0, 8))); } catch (err) { /* ignore */ }
+        renderHistory();
+      }
+
+      function renderHistory() {
+        var list = getHistory();
+        historyBox.hidden = !list.length;
+        historyChips.innerHTML = list.map(function (q) {
+          return '<button class="chip" type="button" data-q="' + esc(q) + '">' + esc(q) + '</button>';
+        }).join('');
+      }
+
+      historyChips.addEventListener('click', function (event) {
+        var chip = event.target.closest('.chip');
+        if (!chip) return;
+        input.value = chip.getAttribute('data-q');
+        run(true);
+      });
+
+      historyClear.addEventListener('click', function () {
+        try { localStorage.removeItem(HISTORY_KEY); } catch (err) { /* ignore */ }
+        renderHistory();
+      });
+
+      function loadIndex() {
+        if (fuse || loading) return Promise.resolve();
+        loading = true;
+        statusEl.textContent = 'Загружаю задания…';
+        return fetch(INDEX_URL)
+          .then(function (res) {
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            return res.json();
+          })
+          .then(function (data) {
+            var tasks = (data && data.tasks) || [];
+            fuse = new window.Fuse(tasks, {
+              includeMatches: true,
+              threshold: 0.34,
+              ignoreLocation: true,
+              minMatchCharLength: 2,
+              keys: [
+                { name: 'c', weight: 0.50 },
+                { name: 'n', weight: 0.20 },
+                { name: 'sec', weight: 0.15 },
+                { name: 'bt', weight: 0.10 },
+                { name: 'st', weight: 0.05 }
+              ]
+            });
+            statusEl.textContent = '';
+          })
+          .catch(function () {
+            statusEl.textContent = 'Не получилось загрузить базу поиска. Проверьте интернет и обновите страницу.';
+            loading = false;
+            throw new Error('index');
+          });
+      }
+
+      function highlight(text, key, matches) {
+        text = String(text || '');
+        var match = null;
+        (matches || []).forEach(function (m) { if (m.key === key) match = m; });
+        if (!match || !match.indices || !match.indices.length) return esc(text);
+        var out = '';
+        var last = 0;
+        match.indices.forEach(function (pair) {
+          var start = pair[0];
+          var end = pair[1];
+          if (start < last) return;
+          out += esc(text.slice(last, start));
+          out += '<mark>' + esc(text.slice(start, end + 1)) + '</mark>';
+          last = end + 1;
+        });
+        out += esc(text.slice(last));
+        return out;
+      }
+
+      function taskHref(item) {
+        var grade = item.g || '6';
+        return 'app/index.html#/' + encodeURIComponent(grade) + '/' +
+          encodeURIComponent(item.s) + '/' + encodeURIComponent(item.b) + '/' +
+          encodeURIComponent(item.n);
+      }
+
+      function renderResults(items, query) {
+        if (!items.length) {
+          resultsEl.innerHTML = '<div class="search-empty"><p>По запросу «' + esc(query) +
+            '» ничего не нашлось.</p><p class="search-empty-hint">Попробуйте другие слова или номер задания — например «1.10».</p></div>';
+          return;
+        }
+        resultsEl.innerHTML = items.map(function (r) {
+          var item = r.item;
+          var title = highlight(item.c || 'Без условия', 'c', r.matches) || 'Задание ' + esc(item.n);
+          var number = highlight(item.n, 'n', r.matches);
+          var section = item.sec ? '<p class="search-result-section">' + highlight(item.sec, 'sec', r.matches) + '</p>' : '';
+          return '<a class="search-result" href="' + taskHref(item) + '">' +
+            '<span class="search-result-top"><span class="search-result-number">№ ' + number + '</span>' +
+            '<span class="search-result-book">' + esc(item.st) + ' · ' + esc(item.bt) +
+            (item.g ? ' · ' + esc(item.g) + ' класс' : '') + '</span></span>' +
+            '<span class="search-result-text">' + title + '</span>' + section + '</a>';
+        }).join('');
+      }
+
+      function run(remember) {
+        var query = input.value.trim();
+        if (query.length < 2) {
+          statusEl.textContent = query ? 'Введите хотя бы 2 символа.' : '';
+          resultsEl.innerHTML = '';
+          return;
+        }
+        loadIndex().then(function () {
+          var items = fuse.search(query, { limit: 40 });
+          var url = new URL(location.href);
+          url.searchParams.set('q', query);
+          history.replaceState(null, '', url);
+          statusEl.textContent = items.length
+            ? 'Найдено заданий: ' + items.length
+            : '';
+          renderResults(items, query);
+          if (remember) pushHistory(query);
+          if (window.gdzTrack) window.gdzTrack('search', { query: query.slice(0, 40), found: items.length });
+        }).catch(function () { /* сообщение уже показано */ });
+      }
+
+      input.addEventListener('input', function () {
+        clearTimeout(timer);
+        timer = setTimeout(function () { run(false); }, 250);
+      });
+
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        run(true);
+      });
+
+      var params = new URLSearchParams(location.search);
+      var initial = params.get('q');
+      if (initial) {
+        input.value = initial;
+        run(false);
+      }
+
+      renderHistory();
+    })();
+  </script>
+</body>
+</html>

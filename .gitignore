@@ -5,3 +5,5 @@ android-signing/
 *.jks
 __pycache__/
 *.pyc
+supabase/.temp/
+.env

@@ -47,6 +47,7 @@
         <a href="#reviews" data-tab="reviews"><span class="icon i-message" aria-hidden="true"></span><span>Модерация</span></a>
         <a href="#ai" data-tab="ai"><span class="icon i-sparkles" aria-hidden="true"></span><span>ИИ-логи</span></a>
         <a href="#photos" data-tab="photos"><span class="icon i-camera" aria-hidden="true"></span><span>Фото-логи</span></a>
+        <a href="#achievements" data-tab="achievements"><span class="icon i-award" aria-hidden="true"></span><span>Достижения</span></a>
       </nav>
 
       <div class="admin-side-foot">
@@ -69,15 +70,21 @@
     <main class="admin-main">
       <header class="admin-top">
         <h1 id="admin-title">Обзор</h1>
-        <a class="btn btn-outline btn-sm" href="../index.html">
-          <span class="icon i-external" aria-hidden="true"></span><span>На сайт</span>
-        </a>
+        <div class="admin-top-actions">
+          <button class="btn btn-outline btn-sm" id="refresh-btn" type="button">
+            <span class="icon i-refresh" aria-hidden="true"></span><span>Обновить</span>
+          </button>
+          <a class="btn btn-outline btn-sm" href="../index.html">
+            <span class="icon i-external" aria-hidden="true"></span><span>На сайт</span>
+          </a>
+        </div>
       </header>
       <div id="admin-content" class="admin-content" aria-live="polite"></div>
     </main>
   </div>
 
   <div class="admin-toast" id="admin-toast" role="status" aria-live="polite"></div>
+  <div class="admin-modal" id="admin-modal" hidden></div>
 
   <script>
     // если модуль supabase не загрузился (офлайн), не оставляем вечную заглушку
@@ -88,6 +95,7 @@
       }
     }, 8000);
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
   <script type="module" src="admin.js"></script>
 </body>
 </html>

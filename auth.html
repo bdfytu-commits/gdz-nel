@@ -81,7 +81,8 @@
           <span>Войти</span>
         </button>
 
-        <p class="auth-alt">Нет аккаунта? Открой вкладку «Регистрация» выше.</p>
+        <p class="auth-alt">Нет аккаунта? Открой вкладку «Регистрация» выше.
+          <button class="link-btn" id="forgot-btn" type="button">Забыл пароль</button></p>
         <p class="form-status" id="login-status" role="status" aria-live="polite"></p>
       </form>
 
@@ -101,7 +102,9 @@
 
         <div class="field" data-field="password">
           <label for="rg-password">Пароль</label>
-          <input type="password" id="rg-password" autocomplete="new-password" minlength="6" placeholder="Минимум 6 символов" required>
+          <input type="password" id="rg-password" autocomplete="new-password" minlength="8" placeholder="Минимум 8 символов" required>
+          <div class="pass-meter" id="rg-pass-meter" hidden aria-hidden="true"><span></span></div>
+          <p class="field-hint" id="rg-pass-hint">Минимум 8 символов, буквы и цифры — так надёжнее.</p>
           <p class="field-error" role="alert"></p>
         </div>
 
@@ -127,7 +130,9 @@
           <select id="rg-subject">
             <option value="">Не выбран</option>
             <option value="math">Математика</option>
+            <option value="algebra">Алгебра</option>
             <option value="russian">Русский язык</option>
+            <option value="literature">Литература</option>
             <option value="english">Английский язык</option>
             <option value="biology">Биология</option>
             <option value="history">История</option>
@@ -142,6 +147,13 @@
             <span>Принимаю <a href="terms.html" target="_blank" rel="noopener">пользовательское соглашение</a>
               и <a href="privacy.html" target="_blank" rel="noopener">политику конфиденциальности</a></span>
           </label>
+          <p class="field-error" role="alert"></p>
+        </div>
+
+        <!-- hCaptcha (Ф11.3): виджет включается только когда внизу страницы
+             задан HCAPTCHA_SITEKEY. Без ключа форма работает как раньше. -->
+        <div class="field" data-field="captcha" id="captcha-field" hidden>
+          <div id="hcaptcha-slot"></div>
           <p class="field-error" role="alert"></p>
         </div>
 
@@ -170,7 +182,7 @@
         <a href="disclaimer.html">Дисклеймер</a>
       </nav>
     </div>
-    <p class="footer-legal">© 2026 ГДЗ НЭЛ. Материалы предназначены для личного использования.<br>Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
+    <p class="footer-legal">Материалы для личного использования. Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
   </footer>
 
   <script src="assets/script.js"></script>
@@ -196,6 +208,57 @@
     var authNote = document.getElementById('auth-note');
     var tabLogin = document.getElementById('tab-login');
     var tabRegister = document.getElementById('tab-register');
+
+    /* ---------- индикатор надёжности пароля (Ф11.2) ---------- */
+
+    var passMeter = document.getElementById('rg-pass-meter');
+    var passHint = document.getElementById('rg-pass-hint');
+    var PASS_HINT_DEFAULT = 'Минимум 8 символов, буквы и цифры — так надёжнее.';
+
+    function passwordScore(value) {
+      var score = 0;
+      if (value.length >= 8) score++;
+      if (value.length >= 12) score++;
+      if (/[a-zа-я]/i.test(value) && /\d/.test(value)) score++;
+      if (/[^a-zа-я0-9]/i.test(value)) score++;
+      return Math.min(score, 4);
+    }
+
+    document.getElementById('rg-password').addEventListener('input', function () {
+      var value = this.value;
+      passMeter.hidden = !value;
+      var score = passwordScore(value);
+      passMeter.className = 'pass-meter pass-meter--' + score;
+      var labels = ['очень слабый', 'слабый', 'средний', 'хороший', 'надёжный'];
+      passHint.textContent = value
+        ? 'Надёжность: ' + labels[score] + '. ' + PASS_HINT_DEFAULT
+        : PASS_HINT_DEFAULT;
+    });
+
+    /* ---------- hCaptcha (Ф11.3) ----------
+       ключ сайта с https://dashboard.hcaptcha.com (инструкция — docs/SUPABASE.md).
+       без ключа форма работает без капчи; сервер может требовать токен, если
+       капча включена в настройках Supabase Auth. */
+
+    var HCAPTCHA_SITEKEY = '';
+    var captchaToken = '';
+
+    if (HCAPTCHA_SITEKEY) {
+      document.getElementById('captcha-field').hidden = false;
+      var captchaScript = document.createElement('script');
+      captchaScript.src = 'https://js.hcaptcha.com/1/api.js';
+      captchaScript.async = true;
+      captchaScript.defer = true;
+      captchaScript.onload = function () {
+        if (!window.hcaptcha) return;
+        window.hcaptcha.render('hcaptcha-slot', {
+          sitekey: HCAPTCHA_SITEKEY,
+          theme: document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light',
+          callback: function (token) { captchaToken = token; }
+        });
+      };
+      document.head.appendChild(captchaScript);
+    }
 
     function showTab(which) {
       var isLogin = which === 'login';
@@ -311,8 +374,9 @@
       var bad = false;
       if (username.length < 2) { setFieldError(registerForm, 'username', 'Логин — от 2 символов.'); bad = true; }
       if (!email || email.indexOf('@') === -1) { setFieldError(registerForm, 'email', 'Проверь адрес почты.'); bad = true; }
-      if (password.length < 6) { setFieldError(registerForm, 'password', 'Пароль — минимум 6 символов.'); bad = true; }
+      if (password.length < 8) { setFieldError(registerForm, 'password', 'Пароль — минимум 8 символов.'); bad = true; }
       if (ageRaw && (isNaN(age) || age < 6 || age > 120)) { setFieldError(registerForm, 'age', 'Возраст — число от 6 до 120.'); bad = true; }
+      if (HCAPTCHA_SITEKEY && !captchaToken) { setFieldError(registerForm, 'captcha', 'Подтверди, что ты не робот.'); bad = true; }
       if (!terms) { setFieldError(registerForm, 'terms', 'Без согласия с правилами аккаунт создать нельзя.'); bad = true; }
       if (bad) return;
 
@@ -326,6 +390,7 @@
           password: password,
           options: {
             emailRedirectTo: redirectUrl,
+            captchaToken: captchaToken || undefined,
             data: {
               username: username,
               age: age,
@@ -354,6 +419,12 @@
         setStatus(registerStatus, 'ok', 'Аккаунт создан! Мы отправили письмо на ' + email +
           ' — подтверди почту и войди (письмо может попасть в «Спам»).');
         registerForm.reset();
+        passMeter.hidden = true;
+        passHint.textContent = PASS_HINT_DEFAULT;
+        // заодно готовим вход: переключаем вкладку и подставляем почту (Ф11.5)
+        showTab('login');
+        document.getElementById('li-email').value = email;
+        document.getElementById('li-password').focus();
       } catch (err) {
         setStatus(registerStatus, 'err', 'Нет связи с сервером. Проверь интернет и попробуй ещё раз.');
       } finally {
@@ -361,9 +432,42 @@
       }
     });
 
+    /* ---------- забыл пароль (Ф11.5) ---------- */
+
+    var forgotBtn = document.getElementById('forgot-btn');
+    if (forgotBtn) {
+      forgotBtn.addEventListener('click', async function () {
+        var email = document.getElementById('li-email').value.trim();
+        if (!email || email.indexOf('@') === -1) {
+          setFieldError(loginForm, 'email', 'Напиши email — на него придёт письмо.');
+          return;
+        }
+        forgotBtn.disabled = true;
+        try {
+          var redirect = location.origin + location.pathname + '?reset=1';
+          var res = await supabase.auth.resetPasswordForEmail(email, { redirectTo: redirect });
+          if (res.error) { setStatus(loginStatus, 'err', mapError(res.error.message)); return; }
+          setStatus(loginStatus, 'ok', 'Письмо со ссылкой на смену пароля отправлено на ' + email +
+            '. Проверь «Спам».');
+        } catch (err) {
+          setStatus(loginStatus, 'err', 'Нет связи с сервером. Попробуй ещё раз.');
+        } finally {
+          forgotBtn.disabled = false;
+        }
+      });
+    }
+
     /* ---------- стартовая вкладка ---------- */
 
     if (params.get('tab') === 'register') showTab('register');
+
+    // ссылка восстановления: после перехода пользователь с сессией
+    // задаёт новый пароль в профиле
+    if (params.get('reset') === '1') {
+      authNote.innerHTML = 'Новый пароль задаётся в <a href="profile.html">профиле</a> — ' +
+        'там блок «Смена пароля».';
+      authNote.hidden = false;
+    }
   </script>
 </body>
 </html>

@@ -148,6 +148,17 @@ h1, h2, h3 {
 .i-sun { --icon: url(img/icons/sun.svg); }
 .i-trash { --icon: url(img/icons/trash.svg); }
 .i-user { --icon: url(img/icons/user.svg); }
+.i-arrow-up { --icon: url(img/icons/arrow-up.svg); }
+.i-refresh { --icon: url(img/icons/refresh.svg); }
+.i-award { --icon: url(img/icons/award.svg); }
+.i-filter { --icon: url(img/icons/filter.svg); }
+.i-edit { --icon: url(img/icons/edit.svg); }
+.i-key { --icon: url(img/icons/key.svg); }
+.i-shield { --icon: url(img/icons/shield.svg); }
+.i-bell { --icon: url(img/icons/bell.svg); }
+.i-literature { --icon: url(img/icons/literature.svg); }
+.i-algebra { --icon: url(img/icons/algebra.svg); }
+.i-globe { --icon: url(img/icons/globe.svg); }
 
 
 .icon {
@@ -978,6 +989,19 @@ h1, h2, h3 {
 
 .auth-alt a { color: var(--c-link); }
 
+.link-btn {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--c-link);
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link-btn:hover { color: var(--c-primary); }
+.link-btn:disabled { opacity: 0.6; cursor: default; }
+
 .auth-note {
   margin: 0 0 22px;
   padding: 12px 14px;
@@ -1127,3 +1151,307 @@ h1, h2, h3 {
   .brand img { width: 32px; height: 32px; }
   .header-actions:has(.auth-slot) { gap: 6px; }
 }
+
+/* ---------- профиль 2.0: аватар, ачивки, пароль, удаление ---------- */
+
+.avatar-wrap { position: relative; flex: none; }
+
+.avatar-xl img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-edit {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 2px solid var(--c-bg);
+  border-radius: 50%;
+  background: var(--grad-btn);
+  color: #fff;
+  cursor: pointer;
+  transition: transform var(--t-fast) var(--ease);
+}
+
+.avatar-edit .icon { width: 16px; height: 16px; }
+
+.avatar-edit:hover { transform: scale(1.08); }
+
+.panel-section {
+  margin-top: 30px;
+  padding-top: 22px;
+  border-top: 1px solid var(--c-border);
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 10px;
+  font-size: 19px;
+}
+
+.section-title .icon { color: var(--c-link); }
+
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.badge-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 14px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-l);
+  background: var(--c-surface);
+  text-align: left;
+}
+
+.badge-card .badge-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: var(--grad-main);
+  color: #fff;
+}
+
+.badge-card strong { font-size: 14px; }
+
+.badge-card .badge-desc { font-size: 12px; color: var(--c-text-muted); }
+
+.badge-card .badge-date { font-size: 12px; color: var(--c-link); }
+
+.badge-card.is-locked { opacity: 0.55; }
+
+.badge-card.is-locked .badge-icon { background: var(--c-surface-2); color: var(--c-text-muted); }
+
+.badge-card.is-locked .badge-date { color: var(--c-text-muted); }
+
+.badge-card.is-earned { border-color: var(--c-primary); }
+
+/* надёжность пароля */
+.pass-meter {
+  height: 6px;
+  margin-top: 8px;
+  border-radius: 999px;
+  background: var(--c-surface-2);
+  overflow: hidden;
+}
+
+.pass-meter span {
+  display: block;
+  height: 100%;
+  width: 10%;
+  border-radius: 999px;
+  background: var(--c-red);
+  transition: width 200ms var(--ease), background-color 200ms var(--ease);
+}
+
+.pass-meter--1 span { width: 25%; background: var(--c-red); }
+.pass-meter--2 span { width: 50%; background: var(--c-yellow); }
+.pass-meter--3 span { width: 75%; background: var(--c-green); }
+.pass-meter--4 span { width: 100%; background: var(--c-green); }
+
+.field-hint { margin: 6px 0 0; font-size: 12px; color: var(--c-text-muted); }
+
+/* опасная зона */
+.btn-danger {
+  background: var(--c-red);
+  border-color: transparent;
+  color: #fff;
+}
+
+.btn-danger:hover { color: #fff; background: #C62828; }
+
+.danger-zone { border-top-color: rgba(229, 57, 53, 0.4); }
+
+.danger-zone .section-title .icon { color: var(--c-red); }
+
+/* аватар в шапке: картинка */
+.auth-chip img.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* страницы-заглушки (404, офлайн) */
+.notfound-wrap { max-width: 640px; }
+
+.notfound-code {
+  margin: 0;
+  font-family: var(--font-head);
+  font-size: clamp(64px, 14vw, 120px);
+  line-height: 1;
+  background: var(--grad-main);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ---------- ГДЗ+ (подписка, Ф35) ---------- */
+
+.premium-hero {
+  max-width: 640px;
+  margin: 0 auto 34px;
+  text-align: center;
+}
+
+.pro-badge {
+  background: linear-gradient(135deg, #F5C518, #E5A13A);
+  color: #3A2B00;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.pro-badge--lg {
+  margin-bottom: 14px;
+  padding: 5px 14px;
+  font-size: 13px;
+}
+
+.premium-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-bottom: 34px;
+}
+
+.premium-card {
+  padding: 22px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-l);
+  background: var(--c-surface);
+}
+
+.premium-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(245, 197, 24, 0.16);
+  color: #A97600;
+}
+
+[data-theme="dark"] .premium-card-icon { color: #E5A13A; }
+
+.premium-card h2 { margin: 12px 0 8px; font-size: 16px; }
+
+.premium-card p { margin: 0; color: var(--c-text-muted); font-size: 14px; }
+
+.premium-widget-block {
+  margin-bottom: 34px;
+  padding: 30px 22px;
+  text-align: center;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-l);
+  background: var(--c-surface-2);
+}
+
+.premium-widget-block h2 { margin: 0 0 8px; font-family: var(--font-head); font-size: 22px; }
+
+.premium-widget-sub { margin: 0 auto; max-width: 520px; color: var(--c-text-muted); font-size: 14px; }
+
+/* кнопка lava.top по центру блока */
+.premium-widget {
+  display: flex;
+  justify-content: center;
+  margin: 18px 0 12px;
+}
+
+/* кнопка оплаты на месте виджета lava.top */
+.premium-pay-btn {
+  min-width: 280px;
+  min-height: 60px;
+  justify-content: center;
+  font-size: 17px;
+  border-radius: 18px;
+}
+
+.premium-widget-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  color: var(--c-text-muted);
+  font-size: 13.5px;
+}
+
+.premium-steps,
+.premium-faq {
+  max-width: 720px;
+  margin: 0 auto 34px;
+}
+
+.premium-steps h2,
+.premium-faq h2 { font-family: var(--font-head); font-size: 22px; }
+
+.premium-step-list {
+  display: grid;
+  gap: 10px;
+  padding-left: 22px;
+  color: var(--c-text-muted);
+}
+
+.premium-step-list b,
+.premium-step-list a { color: var(--c-link); }
+
+.premium-faq details {
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border: 1px solid var(--c-border);
+  border-radius: 12px;
+  background: var(--c-surface);
+}
+
+.premium-faq summary { cursor: pointer; font-weight: 600; }
+
+.premium-faq p { margin: 10px 0 0; color: var(--c-text-muted); }
+
+.premium-legal {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--c-text-muted);
+  font-size: 13.5px;
+}
+
+/* плашка про подписку на фото-странице */
+.premium-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin: 0 0 18px;
+  padding: 16px 20px;
+  border: 1px solid rgba(245, 197, 24, 0.55);
+  border-radius: var(--radius-l);
+  background: linear-gradient(135deg, rgba(245, 197, 24, 0.14), rgba(229, 161, 58, 0.07));
+}
+
+.premium-banner p { margin: 0; font-size: 14px; }
+
+.premium-banner .btn { flex-shrink: 0; }
+
+@media (max-width: 560px) {
+  .premium-banner { flex-direction: column; align-items: flex-start; }
+}
+
+/* элементы с атрибутом hidden всегда скрыты, даже если у класса задан display */
+[hidden] { display: none !important; }

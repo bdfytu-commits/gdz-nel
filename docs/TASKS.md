@@ -51,3 +51,10 @@ euroki.org — 404, otvet.plus — устаревшая редакция, reshal
 добрана скриптом `scripts/fill_gaps.py` с euroki.org: условие берётся со страницы
 gdz-raketa.ru, решение и ответ — с альтернативного источника, в задаче сохраняются
 `source` и `sourceUrl`; что осталось серым и почему — в docs/PARSING.md.
+
+## Прод-фиксы (релиз 2.0, 18.10.2026)
+
+- [x] Отзывы: пост-модерация — `is_approved` default true, бэкфилл pending, политика INSERT
+- [x] Service worker v5: Supabase REST не кэшируется, старые кэши v4 удаляются при активации
+- [x] Фронт отзывов: тост «Отзыв успешно добавлен», re-fetch через 1.5 с, бейджи статуса
+- [x] premium.html: кнопка оплаты вместо невстраиваемого iframe lava.top

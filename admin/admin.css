@@ -65,10 +65,10 @@
   height: 100vh;
   padding: 20px 14px 16px;
   color: #fff;
-  background: #3C3C3C;
+  background: #1A1A1A; /* Ф9.1: сайдбар — почти чёрный */
 }
 
-[data-theme="dark"] .admin-side { background: #161616; }
+[data-theme="dark"] .admin-side { background: #111111; }
 
 .admin-brand {
   display: flex;
@@ -548,3 +548,158 @@
   .admin-nav a span:last-child { display: none; }
   .admin-nav a { padding: 10px 14px; }
 }
+
+/* ---------- админка 2.0: новые блоки (Ф9–10) ---------- */
+
+.admin-top-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#refresh-btn.is-spinning .icon { animation: spin 700ms linear infinite; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* скелетоны при загрузке */
+.sk { display: grid; gap: 12px; padding: 8px 0; }
+
+.sk-row {
+  height: 44px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, var(--c-surface-2) 25%, var(--c-border) 50%, var(--c-surface-2) 75%);
+  background-size: 400% 100%;
+  animation: sk-wave 1.2s ease-in-out infinite;
+}
+
+@keyframes sk-wave {
+  0% { background-position: 100% 0; }
+  100% { background-position: 0 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sk-row { animation: none; }
+  #refresh-btn.is-spinning .icon { animation: none; }
+}
+
+/* массовые операции */
+.bulk-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 14px;
+  padding: 10px 14px;
+  border: 1px solid var(--c-border);
+  border-radius: 10px;
+  background: rgba(26, 163, 163, 0.08);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* аватарки-картинки */
+.avatar-img {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--c-surface-2);
+}
+
+.avatar-img--lg { width: 36px; height: 36px; }
+
+/* модалки */
+.admin-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.admin-modal[hidden] { display: none; }
+
+.modal-card {
+  width: min(94vw, 430px);
+  padding: 24px 24px 20px;
+  border-radius: 16px;
+  background: var(--c-surface);
+  color: var(--c-text);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  animation: modal-in 160ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes modal-in {
+  from { opacity: 0; transform: translateY(10px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+
+.modal-title {
+  margin: 0 0 10px;
+  font-family: var(--font-head);
+  font-size: 18px;
+}
+
+.modal-body { color: var(--c-text-muted); font-size: 14px; }
+
+.modal-body input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--c-border);
+  border-radius: 10px;
+  background: var(--c-surface-2);
+  color: var(--c-text);
+  font: inherit;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* мини-списки на обзоре */
+.mini-list { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+
+.mini-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--c-surface-2);
+  font-size: 13px;
+}
+
+.mini-list b { color: var(--c-link); }
+
+/* график */
+.chart-box { position: relative; height: 220px; margin-top: 10px; }
+
+.chart-legend {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+  color: var(--c-text-muted);
+  font-size: 12.5px;
+}
+
+.chart-legend span { display: inline-flex; align-items: center; gap: 6px; }
+
+.chart-legend .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dot--reviews { background: #1AA3A3; }
+.dot--photos { background: #E5A13A; }
+.dot--events { background: #8B5CF6; }

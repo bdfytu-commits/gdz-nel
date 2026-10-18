@@ -39,6 +39,31 @@ export function avatarColor(text) {
   return palette[h % palette.length];
 }
 
+/* ---------- ачивки ---------- */
+
+export const BADGES = {
+  welcome: { title: 'Добро пожаловать', desc: 'Аккаунт создан — начало положено' },
+  review1: { title: 'Первый отзыв', desc: 'Оставлен первый отзыв к заданию' },
+  tasks10: { title: 'Десять задач', desc: 'Просмотрено 10 разных заданий' },
+  tasks100: { title: 'Сто задач', desc: 'Просмотрено 100 разных заданий' }
+};
+
+var BADGE_MONTHS = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня',
+  'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+
+export function badgeTitle(badge) {
+  if (BADGES[badge]) return BADGES[badge].title;
+  var daily = /^daily-(\d{4})-(\d{2})-(\d{2})$/.exec(String(badge));
+  if (daily) return 'Заходил ' + Number(daily[3]) + ' ' + BADGE_MONTHS[Number(daily[2]) - 1];
+  return String(badge);
+}
+
+export function badgeDesc(badge) {
+  if (BADGES[badge]) return BADGES[badge].desc;
+  if (/^daily-/.test(String(badge))) return 'Открыто хотя бы одно задание в этот день';
+  return '';
+}
+
 /* ---------- сессия и профиль ---------- */
 
 export async function getSession() {
@@ -94,16 +119,19 @@ export function initHeaderAuth(options) {
     var name = (profile && profile.username) ||
       (user && user.email ? String(user.email).split('@')[0] : 'Профиль');
     var letter = String(name).trim().charAt(0).toUpperCase() || 'П';
+    var avatar = (profile && profile.avatar_url)
+      ? '<img class="avatar" src="' + escapeHtml(profile.avatar_url) + '" alt="" loading="lazy">'
+      : '<span class="avatar" style="background:' + avatarColor(name) + '" aria-hidden="true">' +
+        escapeHtml(letter) + '</span>';
     slot.innerHTML = '<a class="auth-chip" href="' + profileHref + '" title="Профиль: ' + escapeHtml(name) + '">' +
-      '<span class="avatar" style="background:' + avatarColor(name) + '" aria-hidden="true">' +
-      escapeHtml(letter) + '</span>' +
+      avatar +
       (iconVariant ? '' : '<span class="auth-chip-name">' + escapeHtml(name) + '</span>') + '</a>';
   }
 
   async function refresh(session) {
     if (!session) { renderLoggedOut(); return; }
     try {
-      var res = await supabase.from('profiles').select('username').eq('id', session.user.id).single();
+      var res = await supabase.from('profiles').select('username, avatar_url').eq('id', session.user.id).single();
       renderLoggedIn(res.data, session.user);
     } catch (err) {
       renderLoggedIn(null, session.user);

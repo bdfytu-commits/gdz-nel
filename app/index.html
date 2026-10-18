@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>ГДЗ НЭЛ — приложение</title>
   <meta name="description" content="Приложение ГДЗ НЭЛ: готовые домашние задания для 6 класса лицея, 7–9 готовятся. Поиск по номеру и тексту, избранное, история, отзывы, решение по фото, тёмная тема, офлайн-режим.">
   <meta name="robots" content="index, follow">
@@ -36,6 +36,7 @@
 <body>
 
   <header class="app-header" id="app-header">
+    <div class="read-progress" id="read-progress" aria-hidden="true"></div>
     <div class="header-row">
       <a class="brand" href="../index.html">
         <img src="../assets/img/logo-120.png" alt="Эмблема НЭЛ" width="36" height="36">
@@ -83,6 +84,39 @@
     <div id="screen" class="screen" aria-live="polite"></div>
   </main>
 
+  <!-- офлайн-плашка (Ф15) -->
+  <div class="offline-bar no-print" id="offline-bar" hidden role="status">
+    <span class="icon i-alert" aria-hidden="true"></span>
+    <span>Нет подключения — показываю данные из кэша</span>
+  </div>
+
+  <!-- обновление приложения (Ф15.8) -->
+  <div class="sw-update no-print" id="sw-update" hidden role="status">
+    <span>Доступна новая версия</span>
+    <button class="btn btn-primary btn-sm" id="sw-update-btn" type="button">
+      <span class="icon i-refresh" aria-hidden="true"></span><span>Обновить</span>
+    </button>
+  </div>
+
+  <!-- кнопка «наверх» (Ф3.9) -->
+  <button class="to-top no-print" id="to-top" type="button" hidden aria-label="Наверх">
+    <span class="icon i-arrow-up" aria-hidden="true"></span>
+  </button>
+
+  <!-- нижняя навигация на телефоне (Ф14) -->
+  <nav class="bottom-nav no-print" id="bottom-nav" aria-label="Навигация приложения">
+    <a class="bottom-nav-item" href="#/" data-nav="home">
+      <span class="icon i-home" aria-hidden="true"></span><span>Классы</span></a>
+    <a class="bottom-nav-item" href="#/favorites" data-nav="favorites">
+      <span class="icon i-star" aria-hidden="true"></span><span>Избранное</span></a>
+    <a class="bottom-nav-item" href="#/recent" data-nav="recent">
+      <span class="icon i-clock" aria-hidden="true"></span><span>Недавние</span></a>
+    <button class="bottom-nav-item" type="button" id="nav-search">
+      <span class="icon i-search" aria-hidden="true"></span><span>Поиск</span></button>
+    <a class="bottom-nav-item" href="../profile.html">
+      <span class="icon i-user" aria-hidden="true"></span><span>Профиль</span></a>
+  </nav>
+
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
   <div id="hint" class="hint" role="region" aria-label="Подсказка о навигации" hidden>
@@ -90,6 +124,8 @@
     <button class="btn btn-outline btn-sm" id="hint-close" type="button"><span>Понятно</span></button>
   </div>
 
+  <script type="application/ld+json" id="task-jsonld"></script>
+  <script src="../assets/analytics.js" defer></script>
   <script src="assets/script.js"></script>
   <script type="module">
     // Мост к Supabase: script.js ждёт window.gdzSupabase (или событие ниже).

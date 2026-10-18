@@ -2,9 +2,9 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Профиль — ГДЗ НЭЛ</title>
-  <meta name="description" content="Профиль ГДЗ НЭЛ: логин, возраст, любимый предмет. Здесь можно изменить данные или выйти из аккаунта.">
+  <meta name="description" content="Профиль ГДЗ НЭЛ: аватар, достижения, история просмотров, любимый предмет и настройки аккаунта.">
   <meta name="robots" content="noindex, nofollow">
   <link rel="canonical" href="https://bdfytu-commits.github.io/gdz-nel/profile.html">
 
@@ -51,7 +51,13 @@
   <main class="page">
     <div class="page-inner">
       <div class="profile-head" id="profile-head">
-        <div class="avatar-xl" id="profile-avatar" aria-hidden="true">…</div>
+        <div class="avatar-wrap">
+          <div class="avatar-xl" id="profile-avatar" aria-hidden="true">…</div>
+          <button class="avatar-edit" id="avatar-btn" type="button" title="Сменить аватар" aria-label="Сменить аватар">
+            <span class="icon i-camera" aria-hidden="true"></span>
+          </button>
+          <input type="file" id="avatar-file" accept="image/png,image/jpeg,image/webp" hidden>
+        </div>
         <div>
           <h1 id="profile-name">Профиль</h1>
           <p id="profile-email">Загружаю данные…</p>
@@ -60,6 +66,7 @@
       </div>
 
       <p class="auth-note" id="profile-note" hidden role="status"></p>
+      <p class="form-status" id="avatar-status" role="status" aria-live="polite"></p>
 
       <form id="profile-form" class="auth-form profile-form" hidden novalidate>
         <div class="field" data-field="username">
@@ -90,7 +97,9 @@
           <select id="pf-subject">
             <option value="">Не выбран</option>
             <option value="math">Математика</option>
+            <option value="algebra">Алгебра</option>
             <option value="russian">Русский язык</option>
+            <option value="literature">Литература</option>
             <option value="english">Английский язык</option>
             <option value="biology">Биология</option>
             <option value="history">История</option>
@@ -106,6 +115,54 @@
         <p class="form-status" id="profile-status" role="status" aria-live="polite"></p>
       </form>
 
+      <!-- достижения (Ф16) -->
+      <section class="panel-section" id="achievements-section" hidden>
+        <h2 class="section-title"><span class="icon i-award" aria-hidden="true"></span>Достижения</h2>
+        <p class="panel-sub" id="achievements-count"></p>
+        <div class="badge-grid" id="badges-grid"></div>
+      </section>
+
+      <!-- подписка ГДЗ+ (Ф35.5) -->
+      <section class="panel-section" id="premium-section" hidden>
+        <h2 class="section-title"><span class="icon i-award" aria-hidden="true"></span>Подписка ГДЗ+</h2>
+        <p class="panel-sub" id="premium-status-text"></p>
+        <a class="btn btn-primary btn-sm" id="premium-cta" href="premium.html">Оформить ГДЗ+</a>
+      </section>
+
+      <!-- история просмотров (Ф11.8) -->
+      <section class="panel-section" id="history-section" hidden>
+        <h2 class="section-title"><span class="icon i-clock" aria-hidden="true"></span>История просмотров</h2>
+        <ul class="list" id="history-list"></ul>
+        <p class="empty" id="history-empty">Пока пусто — открытые задания появятся здесь.</p>
+        <button class="btn btn-outline btn-sm" id="history-clear" type="button" hidden>
+          <span class="icon i-trash" aria-hidden="true"></span><span>Очистить историю</span>
+        </button>
+        <p class="form-status" id="history-status" role="status" aria-live="polite"></p>
+      </section>
+
+      <!-- смена пароля (Ф11.9) -->
+      <section class="panel-section">
+        <h2 class="section-title"><span class="icon i-key" aria-hidden="true"></span>Смена пароля</h2>
+        <form id="password-form" class="auth-form profile-form" novalidate>
+          <div class="field" data-field="newpass">
+            <label for="pf-newpass">Новый пароль</label>
+            <input type="password" id="pf-newpass" minlength="8" autocomplete="new-password" required>
+            <div class="pass-meter" id="pass-meter" hidden aria-hidden="true"><span></span></div>
+            <p class="field-hint" id="pass-hint">Минимум 8 символов, буквы и цифры.</p>
+            <p class="field-error" role="alert"></p>
+          </div>
+          <div class="field" data-field="newpass2">
+            <label for="pf-newpass2">Повтори пароль</label>
+            <input type="password" id="pf-newpass2" minlength="8" autocomplete="new-password" required>
+            <p class="field-error" role="alert"></p>
+          </div>
+          <button class="btn btn-primary" type="submit" id="password-save">
+            <span class="icon i-shield" aria-hidden="true"></span><span>Сменить пароль</span>
+          </button>
+          <p class="form-status" id="password-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
       <div class="profile-actions">
         <a class="btn btn-outline" href="app/index.html">
           <span class="icon i-book" aria-hidden="true"></span>
@@ -116,6 +173,16 @@
           <span>Выйти из аккаунта</span>
         </button>
       </div>
+
+      <!-- удаление аккаунта (Ф11.10) -->
+      <section class="panel-section danger-zone">
+        <h2 class="section-title"><span class="icon i-alert" aria-hidden="true"></span>Удаление аккаунта</h2>
+        <p class="panel-sub">Аккаунт, отзывы, достижения и история удалятся навсегда. Это необратимо.</p>
+        <button class="btn btn-danger" id="delete-account" type="button">
+          <span class="icon i-trash" aria-hidden="true"></span><span>Удалить аккаунт</span>
+        </button>
+        <p class="form-status" id="delete-status" role="status" aria-live="polite"></p>
+      </section>
     </div>
   </main>
 
@@ -133,12 +200,16 @@
         <a href="disclaimer.html">Дисклеймер</a>
       </nav>
     </div>
-    <p class="footer-legal">© 2026 ГДЗ НЭЛ. Материалы предназначены для личного использования.<br>Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
+    <p class="footer-legal">Материалы для личного использования. Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
   </footer>
 
+  <script src="assets/analytics.js" defer></script>
   <script src="assets/script.js"></script>
   <script type="module">
-    import { supabase, requireSession, avatarColor, escapeHtml } from './assets/supabase.js';
+    import {
+      supabase, requireSession, avatarColor, escapeHtml,
+      BADGES, badgeTitle, badgeDesc
+    } from './assets/supabase.js';
 
     var session = await requireSession({ next: 'profile.html' });
     if (!session) throw new Error('redirect');
@@ -152,6 +223,12 @@
     var noteEl = document.getElementById('profile-note');
     var form = document.getElementById('profile-form');
     var statusEl = document.getElementById('profile-status');
+    var avatarStatusEl = document.getElementById('avatar-status');
+
+    function setAvatarStatus(text, isError) {
+      avatarStatusEl.className = 'form-status' + (text ? (isError ? ' is-err' : ' is-ok') : '');
+      avatarStatusEl.textContent = text || '';
+    }
 
     function setFieldError(name, text) {
       var field = form.querySelector('[data-field="' + name + '"]');
@@ -170,28 +247,56 @@
       }
     });
 
-    function render(profile) {
-      var name = profile.username || session.user.email.split('@')[0];
-      avatarEl.textContent = String(name).trim().charAt(0).toUpperCase() || 'П';
-      avatarEl.style.background = avatarColor(name);
+    function renderAvatar(data) {
+      var name = data.username || session.user.email.split('@')[0];
+      if (data.avatar_url) {
+        avatarEl.innerHTML = '<img src="' + escapeHtml(data.avatar_url) + '" alt="">';
+      } else {
+        avatarEl.textContent = String(name).trim().charAt(0).toUpperCase() || 'П';
+        avatarEl.style.background = avatarColor(name);
+      }
+    }
+
+    function render(data) {
+      var name = data.username || session.user.email.split('@')[0];
+      renderAvatar(data);
       nameEl.textContent = name;
       emailEl.textContent = session.user.email;
 
+      var isPremium = !!(data.is_premium && data.premium_until &&
+        new Date(data.premium_until) > new Date());
+
       var badges = '';
-      if (profile.role === 'admin') badges += '<span class="badge">администратор</span> ';
-      if (profile.ban) badges += '<span class="badge is-warn">аккаунт заблокирован</span>';
+      if (data.role === 'admin') badges += '<span class="badge">администратор</span> ';
+      if (isPremium) badges += '<span class="badge pro-badge" title="Подписка ГДЗ+">PRO</span> ';
+      if (data.ban) badges += '<span class="badge is-warn">аккаунт заблокирован</span>';
       badgesEl.innerHTML = badges;
 
-      if (profile.ban) {
+      // подписка ГДЗ+ (Ф35.5)
+      var premSection = document.getElementById('premium-section');
+      var premText = document.getElementById('premium-status-text');
+      var premCta = document.getElementById('premium-cta');
+      if (isPremium) {
+        premText.innerHTML = 'ГДЗ+ активен до <b>' + escapeHtml(formatDate(data.premium_until)) +
+          '</b>: решения по фото без лимита. Новая оплата продлит срок, дни сложатся.';
+        premCta.textContent = 'Продлить';
+      } else {
+        premText.textContent = 'ГДЗ+ не оформлен: в «решить по фото» действует лимит 5 в сутки. ' +
+          'Остальные возможности сайта бесплатны.';
+        premCta.textContent = 'Оформить ГДЗ+';
+      }
+      premSection.hidden = false;
+
+      if (data.ban) {
         noteEl.hidden = false;
         noteEl.innerHTML = 'Аккаунт заблокирован: нельзя оставлять отзывы и пользоваться «решить по фото». ' +
           'Если это ошибка — напиши на <a href="mailto:bdfy.tu@yandex.ru">bdfy.tu@yandex.ru</a>.';
       }
 
-      document.getElementById('pf-username').value = profile.username || '';
-      document.getElementById('pf-age').value = profile.age == null ? '' : profile.age;
-      document.getElementById('pf-gender').value = profile.gender || '';
-      document.getElementById('pf-subject').value = profile.favorite_subject || '';
+      document.getElementById('pf-username').value = data.username || '';
+      document.getElementById('pf-age').value = data.age == null ? '' : data.age;
+      document.getElementById('pf-gender').value = data.gender || '';
+      document.getElementById('pf-subject').value = data.favorite_subject || '';
       form.hidden = false;
       document.title = name + ' — профиль — ГДЗ НЭЛ';
     }
@@ -207,6 +312,184 @@
     }
     profile = res.data;
     render(profile);
+
+    /* ---------- аватар (Ф11.5) ---------- */
+
+    var avatarFile = document.getElementById('avatar-file');
+    document.getElementById('avatar-btn').addEventListener('click', function () { avatarFile.click(); });
+
+    avatarFile.addEventListener('change', async function () {
+      var file = avatarFile.files && avatarFile.files[0];
+      if (!file) return;
+      avatarFile.value = '';
+
+      if (file.size > 2 * 1024 * 1024) { setAvatarStatus('Файл больше 2 МБ — выбери поменьше.', true); return; }
+      if (['image/png', 'image/jpeg', 'image/webp'].indexOf(file.type) === -1) {
+        setAvatarStatus('Формат: png, jpeg или webp.', true);
+        return;
+      }
+
+      setAvatarStatus('Загружаю…');
+      var ext = file.type === 'image/png' ? 'png' : (file.type === 'image/webp' ? 'webp' : 'jpg');
+      var path = session.user.id + '/avatar-' + Date.now() + '.' + ext;
+
+      var up = await supabase.storage.from('avatars').upload(path, file, { cacheControl: '3600', upsert: true });
+      if (up.error) { setAvatarStatus('Не получилось загрузить: ' + up.error.message, true); return; }
+
+      var url = supabase.storage.from('avatars').getPublicUrl(path).data.publicUrl;
+
+      var upd = await supabase.from('profiles').update({ avatar_url: url })
+        .eq('id', session.user.id).select('*').single();
+      if (upd.error) { setAvatarStatus('Файл загружен, но профиль не обновился: ' + upd.error.message, true); return; }
+
+      // старый аватар больше не нужен
+      if (profile.avatar_url && profile.avatar_url.indexOf('/avatars/') !== -1) {
+        var oldPath = profile.avatar_url.split('/avatars/')[1].split('?')[0];
+        if (oldPath && oldPath !== path) {
+          supabase.storage.from('avatars').remove([oldPath]).catch(function () { /* не критично */ });
+        }
+      }
+
+      profile = upd.data;
+      renderAvatar(profile);
+      setAvatarStatus('Аватар обновлён.');
+    });
+
+    /* ---------- достижения (Ф16) ---------- */
+
+    var achSection = document.getElementById('achievements-section');
+    var badgesGrid = document.getElementById('badges-grid');
+    var achCount = document.getElementById('achievements-count');
+
+    function renderBadges(rows) {
+      var unlocked = {};
+      rows.forEach(function (r) { unlocked[r.badge_type] = r.unlocked_at; });
+
+      var earned = 0;
+      var html = '';
+
+      Object.keys(BADGES).forEach(function (id) {
+        var on = !!unlocked[id];
+        if (on) earned++;
+        html += '<div class="badge-card' + (on ? ' is-earned' : ' is-locked') + '" title="' +
+          escapeHtml(badgeDesc(id) || '') + '">' +
+          '<span class="badge-icon"><span class="icon i-award" aria-hidden="true"></span></span>' +
+          '<strong>' + escapeHtml(BADGES[id].title) + '</strong>' +
+          '<span class="badge-desc">' + escapeHtml(BADGES[id].desc) + '</span>' +
+          (on ? '<span class="badge-date">' + escapeHtml(formatDate(unlocked[id])) + '</span>'
+              : '<span class="badge-date">не открыто</span>') +
+          '</div>';
+      });
+
+      var daily = rows.filter(function (r) { return /^daily-/.test(r.badge_type); }).slice(0, 16);
+      daily.forEach(function (r) {
+        html += '<div class="badge-card is-earned" title="Открыл хотя бы одно задание в этот день">' +
+          '<span class="badge-icon"><span class="icon i-check" aria-hidden="true"></span></span>' +
+          '<strong>' + escapeHtml(badgeTitle(r.badge_type)) + '</strong>' +
+          '<span class="badge-desc">дневная активность</span>' +
+          '<span class="badge-date">' + escapeHtml(formatDate(r.unlocked_at)) + '</span>' +
+          '</div>';
+      });
+
+      badgesGrid.innerHTML = html;
+      achCount.textContent = 'Получено ' + earned + ' из ' + Object.keys(BADGES).length +
+        (daily.length ? ' · дневных отметок: ' + daily.length : '');
+      achSection.hidden = false;
+    }
+
+    function formatDate(ts) {
+      try {
+        return new Date(ts).toLocaleDateString('ru-RU', { day: 'numeric', month: 'short', year: 'numeric' });
+      } catch (err) { return ''; }
+    }
+
+    try {
+      var achRes = await supabase.from('achievements')
+        .select('badge_type, unlocked_at')
+        .order('unlocked_at', { ascending: false })
+        .limit(300);
+      if (!achRes.error) renderBadges(achRes.data || []);
+    } catch (err) { /* блок просто не покажется */ }
+
+    /* ---------- история просмотров (Ф11.8) ---------- */
+
+    var historySection = document.getElementById('history-section');
+    var historyList = document.getElementById('history-list');
+    var historyEmpty = document.getElementById('history-empty');
+    var historyClear = document.getElementById('history-clear');
+    var historyStatus = document.getElementById('history-status');
+
+    var bookMap = {};
+    try {
+      var catRes = await fetch('app/data/catalog.json');
+      if (catRes.ok) {
+        var cat = await catRes.json();
+        (cat.grades || []).forEach(function (g) {
+          (g.subjects || []).forEach(function (s) {
+            (s.textbooks || []).forEach(function (b) {
+              bookMap[b.id] = { grade: g.id, gradeTitle: g.title, subject: s.id, subjectTitle: s.title, title: b.title };
+            });
+          });
+        });
+      }
+    } catch (err) { /* без карты покажем без ссылок */ }
+
+    function renderHistory(rows) {
+      if (!rows.length) {
+        historyEmpty.hidden = false;
+        historyClear.hidden = true;
+        historyList.innerHTML = '';
+        historySection.hidden = false;
+        return;
+      }
+      historyEmpty.hidden = true;
+      historyClear.hidden = false;
+      historyList.innerHTML = rows.map(function (r) {
+        var parts = String(r.task_id).split(':');
+        var bookId = parts[0];
+        var number = parts.slice(1).join(':');
+        var info = bookMap[bookId];
+        var title = info
+          ? (info.subjectTitle + ' · ' + info.title + ' · №' + number)
+          : (bookId + ' · №' + number);
+        var href = info
+          ? ('app/index.html#/' + info.grade + '/' + info.subject + '/' + bookId + '/' + encodeURIComponent(number))
+          : null;
+        return '<li class="list-item">' +
+          '<span class="subject-icon" style="width:40px;height:40px">' +
+          '<span class="icon i-' + escapeHtml(info ? info.subject : 'book') + '" aria-hidden="true"></span></span>' +
+          '<div class="list-main">' +
+          (href ? '<a class="list-title" href="' + href + '">' + escapeHtml(title) + '</a>'
+                : '<span class="list-title">' + escapeHtml(title) + '</span>') +
+          '<p class="list-meta">открыто ' + escapeHtml(formatDate(r.viewed_at)) + '</p>' +
+          '</div></li>';
+      }).join('');
+      historySection.hidden = false;
+    }
+
+    try {
+      var histRes = await supabase.from('history')
+        .select('task_id, viewed_at')
+        .order('viewed_at', { ascending: false })
+        .limit(30);
+      renderHistory(histRes.data || []);
+    } catch (err) { /* блок просто не покажется */ }
+
+    historyClear.addEventListener('click', async function () {
+      historyClear.disabled = true;
+      var del = await supabase.from('history').delete().eq('user_id', session.user.id);
+      historyClear.disabled = false;
+      if (del.error) {
+        historyStatus.className = 'form-status is-err';
+        historyStatus.textContent = 'Не получилось очистить: ' + del.error.message;
+        return;
+      }
+      historyStatus.className = 'form-status is-ok';
+      historyStatus.textContent = 'История очищена.';
+      renderHistory([]);
+    });
+
+    /* ---------- сохранение профиля ---------- */
 
     form.addEventListener('submit', async function (event) {
       event.preventDefault();
@@ -246,6 +529,113 @@
         btn.disabled = false;
       }
     });
+
+    /* ---------- смена пароля (Ф11.9) ---------- */
+
+    var passForm = document.getElementById('password-form');
+    var passStatus = document.getElementById('password-status');
+    var passMeter = document.getElementById('pass-meter');
+    var passHint = document.getElementById('pass-hint');
+
+    function passwordScore(value) {
+      var score = 0;
+      if (value.length >= 8) score++;
+      if (value.length >= 12) score++;
+      if (/[a-zа-я]/i.test(value) && /\d/.test(value)) score++;
+      if (/[^a-zа-я0-9]/i.test(value)) score++;
+      return Math.min(score, 4);
+    }
+
+    document.getElementById('pf-newpass').addEventListener('input', function () {
+      var value = this.value;
+      passMeter.hidden = !value;
+      var score = passwordScore(value);
+      passMeter.className = 'pass-meter pass-meter--' + score;
+      var labels = ['очень слабый', 'слабый', 'средний', 'хороший', 'надёжный'];
+      passHint.textContent = value
+        ? 'Надёжность: ' + labels[score] + '. Минимум 8 символов, буквы и цифры.'
+        : 'Минимум 8 символов, буквы и цифры.';
+    });
+
+    passForm.addEventListener('submit', async function (event) {
+      event.preventDefault();
+      passStatus.textContent = '';
+      passStatus.className = 'form-status';
+
+      var pass = document.getElementById('pf-newpass').value;
+      var pass2 = document.getElementById('pf-newpass2').value;
+
+      if (pass.length < 8) { fieldError(passForm, 'newpass', 'Пароль — минимум 8 символов.'); return; }
+      if (pass !== pass2) { fieldError(passForm, 'newpass2', 'Пароли не совпадают.'); return; }
+
+      var btn = document.getElementById('password-save');
+      btn.disabled = true;
+      try {
+        var upd = await supabase.auth.updateUser({ password: pass });
+        if (upd.error) {
+          passStatus.className = 'form-status is-err';
+          passStatus.textContent = 'Не получилось: ' + upd.error.message;
+          return;
+        }
+        passStatus.className = 'form-status is-ok';
+        passStatus.textContent = 'Пароль изменён.';
+        passForm.reset();
+        passMeter.hidden = true;
+        passHint.textContent = 'Минимум 8 символов, буквы и цифры.';
+      } catch (err) {
+        passStatus.className = 'form-status is-err';
+        passStatus.textContent = 'Нет связи с сервером. Попробуй ещё раз.';
+      } finally {
+        btn.disabled = false;
+      }
+    });
+
+    function fieldError(container, name, text) {
+      var field = container.querySelector('[data-field="' + name + '"]');
+      if (!field) return;
+      field.classList.add('has-error');
+      var err = field.querySelector('.field-error');
+      if (err) err.textContent = text;
+    }
+
+    passForm.addEventListener('input', function (event) {
+      var field = event.target.closest('.field');
+      if (field) {
+        field.classList.remove('has-error');
+        var err = field.querySelector('.field-error');
+        if (err) err.textContent = '';
+      }
+    });
+
+    /* ---------- удаление аккаунта (Ф11.10) ---------- */
+
+    var deleteStatus = document.getElementById('delete-status');
+    document.getElementById('delete-account').addEventListener('click', async function () {
+      var ok = window.confirm('Удалить аккаунт навсегда? Отзывы, ачивки и история тоже удалятся.');
+      if (!ok) return;
+      var btn = this;
+      btn.disabled = true;
+      deleteStatus.className = 'form-status';
+      deleteStatus.textContent = 'Удаляю…';
+      try {
+        var res = await supabase.rpc('delete_own_account');
+        if (res.error) {
+          deleteStatus.className = 'form-status is-err';
+          deleteStatus.textContent = 'Не получилось удалить: ' + res.error.message;
+          btn.disabled = false;
+          return;
+        }
+        if (window.gdzTrack) window.gdzTrack('account_deleted');
+        await supabase.auth.signOut();
+        location.replace('index.html');
+      } catch (err) {
+        deleteStatus.className = 'form-status is-err';
+        deleteStatus.textContent = 'Нет связи с сервером. Попробуй ещё раз.';
+        btn.disabled = false;
+      }
+    });
+
+    /* ---------- выход ---------- */
 
     document.getElementById('logout-btn').addEventListener('click', async function () {
       await supabase.auth.signOut();

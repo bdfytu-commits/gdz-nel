@@ -7,7 +7,7 @@
       "type": "object",
       "required": ["subject", "textbook", "author", "year", "source", "parsedAt", "tasks"],
       "properties": {
-        "subject": { "type": "string", "enum": ["math", "russian", "english", "biology", "history", "social"] },
+        "subject": { "type": "string", "enum": ["math", "algebra", "russian", "english", "biology", "history", "social"] },
         "textbook": { "type": "string", "minLength": 1 },
         "author": { "type": "string", "minLength": 1 },
         "year": { "type": "string", "minLength": 1 },
@@ -25,8 +25,17 @@
               "number": { "type": "string", "minLength": 1, "description": "Строка: «1.1», «5.4», «407»" },
               "section": { "type": "string", "minLength": 1, "description": "Раздел/параграф/модуль" },
               "condition": { "type": "string", "minLength": 1 },
-              "solution": { "type": "string", "minLength": 1 },
-              "answer": { "type": "string", "minLength": 1 },
+              "solution": { "type": "string", "description": "Пустая строка допустима, если решение — на изображении из images" },
+              "answer": { "type": "string", "description": "Пустая строка допустима, если решение — на изображении" },
+              "images": {
+                "type": "array",
+                "items": { "type": "string", "pattern": "^https?://" },
+                "description": "Ссылки на изображения-решения (алгебра: сканы из источника)"
+              },
+              "column_solution": {
+                "type": "string",
+                "description": "Запись вычислений «в столбик» (моноширинный текст), если применимо"
+              },
               "source": { "type": "string", "enum": ["euroki.org", "otvet.plus", "reshalka.com"], "description": "Источник добранного задания (у основных заданий поля нет)" },
               "sourceUrl": { "type": "string", "minLength": 1, "description": "Страница-источник решения" }
             },

@@ -118,6 +118,9 @@ def _expected_number(url: str) -> str | None:
     m = re.search(r"-nomer-(\d+)/$", url)
     if m:
         return m.group(1)
+    m = re.search(r"/(?:upr)-(\d+)/$", url)
+    if m:
+        return m.group(1)
     return None
 
 
@@ -154,8 +157,8 @@ STOP_MARKERS = (
 INLINE_TAGS = ("span", "strong", "em", "b", "i", "sup", "sub", "u", "small", "a", "mark")
 
 
-def _main_lines(soup: BeautifulSoup) -> list[str]:
-    main = soup.select_one("main") or soup.body
+def _main_lines(soup: BeautifulSoup, root=None) -> list[str]:
+    main = root or soup.select_one("main") or soup.body
     if main is None:
         return []
     # инлайн-теги (дроби вида <span class="fraction">2/3</span>, выделения)
@@ -220,18 +223,24 @@ def _heading_before(lines: list[str], first_idx: int, default: str = "",
     return candidates[-1] if candidates else default
 
 
-NUMBER_RE = re.compile(r"^Номер\.?\s+([0-9]+(?:\.[0-9]+)*)\.?$")
+NUMBER_RE = re.compile(r"^(?:Номер|Задание)\.?\s+([0-9]+(?:\.[0-9]+)*)\.?$")
 _ANSWER_RE = re.compile(r"^ответ\s*:?\s*$", re.I)
 _TRANS_RE = re.compile(r"^перевод\s*:?\s*$", re.I)
 
 
-def parse_single_task(soup: BeautifulSoup) -> dict | None:
-    """Страница с одной задачей: math, russian."""
+def parse_single_task(soup: BeautifulSoup, expected: str | None = None) -> dict | None:
+    """Страница с одной задачей: math, russian.
+
+    expected — номер из адреса страницы: сайт иногда лепит в заголовок
+    чужой номер (например, на странице 131 стоит «Номер 133.»), поэтому
+    адресу доверяем больше, чем тексту.
+    """
     lines = _main_lines(soup)
     idx = next((i for i, l in enumerate(lines) if NUMBER_RE.match(l)), None)
     if idx is None:
         return None
-    number = NUMBER_RE.match(lines[idx]).group(1)
+    marker = NUMBER_RE.match(lines[idx]).group(1)
+    number = expected or marker
 
     cond: list[str] = []
     sol: list[str] = []
@@ -385,11 +394,261 @@ def parse_rubric_tasks(soup: BeautifulSoup, page: str, default_section: str = ""
 
 
 # --------------------------------------------------------------------------
+# парсеры форматов 7–9 классов (издания 2019–2025)
+# --------------------------------------------------------------------------
+
+EXERCISE_RE = re.compile(r"^Упражнение\s+(\d+)\s*$")
+
+_EXCLUDE_SELECTORS = (
+    ".Modal", "#auth-popup-overlay", ".pagination-down", ".end-content",
+    ".rating", ".error-mod", ".wrapper-titles", ".lenta-block", ".lenta-tit",
+    ".site-footer-links", ".site-footer-legal", ".site-footer-copy", ".breadcrumbs",
+    ".article-author", ".user-link", ".user__title", ".wrap-b", ".title-share",
+    ".title-error", ".sres", ".nextpage", ".push-btn", ".contact-form", ".gift",
+    ".img-wrapper-450", ".article-rating", ".premium-block",
+)
+
+_QUESTION_CLASSES = ("text", "description-text", "vopros")
+
+
+def _main_root(soup: BeautifulSoup):
+    return soup.select_one("main") or soup.body
+
+
+def _excluded_ids(soup: BeautifulSoup) -> set[int]:
+    ids: set[int] = set()
+    for sel in _EXCLUDE_SELECTORS:
+        for el in soup.select(sel):
+            ids.add(id(el))
+    return ids
+
+
+def _content_stream(soup: BeautifulSoup) -> list[tuple[str, str, tuple[str, ...]]]:
+    """Значимые узлы страницы по порядку: («h»|«q»|«m»|«p», текст, классы).
+
+    «q» — блок вопросов (ul.rus2), «m» — маркер «Ответ:», «p» — абзац,
+    «h» — заголовок h2/h3/h4. Обрыв на «Конец страницы».
+    """
+    root = _main_root(soup)
+    if root is None:
+        return []
+    excluded = _excluded_ids(soup)
+    stream: list[tuple[str, str, tuple[str, ...]]] = []
+    for el in root.find_all(True):
+        if id(el) in excluded or any(id(p) in excluded for p in el.parents):
+            continue
+        if el.name == "div" and "end-content" in (el.get("class") or []):
+            break
+        if el.name == "ul" and "rus2" in (el.get("class") or []):
+            items = [li.get_text(" ", strip=True) for li in el.find_all("li")]
+            text = "\n".join(t for t in items if t)
+            if text:
+                stream.append(("q", text, ("rus2",)))
+            continue
+        if el.name == "b" and "otvet" in (el.get("class") or []):
+            if el.find_parent("p") is None:
+                stream.append(("m", el.get_text(" ", strip=True), ("otvet",)))
+            continue
+        if el.name in ("h2", "h3", "h4"):
+            text = el.get_text(" ", strip=True)
+            if text and not _is_stop(text):
+                stream.append(("h", text, ()))
+            continue
+        if el.name == "p":
+            if el.find_parent("ul") is not None:
+                continue
+            text = el.get_text(" ", strip=True)
+            if not text:
+                continue
+            cls = tuple(el.get("class") or [])
+            if text.strip().lower().rstrip(":") == "ответ":
+                stream.append(("m", text, cls))
+                continue
+            if _is_stop(text) or _is_meta(text):
+                continue
+            if len(text) < 40 and text.rstrip().endswith(":") and text[:1].isupper():
+                # служебные ярлыки вроде «Вспомните:» / «Проверьте знания:»
+                continue
+            stream.append(("p", text, cls))
+    return stream
+
+
+def _is_question_class(cls: tuple[str, ...]) -> bool:
+    return any(c in _QUESTION_CLASSES for c in cls)
+
+
+def parse_exercise_tasks(soup: BeautifulSoup, page: str, default_section: str = "") -> list[dict]:
+    """Английский 7–8: «Упражнение N» + условия (p.text) + ответы (p без класса)."""
+    section = default_section
+    tasks: list[dict] = []
+    cur: dict | None = None
+
+    def flush() -> None:
+        nonlocal cur
+        if cur and cur["q"] and cur["a"]:
+            tasks.append({
+                "number": f"{page}.{cur['n']}",
+                "section": section,
+                "condition": "\n".join(cur["q"]),
+                "solution": "\n".join(cur["a"]),
+                "answer": cur["a"][-1],
+            })
+        cur = None
+
+    for kind, text, cls in _content_stream(soup):
+        if kind == "h":
+            section = _tidy_section(text)
+            continue
+        if kind in ("m", "q"):
+            if kind == "q" and cur is not None:
+                cur["q"].append(text)
+            continue
+        m = EXERCISE_RE.match(text)
+        if m:
+            flush()
+            cur = {"n": m.group(1), "q": [], "a": []}
+            continue
+        if cur is None:
+            continue
+        if not cur["a"] and _is_question_class(cls):
+            cur["q"].append(text)
+        else:
+            cur["a"].append(text)
+    flush()
+    return tasks
+
+
+def parse_qa_tasks(soup: BeautifulSoup, page: str, default_section: str = "") -> list[dict]:
+    """История/обществознание/биология 7–9: вопросы (ul.rus2 или p.text) + «Ответ:»."""
+    section = default_section
+    tasks: list[dict] = []
+    q: list[str] = []
+    a: list[str] = []
+    after_marker = False
+
+    def flush() -> None:
+        nonlocal q, a, after_marker
+        if q and a:
+            tasks.append({
+                "number": f"{page}.{len(tasks) + 1}",
+                "section": section,
+                "condition": "\n".join(q),
+                "solution": "\n".join(a),
+                "answer": a[-1],
+            })
+        q, a, after_marker = [], [], False
+
+    for kind, text, cls in _content_stream(soup):
+        if kind == "h":
+            section = _tidy_section(text)
+            continue
+        if kind == "q":
+            flush()
+            q = [text]
+            continue
+        if kind == "m":
+            if q:
+                after_marker = True
+            continue
+        if kind == "p":
+            if not after_marker:
+                q.append(text)
+                continue
+            if _is_question_class(cls) and a:
+                # новый вопрос без ul-блока: «2. Чем отличается…?»
+                flush()
+                q = [text]
+                continue
+            a.append(text)
+    flush()
+    return tasks
+
+
+def _panel_images(panel, base_url: str) -> list[str]:
+    els = list(panel.descendants)
+    marker = None
+    for i, el in enumerate(els):
+        if getattr(el, "name", None) == "b" and "otvet" in (el.get("class") or []):
+            marker = i
+            break
+    if marker is None:
+        return []
+    out: list[str] = []
+    for el in els[marker + 1:]:
+        if getattr(el, "name", None) != "img":
+            continue
+        src = (el.get("src") or "").strip()
+        if not src or src.startswith("data:") or src.lower().endswith(".svg"):
+            continue
+        if not (re.search(r"nomer", src, re.I)
+                or el.find_parent("div", class_="img-wrapper-450")
+                or el.find_parent("div", class_="sdvig")):
+            continue
+        out.append(urllib.parse.urljoin(base_url, src))
+    return out
+
+
+def parse_panel_tasks(soup: BeautifulSoup, number: str, base_url: str,
+                      default_section: str = "", prefer_last: bool = True) -> list[dict]:
+    """Алгебра Макарычева: вкладки-годы, решение — картинка после «Ответ:»."""
+    root = _main_root(soup)
+    if root is None:
+        return []
+    candidates: list[dict] = []
+    for panel in root.select("div.panel"):
+        # картинки — до вызова _main_lines: она схлопывает ссылки вместе с <img> внутри
+        images = _panel_images(panel, base_url)
+        lines = _main_lines(soup, root=panel)
+        idx = next((i for i, l in enumerate(lines) if NUMBER_RE.match(l)), None)
+        if idx is None:
+            continue
+        cond: list[str] = []
+        sol: list[str] = []
+        mode = "cond"
+        for line in lines[idx + 1:]:
+            if _is_stop(line):
+                break
+            if _ANSWER_RE.match(line):
+                mode = "sol"
+                continue
+            if NUMBER_RE.match(line):
+                break
+            if mode == "cond":
+                cond.append(line)
+            else:
+                sol.append(line)
+        if not cond or not (sol or images):
+            continue
+        task: dict = {
+            "number": str(number),
+            "section": "",
+            "condition": "\n".join(cond),
+            "solution": "\n".join(sol),
+            "answer": sol[-1] if sol else "",
+        }
+        if images:
+            task["images"] = images
+        candidates.append(task)
+    if not candidates:
+        return []
+    return [candidates[-1] if prefer_last else candidates[0]]
+
+
+PARSERS = {
+    "page": parse_page_tasks,
+    "rubric": parse_rubric_tasks,
+    "exercise": parse_exercise_tasks,
+    "qa": parse_qa_tasks,
+}
+
+
+# --------------------------------------------------------------------------
 # конфигурация учебников
 # --------------------------------------------------------------------------
 
 HEADERS = {
     "math": ("Виленкин Н.Я., Жохов В.И., Чесноков А.С., Шварцбурд С.И.", "2023–2026"),
+    "algebra": ("Макарычев Ю.Н., Миндюк Н.Г., Нешков К.И.", "2019–2024"),
     "russian": ("Ладыженская Т.А., Баранов М.Т., Тростенцова Л.А. и др.", "2023"),
     "english": ("Ваулина Ю.Е., Дули Д., Подоляко О.Е. и др.", "2026"),
     "biology": ("Пасечник В.В., Суматохин С.В., Гапонюк З.Г.", "2023–2024"),
@@ -475,6 +734,124 @@ BOOKS: dict[str, dict] = {
         "page_pattern": "https://gdz-raketa.ru/obshhestvoznanie/6-klass/uchebnik-bogolubov/stranica-{n}/",
         "pages": range(6, 172),
     },
+
+    # ---------------- 7–9 классы (добавлено в релизе 2.0) ----------------
+    "baranov-7-1": {
+        "subject": "russian", "textbook": "baranov-7-1", "part": 1,
+        "author": "Баранов М.Т., Ладыженская Т.А., Тростенцова Л.А. и др.", "year": "2023",
+        "index": "https://gdz-raketa.ru/russkiy-yazyk/7-klass/uchebnik-baranov/",
+        "kind": "single", "section": "",
+        "urls": [f"https://gdz-raketa.ru/russkiy-yazyk/7-klass/uchebnik-baranov/1-chast-nomer-{i}/"
+                 for i in range(1, 391)],
+    },
+    "baranov-7-2": {
+        "subject": "russian", "textbook": "baranov-7-2", "part": 2,
+        "author": "Баранов М.Т., Ладыженская Т.А., Тростенцова Л.А. и др.", "year": "2023",
+        "index": "https://gdz-raketa.ru/russkiy-yazyk/7-klass/uchebnik-baranov/",
+        "kind": "single", "section": "",
+        "urls": [f"https://gdz-raketa.ru/russkiy-yazyk/7-klass/uchebnik-baranov/2-chast-nomer-{i}/"
+                 for i in range(391, 645)],
+    },
+    "barhudarov-8": {
+        "subject": "russian", "textbook": "barhudarov-8",
+        "author": "Бархударов С.Г., Крючков С.Е., Максимов Л.Ю. и др.", "year": "2023",
+        "index": "https://gdz-raketa.ru/russkiy-yazyk/8-klass/uchebnik-barhudarov/",
+        "kind": "single", "section": "",
+        "link_pattern": r"/russkiy-yazyk/8-klass/uchebnik-barhudarov/upr-(\d+)/$",
+    },
+    "barhudarov-9": {
+        "subject": "russian", "textbook": "barhudarov-9",
+        "author": "Бархударов С.Г., Крючков С.Е., Максимов Л.Ю. и др.", "year": "2023",
+        "index": "https://gdz-raketa.ru/russkiy-yazyk/9-klass/uchebnik-barhudarov/",
+        "kind": "single", "section": "",
+        "link_pattern": r"/russkiy-yazyk/9-klass/uchebnik-barhudarov/nomer-(\d+)/$",
+    },
+    "makarichev-7": {
+        "subject": "algebra", "textbook": "makarichev-7",
+        "index": "https://gdz-raketa.ru/algebra/7-klass/uchebnik-makarichev/",
+        "kind": "panel", "section": "",
+        "link_pattern": r"/algebra/7-klass/uchebnik-makarichev/nomer-(\d+)/$",
+    },
+    "makarichev-8": {
+        "subject": "algebra", "textbook": "makarichev-8",
+        "index": "https://gdz-raketa.ru/algebra/8-klass/uchebnik-makarichev/",
+        "kind": "panel", "section": "",
+        "link_pattern": r"/algebra/8-klass/uchebnik-makarichev/nomer-(\d+)/$",
+    },
+    "makarichev-9": {
+        "subject": "algebra", "textbook": "makarichev-9",
+        "index": "https://gdz-raketa.ru/algebra/9-klass/uchebnik-makarichev/",
+        "kind": "panel", "section": "",
+        "link_pattern": r"/algebra/9-klass/uchebnik-makarichev/nomer-(\d+)/$",
+    },
+    "vaulina-7": {
+        "subject": "english", "textbook": "vaulina-7",
+        "author": "Ваулина Ю.Е., Дули Д., Подоляко О.Е. и др.", "year": "2023",
+        "index": "https://gdz-raketa.ru/english/7-klass/uchebnik-vaulina/",
+        "kind": "page", "parsers": ["exercise"],
+        "link_pattern": r"/english/7-klass/uchebnik-vaulina/stranitsa-(\d+)/$",
+    },
+    "vaulina-8": {
+        "subject": "english", "textbook": "vaulina-8",
+        "author": "Ваулина Ю.Е., Дули Д., Подоляко О.Е. и др.", "year": "2023",
+        "index": "https://gdz-raketa.ru/english/8-klass/uchebnik-vaulina/",
+        "kind": "page", "parsers": ["exercise"],
+        "link_pattern": r"/english/8-klass/uchebnik-vaulina/stranitsa-(\d+)/$",
+    },
+    "pasechnik-7": {
+        "subject": "biology", "textbook": "pasechnik-7",
+        "index": "https://gdz-raketa.ru/biologiya/7-klass/pasechnik-uchebnik/",
+        "kind": "page", "parsers": ["qa"],
+        "link_pattern": r"/biologiya/7-klass/pasechnik-uchebnik/stranitsa-(\d+)/$",
+    },
+    "pasechnik-8": {
+        "subject": "biology", "textbook": "pasechnik-8",
+        "index": "https://gdz-raketa.ru/biologiya/8-klass/pasechnik-uchebnik/",
+        "kind": "page", "parsers": ["qa"],
+        "link_pattern": r"/biologiya/8-klass/pasechnik-uchebnik/stranitsa-(\d+)/$",
+    },
+    "pasechnik-9": {
+        "subject": "biology", "textbook": "pasechnik-9",
+        "index": "https://gdz-raketa.ru/biologiya/9-klass/pasechnik-uchebnik/",
+        "kind": "page", "parsers": ["qa"],
+        "link_pattern": r"/biologiya/9-klass/pasechnik-uchebnik/stranitsa-(\d+)/$",
+    },
+    "medinsky-7": {
+        "subject": "history", "textbook": "medinsky-7",
+        "index": "https://gdz-raketa.ru/istoriya/7-klass/uchebnik-medinskij/",
+        "kind": "page", "parsers": ["qa"],
+        "link_pattern": r"/istoriya/7-klass/uchebnik-medinskij/stranica-(\d+)/$",
+    },
+    "medinsky-8": {
+        "subject": "history", "textbook": "medinsky-8",
+        "index": "https://gdz-raketa.ru/istoriya/8-klass/uchebnik-medinskij/",
+        "kind": "page", "parsers": ["qa"],
+        "link_pattern": r"/istoriya/8-klass/uchebnik-medinskij/stranica-(\d+)/$",
+    },
+    "medinsky-9": {
+        "subject": "history", "textbook": "medinsky-9",
+        "index": "https://gdz-raketa.ru/istoriya/9-klass/uchebnik-medinskij/",
+        "kind": "page", "parsers": ["qa"],
+        "link_pattern": r"/istoriya/9-klass/uchebnik-medinskij/stranica-(\d+)/$",
+    },
+    "bogolyubov-7": {
+        "subject": "social", "textbook": "bogolyubov-7",
+        "index": "https://gdz-raketa.ru/obshhestvoznanie/7-klass/uchebnik-bogolubov/",
+        "kind": "page", "parsers": ["qa"],
+        "link_pattern": r"/obshhestvoznanie/7-klass/uchebnik-bogolubov/stranica-(\d+)/$",
+    },
+    "bogolyubov-8": {
+        "subject": "social", "textbook": "bogolyubov-8",
+        "index": "https://gdz-raketa.ru/obshhestvoznanie/8-klass/uchebnik-bogolubov/",
+        "kind": "page", "parsers": ["qa"],
+        "link_pattern": r"/obshhestvoznanie/8-klass/uchebnik-bogolubov/stranica-(\d+)/$",
+    },
+    "bogolyubov-9": {
+        "subject": "social", "textbook": "bogolyubov-9",
+        "index": "https://gdz-raketa.ru/obshhestvoznanie/9-klass/uchebnik-bogolubov/",
+        "kind": "page", "parsers": ["qa"],
+        "link_pattern": r"/obshhestvoznanie/9-klass/uchebnik-bogolubov/stranica-(\d+)/$",
+    },
 }
 
 
@@ -485,7 +862,10 @@ BOOKS: dict[str, dict] = {
 def collect(book_id: str, limit: int | None = None, resume: bool = False) -> dict:
     cfg = BOOKS[book_id]
     subject = cfg["subject"]
-    author, year = HEADERS[subject]
+    header_author, header_year = HEADERS[subject]
+    author = cfg.get("author", header_author)
+    year = cfg.get("year", header_year)
+    single_like = cfg["kind"] in ("single", "panel")
     tasks: list[dict] = []
     skipped: list[str] = []
     last_section = cfg.get("section") or ""
@@ -525,6 +905,16 @@ def collect(book_id: str, limit: int | None = None, resume: bool = False) -> dic
             last_section = task["section"]
         else:
             task["section"] = last_section or "Все задания"
+        number = task.get("number")
+        for i, prev in enumerate(tasks):
+            if prev.get("number") == number:
+                # страницы сайта иногда повторяют чужой номер — держим более полную версию
+                size = lambda t: len(t.get("condition") or "") + len(t.get("solution") or "")
+                if size(task) > size(prev):
+                    tasks[i] = task
+                skipped.append(url)
+                print(f"  ! дубль номера {number} ({url}) — оставлена более полная версия")
+                return False
         tasks.append(task)
         return True
 
@@ -543,56 +933,80 @@ def collect(book_id: str, limit: int | None = None, resume: bool = False) -> dic
         consecutive_failures = 0
         return soup
 
+    # цели сбора: (ключ для --resume, url)
+    if cfg.get("link_pattern"):
+        index_soup = fetch(cfg["index"])
+        rx = re.compile(cfg["link_pattern"])
+        found: dict[str, str] = {}
+        for a in index_soup.find_all("a", href=True):
+            href = urllib.parse.urljoin(cfg["index"], a["href"])
+            m = rx.search(href)
+            if m:
+                found.setdefault(m.group(1), href)
+        targets = [(n, found[n]) for n in sorted(found, key=_number_key)]
+        print(f"  индексная страница: {len(targets)} ссылок")
+    elif single_like:
+        targets = [(_expected_number(url) or url, url) for url in cfg["urls"]]
+    else:
+        targets = [(str(p), cfg["page_pattern"].format(n=p)) for p in cfg["pages"]]
+    total = len(targets)
+
+    chain = cfg.get("parsers")
+    if chain is None:
+        chain = ["page", "rubric"] if cfg["kind"] == "rubric" else ["page"]
+
     try:
-        if cfg["kind"] == "single":
-            total = len(cfg["urls"])
-            for i, url in enumerate(cfg["urls"], 1):
-                if limit is not None and len(tasks) >= limit:
-                    break
-                expected = _expected_number(url)
-                if expected and expected in existing_numbers:
+        for i, (key, url) in enumerate(targets, 1):
+            if limit is not None and len(tasks) >= limit:
+                break
+            if resume and key:
+                if single_like and key in existing_numbers:
                     skipped_existing += 1
                     continue
-                try:
-                    soup = ok_fetch(url)
-                except SourcesBlocked:
-                    raise
-                except Exception as err:
-                    fail(url, err)
-                    continue
-                task = parse_single_task(soup)
-                take(task, url)
-                num = f"№{task['number']}" if task else "пропуск"
-                print(f"  {len(tasks):4d} задач  {i}/{total}  {num:>9}  {task['section'][:44] if task else ''}")
-        else:
-            pages = list(cfg["pages"])
-            total = len(pages)
-            for i, page in enumerate(pages, 1):
-                if limit is not None and len(tasks) >= limit:
-                    break
-                if resume and str(page) in existing_pages:
+                if not single_like and key in existing_pages:
                     skipped_existing += 1
                     continue
-                url = cfg["page_pattern"].format(n=page)
-                try:
-                    soup = ok_fetch(url)
-                except SourcesBlocked:
-                    raise
-                except Exception as err:
-                    fail(url, err)
-                    continue
-                page_tasks = parse_page_tasks(soup, str(page))
-                if not page_tasks and cfg["kind"] == "rubric":
-                    page_tasks = parse_rubric_tasks(soup, str(page))
-                if not page_tasks:
-                    skipped.append(url)
-                    continue
+            try:
+                soup = ok_fetch(url)
+            except SourcesBlocked:
+                raise
+            except Exception as err:
+                fail(url, err)
+                continue
+            if cfg["kind"] == "panel":
+                page_tasks = parse_panel_tasks(soup, key, cfg["index"],
+                                               cfg.get("section", ""),
+                                               cfg.get("prefer_panel", "last") == "last")
                 for task in page_tasks:
                     if limit is not None and len(tasks) >= limit:
                         break
                     take(task, url)
-                first = page_tasks[0] if page_tasks else None
-                print(f"  {len(tasks):4d} задач  стр. {page:>3} ({i}/{total})  на странице: {len(page_tasks)}  {first['section'][:36] if first else ''}")
+                num = f"№{page_tasks[-1]['number']}" if page_tasks else "пропуск"
+                print(f"  {len(tasks):4d} задач  {i}/{total}  {num:>9}")
+                continue
+            if cfg["kind"] == "single":
+                task = parse_single_task(soup, key)
+                take(task, url)
+                num = f"№{task['number']}" if task else "пропуск"
+                print(f"  {len(tasks):4d} задач  {i}/{total}  {num:>9}  "
+                      f"{task['section'][:44] if task else ''}")
+                continue
+            page_tasks = []
+            for pname in chain:
+                page_tasks = PARSERS[pname](soup, key)
+                if page_tasks:
+                    break
+            if not page_tasks:
+                skipped.append(url)
+                continue
+            for task in page_tasks:
+                if limit is not None and len(tasks) >= limit:
+                    break
+                take(task, url)
+            first = page_tasks[0] if page_tasks else None
+            label = f"стр. {key:>3}" if key.isdigit() else f"№{key}"
+            print(f"  {len(tasks):4d} задач  {label} ({i}/{total})  на странице: "
+                  f"{len(page_tasks)}  {first['section'][:36] if first else ''}")
     except SourcesBlocked as err:
         aborted = str(err)
         print(f"  !! источник закрылся: {aborted}")

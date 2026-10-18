@@ -31,6 +31,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://bdfytu-commits.github.io/gdz-nel/search.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bdfytu-commits.github.io/gdz-nel/premium.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://bdfytu-commits.github.io/gdz-nel/terms.html</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>

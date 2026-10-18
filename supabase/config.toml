@@ -10,3 +10,8 @@ verify_jwt = false
 # solve-photo вызывает браузер залогиненного пользователя — JWT обязателен.
 [functions.solve-photo]
 verify_jwt = true
+
+# lava-webhook зовёт сервис оплаты Lava.top — JWT у него нет,
+# защита — подпись тела (секрет LAVA_WEBHOOK_SECRET).
+[functions.lava-webhook]
+verify_jwt = false

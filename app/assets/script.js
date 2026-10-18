@@ -145,6 +145,21 @@
     toastTimer = setTimeout(function () { toastEl.classList.remove('is-visible'); }, 2400);
   }
 
+  // кнопка «скопировать»: кратко превращается в «Скопировано»
+  function flashCopied(btn) {
+    if (!btn || btn.classList.contains('is-copied')) return;
+    var label = btn.querySelector('span:last-child');
+    var icon = btn.querySelector('.icon');
+    btn.classList.add('is-copied');
+    if (label) label.textContent = 'Скопировано';
+    if (icon) { icon.classList.remove('i-copy'); icon.classList.add('i-check'); }
+    setTimeout(function () {
+      btn.classList.remove('is-copied');
+      if (label) label.textContent = 'Скопировать ссылку';
+      if (icon) { icon.classList.add('i-copy'); icon.classList.remove('i-check'); }
+    }, 1600);
+  }
+
   /* =========================================================
      localStorage
      ========================================================= */
@@ -302,35 +317,18 @@
     return (book.tasks || []).slice().sort(compareTaskNumbers);
   }
 
-  // пропущенные номера между соседними задачами — для серых зачёркнутых кнопок
-  function missingBetween(a, b) {
-    var sa = String(a);
-    var sb = String(b);
-    var out = [];
-    var ma = /^(\d+)\.(\d+)$/.exec(sa);
-    var mb = /^(\d+)\.(\d+)$/.exec(sb);
-    if (ma && mb && ma[1] === mb[1]) {
-      for (var k = Number(ma[2]) + 1; k < Number(mb[2]) && out.length < 30; k++) {
-        out.push(ma[1] + '.' + k);
-      }
-      return out;
-    }
-    if (/^\d+$/.test(sa) && /^\d+$/.test(sb)) {
-      for (var k2 = Number(sa) + 1; k2 < Number(sb) && out.length < 30; k2++) {
-        out.push(String(k2));
-      }
-    }
-    return out;
-  }
-
   /* =========================================================
      тема
      ========================================================= */
 
   var root = document.documentElement;
+  var themeFadeTimer = 0;
 
   function applyTheme(theme) {
+    root.classList.add('theme-fade');
     root.setAttribute('data-theme', theme);
+    clearTimeout(themeFadeTimer);
+    themeFadeTimer = setTimeout(function () { root.classList.remove('theme-fade'); }, 400);
     var btn = byId('theme-toggle');
     if (!btn) return;
     var dark = theme === 'dark';
@@ -364,6 +362,8 @@
     var parts = currentParts();
     var token = ++renderToken;
     currentTask = null;
+    clearJsonLd();
+    updateBottomNav(parts);
 
     // при любой смене маршрута очищаем строку поиска
     if (document.activeElement !== searchInput && searchInput.value) {
@@ -375,7 +375,7 @@
 
     setTimeout(function () {
       if (token !== renderToken) return;
-      renderRoute(parts, token).then(function () {
+      Promise.resolve(renderRoute(parts, token)).then(function () {
         if (token !== renderToken) return;
         screenEl.classList.remove('screen--out');
       }).catch(function (err) {
@@ -392,6 +392,14 @@
 
     if (parts[0] === 'favorites') return renderList('favorites');
     if (parts[0] === 'recent') return renderList('recent');
+    if (parts[0] === 'search') {
+      var query = parts.slice(1).join('/');
+      if (query && searchInput.value !== query) {
+        searchInput.value = query;
+        searchClear.hidden = false;
+      }
+      return renderSearchResults(query);
+    }
 
     return loadCatalog().then(function (cat) {
       if (token !== renderToken) return;
@@ -424,12 +432,19 @@
         return renderSubject(grade, subject);
       }
 
-      var bookRef = findBook(subject, rest[1]);
+      var bookRaw = rest[1];
+      var listQuery = '';
+      var qi = bookRaw.indexOf('?');
+      if (qi !== -1) {
+        listQuery = new URLSearchParams(bookRaw.slice(qi + 1)).get('q') || '';
+        bookRaw = bookRaw.slice(0, qi);
+      }
+      var bookRef = findBook(subject, bookRaw);
       if (!bookRef) return renderNotFound('Такого учебника нет.');
 
-      if (rest.length === 2) return renderTasks(grade, subject, bookRef, token);
+      if (rest.length === 2) return renderTasks(grade, subject, bookRef, token, listQuery);
 
-      return renderTask(grade, subject, bookRef, rest[2], token);
+      return renderTask(grade, subject, bookRef, rest[2].split('?')[0], token);
     });
   }
 
@@ -578,12 +593,14 @@
      экран: сетка заданий
      ========================================================= */
 
-  function renderTasks(grade, subject, bookRef, token) {
+  function renderTasks(grade, subject, bookRef, token, listQuery) {
     return loadBook(bookRef.file).then(function (book) {
       if (token !== renderToken) return;
 
       var tasks = sortedTasks(book);
       document.title = bookRef.title + ' — ' + subject.title + ' — ГДЗ НЭЛ';
+      setMetaDescription('Задания учебника «' + bookRef.title + '» (' + subject.title + ', ' + grade.title +
+        '): решения и ответы. Открывай номер — условия, шаги решения и ответ.');
 
       var html = '<nav class="crumbs" aria-label="Навигация">' +
         '<a href="#/">Главная</a><span class="crumb-sep">/</span>' +
@@ -599,26 +616,17 @@
         return;
       }
 
-      // группировка по разделам: задачи идут по порядку,
-      // пропущенные номера внутри раздела остаются серыми кнопками
+      // группировка по разделам: в сетке — только реально существующие задания
       var groups = [];
       var current = null;
-      var prevNumber = null;
       tasks.forEach(function (t) {
         var name = t.section || (current ? current.name : 'Все задания');
         if (!current || current.name !== name) {
-          current = { name: name, cells: [], count: 0 };
+          current = { name: name, tasks: [], count: 0 };
           groups.push(current);
-          prevNumber = null;
         }
-        if (prevNumber !== null) {
-          missingBetween(prevNumber, t.number).forEach(function (missed) {
-            current.cells.push({ number: missed, task: null });
-          });
-        }
-        current.cells.push({ number: t.number, task: t });
+        current.tasks.push(t);
         current.count++;
-        prevNumber = t.number;
       });
 
       var onlyDefault = groups.length === 1 && groups[0].name === 'Все задания';
@@ -645,16 +653,11 @@
           html += '<div class="group-head" id="group-' + i + '"><h2>Все задания</h2></div>';
         }
         html += '<div class="task-grid">';
-        g.cells.forEach(function (cell) {
-          if (cell.task) {
-            html += '<a class="task-cell" href="#/' + esc(grade.id) + '/' + esc(subject.id) + '/' + esc(bookRef.id) + '/' +
-              encodeURIComponent(cell.number) + '" ' +
-              'data-number="' + esc(cell.number) + '" aria-label="Задание ' + esc(cell.number) + '">' +
-              '<span>' + esc(cell.number) + '</span></a>';
-          } else {
-            html += '<span class="task-cell is-missing" data-number="' + esc(cell.number) + '" aria-hidden="true">' +
-              '<span>' + esc(cell.number) + '</span></span>';
-          }
+        g.tasks.forEach(function (t) {
+          html += '<a class="task-cell" href="#/' + esc(grade.id) + '/' + esc(subject.id) + '/' + esc(bookRef.id) + '/' +
+            encodeURIComponent(t.number) + '" ' +
+            'data-number="' + esc(t.number) + '" aria-label="Задание ' + esc(t.number) + '">' +
+            '<span>' + esc(t.number) + '</span></a>';
         });
         html += '</div></section>';
       });
@@ -665,6 +668,13 @@
       }
 
       screenEl.innerHTML = html;
+
+      // фильтр из адресной строки (?q=12) — такой ссылкой можно поделиться
+      if (listQuery) {
+        searchInput.value = listQuery;
+        searchClear.hidden = false;
+        applyTaskFilter(listQuery.replace(',', '.'));
+      }
 
       // чипы: скролл к разделу
       Array.prototype.forEach.call(screenEl.querySelectorAll('.section-chip'), function (chip) {
@@ -773,10 +783,7 @@
         '<div class="task-text">' + textToHtml(task.condition) + '</div>' +
         '</section>' +
 
-        '<section class="task-block">' +
-        '<p class="task-label">Решение</p>' +
-        '<ol class="steps-list">' + solutionSteps(task.solution) + '</ol>' +
-        '</section>' +
+        solutionSectionHtml(task) +
 
         '<section class="task-block task-block--answer">' +
         '<p class="task-label">Ответ</p>' +
@@ -814,6 +821,46 @@
 
       screenEl.innerHTML = html;
 
+      // столбик: показать/скрыть (Ф4)
+      var columnToggle = byId('column-toggle');
+      if (columnToggle) {
+        columnToggle.addEventListener('click', function () {
+          var wrap = byId('math-column-wrap');
+          var willShow = wrap.hasAttribute('hidden');
+          if (willShow) wrap.removeAttribute('hidden');
+          else wrap.setAttribute('hidden', '');
+          columnToggle.setAttribute('aria-expanded', String(willShow));
+          byId('column-toggle-label').textContent = willShow ? 'Скрыть столбик' : 'Показать столбик';
+        });
+      }
+
+      // SEO: описание и JSON-LD для страницы задания (Ф20)
+      var snippetText = String(task.condition || '').replace(/\s+/g, ' ').trim().slice(0, 160);
+      setMetaDescription(snippetText
+        ? snippetText + ' — решение и ответ, задание ' + task.number + '.'
+        : 'Решение и ответ к заданию ' + task.number + ' — ' + subject.title + ', ' + bookRef.title + '.');
+      setTaskJsonLd(grade, subject, bookRef, task, snippetText);
+
+      // аналитика: просмотр задания (Ф26)
+      if (window.gdzTrack) {
+        window.gdzTrack('task_view', { task: bookRef.id + ':' + task.number, grade: grade.id, subject: subject.id });
+      }
+
+      // история просмотров в Supabase — для ачивок и профиля (Ф11, Ф16)
+      supaPromise.then(function (lib) {
+        if (!lib) return;
+        lib.getSession().then(function (session) {
+          if (!session) return;
+          lib.supabase.from('history').upsert({
+            user_id: session.user.id,
+            task_id: bookRef.id + ':' + task.number,
+            viewed_at: new Date().toISOString()
+          }, { onConflict: 'user_id,task_id' }).then(function () {
+            syncAchievements(lib);
+          });
+        });
+      });
+
       // избранное
       byId('bm-btn').addEventListener('click', function () {
         var added = toggleBookmark(entry);
@@ -839,10 +886,12 @@
         });
       });
 
-      // скопировать ссылку
+      // скопировать ссылку (с анимацией «Скопировано», Ф13.9)
       byId('copy-btn').addEventListener('click', function () {
+        var btn = this;
         copyText(location.href).then(function () {
           showToast('Ссылка скопирована');
+          flashCopied(btn);
         }, function () {
           showToast('Не удалось скопировать ссылку');
         });
@@ -857,20 +906,143 @@
   }
 
   // пошаговое решение: каждая строка — шаг
+  // если строки уже пронумерованы («1) …», «2) …») — убираем номера,
+  // нумерацию списка рисует <ol> (Ф4)
   function solutionSteps(solution) {
     var lines = String(solution || '').split(/\n+/)
       .map(function (line) { return line.trim(); })
       .filter(Boolean);
     if (!lines.length) return '<li class="step-line"><p>Решение появится позже.</p></li>';
+
+    var numbered = lines.some(function (line) { return /^1[).]\s+/.test(line); });
+    if (numbered) {
+      lines = lines.map(function (line) { return line.replace(/^\d{1,2}[).]\s+/, ''); });
+    }
+
     return lines.map(function (line, i) {
       return '<li class="step-line"><span class="step-num" aria-hidden="true">' + (i + 1) + '</span><p>' + esc(line) + '</p></li>';
     }).join('');
+  }
+
+  // блок решения: пошаговый текст, картинки из источника и «столбик» с переключателем
+  function solutionSectionHtml(task) {
+    var hasSolution = String(task.solution || '').trim().length > 0;
+    var images = Array.isArray(task.images) ? task.images.filter(Boolean) : [];
+    var column = String(task.column_solution || '');
+
+    var html = '<section class="task-block" id="solution-block">' +
+      '<p class="task-label">Решение</p>';
+
+    if (hasSolution) {
+      html += '<ol class="steps-list">' + solutionSteps(task.solution) + '</ol>';
+    } else if (!images.length && !column) {
+      html += '<ol class="steps-list"><li class="step-line"><p>Решение появится позже.</p></li></ol>';
+    }
+
+    if (images.length) {
+      html += '<div class="task-images">' + images.map(function (src, i) {
+        return '<a class="task-image" href="' + esc(src) + '" target="_blank" rel="noopener">' +
+          '<img src="' + esc(src) + '" alt="Решение задания ' + esc(task.number) +
+          ' — страница ' + (i + 1) + '" loading="lazy" decoding="async"></a>';
+      }).join('') + '</div>';
+    }
+
+    if (column) {
+      html += '<div class="column-head">' +
+        '<p class="column-title"><span class="icon i-code" aria-hidden="true"></span>Решение столбиком</p>' +
+        '<button class="btn btn-outline btn-sm" id="column-toggle" type="button" aria-expanded="true" aria-controls="math-column-wrap">' +
+        '<span class="icon i-chevron-down" aria-hidden="true" id="column-toggle-icon"></span>' +
+        '<span id="column-toggle-label">Скрыть столбик</span></button>' +
+        '</div>' +
+        '<div class="math-column-wrap" id="math-column-wrap">' +
+        '<pre class="math-column" aria-label="Вычисление в столбик">' + esc(column) + '</pre>' +
+        '</div>';
+    }
+
+    html += '</section>';
+    return html;
   }
 
   function reportHref(entry) {
     var subjectLine = 'Ошибка в задании ' + entry.number + ' учебника ' + entry.book;
     var body = 'Ссылка: ' + location.href + '\n\nОпиши ошибку: ';
     return 'mailto:bdfy.tu@yandex.ru?subject=' + encodeURIComponent(subjectLine) + '&body=' + encodeURIComponent(body);
+  }
+
+  // ---------- SEO: описание и JSON-LD ----------
+
+  var DEFAULT_DESCRIPTION = document.querySelector('meta[name="description"]')
+    ? document.querySelector('meta[name="description"]').getAttribute('content') : '';
+
+  function setMetaDescription(text) {
+    var meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute('content', text || DEFAULT_DESCRIPTION);
+  }
+
+  function setTaskJsonLd(grade, subject, bookRef, task, snippetText) {
+    var el = byId('task-jsonld');
+    if (!el) return;
+    var pageUrl = 'https://bdfytu-commits.github.io/gdz-nel/app/#/' + grade.id + '/' + subject.id + '/' +
+      encodeURIComponent(bookRef.id) + '/' + encodeURIComponent(task.number);
+    var data = {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'CreativeWork',
+          'name': 'Задание ' + task.number + ' — ' + subject.title + ', ' + bookRef.title,
+          'description': snippetText || ('Решение и ответ к заданию ' + task.number + '.'),
+          'inLanguage': 'ru',
+          'url': pageUrl,
+          'learningResourceType': 'решение задания',
+          'isPartOf': {
+            '@type': 'Book',
+            'name': bookRef.title,
+            'author': { '@type': 'Person', 'name': bookRef.author || 'автор учебника' }
+          }
+        },
+        {
+          '@type': 'BreadcrumbList',
+          'itemListElement': [
+            { '@type': 'ListItem', 'position': 1, 'name': 'Классы', 'item': 'https://bdfytu-commits.github.io/gdz-nel/app/' },
+            { '@type': 'ListItem', 'position': 2, 'name': grade.title },
+            { '@type': 'ListItem', 'position': 3, 'name': subject.title },
+            { '@type': 'ListItem', 'position': 4, 'name': bookRef.title },
+            { '@type': 'ListItem', 'position': 5, 'name': 'Задание ' + task.number }
+          ]
+        }
+      ]
+    };
+    el.textContent = JSON.stringify(data);
+  }
+
+  function clearJsonLd() {
+    var el = byId('task-jsonld');
+    if (el) el.textContent = '';
+    setMetaDescription('');
+  }
+
+  // ---------- ачивки: сравнение с локальным списком и тост о новых (Ф16) ----------
+
+  var LS_BADGES = 'gdz-nel-badges';
+
+  function badgeTitleOf(lib, badge) {
+    if (lib && lib.badgeTitle) return lib.badgeTitle(badge);
+    return String(badge);
+  }
+
+  function syncAchievements(lib) {
+    if (!lib || !lib.supabase) return;
+    lib.supabase.from('achievements').select('badge_type').then(function (res) {
+      if (res.error || !res.data) return;
+      var known = storeGet(LS_BADGES, null);
+      var now = res.data.map(function (r) { return r.badge_type; });
+      if (known === null) { storeSet(LS_BADGES, now); return; }
+      var fresh = now.filter(function (b) { return known.indexOf(b) === -1; });
+      storeSet(LS_BADGES, now);
+      if (fresh.length) {
+        showToast('Новая ачивка: ' + fresh.map(function (b) { return badgeTitleOf(lib, b); }).join(', '));
+      }
+    });
   }
 
   /* =========================================================
@@ -886,6 +1058,12 @@
       clearTimeout(timer);
       resolve(window.gdzSupabase || null);
     }, { once: true });
+  });
+
+  // при входе сверяем ачивки: новые — тостом (Ф16)
+  supaPromise.then(function (lib) {
+    if (!lib) return;
+    lib.getSession().then(function (session) { if (session) syncAchievements(lib); });
   });
 
   function authHref() {
@@ -913,9 +1091,9 @@
     var initial = String(name).trim().charAt(0).toUpperCase() || 'А';
     var badge = '';
     if (mine) {
-      if (r.ai_status === 'pending') badge = '<span class="review-mine-badge is-pending">на проверке ИИ</span>';
-      else if (r.ai_status === 'rejected') badge = '<span class="review-mine-badge is-rejected">отклонён</span>';
-      else badge = '<span class="review-mine-badge is-approved">опубликован</span>';
+      if (r.ai_status === 'rejected') badge = '<span class="review-mine-badge is-rejected">отклонён</span>';
+      else if (r.is_approved) badge = '<span class="review-mine-badge is-approved">опубликован</span>';
+      else badge = '<span class="review-mine-badge is-pending">на проверке ИИ</span>';
     }
     return '<article class="review' + (mine ? ' is-mine' : '') + (r.ai_status === 'pending' ? ' is-pending' : '') + '">' +
       '<span class="review-avatar" style="background:' + lib.avatarColor(name) + '" aria-hidden="true">' + esc(initial) + '</span>' +
@@ -984,11 +1162,12 @@
     }
 
     if (mine) {
-      var note = mine.ai_status === 'pending'
-        ? 'ИИ ещё проверяет отзыв — обычно это занимает меньше минуты. Обнови страницу чуть позже.'
-        : mine.ai_status === 'approved'
-          ? 'Опубликован. Спасибо!'
-          : 'Отклонён модерацией: отзывы с нарушениями правил не публикуются.';
+      var note = mine.ai_status === 'rejected'
+        ? 'Отклонён модерацией: отзывы с нарушениями правил не публикуются.'
+        : 'Опубликован. Спасибо!';
+      if (mine.ai_status === 'pending') {
+        note += ' ИИ-модератор ещё проверит текст — если найдёт нарушения, отзыв скроют.';
+      }
       wrap.innerHTML = '<div class="review-form is-mine-note">' +
         '<p class="review-form-label">Твой отзыв</p>' +
         reviewCard(mine, lib, true) +
@@ -1021,6 +1200,8 @@
       var btn = event.target.closest ? event.target.closest('.star-btn') : null;
       if (!btn) return;
       rating = Number(btn.getAttribute('data-value'));
+      btn.classList.add('is-pop');
+      setTimeout(function () { btn.classList.remove('is-pop'); }, 360);
       Array.prototype.forEach.call(picker.querySelectorAll('.star-btn'), function (b) {
         var on = Number(b.getAttribute('data-value')) <= rating;
         b.classList.toggle('is-on', on);
@@ -1064,12 +1245,12 @@
             : 'Не получилось отправить отзыв. Попробуй ещё раз.';
           return;
         }
-        showToast('Отзыв отправлен на проверку ИИ');
+        showToast('Отзыв успешно добавлен');
         renderReviewForm(lib, db, session, res.data, ctx, token);
-        // ИИ-модерация обычно успевает за несколько секунд — обновим блок
+        // отзыв публикуется сразу — через секунду обновим список принудительно
         setTimeout(function () {
           if (token === renderToken) renderReviews(ctx, token);
-        }, 6000);
+        }, 1500);
       }).catch(function () {
         btn.disabled = false;
         statusEl.className = 'form-status is-err';
@@ -1159,6 +1340,13 @@
     screenEl.classList.remove('screen--out');
     window.scrollTo(0, 0);
 
+    if (!query) {
+      document.title = 'Поиск — ГДЗ НЭЛ';
+      screenEl.innerHTML = '<h1 class="panel-title">Поиск</h1>' +
+        '<p class="panel-sub">Введи номер задания или слово из условия — поищу по всем учебникам.</p>';
+      return;
+    }
+
     document.title = 'Поиск: ' + query + ' — ГДЗ НЭЛ';
     screenEl.innerHTML = '<h1 class="panel-title">Поиск</h1>' +
       '<p class="panel-sub">Ищу «' + esc(query) + '»…</p>';
@@ -1180,7 +1368,8 @@
       var html = '<h1 class="panel-title">Поиск</h1>' +
         '<p class="panel-sub">' + (found.length
           ? 'Нашлось: ' + tasksWord(found.length) + (found.length === 50 ? ' (первые 50)' : '')
-          : 'Ничего не найдено по запросу «' + esc(query) + '»') + '</p>';
+          : 'Ничего не найдено по запросу «' + esc(query) + '»') +
+        ' · <a href="../search.html?q=' + encodeURIComponent(query) + '">расширенный поиск</a></p>';
 
       if (!found.length) {
         html += '<p class="empty">Попробуй другой номер или слово из условия.</p>';
@@ -1199,6 +1388,9 @@
         html += '</ul>';
       }
 
+      // аналитика: поисковый запрос (Ф26)
+      if (window.gdzTrack) window.gdzTrack('search', { q: query, found: found.length });
+
       screenEl.innerHTML = html;
     });
   }
@@ -1211,22 +1403,34 @@
     var query = searchInput.value.trim();
     searchClear.hidden = !query;
 
-    if (!query) { route(); return; }
+    if (!query) {
+      var clean = currentParts().map(function (p) { return String(p).split('?')[0]; });
+      history.replaceState(null, '', '#/' + clean.map(encodeURIComponent).join('/'));
+      route();
+      return;
+    }
 
     var parts = currentParts();
     // на сетке заданий: цифры фильтруют номера, текст ищется глобально
     if (parts.length === 3 && /^\d+(?:[.,]\d+)?$/.test(query)) {
       applyTaskFilter(query.replace(',', '.'));
+      // фильтр отражаем в адресной строке — ссылкой можно поделиться (Ф3.13)
+      var cleanParts = parts.map(function (p) { return String(p).split('?')[0]; });
+      history.replaceState(null, '', '#/' + cleanParts.map(encodeURIComponent).join('/') +
+        '?q=' + encodeURIComponent(query));
       return;
     }
+    history.replaceState(null, '', '#/search/' + encodeURIComponent(query));
     renderSearchResults(query);
-  }, 200);
+  }, 300);
 
   searchInput.addEventListener('input', onSearchInput);
 
   searchClear.addEventListener('click', function () {
     searchInput.value = '';
     searchClear.hidden = true;
+    var clean = currentParts().map(function (p) { return String(p).split('?')[0]; });
+    history.replaceState(null, '', '#/' + clean.map(encodeURIComponent).join('/'));
     searchInput.focus();
     route();
   });
@@ -1247,6 +1451,14 @@
         searchInput.blur();
         route();
       }
+      return;
+    }
+
+    // «/» фокусирует поиск (Ф13.8)
+    if (event.key === '/') {
+      event.preventDefault();
+      headerEl.classList.add('is-search-open');
+      searchInput.focus();
       return;
     }
 
@@ -1290,19 +1502,118 @@
   });
 
   /* =========================================================
-     мелочи: тень шапки, офлайн
+     мелочи: тень шапки, прогресс, «наверх», офлайн, обновление
      ========================================================= */
+
+  var toTopBtn = byId('to-top');
+  var progressBar = byId('read-progress');
 
   var onScroll = function () {
     headerEl.classList.toggle('is-stuck', window.scrollY > 6);
+    if (toTopBtn) toTopBtn.hidden = window.scrollY < 600;
+    if (progressBar) {
+      var doc = document.documentElement;
+      var max = doc.scrollHeight - window.innerHeight;
+      progressBar.style.width = max > 0 ? Math.min(100, (window.scrollY / max) * 100) + '%' : '0%';
+    }
   };
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
-  if ('serviceWorker' in navigator && location.protocol.indexOf('http') === 0) {
-    window.addEventListener('load', function () {
-      navigator.serviceWorker.register('service-worker.js').catch(function () { /* ещё не собран */ });
+  // кнопка «наверх» (Ф3.9, 13.2)
+  if (toTopBtn) {
+    toTopBtn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' });
     });
+  }
+
+  // активный пункт нижней навигации (Ф14)
+  function updateBottomNav(parts) {
+    var nav = byId('bottom-nav');
+    if (!nav) return;
+    var key = !parts.length ? 'home'
+      : (parts[0] === 'favorites' ? 'favorites'
+        : (parts[0] === 'recent' ? 'recent'
+          : (parts[0] === 'search' ? 'search' : '')));
+    Array.prototype.forEach.call(nav.querySelectorAll('[data-nav]'), function (el) {
+      el.classList.toggle('is-active', el.getAttribute('data-nav') === key);
+    });
+  }
+
+  var navSearchBtn = byId('nav-search');
+  if (navSearchBtn) {
+    navSearchBtn.addEventListener('click', function () {
+      headerEl.classList.add('is-search-open');
+      window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' });
+      searchInput.focus();
+    });
+  }
+
+  // офлайн-плашка (Ф15.7)
+  var offlineBar = byId('offline-bar');
+  function updateOnline() {
+    if (!offlineBar) return;
+    offlineBar.hidden = navigator.onLine;
+  }
+  window.addEventListener('online', updateOnline);
+  window.addEventListener('offline', updateOnline);
+  updateOnline();
+
+  // ripple и лёгкая вибрация на кликах (Ф13.1, 13.4)
+  document.addEventListener('pointerdown', function (event) {
+    var el = event.target && event.target.closest ? event.target.closest('.task-cell, .btn, .section-chip') : null;
+    if (!el || reduced) return;
+    if (navigator.vibrate) { try { navigator.vibrate(8); } catch (err) { /* ignore */ } }
+    var rect = el.getBoundingClientRect();
+    var ripple = document.createElement('span');
+    ripple.className = 'ripple';
+    ripple.style.left = (event.clientX - rect.left) + 'px';
+    ripple.style.top = (event.clientY - rect.top) + 'px';
+    el.appendChild(ripple);
+    setTimeout(function () { if (ripple.parentNode) ripple.parentNode.removeChild(ripple); }, 520);
+  });
+
+  // сервис-воркер: офлайн, версии и кнопка «обновить приложение» (Ф15)
+  var swUpdateBox = byId('sw-update');
+  var swUpdateBtn = byId('sw-update-btn');
+  var swReg = null;
+  var swReloading = false;
+
+  function showSwUpdate() {
+    if (swUpdateBox) swUpdateBox.hidden = false;
+  }
+
+  if ('serviceWorker' in navigator && location.protocol.indexOf('http') === 0) {
+    var hadController = !!navigator.serviceWorker.controller;
+
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (!hadController || swReloading) return;
+      swReloading = true;
+      location.reload();
+    });
+
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('service-worker.js').then(function (reg) {
+        swReg = reg;
+        if (reg.waiting) showSwUpdate();
+        reg.addEventListener('updatefound', function () {
+          var worker = reg.installing;
+          if (!worker) return;
+          worker.addEventListener('statechange', function () {
+            if (worker.state === 'installed' && navigator.serviceWorker.controller) showSwUpdate();
+          });
+        });
+      }).catch(function () { /* ещё не собран */ });
+    });
+
+    if (swUpdateBtn) {
+      swUpdateBtn.addEventListener('click', function () {
+        var waiting = swReg && swReg.waiting;
+        if (waiting) waiting.postMessage({ type: 'SKIP_WAITING' });
+        else location.reload();
+        swUpdateBtn.disabled = true;
+      });
+    }
   }
 
   /* =========================================================

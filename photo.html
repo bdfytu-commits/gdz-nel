@@ -70,6 +70,15 @@
 
       <p class="auth-note" id="photo-note" hidden role="status"></p>
 
+      <div class="premium-banner" id="premium-banner" hidden>
+        <p><b>ГДЗ+:</b> безлимит на решения по фото — без счётчика «5 в сутки» и без ожидания.
+          Остальной сайт как и раньше бесплатный.</p>
+        <a class="btn btn-primary btn-sm" href="premium.html">
+          <span class="icon i-award" aria-hidden="true"></span>
+          <span>Оформить ГДЗ+</span>
+        </a>
+      </div>
+
       <div class="dropzone" id="dropzone" role="button" tabindex="0" aria-label="Выбрать фото задачи">
         <span class="icon i-camera" aria-hidden="true"></span>
         <b>Нажми или перетащи фото задачи</b>
@@ -119,7 +128,7 @@
         <a href="disclaimer.html">Дисклеймер</a>
       </nav>
     </div>
-    <p class="footer-legal">© 2026 ГДЗ НЭЛ. Материалы предназначены для личного использования.<br>Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
+    <p class="footer-legal">Материалы для личного использования. Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
   </footer>
 
   <script src="assets/script.js"></script>
@@ -161,7 +170,10 @@
 
     /* ---------- проверка блокировки и лимита ---------- */
 
-    var profileRes = await supabase.from('profiles').select('ban').eq('id', session.user.id).single();
+    var premiumBanner = document.getElementById('premium-banner');
+
+    var profileRes = await supabase.from('profiles')
+      .select('ban, is_premium, premium_until').eq('id', session.user.id).single();
     if (profileRes.data && profileRes.data.ban) {
       noteEl.hidden = false;
       noteEl.textContent = 'Аккаунт заблокирован: «решить по фото» недоступно. Если это ошибка — напиши на bdfy.tu@yandex.ru.';
@@ -170,7 +182,12 @@
       throw new Error('banned');
     }
 
+    // «ГДЗ+»: активная подписка снимает лимит (Ф35.5)
+    var isPremium = !!(profileRes.data && profileRes.data.is_premium &&
+      profileRes.data.premium_until && new Date(profileRes.data.premium_until) > new Date());
+
     async function refreshLimit() {
+      if (isPremium) return;
       var since = new Date(Date.now() - 24 * 3600 * 1000).toISOString();
       var res = await supabase.from('photo_requests')
         .select('id', { count: 'exact', head: true })
@@ -178,7 +195,14 @@
         .gte('created_at', since);
       if (typeof res.count === 'number') setLimit(Math.max(0, 5 - res.count));
     }
-    refreshLimit();
+
+    if (isPremium) {
+      limitEl.innerHTML = 'ГДЗ+: безлимит фото — счётчика нет. ' +
+        '<a href="profile.html">Статус подписки в профиле</a>.';
+    } else {
+      premiumBanner.hidden = false;
+      refreshLimit();
+    }
 
     /* ---------- выбор файла ---------- */
 

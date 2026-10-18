@@ -2,8 +2,9 @@
    ГДЗ НЭЛ — «решить по фото» (Groq Vision).
 
    Вызывает photo.html после загрузки фото в bucket photos.
-   Порядок: проверка JWT -> бан -> лимит 5 фото/сутки ->
-   скачивание фото -> Groq Vision -> запись в photo_requests -> ответ.
+   Порядок: проверка JWT -> бан -> лимит 5 фото/сутки (для «ГДЗ+»
+   лимита нет) -> скачивание фото -> Groq Vision -> запись в
+   photo_requests -> ответ.
 
    Модель по умолчанию — llama-3.2-11b-vision-preview (как в ТЗ),
    запасные — llama-4-scout-17b-16e-instruct, llama-3.2-90b-vision-preview.
@@ -121,8 +122,13 @@ Deno.serve(async (req) => {
   const user = userData?.user;
   if (userErr || !user) return json({ error: 'сессия недействительна, войди заново' }, 401);
 
-  const { data: profile } = await db.from('profiles').select('ban').eq('id', user.id).single();
+  const { data: profile } = await db.from('profiles')
+    .select('ban, is_premium, premium_until').eq('id', user.id).single();
   if (profile?.ban) return json({ error: 'аккаунт заблокирован' }, 403);
+
+  // «ГДЗ+»: активная подписка снимает лимит фото (Ф35.4)
+  const isPremium = !!profile?.is_premium &&
+    !!profile?.premium_until && new Date(profile.premium_until) > new Date();
 
   let payload: any;
   try {
@@ -137,16 +143,21 @@ Deno.serve(async (req) => {
     return json({ error: 'можно отправлять только свои фото' }, 403);
   }
 
-  // лимит 5 фото в сутки на аккаунт
-  const dayAgo = new Date(Date.now() - 24 * 3600 * 1000).toISOString();
-  const { count } = await db
-    .from('photo_requests')
-    .select('id', { count: 'exact', head: true })
-    .eq('user_id', user.id)
-    .gte('created_at', dayAgo);
+  // лимит 5 фото в сутки на аккаунт; у «ГДЗ+» лимита нет
+  if (!isPremium) {
+    const dayAgo = new Date(Date.now() - 24 * 3600 * 1000).toISOString();
+    const { count } = await db
+      .from('photo_requests')
+      .select('id', { count: 'exact', head: true })
+      .eq('user_id', user.id)
+      .gte('created_at', dayAgo);
 
-  if ((count || 0) >= DAILY_LIMIT) {
-    return json({ error: 'Лимит 5 фото в день' }, 429);
+    if ((count || 0) >= DAILY_LIMIT) {
+      return json({
+        error: 'Лимит 5 фото в день исчерпан. В «ГДЗ+» фото без ограничений.',
+        premium_url: 'premium.html',
+      }, 429);
+    }
   }
 
   // скачиваем фото и готовим data-url
