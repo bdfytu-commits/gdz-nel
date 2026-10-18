@@ -1,0 +1,153 @@
+{
+  "subject": "geo",
+  "textbook": "matveev-9",
+  "author": "Матвеев А.В., Петрова В.В.",
+  "year": "2023–2026",
+  "source": "parsed",
+  "sourceUrl": "https://gdz.ru/class-9/geografiya/konturnie-karti-matveev/",
+  "parsedAt": "2026-10-18T12:43:13Z",
+  "tasks": [
+    {
+      "number": "2–3",
+      "section": "Контурные карты",
+      "condition": "Страница 2–3 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-2-3.jpg",
+        "data/geo/img/matveev-9/str-2-3-2.jpg"
+      ]
+    },
+    {
+      "number": "4–5",
+      "section": "Контурные карты",
+      "condition": "Страница 4–5 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-4-5.jpg",
+        "data/geo/img/matveev-9/str-4-5-2.jpg"
+      ]
+    },
+    {
+      "number": "6–7",
+      "section": "Контурные карты",
+      "condition": "Страница 6–7 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-6-7.jpg",
+        "data/geo/img/matveev-9/str-6-7-2.jpg"
+      ]
+    },
+    {
+      "number": "8–9",
+      "section": "Контурные карты",
+      "condition": "Страница 8–9 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-8-9.jpg",
+        "data/geo/img/matveev-9/str-8-9-2.jpg"
+      ]
+    },
+    {
+      "number": "10–11",
+      "section": "Контурные карты",
+      "condition": "Страница 10–11 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-10-11.jpg",
+        "data/geo/img/matveev-9/str-10-11-2.jpg"
+      ]
+    },
+    {
+      "number": "12–13",
+      "section": "Контурные карты",
+      "condition": "Страница 12–13 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-12-13.jpg"
+      ]
+    },
+    {
+      "number": "14",
+      "section": "Контурные карты",
+      "condition": "Страница 14 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-14.jpg",
+        "data/geo/img/matveev-9/str-14-2.jpg"
+      ]
+    },
+    {
+      "number": "15",
+      "section": "Контурные карты",
+      "condition": "Страница 15 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-15.jpg",
+        "data/geo/img/matveev-9/str-15-2.jpg"
+      ]
+    },
+    {
+      "number": "16",
+      "section": "Контурные карты",
+      "condition": "Страница 16 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-16.jpg",
+        "data/geo/img/matveev-9/str-16-2.jpg"
+      ]
+    },
+    {
+      "number": "17",
+      "section": "Контурные карты",
+      "condition": "Страница 17 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-17.jpg",
+        "data/geo/img/matveev-9/str-17-2.jpg"
+      ]
+    },
+    {
+      "number": "18",
+      "section": "Контурные карты",
+      "condition": "Страница 18 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-18.jpg",
+        "data/geo/img/matveev-9/str-18-2.jpg"
+      ]
+    },
+    {
+      "number": "19",
+      "section": "Контурные карты",
+      "condition": "Страница 19 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-19.jpg",
+        "data/geo/img/matveev-9/str-19-2.jpg"
+      ]
+    },
+    {
+      "number": "20–21",
+      "section": "Контурные карты",
+      "condition": "Страница 20–21 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/geo/img/matveev-9/str-20-21.jpg",
+        "data/geo/img/matveev-9/str-20-21-2.jpg"
+      ]
+    }
+  ]
+}

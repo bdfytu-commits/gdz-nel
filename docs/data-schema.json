@@ -7,7 +7,7 @@
       "type": "object",
       "required": ["subject", "textbook", "author", "year", "source", "parsedAt", "tasks"],
       "properties": {
-        "subject": { "type": "string", "enum": ["math", "algebra", "russian", "english", "biology", "history", "social"] },
+        "subject": { "type": "string", "enum": ["math", "algebra", "russian", "english", "biology", "history", "history-maps", "geo", "social"] },
         "textbook": { "type": "string", "minLength": 1 },
         "author": { "type": "string", "minLength": 1 },
         "year": { "type": "string", "minLength": 1 },
@@ -29,8 +29,8 @@
               "answer": { "type": "string", "description": "Пустая строка допустима, если решение — на изображении" },
               "images": {
                 "type": "array",
-                "items": { "type": "string", "pattern": "^https?://" },
-                "description": "Ссылки на изображения-решения (алгебра: сканы из источника)"
+                "items": { "type": "string", "pattern": "^(https?://|data/)" },
+                "description": "Сканы-решения: внешние ссылки (алгебра) или локальные пути data/<subject>/img/... (контурные карты)"
               },
               "column_solution": {
                 "type": "string",
@@ -80,7 +80,7 @@
                           "title": { "type": "string", "minLength": 1 },
                           "author": { "type": "string", "minLength": 1 },
                           "year": { "type": "string", "minLength": 1 },
-                          "file": { "type": "string", "pattern": "^[a-z]+/[a-z0-9-]+\\.json$" }
+                          "file": { "type": "string", "pattern": "^[a-z][a-z0-9-]*/[a-z0-9-]+\\.json$" }
                         },
                         "additionalProperties": false
                       }

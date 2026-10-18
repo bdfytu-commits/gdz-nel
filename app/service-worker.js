@@ -1,10 +1,11 @@
 /* =========================================================
-   service worker ГДЗ НЭЛ — v5 (Ф15, Ф29)
+   service worker ГДЗ НЭЛ — v6 (Ф15, Ф29, контурные карты)
 
    стратегии:
      - навигация (HTML) — Network First, офлайн из кэша
      - JSON данных (app/data/*.json) — Stale-While-Revalidate
-     - картинки — Cache First (включая решения с внешнего источника)
+     - картинки — Cache First (включая решения с внешнего источника
+       и локальные сканы контурных карт из app/data/.../img/)
      - шрифты — Cache First
      - чужие домены, кроме картинок (Supabase REST и прочие API) —
        только сеть, без кэша: иначе «живые» данные (отзывы, лайки)
@@ -15,7 +16,7 @@
    «Обновить» и шлёт SKIP_WAITING (Ф15.8).
    ========================================================= */
 
-const VERSION = 'gdz-nel-v5';
+const VERSION = 'gdz-nel-v6';
 const STATIC_CACHE = VERSION + '-static';
 const DATA_CACHE = VERSION + '-data';
 const IMAGE_CACHE = VERSION + '-images';
@@ -200,8 +201,8 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // данные приложения: сначала кэш, свежее — в фоне
-  if (url.pathname.includes('/app/data/')) {
+  // данные приложения (json): сначала кэш, свежее — в фоне
+  if (url.pathname.includes('/app/data/') && !/\.(png|jpe?g|webp|gif|svg|ico)$/i.test(url.pathname)) {
     event.respondWith(staleWhileRevalidate(request, DATA_CACHE));
     return;
   }

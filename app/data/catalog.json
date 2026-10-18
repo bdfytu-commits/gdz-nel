@@ -80,6 +80,21 @@
           "icon": "biology"
         },
         {
+          "id": "geo",
+          "title": "География",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "matveev-6",
+              "title": "Матвеев. Контурные карты",
+              "author": "Матвеев А.В., Петрова В.В.",
+              "year": "2023–2026",
+              "file": "geo/matveev-6.json"
+            }
+          ],
+          "icon": "globe"
+        },
+        {
           "id": "history",
           "title": "История",
           "active": true,
@@ -90,6 +105,21 @@
               "author": "Мединский В.Р., Чубарьян А.О.",
               "year": "2025",
               "file": "history/medinsky-6.json"
+            }
+          ],
+          "icon": "history"
+        },
+        {
+          "id": "history-maps",
+          "title": "История (контурные карты)",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "torop-6",
+              "title": "Тороп. Контурные карты",
+              "author": "Тороп В.В., Курбский Н.А.",
+              "year": "2023–2026",
+              "file": "history-maps/torop-6.json"
             }
           ],
           "icon": "history"
@@ -114,20 +144,113 @@
     {
       "id": "7",
       "title": "7 класс",
-      "active": false,
-      "subjects": []
+      "active": true,
+      "subjects": [
+        {
+          "id": "geo",
+          "title": "География",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "matveev-7",
+              "title": "Матвеев. Контурные карты",
+              "author": "Матвеев А.В., Петрова В.В.",
+              "year": "2023–2026",
+              "file": "geo/matveev-7.json"
+            }
+          ],
+          "icon": "globe"
+        },
+        {
+          "id": "history-maps",
+          "title": "История (контурные карты)",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "torop-7",
+              "title": "Тороп. Контурные карты",
+              "author": "Тороп В.В., Арсентьев Н.М.",
+              "year": "2023–2026",
+              "file": "history-maps/torop-7.json"
+            }
+          ],
+          "icon": "history"
+        }
+      ]
     },
     {
       "id": "8",
       "title": "8 класс",
-      "active": false,
-      "subjects": []
+      "active": true,
+      "subjects": [
+        {
+          "id": "geo",
+          "title": "География",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "matveev-8",
+              "title": "Матвеев. Контурные карты",
+              "author": "Матвеев А.В., Петрова В.В.",
+              "year": "2023–2026",
+              "file": "geo/matveev-8.json"
+            }
+          ],
+          "icon": "globe"
+        },
+        {
+          "id": "history-maps",
+          "title": "История (контурные карты)",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "torop-8",
+              "title": "Тороп. Контурные карты",
+              "author": "Тороп В.В., Арсентьев Н.М.",
+              "year": "2023–2026",
+              "file": "history-maps/torop-8.json"
+            }
+          ],
+          "icon": "history"
+        }
+      ]
     },
     {
       "id": "9",
       "title": "9 класс",
-      "active": false,
-      "subjects": []
+      "active": true,
+      "subjects": [
+        {
+          "id": "geo",
+          "title": "География",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "matveev-9",
+              "title": "Матвеев. Контурные карты",
+              "author": "Матвеев А.В., Петрова В.В.",
+              "year": "2023–2026",
+              "file": "geo/matveev-9.json"
+            }
+          ],
+          "icon": "globe"
+        },
+        {
+          "id": "history-maps",
+          "title": "История (контурные карты)",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "torop-9",
+              "title": "Тороп. Контурные карты",
+              "author": "Тороп В.В., Арсентьев Н.М.",
+              "year": "2023–2026",
+              "file": "history-maps/torop-9.json"
+            }
+          ],
+          "icon": "history"
+        }
+      ]
     }
   ]
 }

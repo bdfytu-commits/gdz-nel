@@ -940,10 +940,12 @@
 
         solutionSectionHtml(task) +
 
-        '<section class="task-block task-block--answer">' +
-        '<p class="task-label">Ответ</p>' +
-        '<div class="answer">' + textToHtml(task.answer) + '</div>' +
-        '</section>' +
+        (String(task.answer || '').trim()
+          ? '<section class="task-block task-block--answer">' +
+            '<p class="task-label">Ответ</p>' +
+            '<div class="answer">' + textToHtml(task.answer) + '</div>' +
+            '</section>'
+          : '') +
 
         '<div class="task-actions no-print">' +
         '<button class="btn btn-outline btn-sm" id="bm-btn" type="button" aria-pressed="' + bookmarked + '">' +

@@ -54,6 +54,10 @@ def main() -> int:
                 errors.append(f"{path}: дубли номеров задач: {sorted(dupes)[:5]}")
             if data["textbook"] != path.stem:
                 errors.append(f"{path}: textbook «{data['textbook']}» не совпадает с именем файла")
+            for task in data["tasks"]:
+                for src in task.get("images", []):
+                    if src.startswith("data/") and not (DATA.parent / src).exists():
+                        errors.append(f"{path}: нет файла картинки {src} (задача {task['number']})")
 
     check(DATA / "catalog.json", "catalog")
     check(DATA / "stats.json", "stats")
