@@ -129,6 +129,131 @@ def _number_key(number: str) -> list[int]:
 
 
 # --------------------------------------------------------------------------
+# latex → обычный текст
+# источник иногда отдаёт формулы как $$ \frac{..}{..} $$, \text, \cdot —
+# конвертируем при разборе, чтобы в данных был читаемый текст
+# --------------------------------------------------------------------------
+
+_SUP_DIGITS = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+_SUB_DIGITS = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
+
+
+def _read_group(text: str, pos: int) -> tuple[str, int]:
+    """Содержимое {...} с учётом вложенности; pos указывает на «{»."""
+    if pos >= len(text) or text[pos] != "{":
+        return "", pos
+    depth = 0
+    for i in range(pos, len(text)):
+        if text[i] == "{":
+            depth += 1
+        elif text[i] == "}":
+            depth -= 1
+            if depth == 0:
+                return text[pos + 1:i], i + 1
+    return text[pos + 1:], len(text)
+
+
+def _latex_simple(side: str) -> bool:
+    side = side.strip()
+    return bool(side) and re.fullmatch(r"[\d\s,]+", side) is not None
+
+
+def _latex_fracs(text: str) -> str:
+    """\\frac{a}{b} → a/b (числовые) или (a) : (b); идём с конца — внутренние первыми."""
+    guard = 0
+    while "\\frac" in text and guard < 300:
+        guard += 1
+        idx = text.rfind("\\frac")
+        j = idx + 5
+        while j < len(text) and text[j] == " ":
+            j += 1
+        if j >= len(text) or text[j] != "{":
+            text = text[:idx] + text[idx + 5:]
+            continue
+        numerator, k = _read_group(text, j)
+        while k < len(text) and text[k] == " ":
+            k += 1
+        if k >= len(text) or text[k] != "{":
+            text = text[:idx] + text[idx + 5:]
+            continue
+        denominator, end = _read_group(text, k)
+        if _latex_simple(numerator) and _latex_simple(denominator):
+            repl = f"{numerator.strip()}/{denominator.strip()}"
+        else:
+            left = numerator.strip() if _latex_simple(numerator) else f"({numerator.strip()})"
+            right = denominator.strip() if _latex_simple(denominator) else f"({denominator.strip()})"
+            repl = f"{left} : {right}"
+        text = text[:idx] + repl + text[end:]
+    return text
+
+
+_LATEX_RX = (
+    (re.compile(r"\\text\s*\{\s*([^{}]*?)\s*\}"), r"\1"),
+    (re.compile(r"\\mathrm\s*\{\s*([^{}]*?)\s*\}"), r"\1"),
+    (re.compile(r"\\cdot\b"), "·"),
+    (re.compile(r"\\times\b"), "×"),
+    (re.compile(r"\\div\b"), ":"),
+    (re.compile(r"\\colon\b"), ":"),
+    (re.compile(r"\\left\b"), ""),
+    (re.compile(r"\\right\b"), ""),
+    (re.compile(r"\\[;,!: ]"), " "),
+    (re.compile(r"\\\\"), " "),
+)
+
+
+def _latex_cmds(text: str) -> str:
+    for rx, repl in _LATEX_RX:
+        text = rx.sub(repl, text)
+    return text
+
+
+def _latex_block(m: re.Match) -> str:
+    s = _latex_cmds(m.group(1))
+    s = _latex_fracs(s)
+    # пробелы вокруг операций (только внутри формул)
+    s = re.sub(r"\s*=\s*", " = ", s)
+    s = re.sub(r"\s*\+\s*", " + ", s)
+    s = re.sub(r"\s*:\s*", " : ", s)
+    s = re.sub(r"\s*∶\s*", " ∶ ", s)
+    s = re.sub(r"(?<=[\d)/])-(?=\d)", " - ", s)
+    s = re.sub(r"(?<=[\d)/])−(?=\d)", " − ", s)
+    # пустые группы MathJax: { }^{10} → ¹⁰, { }_1 → ₁
+    s = re.sub(r"\{\s*\}\s*\^\s*\{?\s*\(?\s*([\d+\-]+)(?:\s*\))?(?:\s*\})?",
+               lambda m: m.group(1).translate(_SUP_DIGITS), s)
+    s = re.sub(r"\^\s*\{?\s*\(?\s*([\d+\-]+)(?:\s*\))?(?:\s*\})?",
+               lambda m: m.group(1).translate(_SUP_DIGITS), s)
+    s = re.sub(r"\{\s*\}\s*_\s*\{?\s*\(?\s*([\d+\-]+)(?:\s*\))?(?:\s*\})?",
+               lambda m: m.group(1).translate(_SUB_DIGITS), s)
+    s = re.sub(r"_\s*\{?\s*\(?\s*([\d+\-]+)(?:\s*\))?(?:\s*\})?",
+               lambda m: m.group(1).translate(_SUB_DIGITS), s)
+    s = s.replace("^", "").replace("{", "").replace("}", "")
+    # компактные переменные: «4 c» → «4c», «7 x y» → «7xy»
+    s = re.sub(r"(?<=\d)\s+([a-zA-Z])(?![a-zA-Z\w])", r"\1", s)
+    s = re.sub(r"([a-zA-Z])\s+([a-zA-Z])(?![a-zA-Z\w])", r"\1\2", s)
+    s = re.sub(r"\s*\n\s*", " ", s)
+    s = re.sub(r"[ \t\u00a0]+", " ", s)
+    s = re.sub(r"\s+([;,.])", r"\1", s)
+    return " " + s.strip() + " "
+
+
+def _latex_to_text(text: str) -> str:
+    if "$$" not in text and "\\frac" not in text:
+        return text
+    text = re.sub(r"\$\$(.+?)\$\$", _latex_block, text, flags=re.S)
+    if "\\" in text:
+        text = _latex_cmds(text)
+    text = re.sub(r"\${1,2}", "", text)
+    text = re.sub(r"(?<=[\d)])=\s*", " = ", text)
+    text = re.sub(r"[ \t\u00a0]{2,}", " ", text)
+    return text
+
+
+def _dash_fix(line: str) -> str:
+    """прямая речь обычным дефисом в начале строки → длинное тире."""
+    return re.sub(r"^-(?=\s+[«\"'(А-ЯЁA-Z])", "—", line)
+
+
+# --------------------------------------------------------------------------
 # извлечение текста
 # --------------------------------------------------------------------------
 
@@ -167,7 +292,8 @@ def _main_lines(soup: BeautifulSoup, root=None) -> list[str]:
         tag.replace_with(tag.get_text())
     main.smooth()  # склеиваем соседние текстовые узлы в один
     text = main.get_text("\n", strip=True)
-    return [line for line in (l.strip() for l in text.split("\n")) if line]
+    return [_dash_fix(_latex_to_text(line))
+            for line in (l.strip() for l in text.split("\n")) if line]
 
 
 def _is_meta(line: str) -> bool:
