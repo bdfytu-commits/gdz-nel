@@ -131,7 +131,7 @@
     // Мост к Supabase: script.js ждёт window.gdzSupabase (или событие ниже).
     // Если модуль не загрузился (офлайн) — в шапке остаётся статичная кнопка «Войти»,
     // отзывы и решение по фото недоступны с понятным сообщением.
-    import { supabase, getSession, getProfile, avatarColor, escapeHtml, initHeaderAuth } from '../assets/supabase.js';
+    import { supabase, getSession, getProfile, avatarColor, escapeHtml, isPremiumActive, initHeaderAuth } from '../assets/supabase.js';
 
     initHeaderAuth({
       authHref: '../auth.html?next=app/index.html',
@@ -144,7 +144,8 @@
       getSession: getSession,
       getProfile: getProfile,
       avatarColor: avatarColor,
-      escapeHtml: escapeHtml
+      escapeHtml: escapeHtml,
+      isPremiumActive: isPremiumActive
     };
     window.dispatchEvent(new Event('gdz-supabase-ready'));
   </script>

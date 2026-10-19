@@ -1453,5 +1453,175 @@ h1, h2, h3 {
   .premium-banner { flex-direction: column; align-items: flex-start; }
 }
 
+.pro-badge--sm { font-size: 10px; padding: 1px 6px; }
+
+/* ---------- выбор модели ИИ на «решить по фото» ---------- */
+
+.photo-model {
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border: 1px solid rgba(245, 197, 24, 0.55);
+  border-radius: var(--radius-l);
+  background: linear-gradient(135deg, rgba(245, 197, 24, 0.12), rgba(229, 161, 58, 0.05));
+}
+
+.photo-model-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.photo-model-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 8px;
+}
+
+.model-chip {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-m);
+  background: var(--c-surface);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.model-chip input { margin-top: 3px; accent-color: #1AA3A3; }
+
+.model-chip span { display: flex; flex-direction: column; gap: 2px; }
+
+.model-chip small { color: var(--c-text-muted); font-size: 12px; }
+
+.model-chip:has(input:checked) {
+  border-color: #1AA3A3;
+  box-shadow: 0 0 0 1px #1AA3A3 inset;
+}
+
+.photo-model-locked {
+  margin: 0 0 14px;
+  font-size: 13.5px;
+  color: var(--c-text-muted);
+}
+
+/* ---------- рекламный блок лендинга (скрыт для «ГДЗ+») ---------- */
+
+.ad-slot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 14px 20px;
+  border-top: 1px dashed var(--c-border);
+  border-bottom: 1px dashed var(--c-border);
+  background: var(--c-surface-2);
+}
+
+.ad-slot[hidden] { display: none; }
+
+.ad-slot-label {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--c-text-muted);
+}
+
+.ad-slot-text { margin: 0; font-size: 14px; }
+
+.ad-slot-actions { display: flex; align-items: center; gap: 10px; }
+
+/* ---------- шпаргалки ---------- */
+
+.sheets-wrap { position: relative; }
+
+.sheets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.sheets-wrap.is-locked .sheets {
+  filter: blur(7px);
+  pointer-events: none;
+  user-select: none;
+}
+
+.sheets-wrap.is-locked::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: var(--radius-l);
+}
+
+[data-theme="dark"] .sheets-wrap.is-locked::before { background: rgba(18, 20, 24, 0.55); }
+
+.sheet-lock {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  z-index: 2;
+  transform: translateX(-50%);
+  width: min(92%, 420px);
+  padding: 22px 24px;
+  border: 1px solid rgba(245, 197, 24, 0.6);
+  border-radius: var(--radius-l);
+  background: var(--c-surface);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.16);
+  text-align: center;
+}
+
+.sheets-wrap:not(.is-locked) .sheet-lock { display: none; }
+
+.sheet-lock .icon { width: 30px; height: 30px; color: #B8860B; margin-bottom: 8px; }
+
+.sheet-lock p { margin: 0 0 10px; }
+
+.sheet-lock-sub { color: var(--c-text-muted); font-size: 14px; }
+
+.cheat-card {
+  padding: 18px 20px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-l);
+  background: var(--c-surface);
+}
+
+.cheat-card h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 12px;
+  font-size: 17px;
+}
+
+.cheat-card .icon { width: 20px; height: 20px; color: var(--c-primary); }
+
+.cheat-card table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+
+.cheat-card th, .cheat-card td {
+  padding: 6px 8px;
+  border: 1px solid var(--c-border);
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.cheat-card th { background: var(--c-surface-2); font-weight: 600; }
+
+.cheat-card p { margin: 0 0 8px; font-size: 13.5px; }
+
+.cheat-card ul { margin: 0 0 8px; padding-left: 18px; font-size: 13.5px; }
+
+.cheat-card li { margin-bottom: 4px; }
+
 /* элементы с атрибутом hidden всегда скрыты, даже если у класса задан display */
 [hidden] { display: none !important; }

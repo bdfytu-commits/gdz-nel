@@ -3,12 +3,16 @@
 
    Вызывает photo.html после загрузки фото в bucket photos.
    Порядок: проверка JWT -> бан -> лимит 5 фото/сутки (для «ГДЗ+»
-   лимита нет) -> скачивание фото -> Groq Vision -> запись в
-   photo_requests -> ответ.
+   лимита нет) -> скачивание фото -> задержка 5 с для бесплатных ->
+   Groq Vision -> запись в photo_requests -> ответ.
 
    Модель по умолчанию — llama-3.2-11b-vision-preview (как в ТЗ),
    запасные — llama-4-scout-17b-16e-instruct, llama-3.2-90b-vision-preview.
    Переопределение — секрет GROQ_VISION_MODEL.
+
+   «ГДЗ+»: выбор модели (payload.model: standard | smart | deep) и
+   отсутствие задержки. Бесплатным задержка 5 секунд: фича показывает
+   ценность подписки, обойти её из клиента нельзя.
 
    verify_jwt = true: только для залогиненных.
    ========================================================= */
@@ -17,11 +21,28 @@ import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
 const SYSTEM_PROMPT = 'Распознай задачу на фото. Если это математика/физика/химия — реши пошагово. Если это код — найди ошибки и предложи исправленный вариант. Если текст нечитаем — так и скажи.';
 
-const MODELS = [
-  Deno.env.get('GROQ_VISION_MODEL') || 'llama-3.2-11b-vision-preview',
+const DEFAULT_MODEL = Deno.env.get('GROQ_VISION_MODEL') || 'llama-3.2-11b-vision-preview';
+
+const VISION_FALLBACKS = [
   'llama-4-scout-17b-16e-instruct',
   'llama-3.2-90b-vision-preview',
 ];
+
+// «ГДЗ+»: ключи приходят из photo.html; сервер принимает только эти значения
+const MODEL_CHOICES: Record<string, string> = {
+  standard: DEFAULT_MODEL,
+  smart: 'llama-4-scout-17b-16e-instruct',
+  deep: 'llama-3.2-90b-vision-preview',
+};
+
+function modelChain(choice: unknown): string[] {
+  const picked = typeof choice === 'string' ? MODEL_CHOICES[choice] : undefined;
+  if (!picked) return [DEFAULT_MODEL, ...VISION_FALLBACKS.filter((model) => model !== DEFAULT_MODEL)];
+  return [picked, ...VISION_FALLBACKS.filter((model) => model !== picked)];
+}
+
+// задержка для бесплатных (Ф35: «ГДЗ+» — мгновенно)
+const FREE_DELAY_MS = 5000;
 
 const DAILY_LIMIT = 5;
 const MAX_BYTES = 6 * 1024 * 1024;
@@ -55,10 +76,10 @@ function mimeFrom(url: string, contentType: string | null): string {
   return 'image/jpeg';
 }
 
-async function askGroq(apiKey: string, dataUrl: string): Promise<{ answer: string; model: string }> {
+async function askGroq(apiKey: string, dataUrl: string, models: string[]): Promise<{ answer: string; model: string }> {
   let lastError = '';
 
-  for (const model of MODELS) {
+  for (const model of models) {
     const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: {
@@ -138,6 +159,8 @@ Deno.serve(async (req) => {
   }
 
   const imageUrl = String(payload?.image_url || '').trim();
+  // выбор модели доступен только «ГДЗ+», остальным — дефолтная цепочка
+  const chain = modelChain(isPremium ? payload?.model : undefined);
   const prefix = `${url}/storage/v1/object/public/photos/${user.id}/`;
   if (!imageUrl.startsWith(prefix)) {
     return json({ error: 'можно отправлять только свои фото' }, 403);
@@ -169,8 +192,11 @@ Deno.serve(async (req) => {
 
   const dataUrl = `data:${mimeFrom(imageUrl, imgRes.headers.get('content-type'))};base64,${toBase64(bytes)}`;
 
+  // бесплатные ждут 5 секунд, «ГДЗ+» — без задержки
+  if (!isPremium) await new Promise((resolve) => setTimeout(resolve, FREE_DELAY_MS));
+
   try {
-    const { answer, model } = await askGroq(groqKey, dataUrl);
+    const { answer, model } = await askGroq(groqKey, dataUrl, chain);
 
     // запись только после успешного ответа — неудачные попытки лимит не съедают
     const { error: insErr } = await db.from('photo_requests').insert({
@@ -180,7 +206,7 @@ Deno.serve(async (req) => {
     });
     if (insErr) console.error('не записал photo_requests:', insErr.message);
 
-    console.log(`фото ${user.id}: ответ получен (${model}, ${bytes.length} байт)`);
+    console.log(`фото ${user.id}: ответ получен (${model}, ${bytes.length} байт, premium: ${isPremium})`);
     return json({ answer, model });
   } catch (err) {
     console.error('vision не сработал:', (err as Error).message);

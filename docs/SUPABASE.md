@@ -10,7 +10,7 @@
 
 ## Что уже настроено
 
-Миграции в `supabase/migrations/` (применены 17.10.2026, порядок — по имени файла):
+Миграции в `supabase/migrations/` (применены 17–19.10.2026, порядок — по имени файла):
 
 | Файл | Что делает |
 | --- | --- |
@@ -19,6 +19,7 @@
 | `20261017120200_storage.sql` | публичный бакет `photos` (5 МБ, jpeg/png/webp), запись/удаление — только своя папка `<uid>/` |
 | `20261017120300_webhook.sql` | `pg_net`-триггер: после INSERT в `reviews` зовёт Edge Function `moderate-review` |
 | `20261017120400_admin_storage.sql` | админ может удалять чужие фото из storage и записи `photo_requests` |
+| `20261018160000_review_premium.sql` | RPC `reviews_for_task` с флагом `is_premium` автора — PRO-бейджи в отзывах |
 
 Если проект пересоздаётся: применить файлы по порядку — вставить содержимое
 в SQL Editor или выполнить `supabase db push` (после `supabase link`).

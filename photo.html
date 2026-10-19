@@ -102,6 +102,32 @@
       </div>
 
       <p class="photo-limit" id="photo-limit">Лимит: 5 фото в сутки на аккаунт.</p>
+
+      <div class="photo-model" id="photo-model" hidden>
+        <p class="photo-model-title">
+          <span class="icon i-sparkles" aria-hidden="true"></span>
+          <span>Модель ИИ</span>
+          <span class="pro-badge pro-badge--sm">PRO</span>
+        </p>
+        <div class="photo-model-options" role="radiogroup" aria-label="Выбор модели ИИ">
+          <label class="model-chip">
+            <input type="radio" name="ai-model" value="standard" checked>
+            <span>Стандарт<small>быстро, для типовых задач</small></span>
+          </label>
+          <label class="model-chip">
+            <input type="radio" name="ai-model" value="smart">
+            <span>Точная<small>подробнее и аккуратнее</small></span>
+          </label>
+          <label class="model-chip">
+            <input type="radio" name="ai-model" value="deep">
+            <span>Разбор<small>самая сильная, дольше</small></span>
+          </label>
+        </div>
+      </div>
+      <p class="photo-model-locked" id="photo-model-locked" hidden>
+        Выбор модели ИИ — в <a href="premium.html">ГДЗ+</a>. Сейчас работает стандартная.
+      </p>
+
       <p class="form-status" id="photo-status" role="status" aria-live="polite"></p>
 
       <section class="answer-block" id="answer-block" hidden>
@@ -153,6 +179,25 @@
 
     var pendingBlob = null;
     var previewUrl = '';
+    var countdownTimer = null;
+
+    // бесплатным сервер добавляет задержку 5 секунд; показываем её ход,
+    // «ГДЗ+» — без задержки (Ф35)
+    function startFreeCountdown() {
+      if (isPremium) return;
+      var left = 5;
+      setStatus('', 'ИИ готовит решение… ' + left + ' с');
+      countdownTimer = setInterval(function () {
+        left -= 1;
+        if (left > 0) {
+          setStatus('', 'ИИ готовит решение… ' + left + ' с');
+        } else {
+          clearInterval(countdownTimer);
+          countdownTimer = null;
+          setStatus('', 'ИИ решает…');
+        }
+      }, 1000);
+    }
 
     /* ---------- статусы ---------- */
 
@@ -202,6 +247,17 @@
     } else {
       premiumBanner.hidden = false;
       refreshLimit();
+    }
+
+    // «ГДЗ+»: выбор модели (Ф35); бесплатным — подсказка про подписку
+    var modelWrap = document.getElementById('photo-model');
+    var modelLocked = document.getElementById('photo-model-locked');
+    if (isPremium) modelWrap.hidden = false;
+    else modelLocked.hidden = false;
+
+    function selectedModel() {
+      var checked = document.querySelector('input[name="ai-model"]:checked');
+      return checked ? checked.value : 'standard';
     }
 
     /* ---------- выбор файла ---------- */
@@ -325,7 +381,10 @@
         var imageUrl = supabase.storage.from('photos').getPublicUrl(path).data.publicUrl;
 
         label.textContent = 'ИИ решает…';
-        var res = await supabase.functions.invoke('solve-photo', { body: { image_url: imageUrl } });
+        startFreeCountdown();
+        var res = await supabase.functions.invoke('solve-photo', {
+          body: { image_url: imageUrl, model: isPremium ? selectedModel() : undefined }
+        });
 
         if (res.error) {
           var msg = 'Сервис временно недоступен — попробуй позже.';
@@ -350,6 +409,7 @@
       } catch (err) {
         setStatus('err', 'Нет связи с сервером. Проверь интернет и попробуй ещё раз.');
       } finally {
+        if (countdownTimer) { clearInterval(countdownTimer); countdownTimer = null; }
         label.textContent = 'Решить';
         sendBtn.disabled = false;
       }

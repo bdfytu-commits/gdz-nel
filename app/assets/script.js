@@ -991,6 +991,10 @@
         });
       }
 
+      // скачать PDF (Ф35)
+      var pdfBtn = byId('pdf-btn');
+      if (pdfBtn) pdfBtn.addEventListener('click', printTask);
+
       // SEO: описание и JSON-LD для страницы задания (Ф20)
       var snippetText = String(task.condition || '').replace(/\s+/g, ' ').trim().slice(0, 160);
       setMetaDescription(snippetText
@@ -1088,7 +1092,13 @@
     var column = String(task.column_solution || '');
 
     var html = '<section class="task-block" id="solution-block">' +
-      '<p class="task-label">Решение</p>';
+      '<div class="solution-head">' +
+      '<p class="task-label">Решение</p>' +
+      (hasSolution || images.length || column
+        ? '<button class="btn btn-outline btn-sm" id="pdf-btn" type="button">' +
+          '<span class="icon i-download" aria-hidden="true"></span><span>Скачать PDF</span></button>'
+        : '') +
+      '</div>';
 
     if (hasSolution) {
       html += '<p class="steps-intro">Выполните действие:</p>' +
@@ -1123,6 +1133,26 @@
     html += '</section>';
     return html;
   }
+
+  // PDF задания: window.print() по печатным стилям; бесплатным — водяной знак (Ф35)
+  function printTask() {
+    var layer = byId('print-layer');
+    if (!layer) {
+      layer = document.createElement('div');
+      layer.id = 'print-layer';
+      layer.setAttribute('aria-hidden', 'true');
+      var stamps = '';
+      for (var i = 0; i < 36; i++) stamps += '<span>ГДЗ НЭЛ — бесплатная версия</span>';
+      layer.innerHTML = stamps;
+      document.body.appendChild(layer);
+    }
+    document.body.classList.toggle('is-free-print', !premiumActive);
+    window.print();
+  }
+
+  window.addEventListener('afterprint', function () {
+    document.body.classList.remove('is-free-print');
+  });
 
   function reportHref(entry) {
     var subjectLine = 'Ошибка в задании ' + entry.number + ' учебника ' + entry.book;
@@ -1227,6 +1257,15 @@
     lib.getSession().then(function (session) { if (session) syncAchievements(lib); });
   });
 
+  // «ГДЗ+»: статус подписки для PDF без водяного знака (Ф35)
+  var premiumActive = false;
+  supaPromise.then(function (lib) {
+    if (!lib || !lib.isPremiumActive) return;
+    lib.getProfile().then(function (profile) {
+      premiumActive = lib.isPremiumActive(profile);
+    });
+  });
+
   function authHref() {
     return '../auth.html?next=' + encodeURIComponent('app/index.html' + location.hash);
   }
@@ -1250,6 +1289,7 @@
   function reviewCard(r, lib, mine) {
     var name = r.username || 'Аноним';
     var initial = String(name).trim().charAt(0).toUpperCase() || 'А';
+    var isPro = !!r.author_premium;
     var badge = '';
     if (mine) {
       if (r.ai_status === 'rejected') badge = '<span class="review-mine-badge is-rejected">отклонён</span>';
@@ -1257,9 +1297,10 @@
       else badge = '<span class="review-mine-badge is-pending">на проверке ИИ</span>';
     }
     return '<article class="review' + (mine ? ' is-mine' : '') + (r.ai_status === 'pending' ? ' is-pending' : '') + '">' +
-      '<span class="review-avatar" style="background:' + lib.avatarColor(name) + '" aria-hidden="true">' + esc(initial) + '</span>' +
+      '<span class="review-avatar' + (isPro ? ' is-pro' : '') + '" style="background:' + lib.avatarColor(name) + '" aria-hidden="true">' + esc(initial) + '</span>' +
       '<div class="review-body">' +
       '<div class="review-top"><span class="review-name">' + esc(name) + '</span>' +
+      (isPro ? '<span class="pro-badge pro-badge--sm" title="Подписка ГДЗ+">PRO</span>' : '') +
       '<span class="review-stars" aria-label="Оценка: ' + r.rating + ' из 5">' + starsHtml(r.rating) + '</span>' +
       badge +
       '<time class="review-date">' + esc(formatDate(r.created_at)) + '</time></div>' +
@@ -1283,8 +1324,14 @@
 
       async function load() {
         var session = await lib.getSession();
-        var res = await db.from('reviews').select('*').eq('task_id', ctx.taskId)
-          .order('created_at', { ascending: false }).limit(50);
+
+        // RPC отдаёт отзывы + статус «ГДЗ+» автора (чужой профиль RLS не читает)
+        var res = await db.rpc('reviews_for_task', { p_task_id: ctx.taskId });
+        if (res.error) {
+          // миграция ещё не применена — обычный select, без PRO-бейджей
+          res = await db.from('reviews').select('*').eq('task_id', ctx.taskId)
+            .order('created_at', { ascending: false }).limit(50);
+        }
         if (token !== renderToken) return;
 
         if (res.error) {
@@ -1295,6 +1342,19 @@
         var rows = res.data || [];
         var approved = rows.filter(function (r) { return r.is_approved; });
         var mine = session ? rows.filter(function (r) { return r.user_id === session.user.id; })[0] : null;
+
+        // свой статус берём из профиля (в RPC он тоже есть, но так свежее)
+        if (session && lib.getProfile) {
+          try {
+            var ownProfile = await lib.getProfile();
+            var ownPro = lib.isPremiumActive ? lib.isPremiumActive(ownProfile) : false;
+            premiumActive = ownPro;
+            rows.forEach(function (r) {
+              if (r.user_id === session.user.id) r.author_premium = ownPro;
+            });
+          } catch (e) { /* останутся бейджи из RPC */ }
+        }
+        if (token !== renderToken) return;
 
         var countEl = byId('reviews-count');
         if (countEl) {
@@ -1407,6 +1467,7 @@
           return;
         }
         showToast('Отзыв успешно добавлен');
+        if (res.data) res.data.author_premium = premiumActive;
         renderReviewForm(lib, db, session, res.data, ctx, token);
         // отзыв публикуется сразу — через секунду обновим список принудительно
         setTimeout(function () {

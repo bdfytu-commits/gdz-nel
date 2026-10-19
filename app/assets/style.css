@@ -1236,9 +1236,45 @@ mark {
 
 @page { margin: 14mm; }
 
+/* водяной знак бесплатного PDF: слои из штампов, виден только при печати */
+#print-layer { display: none; }
+
+.solution-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.solution-head .task-label { margin: 0; }
+
 @media print {
   .app-header, .task-actions, .task-nav, .crumbs, .toast, .hint,
-  .section-chips, .next-section, .list-actions, .no-print { display: none !important; }
+  .section-chips, .next-section, .list-actions, .no-print,
+  #pdf-btn, .bottom-nav { display: none !important; }
+
+  body.is-free-print #print-layer {
+    display: grid !important;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 6px;
+    align-content: space-around;
+    justify-items: center;
+    pointer-events: none;
+    opacity: 0.14;
+  }
+
+  body.is-free-print #print-layer span {
+    transform: rotate(-28deg);
+    font-weight: 700;
+    font-size: 17px;
+    white-space: nowrap;
+    color: #000;
+  }
+
 
   body { background: #fff; color: #000; }
 
@@ -1334,6 +1370,26 @@ mark {
 }
 
 .review.is-pending { border-style: dashed; }
+
+/* «ГДЗ+» в отзывах: золотая рамка аватара + бейдж PRO */
+.review-avatar.is-pro {
+  box-shadow: 0 0 0 2px var(--c-surface), 0 0 0 4px #E5A13A;
+}
+
+.pro-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #F5C518, #E5A13A);
+  color: #3A2B00;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  vertical-align: middle;
+}
+
+.pro-badge--sm { font-size: 10px; padding: 1px 6px; }
 
 .review-avatar {
   flex: none;

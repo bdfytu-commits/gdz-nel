@@ -174,12 +174,23 @@
       </div>
     </section>
 
+    <div class="ad-slot" id="ad-slot" hidden>
+      <div>
+        <span class="ad-slot-label">реклама</span>
+        <p class="ad-slot-text">Шпаргалки по всем предметам — коротко, на одном экране.</p>
+      </div>
+      <div class="ad-slot-actions">
+        <a class="btn btn-ghost" href="cheatsheets.html">Открыть шпаргалки</a>
+        <a class="btn btn-primary" href="premium.html">Убрать рекламу</a>
+      </div>
+    </div>
+
     <!-- ================= как это работает ================= -->
     <section class="band" id="how">
       <div class="section">
         <div class="section-head reveal">
           <h2 class="section-title">Как это работает</h2>
-          <p class="section-sub">Три шага от условия до ответа. Без рекламы: аккаунт понадобится только для отзывов и решения задач по фото.</p>
+          <p class="section-sub">Три шага от условия до ответа. Аккаунт понадобится только для отзывов и решения задач по фото.</p>
         </div>
         <ol class="steps">
           <li class="step reveal">
@@ -274,8 +285,17 @@
   <script type="module">
     // «Войти» превращается в аватар, если пользователь уже вошёл.
     // Если модуль не загрузился (офлайн) — остаётся статичная кнопка «Войти».
-    import { initHeaderAuth } from './assets/supabase.js';
+    import { initHeaderAuth, getProfile, isPremiumActive } from './assets/supabase.js';
     initHeaderAuth();
+
+    // Рекламная плашка: бесплатным показываем, подписчикам ГДЗ+ — нет.
+    // Если профиль не загрузился — плашку не показываем (безопасный дефолт).
+    const adSlot = document.getElementById('ad-slot');
+    if (adSlot) {
+      getProfile().then((profile) => {
+        if (!isPremiumActive(profile)) adSlot.hidden = false;
+      }).catch(() => {});
+    }
   </script>
 </body>
 </html>

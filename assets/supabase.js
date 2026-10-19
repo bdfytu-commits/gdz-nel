@@ -71,6 +71,12 @@ export async function getSession() {
   return (res.data && res.data.session) || null;
 }
 
+/* «ГДЗ+» активна: флаг стоит и срок не истёк */
+export function isPremiumActive(profile) {
+  return !!(profile && profile.is_premium && profile.premium_until &&
+    new Date(profile.premium_until) > new Date());
+}
+
 export async function getProfile() {
   var session = await getSession();
   if (!session) return null;
