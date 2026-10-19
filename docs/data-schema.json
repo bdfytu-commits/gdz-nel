@@ -7,7 +7,7 @@
       "type": "object",
       "required": ["subject", "textbook", "author", "year", "source", "parsedAt", "tasks"],
       "properties": {
-        "subject": { "type": "string", "enum": ["math", "algebra", "russian", "english", "biology", "history", "history-maps", "geo", "social"] },
+        "subject": { "type": "string", "enum": ["math", "algebra", "russian", "literature", "english", "biology", "history", "history-maps", "geo", "social"] },
         "textbook": { "type": "string", "minLength": 1 },
         "author": { "type": "string", "minLength": 1 },
         "year": { "type": "string", "minLength": 1 },

@@ -1,25 +1,30 @@
 {
-  "generatedAt": "2026-10-18T12:47:03Z",
+  "generatedAt": "2026-10-19T05:57:59Z",
   "subjects": {
     "math": {
       "title": "Математика",
       "icon": "math",
-      "tasks": 1567
+      "tasks": 4991
     },
     "russian": {
       "title": "Русский язык",
       "icon": "russian",
-      "tasks": 715
+      "tasks": 2352
+    },
+    "literature": {
+      "title": "Литература",
+      "icon": "literature",
+      "tasks": 1982
     },
     "english": {
       "title": "Английский язык",
       "icon": "english",
-      "tasks": 440
+      "tasks": 860
     },
     "biology": {
       "title": "Биология",
       "icon": "biology",
-      "tasks": 338
+      "tasks": 1953
     },
     "geo": {
       "title": "География",
@@ -29,17 +34,17 @@
     "history": {
       "title": "История",
       "icon": "history",
-      "tasks": 353
+      "tasks": 1713
     },
     "history-maps": {
       "title": "История (контурные карты)",
       "icon": "history",
-      "tasks": 44
+      "tasks": 57
     },
     "social": {
       "title": "Обществознание",
       "icon": "social",
-      "tasks": 188
+      "tasks": 1417
     }
   },
   "books": {
@@ -47,17 +52,43 @@
     "math/vilenkin-6-2.json": 641,
     "russian/ladyzhenskaya-6-1.json": 383,
     "russian/ladyzhenskaya-6-2.json": 332,
+    "literature/korovina-6-1.json": 309,
+    "literature/korovina-6-2.json": 228,
     "english/vaulina-6.json": 440,
     "biology/pasechnik-6.json": 338,
     "geo/matveev-6.json": 7,
     "history/medinsky-6.json": 353,
     "history-maps/torop-6.json": 22,
     "social/bogolyubov-6.json": 188,
+    "algebra/makarichev-7.json": 1191,
+    "russian/baranov-7-1.json": 372,
+    "russian/baranov-7-2.json": 241,
+    "literature/korovina-7-1.json": 274,
+    "literature/korovina-7-2.json": 273,
+    "english/vaulina-7.json": 420,
+    "biology/pasechnik-7.json": 333,
     "geo/matveev-7.json": 16,
+    "history/medinsky-7.json": 448,
     "history-maps/torop-7.json": 11,
+    "social/bogolyubov-7.json": 335,
+    "algebra/makarichev-8.json": 1333,
+    "russian/barhudarov-8.json": 510,
+    "literature/korovina-8-1.json": 200,
+    "literature/korovina-8-2.json": 230,
+    "biology/pasechnik-8.json": 632,
     "geo/matveev-8.json": 10,
+    "history/medinsky-8.json": 388,
     "history-maps/torop-8.json": 11,
-    "geo/matveev-9.json": 13
+    "social/bogolyubov-8.json": 454,
+    "algebra/makarichev-9.json": 900,
+    "russian/barhudarov-9.json": 514,
+    "literature/korovina-9-1.json": 269,
+    "literature/korovina-9-2.json": 199,
+    "biology/pasechnik-9.json": 650,
+    "geo/matveev-9.json": 13,
+    "history/medinsky-9.json": 524,
+    "history-maps/torop-9.json": 13,
+    "social/bogolyubov-9.json": 440
   },
   "grades": {
     "6": {
@@ -72,6 +103,11 @@
           "title": "Русский язык",
           "icon": "russian",
           "tasks": 715
+        },
+        "literature": {
+          "title": "Литература",
+          "icon": "literature",
+          "tasks": 537
         },
         "english": {
           "title": "Английский язык",
@@ -109,6 +145,8 @@
         "math/vilenkin-6-2.json": 641,
         "russian/ladyzhenskaya-6-1.json": 383,
         "russian/ladyzhenskaya-6-2.json": 332,
+        "literature/korovina-6-1.json": 309,
+        "literature/korovina-6-2.json": 228,
         "english/vaulina-6.json": 440,
         "biology/pasechnik-6.json": 338,
         "geo/matveev-6.json": 7,
@@ -116,72 +154,191 @@
         "history-maps/torop-6.json": 22,
         "social/bogolyubov-6.json": 188
       },
-      "total": 3630,
-      "textbooks": 10
+      "total": 4167,
+      "textbooks": 12
     },
     "7": {
       "title": "7 класс",
       "subjects": {
+        "math": {
+          "title": "Алгебра",
+          "icon": "math",
+          "tasks": 1191
+        },
+        "russian": {
+          "title": "Русский язык",
+          "icon": "russian",
+          "tasks": 613
+        },
+        "literature": {
+          "title": "Литература",
+          "icon": "literature",
+          "tasks": 547
+        },
+        "english": {
+          "title": "Английский язык",
+          "icon": "english",
+          "tasks": 420
+        },
+        "biology": {
+          "title": "Биология",
+          "icon": "biology",
+          "tasks": 333
+        },
         "geo": {
           "title": "География",
           "icon": "globe",
           "tasks": 16
         },
+        "history": {
+          "title": "История",
+          "icon": "history",
+          "tasks": 448
+        },
         "history-maps": {
           "title": "История (контурные карты)",
           "icon": "history",
           "tasks": 11
+        },
+        "social": {
+          "title": "Обществознание",
+          "icon": "social",
+          "tasks": 335
         }
       },
       "books": {
+        "algebra/makarichev-7.json": 1191,
+        "russian/baranov-7-1.json": 372,
+        "russian/baranov-7-2.json": 241,
+        "literature/korovina-7-1.json": 274,
+        "literature/korovina-7-2.json": 273,
+        "english/vaulina-7.json": 420,
+        "biology/pasechnik-7.json": 333,
         "geo/matveev-7.json": 16,
-        "history-maps/torop-7.json": 11
+        "history/medinsky-7.json": 448,
+        "history-maps/torop-7.json": 11,
+        "social/bogolyubov-7.json": 335
       },
-      "total": 27,
-      "textbooks": 2
+      "total": 3914,
+      "textbooks": 11
     },
     "8": {
       "title": "8 класс",
       "subjects": {
+        "math": {
+          "title": "Алгебра",
+          "icon": "math",
+          "tasks": 1333
+        },
+        "russian": {
+          "title": "Русский язык",
+          "icon": "russian",
+          "tasks": 510
+        },
+        "literature": {
+          "title": "Литература",
+          "icon": "literature",
+          "tasks": 430
+        },
+        "biology": {
+          "title": "Биология",
+          "icon": "biology",
+          "tasks": 632
+        },
         "geo": {
           "title": "География",
           "icon": "globe",
           "tasks": 10
         },
+        "history": {
+          "title": "История",
+          "icon": "history",
+          "tasks": 388
+        },
         "history-maps": {
           "title": "История (контурные карты)",
           "icon": "history",
           "tasks": 11
+        },
+        "social": {
+          "title": "Обществознание",
+          "icon": "social",
+          "tasks": 454
         }
       },
       "books": {
+        "algebra/makarichev-8.json": 1333,
+        "russian/barhudarov-8.json": 510,
+        "literature/korovina-8-1.json": 200,
+        "literature/korovina-8-2.json": 230,
+        "biology/pasechnik-8.json": 632,
         "geo/matveev-8.json": 10,
-        "history-maps/torop-8.json": 11
+        "history/medinsky-8.json": 388,
+        "history-maps/torop-8.json": 11,
+        "social/bogolyubov-8.json": 454
       },
-      "total": 21,
-      "textbooks": 2
+      "total": 3768,
+      "textbooks": 9
     },
     "9": {
       "title": "9 класс",
       "subjects": {
+        "math": {
+          "title": "Алгебра",
+          "icon": "math",
+          "tasks": 900
+        },
+        "russian": {
+          "title": "Русский язык",
+          "icon": "russian",
+          "tasks": 514
+        },
+        "literature": {
+          "title": "Литература",
+          "icon": "literature",
+          "tasks": 468
+        },
+        "biology": {
+          "title": "Биология",
+          "icon": "biology",
+          "tasks": 650
+        },
         "geo": {
           "title": "География",
           "icon": "globe",
           "tasks": 13
         },
+        "history": {
+          "title": "История",
+          "icon": "history",
+          "tasks": 524
+        },
         "history-maps": {
           "title": "История (контурные карты)",
           "icon": "history",
-          "tasks": 0
+          "tasks": 13
+        },
+        "social": {
+          "title": "Обществознание",
+          "icon": "social",
+          "tasks": 440
         }
       },
       "books": {
-        "geo/matveev-9.json": 13
+        "algebra/makarichev-9.json": 900,
+        "russian/barhudarov-9.json": 514,
+        "literature/korovina-9-1.json": 269,
+        "literature/korovina-9-2.json": 199,
+        "biology/pasechnik-9.json": 650,
+        "geo/matveev-9.json": 13,
+        "history/medinsky-9.json": 524,
+        "history-maps/torop-9.json": 13,
+        "social/bogolyubov-9.json": 440
       },
-      "total": 13,
-      "textbooks": 1
+      "total": 3522,
+      "textbooks": 9
     }
   },
-  "total": 3691,
-  "textbooks": 15
+  "total": 15371,
+  "textbooks": 41
 }

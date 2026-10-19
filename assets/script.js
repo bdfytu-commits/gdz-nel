@@ -94,6 +94,7 @@
 
       var tasksEl = document.getElementById('stat-tasks');
       var booksEl = document.getElementById('stat-books');
+      var subjectsEl = document.getElementById('stat-subjects');
       var footerEl = document.getElementById('footer-stats');
 
       // лендинг рассказывает про 6 класс — берём счётчики его класса
@@ -101,6 +102,7 @@
 
       if (tasksEl) tasksEl.textContent = scope.total;
       if (booksEl) booksEl.textContent = scope.textbooks;
+      if (subjectsEl && scope.subjects) subjectsEl.textContent = Object.keys(scope.subjects).length;
 
       if (footerEl && scope.subjects) {
         var subjectsCount = Object.keys(scope.subjects).length;

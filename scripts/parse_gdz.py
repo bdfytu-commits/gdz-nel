@@ -154,12 +154,21 @@ def _read_group(text: str, pos: int) -> tuple[str, int]:
 
 
 def _latex_simple(side: str) -> bool:
-    side = side.strip()
+    side = re.sub(r"\\[,;:!]", " ", side).strip()
     return bool(side) and re.fullmatch(r"[\d\s,]+", side) is not None
+
+
+def _latex_tidy_side(side: str) -> str:
+    """Пробелы внутри чисто числовой стороны дроби — артефакт \\mathbf{9 0}."""
+    s = side.strip()
+    if re.fullmatch(r"[\d\s,]+", s):
+        return re.sub(r"\s+", "", s)
+    return s
 
 
 def _latex_fracs(text: str) -> str:
     """\\frac{a}{b} → a/b (числовые) или (a) : (b); идём с конца — внутренние первыми."""
+    text = text.replace("\\dfrac", "\\frac").replace("\\tfrac", "\\frac")
     guard = 0
     while "\\frac" in text and guard < 300:
         guard += 1
@@ -177,6 +186,8 @@ def _latex_fracs(text: str) -> str:
             text = text[:idx] + text[idx + 5:]
             continue
         denominator, end = _read_group(text, k)
+        numerator = _latex_tidy_side(numerator)
+        denominator = _latex_tidy_side(denominator)
         if _latex_simple(numerator) and _latex_simple(denominator):
             repl = f"{numerator.strip()}/{denominator.strip()}"
         else:
@@ -184,6 +195,20 @@ def _latex_fracs(text: str) -> str:
             right = denominator.strip() if _latex_simple(denominator) else f"({denominator.strip()})"
             repl = f"{left} : {right}"
         text = text[:idx] + repl + text[end:]
+    return text
+
+
+_FONT_CMD_RE = re.compile(
+    r"\\(?:mathbf|boldsymbol|bm|mathit|mathsf|mathtt|mathcal|mathbb|text|mathrm)"
+    r"\s*\{\s*([^{}]*?)\s*\}")
+
+
+def _latex_unwrap_fonts(text: str) -> str:
+    """\\mathbf{1} → 1 (и прочие шрифтовые команды) — до разбора дробей."""
+    prev = None
+    while prev != text:
+        prev = text
+        text = _FONT_CMD_RE.sub(r"\1", text)
     return text
 
 
@@ -195,15 +220,57 @@ _LATEX_RX = (
     (re.compile(r"\\div\b"), ":"),
     (re.compile(r"\\colon\b"), ":"),
     (re.compile(r"\\left\b"), ""),
+    (re.compile(r"\\right\s*\.\s*"), "}"),
     (re.compile(r"\\right\b"), ""),
-    (re.compile(r"\\[;,!: ]"), " "),
+    (re.compile(r"\\pi\b"), "π"),
+    (re.compile(r"\\alpha\b"), "α"),
+    (re.compile(r"\\beta\b"), "β"),
+    (re.compile(r"\\gamma\b"), "γ"),
+    (re.compile(r"\\lambda\b"), "λ"),
+    (re.compile(r"\\varphi\b"), "φ"),
+    (re.compile(r"\\lg\b"), "lg"),
+    (re.compile(r"\\log\b"), "log"),
+    (re.compile(r"\\sin\b"), "sin"),
+    (re.compile(r"\\cos\b"), "cos"),
+    (re.compile(r"\\tg\b"), "tg"),
+    (re.compile(r"\\ctg\b"), "ctg"),
+    (re.compile(r"\\geq\b"), "≥"),
+    (re.compile(r"\\leq\b"), "≤"),
+    (re.compile(r"\\neq\b"), "≠"),
+    (re.compile(r"\\inR\b"), "∈ R"),
+    (re.compile(r"\\square\b"), "□"),
+    (re.compile(r"\\Gamma\b"), "Γ"),
+    (re.compile(r"\\Pi\b"), "Π"),
+    (re.compile(r"\\llbracket\b"), "⟦"),
+    (re.compile(r"\\rrbracket\b"), "⟧"),
+    (re.compile(r"\\lceil\b"), "⌈"),
+    (re.compile(r"\\rceil\b"), "⌉"),
+    (re.compile(r"\\lfloor\b"), "⌊"),
+    (re.compile(r"\\rfloor\b"), "⌋"),
+    (re.compile(r"\\ulcorner\b"), "⌜"),
+    (re.compile(r"\\urcorner\b"), "⌝"),
+    (re.compile(r"\\(?:mathbf|boldsymbol|bm|mathit|mathsf|mathtt|mathcal|mathbb)\s*\{\s*([^{}]*?)\s*\}"), r"\1"),
     (re.compile(r"\\\\"), " "),
+    (re.compile(r"\\[;,!: ]"), " "),
 )
 
 
 def _latex_cmds(text: str) -> str:
     for rx, repl in _LATEX_RX:
         text = rx.sub(repl, text)
+    text = re.sub(r"\\sqrt\s*\[\s*([^\]]*?)\s*\]\s*\{\s*([^{}]*?)\s*\}",
+                  lambda m: m.group(1).translate(_SUP_DIGITS) + "√" + m.group(2), text)
+    text = re.sub(r"\\sqrt\s*\{\s*([^{}]*?)\s*\}", r"√\1", text)
+    text = re.sub(r"\\sqrt\s*(\d)", r"√\1", text)
+    # таблицы (\begin{array}{c|c} … \hline … \end{array}) и прочие остатки latex
+    text = re.sub(r"\\begin\s*\{?array\}?\s*(?:\{\s*[lcr|]*\s*\})?", " ", text)
+    text = re.sub(r"\\end\s*\{?array\}?\s*", " ", text)
+    text = re.sub(r"\\hline\b|\\cr\b", " ", text)
+    text = re.sub(r"\\(?!frac\b)[a-zA-Z]+\s*", "", text)
+    text = text.replace("\\{", "{").replace("\\}", "}")
+    text = re.sub(r"[&]+", " ", text)
+    text = re.sub(r"\{\s*\}", "", text)
+    text = re.sub(r"[ \t\u00a0]{2,}", " ", text)
     return text
 
 
@@ -237,9 +304,19 @@ def _latex_block(m: re.Match) -> str:
 
 
 def _latex_to_text(text: str) -> str:
-    if "$$" not in text and "\\frac" not in text:
+    """Разметка latex источника → читаемый текст.
+
+    Срабатывает, только если в строке есть математика: `$$…$$` или команды
+    `\\имя` латиницей. Литеральные «\\[у]» русского раздела и английские
+    цены в `$` не трогаются.
+    """
+    if "$$" not in text and not re.search(r"\\[a-zA-Z]", text):
         return text
+    text = _latex_unwrap_fonts(text)
     text = re.sub(r"\$\$(.+?)\$\$", _latex_block, text, flags=re.S)
+    # многострочные формулы $$…$$ приходят построчно — пары не всегда ловятся,
+    # остатки дробей и команд доводим вне блоков
+    text = _latex_fracs(text)
     if "\\" in text:
         text = _latex_cmds(text)
     text = re.sub(r"\${1,2}", "", text)
@@ -287,11 +364,24 @@ def _main_lines(soup: BeautifulSoup, root=None) -> list[str]:
     if main is None:
         return []
     # инлайн-теги (дроби вида <span class="fraction">2/3</span>, выделения)
-    # разворачиваем в текст, чтобы они не рвали строку на части
+    # разворачиваем в текст, чтобы они не рвали строку на части.
+    # у gdz-raketa знаменатель дроби отдаётся как <sup>\х + 4</sup> — «\» в начале
+    # значит «под дробью»: превращаем в /(…) до общей развёртки
     for tag in main.find_all(INLINE_TAGS):
+        if tag.name == "sup":
+            inner = tag.get_text(" ", strip=True)
+            if inner.startswith("\\"):
+                body = inner[1:].strip()
+                repl = f"/({body})" if re.search(r"\s", body) else f"/{body}"
+                tag.replace_with(repl)
+                continue
         tag.replace_with(tag.get_text())
     main.smooth()  # склеиваем соседние текстовые узлы в один
     text = main.get_text("\n", strip=True)
+    # $$…$$ бывают многострочными (таблицы \begin{array}): построчный конвертер
+    # их не видит, и в данные лезут {x}/« : ». Схлопываем блоки заранее.
+    if "$$" in text:
+        text = re.sub(r"\$\$(.+?)\$\$", _latex_block, text, flags=re.S)
     return [_dash_fix(_latex_to_text(line))
             for line in (l.strip() for l in text.split("\n")) if line]
 
@@ -721,7 +811,8 @@ def parse_panel_tasks(soup: BeautifulSoup, number: str, base_url: str,
     if root is None:
         return []
     candidates: list[dict] = []
-    for panel in root.select("div.panel"):
+    # у части книг (например, Макарычев-9) вкладок div.panel нет — страница целиком
+    for panel in (root.select("div.panel") or [root]):
         # картинки — до вызова _main_lines: она схлопывает ссылки вместе с <img> внутри
         images = _panel_images(panel, base_url)
         lines = _main_lines(soup, root=panel)

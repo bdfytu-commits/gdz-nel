@@ -50,6 +50,28 @@
           "icon": "russian"
         },
         {
+          "id": "literature",
+          "title": "Литература",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "korovina-6-1",
+              "title": "Коровина. Часть 1",
+              "author": "Полухина В.П., Коровина В.Я., Журавлев В.П., Коровин В.И.",
+              "year": "2023",
+              "file": "literature/korovina-6-1.json"
+            },
+            {
+              "id": "korovina-6-2",
+              "title": "Коровина. Часть 2",
+              "author": "Полухина В.П., Коровина В.Я., Журавлев В.П., Коровин В.И.",
+              "year": "2023",
+              "file": "literature/korovina-6-2.json"
+            }
+          ],
+          "icon": "literature"
+        },
+        {
           "id": "english",
           "title": "Английский язык",
           "active": true,
@@ -150,58 +172,150 @@
           "id": "math",
           "title": "Алгебра",
           "active": true,
-          "icon": "math",
           "textbooks": [
             {
               "id": "makarichev-7",
               "title": "Макарычев",
+              "author": "Макарычев Ю.Н., Миндюк Н.Г., Нешков К.И.",
+              "year": "2019–2024",
               "file": "algebra/makarichev-7.json"
             }
-          ]
+          ],
+          "icon": "math"
         },
         {
           "id": "russian",
           "title": "Русский язык",
           "active": true,
-          "icon": "russian",
           "textbooks": [
             {
               "id": "baranov-7-1",
-              "title": "Баранов. Ч.1",
+              "title": "Баранов. Часть 1",
+              "author": "Баранов М.Т., Ладыженская Т.А., Тростенцова Л.А. и др.",
+              "year": "2023",
               "file": "russian/baranov-7-1.json"
             },
             {
               "id": "baranov-7-2",
-              "title": "Баранов. Ч.2",
+              "title": "Баранов. Часть 2",
+              "author": "Баранов М.Т., Ладыженская Т.А., Тростенцова Л.А. и др.",
+              "year": "2023",
               "file": "russian/baranov-7-2.json"
             }
-          ]
+          ],
+          "icon": "russian"
+        },
+        {
+          "id": "literature",
+          "title": "Литература",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "korovina-7-1",
+              "title": "Коровина. Часть 1",
+              "author": "Коровина В.Я., Журавлев В.П., Коровин В.И.",
+              "year": "2023",
+              "file": "literature/korovina-7-1.json"
+            },
+            {
+              "id": "korovina-7-2",
+              "title": "Коровина. Часть 2",
+              "author": "Коровина В.Я., Журавлев В.П., Коровин В.И.",
+              "year": "2023",
+              "file": "literature/korovina-7-2.json"
+            }
+          ],
+          "icon": "literature"
+        },
+        {
+          "id": "english",
+          "title": "Английский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "vaulina-7",
+              "title": "Spotlight (Ваулина)",
+              "author": "Ваулина Ю.Е., Дули Д., Подоляко О.Е. и др.",
+              "year": "2023",
+              "file": "english/vaulina-7.json"
+            }
+          ],
+          "icon": "english"
+        },
+        {
+          "id": "biology",
+          "title": "Биология",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "pasechnik-7",
+              "title": "Пасечник",
+              "author": "Пасечник В.В., Суматохин С.В., Гапонюк З.Г.",
+              "year": "2023–2024",
+              "file": "biology/pasechnik-7.json"
+            }
+          ],
+          "icon": "biology"
         },
         {
           "id": "geo",
           "title": "География",
           "active": true,
-          "icon": "globe",
           "textbooks": [
             {
               "id": "matveev-7",
-              "title": "Матвеев",
+              "title": "Матвеев. Контурные карты",
+              "author": "Матвеев А.В., Петрова В.В.",
+              "year": "2023–2026",
               "file": "geo/matveev-7.json"
             }
-          ]
+          ],
+          "icon": "globe"
+        },
+        {
+          "id": "history",
+          "title": "История",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "medinsky-7",
+              "title": "Мединский. Новое время (1500–1800)",
+              "author": "Мединский В.Р., Чубарьян А.О.",
+              "year": "2025",
+              "file": "history/medinsky-7.json"
+            }
+          ],
+          "icon": "history"
         },
         {
           "id": "history-maps",
-          "title": "История (карты)",
+          "title": "История (контурные карты)",
           "active": true,
-          "icon": "history",
           "textbooks": [
             {
               "id": "torop-7",
-              "title": "Тороп",
+              "title": "Тороп. Контурные карты",
+              "author": "Тороп В.В., Арсентьев Н.М.",
+              "year": "2023–2026",
               "file": "history-maps/torop-7.json"
             }
-          ]
+          ],
+          "icon": "history"
+        },
+        {
+          "id": "social",
+          "title": "Обществознание",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "bogolyubov-7",
+              "title": "Боголюбов",
+              "author": "Боголюбов Л.Н., Рутковская Е.Л., Иванова Л.Ф. и др.",
+              "year": "2023",
+              "file": "social/bogolyubov-7.json"
+            }
+          ],
+          "icon": "social"
         }
       ]
     },
@@ -214,53 +328,128 @@
           "id": "math",
           "title": "Алгебра",
           "active": true,
-          "icon": "math",
           "textbooks": [
             {
               "id": "makarichev-8",
               "title": "Макарычев",
+              "author": "Макарычев Ю.Н., Миндюк Н.Г., Нешков К.И.",
+              "year": "2019–2024",
               "file": "algebra/makarichev-8.json"
             }
-          ]
+          ],
+          "icon": "math"
         },
         {
           "id": "russian",
           "title": "Русский язык",
           "active": true,
-          "icon": "russian",
           "textbooks": [
             {
               "id": "barhudarov-8",
               "title": "Бархударов",
+              "author": "Бархударов С.Г., Крючков С.Е., Максимов Л.Ю. и др.",
+              "year": "2023",
               "file": "russian/barhudarov-8.json"
             }
-          ]
+          ],
+          "icon": "russian"
+        },
+        {
+          "id": "literature",
+          "title": "Литература",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "korovina-8-1",
+              "title": "Коровина. Часть 1",
+              "author": "Коровина В.Я., Журавлев В.П., Коровин В.И.",
+              "year": "2023",
+              "file": "literature/korovina-8-1.json"
+            },
+            {
+              "id": "korovina-8-2",
+              "title": "Коровина. Часть 2",
+              "author": "Коровина В.Я., Журавлев В.П., Коровин В.И.",
+              "year": "2023",
+              "file": "literature/korovina-8-2.json"
+            }
+          ],
+          "icon": "literature"
+        },
+        {
+          "id": "biology",
+          "title": "Биология",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "pasechnik-8",
+              "title": "Пасечник",
+              "author": "Пасечник В.В., Суматохин С.В., Гапонюк З.Г.",
+              "year": "2023–2024",
+              "file": "biology/pasechnik-8.json"
+            }
+          ],
+          "icon": "biology"
         },
         {
           "id": "geo",
           "title": "География",
           "active": true,
-          "icon": "globe",
           "textbooks": [
             {
               "id": "matveev-8",
-              "title": "Матвеев",
+              "title": "Матвеев. Контурные карты",
+              "author": "Матвеев А.В., Петрова В.В.",
+              "year": "2023–2026",
               "file": "geo/matveev-8.json"
             }
-          ]
+          ],
+          "icon": "globe"
+        },
+        {
+          "id": "history",
+          "title": "История",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "medinsky-8",
+              "title": "Мединский. Новое время (XVIII в.)",
+              "author": "Мединский В.Р., Чубарьян А.О.",
+              "year": "2025",
+              "file": "history/medinsky-8.json"
+            }
+          ],
+          "icon": "history"
         },
         {
           "id": "history-maps",
-          "title": "История (карты)",
+          "title": "История (контурные карты)",
           "active": true,
-          "icon": "history",
           "textbooks": [
             {
               "id": "torop-8",
-              "title": "Тороп",
+              "title": "Тороп. Контурные карты",
+              "author": "Тороп В.В., Арсентьев Н.М.",
+              "year": "2023–2026",
               "file": "history-maps/torop-8.json"
             }
-          ]
+          ],
+          "icon": "history"
+        },
+        {
+          "id": "social",
+          "title": "Обществознание",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "bogolyubov-8",
+              "title": "Боголюбов",
+              "author": "Боголюбов Л.Н., Рутковская Е.Л., Иванова Л.Ф. и др.",
+              "year": "2023",
+              "file": "social/bogolyubov-8.json"
+            }
+          ],
+          "icon": "social"
         }
       ]
     },
@@ -270,30 +459,131 @@
       "active": true,
       "subjects": [
         {
+          "id": "math",
+          "title": "Алгебра",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "makarichev-9",
+              "title": "Макарычев",
+              "author": "Макарычев Ю.Н., Миндюк Н.Г., Нешков К.И.",
+              "year": "2019–2024",
+              "file": "algebra/makarichev-9.json"
+            }
+          ],
+          "icon": "math"
+        },
+        {
           "id": "russian",
           "title": "Русский язык",
           "active": true,
-          "icon": "russian",
           "textbooks": [
             {
               "id": "barhudarov-9",
               "title": "Бархударов",
+              "author": "Бархударов С.Г., Крючков С.Е., Максимов Л.Ю. и др.",
+              "year": "2023",
               "file": "russian/barhudarov-9.json"
             }
-          ]
+          ],
+          "icon": "russian"
+        },
+        {
+          "id": "literature",
+          "title": "Литература",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "korovina-9-1",
+              "title": "Коровина. Часть 1",
+              "author": "Коровина В.Я., Журавлев В.П., Коровин В.И.",
+              "year": "2023",
+              "file": "literature/korovina-9-1.json"
+            },
+            {
+              "id": "korovina-9-2",
+              "title": "Коровина. Часть 2",
+              "author": "Коровина В.Я., Журавлев В.П., Коровин В.И.",
+              "year": "2023",
+              "file": "literature/korovina-9-2.json"
+            }
+          ],
+          "icon": "literature"
+        },
+        {
+          "id": "biology",
+          "title": "Биология",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "pasechnik-9",
+              "title": "Пасечник",
+              "author": "Пасечник В.В., Суматохин С.В., Гапонюк З.Г.",
+              "year": "2023–2024",
+              "file": "biology/pasechnik-9.json"
+            }
+          ],
+          "icon": "biology"
         },
         {
           "id": "geo",
           "title": "География",
           "active": true,
-          "icon": "globe",
           "textbooks": [
             {
               "id": "matveev-9",
-              "title": "Матвеев",
+              "title": "Матвеев. Контурные карты",
+              "author": "Матвеев А.В., Петрова В.В.",
+              "year": "2023–2026",
               "file": "geo/matveev-9.json"
             }
-          ]
+          ],
+          "icon": "globe"
+        },
+        {
+          "id": "history",
+          "title": "История",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "medinsky-9",
+              "title": "Мединский. Новое время (XIX в.)",
+              "author": "Мединский В.Р., Чубарьян А.О.",
+              "year": "2025",
+              "file": "history/medinsky-9.json"
+            }
+          ],
+          "icon": "history"
+        },
+        {
+          "id": "history-maps",
+          "title": "История (контурные карты)",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "torop-9",
+              "title": "Тороп. Контурные карты",
+              "author": "Тороп В.В., Арсентьев Н.М.",
+              "year": "2023–2026",
+              "file": "history-maps/torop-9.json"
+            }
+          ],
+          "icon": "history"
+        },
+        {
+          "id": "social",
+          "title": "Обществознание",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "bogolyubov-9",
+              "title": "Боголюбов",
+              "author": "Боголюбов Л.Н., Рутковская Е.Л., Иванова Л.Ф. и др.",
+              "year": "2023",
+              "file": "social/bogolyubov-9.json"
+            }
+          ],
+          "icon": "social"
         }
       ]
     }
