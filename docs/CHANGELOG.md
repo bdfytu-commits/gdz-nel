@@ -280,3 +280,22 @@
 
 `solve-photo` принимает `model` из белого списка и задеплоена. Смоук
 (аноним / премиум / бесплатный) — 8 проверок, 0 ошибок консоли.
+
+## 19.10.2026 — переезд на Cloudflare Pages
+
+- проект `gdz-nel` создан в Cloudflare, поддомен `https://gdz-nel.pages.dev`
+  зарезервирован; build_config выставлен через API: framework None, build command
+  пустой, output directory `/`;
+- `.github/workflows/deploy.yml` удалён — GitHub Pages больше не собирает сайт;
+  `tg-notify.yml` переведён с `workflow_run` на `push` в `main` (метка `[skip tg]`
+  работает как раньше);
+- домен заменён везде: страницы, canonical/og/twitter, sitemap/robots, docs,
+  UA парсеров и TG-бот — `bdfytu-commits.github.io/gdz-nel` → `gdz-nel.pages.dev`;
+- APK v4 пока собран под старый домен — пересборка под pages.dev отдельной задачей
+  (см. TASKS);
+- спорный момент: Cloudflare GitHub App установлен, но account-level связка
+  «Cloudflare ↔ GitHub» через API не создаётся — ошибка 8000011, публичного
+  эндпоинта для этого шага нет. Остаётся один клик в дашборде
+  (Workers & Pages → Create → Pages → Connect to Git → Add account).
+  До него автодеплой Cloudflare не запускается; build_config уже предустановлен,
+  сайт на pages.dev появится после первой сборки.

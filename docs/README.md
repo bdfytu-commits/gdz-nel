@@ -50,33 +50,22 @@
 адресную строку, он проверяет Digital Asset Links по адресу
 `https://<origin>/.well-known/assetlinks.json`, где `<origin>` — **корень домена**.
 
-Сейчас сайт — project-страница `https://bdfytu-commits.github.io/gdz-nel/`, её origin —
-`bdfytu-commits.github.io`, а project-репозиторий не может положить файл в корень origin:
-он отдаётся только по пути `/gdz-nel/.well-known/assetlinks.json`. Поэтому TWA может
-открыться с адресной строкой. Два варианта решения на будущее:
+Сайт живёт на Cloudflare Pages (`https://gdz-nel.pages.dev`). Это отдельный origin,
+и файл `.well-known/assetlinks.json` лежит в корне репозитория, поэтому отдаётся
+по адресу `https://gdz-nel.pages.dev/.well-known/assetlinks.json` — проверка проходит,
+APK v5 открывается без адресной строки. (У APK v4, собранного под старый GitHub Pages,
+адресная строка была: project-страница не отдаёт файл в корень origin.)
 
-### Вариант А — user-root репозиторий GitHub Pages (бесплатно)
+Если появится свой домен:
 
-1. Создать репозиторий `bdfytu-commits.github.io` (имя = `<username>.github.io`).
-2. Перенести сайт в его корень: лендинг — `https://bdfytu-commits.github.io/`,
-   приложение — `https://bdfytu-commits.github.io/app/` (путь `/gdz-nel/` уходит,
-   старые ссылки перестанут работать).
-3. Скопировать `/.well-known/assetlinks.json` в корень нового репозитория — файл начнёт
-   отдаваться с `https://bdfytu-commits.github.io/.well-known/assetlinks.json`.
-4. Обновить домен: `twa-manifest.json` (host, startUrl `/app/`), canonical/og/twitter,
-   sitemap.xml, robots.txt и UA парсера; пересобрать APK (см. корневой README).
-
-### Вариант Б — свой домен (надёжнее)
-
-1. Купить домен и привязать к GitHub Pages: Settings → Pages → Custom domain
-   (DNS: A-записи на IP GitHub Pages либо CNAME на `bdfytu-commits.github.io`).
+1. Привязать домен к проекту Cloudflare Pages: Custom domains → Set up a domain
+   (если домен уже на Cloudflare, DNS-записи создаются сами).
 2. Положить `.well-known/assetlinks.json` в корень сайта — на своём домене он отдаётся
-   как `https://<домен>/.well-known/assetlinks.json`.
-3. Обновить домен там же, что и в варианте А (манифест, canonical/og/sitemap/robots, UA),
-   и пересобрать APK. Плюс: адрес не зависит от имени репозитория, HTTPS форсится
-   галочкой Enforce HTTPS.
+   как `https://<домен>/.well-known/assetlinks.json` (файл тот же, путь тот же).
+3. Обновить домен в `twa-manifest.json` (host, startUrl `/app/`), canonical/og/twitter,
+   sitemap.xml, robots.txt и UA парсеров; пересобрать APK.
 
-### Проверка (после любого варианта)
+### Проверка
 
 ```bash
 curl https://<origin>/.well-known/assetlinks.json   # 200 и JSON

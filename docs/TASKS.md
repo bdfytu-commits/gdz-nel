@@ -32,7 +32,7 @@
 - [x] 26. social/bogolyubov-6.json — реальные задания
 - [x] 27. Документация: docs/README.md, docs/CHANGELOG.md, docs/PARSING.md, корневой README
 - [x] 28. GitHub Pages deploy (.github/workflows/deploy.yml)
-- [x] 29. Деплой: репозиторий bdfytu-commits/gdz-nel, источник Pages — GitHub Actions, домен bdfytu-commits.github.io/gdz-nel в canonical/og/sitemap/UA
+- [x] 29. Деплой: репозиторий bdfytu-commits/gdz-nel, источник Pages — GitHub Actions, домен gdz-nel.pages.dev в canonical/og/sitemap/UA
 - [x] 30. Полный сбор без лимита 30: все доступные задания 8 учебников (3541), `--resume` после обрыва, `section_map` для § математики, stats.json + скриншоты
 - [x] 31. Реальный APK v4 (ru.nel.gdz, домен bdfytu-commits.github.io) + .well-known/assetlinks.json
 - [x] 32. Добор пропусков с альтернативных источников: `scripts/fill_gaps.py` (euroki.org → otvet.plus → reshalka.com, 1 запрос в 1,5 с, robots.txt), 135 серых номеров → 60 добито (математика 46, английский 4, биология 7, история 3), 75 остались серыми; у новых задач поля `source`/`sourceUrl`, схема данных дополнена, отчёт — в docs/PARSING.md
@@ -81,3 +81,14 @@ gdz-raketa.ru, решение и ответ — с альтернативног�
 - [x] Рекламная плашка `.ad-slot` на лендинге: скрыта для ГДЗ+, видна остальным
 - [x] Решения и ответы доступны всем — пейволл снят
 - [x] Смоук: аноним / премиум / бесплатный — 8 проверок, 0 ошибок консоли
+
+## Переезд на Cloudflare Pages (19.10.2026)
+
+- [x] Проект `gdz-nel` создан, поддомен `gdz-nel.pages.dev` зарезервирован
+- [x] build_config: Framework None, build command пустой, output `/`
+- [x] `.github/workflows/deploy.yml` удалён
+- [x] `tg-notify.yml` → триггер `push` в `main`
+- [x] Домен заменён: canonical/og/twitter/sitemap/robots/docs/UA парсеров/TG-бот
+- [ ] Привязать GitHub-аккаунт в дашборде (Connect to Git → Add account) — без этого Cloudflare не собирает; API отдаёт 8000011
+- [ ] Пересобрать APK под `gdz-nel.pages.dev` (v5)
+- [ ] После первой сборки: проверить `/`, `/app/`, `/admin/`, `/.well-known/assetlinks.json`

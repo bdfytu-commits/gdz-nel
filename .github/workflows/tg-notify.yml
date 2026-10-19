@@ -1,0 +1,54 @@
+name: Telegram notify
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Собрать и отправить пост
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          MSG: ${{ github.event.head_commit.message }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${TELEGRAM_BOT_TOKEN:-}" ] || [ -z "${TELEGRAM_CHANNEL_ID:-}" ]; then
+            echo "секреты TELEGRAM_BOT_TOKEN/TELEGRAM_CHANNEL_ID не заданы, пропускаю"
+            exit 0
+          fi
+
+          if [[ "$MSG" == *"[skip tg]"* ]]; then
+            echo "метка [skip tg], пропускаю"
+            exit 0
+          fi
+
+          MSG="$MSG" python3 - > /tmp/tg-post.txt <<'PY'
+          import html
+          import os
+
+          lines = [l.strip() for l in os.environ["MSG"].splitlines() if l.strip()]
+          subject = lines[0] if lines else "обновление данных"
+          body = " ".join(lines[1:])[:400]
+          if len(" ".join(lines[1:])) > 400:
+              body += "…"
+
+          out = ["<b>ГДЗ НЭЛ — обновление</b>", "", html.escape(subject)]
+          if body:
+              out += ["", html.escape(body)]
+          out += ["", "Сайт: https://gdz-nel.pages.dev/"]
+          print("\n".join(out))
+          PY
+
+          curl -sS --fail -X POST \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHANNEL_ID}" \
+            -d parse_mode=HTML \
+            -d disable_web_page_preview=false \
+            --data-urlencode "text@/tmp/tg-post.txt"

@@ -35,7 +35,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "app" / "data"
 CACHE = Path("/tmp/opencode/kontur-cache")
-UA = "Mozilla/5.0 (X11; Linux x86_64; gdz-nel data parser; +https://bdfytu-commits.github.io/gdz-nel/)"
+UA = "Mozilla/5.0 (X11; Linux x86_64; gdz-nel data parser; +https://gdz-nel.pages.dev/)"
 PAUSE = 1.1  # секунда между запросами к источнику
 MAX_WIDTH = 1600
 JPEG_QUALITY = 84

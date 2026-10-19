@@ -40,7 +40,7 @@ from aiogram.types import (
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parents[2]
-SITE = "https://bdfytu-commits.github.io/gdz-nel"
+SITE = "https://gdz-nel.pages.dev"
 APP_URL = SITE + "/app/"
 
 load_dotenv(ROOT / ".env")

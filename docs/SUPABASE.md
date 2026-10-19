@@ -42,8 +42,8 @@
 1. **Authentication → Sign In / Up → Email** — выключить «Confirm email»
    (`mailer_autoconfirm`), иначе после регистрации придётся подтверждать почту.
 2. **Authentication → URL Configuration** — Site URL:
-   `https://bdfytu-commits.github.io/gdz-nel/`; Redirect URLs:
-   `https://bdfytu-commits.github.io/gdz-nel/**` и `http://localhost:8000/**`.
+   `https://gdz-nel.pages.dev/`; Redirect URLs:
+   `https://gdz-nel.pages.dev/**` и `http://localhost:8000/**`.
 3. **Назначить админа** (SQL Editor):
 
    ```sql

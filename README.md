@@ -44,7 +44,7 @@ gdz-nel/
     build_apk.sh              сборка APK (Bubblewrap)
   docs/                       ТЗ, правила, задачи, прогресс, лог парсинга
   .well-known/assetlinks.json Digital Asset Links для TWA-приложения
-  .github/workflows/deploy.yml  публикация на GitHub Pages
+  .github/workflows/tg-notify.yml  телеграм-уведомления о пушах
 ```
 
 ## Запуск локально
@@ -61,13 +61,12 @@ uv run python -m http.server 8000
 
 ## Деплой
 
-GitHub Pages: репозиторий → Settings → Pages → Source: «GitHub Actions». Workflow
-`.github/workflows/deploy.yml` сам проверит данные и опубликует сайт при пуше в `main`.
+Хостинг — Cloudflare Pages, проект `gdz-nel`, сайт: **https://gdz-nel.pages.dev**.
+Cloudflare собирает репозиторий сам при пуше в `main`: framework preset — None,
+build command — пустой, output directory — `/`. Никаких сборщиков и Actions для
+публикации нет; `.github/workflows/tg-notify.yml` только шлёт уведомления в Telegram.
 
-Cloudflare Pages: подключить репозиторий, build command оставить пустым, output directory — корень.
-Все пути относительные, работает и там, и там.
-
-После деплоя домен сайта прописан в canonical/og/twitter/sitemap/robots —
+Домен сайта прописан в canonical/og/twitter/sitemap/robots —
 при смене адреса (см. «TWA и assetlinks» в docs/README.md) обновить и там.
 
 ## Формат данных
@@ -254,7 +253,7 @@ BUBBLEWRAP_DIR="$HOME/.local/share/gdz-nel-bubblewrap" bash scripts/build_apk.sh
 
 ## Что дальше
 
-- TWA без адресной строки: перенести сайт на user-root репозиторий (`bdfytu-commits.github.io`)
-  или привязать свой домен — пошагово в `docs/README.md`, раздел «TWA и assetlinks».
+- Свой домен: привязать к Cloudflare Pages и пересобрать APK — пошагово
+  в `docs/README.md`, раздел «TWA и assetlinks».
 - Если источник добавит новые задания — повторный `parse_gdz.py all --resume` дособерёт их
   без перекачки уже собранного; дальше `validate_data.py` и `write_stats.py`.

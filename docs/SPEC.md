@@ -11,7 +11,7 @@
 
 - HTML + CSS + vanilla JS. Никаких бэкендов, БД, фреймворков, сборщиков.
 - Данные в JSON-файлах, читаются через fetch.
-- Хостинг — GitHub Pages или Cloudflare Pages (бесплатно).
+- Хостинг — Cloudflare Pages (бесплатно), автодеплой из GitHub при пуше в `main`.
 - APK — обёртка сайта через PWA + Bubblewrap.
 - Запрещено: Flask, Django, Node.js, React, Vue, Svelte, Tailwind, Bootstrap, SASS, Webpack, Vite.
 
@@ -58,7 +58,7 @@
     CHANGELOG.md
     PARSING.md                  # лог парсинга по источникам
   .github/workflows
-    deploy.yml                  # GitHub Pages
+    tg-notify.yml               # уведомления в Telegram
   README.md
 ```
 

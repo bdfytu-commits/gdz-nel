@@ -7,4 +7,4 @@ Disallow: /admin/
 Disallow: /profile.html
 
 # заменить USER на реальный аккаунт после деплоя (задача 28)
-Sitemap: https://bdfytu-commits.github.io/gdz-nel/sitemap.xml
+Sitemap: https://gdz-nel.pages.dev/sitemap.xml

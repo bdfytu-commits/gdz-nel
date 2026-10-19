@@ -37,7 +37,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "app" / "data"
 CACHE = Path("/tmp/opencode/euroki-cache")
-UA = "Mozilla/5.0 (X11; Linux x86_64; gdz-nel data parser; +https://bdfytu-commits.github.io/gdz-nel/)"
+UA = "Mozilla/5.0 (X11; Linux x86_64; gdz-nel data parser; +https://gdz-nel.pages.dev/)"
 PAUSE = 1.1  # секунда между запросами к источнику
 
 # Литература под ред. Коровиной, ФГОС (Просвещение):

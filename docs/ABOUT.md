@@ -6,9 +6,9 @@
 Открывается в браузере (ссылкой можно поделиться на конкретный номер) и ставится на
 Android как приложение; работает офлайн.
 
-- сайт: <https://bdfytu-commits.github.io/gdz-nel/>
-- приложение: <https://bdfytu-commits.github.io/gdz-nel/app/>
-- APK для Android: <https://bdfytu-commits.github.io/gdz-nel/download/app.apk>
+- сайт: <https://gdz-nel.pages.dev/>
+- приложение: <https://gdz-nel.pages.dev/app/>
+- APK для Android: <https://gdz-nel.pages.dev/download/app.apk>
 - задания: 3601, из них 75 номеров остались серыми (см. «Ограничения»)
 
 ## Кто сделал

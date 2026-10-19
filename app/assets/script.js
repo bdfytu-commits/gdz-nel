@@ -1173,7 +1173,7 @@
   function setTaskJsonLd(grade, subject, bookRef, task, snippetText) {
     var el = byId('task-jsonld');
     if (!el) return;
-    var pageUrl = 'https://bdfytu-commits.github.io/gdz-nel/app/#/' + grade.id + '/' + subject.id + '/' +
+    var pageUrl = 'https://gdz-nel.pages.dev/app/#/' + grade.id + '/' + subject.id + '/' +
       encodeURIComponent(bookRef.id) + '/' + encodeURIComponent(task.number);
     var data = {
       '@context': 'https://schema.org',
@@ -1194,7 +1194,7 @@
         {
           '@type': 'BreadcrumbList',
           'itemListElement': [
-            { '@type': 'ListItem', 'position': 1, 'name': 'Классы', 'item': 'https://bdfytu-commits.github.io/gdz-nel/app/' },
+            { '@type': 'ListItem', 'position': 1, 'name': 'Классы', 'item': 'https://gdz-nel.pages.dev/app/' },
             { '@type': 'ListItem', 'position': 2, 'name': grade.title },
             { '@type': 'ListItem', 'position': 3, 'name': subject.title },
             { '@type': 'ListItem', 'position': 4, 'name': bookRef.title },

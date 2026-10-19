@@ -48,7 +48,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "app" / "data"
 DOCS = ROOT / "docs"
-UA = "GdzNelBot/1.0 (+https://bdfytu-commits.github.io/gdz-nel/; educational)"
+UA = "GdzNelBot/1.0 (+https://gdz-nel.pages.dev/; educational)"
 DELAY = 1.5  # секунд между запросами к одному хосту
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))

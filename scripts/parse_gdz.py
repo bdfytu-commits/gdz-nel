@@ -37,7 +37,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "app" / "data"
-UA = "GdzNelBot/1.0 (+https://bdfytu-commits.github.io/gdz-nel/; educational, contact: ivan@localhost)"
+UA = "GdzNelBot/1.0 (+https://gdz-nel.pages.dev/; educational, contact: ivan@localhost)"
 DELAY = 1.1  # секунд между запросами
 
 _last_request = 0.0
