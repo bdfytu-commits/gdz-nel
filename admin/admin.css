@@ -448,8 +448,10 @@
 .badge.is-approved, .badge.is-ok { background: rgba(22, 160, 133, 0.16); color: #0e7c6b; }
 .badge.is-rejected, .badge.is-banned { background: rgba(229, 57, 53, 0.12); color: var(--c-red); }
 .badge.is-admin { background: rgba(0, 112, 192, 0.14); color: var(--c-accent); }
+.badge.is-premium { background: rgba(245, 179, 1, 0.18); color: #8a6500; }
 
 [data-theme="dark"] .badge.is-pending { color: #E0B44A; }
+[data-theme="dark"] .badge.is-premium { color: #E0B44A; }
 [data-theme="dark"] .badge.is-approved, [data-theme="dark"] .badge.is-ok { color: #4DB6AC; }
 
 .thumb {

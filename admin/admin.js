@@ -53,6 +53,30 @@ function statusBadge(status) {
   return '<span class="badge is-pending">на проверке</span>';
 }
 
+/* ---------- подписка ГДЗ+ ---------- */
+
+function premiumActive(u) {
+  return !!(u && u.is_premium && u.premium_until && new Date(u.premium_until) > new Date());
+}
+
+function premiumBadge(u) {
+  if (premiumActive(u)) {
+    return '<span class="badge is-premium">ГДЗ+ до ' + fmtDate(u.premium_until) + '</span>';
+  }
+  if (u && u.is_premium) return '<span class="badge is-pending">ГДЗ+ истёк</span>';
+  return '<span class="badge">нет</span>';
+}
+
+// +30 дней от текущего срока (или от сегодня, если подписки нет/истекла)
+function premiumTillPlus(user, days) {
+  var base = Date.now();
+  if (user && user.premium_until) {
+    var t = new Date(user.premium_until).getTime();
+    if (t > base) base = t;
+  }
+  return new Date(base + days * 86400000).toISOString();
+}
+
 function skeleton(rows) {
   var html = '<div class="sk">';
   for (var i = 0; i < (rows || 6); i++) html += '<div class="sk-row"></div>';
@@ -197,7 +221,9 @@ async function renderOverview() {
     supabase.from('events').select('name, path, created_at').gte('created_at', weeksAgo).limit(1000),
     supabase.from('admin_logs').select('action, target, created_at').order('created_at', { ascending: false }).limit(6),
     supabase.from('reviews').select('id, username, task_id, ai_status, created_at').order('created_at', { ascending: false }).limit(5),
-    supabase.from('photo_requests').select('id, created_at').order('created_at', { ascending: false }).limit(4)
+    supabase.from('photo_requests').select('id, created_at').order('created_at', { ascending: false }).limit(4),
+    countOf('profiles', function (q) { return q.eq('is_premium', true).gt('premium_until', new Date().toISOString()); }),
+    countOf('payments')
   ]);
 
   var usersCount = res[0];
@@ -212,6 +238,8 @@ async function renderOverview() {
   var logRows = res[9].data || [];
   var lastReviews = res[10].data || [];
   var lastPhotos = res[11].data || [];
+  var premiumCount = res[12];
+  var paymentsCount = res[13];
 
   // дни за 2 недели
   var days = [];
@@ -289,6 +317,8 @@ async function renderOverview() {
     card('i-camera', photosToday, 'Фото за сутки') +
     card('i-chart', eventsToday, 'Просмотров за сутки') +
     card('i-award', badgesCount, 'Выдано достижений') +
+    card('i-star-filled', premiumCount, 'ГДЗ+ активных') +
+    card('i-check', paymentsCount, 'Платежей') +
     '</div>' +
     '<div class="dash-grid">' +
     '<div class="panel"><h2>Активность за 2 недели</h2>' +
@@ -369,12 +399,13 @@ async function loadUsers() {
   content.innerHTML = skeleton(8);
 
   var q = supabase.from('profiles')
-    .select('id, username, email, age, gender, role, ban, avatar_url, created_at', { count: 'exact' });
+    .select('id, username, email, age, gender, role, ban, avatar_url, created_at, is_premium, premium_until', { count: 'exact' });
 
   var search = sc.search.replace(/[,()%]/g, ' ').trim();
   if (search) q = q.or('username.ilike.%' + search + '%,email.ilike.%' + search + '%');
   if (sc.filter === 'banned') q = q.eq('ban', true);
   if (sc.filter === 'admins') q = q.eq('role', 'admin');
+  if (sc.filter === 'premium') q = q.eq('is_premium', true);
 
   var res = await q.order('created_at', { ascending: false }).range(sc.page * PAGE, sc.page * PAGE + PAGE - 1);
   if (res.error) {
@@ -393,6 +424,7 @@ async function loadUsers() {
     '<option value="all"' + (sc.filter === 'all' ? ' selected' : '') + '>Все</option>' +
     '<option value="banned"' + (sc.filter === 'banned' ? ' selected' : '') + '>Забаненные</option>' +
     '<option value="admins"' + (sc.filter === 'admins' ? ' selected' : '') + '>Админы</option>' +
+    '<option value="premium"' + (sc.filter === 'premium' ? ' selected' : '') + '>С ГДЗ+</option>' +
     '</select>' +
     '<button class="btn btn-outline btn-sm" type="button" data-act="export-users">' +
     '<span class="icon i-download" aria-hidden="true"></span><span>CSV</span></button>' +
@@ -408,11 +440,11 @@ async function loadUsers() {
 
   html += '<div class="table-wrap"><table class="admin-table"><thead><tr>' +
     '<th><input type="checkbox" data-act="sel-all" data-kind="users" aria-label="Выбрать всех на странице"></th>' +
-    '<th></th><th>Логин</th><th>Email</th><th>Возраст</th><th>Пол</th><th>Регистрация</th><th>Роль</th><th>Статус</th><th>Действия</th>' +
+    '<th></th><th>Логин</th><th>Email</th><th>Возраст</th><th>Пол</th><th>Регистрация</th><th>Роль</th><th>Статус</th><th>ГДЗ+</th><th>Действия</th>' +
     '</tr></thead><tbody>';
 
   if (!sc.rows.length) {
-    html += '<tr><td colspan="10"><p class="empty-note">Никого не найдено.</p></td></tr>';
+    html += '<tr><td colspan="11"><p class="empty-note">Никого не найдено.</p></td></tr>';
   }
 
   sc.rows.forEach(function (u) {
@@ -432,12 +464,19 @@ async function loadUsers() {
       '<td>' + fmtDate(u.created_at) + '</td>' +
       '<td>' + (u.role === 'admin' ? '<span class="badge is-admin">admin</span>' : '<span class="badge">user</span>') + '</td>' +
       '<td>' + (u.ban ? '<span class="badge is-banned">забанен</span>' : '<span class="badge is-ok">активен</span>') + '</td>' +
+      '<td>' + premiumBadge(u) + '</td>' +
       '<td class="row-actions">' +
       '<button class="btn btn-outline btn-sm" type="button" data-act="user" data-op="' + (u.ban ? 'unban' : 'ban') + '" data-id="' + u.id + '">' +
       (u.ban ? 'Разбанить' : 'Забанить') + '</button> ' +
       (u.role === 'admin'
         ? '<button class="btn btn-outline btn-sm" type="button" data-act="user" data-op="demote" data-id="' + u.id + '"' + (self ? ' disabled' : '') + '>Снять админа</button>'
         : '<button class="btn btn-outline btn-sm" type="button" data-act="user" data-op="promote" data-id="' + u.id + '">В админы</button>') + ' ' +
+      (premiumActive(u)
+        ? '<button class="btn btn-outline btn-sm" type="button" data-act="user" data-op="premium-grant" data-id="' + u.id + '">Продлить PRO</button> '
+        : '<button class="btn btn-outline btn-sm" type="button" data-act="user" data-op="premium-grant" data-id="' + u.id + '">Выдать PRO</button> ') +
+      (u.is_premium
+        ? '<button class="btn btn-outline btn-sm" type="button" data-act="user" data-op="premium-revoke" data-id="' + u.id + '">Забрать PRO</button> '
+        : '') +
       '<button class="btn btn-outline btn-sm" type="button" data-act="user" data-op="reset" data-id="' + u.id + '">Сбросить пароль</button> ' +
       '<button class="btn btn-danger btn-sm" type="button" data-act="user" data-op="delete" data-id="' + u.id + '"' + (self ? ' disabled' : '') + '>' +
       '<span class="icon i-trash" aria-hidden="true"></span><span>Удалить</span></button>' +
@@ -462,19 +501,21 @@ async function exportUsersCsv() {
   var search = sc.search.replace(/[,()%]/g, ' ').trim();
   var build = function () {
     var q = supabase.from('profiles')
-      .select('id, username, email, age, gender, role, ban, created_at');
+      .select('id, username, email, age, gender, role, ban, created_at, is_premium, premium_until');
     if (search) q = q.or('username.ilike.%' + search + '%,email.ilike.%' + search + '%');
     if (sc.filter === 'banned') q = q.eq('ban', true);
     if (sc.filter === 'admins') q = q.eq('role', 'admin');
+    if (sc.filter === 'premium') q = q.eq('is_premium', true);
     return q.order('created_at', { ascending: false });
   };
   var res = await fetchAllChunks(build, 5000);
   if (res.error) { toast('Не получилось выгрузить: ' + res.error.message, true); return; }
   csvDownload('gdz-nel-users-' + new Date().toISOString().slice(0, 10) + '.csv',
-    ['id', 'логин', 'email', 'возраст', 'пол', 'роль', 'бан', 'регистрация'],
+    ['id', 'логин', 'email', 'возраст', 'пол', 'роль', 'бан', 'регистрация', 'ГДЗ+', 'подписка до'],
     res.rows.map(function (u) {
       return [u.id, u.username || '', u.email || '', u.age == null ? '' : u.age,
-        u.gender || '', u.role || '', u.ban ? 'да' : 'нет', u.created_at || ''];
+        u.gender || '', u.role || '', u.ban ? 'да' : 'нет', u.created_at || '',
+        u.is_premium ? 'да' : 'нет', u.premium_until || ''];
     }));
   toast('Выгружено строк: ' + res.rows.length);
   logAction('export_users', sc.filter + (search ? ' / ' + search : ''), { rows: res.rows.length });
@@ -763,6 +804,19 @@ async function userOp(id, op) {
     ok = await openModal({ title: 'Выдать роль админа?', body: '<p>«' + esc(name) + '» получит полный доступ к админке.</p>', confirmText: 'Выдать' });
   } else if (op === 'demote') {
     ok = await openModal({ title: 'Снять роль админа?', body: '<p>«' + esc(name) + '» станет обычным пользователем.</p>', confirmText: 'Снять' });
+  } else if (op === 'premium-grant') {
+    ok = await openModal({
+      title: premiumActive(user) ? 'Продлить ГДЗ+ на 30 дней?' : 'Выдать ГДЗ+ на 30 дней?',
+      body: '<p>«' + esc(name) + '» получит подписку ГДЗ+ на 30 дней' +
+        (premiumActive(user) ? ' — срок продлится от текущей даты окончания.' : '.') + '</p>',
+      confirmText: premiumActive(user) ? 'Продлить' : 'Выдать'
+    });
+  } else if (op === 'premium-revoke') {
+    ok = await openModal({
+      title: 'Забрать ГДЗ+?',
+      body: '<p>У «' + esc(name) + '» сразу пропадёт подписка ГДЗ+ и платные функции закроются.</p>',
+      confirmText: 'Забрать', danger: true
+    });
   } else if (op === 'reset') {
     ok = await openModal({
       title: 'Сбросить пароль?',
@@ -783,6 +837,14 @@ async function userOp(id, op) {
   else if (op === 'unban') res = await supabase.from('profiles').update({ ban: false }).eq('id', id);
   else if (op === 'promote') res = await supabase.from('profiles').update({ role: 'admin' }).eq('id', id);
   else if (op === 'demote') res = await supabase.from('profiles').update({ role: 'user' }).eq('id', id);
+  else if (op === 'premium-grant') {
+    res = await supabase.from('profiles').update({
+      is_premium: true,
+      premium_until: premiumTillPlus(user, 30)
+    }).eq('id', id);
+  } else if (op === 'premium-revoke') {
+    res = await supabase.from('profiles').update({ is_premium: false, premium_until: null }).eq('id', id);
+  }
   else if (op === 'reset') {
     var redirect = location.href.split('/admin/')[0] + '/auth.html?reset=1';
     res = await supabase.auth.resetPasswordForEmail(user ? user.email : '', { redirectTo: redirect });
@@ -790,7 +852,12 @@ async function userOp(id, op) {
 
   if (res && res.error) { toast('Не получилось: ' + res.error.message, true); return; }
   logAction('user_' + op, name || id, user && user.email ? { email: user.email } : null);
-  toast(op === 'reset' ? 'Письмо отправлено' : 'Готово');
+  var doneWord = {
+    reset: 'Письмо отправлено',
+    'premium-grant': 'Подписка ГДЗ+ выдана на 30 дней',
+    'premium-revoke': 'Подписка ГДЗ+ забрана'
+  }[op] || 'Готово';
+  toast(doneWord);
   loadUsers();
 }
 
