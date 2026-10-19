@@ -83,6 +83,18 @@ BOOKS = [
          author="Коровина В.Я., Журавлев В.П., Коровин В.И.",
          year="2023",
          url="https://www.euroki.org/gdz/ru/literatura/9_klass/korovina-fgos-18"),
+    # Английский Spotlight: gdz-raketa не отдаёт нумерованные ответы, euroki
+    # держит постраничные карточки «задание → ответ» (kind="english").
+    dict(subject="english", id="vaulina-8", grade=8, part=None,
+         title="Spotlight (Ваулина)",
+         author="Ваулина Ю.Е., Дули Д., Подоляко О.Е. и др.",
+         year="2023", kind="english",
+         url="https://www.euroki.org/gdz/ru/angliyskiy/8_klass/e_vaulina_d_duli_v_jevans_o_podoljanko_9_fgos"),
+    dict(subject="english", id="vaulina-9", grade=9, part=None,
+         title="Spotlight (Ваулина)",
+         author="Ваулина Ю.Е., Дули Д., Подоляко О.Е. и др.",
+         year="2023", kind="english",
+         url="https://www.euroki.org/gdz/ru/angliyskiy/9_klass/angliiskii-9-klass-vaulina-spotlight-477"),
 ]
 
 
@@ -139,13 +151,20 @@ QUESTION_STARTS = re.compile(
 )
 
 
-def part_links(html: str, part: int) -> list[str]:
-    """Относительные ссылки страниц указанной части, по возрастанию номера.
+def part_links(html: str, book: dict) -> list[str]:
+    """Относительные ссылки страниц книги, по возрастанию номера.
 
-    Слаги бывают двух видов: «1-str-107» и «1-str-102-148» (суффикс-хэш).
+    Литература: «…/1-str-107» или «…/1-str-102-148» (часть + страница).
+    Английский: «…/<slug>/str-10» (страница без части).
     """
     found: dict[int, str] = {}
-    for m in re.finditer(r'href="(/gdz/ru/literatura/\d+_klass/[^"/]+/' + str(part) + r'-str-(\d+)(?:-\d+)?)/?"', html):
+    if book.get("kind") == "english":
+        base = book["url"].split("euroki.org", 1)[1]
+        pattern = r'href="(' + re.escape(base) + r'/str-(\d+))/?"'
+    else:
+        pattern = (r'href="(/gdz/ru/literatura/\d+_klass/[^"/]+/' +
+                   str(book["part"]) + r'-str-(\d+)(?:-\d+)?)/?"')
+    for m in re.finditer(pattern, html):
         found[int(m.group(2))] = m.group(1)
     return [found[n] for n in sorted(found)]
 
@@ -189,26 +208,55 @@ def parse_page(html: str, page: int, url: str, stats: dict) -> list[dict]:
     return tasks
 
 
+def parse_page_en(html: str, page: int, url: str, stats: dict) -> list[dict]:
+    """Английский: инструкция — в __section, ответ — в __answer, номер — из id=tN."""
+    soup = BeautifulSoup(html, "html.parser")
+    tasks = []
+    for i, card in enumerate(soup.select("article.gdz-solution-card"), 1):
+        sid = card.get("id", "")
+        num = int(sid[1:]) if re.fullmatch(r"t\d+", sid) else i
+        sec = card.select_one(".gdz-solution-card__section")
+        instruction = clean(sec.get_text("\n", strip=True)) if sec else ""
+        instruction = re.sub(r"^\d+\.\s*", "", instruction).strip()
+        a = card.select_one(".gdz-solution-card__answer")
+        atext = clean(a.get_text("\n", strip=True)) if a else ""
+        if not atext:
+            stats["empty"] += 1
+            continue
+        tasks.append({
+            "number": f"{page}.{num}",
+            "section": f"Стр. {page}",
+            "condition": instruction or f"Стр. {page}",
+            "solution": atext,
+            "answer": atext,
+            "source": "euroki.org",
+            "sourceUrl": url,
+        })
+    return tasks
+
+
 def process_book(book: dict, force: bool) -> None:
     out_path = DATA / book["subject"] / (book["id"] + ".json")
     if out_path.exists() and not force:
         print(f"-- {book['id']}: уже собран, пропуск (--force для пересборки)")
         return
     index_html = fetch(book["url"])
-    links = part_links(index_html, book["part"])
-    print(f"== {book['id']}: страниц в части {book['part']} — {len(links)}")
+    links = part_links(index_html, book)
+    part_label = f"части {book['part']}" if book.get("part") else "книге"
+    print(f"== {book['id']}: страниц в {part_label} — {len(links)}")
     tasks: list[dict] = []
     empty = 0
     stats = {"noq": 0, "noq_split": 0, "empty": 0}
     for rel in links:
         url = "https://www.euroki.org" + rel
-        page = int(re.search(r"-str-(\d+)", rel).group(1))
+        page = int(re.search(r"str-(\d+)", rel).group(1))
         try:
             html = fetch(url)
         except Exception as exc:  # noqa: BLE001
             print(f"  !! стр. {page}: не скачалась:", exc)
             continue
-        got = parse_page(html, page, url, stats)
+        parse = parse_page_en if book.get("kind") == "english" else parse_page
+        got = parse(html, page, url, stats)
         if not got:
             empty += 1
             print(f"  -- стр. {page}: карточек нет, пропуск")
@@ -220,7 +268,6 @@ def process_book(book: dict, force: bool) -> None:
     doc = {
         "subject": book["subject"],
         "textbook": book["id"],
-        "part": book["part"],
         "author": book["author"],
         "year": book["year"],
         "source": "parsed",
@@ -228,6 +275,8 @@ def process_book(book: dict, force: bool) -> None:
         "parsedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "tasks": tasks,
     }
+    if book.get("part"):
+        doc["part"] = book["part"]
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"записано: {out_path} — задач {len(tasks)}, пустых страниц {empty}"

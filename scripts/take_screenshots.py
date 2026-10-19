@@ -32,6 +32,8 @@ def shot(page, name, url, selector, pause=900):
     page.goto(url, wait_until="networkidle")
     page.wait_for_selector(selector)
     page.wait_for_timeout(pause)  # даём шрифтам и переходам успокоиться
+    # рекламную плашку не снимаем: в кадр она попадает не всегда (грузится асинхронно)
+    page.evaluate("() => { const el = document.getElementById('ad-slot'); if (el) el.remove(); }")
     page.screenshot(path=str(OUT / name))
     print("снят", name)
 

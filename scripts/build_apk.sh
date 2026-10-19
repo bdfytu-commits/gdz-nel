@@ -62,8 +62,9 @@ case "${1:-build}" in
     # androidbrowserhelper 2.7.x требует minSdk >= 24, а bubblewrap init ставит 21
     [ -f "$TWA_DIR/app/build.gradle" ] && sed -i 's/minSdkVersion 21/minSdkVersion 24/' "$TWA_DIR/app/build.gradle"
     [ -f "$TWA_DIR/twa-manifest.json" ] && sed -i 's/"minSdkVersion": 21,/"minSdkVersion": 24,/' "$TWA_DIR/twa-manifest.json"
-    echo "если bubblewrap спросит про изменения twa-manifest.json — нажми Enter (применить)"
-    (cd "$TWA_DIR" && "$BUBBLEWRAP_DIR/node_modules/.bin/bubblewrap" build --skipPwaValidation)
+    # bubblewrap при расхождении манифеста спрашивает «применить?» — отвечаем Y
+    # (без TTY inquirer падает, поэтому отвечаем через stdin)
+    (cd "$TWA_DIR" && printf 'Y\n' | "$BUBBLEWRAP_DIR/node_modules/.bin/bubblewrap" build --skipPwaValidation)
     # подписанный APK bubblewrap кладёт в корень проекта
     APK="$TWA_DIR/app-release-signed.apk"
     if [ ! -f "$APK" ]; then
