@@ -1,6 +1,6 @@
-# Смоук-тесты (playwright)
+# Тесты (playwright + seo)
 
-Восемь сценариев на живом локальном сервере.
+Смоуки на живом локальном сервере и статический SEO-аудит.
 
 Запуск:
 
@@ -8,10 +8,10 @@
 # из корня репозитория, в отдельном терминале
 uv run python -m http.server 8000
 
-# все смоуки подряд
+# все тесты подряд
 bash scripts/tests/run_all.sh
 
-# один смоук
+# один тест
 scripts/venv-shots/bin/python scripts/tests/smoke_app.py
 ```
 
@@ -25,15 +25,25 @@ scripts/venv-shots/bin/python scripts/tests/smoke_app.py
 | `smoke_admin.py` | админка: список юзеров, фильтры, CSV |
 | `test_admin_premium.py` | админка: выдача/снятие ГДЗ+ |
 | `smoke_visual.py` | визуалы математики: шаги, координатные прямые, диаграммы |
+| `test_seo.py` | canonical, OG, twitter, JSON-LD, sitemap, robots — без браузера |
+| `test_mobile_375.py` | 25 страниц на 375×812: горизонтальный скролл, вылезающие блоки, длинные формулы, все вкладки админки |
 
 Требования:
 
 - сервер на `127.0.0.1:8000`; другой адрес — переменная `GDZ_BASE`
   (например, `GDZ_BASE=https://gdz-nel.pages.dev`);
 - тест-аккаунты в Supabase: `user1@gdz-nel.test` (ГДЗ+), `user2@gdz-nel.test`
-  (бесплатный), `admin@gdz-nel.test` (админ) — пароль у всех
-  `GdzNel-Test-2026!`;
-- playwright — `scripts/venv-shots` (см. `scripts/take_screenshots.py`).
+  (бесплатный), `admin@gdz-nel.test` (админ). Пароли — только локально в
+  `scripts/tests/.env.local` (файл в `.gitignore`, образец — `env.py`),
+  в репозиторий и документацию пароли не коммитим;
+- playwright — `scripts/venv-shots` (см. `scripts/take_screenshots.py`);
+- `GDZ_SKIP_AUTH=1` — пропустить сценарии с логином (так гоняет CI, где
+  тестовых аккаунтов нет).
 
-Артефакты (скриншоты) складываются в `/tmp/opencode/*.png`. Ошибки консоли
-браузера собираются каждым смоуком и печатаются в конце (`errors: []` — чисто).
+Артефакты (скриншоты) складываются в `/tmp/opencode/*.png` и
+`/tmp/opencode/mobile375/*.png`. Ошибки консоли браузера собираются каждым
+смоуком и печатаются в конце (`errors: []` — чисто).
+
+CI: `.github/workflows/tests.yml` — валидация данных, SEO, смоуки на данных
+(`smoke_app`, `smoke_lit`, `smoke_kontur`, `smoke_visual`) и мобильная
+верстка. Сценарии с логином в CI не запускаются: они ходят в прод-Supabase.

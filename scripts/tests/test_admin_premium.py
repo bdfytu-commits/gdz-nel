@@ -9,9 +9,14 @@ from urllib.parse import quote
 
 from playwright.sync_api import sync_playwright
 
+from env import load
+
+load()
+
 BASE = os.environ.get("GDZ_BASE", "http://127.0.0.1:8000")
-EMAIL = "admin@gdz-nel.test"
-PASSWORD = "GdzNel-Test-2026!"
+os.makedirs("/tmp/opencode", exist_ok=True)
+EMAIL = os.environ.get("GDZ_ADMIN_EMAIL", "admin@gdz-nel.test")
+PASSWORD = os.environ.get("GDZ_ADMIN_PASSWORD", "")
 
 
 def main() -> None:

@@ -1,0 +1,51 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: установка браузера и зависимостей
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright jsonschema
+          python -m playwright install --with-deps chromium
+
+      - name: валидация данных
+        run: python scripts/validate_data.py
+
+      - name: локальный сервер
+        run: |
+          python -m http.server 8000 --bind 127.0.0.1 &
+          for i in $(seq 1 40); do
+            curl -sf http://127.0.0.1:8000/ >/dev/null && break
+            sleep 0.5
+          done
+          curl -sf http://127.0.0.1:8000/ >/dev/null
+
+      - name: seo и разметка
+        run: python scripts/tests/test_seo.py
+
+      - name: смоуки на данных (без логина)
+        run: |
+          for t in smoke_app smoke_lit smoke_kontur smoke_visual; do
+            echo "== $t"
+            python "scripts/tests/$t.py"
+          done
+
+      - name: мобильная верстка 375x812
+        env:
+          GDZ_SKIP_AUTH: "1"
+        run: python scripts/tests/test_mobile_375.py

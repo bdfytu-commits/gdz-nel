@@ -549,6 +549,12 @@
   .admin-side-btn span:last-child { display: none; }
   .admin-nav a span:last-child { display: none; }
   .admin-nav a { padding: 10px 14px; }
+
+  /* заголовок вкладки и кнопки «Обновить / На сайт» — в две строки,
+     иначе на 375px ряд вылезает за экран и тянет за собой всю страницу */
+  .admin-top { flex-wrap: wrap; gap: 12px; }
+  .admin-top h1 { flex: 1 1 100%; font-size: 20px; }
+  .admin-top-actions { width: 100%; justify-content: flex-end; flex-wrap: wrap; }
 }
 
 /* ---------- админка 2.0: новые блоки (Ф9–10) ---------- */

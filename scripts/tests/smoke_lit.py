@@ -11,6 +11,7 @@ from pathlib import Path
 from playwright.async_api import async_playwright
 
 BASE = os.environ.get("GDZ_BASE", "http://127.0.0.1:8000")
+os.makedirs("/tmp/opencode", exist_ok=True)
 DATA = Path(__file__).resolve().parent.parent.parent / "app" / "data" / "literature"
 BOOKS = [
     (6, "korovina-6-1"), (6, "korovina-6-2"),

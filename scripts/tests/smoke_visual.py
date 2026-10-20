@@ -7,6 +7,7 @@ import sys
 from playwright.async_api import async_playwright
 
 BASE = os.environ.get("GDZ_BASE", "http://127.0.0.1:8000")
+os.makedirs("/tmp/opencode", exist_ok=True)
 logs = []
 
 

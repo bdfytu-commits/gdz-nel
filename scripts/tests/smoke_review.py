@@ -6,10 +6,14 @@ import sys
 
 from playwright.async_api import async_playwright
 
+from env import load
+
+load()
+
 BASE = os.environ.get("GDZ_BASE", "http://127.0.0.1:8000")
 TASK = "#/6/math/vilenkin-6-1/1.16"
-USER = "user2@gdz-nel.test"
-PASS = "GdzNel-Test-2026!"
+USER = os.environ.get("GDZ_USER2_EMAIL", "user2@gdz-nel.test")
+PASS = os.environ.get("GDZ_TEST_PASSWORD", "")
 
 logs = []
 

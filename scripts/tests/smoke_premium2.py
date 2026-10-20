@@ -6,10 +6,14 @@ import sys
 
 from playwright.async_api import async_playwright
 
+from env import load
+
+load()
+
 BASE = os.environ.get("GDZ_BASE", "http://127.0.0.1:8000")
-PASS = "GdzNel-Test-2026!"
-PREMIUM = "user1@gdz-nel.test"
-FREE = "user2@gdz-nel.test"
+PASS = os.environ.get("GDZ_TEST_PASSWORD", "")
+PREMIUM = os.environ.get("GDZ_USER1_EMAIL", "user1@gdz-nel.test")
+FREE = os.environ.get("GDZ_USER2_EMAIL", "user2@gdz-nel.test")
 
 ERRORS = []
 
