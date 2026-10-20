@@ -386,3 +386,28 @@
   теперь проверяют `account_ready()` (вход + наличие профиля) и аккуратно
   пропускаются; после запуска `cleanup_test_data.sql` они так же пропустятся,
   а не упадут. Админские тесты работают на живом админе.
+
+### режим ожидания домена (20.10.2026)
+
+- `gdz-nel.is-a.dev` ещё не выдан: PR `is-a-dev/register#57491` открыт, а сам
+  домен отдаёт страницу is-a.dev «available» (`https://is-a.dev/available?d=gdz-nel`).
+  Production остаётся на `https://gdz-nel.pages.dev`; на момент проверки `main`
+  и последний деплой — коммит `ffb9954`, дальше только документация.
+- случайный запуск `scripts/change_domain.py` до апрува откачен: `git restore .`
+  вернул трекаемые файлы, `android-twa/twa-manifest.json` (в `.gitignore`) вернули
+  на pages.dev руками. В `main` и на pages.dev следов `is-a.dev` нет; проверили
+  и репозиторий, и live: `/`, `/app/`, `/search.html`, `/admin/`, `/sitemap.xml`,
+  `/robots.txt`, `/app/manifest.json` — 200, canonical/OG/sitemap/robots на
+  pages.dev, упоминаний `is-a.dev` ноль. `is-a.dev` остался только в docs,
+  `scripts/change_domain.py` и docstring `scripts/tests/test_seo.py`.
+- в `docs/README.md` добавлен пошаговый чеклист переезда: тег отката, dry-run,
+  замена домена, тесты, пуш, Cloudflare Custom domains, Supabase Auth URLs,
+  повторная модерация Lava, пересборка APK, sitemap, приёмка и откат.
+- важное для APK: `change_domain.py` патчит только `android-twa/twa-manifest.json`,
+  а Gradle-сборка читает `android-twa/app/build.gradle` и `strings.xml` — они в
+  `.gitignore`, домен там надо менять руками. `scripts/build_apk.sh` подписывает
+  старым `android-signing/keystore.jks`; для обновления текущего APK нужен
+  `android-twa/android.keystore` (отпечаток `63:A6:…:EA:60`), иначе Android не
+  установит обновление поверх v8. Это зафиксировано в чеклисте.
+- решение: до апрува PR код не трогаем, поддерживаем только документацию и
+  проверки. После апрува — строго по чеклисту `docs/README.md`.

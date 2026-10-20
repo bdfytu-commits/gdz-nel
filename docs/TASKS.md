@@ -104,6 +104,16 @@ gdz-raketa.ru, решение и ответ — с альтернативног�
 - [x] `404.html` вместо soft-404, счётчики и футер приведены к 16 778 / 43 / 6–9 классы
 - [x] `supabase/cleanup_test_data.sql` готов (запускать вручную)
 - [ ] Запустить `supabase/cleanup_test_data.sql` в SQL Editor после финальных прогонов
-- [ ] Домен `gdz-nel.is-a.dev`: апрув PR → `change_domain.py` → Custom domain в Cloudflare → Supabase Auth URLs → повторная модерация Lava → APK → sitemap
+- [x] Проверено: в production-файлах и на live нет `is-a.dev`; canonical/OG/sitemap/robots — `gdz-nel.pages.dev`
+- [ ] Домен `gdz-nel.is-a.dev`: **ждём апрув PR #57491**, скрипт и код готовы. После апрува — по чеклисту `docs/README.md` (скрипт → пуш → Custom domain → Supabase Auth → Lava → APK → sitemap)
 - [ ] TG-бот: токен из BotFather и деплой `scripts/tg-bot/`
 - [ ] hCaptcha: sitekey в `auth.html`, если капча включается в Supabase Auth
+
+## Режим ожидания домена (20.10.2026)
+
+- [x] Код, данные, тесты и CI готовы; production — `https://gdz-nel.pages.dev`, автодеплой на `push` в `main` работает
+- [x] `scripts/change_domain.py` проверен через `--dry-run` (31 файл, 103 замены на 20.10)
+- [x] `gdz-nel.is-a.dev` ещё не выдан: PR `is-a-dev/register#57491` открыт, домен отдаёт страницу is-a.dev «available»
+- [x] Случайный запуск скрипта откачен: `git restore .`, код в `main` и на pages.dev — `ffb9954` (дальше только документация), следов `is-a.dev` в production нет
+- [ ] **Не запускать** `change_domain.py`, пока PR не смёржен
+- [ ] После смёржа — `docs/README.md` → «Переезд на gdz-nel.is-a.dev: чеклист»

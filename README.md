@@ -214,10 +214,14 @@ Web3Forms (до 250 писем в месяц, бэкенд не нужен):
 
 ## Пересборка APK
 
-APK — TWA-обёртка сайта (Bubblewrap). Нужны JDK 17, Android SDK и node/npm. Подпись —
-`android-signing/keystore.jks` (в git не входит; пароли по умолчанию — в начале
-`scripts/build_apk.sh`). Манифест Bubblewrap берёт с локального сервера, поэтому его
-надо запустить заранее.
+APK — TWA-обёртка сайта. Текущий релиз собран Gradle в `android-twa/`; старые
+сборки — Bubblewrap. Нужны JDK 17, Android SDK и node/npm.
+
+Важно: команды ниже относятся к старым Bubblewrap-сборкам и подписывают
+`android-signing/keystore.jks`. Текущий APK 2.1.0 (versionCode 8) подписан
+`android-twa/android.keystore` — для обновления поверх v8 нужен **тот же** ключ,
+иначе Android отклонит установку. Пересборка под новый домен — в `docs/README.md`,
+раздел «Переезд на gdz-nel.is-a.dev».
 
 ```bash
 uv run python -m http.server 8000 &
