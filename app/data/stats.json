@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T13:59:50Z",
+  "generatedAt": "2026-10-20T04:25:46Z",
   "subjects": {
     "math": {
       "title": "Математика",
@@ -19,7 +19,7 @@
     "english": {
       "title": "Английский язык",
       "icon": "english",
-      "tasks": 860
+      "tasks": 2267
     },
     "biology": {
       "title": "Биология",
@@ -75,6 +75,7 @@
     "russian/barhudarov-8.json": 510,
     "literature/korovina-8-1.json": 200,
     "literature/korovina-8-2.json": 230,
+    "english/vaulina-8.json": 685,
     "biology/pasechnik-8.json": 632,
     "geo/matveev-8.json": 10,
     "history/medinsky-8.json": 388,
@@ -84,6 +85,7 @@
     "russian/barhudarov-9.json": 514,
     "literature/korovina-9-1.json": 269,
     "literature/korovina-9-2.json": 199,
+    "english/vaulina-9.json": 722,
     "biology/pasechnik-9.json": 650,
     "geo/matveev-9.json": 13,
     "history/medinsky-9.json": 524,
@@ -240,6 +242,11 @@
           "icon": "literature",
           "tasks": 430
         },
+        "english": {
+          "title": "Английский язык",
+          "icon": "english",
+          "tasks": 685
+        },
         "biology": {
           "title": "Биология",
           "icon": "biology",
@@ -271,14 +278,15 @@
         "russian/barhudarov-8.json": 510,
         "literature/korovina-8-1.json": 200,
         "literature/korovina-8-2.json": 230,
+        "english/vaulina-8.json": 685,
         "biology/pasechnik-8.json": 632,
         "geo/matveev-8.json": 10,
         "history/medinsky-8.json": 388,
         "history-maps/torop-8.json": 11,
         "social/bogolyubov-8.json": 454
       },
-      "total": 3768,
-      "textbooks": 9
+      "total": 4453,
+      "textbooks": 10
     },
     "9": {
       "title": "9 класс",
@@ -297,6 +305,11 @@
           "title": "Литература",
           "icon": "literature",
           "tasks": 468
+        },
+        "english": {
+          "title": "Английский язык",
+          "icon": "english",
+          "tasks": 722
         },
         "biology": {
           "title": "Биология",
@@ -329,16 +342,17 @@
         "russian/barhudarov-9.json": 514,
         "literature/korovina-9-1.json": 269,
         "literature/korovina-9-2.json": 199,
+        "english/vaulina-9.json": 722,
         "biology/pasechnik-9.json": 650,
         "geo/matveev-9.json": 13,
         "history/medinsky-9.json": 524,
         "history-maps/torop-9.json": 13,
         "social/bogolyubov-9.json": 440
       },
-      "total": 3522,
-      "textbooks": 9
+      "total": 4244,
+      "textbooks": 10
     }
   },
-  "total": 15371,
-  "textbooks": 41
+  "total": 16778,
+  "textbooks": 43
 }

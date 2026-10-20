@@ -377,6 +377,21 @@
           "icon": "literature"
         },
         {
+          "id": "english",
+          "title": "Английский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "vaulina-8",
+              "title": "Spotlight (Ваулина)",
+              "author": "Ваулина Ю.Е., Дули Д., Подоляко О.Е. и др.",
+              "year": "2023",
+              "file": "english/vaulina-8.json"
+            }
+          ],
+          "icon": "english"
+        },
+        {
           "id": "biology",
           "title": "Биология",
           "active": true,
@@ -509,6 +524,21 @@
             }
           ],
           "icon": "literature"
+        },
+        {
+          "id": "english",
+          "title": "Английский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "vaulina-9",
+              "title": "Spotlight (Ваулина)",
+              "author": "Ваулина Ю.Е., Дули Д., Подоляко О.Е. и др.",
+              "year": "2023",
+              "file": "english/vaulina-9.json"
+            }
+          ],
+          "icon": "english"
         },
         {
           "id": "biology",
