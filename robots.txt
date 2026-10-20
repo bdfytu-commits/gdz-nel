@@ -2,9 +2,9 @@
 User-agent: *
 Allow: /
 
-# личные страницы: админка и профиль не для индексации
+# личные страницы: админка, профиль и вход не для индексации
 Disallow: /admin/
 Disallow: /profile.html
+Disallow: /auth.html
 
-# заменить USER на реальный аккаунт после деплоя (задача 28)
 Sitemap: https://gdz-nel.pages.dev/sitemap.xml

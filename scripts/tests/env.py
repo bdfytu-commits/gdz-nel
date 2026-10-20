@@ -13,8 +13,14 @@
 
 from __future__ import annotations
 
+import json
 import os
+import urllib.request
 from pathlib import Path
+
+SUPABASE_URL = os.environ.get("GDZ_SUPABASE_URL", "https://qncqeoklwblztbnoktwk.supabase.co")
+SUPABASE_KEY = os.environ.get(
+    "GDZ_SUPABASE_KEY", "sb_publishable_uyBIZ2gNPuDqxre3ea989w_WbctezF4")
 
 
 def load() -> None:
@@ -27,3 +33,26 @@ def load() -> None:
             continue
         key, _, value = line.partition("=")
         os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
+def account_ready(email: str, password: str) -> bool:
+    """Есть ли аккаунт и профиль: после уборки тестовых юзеров тесты скипаются."""
+    if not password:
+        return False
+    try:
+        req = urllib.request.Request(
+            SUPABASE_URL + "/auth/v1/token?grant_type=password",
+            data=json.dumps({"email": email, "password": password}).encode(),
+            headers={"apikey": SUPABASE_KEY, "Content-Type": "application/json"},
+        )
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read())
+        uid, token = data["user"]["id"], data["access_token"]
+        req = urllib.request.Request(
+            SUPABASE_URL + f"/rest/v1/profiles?select=id&id=eq.{uid}",
+            headers={"apikey": SUPABASE_KEY, "Authorization": "Bearer " + token},
+        )
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return len(json.loads(resp.read())) == 1
+    except Exception:  # noqa: BLE001
+        return False

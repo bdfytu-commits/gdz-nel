@@ -52,9 +52,18 @@
 
 Сайт живёт на Cloudflare Pages (`https://gdz-nel.pages.dev`). Это отдельный origin,
 и файл `.well-known/assetlinks.json` лежит в корне репозитория, поэтому отдаётся
-по адресу `https://gdz-nel.pages.dev/.well-known/assetlinks.json` — проверка проходит,
-APK v5 открывается без адресной строки. (У APK v4, собранного под старый GitHub Pages,
-адресная строка была: project-страница не отдаёт файл в корень origin.)
+по адресу `https://gdz-nel.pages.dev/.well-known/assetlinks.json` — проверка проходит.
+
+В `assetlinks.json` два отпечатка:
+
+- `63:A6:…:EA:60` — текущий релиз **v2.1.0 (versionCode 8)**, собран Gradle
+  и подписан ключом `android-twa/android.keystore`;
+- `B8:A5:…:3A:1F` — старые сборки (v4/v5, `android-signing/keystore.jks`).
+
+Важно: Android разрешает обновлять приложение только тем же ключом, которым
+подписан текущий APK. `android-twa/android.keystore` лежит вне git — сделай
+бэкап файла и пароля, иначе будущие версии в RuStore/Google Play не обновятся.
+Если ключ потерян — единственный путь обновления: новый package id.
 
 Если появится свой домен:
 

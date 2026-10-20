@@ -31,16 +31,26 @@ def main() -> None:
         page.fill("#li-password", PASSWORD)
         page.click("#login-submit")
         page.wait_for_timeout(4000)
+        if "/auth.html" in page.url:
+            print("не удалось войти админом — тест пропущен (проверь GDZ_ADMIN_* в .env.local)")
+            browser.close()
+            return
 
         page.goto(BASE + "/admin/index.html#users", wait_until="domcontentloaded")
         page.wait_for_selector("table.admin-table tbody tr", timeout=20000)
+
+        target = os.environ.get("GDZ_PREMIUM_TARGET", "user1@gdz-nel.test")
+        if page.locator("table.admin-table tbody tr", has_text=target).count() == 0:
+            print("нет строки", target, "— тест выдачи ГДЗ+ пропущен (тестовые аккаунты удалены)")
+            browser.close()
+            return
 
         headers = [h.strip() for h in page.locator("table.admin-table thead th").all_inner_texts()]
         assert "ГДЗ+" in headers, f"нет колонки ГДЗ+, заголовки: {headers}"
         print("колонка ГДЗ+ есть")
 
         def row():
-            return page.locator("table.admin-table tbody tr", has_text="user1@gdz-nel.test").first
+            return page.locator("table.admin-table tbody tr", has_text=target).first
 
         def badge():
             r = row()

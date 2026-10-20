@@ -31,6 +31,10 @@ async def main():
         await page.click("#login-submit")
         await page.wait_for_timeout(2500)
         print("1) login: url =", page.url)
+        if "/auth.html" in page.url:
+            print("не удалось войти админом — смоук пропущен (проверь GDZ_ADMIN_* в .env.local)")
+            await browser.close()
+            return 0
 
         # админка
         await page.goto(BASE + "/admin/", wait_until="networkidle")

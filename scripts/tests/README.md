@@ -36,6 +36,9 @@ scripts/venv-shots/bin/python scripts/tests/smoke_app.py
   (бесплатный), `admin@gdz-nel.test` (админ). Пароли — только локально в
   `scripts/tests/.env.local` (файл в `.gitignore`, образец — `env.py`),
   в репозиторий и документацию пароли не коммитим;
+- `smoke_premium2.py`, `smoke_review.py` и `test_admin_premium.py` требуют
+  тестовые аккаунты: после финальной уборки (`supabase/cleanup_test_data.sql`)
+  они печатают «тестовый аккаунт удалён» и пропускаются, а не падают;
 - playwright — `scripts/venv-shots` (см. `scripts/take_screenshots.py`);
 - `GDZ_SKIP_AUTH=1` — пропустить сценарии с логином (так гоняет CI, где
   тестовых аккаунтов нет).

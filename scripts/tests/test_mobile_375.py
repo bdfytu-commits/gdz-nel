@@ -53,6 +53,7 @@ PAGES = [
     ("privacy", "/privacy.html"),
     ("terms", "/terms.html"),
     ("disclaimer", "/disclaimer.html"),
+    ("404", "/404.html"),
 ]
 
 # самое длинное решение в учебнике — стресс-тест формул на узком экране
@@ -115,6 +116,11 @@ CHECK_JS = r"""
 async def audit(page, label: str, url: str, expect: str | None = None) -> dict:
     await page.goto(BASE + url, wait_until="domcontentloaded")
     await page.wait_for_timeout(1000)
+    try:
+        await page.wait_for_function(
+            "document.fonts ? document.fonts.status === 'loaded' : true", timeout=5000)
+    except Exception:  # noqa: BLE001
+        pass
     result = {"label": label, "url": url, "ok": True, "notes": []}
     if expect:
         count = await page.locator(expect).count()
@@ -122,6 +128,10 @@ async def audit(page, label: str, url: str, expect: str | None = None) -> dict:
             result["ok"] = False
             result["notes"].append(f"нет обязательного элемента {expect}")
     data = await page.evaluate(CHECK_JS)
+    if data["overflow"] > 1 or data["badCount"]:
+        # дать верстке устояться и перемерить — так тест не ловит момент загрузки
+        await page.wait_for_timeout(700)
+        data = await page.evaluate(CHECK_JS)
     result["overflow"] = data["overflow"]
     result["bad"] = data["bad"]
     result["badCount"] = data["badCount"]
@@ -193,7 +203,15 @@ async def main() -> int:
             ):
                 await page.goto(BASE + f"/admin/#{tab}", wait_until="domcontentloaded")
                 await page.wait_for_timeout(1200)
+                try:
+                    await page.wait_for_function(
+                        "document.fonts ? document.fonts.status === 'loaded' : true", timeout=5000)
+                except Exception:  # noqa: BLE001
+                    pass
                 data = await page.evaluate(CHECK_JS)
+                if data["overflow"] > 1 or data["badCount"]:
+                    await page.wait_for_timeout(700)
+                    data = await page.evaluate(CHECK_JS)
                 item = {
                     "label": label, "url": f"/admin/#{tab}", "ok": True, "notes": [],
                     "overflow": data["overflow"], "bad": data["bad"], "badCount": data["badCount"],

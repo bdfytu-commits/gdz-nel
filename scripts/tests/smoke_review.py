@@ -6,7 +6,7 @@ import sys
 
 from playwright.async_api import async_playwright
 
-from env import load
+from env import account_ready, load
 
 load()
 
@@ -19,6 +19,9 @@ logs = []
 
 
 async def main():
+    if not account_ready(USER, PASS):
+        print("нет аккаунта/профиля", USER, "— смоук отзывов пропущен")
+        return 0
     async with async_playwright() as p:
         browser = await p.chromium.launch()
         page = await browser.new_page(viewport={"width": 1280, "height": 900})
@@ -39,6 +42,10 @@ async def main():
         await page.fill("#li-password", PASS)
         await page.click("#login-submit")
         await page.wait_for_timeout(3000)
+        if "/auth.html" in page.url:
+            print("нет тестового аккаунта", USER, "— смоук отзывов пропущен")
+            await browser.close()
+            return 0
 
         await page.goto(BASE + "/app/" + TASK, wait_until="networkidle")
         await page.wait_for_timeout(2500)

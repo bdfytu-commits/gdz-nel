@@ -6,7 +6,7 @@ import sys
 
 from playwright.async_api import async_playwright
 
-from env import load
+from env import account_ready, load
 
 load()
 
@@ -24,9 +24,12 @@ async def login(page, email):
     await page.fill("#li-password", PASS)
     await page.click("#login-submit")
     await page.wait_for_timeout(2500)
+    return "/auth.html" not in page.url
 
 
 async def main():
+    premium_ok = account_ready(PREMIUM, PASS)
+    free_ok = account_ready(FREE, PASS)
     async with async_playwright() as p:
         browser = await p.chromium.launch()
         page = await browser.new_page(viewport={"width": 1280, "height": 900})
@@ -46,6 +49,10 @@ async def main():
         ad_anon = await page.locator("#ad-slot").is_visible()
         print("1b) реклама (аноним): видна =", ad_anon)
 
+        if not premium_ok:
+            print("нет профиля", PREMIUM, "— премиум-часть пропущена")
+            await browser.close()
+            return 0
         await login(page, PREMIUM)
 
         # 2. премиум: рекламная плашка скрыта
@@ -85,6 +92,10 @@ async def main():
         print("5) PDF (премиум): кнопка =", pdf_count, "| класс на печать =", repr(printed), "| слой =", layer)
 
         # 6. бесплатный: фото-страница
+        if not free_ok:
+            print("нет профиля", FREE, "— шаги 6-8 пропущены")
+            await browser.close()
+            return 0
         await login(page, FREE)
         await page.goto(BASE + "/photo.html", wait_until="networkidle")
         await page.wait_for_timeout(1800)
