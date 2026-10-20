@@ -40,15 +40,27 @@
 
 - Премиум ГДЗ+ (19.10, без пейволла): шпаргалки (blur + плашка), PDF без водяного знака для подписчиков, выбор модели на фото, лимит 5 фото/сутки для бесплатных, PRO-бейджи и золотые аватарки в отзывах, рекламная плашка на лендинге скрыта для подписчиков. Миграция `review_premium` применена, `solve-photo` задеплоена, смоук — 8 проверок, 0 ошибок консоли.
 
-- Переезд на Cloudflare Pages (19.10): проект `gdz-nel`, поддомен `https://gdz-nel.pages.dev`, build_config через API (None, пустая команда, output `/`), `deploy.yml` удалён, `tg-notify.yml` на `push`, домен заменён по репозиторию. Ждёт одного действия в дашборде — привязки GitHub-аккаунта (Connect to Git): публичного API для этого шага нет, ошибка 8000011.
+- Переезд на Cloudflare Pages (19.10): проект `gdz-nel`, поддомен `https://gdz-nel.pages.dev`, GitHub-аккаунт привязан через дашборд, автодеплой при пуше в `main` работает (последние сборки — success по API), `deploy.yml` удалён, `tg-notify.yml` на `push`.
+
+- Английский 8–9 (20.10): `vaulina-8` (685) и `vaulina-9` (722) из euroki.org, предмет `english` добавлен в каталог 8–9. База — **16 778 заданий, 43 учебника**, validate 0 ошибок, stats/search-index пересобраны.
+
+- Тесты (20.10): в `scripts/tests/` добавлены `test_seo.py` (canonical/OG/twitter/JSON-LD/sitemap/robots, домен берётся из canonical) и `test_mobile_375.py` (25 страниц на 375×812: горизонтальный скролл, вылезающие блоки, длинная задача 797, профиль и все вкладки админки). Найдено и починено: ряд «Обновить / На сайт» в админке вылезал за экран и тянул всю страницу — заголовок и кнопки разведены по строкам на ≤560px. SEO-тест нашёл отсутствующий twitter:card в `search.html` и пустой JSON-LD в `app/index.html` — исправлено. CI: `.github/workflows/tests.yml` (валидация данных, SEO, смоуки на данных, мобильный аудит; сценарии с логином в CI пропускаются).
+
+- Безопасность (20.10): `_headers` (CSP под Supabase/шрифты/jsdelivr/hCaptcha/Lava/Web3Forms, nosniff, referrer, permissions, frame-ancestors), `_redirects` закрывает `/docs/*`, `/scripts/*`, `/supabase/*`, `/.github/*`, `/android-signing/*` редиректом на главную. Пароли тестовых аккаунтов убраны из репозитория в `scripts/tests/.env.local` (gitignore), пароль `admin@gdz-nel.test` сменён — старый был засвечен в публичном репо. Секретов в трекаемых файлах нет.
+
+- Домен (20.10): `scripts/change_domain.py` — смена домена по всему репозиторию за один запуск (`--dry-run` для проверки), плюс правка `android-twa/twa-manifest.json`; напоминает про Cloudflare Custom domains, Supabase URLs, Lava, APK и sitemap. Ждёт одобрения `gdz-nel.is-a.dev`.
+
+- Уборка (20.10): `supabase/cleanup_test_data.sql` — удаляет user1/user2, платежи `test-playwright`, тестовые отзывы и файлы из bucket `photos`, оставляет админа; печатает счётчики до/после. Ждёт ручного запуска в SQL Editor.
 
 ## В работе
 
-- ничего — дальше фазы релиза 2.0.
+- ничего.
 
 ## Ждёт
 
-- Фазы релиза 2.0: SEO-прогон, playwright-тесты, APK, TG-бот, финальный релиз, уборка тестовых данных в Supabase (тест-юзеры, платежи 'test-playwright').
+- Домен `gdz-nel.is-a.dev`: после апрува запустить `python3 scripts/change_domain.py`, добавить домен в Cloudflare Pages и Supabase Auth, перепройти модерацию Lava, пересобрать APK, отправить sitemap в обе консоли.
+- Запустить `supabase/cleanup_test_data.sql` в SQL Editor (после финальных прогонов с тестовыми аккаунтами).
+- TG-бот: нужен токен `@BotFather` и деплой `scripts/tg-bot/` (код готов).
 
 ## Известные ограничения
 

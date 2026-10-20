@@ -129,13 +129,21 @@ supabase functions deploy solve-photo
    и посмотреть логи функции.
 5. Лимит фото: `select count(*) from public.photo_requests where user_id='…' and created_at > now() - interval '1 day';` — при 5 и больше функция вернёт «Лимит 5 фото в день».
 
-## Уборка тестовых данных
+## Уборка тестовых данных (20.10.2026)
 
-```sql
-delete from public.reviews where user_id in (select id from public.profiles where email like '%@gdz-nel.test');
-delete from public.photo_requests where user_id in (select id from public.profiles where email like '%@gdz-nel.test');
-delete from auth.users where email like '%@gdz-nel.test';
-```
+Готовый скрипт: `supabase/cleanup_test_data.sql` (запускать в SQL Editor целиком).
 
-(профили и строки `reviews`/`photo_requests` уходят каскадом; файлы из бакета
-`photos` удаляются отдельно — страницей админки или через storage API).
+Что делает:
+
+- удаляет `user1@gdz-nel.test` и `user2@gdz-nel.test` (каскад: профили, отзывы,
+  фото-запросы, история, достижения, логи);
+- удаляет платежи `test-playwright*` и платежи с тестовыми email;
+- удаляет тестовые отзывы по маркерам `playwright` / `прод-проверка`;
+- чистит файлы из бакета `photos`, принадлежащие тестовым юзерам;
+- **не трогает** `admin@gdz-nel.test`;
+- печатает счётчики до/после и делает `commit`.
+
+Проверка после запуска: `admin@gdz-nel.test` существует, в `public.profiles`
+у него `is_admin = true`. Пароль админа уже сменён 20.10.2026 (старый был
+засвечен в публичном репозитории); при необходимости — Dashboard → Users →
+Reset password.
