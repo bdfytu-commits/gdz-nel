@@ -1206,9 +1206,28 @@
     el.textContent = JSON.stringify(data);
   }
 
-  function clearJsonLd() {
+  var APP_JSONLD = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    'name': 'ГДЗ НЭЛ — готовые домашние задания',
+    'url': 'https://gdz-nel.pages.dev/app/',
+    'applicationCategory': 'EducationalApplication',
+    'operatingSystem': 'Any',
+    'inLanguage': 'ru',
+    'description': 'Условия, пошаговые решения и ответы для 6–9 классов Новосибирского экономического лицея.',
+    'offers': { '@type': 'Offer', 'price': '0', 'priceCurrency': 'RUB' }
+  };
+
+  function setAppJsonLd() {
     var el = byId('task-jsonld');
-    if (el) el.textContent = '';
+    if (el) el.textContent = JSON.stringify(APP_JSONLD);
+  }
+
+  function clearJsonLd() {
+    // на главной/поиске не оставляем пустой ld+json: описываем само приложение,
+    // иначе после рендера поисковик видит пустой блок (на экране задания его
+    // заменяет setTaskJsonLd)
+    setAppJsonLd();
     setMetaDescription('');
   }
 
