@@ -142,6 +142,11 @@ h1, h2, h3 {
 .i-send { --icon: url(img/icons/send.svg); }
 .i-share { --icon: url(img/icons/share.svg); }
 .i-social { --icon: url(img/icons/social.svg); }
+.i-geometry { --icon: url(img/icons/geometry.svg); }
+.i-physics { --icon: url(img/icons/physics.svg); }
+.i-chemistry { --icon: url(img/icons/chemistry.svg); }
+.i-world { --icon: url(img/icons/world.svg); }
+
 .i-sparkles { --icon: url(img/icons/sparkles.svg); }
 .i-star { --icon: url(img/icons/star.svg); }
 .i-star-filled { --icon: url(img/icons/star-filled.svg); }

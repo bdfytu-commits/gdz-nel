@@ -5,39 +5,128 @@
     "book": {
       "title": "Файл учебника",
       "type": "object",
-      "required": ["subject", "textbook", "author", "year", "source", "parsedAt", "tasks"],
+      "required": [
+        "subject",
+        "textbook",
+        "author",
+        "year",
+        "source",
+        "parsedAt",
+        "tasks"
+      ],
       "properties": {
-        "subject": { "type": "string", "enum": ["math", "algebra", "russian", "literature", "english", "biology", "history", "history-maps", "geo", "social"] },
-        "textbook": { "type": "string", "minLength": 1 },
-        "author": { "type": "string", "minLength": 1 },
-        "year": { "type": "string", "minLength": 1 },
-        "part": { "type": "integer", "minimum": 1 },
-        "source": { "type": "string", "enum": ["parsed", "ai-generated", "manual"] },
-        "sourceUrl": { "type": "string", "minLength": 1 },
-        "parsedAt": { "type": "string", "minLength": 1 },
+        "subject": {
+          "type": "string",
+          "enum": [
+            "math",
+            "algebra",
+            "russian",
+            "literature",
+            "english",
+            "biology",
+            "history",
+            "history-maps",
+            "geo",
+            "social",
+            "geometry",
+            "physics",
+            "chemistry",
+            "world"
+          ]
+        },
+        "textbook": {
+          "type": "string",
+          "minLength": 1
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1
+        },
+        "year": {
+          "type": "string",
+          "minLength": 1
+        },
+        "part": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "source": {
+          "type": "string",
+          "enum": [
+            "parsed",
+            "ai-generated",
+            "manual"
+          ]
+        },
+        "sourceUrl": {
+          "type": "string",
+          "minLength": 1
+        },
+        "parsedAt": {
+          "type": "string",
+          "minLength": 1
+        },
         "tasks": {
           "type": "array",
           "minItems": 1,
           "items": {
             "type": "object",
-            "required": ["number", "section", "condition", "solution", "answer"],
+            "required": [
+              "number",
+              "section",
+              "condition",
+              "solution",
+              "answer"
+            ],
             "properties": {
-              "number": { "type": "string", "minLength": 1, "description": "Строка: «1.1», «5.4», «407»" },
-              "section": { "type": "string", "minLength": 1, "description": "Раздел/параграф/модуль" },
-              "condition": { "type": "string", "minLength": 1 },
-              "solution": { "type": "string", "description": "Пустая строка допустима, если решение — на изображении из images" },
-              "answer": { "type": "string", "description": "Пустая строка допустима, если решение — на изображении" },
+              "number": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Строка: «1.1», «5.4», «407»"
+              },
+              "section": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Раздел/параграф/модуль"
+              },
+              "condition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "solution": {
+                "type": "string",
+                "description": "Пустая строка допустима, если решение — на изображении из images"
+              },
+              "answer": {
+                "type": "string",
+                "description": "Пустая строка допустима, если решение — на изображении"
+              },
               "images": {
                 "type": "array",
-                "items": { "type": "string", "pattern": "^(https?://|data/)" },
+                "items": {
+                  "type": "string",
+                  "pattern": "^(https?://|data/)"
+                },
                 "description": "Сканы-решения: внешние ссылки (алгебра) или локальные пути data/<subject>/img/... (контурные карты)"
               },
               "column_solution": {
                 "type": "string",
                 "description": "Запись вычислений «в столбик» (моноширинный текст), если применимо"
               },
-              "source": { "type": "string", "enum": ["euroki.org", "otvet.plus", "reshalka.com"], "description": "Источник добранного задания (у основных заданий поля нет)" },
-              "sourceUrl": { "type": "string", "minLength": 1, "description": "Страница-источник решения" }
+              "source": {
+                "type": "string",
+                "enum": [
+                  "euroki.org",
+                  "otvet.plus",
+                  "reshalka.com"
+                ],
+                "description": "Источник добранного задания (у основных заданий поля нет)"
+              },
+              "sourceUrl": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Страница-источник решения"
+              }
             },
             "additionalProperties": false
           }
@@ -48,39 +137,92 @@
     "catalog": {
       "title": "Каталог классов",
       "type": "object",
-      "required": ["grades"],
+      "required": [
+        "grades"
+      ],
       "properties": {
         "grades": {
           "type": "array",
           "minItems": 1,
           "items": {
             "type": "object",
-            "required": ["id", "title", "active"],
+            "required": [
+              "id",
+              "title",
+              "active"
+            ],
             "properties": {
-              "id": { "type": "string", "minLength": 1 },
-              "title": { "type": "string", "minLength": 1 },
-              "active": { "type": "boolean", "description": "false — данные класса ещё собираются" },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "active": {
+                "type": "boolean",
+                "description": "false — данные класса ещё собираются"
+              },
               "subjects": {
                 "type": "array",
                 "items": {
                   "type": "object",
-                  "required": ["id", "title", "active", "textbooks", "icon"],
+                  "required": [
+                    "id",
+                    "title",
+                    "active",
+                    "textbooks",
+                    "icon"
+                  ],
                   "properties": {
-                    "id": { "type": "string", "minLength": 1 },
-                    "title": { "type": "string", "minLength": 1 },
-                    "active": { "type": "boolean" },
-                    "icon": { "type": "string", "minLength": 1 },
+                    "id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "title": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "active": {
+                      "type": "boolean"
+                    },
+                    "icon": {
+                      "type": "string",
+                      "minLength": 1
+                    },
                     "textbooks": {
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "required": ["id", "title", "author", "year", "file"],
+                        "required": [
+                          "id",
+                          "title",
+                          "author",
+                          "year",
+                          "file"
+                        ],
                         "properties": {
-                          "id": { "type": "string", "minLength": 1 },
-                          "title": { "type": "string", "minLength": 1 },
-                          "author": { "type": "string", "minLength": 1 },
-                          "year": { "type": "string", "minLength": 1 },
-                          "file": { "type": "string", "pattern": "^[a-z][a-z0-9-]*/[a-z0-9-]+\\.json$" }
+                          "id": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "title": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "author": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "year": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "file": {
+                            "type": "string",
+                            "pattern": "^[a-z][a-z0-9-]*/[a-z0-9-]+\\.json$"
+                          }
                         },
                         "additionalProperties": false
                       }
@@ -99,14 +241,38 @@
     "stats": {
       "title": "Счётчики",
       "type": "object",
-      "required": ["generatedAt", "subjects", "books", "grades", "total", "textbooks"],
+      "required": [
+        "generatedAt",
+        "subjects",
+        "books",
+        "grades",
+        "total",
+        "textbooks"
+      ],
       "properties": {
-        "generatedAt": { "type": "string", "minLength": 1 },
-        "subjects": { "type": "object", "description": "Сумма по всем классам (для лендинга)" },
-        "books": { "type": "object" },
-        "grades": { "type": "object", "description": "Счётчики по классам: total, textbooks, subjects, books" },
-        "total": { "type": "integer", "minimum": 0 },
-        "textbooks": { "type": "integer", "minimum": 0 }
+        "generatedAt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subjects": {
+          "type": "object",
+          "description": "Сумма по всем классам (для лендинга)"
+        },
+        "books": {
+          "type": "object"
+        },
+        "grades": {
+          "type": "object",
+          "description": "Счётчики по классам: total, textbooks, subjects, books"
+        },
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "textbooks": {
+          "type": "integer",
+          "minimum": 0
+        }
       },
       "additionalProperties": false
     }

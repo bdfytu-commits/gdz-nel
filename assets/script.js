@@ -97,8 +97,8 @@
       var subjectsEl = document.getElementById('stat-subjects');
       var footerEl = document.getElementById('footer-stats');
 
-      // лендинг рассказывает про 6 класс — берём счётчики его класса
-      var scope = (stats.grades && stats.grades['6']) || stats;
+      // лендинг показывает общие счётчики по всем классам
+      var scope = stats;
 
       if (tasksEl) tasksEl.textContent = scope.total;
       if (booksEl) booksEl.textContent = scope.textbooks;

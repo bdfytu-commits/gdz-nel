@@ -19,7 +19,7 @@ var PAGE = 20;
 var state = {
   tab: 'overview',
   me: null,
-  users: { rows: [], page: 0, count: 0, search: '', filter: 'all', focusSearch: false, selected: {} },
+  users: { rows: [], page: 0, count: 0, search: '', filter: 'all', grade: '', focusSearch: false, selected: {} },
   reviews: { rows: [], page: 0, count: 0, filter: 'all', search: '', selected: {} },
   ai: { rows: [], page: 0, count: 0 },
   photos: { rows: [], page: 0, count: 0 },
@@ -393,6 +393,13 @@ function drawChart(days) {
 
 /* ---------- пользователи ---------- */
 
+function gradeFromAge(age) {
+  if (age == null) return '';
+  var g = Number(age) - 5;
+  if (g < 1 || g > 11) return '';
+  return String(g);
+}
+
 async function loadUsers() {
   var sc = state.users;
   var content = $('admin-content');
@@ -406,6 +413,7 @@ async function loadUsers() {
   if (sc.filter === 'banned') q = q.eq('ban', true);
   if (sc.filter === 'admins') q = q.eq('role', 'admin');
   if (sc.filter === 'premium') q = q.eq('is_premium', true);
+  if (sc.grade) q = q.gte('age', Number(sc.grade) + 5).lte('age', Number(sc.grade) + 6);
 
   var res = await q.order('created_at', { ascending: false }).range(sc.page * PAGE, sc.page * PAGE + PAGE - 1);
   if (res.error) {
@@ -426,6 +434,12 @@ async function loadUsers() {
     '<option value="admins"' + (sc.filter === 'admins' ? ' selected' : '') + '>Админы</option>' +
     '<option value="premium"' + (sc.filter === 'premium' ? ' selected' : '') + '>С ГДЗ+</option>' +
     '</select>' +
+    '<select id="users-grade" aria-label="Класс пользователя (по возрасту)">' +
+    '<option value=""' + (sc.grade === '' ? ' selected' : '') + '>Все классы</option>' +
+    ['3', '4', '10', '11'].map(function (g) {
+      return '<option value="' + g + '"' + (sc.grade === g ? ' selected' : '') + '>' + g + ' класс</option>';
+    }).join('') +
+    '</select>' +
     '<button class="btn btn-outline btn-sm" type="button" data-act="export-users">' +
     '<span class="icon i-download" aria-hidden="true"></span><span>CSV</span></button>' +
     '</div>';
@@ -440,7 +454,7 @@ async function loadUsers() {
 
   html += '<div class="table-wrap"><table class="admin-table"><thead><tr>' +
     '<th><input type="checkbox" data-act="sel-all" data-kind="users" aria-label="Выбрать всех на странице"></th>' +
-    '<th></th><th>Логин</th><th>Email</th><th>Возраст</th><th>Пол</th><th>Регистрация</th><th>Роль</th><th>Статус</th><th>ГДЗ+</th><th>Действия</th>' +
+    '<th></th><th>Логин</th><th>Email</th><th>Возраст</th><th>Класс</th><th>Пол</th><th>Регистрация</th><th>Роль</th><th>Статус</th><th>ГДЗ+</th><th>Действия</th>' +
     '</tr></thead><tbody>';
 
   if (!sc.rows.length) {
@@ -460,6 +474,7 @@ async function loadUsers() {
       '<td>' + esc(name) + (self ? ' <span class="badge">это ты</span>' : '') + '</td>' +
       '<td>' + esc(u.email || '—') + '</td>' +
       '<td>' + (u.age == null ? '—' : u.age) + '</td>' +
+      '<td>' + (gradeFromAge(u.age) || '—') + '</td>' +
       '<td>' + esc(u.gender || '—') + '</td>' +
       '<td>' + fmtDate(u.created_at) + '</td>' +
       '<td>' + (u.role === 'admin' ? '<span class="badge is-admin">admin</span>' : '<span class="badge">user</span>') + '</td>' +
@@ -506,6 +521,7 @@ async function exportUsersCsv() {
     if (sc.filter === 'banned') q = q.eq('ban', true);
     if (sc.filter === 'admins') q = q.eq('role', 'admin');
     if (sc.filter === 'premium') q = q.eq('is_premium', true);
+    if (sc.grade) q = q.gte('age', Number(sc.grade) + 5).lte('age', Number(sc.grade) + 6);
     return q.order('created_at', { ascending: false });
   };
   var res = await fetchAllChunks(build, 5000);
