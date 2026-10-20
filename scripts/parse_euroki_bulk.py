@@ -149,7 +149,8 @@ def extract_answer(solution: str) -> str:
     m = re.search(r"(?i)\bОтвет\s*:\s*(.+)$", solution, re.S)
     if m:
         return "Ответ: " + m.group(1).strip()
-    return solution
+    lines = [line.strip() for line in solution.splitlines() if line.strip()]
+    return lines[-1][:1000] if lines else solution
 
 
 def parse_meta(text: str, source_subject: str, grade: int) -> dict:
@@ -287,7 +288,8 @@ def solution_images(soup: BeautifulSoup) -> list[str]:
     return out
 
 
-def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int | None = None) -> list[dict]:
+def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int | None = None,
+                    section_hint: str = "") -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     cards = soup.select("article.gdz-solution-card")
     tasks: list[dict] = []
@@ -319,7 +321,7 @@ def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int |
         if not images:
             return
         seq += 1
-        section = f"Страница {base}" if kind == "page" else f"Задание {base}"
+        section = section_hint or (f"Страница {base}" if kind == "page" else f"Задание {base}")
         tasks.append({
             "number": str(base) if len(images) == 1 else f"{base}.{seq}",
             "section": section,
@@ -421,7 +423,7 @@ def process_book(book: dict, duplicate: bool, force: bool, dry: bool, limit: int
             except Exception as exc:  # noqa: BLE001
                 print(f"  !! {item['url']}: {exc}", flush=True)
                 continue
-            got = parse_task_page(html, item["url"], item["num"], item["kind"])
+            got = parse_task_page(html, item["url"], item["num"], item["kind"], section_hint=item.get("section", ""))
             if not got:
                 continue
             tasks.extend(got)

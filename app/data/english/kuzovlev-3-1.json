@@ -1,0 +1,921 @@
+{
+  "subject": "english",
+  "textbook": "kuzovlev-3-1",
+  "author": "Кузовлев В. П., Лапа Н. М., Костина И. П. и др",
+  "year": "2021",
+  "source": "parsed",
+  "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/",
+  "parsedAt": "2026-10-20T06:03:43Z",
+  "tasks": [
+    {
+      "number": "6.1",
+      "section": "Страница 6",
+      "condition": "Эти дети – твои зарубежные сверстники. Они рассказывают о себе и своей стране.\nПодзадание 1.\nWhat are their names? – Как их зовут?\nHello! I’m Ann. I’m from England.* England is small and beautiful. And we’ve got Big Ben!* It’s in London.*\nHi! My name is Dave. I’m from the USA.* The USA is a very big country. We’ve got Disneyland.* It’s in California.* It’s fantastic!",
+      "solution": "Their names are Ann and Dave.\nПодзадание 2.\nWhat countries are Ann and Dave from? – Из каких стран Энн и Дейв?\nAnn is from England. Dave is from the USA. – Анна из Англии. Дейв из США.\nПеревод:\nПривет! Меня зовут Энн. Я из Англии. *Англия маленькая и красивая. И у нас есть Биг-Бен!* Это в Лондоне.*\nПривет! Меня зовут Дэйв. Я из США.* США – очень большая страна. У нас есть Диснейленд.* Это в Калифорнии.* Это фантастика!",
+      "answer": "Ann is from England. Dave is from the USA. – Анна из Англии. Дейв из США.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-6/"
+    },
+    {
+      "number": "7.2",
+      "section": "Страница 7",
+      "condition": "Дейв знакомится с мальчиком и расспрашивает о его стране.\nНайдите ответы мальчика на вопросы Дейва.\n– What’s your name? – I’m Dan.\n– What country are you from? – Scotland* is a beautiful country.\n– What is your country like?\n– I’m Dan.\n– Scotland* is a beautiful country.\nWe’ve got a monster!\nIt’s in Loch Ness!*\n– I’m from Scotland.*",
+      "solution": "– What's your name? – I'm Dan.\n– What country are you from? – I'm from Scotland.\n– What is your country like? – Scotland is a beautiful country. We've got a monster! It's in Loch Ness!\nПеревод:\n– Как тебя зовут? – Я Дэн.\n– Из какой вы страны? – Шотландия* – прекрасная страна.\n– На что похожа ваша страна?\n– Я Дэн.\n– Шотландия* – прекрасная страна.\nУ нас есть монстр!\nЭто в озере Лох-Несс!*\n– Я из Шотландии.*\n– Как тебя зовут? – Я Дэн.\n– Из какой вы страны? – Я из Шотландии.\n– На что похожа ваша страна? – Шотландия – прекрасная страна. У нас есть чудовище! Оно в озере Лох-Несс!",
+      "answer": "– What is your country like? – Scotland is a beautiful country. We've got a monster! It's in Loch Ness!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-7/"
+    },
+    {
+      "number": "7.3",
+      "section": "Страница 7",
+      "condition": "What is England like? – Англия – какая она? What is the USA like? – США – какая она?",
+      "solution": "England is small and beautiful. The USA is a very big country. – Англия маленькая и красивая. США очень большая страна.",
+      "answer": "England is small and beautiful. The USA is a very big country. – Англия маленькая и красивая. США очень большая страна.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-7/"
+    },
+    {
+      "number": "7.4",
+      "section": "Страница 7",
+      "condition": "In your culture. Представьте, что вы рассказываете Энн, Дейву, Дэну или Кейт о себе и своей стране.\nMy name is ... .\nI’m from Russia.*\nRussia is a ... country.\nWe’ve got ... .\nIt is in ... .",
+      "solution": "My name is Vasya. – Меня зовут Вася.\nI'm from Russia. – Я из России.\nRussia is a very big and beautiful country – Россия очень большая и красивая страна.\nWe've got the Kremlin. – У нас есть Кремль.\nIt's in Moscow. – Он в Москве",
+      "answer": "It's in Moscow. – Он в Москве",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-7/"
+    },
+    {
+      "number": "8.1",
+      "section": "Страница 8",
+      "condition": "Энн и Дэн нарисовали картинки тех мест, где они живут.\nПодзадание 1.\nVocabulary. What is there in their region? – Лексика. Что есть в их регионе?",
+      "solution": "mountains – горы\nа Zoo – зоопарк\na cave – пещера\na stadium – стадион\na river – река\na bridge – мост\na forest – лес\na lake – озеро\na station – станция",
+      "answer": "a station – станция",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-8/"
+    },
+    {
+      "number": "9.3",
+      "section": "Страница 9",
+      "condition": "Дейв расспрашивает Дэна о его городе.\nПодзадание 1.\nКакие вопросы задаёт Дейв? Что рассказывает Дэн? Как вы думаете?\n– What city are you from?\n– What is your city like?\n– Is there a ... in your city?\n– Are there ... in your region?\n– I live in Edinburgh.*\n– It’s ...\n– Yes, there is. There is ...\n– Yes, there are. There are ...",
+      "solution": "Dave: What city are you from? – Из какого ты города?\nDan: I live in Edinburgh. – Я живу в Эдинбурге.\nDave: What is your city like? – Дейв: Твой город какой он?\nDan: It's a big and beautiful city. There are many wonderful places there – Это большой и красивый город. Там много прекрасных мест.\nDave: Is there a zoo in your city? – В твоём городе есть зоопарк?\nDan: Yes, there is. There is a big zoo in our city. There are many funny animals there – Да, есть. В нашем городе есть большой зоопарк. Там много забавных животных.\nDave: Are there any mountains in your region? – В твоём регионе есть какие-нибудь горы?\nDan: Yes, there are. There are many mountains in my region. I like my city very much. – Да, есть. В моём регионе много гор. Я очень люблю мой город.\nПодзадание 2.\nWhat is Dan telling Dave about his city? – Что рассказывает Дэн Дейву о своём городе?\nregion [ʻri:ʤǝn] – регион\nlong [lɒƞ] – длинный\na lot of – много, множество\na place [pleɪs] – место\nvery much – очень\nПеревод:\n– Из какого вы города?\n– На что похож ваш город?\n– Есть ли в вашем городе ... ?\n– Есть ли ... в вашем регионе?\n– Я живу в Эдинбурге.*\n– Это ...\n– Да, есть. Есть ...\n– Да, есть. Есть ...",
+      "answer": "very much – очень",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-9/"
+    },
+    {
+      "number": "10.4",
+      "section": "Страница 10",
+      "condition": "Дейв написал стишок о своём городе.\nПодзадание 1.\nWhat questions will you ask Dave about his city? – Какие вопросы вы зададите Дейву о его городе?",
+      "solution": "Do you like your city? – Тебе нравится твой город?\nIs there a big school in your city? – Школа в твоём городе большая?\nAre there museums in your city? – В твоем городе есть музеи?\nWhat is your favorite place in the city? – Какое твое любимое место в городе?\nПодзадание 2.\nWhat are the colours of his town? (Reader ex. 2) – Какие цвета у его города?\nred – красный, black – черный, green – зеленый, brown – коричневый\nПодзадание 3.\nWhat are the colours of your city / town / village? – Какие цвета вашего города / поселковой зоны / деревни?\nMy city is of different colors. It can be green, yellow, gray and black. But my city is always very beautiful. – Мой город разных цветов. Он может быть зеленым, желтым, серым и черным. Но мой город всегда очень красивый.",
+      "answer": "My city is of different colors. It can be green, yellow, gray and black. But my city is always very beautiful. – Мой город разных цветов. Он может быть зеленым, желтым, серым и черным. Но мой город всегда очень красивый.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-10/"
+    },
+    {
+      "number": "10.5",
+      "section": "Страница 10",
+      "condition": "In your culture. Представьте, что вы рассказываете Энн, Дейву, Кейт или Дэну о своём городе/селе/крае.\nWhat is your city / town / village like? – На что похож ваш город / поселок / деревня?\nI live in ... .\nIt is ... .\nThere is ... .\nIt is ... .\nThere are ... .\nThey are ... .\nI like ... .",
+      "solution": "I live in Novgorod. It is a big and beautiful city. There is a river in my city. She is very beautiful. There are many museums in my city. There are many wonderful places there. I love my city.\nПеревод:\nЯ живу в Новгороде. Это большой и красивый город. В моем городе есть река. Она очень красивая. В моем городе много музеев. Там много замечательных мест. Я люблю свой город.",
+      "answer": "I live in Novgorod. It is a big and beautiful city. There is a river in my city. She is very beautiful. There are many museums in my city. There are many wonderful places there. I love my city.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-10/"
+    },
+    {
+      "number": "11.1",
+      "section": "Страница 11",
+      "condition": "Энн, Дейв, Кейт и Дэн рассказывают о том, что им нравится в их родных\nместах.\nПодзадание 1.\nWhat do they like? – Что им нравится?",
+      "solution": "[еi]\nthe lake – озеро\nthe cave – пещера\nthe stadium – стадион\nthe station – станция\n[æ]\nthe flag – флаг\ncandy – конфета\nthe summer camps – летние лагеря\nThey like the lake, the cave, the stadium, the station, the flag, a candy and the summer camps. – Им нравятся озеро, пещера, стадион, вокзал, флаг, конфеты и летние лагеря.\nПодзадание 2.\nБуква Аа рассказывает, как ее прочитать.\nПочему она произносится как [еɪ] и [æ]. Прочитайте памятку на с. 12 и сверь с правилом.\nA is my name,\nTwo sounds I make,\n[ᴂ] is in flag,\n[ei] is in lake.\nReading Rules The letter Aa\nв открытом слоге [ei] lake\nв закрытом слоге [ᴂ] flag\nНо: have [hᴂv], many [‘meni]",
+      "answer": "Но: have [hᴂv], many [‘meni]",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-11/"
+    },
+    {
+      "number": "12.2",
+      "section": "Страница 12",
+      "condition": "In your culture. – В вашей культуре\nПодзадание 1.\nО чём рассказывают дети из России, когда они говорят о своей стране.\n[ei]\nlakes\ntales\ngames\nfavourite places\nparades\n[ᴂ]\nthe flag\nthe capital\nchampions\npancakes",
+      "solution": "They are talking about lakes, tales, games, favourite places, parades, the flag, the capital, champions, pancakes – Они говорят об озёрах, сказках, играх, любимых местах, парадах, флаге, столице, чемпионах, блинчиках.\nПодзадание 2.\nWhat animals and birds you can see in your region? (AB ex. 1) – Каких животных и птиц Вы можете увидеть в своём регионе? (AB ex. 1)\nЭто задание нужно выполнить в рабочей тетради.",
+      "answer": "Это задание нужно выполнить в рабочей тетради.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-12/"
+    },
+    {
+      "number": "13.4",
+      "section": "Страница 13",
+      "condition": "Энн, Дейв и Кейт рассказывают об известных местностях и вещах в своих странах.\nПодзадание 1.\nWhat are they talking about? О чём они говорят?\nThe Lake District!*\nThe Lake District is a fantastic place!\nThe Lake District is my favourite place.\nBaseball!*\nBaseball is my favourite game.\nI like playing baseball in a nice cap and\nwith a good bat.\nMy summer camp!\nMy summer camp is a fantastic place.\nMy summer camp is near the lake in Wales.*",
+      "solution": "Children like the Lake District because it's a fantastic place. – Детям нравится Озерный край, потому что это фантастическое место.\nChildren like baseball because it's a very interesting game. They may play baseball in nice caps and with good bats. – Детям нравится бейсбол, потому что это очень интересная игра. Они могут играть в бейсбол в красивых кепках и с хорошими битами.\nChildren like the summer camp because it is a fantastic place. It is near the lake in Wales. – Детям нравится летний лагерь, потому что это фантастическое место. Это недалеко от озера в Уэльсе.\nПеревод:\nОзерный край!*\nОзерный край – фантастическое место!\nОзерный край – мое любимое место.\nБейсбол!*\nБейсбол – моя любимая игра.\nМне нравится играть в бейсбол в красивой кепке и\nс хорошей битой.\nМой летний лагерь!\nМой летний лагерь – фантастическое место.\nМой летний лагерь находится недалеко от озера в Уэльсе.*\nПодзадание 2.\nWhy do the children like them? – Почему они нравятся детям?",
+      "answer": "Children like the summer camp because it is a fantastic place. It is near the lake in Wales. – Детям нравится летний лагерь, потому что это фантастическое место. Это недалеко от озера в Уэльсе.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-13/"
+    },
+    {
+      "number": "14.1",
+      "section": "Страница 14",
+      "condition": "Эни и её друзья любят проводить время в парке.\nПодзадание 1.\nWhat does Ann like doing? – Чем любит заниматься Энн?",
+      "solution": "Ann likes reading tales. – Эни любит читать сказки.\nПодзадание 2.\nWhat do Tom and Ted like doing? – Чем любят заниматься Том и Тед?\nTom and Ted like playing games. – Том и Тед любят играть в игры.\nAnn: I like reading tales. I’d like to read Alice’s Adventures in Wonderland.*\nTom: I like playing games. Do you like playing games?\nTed: Yes, I do. My favourite game is catch. It is great!\nDan: One potato ... .\nПеревод:\nЭнн: Я люблю читать сказки. Я бы хотела прочитать \"Приключения Алисы в стране чудес\".*\nТом: Я люблю играть в игры. А ты любишь играть в игры?\nТед: Да, люблю. Моя любимая игра – в догонялки. Это здорово!\nДэн: Одна картофелина... .",
+      "answer": "Dan: One potato ... .",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-14/"
+    },
+    {
+      "number": "15.1",
+      "section": "Страница 15",
+      "condition": "Ксения Кудряшева\nПодзадание 3.\nWhat do other children like doing? – Чем любят заниматься другие дети?\nSam likes skateboarding.\nroller skating\nplaying tag*\ngoing on rides\nplaying badminton\nsinging songs\nskateboarding",
+      "solution": "Steve likes roller skating. – Стив любит кататься на роликовых коньках.\nMark and Dave like playing tag. – Марку и Дэйву нравится играть в пятнашки. Mark likes going on rides. – Марку нравится кататься на аттракционах.\nNora and Ada like playing badminton. – Нора и Ада любят играть в бадминтон.\nPat and Nancy like singing songs. – Пэт и Нэнси любят петь песни.\nSam likes skateboarding. – Сэму нравится кататься на скейтборде.",
+      "answer": "Sam likes skateboarding. – Сэму нравится кататься на скейтборде.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-15/"
+    },
+    {
+      "number": "16.4",
+      "section": "Страница 16",
+      "condition": "Pair work. What do your classmates like doing? – Работа в парах. Что ваши одноклассники любят делать?\n– Do you like watching TV?\n– Yes, I do.\n– What is your favourite programme [‘prəυgrᴂm]?\n– My favourite programme is ... . And do YOU ...? And what is YOUR ...?\nreading tales\nsinging songs\nplaying sports\nplaying games",
+      "solution": "– Do you like to read fairy tales? – Любишь ли ты читать сказки?\n– Yes. – Да\n– What is your favorite fairy tale? – Какая твоя любимая сказка?\nMy favorite fairy tale \"Pinocchio\" And yours? – Моя любимая сказка \"Буратино\". А твоя?\nI like the fairy tale \"The Wizard of Oz\", – Мне нравится сказка \"Волшебник изумрудного города\".\n– Do you like to sing songs? – Вам нравится петь песни?\n– Yes. – Да.\nWhat's your favorite song? – Какая твоя любимая песня?\n– My favorite song \"When my friends are with me\" And yours? – Моя любимая песня \"Когда мои друзья со мной\"? А твоя?\n– I like this song too. – Мне тоже нравится эта песня.\nDo you like to play sports? – Вам нравится заниматься спортом?\n– Yes. – Да\n– What is your favorite sport? – Какой твой любимый вид спорта?\n– My favorite sport football And yours? – Мой любимый вид спорта футбол. А товой?\nMy favorite sport is swimming. – Мой любимый вид спорта плавание.\n– Do you like playing games? – Тебе нравится играть в игры?\n– Yes. – Да\n– What is your favorite game? – Какая твоя любимая игра?\n– My favorite game checkers. And yours? – Моя любимая игра шашки. А твоя?\n– My favorite game is chess. – Моя любимая игра шахматы.",
+      "answer": "– My favorite game is chess. – Моя любимая игра шахматы.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-16/"
+    },
+    {
+      "number": "16.5",
+      "section": "Страница 16",
+      "condition": "What do you like doing? What don't you like doing why? – Чем тебе нравится заниматься? Чем тебе не нравится заниматься? Почему?\nI like ...\nMy favourite ...\nBut I don’t like ...\nOn Sunday I'd like to ...\nt’s fantastic!\nIt’s great!\nIt’s interesting!\nIt’s fun!\nIt’s boring!\nWordbox\ninteresting [‘intrəstiŋ]  – ?\nfun [fʌn]  – веселье\nboring [‘bɔ:riŋ] – скучный\nI’d like to ... – Я хотел бы ...\nto go on rides – кататься на аттракционах",
+      "solution": "I like to play football. It is interesting. But I don't like doing homework. It's boring – Я люблю играть в футбол. Это интересно. Но я не люблю делать домашнее\ninteresting [‘intrəstiŋ]  – интересный\nПеревод:\nМне нравится ...\nМой любимый ...\nНо я не люблю ...\nВ воскресенье я бы хотела ...\nэто фантастика!\nЭто здорово!\nЭто интересно!\nЭто весело!\nЭто скучно!",
+      "answer": "interesting [‘intrəstiŋ]  – интересный",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-16/"
+    },
+    {
+      "number": "17.1",
+      "section": "Страница 17",
+      "condition": "Кейт нарисовала свою страну.\nПодзадание 1.\nWhat can you see in the picture? – Что вы видите на картинке?",
+      "solution": "I can see mountains in the picturе. – Я вижу горы на картинке.\nI can see trees in the picture. – Я вижу деревья на картинке.\nI can see rivers in the picture. – Я вижу реки на картинке.\nI can see lake in the picture. – Я вижу озеро на картинке.\nПодзадание 2.\nWhat is Kate telling us about? – О чем это Кейт нам рассказывает?\nОтметьте цифрами (1, 2, 3) последовательность рассказа.\nabout her city\nabout her country\nabout her favourite place\n1 – about her country\n2 – about her city\n3 – about her favourite place\nПодзадание 3.\nWhat are her country, city and favourite place like? - На что похожи ее страна, город и любимое место?\nI’m from Wales. Wales is a small country. There are a lot of beautiful forests, rivers, mountains and lakes in Wales. There is Mount Snowdon* in Wales. I live in Cardiff.*It is a beautiful city. There are a lot of interesting places there. My favourite place is our wonderful park. I like playing games and going on rides there. I like my country and my city very much.\nKate is from Wales. It is a small and beautiful country. She lives in Cardiff. It is a beautiful city. Her favourite place is their wonderful park.\nYes, I would like to visit Wales. It's a beautiful country. There are many interesting places there. Most of all I would like to see Loch Ness and Mount Snowdon.\nПеревод:\nabout her city – о своем городе\nabout her country – о своей стране\nabout her favourite place – о своем любимом месте\nЯ из Уэльса. Уэльс маленькая страна. Там много красивых лесов, рек, гор и озер. В Уэльсе есть гора Сноудон. Я живу в Кардиффе. Это красивый город. Там много интересных мест. Мое любимое место наш замечательный парк. Мне там нравится играть в игры и кататься на аттракционах. Мне очень нравится моя страна и мой город.\nКейт родом из Уэльса. Это маленькая и красивая страна. Она живет в Кардиффе. Это красивый город. Ее любимое место – их чудесный парк.\nПодзадание 4.\nWould you like to go to Wales? Why? Вы бы хотели... – Хотели бы вы поехать в Уэльс? Почему?\nYes, I’d like to go to Wales.\nWales is ...\nIt ...\nДа, я бы хотела посетить Уэльс. Это красивая страна. Там много интересных мест. Больше всего мне бы хотелось увидеть озеро Лох-Несс и гору Сноудон.",
+      "answer": "Yes, I would like to visit Wales. It's a beautiful country. There are many interesting places there. Most of all I would like to see Loch Ness and Mount Snowdon.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-17/"
+    },
+    {
+      "number": "18.2",
+      "section": "Страница 18",
+      "condition": "Children like singing songs about their countries. – Дети любят петь песни о своих странах.\nПодзадание 1.\nLet's sing. \"This land is your land\". – Давай споем. «Эта земля – ваша земля».\nЭто задание нужно выполнить в рабочей тетради.\nПодзадание 2.\nIn your culture. What songs about your country do you like singing? – В вашей культуре. Какие песни о вашей стране вам нравится петь?",
+      "solution": "I like to sing \"Kalinka\". – Мне нравится петь «Калинку».",
+      "answer": "I like to sing \"Kalinka\". – Мне нравится петь «Калинку».",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-18/"
+    },
+    {
+      "number": "18.3",
+      "section": "Страница 18",
+      "condition": "Role play. Вы разговариваете с зарубежным другом о странах и городах, в которых живёте.\nО чём бы вы расспросили и рассказали друг другу?\nWhat country are you from?\nI'm from...\nWhat is... like?\n... is a ... country.\nThere are ....\nYou can see ...\nWhat city are you from?\nI live in ...\nWhat is ... like?\n... is ...\nThere is ...\nThere are ...\nWhat is your favourite place in your region?\nMy favourite place is ...\nWhat do you like doing there?\nI like ... there.",
+      "solution": "– What country are you from?\n– I’m from Russia.\n– What is Russia like?\n– Russia is a very big and beautiful country.\nThere are many beautiful forests, rivers, mountains and lakes.\nYou can see many interesting places there.\n– What city are you from?\n– I live in Moscow.\n– What is Moscow like?\n– It is a beautiful city.\nThere is the Kremlin.\nThere are many interesting places there.\n– What is your favourite place in your region?\n– My favourite place is the Red Square.\n– What do you like doing there?\n– I like to walk there.\nПеревод:\nИз какой вы страны?\nЯ из...\nЧто такое... нравится?\n... это... страна.\nЕсть....\nВы можете видеть ...\nИз какого вы города?\nЯ живу в...\nЧто такое... нравится?\n... это ...\nЕсть ...\nЕсть ...\nКакое ваше любимое место в вашем регионе?\nМое любимое место - это... ...\nЧто вам нравится там делать?\nМне нравится ... там.",
+      "answer": "– I like to walk there.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-18/"
+    },
+    {
+      "number": "18.5",
+      "section": "Страница 18",
+      "condition": "All about me. \"My country\". No. 2. No. 2 – Все обо мне. \"Моя страна\". № 2. № 2",
+      "solution": "My country\nI'm from Moscow. My country is Russia. There are a lot of attractions. I live in the capital of the country. It is a beautiful city. In my region, you can see a lot of parks, squares and schools. My favourite place is Red Square. I like walking and watching parades there.\nПеревод:\nМоя страна\nЯ из Москвы. Моя страна – Россия. Здесь много\nдостопримечательностей. Я живу в столице страны. Это прекрасный город. В моем районе можно увидеть множество парков, скверов и школ. Мое любимое место Красная площадь. Я люблю гулять и смотреть парады там.",
+      "answer": "I'm from Moscow. My country is Russia. There are a lot of attractions. I live in the capital of the country. It is a beautiful city. In my region, you can see a lot of parks, squares and schools. My favourite place is Red Square. I like walking and watching parades there.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-18/"
+    },
+    {
+      "number": "18.6",
+      "section": "Страница 18",
+      "condition": "Project. \"My Region\". ! No. 3 – Проект. \"Мой регион\". ! № 3",
+      "solution": "I'm from Moscow. My country is Russia. There are a lot of attractions. I live in the capital of the country. It is a beautiful city. In my region, you can see a lot of parks, squares and schools. There is a river and a big bridge in my region. There are a lot of trees and flowers in my region. I like my region very much.\nПеревод:\nЯ из Москвы. Моя страна – Россия. Здесь много достопримечательностей. Я живу в столице страны. Это прекрасный город. В моем регионе можно увидеть множество парков, скверов и школ. В моем регионе есть река и большой мост. В моем регионе очень много деревьев и цветов. Мне очень нравится мой регион.",
+      "answer": "I'm from Moscow. My country is Russia. There are a lot of attractions. I live in the capital of the country. It is a beautiful city. In my region, you can see a lot of parks, squares and schools. There is a river and a big bridge in my region. There are a lot of trees and flowers in my region. I like my region very much.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-18/"
+    },
+    {
+      "number": "20.1",
+      "section": "Страница 20",
+      "condition": "Kirk is from Scotland. He lives in Edinburgh. His family is big. – Кирк родом из Шотландии. Он живет в Эдинбурге. У него большая семья.\nПодзадание 1.\nWhich of his relatives are there in the picture? – Кто из его родственников изображён на картинке?\nHi, I am Kirk. I am 9. Look, my family is in the pictures.\nHere are my parents Bruce and Shirley. My father is 41 and my mother is 40.\nThis is my brother Clive. He is 11.\nThis is my sister Helen. She is 15. She is a good sister. She helps me with my lessons.\nHere are my grandparents George and Mary. He is 65 and she is 64.",
+      "solution": "The painting depicts his mother, father, sister, brother, grandmother and grandfather. – На картине изображены его мама, папа, сестра, брат, бабушка и дедушка.\nПеревод:\nПривет, я Кирк. Мне 9 лет. Смотрите, на фотографиях моя семья.\nВот мои родители Брюс и Ширли. Моему отцу 41 год, а матери 40.\nЭто мой брат Клайв. Ему 11.\nЭто моя сестра Хелен. Ей 15 лет. Она хорошая сестра. Она помогает мне с уроками.\nЭто мои бабушка и дедушка Джордж и Мэри. Ему 65, а ей 64.",
+      "answer": "The painting depicts his mother, father, sister, brother, grandmother and grandfather. – На картине изображены его мама, папа, сестра, брат, бабушка и дедушка.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-20/"
+    },
+    {
+      "number": "21.1",
+      "section": "Страница 21",
+      "condition": "Ксения Кудряшева\nWord Вох\na picture [‘piktʃə] – рисунок\nparents [‘peərənts] – родители\ngrandparents [‘grᴂndpeərənts] – дедушка и бабушка\nHow old are you? – Сколько тебе лет?\nПодзадание 2.\nHow old are Kirk and his relatives? – Сколько лет Кёрку и его родственникам?",
+      "solution": "Kirk is 9.\nHis father is forty-one.\nHis mother is forty.\nHis brother Clive is 11.\nHis sister Helen is 15.\nHis grandpa is sixty-five.\nHis grandma is sixty-four.\nПеревод:\nКирку 9 лет.\nЕго отцу сорок один.\nЕго матери сорок.\nЕго брату Клайву 11 лет.\nЕго сестре Хелен 15 лет.\nЕго дедушке шестьдесят пять.\nЕго бабушке шестьдесят четыре.\nПодзадание 3.\nLet's play. \"Numbers Games\". – Давайте играть. «Игры с числами».\nЭто задание нужно выполнить в рабочей тетради.\nLearning to learn\nЕсли спрашивают не тебя\nЕсли спрашивают не тебя, не отвлекайся от работы.\n– Представь, что все задания обращены к тебе.\n– Подумай, что бы ты ответил учителю.\n– Произнеси свой ответ шёпотом.",
+      "answer": "– Произнеси свой ответ шёпотом.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-21/"
+    },
+    {
+      "number": "22.2",
+      "section": "Страница 22",
+      "condition": "Kirk has got a friend. His name is Will. – У Кирка есть друг. Его зовут Уилл.\nHow old are Will and his relatives? – Сколько лет Уиллу и его родственникам?",
+      "solution": "Hi, I am Will. I am 10. I haven't got a big family. I have got a father, a mother and grandparents. My parents are John and Sally. My father is 41, my mother is 35. My grandpa is 59 and my grandma is 57. – Привет, я Уилл. Мне 10. У меня небольшая семья. У меня есть папа, мама и бабушка с дедушкой. Мои родители Джон и Салли. Моему отцу 41, моей матери 35 лет. Дедушке 59, а моей бабушке 57 лет.\nWill is 10. His father is forty-one. His mother is thirty-five. His grandpa is fifty-nine. His grandma is fifty-seven. – Уиллу 10 лет. Его отцу сорок один год. Его матери тридцать пять. Его дедушке пятьдесят девять. Его бабушке пятьдесят семь.",
+      "answer": "Will is 10. His father is forty-one. His mother is thirty-five. His grandpa is fifty-nine. His grandma is fifty-seven. – Уиллу 10 лет. Его отцу сорок один год. Его матери тридцать пять. Его дедушке пятьдесят девять. Его бабушке пятьдесят семь.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-22/"
+    },
+    {
+      "number": "22.3",
+      "section": "Страница 22",
+      "condition": "Кёрк беседует с новым одноклассником Филом.\nПодзадание 1.\nКакие вопросы задают Кёрк и Фил друг другу? Как они отвечают на вопросы?\n– How old are you?\n– I am 9. And my brother is 9, too. We are twins. Have you got a brother?\n– Yes, I have.\n– How old is he?\n–  He is 11.",
+      "solution": "How old are you? – Сколько тебе лет?\nI'm 10 – Мне 10.\nHave you got a sister? – У тебя есть сестра?\nYes, I have got. She is 15. And have you got a sister? – Да, есть. Ей 15. А есть ли у тебя сестра?\nNo, I haven't got a sister. But I have got a brother – Нет, сестры у меня нет. Но у меня есть брат.\nHow old is he? – Сколько ему лет?\nHe is 16. – Ему 16.\nПеревод:\n– Сколько тебе лет?\n– Мне 9. И моему брату тоже 9. Мы близнецы. У тебя есть брат?\n– Да, есть.\n– Сколько ему лет?\n– Ему 11.\nПодзадание 2.\nPair work. What relatives have you got? How old are they? Ask each other. Спросите друг друга. – Работа в парах. Какие родственники у вас есть? Спросите друг друга.",
+      "answer": "He is 16. – Ему 16.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-22/"
+    },
+    {
+      "number": "22.5",
+      "section": "Страница 22",
+      "condition": "How long can some animals live? (Reader ex. 1) – Как долго могут прожить некоторые животные? (Читать упр. 1)",
+      "solution": "Crows can live 70 years. – Crows can live 70 years.\nAlligators can live 55 years. – Аллигаторы могут жить 55 лет.\nTurtles can live 70 years. – Черепахи могут жить 70 лет.\nParrots can live 63 years. – Попугаи могут жить 63 года.\nPelicans can live 45 years. – Пеликаны могут жить 45 лет.\nMice can live for 3 years. – Мыши могут жить 3 года.\nFish live from 3 to 10 years – P Рыбы живут от 5 до 10 лет.\nCats can live for 17 years. – Кошки могут жить 17 лет.\nLions can live for 25 years. – Львы могут жить 25 лет.\nHorses can live 30 years. – Лошади могут жить 30 лет.",
+      "answer": "Horses can live 30 years. – Лошади могут жить 30 лет.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-22/"
+    },
+    {
+      "number": "22.8",
+      "section": "Страница 22",
+      "condition": "All about me. \"My relatives\". No. 3. Reader ex. 2. No. 2 – Все обо мне. \"Мои родственники\". No. 3. Reader ex. 2. No. 2",
+      "solution": "My relatives\nI am Masha. I'm 9. My mother is 39. Her name is Olga. My father is 42. His name is Oleg. My brother is 5. His name is Nikita. My sister is 11. Her name is Natasha. My grandpa is 64. His name is Alexander. My grandma is 61. Her name is Elena.\nПеревод:\nМои родственники\nЯ Маша. Мне 9 лет. Маме 39 лет. Ее зовут Ольга. Моему отцу 42 года. Его зовут Олег. Моему брату 5 лет. Его зовут Никита. Моей сестре 11 лет. Ее зовут Наташа. Моему дедушке 64 года. Его зовут Александр. Моей бабушке 61 год. Ее зовут Елена.",
+      "answer": "I am Masha. I'm 9. My mother is 39. Her name is Olga. My father is 42. His name is Oleg. My brother is 5. His name is Nikita. My sister is 11. Her name is Natasha. My grandpa is 64. His name is Alexander. My grandma is 61. Her name is Elena.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-22/"
+    },
+    {
+      "number": "23.1",
+      "section": "Страница 23",
+      "condition": "У Кёрка есть и другие родственники.\nПодзадание 1.\nWhat are their names? – Как их зовут?\nMy aunt Kylie is twenty-eight. She has got twins. They are little girls. They are five. Their names are Linda and Liz. They like birds. Liz likes singing. Linda can ride a bicycle.",
+      "solution": "Their names are Linda, Liz and Kylie – Их имена Линда, Лиз и Кайли.\nПодзадание 2.\nПочему буквы Ii и Уу читаются по-разному?\nПрочитайте памятку на с. 12.\nПодзадание 3.\nБуквы Іі и Уу рассказывают, как они читаются.\nСверьте с правилом, правильно ли вы их поняли.\nВ открытом слоге буквы I и У читаются как звук [аi].\nВ закрытом слоге буквы I и у читаются как звук [i].\nВ сочетании іг буква 1 читается как звук [ з: ].\nВ безударном положении буквы I и Y читаются как звук [i].\nПодзадание 4.\nRead the text about Kirk’s aunt and her children aloud. – Прочитайте вслух текст о тете Кирка и ее детях.\nПеревод:\nМоей тёте Кайли двадцать восемь лет. У неё есть близнецы. Это маленькие девочки. Ин пять. Их имена Линда и Лиз. Им нравятся птицы. Лиз любит петь. Линда умеет кататься на велосипеде.",
+      "answer": "Read the text about Kirk’s aunt and her children aloud. – Прочитайте вслух текст о тете Кирка и ее детях.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-23/"
+    },
+    {
+      "number": "24.2",
+      "section": "Страница 24",
+      "condition": "Кёрк любит читать книги.\nWhat does he like reading about? – О чём он любит читать?\nKirk likes reading books about ...",
+      "solution": "Kirk likes reading books about tricks.\nKirk likes reading books about fishing.\nKirk likes reading books about ships.\nKirk likes reading books about fifty wiches.\nKirk likes reading books about Kittens.\nKirk likes reading books about lions.\nKirk likes reading books about tigers.\nKirk likes reading books about pirates.\nKirk likes reading books about Hyde Park.\nKirk likes reading books about birds.\nKirk likes reading books about circus.\nПеревод:\nКёрку нравится читать книги о фокусах.\nКёрку правится читать книги о рыбалке.\nКёрку нравится читать книги о кораблях.\nКёрку нравится читать книги о пятидесяти колдуньях.\nКёрку нравится читать книги о котятах.\nКёрку нравится читать книги о львах.\nКёрку нравится читать книги о тиграх.\nКёрку нравится читать книги о пиратах.\nКёрку нравится читать книги о Гайд-парке.\nКёрку нравится читать книги о птицах.\nКёрку нравится читать книги о цирке.",
+      "answer": "Kirk likes reading books about circus.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-24/"
+    },
+    {
+      "number": "25.6",
+      "section": "Страница 25",
+      "condition": "What tales did Will write? (AB ex. 1). No. 4 – Какие рассказы написал Уилл?",
+      "solution": "Thirty-three Wise Rhinos – Тридцать три мудрых носорога\nА Tiny Girl – Крошечная девочка\nKites in the Sky – Воздушные змеи в небе\nA Rich Prize – Ценный приз",
+      "answer": "A Rich Prize – Ценный приз",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-25/"
+    },
+    {
+      "number": "26.1",
+      "section": "Страница 26",
+      "condition": "У Кёрка есть и его друзей разные занятия.\nПодзадание 1.\nWhat do they do during the day? - Что они делают в течение дня?\nI go to school every day. I often ride a bicycle to school. My friends sometimes come to my place after school. We usually watch films. We always play on the computer and watch cartoons.",
+      "solution": "Kirk goes to school. He often rides a bicycle to school. His friends come to his place; they play on the computer, watch cartoons and DVDs. – Кирк ходит в школу. Он часто ездит в школу на велосипеде. Его друзья приходят к нему; они играют на компьютере, смотрят мультики и DVD.\nПодзадание 2.\nКакие слова использует Кёрк, уточняя, как часто происходят эти действия? Где эти слова стоят в предложении?\nevery day каждый день (в конце предложения)\n..often... – часто (в начале предложения после подлежащего)\n...sometimes... – иногда (в начале предложения после подлежащего) ...usually... – обычно (в начале предложения после подлежащего)\n...always..... – всегда (в начале предложения после подлежащего)\nПодзадание 3.\nПроверьте, правильно ли вы сделали вывод. No 5.\nGRAMMAR\nI often ride a bicycle.                              ...часто...\nI usually ride a bicycle after school.    Обычно...\nHe sometimes rides a bicycle.            ...всегда...\nI ride a bicycle every day.               ...каждый день...\nПеревод:\nЯ хожу в школу каждый день. Я часто езжу на велосипеде в школу. Мои друзья иногда приходят ко мне после школы. Обычно мы смотрим DVD. Мы всегда играем на компьютере и смотрим мультфильмы.",
+      "answer": "I ride a bicycle every day.               ...каждый день...",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-26/"
+    },
+    {
+      "number": "27.2",
+      "section": "Страница 27",
+      "condition": "Друг Кёрка Уилл рассказывает о себе.\nКто из вас занимается тем же и так же часто, как и Уилл?\nI go to school every day, too.\nI go to school every day.\nI often watch cartoons.\nI often play computer games.\nI always help my mother.\nI watch TV every day.\nI usually swim in the river.\nI always play sports.\nI sometimes skate.",
+      "solution": "I often watch cartoons, too. – Я тоже часто смотрю мультики.\nI often play computer games, too. – Я тоже часто играю в компьютерные игры.\nI always help my mother, too. – Я тоже всегда помогаю маме.\nI watch TV every day, too. – Я тоже смотрю телевизор каждый день.\nI usually swim in the river, too. – Я тоже обычно плаваю в реке.\nI always play sports, too. – Я тоже всегда занимаюсь спортом.\nI sometimes skate, too. – Я тоже иногда катаюсь на коньках.\nWord box\nafter [‘a:ftə] – после\nevery day [‚evri  ‘dei] – каждый день\noften [‘ɒfn] – часто\nsometimes [‘sʌmtaɪmz] – иногда\nusually [‘ju:ʒʊəlɪ] – обычно\nalways [‘ɔ:lweɪz] – всегда\na cartoon [ka:ʻtu:n] – мультфильм\nПеревод:\nЯ тоже хожу в школу каждый день.\nЯ хожу в школу каждый день.\nЯ часто смотрю мультфильмы.\nЯ часто играю в компьютерные игры.\nЯ всегда помогаю маме.\nЯ каждый день смотрю телевизор.\nЯ обычно плаваю в реке.\nЯ всегда занимаюсь спортом.\nИногда я катаюсь на коньках.",
+      "answer": "a cartoon [ka:ʻtu:n] – мультфильм",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-27/"
+    },
+    {
+      "number": "28.3",
+      "section": "Страница 28",
+      "condition": "Кёрку нравится рассказывать о своей семье, о том, чем они занимаются.\nПодзадание 1.\nWhat do Kirk and his relatives do and how often? – Что делают Кёрк и его родственники и как часто?",
+      "solution": "Kirk and Clive play games every day. – Кёрк и Клайв играют в игры каждый день.\nKirk and Clive often roller-skate. – Кёрк и Клайв часто катаются на роликах.\nKirk and Clive watch cartoons every day. – Кёрк и Клайв смотрят мультики каждый день.\nKirk and Clive sometimes watch DVD. – Кёрк и Клайв иногда смотрят DVD.\nKirk and Clive always help their mother. – Кёрк и Клайв всегда помогают своей матери.\nKirk and Clive sometimes play football. –  Кёрк и Клайв иногда играют в футбол.\nKirk and Clive go to school every day. – Кёрк и Клайв ходят в школу каждый день.\nHelen often plays games. – Хелен часто играет в игры.\nHelen sometimes roller-skates. – Хелен иногда катается на роликах.\nHelen watches cartoons every day. – Хелен смотрит мультики каждый день.\nHelen often watches DVD. – Хелен часто смотрит DVD.\nHelen helps her mother every day. – Хелен помогает матери каждый день.\nHelen goes to school every day. – Хелен ходит в школу каждый день.\nTheir mother often watches cartoons. – Их мама часто смотрит мультики.\nTheir mother often watches DVD. – Их мама часто смотрит DVD.\nПодзадание 2.\nWhat do Kirk and his relatives do together? – Что Këрк и eгo родственники делают вместе?\nKirk and his relatives play games together – Кёрк и его родственники вместе играют в игры.\nKirk and his relatives watch cartoons together – Кёрк и его родственники вместе смотрят мультики.",
+      "answer": "Kirk and his relatives watch cartoons together – Кёрк и его родственники вместе смотрят мультики.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-28/"
+    },
+    {
+      "number": "28.4",
+      "section": "Страница 28",
+      "condition": "Kirk is talking about Clive. – Кёрк говорит о Клайве.\nWhat new things did you learn about Clive? – Что нового вы узнали о Клайве?",
+      "solution": "He likes the computer and sports. He plays football and roller-skates. In summer he often swims in the river. He plays computer games every day. But not all day long. He always helps his mother. He likes reading. He reads tales every day.\nПеревод:\nЕму нравится компьютер и спорт. Он играет в футбол и катается на роликах. Летом часто плавает в реке. Он каждый день играет в компьютерные игры. Но не весь день. Он всегда помогает матери. Он любит читать. Он читает сказки каждый день.",
+      "answer": "He likes the computer and sports. He plays football and roller-skates. In summer he often swims in the river. He plays computer games every day. But not all day long. He always helps his mother. He likes reading. He reads tales every day.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-28/"
+    },
+    {
+      "number": "29.5",
+      "section": "Страница 29",
+      "condition": "Pair work. Чем вы занимаетесь в свободное время?\nВыясните, как часто ваши одноклассники проводят время таким образом.\n– Do you often play sports?\n– Yes, I do. I play sports every day.\n– No, I don’t. I sometimes play football.\nswim in the river\nlisten to music\nplay sports\nplay football\nsing songs\nplay “Indians* and Pirates”\nread tales\nwatch TV\nwatch cartoons",
+      "solution": "– Do you often swim in the river? – Ты часто купаешься в реке?\n– Yes, I do. I swim in the river every day. – Да. Я плаваю в реке каждый\nдень.\n– No, I don't. I usually swim in the lake. – Нет. Я обычно купаюсь в озере.\n– Do you always listen to music? – Ты всегда музыку слушаешь?\n– Yes, I do. I listen to music every day. – Да. Я слушаю музыку каждый\nдень.\n– No, I don't. I sometimes listen to music. – Нет. Иногда слушаю музыку.\n– Do you often play sports? – Ты часто занимаешься спортом?\n– Yes, I do. I usually play sports. – Да. Я обычно занимаюсь спортом.\n– No, I don't. I sometimes play basketball. – Нет. Иногда я играю в баскетбол.\n– Do you often play football? – Ты часто играешь в футбол?\n– Yes, I do. I play football every day. – Да. Я играю в футбол каждый день.\n– Do you often sing songs? Ты часто поёшь песни?\n– Yes, I do. I sing songs every day. – Да. Я пою песни каждый день.\n– Do you often play \"Indians\" and \"Pirates\"? – Часто ли ты играешь в «Индейцев» и «Пиратов»?\n– No, I don't. I sometimes play \"Indians\" and \"Pirates\". – Нет. Иногда я играю в «Индейцев» и «Пиратов».\n– Do you often read tales? – Часто ли ты читаешь сказки?\n– Yes, I do. I read tales every day. – Да. Я читаю сказки каждый день.\n– Do you often watch DVD? – Ты часто смотришь DVD?\n– Yes, I do. I watch DVD every day. – Да. Я смотрю DVD каждый день.\n– Do you often watch cartoons? – Ты часто смотришь мультики?\n– Yes, I do. I watch cartoons every day. – Да. Я смотрю мультики каждый день.\nПеревод:\n– Вы часто занимаетесь спортом?\n– Да, занимаюсь. Я занимаюсь спортом каждый день.\n– Нет, не занимаюсь. Иногда я играю в футбол.\nплавать в реке\nслушать музыку\nзаниматься спортом\nиграть в футбол\nпеть песни\nиграть в “Индейцев и пиратов”\nчитать сказки\nсмотреть телевизор\nсмотреть мультфильмы",
+      "answer": "– Yes, I do. I watch cartoons every day. – Да. Я смотрю мультики каждый день.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-29/"
+    },
+    {
+      "number": "29.8",
+      "section": "Страница 29",
+      "condition": "All about me. \"What I do every day\". No. 4. Reader ex. 6. No. 2 – Все обо мне. \"Что я делаю каждый день\". No. 4. Reader ex. 6. No. 2",
+      "solution": "My everyday activities.\nI go to school every day. I often go to the cinema. Sometimes I go to the swimming pool with my mum. I usually do sports.\nПеревод:\nМоя повседневная деятельность.\nЯ хожу в школу каждый день. Я часто хожу в кино. Иногда я хожу в бассейн с мамой. Обычно я занимаюсь спортом.",
+      "answer": "I go to school every day. I often go to the cinema. Sometimes I go to the swimming pool with my mum. I usually do sports.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-29/"
+    },
+    {
+      "number": "30.1",
+      "section": "Страница 30",
+      "condition": "Кёрк и его друзья часто обсуждают, чем в их семьях занимаются в свободное время.\nПодзадание 1.\nWhat do Kirk and his brother like doing? – Чем любят заниматься Кёрк и его брат?\nTim: Do you play sports?\nKirk: Yes, I do.\nTim: Where do you play sports?\nKirk: At school. After school I play games with my brother. We always have fun.\nTim: What games do you play?\nKirk: Computer games and football.",
+      "solution": "Тим задаёт специальные вопросы. Предложения он начинает со слов do, where, what. Порядок слов в вопросительных предложениях: Вспомогательное слово/частица, подлежащее, сказуемое.\nПодзадание 3.\nПроверьте, правильно ли вы сделали вывод. No. 5\nПеревод:\nТим: Ты занимаешься спортом?\nКирк: Да, я занимаюсь.\nТим: Где ты занимаешься спортом?\nКирк: В школе. После школы я играю в игры со своим братом. Нам всегда весело.\nТим: В какие игры ты играешь?\nКирк: Компьютерные игры и футбол.\nWord box\nwhere [weə] – где\nwhat [wɒt] games – (в) какие игры\nto  have fun – веселиться, развлекаться\nПодзадание 2.\nКакие вопросы задаёт Тим? С каких слов он начинает вопросительные предложения? Какой порядок слов в вопросительных предложениях?",
+      "answer": "Проверьте, правильно ли вы сделали вывод. No. 5",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-30/"
+    },
+    {
+      "number": "31.2",
+      "section": "Страница 31",
+      "condition": "Кёрк беседует со своим приятелем Тимом.\nПодзадание 1.\nWhat are they talking about? – O чëм они говорят?\nНайдите вопросы Кёрка и ответы Тима.\n– Where do you roller-skate?\n– How often do you watch TV?\n– Why do you watch TV every day?\n– The Sims.\n– My toys.\n– Where do you swim?\n– What do you like painting?\n– In the lake.\n– Every day.\n– What games do you play?\n– What sports do you play?\n– It's interesting!\n– Near our house.",
+      "solution": "– Where do you roller-skate? – Где ты катаешься на роликах?\n– Near our house. – Рядом с нашим домом.\n– How often do you watch TV? – Как часто ты смотришь телевизор?\n– Every day. – Каждый день.\n– Why do you watch TV every day? – Почему ты каждый день смотришь телевизор?\n– It's interesting! – Это интересно!\n– What games do you play? – В какие игры ты играешь?\n– The Sims. – Симс.\n– Where do you swim? – Где ты плаваешь?\n– In the lake. – В озере.\n– What do you like painting? – Что ты любишь рисовать?\n– My toys. – Мои игрушки.\n– What sports do you play? – Какими видами спорта ты занимаешься?\nПодзадание 2.\nНа какой вопрос нет ответа? Ответьте на этот вопрос.\n– What sports do you play? Какими видами спорта ты занимаешься?\n– I do swimming. Я занимаюсь плаванием.\nПодзадание 3.\nWhat else does Kirk ask Tim about? – О чём ещё Кёрк спрашивает Тима? (АВ ех. 1)\nЭто задание нужно выполнить в рабочей тетради.",
+      "answer": "Это задание нужно выполнить в рабочей тетради.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-31/"
+    },
+    {
+      "number": "32.3",
+      "section": "Страница 32",
+      "condition": "В гостях у Кёрка его друзья становятся участниками семейных развлечений.\nО чём бы вы спросили Кёрка, чтобы узнать об этих развлечениях?",
+      "solution": "What does your family usually play? Во что обычно играет твоя семья?\nWhen does your family usually play? Когда твоя семья обычно играет?\nWhere does your family usually play? Где обычно играет твоя семья?\nWhy does your family usually play? Почему твоя семья обычно играет?\nHow often does your family usually play? Как часто твоя семья обычно играет?\nWhat games does your family usually play? В какие игры обычно играет твоя семья?\nWhat sports does your family usually play? Какими видами спорта обычно занимается твоя семья?\nWhen does your family usually play games? Когда твоя семья обычно играет в игры?\nWhere does your family usually play games? Где твоя семья обычно играет в игры?\nWhy does your family usually play games? Почему твоя семья обычно играет в игры?\nHow often does your family usually play games? Как часто твоя семья обычно играет в игры?\nWhen does your family usually watch TV? Когда твоя семья обычно смотрит телевизор?\nWhere does your family usually watch TV? Где твоя семья обычно смотрит телевизор?\nWhy does your family usually watch TV? Почему твоя семья обычно смотрит телевизор?\nHow often does your family usually watch TV? Как часто твоя семья обычно смотрит телевизор?\nWhat does your family usually paint? Что обычно рисует твоя семья?\nWhen does your family usually paint? Когда твоя семья обычно рисует?\nWhere does your family usually paint? Где твоя семья обычно рисует?\nWhy does your family usually paint? Почему твоя семья обычно рисует?\nHow often does your family usually paint? Как часто твоя семья обычно рисует?\nWhen does your family usually swim? Когда твоя семья обычно плавает?\nWhere does your family usually swim? Где обычно плавает твоя семья?\nWhy does your family usually swim? Почему твоя семья обычно плавает?\nHow often does your family usually swim? Как часто твоя семья обычно плавает?\nWhen does your family usually play football? Когда твоя семья обычно играет в футбол?\nWhere does your family usually play football – Где твоя семья обычно играет в футбол?\nWhy does your family usually play football? Почему твоя семья обычно играет в футбол?\nHow often does your family usually play football? Как часто твоя семья обычно играет в футбол?\nWhen does your family usually play sports? Когда твоя семья обычно занимается спортом?\nWhere does your family usually play sports? Где твоя семья обычно занимается спортом?\nWhy does your family usually play sports? Почему твоя семья обычно занимается спортом?\nHow often does your family usually play sports? Как часто твоя семья обычно занимается спортом?\nWhen does your family usually watch DVD? Когда твоя семья обычно смотрит DVD?\nWhere does your family usually watch DVD? Где твоя семья обычно смотрит DVD?\nWhy does your family usually watch DVD? Почему твоя семья обычно смотрит DVD?\nHow often does your family usually watch DVD? Как часто твоя семья обычно смотрит DVD?\nWhat does your family usually do on Sundays? Чем обычно занимается твоя семья по воскресеньям?\nWhat do you usually play? Во что ты обычно играешь?\nWhen do you usually play? Когда ты обычно играешь?\nWhere do you usually play? Где ты обычно играешь?\nWhy do you usually play? Почему ты обычно играешь?\nHow often do you usually play? Как часто ты обычно играешь?\nWhat games do you usually play? В какие игры ты обычно играешь?\nWhat sports do you usually play? Какими видами спорта ты обычно занимаешься?\nWhen do you usually play games? Когда ты обычно играешь в игры?\nWhere do you usually play games? Где ты обычно играешь в игры?\nWhy do you usually play games? Почему ты обычно играешь в игры?\nHow often do you usually play games? Как часто ты обычно играешь в игры?\nWhen do you usually watch TV? Когда ты обычно смотришь телевизор?\nWhere do you usually watch TV? Где ты обычно смотришь телевизор?\nWhy do you usually watch TV? Почему ты обычно смотришь телевизор?\nHow often do you usually watch TV? Как часто ты обычно смотришь телевизор?\nWhat do you usually paint? Что ты обычно рисуешь?\nWhen do you usually paint? Когда ты обычно рисуешь?\nWhere do you usually paint? Где ты обычно рисуешь?\nWhy do you usually paint? Почему ы обычно рисуешь?\nHow often do you usually paint? Как часто ты обычно рисуешь?\nWhen do you usually swim? Когда ты обычно плаваешь?\nWhere do you usually swim? Где ты обычно плаваешь?\nWhy do you usually swim? Почему ты обычно плаваешь?\nHow often do you usually swim? Как часто ты обычно плаваешь?\nWhen do you usually play football? Когда ты обычно играешь в футбол?\nWhere do you usually play football? Где ты обычно играешь в футбол?\nWhy do you usually play football? Почему ты обычно играешь в футбол?\nHow often do you usually play football? Как часто ты обычно играешь в футбол?\nWhen do you usually play sports? Когда ты обычно занимаешься спортом?\nWhere do you usually play sports? Где ты обычно занимаешься спортом?\nWhy do you usually play sports? Почему ты обычно занимаешься спортом?\nHow often do you usually play sports? Как часто вы обычно занимаетесь спортом?\nWhen do you usually watch DVD? Когда ты обычно смотришь DVD?\nWhere do you usually watch DVD? Где ты обычно смотришь DVD?\nWhy do you usually watch DVD? Почему ты обычно смотришь DVD?\nHow often do you usually watch DVD? Как часто ты обычно смотришь DVD?\nWhat do you usually do on Sundays? Что ты обычно делаешь по воскресеньям?",
+      "answer": "What do you usually do on Sundays? Что ты обычно делаешь по воскресеньям?",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-32/"
+    },
+    {
+      "number": "32.6",
+      "section": "Страница 32",
+      "condition": "Знакомясь с зарубежными сверстниками, мы задаём им разные вопросы.\nКакие вопросы вы бы задали? Соберите из этих слов 4 вопросительных предложения.",
+      "solution": "Where do you live? – Где ты живёшь?\nWhat do you usually do on Sundays? – Что ты обычно делаешь по воскресеньям?\nWhat games do you like? – Какие игры тебе нравятся?\nWhat cartoons do you like? – Какие мультики тебе нравятся",
+      "answer": "What cartoons do you like? – Какие мультики тебе нравятся",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-32/"
+    },
+    {
+      "number": "33.1",
+      "section": "Страница 33",
+      "condition": "В летних лагерях на вечере знакомств дети из разных стран рассказывают о себе и своих семьях.\nПодзадание 1.\nО чём рассказывает Майкл?\nHi, I am Michael Green. I am from Great Britain. I live in Manchester.* I am eleven and I go to school .I love my parents. They always help me with my school lessons. My father is 38. His name is Richard. My mother is 36. Her name is Sally. My father and I like fishing and watching football and tennis on TV. In summer we usually go to the river and swim. I like swimming very much. We sometimes skate in winter.",
+      "solution": "Michael is talking about himself and his family. – Майкл рассказывает о себе и своей семье.\nПодзадание 2.\nНа какие вопросы ответил Майкл? (AB ex. 1)\nЭто задание нужно выполнить в рабочей тетради.\nПодзадание 3.\nRead aloud the story about Michael Green. – Прочтите вслух историю о Майкле Грине.\nЭто задание нужно выполнить самостоятельно.\nПодзадание 4.\nWhat could you tell your friends about yourself and your family? – Что бы вы могли рассказать своим друзьям о себе и своей семье? Прочитайте памятку на с. 21.\nMy name is ...\nI am ...\nI live in ...\nI like ...\nI always / often / sometimes / usually ...\nI ... every day.\nMy father / my mother is ...\nWe often / sometimes ...\nWe ... every day.\nMy name is Alisa Guk.\nI am from Russia.\nI live in Vologda. I am eight and I go to school.\nI like playing computer games.\nI often play the Sims.\nI help my parents every day.\nMy mother is 40. Her name is Inna. My father is 41. His name is Sergey.\nWe often go to the cinema.\nWe watch TV every day.\nПеревод:\nПривет, я – Майкл Грин. Я из Великобритании. Я живу в Манчестере. Мне 11 лет и я хожу в школу. Я люблю своих родителей. Они всегда помогают мне с уроками. Моему отцу 38 лет. Его зовут Ричард. Моей маме 36 лет. Её зовут Салли. Мой отец и я любим рыбалку и смотреть футбол и теннис по телевизору. Летом мы обычно ходим на речку и купаемся. Я очень сильно люблю плавать. Мы иногда катаемся зимой.\nМеня зовут Алиса Гук.\nЯ из России.\nЯ живу в Вологде.\nМне восемь лет, я хожу в школу.\nЯ люблю играть в компьютерные игры.\nЯ часто играю в игру Sims.\nЯ помогаю родителям каждый день.\nМаме 40 лет. Ее зовут Инна. Моему отцу 41 год. Его зовут Сергей.\nМы часто ходим в кино.\nМы смотрим телевизор каждый день.",
+      "answer": "We watch TV every day.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-33/"
+    },
+    {
+      "number": "34.2",
+      "section": "Страница 34",
+      "condition": "Pair work. Вы тоже можете поехать в международный детский лагерь.\nО чём бы вы расспросили своих новых друзей? Что бы вы рассказали о себе?\nHow old are ... ?\nI am ...\nHow old is ... ?\nMy father / mother is ...\nMy grandpa/my grandma is ...\nWhat is ... name?\nHis / her name is ...\nWhat ... on Sundays?\nI ... on Sundays.\nMy parents and I ... on Sundays.\nWhat games ... ?\nI like ...\nI play ...\nWhat sports ... ?\nI like ...\nI play ...",
+      "solution": "How old are you? – Сколько тебе лет?\nI аm nine. – Мне девять.\nHow old is your mother? – Сколько лет твоей маме?\nMy mother is 38.  – Моей маме 38 лет.\nWhat is your mother's name? – Как зовут твою маму?\nHer name is Elena. – Ее зовут Елена.\nHow old is your  father? – Сколько лет твоему отцу?\nMy father is 39. – Моему отцу 39 лет.\nWhat is your father's name? – Как зовут твоего отца?\nHis name is Eduard. – Его зовут Эдуард.\nWhat do you usually do on Sundays? – Что ты обычно делаешь по воскресеньям?\nI usually play computer games on Sundays. – Обычно по воскресеньям я играю в компьютерные игры.\nMy parents and I watch TV on Sundays. – Мы с родителями смотрим телевизор по воскресеньям.\nWhat games do you like to play? – В какие игры ты любишь играть?\nI like to play computer games. I play Sims. – Мне нравится играть в компьютерные игры. Я играю в Sims.\nWhat sports\n– Какими видами спорта ты любишь заниматься?\nI like to play basketball.  – Я люблю играть в баскетбол.",
+      "answer": "I like to play basketball.  – Я люблю играть в баскетбол.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-34/"
+    },
+    {
+      "number": "34.3",
+      "section": "Страница 34",
+      "condition": "All about me. \"My family and I\". No. 5. No. 2 – Проект «Моя семья и я».",
+      "solution": "My family and I.\nMy name is Nastya. I'm 9. I have got a mother and a father. My mother is 39. Her name is Olga. My father is 42. His name is Oleg. On Sundays, we visit my grandparents. We like to spend time together.\nПеревод:\nМоя семья и я.\nМеня зовут Настя. Мне 9 лет. У меня есть мать и отец. Моей маме 39 лет. Ее зовут Ольга. Моему отцу 42 года. Его зовут Олег. По воскресеньям мы навещаем моих бабушку и дедушку. Мы любим проводить время вместе.",
+      "answer": "My name is Nastya. I'm 9. I have got a mother and a father. My mother is 39. Her name is Olga. My father is 42. His name is Oleg. On Sundays, we visit my grandparents. We like to spend time together.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-34/"
+    },
+    {
+      "number": "34.4",
+      "section": "Страница 34",
+      "condition": "Project. \"My family tree\" No. 3 – Проект. \"Мое семейное древо. \"",
+      "solution": "Это задание нужно выполнить самостоятельно.",
+      "answer": "Это задание нужно выполнить самостоятельно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-34/"
+    },
+    {
+      "number": "38.1",
+      "section": "Страница 38",
+      "condition": "Бабушка и дедушка Дэна живут за городом. В загородном доме всегда много работы.\nПодзадание 1.\nVocabulary. What do they usually do there? – Лексика. Что они обычно там делают?\nmake the bed – заправлять кровать\nwash the dishes – мыть посуду\nfeed our pets – кормить своих питомцев\ngather apples – собирать яблоки\nset the table – накрывать на стол\nclean the car – мыть машину\nsweep the path(s) – подметать дорожки\ncook meals – готовить еду\ndust the furniture – протирать пыль с мебели\nwork in the garden – работать в саду",
+      "solution": "Usually they make the bed, wash the dishes, feed their pets, pick apples, set the table, wash the car, sweep the path, cook food, wipe the dust – Обычно они заправляют постель, моют посуду, кормят своих питомцев, собирают яблоки, накрывают на стол, моют машину, подметают дорожку, готовят еду, вытирают пыль.",
+      "answer": "Usually they make the bed, wash the dishes, feed their pets, pick apples, set the table, wash the car, sweep the path, cook food, wipe the dust – Обычно они заправляют постель, моют посуду, кормят своих питомцев, собирают яблоки, накрывают на стол, моют машину, подметают дорожку, готовят еду, вытирают пыль.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-38/"
+    },
+    {
+      "number": "39.1",
+      "section": "Страница 39",
+      "condition": "Ксения Кудряшева\nПодзадание 2.\nWhat do they usually do in the garden? – Что они обычно делают в саду?",
+      "solution": "They feed the pets, gather apples, clean the car, sweep the path(s) and work in the garden. – Они кормят домашних животных, собирают яблоки, моют машину, подметают дорожки и работают в саду.\nThe grandpa feeds the pets. – Дедушка кормит домашних животных.\nThe grandpa gathers apples. – Дедушка собирает яблоки.\nThe grandpa cleans the car. – Дедушка моет машину.\nThe grandpa sweeps the path(s). – Дедушка подметает дорожку (дорожки).\nThe grandpa and the grandma work in the garden. – Дедушки и бабушки работают в саду.\nПодзадание 3.\nWhat do they usually do about the house? – Что они обычно делают по дому?\nto do about the house – делать по дому\nhomework [‘həυmwɜ:k] – домашняя работа\nnever [‘nevə] – никогда\ntasty [‘teɪstɪ] – вкусный\nMum [mᴂm] – ?\nDad [dᴂd] – папа",
+      "answer": "Dad [dᴂd] – папа",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-39/"
+    },
+    {
+      "number": "39.2",
+      "section": "Страница 39",
+      "condition": "They feed the pets, gather apples, clean the car, sweep the path(s) and work in the garden. – Они кормят домашних животных, собирают яблоки, моют машину, подметают дорожки и работают в саду.\nThe grandpa feeds the pets. – Дедушка кормит домашних животных.\nThe grandpa gathers apples. – Дедушка собирает яблоки.\nThe grandpa cleans the car. – Дедушка моет машину.\nThe grandpa sweeps the path(s). – Дедушка подметает дорожку (дорожки).\nThe grandpa and the grandma work in the garden. – Дедушки и бабушки работают в саду.\nПодзадание 3.\nWhat do they usually do about the house? – Что они обычно делают по дому?\nto do about the house – делать по дому\nhomework [‘həυmwɜ:k] – домашняя работа\nnever [‘nevə] – никогда\ntasty [‘teɪstɪ] – вкусный\nMum [mᴂm] – ?\nDad [dᴂd] – папа",
+      "solution": "They make the beds, wash the dishes, set the table, cook meals and dust the furniture.\nОни застилают кровати, моют посуду, накрывают на стол, готовят еду и вытирают пыль с мебели.\nThe grandma makes the beds. – Бабушка застилает кровати.\nThe grandma washes the dishes. – Бабушка моет посуду.\nThe grandma sets the table. – Бабушка накрывает на стол.\nThe grandma cooks meals. – Бабушка готовит еду.\nThe grandma dusts the furniture. – Бабушка вытирает пыль с мебели.\nПодзадание 4.\nWhat does Dan usually do about the house when he visits his grandparents? What doesn't he do about the house? – Что Дэн обычно делает по дому, когда навещает бабушку с дедушкой? Чего он не делает по чает по дому?\nI think Dan sweeps the paths. Dan never sets the table. GS p. 78",
+      "answer": "I think Dan sweeps the paths. Dan never sets the table. GS p. 78",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-39/"
+    },
+    {
+      "number": "39.3",
+      "section": "Страница 39",
+      "condition": "They make the beds, wash the dishes, set the table, cook meals and dust the furniture.\nОни застилают кровати, моют посуду, накрывают на стол, готовят еду и вытирают пыль с мебели.\nThe grandma makes the beds. – Бабушка застилает кровати.\nThe grandma washes the dishes. – Бабушка моет посуду.\nThe grandma sets the table. – Бабушка накрывает на стол.\nThe grandma cooks meals. – Бабушка готовит еду.\nThe grandma dusts the furniture. – Бабушка вытирает пыль с мебели.\nПодзадание 4.\nWhat does Dan usually do about the house when he visits his grandparents? What doesn't he do about the house? – Что Дэн обычно делает по дому, когда навещает бабушку с дедушкой? Чего он не делает по чает по дому?\nI think Dan sweeps the paths. Dan never sets the table. GS p. 78",
+      "solution": "I think Dan sweeps the paths. Dun never sets the table. – Я думаю, Дэн подметает дорожки. Дэн никогда не накрывает на стол.\nI think he makes the bed. He never cooks meals. – Я думаю, он застилает постель. Он никогда не готовит еду.\nI think Dan washes the dishes. Dan never dusts the furniture. – Я думаю, Дэн моет посуду. Дэн никогда не вытирает пыль с мебели.\nПодзадание 5.\nListen to Dan and check. Послушайте Дэна и проверьте.",
+      "answer": "Listen to Dan and check. Послушайте Дэна и проверьте.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-39/"
+    },
+    {
+      "number": "39.4",
+      "section": "Страница 39",
+      "condition": "I think Dan sweeps the paths. Dun never sets the table. – Я думаю, Дэн подметает дорожки. Дэн никогда не накрывает на стол.\nI think he makes the bed. He never cooks meals. – Я думаю, он застилает постель. Он никогда не готовит еду.\nI think Dan washes the dishes. Dan never dusts the furniture. – Я думаю, Дэн моет посуду. Дэн никогда не вытирает пыль с мебели.\nПодзадание 5.\nListen to Dan and check. Послушайте Дэна и проверьте.",
+      "solution": "I usually help my grandma and grandpa about the house. I always make my bed and wash the dishes. I gather apples in the garden and sweep the paths there. I always feed the pets. I sometimes clean the car. I never cook meals. My grandma cooks tasty meals. I don't set the table. I don't like it. I don't dust the furniture either. It is boring.\nПеревод:\nОбычно я помогаю своим бабушке и дедушке по дому. Я всегда заправляю постель и мою посуду. Я собираю яблоки в саду и подметаю дорожки. Я всегда кормлю домашних животных. Иногда я чищу машину. Я никогда не готовлю еду. Моя бабушка готовит вкусные блюда. Я не накрываю на стол. Мне это не нравится. Я также не протираю пыль с мебели. Это скучно.\nНомер 2.\nLet's sing. \"This is the Way...\" – Давайте споем. \"Это путь...\"\nНомер 3.\nСемья Энн очень дружная. Всю работу по дому они делают вместе.\nПодзадание 1.\nWhat do the members of Ann's family usually do? – Чем обычно занимаются члены семьи Эни?\nThis is Ann and her family.\nThis is her mum.\nShe always cooks tasty meals.\nAnn helps her to cook meals.\nThis is her dad.\nHe often works in the garden.\nAnn and her sister help him to\ngather apples.\nПеревод:\nЭто Энн и ее семья.\nЭто ее мама.\nОна всегда готовит вкусные блюда.\nЭнн помогает ей готовить.\nЭто ее папа.\nОн часто работает в саду.\nЭнн и ее сестра помогают ему\nсобирать яблоки.",
+      "answer": "собирать яблоки.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-39/"
+    },
+    {
+      "number": "40.4",
+      "section": "Страница 40",
+      "condition": "In your culture. What does Neznaika do in Green Town? (AB ex. 1) – В вашей культуре. Что Незнайка делает в Грин-Тауне?",
+      "solution": "Это задание нужно сделать отдельно в рабочей тетради.",
+      "answer": "Это задание нужно сделать отдельно в рабочей тетради.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-40/"
+    },
+    {
+      "number": "40.5",
+      "section": "Страница 40",
+      "condition": "Let's play. \"Bingo\" – Давайте поиграем. \"Бинго\"",
+      "solution": "Это задание нужно выполнить самостоятельно.",
+      "answer": "Это задание нужно выполнить самостоятельно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-40/"
+    },
+    {
+      "number": "40.6",
+      "section": "Страница 40",
+      "condition": "Activity Book ex. 2, Reader ex. 1.",
+      "solution": "Это задание нужно выполнить отдельно в рабочей тетради.",
+      "answer": "Это задание нужно выполнить отдельно в рабочей тетради.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-40/"
+    },
+    {
+      "number": "41.1",
+      "section": "Страница 41",
+      "condition": "Дэн часто помогает своим бабушке и дедушке. Но он не очень любит работать по дому.\nПодзадание 1.\nIs there any work that Dan likes doing? – Есть ли такая работа, которую Дэн любит делать?\nI don’t like working about the house. I don’t like cleaning the house. I don’t like making the beds. It’s boring. I sometimes help grandpa to clean the car. But it is boring, too. But I like feeding my pet dog Pete. And I like eating tasty meals that my grandma cooks for me.",
+      "solution": "He likes feeding his pet dog Pete. – Ему нравится кормить свою собаку Пита.\nПодзадание 2.\nПочему буква Ее читается по-разному? Прочитайте памятку на с. 12.\nПравила чтения буквы Ее:\n• в открытом слоге в сочетаниях Ee, ее долгий звук [и]\n• в закрытом слоге звук [э]\nПодзадание 3.\nБуква Ее рассказывает, как она читается.\nСверьте с правилом, правильно ли вы её поняли.\nПодзадание 4.\nRead the text aloud (ex 1.1). – Прочитай текст вслух (ex 1.1).\nПеревод:\nМне не нравится работать по дому. Мне не нравится убираться в доме. Мне не нравится заправлять кровати. Это скучно. Иногда я помогаю дедушке мыть машину. Но это скучно тоже. Но мне нравится кормить мою собаку Пита. И мне нравится есть вкусные блюда, которые моя бабушка готовит для меня.",
+      "answer": "Read the text aloud (ex 1.1). – Прочитай текст вслух (ex 1.1).",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-41/"
+    },
+    {
+      "number": "42.2",
+      "section": "Страница 42",
+      "condition": "Using Dictionaгу. – Использование словаря.\nСобака Дэна (Пит) любит есть не совсем обычные для собак лакомства.\nWhat does Pete like eating? Что Пит любит есть? Найдите незнакомые слова в словаре.\n[i:]\nSteve – Стив\nЕѵа – Ева\nshe – она\nevening – вечер\n[i:]\ncheese – сыр\nsweets – сладости\ntree – дерево\ngreen – зеленый\n[i:]\nmeal – еда\ncream – крем\ntea – чай\nmeat – мясо\n[е]\nhen – курица\nсһепу – вишня\nTeddy – медвежонок\nChess – шахматы",
+      "solution": "The dog likes to eat chicken. – Собака любит есть курятину.",
+      "answer": "The dog likes to eat chicken. – Собака любит есть курятину.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-42/"
+    },
+    {
+      "number": "42.3",
+      "section": "Страница 42",
+      "condition": "Read merry tongue twisters. – Читайте веселые скороговорки. (Reader ex 2)",
+      "solution": "Это задание нужно выполнить самостоятельно.",
+      "answer": "Это задание нужно выполнить самостоятельно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-42/"
+    },
+    {
+      "number": "42.4",
+      "section": "Страница 42",
+      "condition": "Let's play. \"Alphabet Race\". Давайте играть. «Алфавитная гонка».",
+      "solution": "Это задание нужно выполнить самостоятельно.",
+      "answer": "Это задание нужно выполнить самостоятельно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-42/"
+    },
+    {
+      "number": "42.5",
+      "section": "Страница 42",
+      "condition": "Все члены дружной семьи Энн по-разному относятся к работе по дому. Guess, who says the following. – Угадайте, кому принадлежат эти высказывания.\nWhat a mess! Какой беспорядок!\nWhat a mess on her bed!\nThere is a teddy, a cherry and a pet\non her bed. What a mess!\nFeeding my pets!\nI like feeding my pets!\nI feed my pets every day.\nMy dream!  Мечта\nMy dream is sweet. Сладкая\nMy dream is a sweet clean house.\nMaking the bed?\nI don’t like making the bed.\nIt’s boring! There are cherries and chess on my bed.\nCleaning the house?\nCleaning the house every week?\nI don’t like cleaning the house every week!",
+      "solution": "Ann’s mother:\nWhat a mess!\nWhat a mess on her bed!\nThere is a teddy, a cherry and a pet on her bed. What a mess!\nПеревод:\nКакой беспорядок!\nКакой беспорядок на ее кровати!\nНа ее кровати плюшевый мишка, вишенка и домашнее\nживотное. Какой беспорядок!\nКормлю своих питомцев!\nМне нравится кормить своих питомцев!\nЯ кормлю своих питомцев каждый день.\nМоя мечта!\nМоя мечта сладка.\nМоя мечта – милый чистый дом.\nЗаправлять постель?\nЯ не люблю заправлять постель.\nЭто скучно! На моей кровати вишни и шахматы.\nУборка в доме?\nУборка в доме каждую неделю?\nМне не нравится убирать в доме каждую неделю!",
+      "answer": "There is a teddy, a cherry and a pet on her bed. What a mess!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-42/"
+    },
+    {
+      "number": "43.6",
+      "section": "Страница 43",
+      "condition": "Write it right. – Напиши это правильно.\nHelp Ann's sister to do her homework. Помогите сестре Энн сделать Номер. (АВ ех. 1)",
+      "solution": "Это задание нужно выполнить отдельно в рабочей тетради.",
+      "answer": "Это задание нужно выполнить отдельно в рабочей тетради.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-43/"
+    },
+    {
+      "number": "43.7",
+      "section": "Страница 43",
+      "condition": "All about me. \"I like helping about the house.\" No. 6. Activity ex. 2, Reader ex. 3. No 2 – Все обо мне. “Мне нравится помогать по дому”.",
+      "solution": "I like to help around the house! I always help my family. I wash dishes, sweep floors, take out the trash. I always sort out the toys on my desk and put them away.\nПеревод:\nMнe нравится помогать по дому! Я всегда помогаю своим родным. Мою посуду, подметаю полы, выношу мусор. Я всегда разбираю на своем столе и убираю игрушки на место.",
+      "answer": "I like to help around the house! I always help my family. I wash dishes, sweep floors, take out the trash. I always sort out the toys on my desk and put them away.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-43/"
+    },
+    {
+      "number": "44.1",
+      "section": "Страница 44",
+      "condition": "Дэн очень любит проводить время у бабушки. К сожалению, бабушка всегда очень занята.\nПодзадание 1.\nWhat does his grandma usually do? What did she do yesterday? – Что обычно делает его бабушка? Что она делала вчера?\nMy grandma has a lot of work to do every day. She usually cleans the house, washes the dishes and cooks tasty meals. She works in the garden, too. I sometimes help her.\nYesterday my grandma cleaned the house, washed the dishes, and cooked tasty cookies. I helped her. We worked in the garden. And we visited her friend Maggie in the evening.",
+      "solution": "She cleaned the house, washed the dishes, cookies and visited a friend. – Она убрала дом, помыла посуду, приготовила печенье и навестила подругу.\nПодзадание 2.\nКак изменяются слова, когда Дэн рассказывает о том, что они делали вчера?\nClean – cleaned – убирать – убранный\nwash – washed – мыть – постиранный\ncook – cooked – готовить – приготовленный\nhelp – helped – помогать – помогавший\nwork – worked – работать – работавший\nvisit – visited – посещать – посещенный\nПодзадание 3.\nПроверьте, правильно ли вы сделали вывод? No. 5\nПеревод:\nУ моей бабушки каждый день много работы. Обычно она убирает в доме, моет посуду и готовит вкусные блюда. Она также работает в саду. Я иногда помогаю ей.\nВчера моя бабушка убрала в доме, вымыла посуду и приготовила вкусное печенье. Я помогала ей. Мы работали в саду. А вечером навестили ее подругу Мэгги.",
+      "answer": "Проверьте, правильно ли вы сделали вывод? No. 5",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-44/"
+    },
+    {
+      "number": "45.2",
+      "section": "Страница 45",
+      "condition": "What does Cinderella do every day? What did she do yesterday? Что она делала вчера? (АВ ех. 1)",
+      "solution": "Это задание нужно выполнить отдельно в рабочей тетради.",
+      "answer": "Это задание нужно выполнить отдельно в рабочей тетради.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-45/"
+    },
+    {
+      "number": "45.3",
+      "section": "Страница 45",
+      "condition": "На прошлой неделе семья Дейва организовала барбекю у себя в саду.\nПодзадание 1.\nWhat did the members of the family and their pets do? – Что делали члены семьи и домашние животные?\nThe grandpa\nThe grandma\nThe father\nThe mother\nDave\nHis brother\nThe dog\ncleaned the vegetables\ncooked the meat\nwashed the dishes\nchased the cat\nwatched the dog\ncleaned the garden\nplayed football\nclimbed the trees",
+      "solution": "The grandpa cleaned the vegetables.\nThe grandma cooked the meat.\nThe father washed the dishes.\nThe mother cleaned the garden.\nDave played football.\nHis brother watched the dog.\nThe dog climbed the trees.\nЭто задание нужно выполнить отдельно в рабочей тетради.\nПодзадание 3.\nДейв помогал всем.\nWho did he help? What did he do? – Кому он помогал? Что он делал?\nThe mother cleaned the vegetables. Dave helped her to ...\nThe grandma cleaned the vegetables. Dave helped her to clean the vegetables.\nThe father cooked the meat. Dave helped him to cook the meat. The mother washed the dishes. Dave helped her to wash the dishes. The father cleaned the garden. Dave helped him to clean the garden.\nПеревод:\nДедушка чистил овощи.\nБабушка готовила мясо.\nОтец мыл посуду.\nМать убирала в саду.\nДэйв играл в футбол.\nЕго брат присматривал за собакой.\nСобака лазила по деревьям.\nПодзадание 2.\nListen to Dave and check. (AВ ех. 2)\nБабушка чистила овощи. Дэйв помог ей очистить овощи. Отец приготовил мясо. Дэйв помог ему приготовить мясо. Мать мыла посуду. Дэйв помог ей мыть посуду.\nОтец убрал сад. Дэйв помог ему убрать сад.",
+      "answer": "The father cooked the meat. Dave helped him to cook the meat. The mother washed the dishes. Dave helped her to wash the dishes. The father cleaned the garden. Dave helped him to clean the garden.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-45/"
+    },
+    {
+      "number": "46.4",
+      "section": "Страница 46",
+      "condition": "Have you ever been on a picnic? What did you do there? – Вы когда-нибудь выезжали на пикник? Что вы там делали?\nLast week / Last Sunday ...\nMy father ...\nI helped him to ...\nMy mother ...\nI ...\nWe ...\nI liked ...",
+      "solution": "My father was putting together the tent. I helped him set up the tent. My mother fried barbecue. I collected firewood. We had a great time. I liked the picnic.\nПеревод:\nМой отец собирал палатку. Я помог ему поставить палатку. Моя мама жарила барбекю. Я собирал дрова. Мы прекрасно провели время. Мне понравился пикник.",
+      "answer": "My father was putting together the tent. I helped him set up the tent. My mother fried barbecue. I collected firewood. We had a great time. I liked the picnic.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-46/"
+    },
+    {
+      "number": "46.5",
+      "section": "Страница 46",
+      "condition": "Activity Book ex. 3, Reader ex. 4",
+      "solution": "Это задание нужно выполнить отдельно в рабочей тетради.\nWord box\nmeat – мясо\nvegetable [‘veʤtɔbl] – овощ\nto visit – навещать, посещать",
+      "answer": "to visit – навещать, посещать",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-46/"
+    },
+    {
+      "number": "48.2",
+      "section": "Страница 48",
+      "condition": "В семье Энн каждый год отмечают День матери.\nWhat do they usually do on Mother's Day? What did they do last year? – Что они обычно делают в День матери? Что они делали в прошлом году? Разделите предложения на два рассказа.\nWe set the table.\nMy sister set the table.\nWe have a fantastic dinner.\nWe ate taste vegetables.\nWe gave gifts to our Mum.\nWe give gifts to our Mum.\nWe sang a song for her.\nWe paint beautiful pictures for her.\nWe wrote a poem for her.\nOur mother is happy.\nWe were happy.",
+      "solution": "They usually set the table.\nThey usually have a fantastic dinner.\nThey usually give gifts to our Mum.\nThey usually sing merry songs for her.\nThey usually paint beautiful pictures for her.\nTheir mother is usually happy.\nMy sister set the table last year.\nWe cooked a wonderful dinner last year.\nWe ate tasty vegetables last year.\nWe gave gifts to our Mum last year.\nWe sang a song for her last year.\nWe wrote a poem for her last year.\nWe were happy last year.\nПеревод:\nОни обычно накрывают на стол.\nУ них обычно получается потрясающий ужин.\nОни обычно дарят подарки нашей маме.\nОни обычно поют для нее веселые песни.\nОни обычно рисуют для нее красивые картины.\nИх мама обычно счастлива.\nВ прошлом году стол накрывала моя сестра.\nВ прошлом году мы приготовили замечательный ужин.\nВ прошлом году мы ели вкусные овощи.\nВ прошлом году мы подарили подарки нашей маме.\nВ прошлом году мы спели для нее песню.\nВ прошлом году мы написали для нее стихотворение.\nВ прошлом году мы были счастливы.",
+      "answer": "We were happy last year.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-48/"
+    },
+    {
+      "number": "50.4",
+      "section": "Страница 50",
+      "condition": "What did you and your parents do last weekend? – Что вы делали в прошедшие выходные дни?\nLast Saturday I ...\nMy parents ...\nWe ...\nOn Sunday we ...",
+      "solution": "Last Saturday I went shopping with my family. My parents bought a new laptop for my older sister. We went to a café after shopping. On Sunday we cooked a pizza together.\nПеревод:\nВ прошлую субботу я ходил по магазинам с семьей. Мои родители купили новый ноутбук для моей старшей сестры. После покупок мы пошли в кафе. В воскресенье вместе приготовили пиццу.",
+      "answer": "Last Saturday I went shopping with my family. My parents bought a new laptop for my older sister. We went to a café after shopping. On Sunday we cooked a pizza together.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-50/"
+    },
+    {
+      "number": "50.5",
+      "section": "Страница 50",
+      "condition": "Let's play. \"Word Train\". – Давай поиграем. «Поезд слов».",
+      "solution": "Это задание нужно выполнить самостоятельно.",
+      "answer": "Это задание нужно выполнить самостоятельно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-50/"
+    },
+    {
+      "number": "50.6",
+      "section": "Страница 50",
+      "condition": "Activity Book ex. 2-3, Reader ex. 5.",
+      "solution": "Это задание нужно выполнить отдельно в рабочей тетради.",
+      "answer": "Это задание нужно выполнить отдельно в рабочей тетради.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-50/"
+    },
+    {
+      "number": "51.1",
+      "section": "Страница 51",
+      "condition": "В семье Дейва есть один человек, которому Дейв особенно любит помогать.\nПодзадание 1.\nWho does he like to help most of all? – Кому он больше всего любит помогать?\nMy brother and I often help mum and dad to work in the garden. I help dad to sweep the paths and Fred helps mum with the roses. I often help my brother, too. He is five. I love him. I help him to make the bed. I read and tell him tales. I help him to gather toys. We often play games together. Fred likes playing football. We watch cartoons together. Fred helps me, too. He helps me to wash the dishes.",
+      "solution": "He helped about the house last week. He helped his dad to sweep the paths in the garden. He washed the dishes yesterday. He helped Fred to make the bed and to gather toys. His mother was happy. She said that he was a good helper.\nI like helping my mum most of all. – Я люблю помогать своей маме больше всего.\nПеревод:\nМы с братом часто помогаем маме и папе работать в саду. Я помогаю папе подметать дорожки, а Фред помогает маме ухаживать за розами. Я тоже часто помогаю своему брату. Ему пять лет. Я люблю его. Я помогаю ему заправлять постель. Я читаю и рассказываю ему сказки. Я помогаю ему собирать игрушки. Мы часто вместе играем в игры. Фред любит играть в футбол. Мы вместе смотрим мультфильмы. Фред мне тоже помогает. Он помогает мне мыть посуду.\nПодзадание 2.\nWhat did Dave do last week? What did his mother praise him for? – Что сделал Дейв на прошлой неделе? Как вы думаете, за что его похвалила мама?\nНа прошлой неделе он помогал по дому. Он помогал отцу подметать дорожки в саду. Вчера он мыл посуду. Он помог Фреду заправить кровать и собрать игрушки. Его мать была счастлива. Она сказала, что он хороший помощник.\nПодзадание 3.\nWho do you like helping most of all? – Кому вы больше всего помогаете в своей семье?",
+      "answer": "I like helping my mum most of all. – Я люблю помогать своей маме больше всего.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-51/"
+    },
+    {
+      "number": "51.2",
+      "section": "Страница 51",
+      "condition": "Let's play. \"Sweet Clean House\". (AB ex. 1)",
+      "solution": "Это задание нужно выполнить отдельно в рабочей тетради.",
+      "answer": "Это задание нужно выполнить отдельно в рабочей тетради.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-51/"
+    },
+    {
+      "number": "52.3",
+      "section": "Страница 52",
+      "condition": "Role play. Вы разговариваете с Дейвом о том, как вы помогаете по дому.\nWhat will you tell him about? What will you ask him about? O вы расскажете и расспросите друг друга?\nWho do you usually help?\nI help my mum. I help her to...\nDo you like helping about the house?\nYes, I dо.\nWhat do you usually do about the house?\nI usually make the bed and...\nAnd do you help your mum about the house?\nYes...\nDoes your mother tell you: \"You are a good helper?\"\nYes, she does. Yesterday I washed the dishes and...",
+      "solution": "– Who do you usually help?\n– I help my mum. I help her to wash the dishes.\n– Do you like helping about the house?\n– Yes, I dо.\n– What do you usually do about the house?\n– I usually make the bed and feed our pets.\n– And do you help your mum about the house?\n– Yes, I help her to cook meals.\n– Does your mother tell you: \"You are a good helper?\"\n– Yes, she does. Yesterday I washed the dishes and fed our pets.\nПеревод:\n– Кому ты обычно помогаешь?\n– Я помогаю моей маме. Я помогаю ей мыть посуду.\n– Тебе нравится помогать по дому?\n– Да, мне нравится.\n– Что ты обычно делаешь по дому?\n– Я обычно заправляю кровать и кормлю наших домашних питомцев.\n– А помогаешь ли ты своей маме по дому?\n– Да, я помогаю ей готовить еду.\n– Говорит ли тебе твоя мама, что ты хороший помощник?\n– Да, она говорит. Вчера я мыл посуду и кормил наших домашних питомцев.",
+      "answer": "– Yes, she does. Yesterday I washed the dishes and fed our pets.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-52/"
+    },
+    {
+      "number": "52.4",
+      "section": "Страница 52",
+      "condition": "All about me. \"How I helped about the house\". No. 7. – Все обо мне. \"Как я помогал по дому\".",
+      "solution": "How I helped about the house.\nYesterday I cleaned our house. I helped my mum to wash the dishes. I swept the paths, made the beds and dusted the furniture. In the evening I walked the dog. Last week I worked in the garden. I helped my granny to gather apples on Sunday. I helped my mum to cook meals on Monday.\nПеревод:\nКак я помогал по дому.\nВчера я убирался в нашем доме. Помогал маме мыть посуду. Я подметал дорожки, заправлял кровати и вытирал пыль с мебели. Вечером гулял с собакой. На прошлой неделе я работал в саду. Я помогала бабушке собирать яблоки в воскресенье. В понедельник я помогала маме готовить еду.",
+      "answer": "Yesterday I cleaned our house. I helped my mum to wash the dishes. I swept the paths, made the beds and dusted the furniture. In the evening I walked the dog. Last week I worked in the garden. I helped my granny to gather apples on Sunday. I helped my mum to cook meals on Monday.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-52/"
+    },
+    {
+      "number": "52.5",
+      "section": "Страница 52",
+      "condition": "Project. \"I am a good helper\". – No.3 - Проект «Я хороший помощник».",
+      "solution": "I like helping about the house!\nI usually help my family about the house. I help my mum to wash the dishes. I often help my younger sister to make her bed. I sometimes help my father to clean the car. I help my grandparents to work in the garden too. I like helping about the house.\nПеревод:\nМне нравится помогать по дому!\nОбычно я помогаю своей семье по дому. Помогаю маме мыть посуду. Я часто помогаю своей младшей сестре заправлять ей постель. Иногда я помогаю отцу чистить машину. Я тоже помогаю бабушке и дедушке работать в саду. Мне нравится помогать по дому!",
+      "answer": "I usually help my family about the house. I help my mum to wash the dishes. I often help my younger sister to make her bed. I sometimes help my father to clean the car. I help my grandparents to work in the garden too. I like helping about the house.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-52/"
+    },
+    {
+      "number": "54.1",
+      "section": "Страница 54",
+      "condition": "Vocabularу. Хью и его семья живут в Америке, они любят праздновать Рождество.\nWhat do Hugh and his family usually do on Christmas?* Что Хью и его семья обычно делают в Рождество?",
+      "solution": "They usually celebrate the holiday. – Они обычно отмечают праздник.\nThey usually decorate a Christmas tree. – Они обычно украшают елку.\nThey usually invite friends. – Они обычно приглашают друзей.\nThey usually buy gifts. – Они обычно покупают подарки.\nThey usually send greetings cards. – Они обычно отправляют поздравительные открытки.\nThey usually get greetings cards. – Они обычно получают поздравительные открытки.\nThey usually have a party. – Они обычно устраивают вечеринку.\nThey usually wear funny costumes. – Они обычно носят забавные костюмы.\nThey usually give gifts. – Они обычно дарят подарки.",
+      "answer": "They usually give gifts. – Они обычно дарят подарки.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-54/"
+    },
+    {
+      "number": "55.2",
+      "section": "Страница 55",
+      "condition": "У дедушки и бабушки Хью сохранился отрывок его письма о праздновании Рождества.\nПодзадание 1.\nDid Hugh like that holiday? – Xью понравился этот праздник?\nYou know I like Christmas. I want to tell you how we celebrated this holiday. We sent many greetings cards to our friends. Did you get our greetings card? We deco-rated a beautiful Christmas tree and bought many gifts. My mother made a huge cake. She cooked a turkey. We invited our friends and had a merry party. We wore funny costumes. They were wonderful! We sang songs, danced to music and played games. At 12 we gave gifts. I liked the party very much!",
+      "solution": "They sent many greetings cards to their friends. They decorated a beautiful Christmas tree and bought many gifts. His mother made a huge cake and cooked a turkey. They invited friends and had a party. They wore funny costumes. They sang songs, danced to music and played games. At 12 they gave gifts.\nWe sent many greetings cards to our friends. We decorated a beautiful Christmas tree and bought many gifts. My mother cooked tasty dishes. My sister set the table. We watched TV, sang merry songs and played games. At 12 we gave gifts! I liked our celebration very much.\nПеревод:\nУ дедушки и бабушки Хью сохранился отрывок его письма о праздновании Рождества. Хью понравился этот праздник?\nВы знаете, мне нравится Рождество. Я хочу рассказать вам, как мы отмечаем этот праздник. Мы посылаем много поздравительных открыток нашим друзьям. Вы получили нашу поздравительную\nоткрытку? Мы украсили красивую Рождественскую ёлку и купили много подарков. Моя мама сделала огромный пирог. Она приготовила индейку. Мы пригласили наших друзей и устроили рождественскую вечеринку. Мы носили весёлые костюмы. Они были замечательными! Мы пели песни, танцевали под музыку и играли в игры. В 12 часов мы дарили подарки. Мне очень сильно понравилась вечеринка!\nMind!\nsend – sent [sent]\nbuy – bought [bɔ:t]\nmake – made [meɪd]\nhave – had [hᴂd]\nwear – wore [wɔ:]\nsing – sang [sᴂŋ]\ngive – gave [geɪv]\nget – got [gɒt]\nknow – knew [nju:]\nЗапомните!\nпосылать – посылал\nпокупать – покупал\nделать – сделал\nиметь – имел\nносить – носил\nпеть – пел\nдавать – давал\nполучать – получал\nзнать – знал\nПодзадание 2.\nRead aloud what Hugh wrote about a Christmas party. – Прочтите вслух, что Хью написал о рождественской вечеринке.\nПодзадание 3.\nWhat did Hugh and his family do on Christmas? – Что делали Хью и его семья в Рождество?\nОни отправили своим друзьям много поздравительных открыток. Они украсили красивую елку и купили много подарков. Его мама испекла огромный торт и приготовила индейку. Они пригласили друзей и устроили вечеринку. Они были в забавных костюмах. Они пели песни, танцевали под музыку и играли в игры. В 12 они подарили подарки.\nПодзадание 4.\nHow did you celebrate Christmas? – Kaк вы пpаздновали Рождество?\nМы отправили друзьям много поздравительных открыток. Мы украсили красивую елку и купили много подарков. Моя мама готовила вкусные блюда. Моя сестра накрыла на стол. Мы смотрели телевизор, пели веселые песни и играли в игры. В 12 подарили подарки! Мне очень понравился наш праздник.",
+      "answer": "We sent many greetings cards to our friends. We decorated a beautiful Christmas tree and bought many gifts. My mother cooked tasty dishes. My sister set the table. We watched TV, sang merry songs and played games. At 12 we gave gifts! I liked our celebration very much.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-55/"
+    },
+    {
+      "number": "56.3",
+      "section": "Страница 56",
+      "condition": "Why did Kirk like the New Year's party last year? – Почему Кёрку понравился прошлогодний новогодний праздник? (АВ ех. 2)",
+      "solution": "Это задание нужно выполнить самостоятельно в рабочей тетради.",
+      "answer": "Это задание нужно выполнить самостоятельно в рабочей тетради.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-56/"
+    },
+    {
+      "number": "56.4",
+      "section": "Страница 56",
+      "condition": "Let's play. \"Snowball\". – Давайте поиграем в игру «Снежный ком!»",
+      "solution": "Это задание нужно выполнить самостоятельно.",
+      "answer": "Это задание нужно выполнить самостоятельно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-56/"
+    },
+    {
+      "number": "56.5",
+      "section": "Страница 56",
+      "condition": "In your culture. В российских школах ежегодно устраивают новогодний праздник.\nЧто из того, что делали Хью и его друзья, делали вы в новогодний праздник?\nLast year we ... the New Year at school.\nThe New Year ... was wonderful.\nWe ... the New Year tree.\nMy friends ... the school for the New Year.\nWe ... many gifts.\nOur girls ... cards to our friends.\nAt the party we ... New Year songs and ... near the New Year tree.\nOur mothers ... a ... cake, it was tasty.",
+      "solution": "Last Year we celebrated the New Year at school. The New Year party was wonderful. We decorated the New Year tree. My friends decorated the school for the New Year. We bought many gifts. Our girls sent cards to our friends. At the party, we sang the New Year songs and danced near the New Year tree. Our mothers made a huge cake, it was tasty.\nПеревод:\nВ прошлом году Новый год мы встречали в школе. Новогодняя вечеринка прошла замечательно. Украшали новогоднюю елку. Мои друзья украсили школу к Новому году. Мы купили много подарков. Наши девочки отправили открытки нашим друзьям. На вечеринке Мы пели новогодние песни и танцевали возле новогодней елки. Наши мамы испекли огромный торт, было вкусно.",
+      "answer": "Last Year we celebrated the New Year at school. The New Year party was wonderful. We decorated the New Year tree. My friends decorated the school for the New Year. We bought many gifts. Our girls sent cards to our friends. At the party, we sang the New Year songs and danced near the New Year tree. Our mothers made a huge cake, it was tasty.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-56/"
+    },
+    {
+      "number": "57.6",
+      "section": "Страница 57",
+      "condition": "In your culture. Многие из нас празднуют Новый год дома.\nHow did you and your family celebrate this holiday last year? Как вы и ваша семья отмечали этот праздник в прошлом году?\nWe always ...\nMy family and I ...\nLast year ...\nMy mother ...\nWe ...\n... ... ...",
+      "solution": "We always visit our grandparents. My family and I buy cards and gifts for them. Last year we invited them to our house. My mother made a huge cake. We sang merry songs, danced around the Christmas tree and played games together. We enjoyed our celebration.\nПеревод:\nМы всегда посещаем наших бабушек и дедушек. Мы с семьей покупаем им открытки и подарки. В прошлом году мы пригласили их к себе домой. Моя мама испекла огромный торт. Мы вместе пели веселые песни, танцевали вокруг елки и играли в игры. Нам понравилось празднование.",
+      "answer": "We always visit our grandparents. My family and I buy cards and gifts for them. Last year we invited them to our house. My mother made a huge cake. We sang merry songs, danced around the Christmas tree and played games together. We enjoyed our celebration.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-57/"
+    },
+    {
+      "number": "57.8",
+      "section": "Страница 57",
+      "condition": "All about me. \"How we celebrated the New Year\". – Все обо мне. \"Как мы встречали Новый год\".",
+      "solution": "How we celebrated the New Year.\nWe decorated a New Year tree. My mother cleaned our house and cooked tasty food. We sent greetings cards to our friends. My parents gave me a gift to me. We had a party at night. I like the New Year!\nПеревод:\nКак мы встретили Новый год.\nУкрашали новогоднюю елку. Моя мама убиралась в нашем доме и готовила вкусную еду. Мы отправили поздравительные открытки нашим друзьям. Родители сделали мне подарок. У нас была вечеринка ночью. Люблю Новый год!",
+      "answer": "We decorated a New Year tree. My mother cleaned our house and cooked tasty food. We sent greetings cards to our friends. My parents gave me a gift to me. We had a party at night. I like the New Year!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-57/"
+    },
+    {
+      "number": "58.1",
+      "section": "Страница 58",
+      "condition": "На Рождество Хью подарили подарок.\nПодзадание 1.\nЧто ему подарили? Найдите в словаре незнакомое слово.\nMy uncle gave a wonderful gift to me. It is funny and cute. It has a purple collar (ошейник).  It likes music! It jumps and runs a lot. Hurly-burly (сумятица, переполох)! What is it? It is a puppy!",
+      "solution": "He was given a puppy. – Ему подарили щенка.\nПодзадание 2.\nПочему буква Uu читается по-разному? Прочитайте памятку на с. 12.\n[ju:]\nCute\nMusic\n[ʌ]\nUncle\nFunny\nJump\nRun\nPuppy\n[ɜ:]\nPurple\nHurly\nBurly\nБуква Uu в английском языке читается по-разному, потому что в зависимости от контекста она может передавать разные звуки: [ʌ], [u:] и [ju:].\nЗвук [ʌ] буква Uu передаёт, если за ней следует одна или несколько согласных. Этот звук напоминает короткий русский звук «а» в безударном положении в слове «оса».\nЗвук [u:] буква Uu передаёт, если перед ней стоит буква l и за которой следует немая e. Этот звук напоминает русский звук «у» в слове «утка».\nЗвук [ju:] буква Uu образует, если ударная является предпоследней гласной в слове, после которой стоит одна согласная буква. Также этот звук читается, если после буквы Uu стоит согласная буква, после которой следует буквосочетание LE или R + гласная.\nПодзадание 3.\nБуква Uu рассказывает, как правильно её читать. Сверьте с правилом, правильно ли вы её поняли.\nПодзадание 4.\nRead aloud a text about Christmas gifts. – Прочитайте вслух текст о рождественских подарках.\nПеревод:\nМой дядя подарил замечательный подарок мне. Он весёлый и милый. него есть фиолетовый ошейник. Ему нравится музыка! Он много прыгает и бегает. Переполох! Что это? Это щенок!\n[ju:]\nМилый\nМузыка\n[ʌ]\nДядя\nЗабавный\nПрыгать\nБежать\nЩенок\n[ɜ:]\nФиолетовый\nСуетливый\nЗдоровяк",
+      "answer": "Read aloud a text about Christmas gifts. – Прочитайте вслух текст о рождественских подарках.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-58/"
+    },
+    {
+      "number": "59.2",
+      "section": "Страница 59",
+      "condition": "У Хью большой список просьб к Санта-Клаусу.\nWhat does he want to ask Santa Claus* for? – О чём он хочет попросить Санта-Клауса?",
+      "solution": "He wants a computer, huge cakes, a music film, a costume, a summer cap, pumpkin pies, funny tales, butter cookies, a toy turkey, a toy turtle.\nПеревод:\nЕму нужен компьютер, огромные торты, музыкальный фильм, костюм, летняя кепка, тыквенные пироги, анекдоты, сливочное печенье, игрушечная индейка, игрушечная черепаха.",
+      "answer": "He wants a computer, huge cakes, a music film, a costume, a summer cap, pumpkin pies, funny tales, butter cookies, a toy turkey, a toy turtle.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-59/"
+    },
+    {
+      "number": "59.3",
+      "section": "Страница 59",
+      "condition": "Хью написал стихотворение о семейном празднике.\nWhat does Hugh like about the holiday? (Reader ex. 1)",
+      "solution": "Hugh liked the New Year holiday because it left a lot of positive\nexperiences.\nПеревод:\nХью понравился новогодний праздник, потому что он оставил много положительных впечатлений.",
+      "answer": "experiences.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-59/"
+    },
+    {
+      "number": "59.4",
+      "section": "Страница 59",
+      "condition": "Let's play. \"Alphabet Race\". – Давай поиграем. «Алфавитная гонка».",
+      "solution": "Это задание нужно выполнить самостоятельно.",
+      "answer": "Это задание нужно выполнить самостоятельно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-59/"
+    },
+    {
+      "number": "59.5",
+      "section": "Страница 59",
+      "condition": "Новогодний праздник оставляет много впечатлений.\nHugh liked the New Year holiday. Why? – Хью понравился новогодний праздник. Почему?\nWe went to church. The music was beautiful there. For lunch we had a turkey, a huge cake and butter cookies. We wore funny costumes at the party. My mum was a nurse. My dad was a duke. My brother was Humpty-Dumpty.* I wore a Turkish costume.",
+      "solution": "Hugh liked the New Year holiday because it left a lot of positive experiences.\nПеревод:\nМы пошли в церковь. Музыка здесь была замечательная. У нас была индейка, большой торт и сливочное печенье на обед. Мы носили смешные костюмы на вечеринке. Моя мама была медсестрой, мой папа был герцогом. Мой брат был Шалтай-Болтай. Я носил турецкий костюм.\nХью понравился новогодний праздник, потому что он оставил много положительных впечатлений.",
+      "answer": "Hugh liked the New Year holiday because it left a lot of positive experiences.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-59/"
+    },
+    {
+      "number": "59.6",
+      "section": "Страница 59",
+      "condition": "Activity Book ex. 1, No. 4, Reader ex. 2.",
+      "solution": "Это задание нужно выполнить отдельно в рабочей тетради самостоятельно.",
+      "answer": "Это задание нужно выполнить отдельно в рабочей тетради самостоятельно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-59/"
+    },
+    {
+      "number": "60.1",
+      "section": "Страница 60",
+      "condition": "В семье Хью любят вечеринки-сюрпризы.\nПодзадание 1.\nWhere did Hugh and his family have the surprise party?\" – Где была вечеринка-сюрприз у Хью и его семьи?\nHugh: Yesterday we had a surprise party. It was fun! We had a fantastic dinner.\nTim: Did you play interesting games?\nHugh: Yes, we did.\nTim: Did you play sports games?\nHugh: No, we didn’t. We didn’t play sports games.",
+      "solution": "Тим задаёт общие вопросы. Порядок слов: Did + подлежащее + первая форма глагола + другие члены предложения? Хью использует Didn't и первую форму глагола.\nПеревод:\nХью: Вчера у нас была сюрприз-вечеринка. Это было весело! У нас был фантастический ужин.\nТим: Вы играли в интересные игры?\nХью: Да, мы играли.\nТим: Вы играли в спортивные игры?\nХью: Нет. Мы не играли в спортивные игры.\nПодзадание 2.\nКакие вопросы Тим задаёт Хью? Какой порядок слов в этих вопросительных предложениях? Как Хью говорит о том, что они не делали?",
+      "answer": "Тим задаёт общие вопросы. Порядок слов: Did + подлежащее + первая форма глагола + другие члены предложения? Хью использует Didn't и первую форму глагола.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-60/"
+    },
+    {
+      "number": "61.2",
+      "section": "Страница 61",
+      "condition": "Семья Дейва всегда отмечает День отца (Father's Day*).\nПодзадание 1.\nВаш учитель знает, как они отмечали этот замечательный праздник в этом году.\nРасспросите учителя о празднике и поставьте галочку там, где учитель ответил утвердительно.\nDid they invite friends?\nDid they send greetings cards?\nDid they buy gifts?\nDid they decorate the house?\nDid they make a cake?\nDid they have a party?\nDid they give gifts?\nDid they play games?\nDid they wear funny costumes?\nDid they dance?\nDid they sing?\nYes, they did.\nNo, they didn’t.",
+      "solution": "Did they invite friends?\nDid they send greetings cards?\nDid they buy gifts? +\nDid they decorate the house?\nDid they make a cake? +\nDid they have a party? +\nDid they give gifts? +\nDid they play games? +\nDid they wear funny costumes?\nDid they dance? +\nDid they sing? +\nПодзадание 2.\nСоставьте рассказ о том, как семья Дейва отмечала День отца.\nThey bought gifts. They made a cake. They had a party. They gave gifts. They played games. They danced. They sang.\nПеревод:\nПригласили ли они друзей?\nОтправили ли поздравительные открытки?\nКупили ли подарки?\nУкрасили ли дом?\nИспекли ли торт?\nУстроили ли вечеринку?\nПодарили ли подарки?\nИграли ли в игры?\nНадели ли забавные костюмы?\nОни танцевали?\nОни пели?\nДа, они это сделали.\nНет, они этого не сделали.\nОни купили подарки. Они испекли торт. У них была вечеринка. Они дарили подарки. Они играли в игры. Они танцевали. Они пели.",
+      "answer": "They bought gifts. They made a cake. They had a party. They gave gifts. They played games. They danced. They sang.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-61/"
+    },
+    {
+      "number": "62.3",
+      "section": "Страница 62",
+      "condition": "Хью и его семья тоже отмечали День отца. Он рассказывает об этом.\nПодзадание 1.\nWhat did Hugh tell us about the holiday? Что раcсказaл Хью о празднике? На какие вопросы из упр. 2 есть ответы в его рассказе?",
+      "solution": "Did they make a cake? – Yes, they did.\nDid they buy gifts? – Yes, they did.\nDid they give gifts? – Yes, they did.\nDid they have a party? – Yes, they did.\nThey didn’t invite friends. V\nThey didn’t send greetings cards. V\nThey didn’t buy gifts.\nThey didn’t decorate the house.\nThey didn’t make a cake.\nThey didn’t have a party.\nThey didn’t give gifts.\nThey didn’t play games. V\nThey didn’t wear funny costumes. V\nThey didn’t dance.\nThey didn’t sing.\nПеревод:\nОни испекли торт? – Да.\nОни купили подарки? – Да.\nОни дарили подарки? – Да.\nУ них была вечеринка? – Да.\nПодзадание 2.\nWhat didn't Hugh and his family do on Father's Day? – Что Хью и его семья не делали в День отца?\nThey didn’t invite friends.\nThey didn’t send greetings cards.\nThey didn’t buy gifts.\nThey didn’t decorate the house.\nThey didn’t make a cake.\nThey didn’t have a party.\nThey didn’t give gifts.\nThey didn’t play games.\nThey didn’t wear funny costumes.\nThey didn’t dance.\nThey didn’t sing.\nОни не приглашали друзей.\nОни не посылали поздравительные открытки.\nОни не покупали подарки.\nОни не украшали дом.\nОни не испекли торт.\nОни не устраивали вечеринку.\nОни не дарили подарки.\nОни не носили забавные костюмы.\nОни не пели.\nОни не танцевали.",
+      "answer": "They didn’t sing.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-62/"
+    },
+    {
+      "number": "62.4",
+      "section": "Страница 62",
+      "condition": "Why wasn't Eeyore happy? (Reader ex. 3). No. 6 – Почему никто не был счастлив?",
+      "solution": "Это задание нужно выполнить отдельно самостоятельно.",
+      "answer": "Это задание нужно выполнить отдельно самостоятельно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-62/"
+    },
+    {
+      "number": "62.5",
+      "section": "Страница 62",
+      "condition": "What didn't you do last evening? (AB ex. 1) – Чего ты не сделал вчера вечером? (AB ex. 1)",
+      "solution": "Это задание нужно выполнить отдельно в рабочей тетради.",
+      "answer": "Это задание нужно выполнить отдельно в рабочей тетради.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-62/"
+    },
+    {
+      "number": "63.6",
+      "section": "Страница 63",
+      "condition": "American children like having different (pазличные) parties. I Hugh had an Indian party, his friend Ray had a pirate party and John had a football party.\nКакие вопросы вы зададите Хью, Рэю и Джону?\nDid\nyour friends\nyou\nyour parents\nplay\nmake\ngive\ndecorate\nwear\ninvite\nget\ngifts (to you)?\nIndian/pirate costumes?\nfootball?\nsports costumes?\ngames?\na cake?\nyour room with balloons?\nyour friends?\nyour room with Indian toys?\n“Indians and Pirates”?",
+      "solution": "Did your friends play football? – Твои друзья играли в футбол?\nDid your friends make a cake? – Твои друзья испекли торт?\nDid your friends give gifts to you? – Твои друзья дарили вам подарки?\nDid your friends decorate your room with balloons? – Твои друзья украшали вашу комнату воздушными шарами?\nDid your friends decorate your room with Indian toys? – Твои друзья украшали вашу комнату индийскими игрушками?\nDid your friends wear Indian/pirate costumes? – Твои друзья были одеты в индийские/пиратские костюмы?\nDid your friends wear sports costumes? – Твои друзья были одеты в спортивные костюмы?\nDid your friends invite \"Indians and Pirates\"? – Твои друзья приглашали «Индейцев и пиратов»?\nDid your friends get gifts? – Получили ли твои друзья подарки?\nПеревод:\nваши друзья\nвы\nваши родители\nиграйте\nготовьте\nдарите\nукрашайте\nнадевайте\nприглашайте\nполучайте\nподарки (вам)?\nкостюмы индейцев/пиратов?\nфутбол?\nспортивные костюмы?\nигры?\nторт?\nваша комната с воздушными шарами?\nваши друзья?\nтвоя комната с индейскими игрушками?\n“Индейцы и пираты”?",
+      "answer": "Did your friends get gifts? – Получили ли твои друзья подарки?",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-63/"
+    },
+    {
+      "number": "63.7",
+      "section": "Страница 63",
+      "condition": "Role play. Ваш одноклассник/одноклассница побывали в гостях у своих зарубежных друзей. Друзья устроили для него/неё детскую вечеринку.\nЧто вы спросите об этой вечеринке?\nPupil CARD 1\nAsk your classmate questions about the party.\n– Did you ... a gift?\n– ... you wear ... ?\n– ... you ... a cake?\n– Did they ... the room?\n– ... you ... games?\nPupil CARD 2\nAnswer the questions\n– Yes, ... . It was a nice gift.\n– No, I ... – Yes, ... . My friend liked the cake.\n– Yes, ... . The room was beautiful.\n– Yes, ... . We played interesting games.",
+      "solution": "– Did you get a gift? Ты получил подарок?\n– Yes, I did. It was a nice gift. Да. Это был хороший подарок.\n– Did you wear a Halloween costume? Ты был одет в костюм на Хеллоуин?\n– No, I didn't. Нет.\n– Did you make a cake? Ты испек торт?\n– Yes, I did. My friend liked the cake. Да. Моему другу торт понравился.\n– Did they decorate the room? Они украшали комнату?\n– Yes, they did. The room was beautiful. Да. Комната была красивой.\n– Did you play games? Вы играли в игры?\n– Yes, we did. We played interesting games. Да. Мы играли в интересные игры.\nПеревод:\nКАРТОЧКА ученика 1\nЗадайте своему однокласснику вопросы о вечеринке.\n– Неужели ты ... подарок?\n– ...ты носишь...?\n– ...ты ... торт?\n– Они были... в комнате?\n– ...ты... играешь?\nКАРТОЧКА ученика 2\nОтветить на вопросы\n– Да, ... Это был приятный подарок.\n– Нет, я... – Да, ... Моей подруге понравился торт.\n– Да, ... Комната была красивой.\n– Да, ... Мы играли в интересные игры.\n– Ты получил подарок?\n– Да. Это был хороший подарок.\n– Ты был одет в костюм на Хеллоуин?\n– Нет.\n– Ты испек торт?\n– Да. Моему другу торт понравился.\n– Они украшали комнату?\n– Да. Комната была красивой.\n– Вы играли в игры?\n– Да. Мы играли в интересные игры.",
+      "answer": "– Yes, we did. We played interesting games. Да. Мы играли в интересные игры.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-63/"
+    },
+    {
+      "number": "63.8",
+      "section": "Страница 63",
+      "condition": "Let's play. \"Word Train\". Давай поиграем. «Цепочка слов».",
+      "solution": "Это задание нужно выполнить самостоятельно.",
+      "answer": "Это задание нужно выполнить самостоятельно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-63/"
+    },
+    {
+      "number": "63.9",
+      "section": "Страница 63",
+      "condition": "Activity Book ex. 2. No. 1.",
+      "solution": "Это задание нужно выполнить самостоятельно в рабочей тетради.",
+      "answer": "Это задание нужно выполнить самостоятельно в рабочей тетради.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-63/"
+    },
+    {
+      "number": "64.1",
+      "section": "Страница 64",
+      "condition": "Хью и Тим разговаривают о прошедшем дне рождения друга Хью.\nПодзадание 1.\nWhat did Hugh like about the birthday party? – Что понравилось Хью на этом дне рождения?\nTim: Did Bill celebrate his birthday?\nHugh: Yes, he did. We celebrated his birthday yesterday.\nTim: Where did you celebrate it?\nHugh:  In their garden.\nTim: What games did you play?\nHugh:  We played ball games. It was interesting!",
+      "solution": "He liked the games. Ему понравились игры.\nПодзадание 2.\nКакие вопросы Тим задаёт Хью? Какой порядок слов в этих вопросительных предложениях?\nТим задаёт специальные вопросы.\nWh... + did + sub +...?\nПодзадание 3.\nПроверьте, правильно ли вы сделали вывод. No 5\nКак спросит о том, где, когда, почему вы что-то делали\nСравните:\nDid you celebrate your brothers birthday?\nWhen did you celebrate it?\nWhere did you buy the gifts?\nПеревод:\nТим: Билл праздновал свой день рождения?\nХью: Да. Мы отмечали его день рождения вчера.\nТим: Где вы праздновали его?\nХью: В саду.\nТим: В какие игры вы играли?\nХью: Мы играли в игры с мячом. Это было интересно!",
+      "answer": "Where did you buy the gifts?",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-64/"
+    },
+    {
+      "number": "65.2",
+      "section": "Страница 65",
+      "condition": "У Хью тоже недавно был день рождения. Но Хью был болен, поэтому праздник не отмечали как обычно.\nWhat did Hugh's friends ask him about his birth-day? What did he answer? – О чём спросили друзья Хью и что он им ответил? Соотнесите вопросы и ответы.\n– Did you invite your friends?\n– Did you play games?\n– What games did you play?\n– What cake did your mother make?\n– What did your parents give to you?\n– My favourite cartoons.\n– A chocolate cake.\n– No, I didn’t.\n– Yes, I did.\n– I played a computer game.",
+      "solution": "– Did you invite your friends? – Ты приглашал своих друзей?\n– No, I didn't. – Нет.\nDid you play games? – Ты играл в игры?\n– Yes, I did. – Да.\nWhat games did you play? – В какие игры ты играл?\nI played a computer game. – Я играл в компьютерную игру.\n– What cake did your mother make? – Какой торт сделала твоя мама?\n– A chocolate cake. – Шоколадный торт.\n– What did your parents give to you? – Что твои родители подарили тебе?\n– My favourite cartoons. – Мои любимые мультики.\nWord Box\na birthday [‘bɜ:θdeɪ] – день рождения\nball [bɔ:l] – мяч\nchocolate [‘tʃɒklət] – шоколад\nПеревод:\n– Ты приглашал своих друзей?\n– Ты играл в игры?\n– В какие игры ты играл?\n– Какой торт испекла твоя мама?\n– Что тебе подарили родители?\n– Мои любимые мультфильмы.\n– Шоколадный торт.\n– Нет, я не ел.\n– Да, я так и сделал.\n– Я играл в компьютерную игру.",
+      "answer": "chocolate [‘tʃɒklət] – шоколад",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-65/"
+    },
+    {
+      "number": "65.3",
+      "section": "Страница 65",
+      "condition": "Role play. Вы получили письмо от Дейва, в котором он пишет, что недавно отпраздновал свой день рождения.\nPupil 1\nAsk Dave questions about his birthday.\nPupil 2\nYou are Dave. Answer the questions.\nWhat games\nWhat gifts\nWhat cartoons\nWhere\nWhat cake\nDid\ndid\nyou\nyou\nyour friends\nyour parents\nplay computer games?\ncelebrate your birthday?\ninvite your friends?\ndecorate your room?\nwatch cartoons?\ngive to you?\nplay?\ncelebrate your birthday?\nmake?\nwatch?",
+      "solution": "Ученик 1\nСпросите Дейва о его дне рождения.\nУченик 2\nВы – Дейв. Ответьте на вопросы.\n– Did you celebrate your birthday? – Ты день рождения праздновал?\n– Yes, I did – Да.\n– Did you invite your friends? – А друзей пригласил?\n– Yes, I did – Да.\n– Where did you celebrate your birthday? – Где отпраздновал свой день рождения?\n– At home – Дома.\n– What games did you play? – В какие игры вы играли?\n– We played computer games – Мы играли в компьютерные игры.\n– What gifts did your friends give to you? – Какие подарки подарили вам друзья?\n– They gave me money – Мне дали деньги\n– Did you watch cartoons/DVD? – Мультики/DVD смотрели?\n– Yes, I did – Да.\n– What cartoons did you watch? – Какие мультики смотрели?\n– We watched Lilo and Stich – Мы смотрели Лило и Стича.\n– What cake did your parents make? – Какой торт приготовили твои родители?\n– Banana cake – Банановый торт.\n– Did you play computer games? – Вы играли в компьютерные игры?\n– Yes, we did – Да.\n– Did your parents decorate your room? – А твою комнату родители украшали?\n– Yes, they did – Да.\nПеревод:\nУченик 1\nЗадавайте Дэйву вопросы о его дне рождения.\nУченик 2\nВы Дэйв. Ответить на вопросы.\nКакие игры\nКакие подарки\nКакие мультфильмы\nГде\nКакой торт\nвы\nваши друзья\nваши родители\nиграли в компьютерные игры?\nотмечали свой день рождения?\nпригласи друзей?\nукрась свою комнату?\nпосмотри мультики?\nподарю тебе?\nпоиграй?\nотпразднуй свой день рождения?\nсделай сам?\nпосмотри?",
+      "answer": "– Yes, they did – Да.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-65/"
+    },
+    {
+      "number": "66.4",
+      "section": "Страница 66",
+      "condition": "What questions did Hugh ask his classmate about his birthday? (AB ex. 1) – Какие вопросы Хью задавал своему однокласснику по поводу его дня рождения?",
+      "solution": "Did your friends give gifts to you? – Твои друзья дарили тебе подарки?\nWhat gifts did your parents buy? – Какие подарки купили ваши родители?\nDid you wear funny costumes? – Вы носили забавные костюмы?\nWhat songs did you sing? – Какие песни ты пел?\nDid you dance to music? – Вы танцевали под музыку?\nWhat did your mother cook? – Что приготовила твоя мама?\nDid you send greetings cards to your friends? – Вы отправляли поздравительные открытки своим друзьям?",
+      "answer": "Did you send greetings cards to your friends? – Вы отправляли поздравительные открытки своим друзьям?",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-66/"
+    },
+    {
+      "number": "66.5",
+      "section": "Страница 66",
+      "condition": "Let's play. \"Word Train\". – Давай поиграем. «Цепочка слов».",
+      "solution": "Это задание нужно выполнить самостоятельно.",
+      "answer": "Это задание нужно выполнить самостоятельно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-66/"
+    },
+    {
+      "number": "66.6",
+      "section": "Страница 66",
+      "condition": "Activity Book ex. 2, Reader ex. 4.",
+      "solution": "Это задание нужно выполнить самостоятельно в рабочей тетради.",
+      "answer": "Это задание нужно выполнить самостоятельно в рабочей тетради.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-66/"
+    },
+    {
+      "number": "66.7",
+      "section": "Страница 66",
+      "condition": "Project. \"My favourite holiday\". No. 3. – Проект. \"Мой любимый праздник\". № 3",
+      "solution": "My favourite holiday is a New Year holiday. We always decorate a New Year tree. My mother usually cleans our house and cooks tasty food. We send greetings cards to our friends. We have a party at night. I like the New Year!\nПеревод:\nЛюбимый праздник новогодний. Всегда украшаем новогоднюю елку. Моя мама обычно убирает в нашем доме и готовит вкусную еду. Отправляем поздравительные открытки нашим друзьям. У нас вечеринка ночью. Люблю Новый год!",
+      "answer": "My favourite holiday is a New Year holiday. We always decorate a New Year tree. My mother usually cleans our house and cooks tasty food. We send greetings cards to our friends. We have a party at night. I like the New Year!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/3-klass/uchebnik-kuzovlev/1-chast-stranitsa-66/"
+    }
+  ],
+  "part": 1
+}

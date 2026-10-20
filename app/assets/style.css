@@ -151,6 +151,10 @@ a:hover { color: var(--c-accent); }
 .i-sparkles { --icon: url(../../assets/img/icons/sparkles.svg); }
 .i-user { --icon: url(../../assets/img/icons/user.svg); }
 .i-globe { --icon: url(../../assets/img/icons/globe.svg); }
+.i-geometry { --icon: url(../../assets/img/icons/geometry.svg); }
+.i-physics { --icon: url(../../assets/img/icons/physics.svg); }
+.i-chemistry { --icon: url(../../assets/img/icons/chemistry.svg); }
+.i-world { --icon: url(../../assets/img/icons/world.svg); }
 .i-arrow-up { --icon: url(../../assets/img/icons/arrow-up.svg); }
 .i-refresh { --icon: url(../../assets/img/icons/refresh.svg); }
 .i-award { --icon: url(../../assets/img/icons/award.svg); }

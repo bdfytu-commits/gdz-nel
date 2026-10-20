@@ -1,0 +1,15 @@
+[
+ {
+  "grade": 11,
+  "subject": "english",
+  "id": "afanaseva-11",
+  "file": "english/afanaseva-11.json",
+  "title": "Афанасьева",
+  "author": "Афанасьева О. В., Дули Д., Михеева И. В. и др",
+  "year": "2026",
+  "tasks": 642,
+  "part": null,
+  "sourceUrl": "https://gdz-raketa.ru/english/11-klass/uchebnik-afanasieva/",
+  "source": "gdz-raketa"
+ }
+]

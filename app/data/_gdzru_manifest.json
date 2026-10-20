@@ -1,0 +1,98 @@
+[
+ {
+  "grade": 10,
+  "subject": "literature",
+  "id": "korovin-uglublennyj-uroven-10",
+  "file": "literature/korovin-uglublennyj-uroven-10.json",
+  "title": "Коровин. Литература 10 (углублённый)",
+  "author": "Коровин В.И., Вершинина Н.Л., Капитанова Л.А.",
+  "year": "2018-2024",
+  "tasks": 66,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-10/literatura/korovin-uglublennyj-uroven/"
+ },
+ {
+  "grade": 10,
+  "subject": "literature",
+  "id": "kurdyumova-10",
+  "file": "literature/kurdyumova-10.json",
+  "title": "Курдюмова. Литература 10",
+  "author": "Курдюмова Т.Ф., Марьина О.Б., Колокольцев Е.Н.",
+  "year": "2018",
+  "tasks": 40,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-10/literatura/kurdyumova/"
+ },
+ {
+  "grade": 10,
+  "subject": "literature",
+  "id": "lebedev-10",
+  "file": "literature/lebedev-10.json",
+  "title": "Лебедев. Литература 10",
+  "author": "Лебедев Ю.В.",
+  "year": "2018-2024",
+  "tasks": 183,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-10/literatura/lebedev/"
+ },
+ {
+  "grade": 10,
+  "subject": "literature",
+  "id": "zinin-10",
+  "file": "literature/zinin-10.json",
+  "title": "Зинин, Сахаров. Литература 10",
+  "author": "Зинин С.А., Сахаров В.А.",
+  "year": "2017",
+  "tasks": 41,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-10/literatura/zinin/"
+ },
+ {
+  "grade": 11,
+  "subject": "literature",
+  "id": "korovin-uglublennyj-uroven-11",
+  "file": "literature/korovin-uglublennyj-uroven-11.json",
+  "title": "Коровин. Литература 11 (углублённый)",
+  "author": "Коровин В.И., Вершинина Н.Л., Гальцова Е.Д.",
+  "year": "2019-2024",
+  "tasks": 66,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-11/literatura/korovin-uglublennyj-uroven/"
+ },
+ {
+  "grade": 11,
+  "subject": "literature",
+  "id": "kurdyumova-11",
+  "file": "literature/kurdyumova-11.json",
+  "title": "Курдюмова. Литература 11",
+  "author": "Курдюмова Т.Ф., Колокольцев Е.Н., Марьина О.Б., Демидова Н.А., Сосновская И.В.",
+  "year": "2018",
+  "tasks": 50,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/"
+ },
+ {
+  "grade": 11,
+  "subject": "literature",
+  "id": "mihajlov-2-chastyah-bazovyj-uroven-11",
+  "file": "literature/mihajlov-2-chastyah-bazovyj-uroven-11.json",
+  "title": "Михайлов, Шайтанов. Литература 11",
+  "author": "О.Н. Михайлов, И.О. Шайтанов, В.А. Чалмаев",
+  "year": "2021-2024",
+  "tasks": 166,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-11/literatura/mihajlov-2-chastyah-bazovyj-uroven/"
+ },
+ {
+  "grade": 11,
+  "subject": "literature",
+  "id": "zinin-11",
+  "file": "literature/zinin-11.json",
+  "title": "Зинин, Чалмаев. Литература 11",
+  "author": "Зинин С.А., Чалмаев В.А.",
+  "year": "2017",
+  "tasks": 89,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-11/literatura/zinin/"
+ }
+]

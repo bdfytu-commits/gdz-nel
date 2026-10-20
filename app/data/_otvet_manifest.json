@@ -1,0 +1,26 @@
+[
+ {
+  "grade": 10,
+  "subject": "physics",
+  "id": "myakishev-10",
+  "file": "physics/myakishev-10.json",
+  "title": "Мякишев. Физика 10",
+  "author": "Мякишев Г.Я., Буховцев Б.Б., Сотский Н.Н.",
+  "year": "2014",
+  "tasks": 782,
+  "source": "otvet.plus",
+  "sourceUrl": "https://otvet.plus/10-klass/fizika/myakishev/"
+ },
+ {
+  "grade": 11,
+  "subject": "physics",
+  "id": "myakishev-11",
+  "file": "physics/myakishev-11.json",
+  "title": "Мякишев. Физика 11",
+  "author": "Мякишев Г.Я., Буховцев Б.Б., Чаругин В.М.",
+  "year": "2018",
+  "tasks": 618,
+  "source": "otvet.plus",
+  "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+ }
+]

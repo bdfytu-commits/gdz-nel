@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T04:25:46Z",
+  "generatedAt": "2026-10-20T12:34:19Z",
   "subjects": {
     "math": {
       "title": "Математика",
@@ -19,7 +19,7 @@
     "english": {
       "title": "Английский язык",
       "icon": "english",
-      "tasks": 2267
+      "tasks": 2909
     },
     "biology": {
       "title": "Биология",
@@ -45,6 +45,16 @@
       "title": "Обществознание",
       "icon": "social",
       "tasks": 1417
+    },
+    "physics": {
+      "title": "Физика",
+      "icon": "physics",
+      "tasks": 1400
+    },
+    "chemistry": {
+      "title": "Химия",
+      "icon": "chemistry",
+      "tasks": 208
     }
   },
   "books": {
@@ -90,7 +100,11 @@
     "geo/matveev-9.json": 13,
     "history/medinsky-9.json": 524,
     "history-maps/torop-9.json": 13,
-    "social/bogolyubov-9.json": 440
+    "social/bogolyubov-9.json": 440,
+    "physics/myakishev-10.json": 782,
+    "chemistry/gabrielyan-10.json": 208,
+    "english/afanaseva-11.json": 642,
+    "physics/myakishev-11.json": 618
   },
   "grades": {
     "6": {
@@ -351,8 +365,50 @@
       },
       "total": 4244,
       "textbooks": 10
+    },
+    "10": {
+      "title": "10 класс",
+      "subjects": {
+        "physics": {
+          "title": "Физика",
+          "icon": "physics",
+          "tasks": 782
+        },
+        "chemistry": {
+          "title": "Химия",
+          "icon": "chemistry",
+          "tasks": 208
+        }
+      },
+      "books": {
+        "physics/myakishev-10.json": 782,
+        "chemistry/gabrielyan-10.json": 208
+      },
+      "total": 990,
+      "textbooks": 2
+    },
+    "11": {
+      "title": "11 класс",
+      "subjects": {
+        "english": {
+          "title": "Английский язык",
+          "icon": "english",
+          "tasks": 642
+        },
+        "physics": {
+          "title": "Физика",
+          "icon": "physics",
+          "tasks": 618
+        }
+      },
+      "books": {
+        "english/afanaseva-11.json": 642,
+        "physics/myakishev-11.json": 618
+      },
+      "total": 1260,
+      "textbooks": 2
     }
   },
-  "total": 16778,
-  "textbooks": 43
+  "total": 19028,
+  "textbooks": 47
 }

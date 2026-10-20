@@ -1,0 +1,740 @@
+{
+  "subject": "math",
+  "textbook": "alysheva-4-616",
+  "author": "Алышева, Яковлева",
+  "year": "2021-2022-2023",
+  "source": "parsed",
+  "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616",
+  "parsedAt": "2026-10-20T06:07:31Z",
+  "tasks": [
+    {
+      "number": "1",
+      "section": "Задание 1",
+      "condition": "Задание 1.",
+      "solution": "1) По одной единице\n\nприсчитывают в первом ряду;\n\nпо 1 десятку присчитывают\n\nво втором ряду.\n\n2) Все однозначные числа:0, 1,\n\n2, 3, 4, 5, 6, 7, 8, 9.\n\nЧисла, в записи которых 2\n\nзнака (цифры) называются\n\nдвузначными.",
+      "answer": "1) По одной единице\n\nприсчитывают в первом ряду;\n\nпо 1 десятку присчитывают\n\nво втором ряду.\n\n2) Все однозначные числа:0, 1,\n\n2, 3, 4, 5, 6, 7, 8, 9.\n\nЧисла, в записи которых 2\n\nзнака (цифры) называются\n\nдвузначными.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-1"
+    },
+    {
+      "number": "2",
+      "section": "Задание 2",
+      "condition": "Задание 2.",
+      "solution": "1) 10, 20, 30, 40, 50, 60, 70, 80,\n\n90, 100.\n\n2) 100, 90, 80, 70, 60, 50, 40, 30,\n\n20, 10.",
+      "answer": "1) 10, 20, 30, 40, 50, 60, 70, 80,\n\n90, 100.\n\n2) 100, 90, 80, 70, 60, 50, 40, 30,\n\n20, 10.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-2"
+    },
+    {
+      "number": "3",
+      "section": "Задание 3",
+      "condition": "Задание 3.",
+      "solution": "1) Сначала считаем рубли,\n\nпотом копейки.\n\nКатя:\n\nСвета:\n\nВывод:сначала нужно считать\n\nкрупные меры - рубли;затем\n\nмелкие меры - копейки.\n\n2) У Кати 5 монет,\n\nу Светы 6 монет:\n\n5 < 6.\n\nУ Кати 25 рублей,\n\nу Светы 17 рублей:\n\n25 > 17.",
+      "answer": "1) Сначала считаем рубли,\n\nпотом копейки.\n\nКатя:\n\nСвета:\n\nВывод:сначала нужно считать\n\nкрупные меры - рубли;затем\n\nмелкие меры - копейки.\n\n2) У Кати 5 монет,\n\nу Светы 6 монет:\n\n5 < 6.\n\nУ Кати 25 рублей,\n\nу Светы 17 рублей:\n\n25 > 17.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/2-zadanie-3"
+    },
+    {
+      "number": "4",
+      "section": "Задание 4",
+      "condition": "Задание 4.",
+      "solution": "1) Внутри геометрических\n\nфигур записаны двузначные\n\nчисла.\n\nРасположим их по порядку:\n\n10, 20, 30, 40, 50, 60, 70, 80, 100.\n\nВ ряду не хватает числа 90.\n\nОтвет:не хватает числа 90.\n\n2) Слово:МНОГОУГОЛЬНИКИ.",
+      "answer": "Ответ:не хватает числа 90.\n\n2) Слово:МНОГОУГОЛЬНИКИ.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-4"
+    },
+    {
+      "number": "5",
+      "section": "Задание 5",
+      "condition": "Задание 5.",
+      "solution": "1) 1 р. = 100 к.\n\n100 = 10 · 10\n\n2) Чтобы получить 1 рубль\n\nнужно взять по 10 копеек\n\n10 раз.\n\n3) Чтобы получить 100 рублей,\n\nнужно взять по 10 рублей\n\n10 раз.",
+      "answer": "1) 1 р. = 100 к.\n\n100 = 10 · 10\n\n2) Чтобы получить 1 рубль\n\nнужно взять по 10 копеек\n\n10 раз.\n\n3) Чтобы получить 100 рублей,\n\nнужно взять по 10 рублей\n\n10 раз.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-5"
+    },
+    {
+      "number": "6",
+      "section": "Задание 6",
+      "condition": "Задание 6.",
+      "solution": "1) Десять единиц - это один\n\nдесяток.\n\n10 ед. = 1 дес.\n\n2) Десять десятков - это одна\n\nсотня.\n\n10 дес. = 1 сот.",
+      "answer": "1) Десять единиц - это один\n\nдесяток.\n\n10 ед. = 1 дес.\n\n2) Десять десятков - это одна\n\nсотня.\n\n10 дес. = 1 сот.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-6"
+    },
+    {
+      "number": "7",
+      "section": "Задание 7",
+      "condition": "Задание 7.",
+      "solution": "а) 30 + 10 = 40\n\n70 + 10 = 80\n\n50 - 10 = 40\n\n100 - 10 = 90\n\nб) 10 + 60 + 10 = 70 + 10 = 80\n\n90 - 10 - 10 = 80 - 10 = 70\n\n10 + (100 - 10) = 10 + 90 =\n\n= 100\n\n(20 - 10) + 80 = 10 + 80 = 90",
+      "answer": "а) 30 + 10 = 40\n\n70 + 10 = 80\n\n50 - 10 = 40\n\n100 - 10 = 90\n\nб) 10 + 60 + 10 = 70 + 10 = 80\n\n90 - 10 - 10 = 80 - 10 = 70\n\n10 + (100 - 10) = 10 + 90 =\n\n= 100\n\n(20 - 10) + 80 = 10 + 80 = 90",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-7"
+    },
+    {
+      "number": "8",
+      "section": "Задание 8",
+      "condition": "Задание 8.",
+      "solution": "Саша купил в магазине\n\nкарандаш за 10 рублей и\n\nблокнот за 50 рублей.\n\nСколько денег он заплатил\n\nна кассе за всю покупку?\n\n10 + 50 = 60 (рублей) -\n\nзаплатил мальчик за покупку.\n\nОтвет:60 рублей.\n\nВаня купил для уроков\n\nкарандаш за 10 рублей и\n\nлинейку. На кассе сказали,\n\nчто стоимость покупки равна\n\n50 р. Сколько стоила линейка?\n\n50 - 10 = 40 (рублей) -\n\nстоимость линейки.\n\nОтвет:40 рублей.",
+      "answer": "Ответ:40 рублей.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-8"
+    },
+    {
+      "number": "9",
+      "section": "Задание 9",
+      "condition": "Задание 9.",
+      "solution": "Выполните измерения и\n\nчертеж самостоятельно.",
+      "answer": "Выполните измерения и\n\nчертеж самостоятельно.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/2-zadanie-9"
+    },
+    {
+      "number": "10",
+      "section": "Задание 10",
+      "condition": "Задание 10.",
+      "solution": "Первый рисунок:\n\n2 десятка и 4 единицы;\n\n20 + 4 = 24.\n\nВторой рисунок:\n\n4 десятка и 2 единицы;\n\n40 + 2 = 42.",
+      "answer": "Первый рисунок:\n\n2 десятка и 4 единицы;\n\n20 + 4 = 24.\n\nВторой рисунок:\n\n4 десятка и 2 единицы;\n\n40 + 2 = 42.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-10"
+    },
+    {
+      "number": "11",
+      "section": "Задание 11",
+      "condition": "Задание 11.",
+      "solution": "35 р. = 10 + 10 + 5 + 5 + 5",
+      "answer": "35 р. = 10 + 10 + 5 + 5 + 5",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-11"
+    },
+    {
+      "number": "12",
+      "section": "Задание 12",
+      "condition": "Задание 12.",
+      "solution": "1) Я знаю три разряда:сотни,\n\nдесятки, единицы.\n\n2) В таблицу вписаны числа:\n\n5; 40; 100.\n\n3)\n\nСотни\n\nДесятки\n\nЕдиницы\n\n8\n\n6\n\n7\n\n3\n\n1",
+      "answer": "1) Я знаю три разряда:сотни,\n\nдесятки, единицы.\n\n2) В таблицу вписаны числа:\n\n5; 40; 100.\n\n3)\n\nСотни\n\nДесятки\n\nЕдиницы\n\n8\n\n6\n\n7\n\n3\n\n1",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-12"
+    },
+    {
+      "number": "13",
+      "section": "Задание 13",
+      "condition": "Задание 13.",
+      "solution": "1) Сделайте то же самое\n\nв тетради:\n\n2)\n\nСотни\n\nДесятки\n\nЕдиницы\n\n3\n\n5\n\n5\n\n3",
+      "answer": "1) Сделайте то же самое\n\nв тетради:\n\n2)\n\nСотни\n\nДесятки\n\nЕдиницы\n\n3\n\n5\n\n5\n\n3",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-13"
+    },
+    {
+      "number": "14",
+      "section": "Задание 14",
+      "condition": "Задание 14.",
+      "solution": "4 ед.\n\n4 дес.\n\n34\n\n48\n\n94\n\n47\n\n84\n\n43\n\n54\n\n45\n\n74\n\n49",
+      "answer": "4 ед.\n\n4 дес.\n\n34\n\n48\n\n94\n\n47\n\n84\n\n43\n\n54\n\n45\n\n74\n\n49",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-14"
+    },
+    {
+      "number": "15",
+      "section": "Задание 15",
+      "condition": "Задание 15",
+      "solution": "15.",
+      "answer": "15.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-15"
+    },
+    {
+      "number": "16",
+      "section": "Задание 16",
+      "condition": "Задание 16.",
+      "solution": "1) Запишем все числа\n\nпо порядку, начиная\n\nс меньшего:\n\n60, 61, 62, 63, 64, 65, 66, 67, 68,\n\n70.\n\nМы видим, что пропущено\n\nчисло 69.\n\nОтвет:число 69.\n\n2) Слово:\n\nЧЕТЫРЁХУГОЛЬНИКИ.",
+      "answer": "Ответ:число 69.\n\n2) Слово:\n\nЧЕТЫРЁХУГОЛЬНИКИ.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-16"
+    },
+    {
+      "number": "17",
+      "section": "Задание 17",
+      "condition": "Задание 17",
+      "solution": "17.",
+      "answer": "17.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-17"
+    },
+    {
+      "number": "18",
+      "section": "Задание 18",
+      "condition": "Задание 18.",
+      "solution": "Математика - 80 уч.\n\nЧтение - на 10 уч. меньше, чем\n\nпо математике\n\nТехнология - на 7 учебников\n\nбольше, чем по чтению.\n\n(80 - 10) + 7 = 70 + 7 =\n\n= 77 (учебников) -\n\nпо технологии привезли в\n\nбиблиотеку.\n\nОтвет:77 учебников по\n\nтехнологии.",
+      "answer": "Ответ:77 учебников по\n\nтехнологии.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-18"
+    },
+    {
+      "number": "19",
+      "section": "Задание 19",
+      "condition": "Задание 19.",
+      "solution": "а) 40 + 10 + 10 = 60\n\n70 - 10 - 10 = 50\n\n100 - 10 + 1 = 90 + 1 = 91\n\nб) 10 + 60 + 4 = 74\n\n3 + (50 + 10) = 3 + 60 = 63\n\n1 + (90 - 10) = 1 + 80 = 81\n\n80 - (17 - 7) = 80 - 10 = 70\n\n60 + (14 - 10) = 60 + 4 = 64\n\n100 - (12 - 2) = 100 - 10 = 90",
+      "answer": "а) 40 + 10 + 10 = 60\n\n70 - 10 - 10 = 50\n\n100 - 10 + 1 = 90 + 1 = 91\n\nб) 10 + 60 + 4 = 74\n\n3 + (50 + 10) = 3 + 60 = 63\n\n1 + (90 - 10) = 1 + 80 = 81\n\n80 - (17 - 7) = 80 - 10 = 70\n\n60 + (14 - 10) = 60 + 4 = 64\n\n100 - (12 - 2) = 100 - 10 = 90",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-19"
+    },
+    {
+      "number": "20",
+      "section": "Задание 20",
+      "condition": "Задание 20.",
+      "solution": "На рисунке 6 дес. 5 ед. =\n\n= 60 + 5 = 65 палочек.\n\nЕсли убрать единицы, то\n\nостанется: 65 - 5 =\n\n= 60 (палочек).\n\nЕсли убрать десятки, то\n\nостанется: 65 - 60 =\n\n= 5 (палочек).\n\nПримеры:\n\n60 + 5 = 65\n\n65 - 5 = 60\n\n65 - 60 = 5.",
+      "answer": "На рисунке 6 дес. 5 ед. =\n\n= 60 + 5 = 65 палочек.\n\nЕсли убрать единицы, то\n\nостанется: 65 - 5 =\n\n= 60 (палочек).\n\nЕсли убрать десятки, то\n\nостанется: 65 - 60 =\n\n= 5 (палочек).\n\nПримеры:\n\n60 + 5 = 65\n\n65 - 5 = 60\n\n65 - 60 = 5.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-20"
+    },
+    {
+      "number": "21",
+      "section": "Задание 21",
+      "condition": "Задание 21.",
+      "solution": "Примеры в каэждом столбике\n\nпохожи тем, что сначала\n\nнаходится сумма двух чисел\n\n(круглых десятков и единиц),\n\nа потом составляются\n\nвыражения на вычитание.",
+      "answer": "Примеры в каэждом столбике\n\nпохожи тем, что сначала\n\nнаходится сумма двух чисел\n\n(круглых десятков и единиц),\n\nа потом составляются\n\nвыражения на вычитание.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-21"
+    },
+    {
+      "number": "22",
+      "section": "Задание 22",
+      "condition": "Задание 22",
+      "solution": "22.",
+      "answer": "22.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-22"
+    },
+    {
+      "number": "23",
+      "section": "Задание 23",
+      "condition": "Задание 23",
+      "solution": "23.",
+      "answer": "23.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-23"
+    },
+    {
+      "number": "24",
+      "section": "Задание 24",
+      "condition": "Задание 24",
+      "solution": "24.",
+      "answer": "24.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-24"
+    },
+    {
+      "number": "25",
+      "section": "Задание 25",
+      "condition": "Задание 25",
+      "solution": "25.",
+      "answer": "25.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-25"
+    },
+    {
+      "number": "26",
+      "section": "Задание 26",
+      "condition": "Задание 26",
+      "solution": "26.",
+      "answer": "26.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-26"
+    },
+    {
+      "number": "27",
+      "section": "Задание 27",
+      "condition": "Задание 27.",
+      "solution": "1) Два раза встречается число\n\n47.\n\n2) а) 37, 38, 39, 40, 41, 42, 43, 44,\n\n45, 46, 47, 47, 48, 49, 50, 51, 52;\n\nб) 52, 51, 50, 49, 48, 47, 46, 45,\n\n44, 43, 42, 41, 40, 39, 38, 37.",
+      "answer": "1) Два раза встречается число\n\n47.\n\n2) а) 37, 38, 39, 40, 41, 42, 43, 44,\n\n45, 46, 47, 47, 48, 49, 50, 51, 52;\n\nб) 52, 51, 50, 49, 48, 47, 46, 45,\n\n44, 43, 42, 41, 40, 39, 38, 37.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-27"
+    },
+    {
+      "number": "28",
+      "section": "Задание 28",
+      "condition": "Задание 28.",
+      "solution": "Чтобы получить следующее\n\nчисло, к числу нужно\n\nприбавить 1 единицу.\n\nЧтобы получить предыдущее\n\nчисло, из числа нужно вычесть\n\n1 единицу.\n\nСледующее число:\n\n26 + 1 = 27\n\n56 + 1 = 57\n\n96 + 1 = 97\n\n63 + 1 = 64\n\n78 + 1 = 79\n\n89 + 1 = 90\n\nПредыдущее число:\n\n32 - 1 = 31\n\n62 - 1 = 61\n\n82 - 1 = 81\n\n48 - 1 = 47\n\n71 - 1 = 70\n\n90 - 1 = 89",
+      "answer": "Чтобы получить следующее\n\nчисло, к числу нужно\n\nприбавить 1 единицу.\n\nЧтобы получить предыдущее\n\nчисло, из числа нужно вычесть\n\n1 единицу.\n\nСледующее число:\n\n26 + 1 = 27\n\n56 + 1 = 57\n\n96 + 1 = 97\n\n63 + 1 = 64\n\n78 + 1 = 79\n\n89 + 1 = 90\n\nПредыдущее число:\n\n32 - 1 = 31\n\n62 - 1 = 61\n\n82 - 1 = 81\n\n48 - 1 = 47\n\n71 - 1 = 70\n\n90 - 1 = 89",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-28"
+    },
+    {
+      "number": "29",
+      "section": "Задание 29",
+      "condition": "Задание 29.",
+      "solution": "а) 26 - 6 = 20\n\n37 - 7 = 30\n\n55 - 5 = 50\n\n64 - 4 = 60\n\n95 - 90 = 5\n\n88 - 80 = 8\n\nб) 36 - (17 - 11) = 36 - 6 =\n\n= 30\n\n42 - (20 - 18) = 42 - 2 = 40\n\n93 - (19 - 16) = 93 - 3 = 90",
+      "answer": "а) 26 - 6 = 20\n\n37 - 7 = 30\n\n55 - 5 = 50\n\n64 - 4 = 60\n\n95 - 90 = 5\n\n88 - 80 = 8\n\nб) 36 - (17 - 11) = 36 - 6 =\n\n= 30\n\n42 - (20 - 18) = 42 - 2 = 40\n\n93 - (19 - 16) = 93 - 3 = 90",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-29"
+    },
+    {
+      "number": "30",
+      "section": "Задание 30",
+      "condition": "Задание 30.",
+      "solution": "Задача 1.\n\n(66 + 1) - 7 = 67 - 7 =\n\n= 60 (рублей) - было\n\nу Наташи.\n\nОтвет:60 рублей.\n\nЗадача 2.\n\n(40 + 5) - 1 = 45 - 1 =\n\n= 44 (рубля) - было у Насти.\n\nОтвет:44 рубля.",
+      "answer": "Ответ:44 рубля.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-30"
+    },
+    {
+      "number": "31",
+      "section": "Задание 31",
+      "condition": "Задание 31.",
+      "solution": "а) 47 + 10 = 57\n\n47 - 10 = 37\n\nб) 72 + 10 - 1 = 82 - 1 = 81\n\n49 + 1 - 10 = 50 - 10 = 40\n\n81 - 1 - 1 - 1 = 80 - 1 - 1 =\n\n= 79 - 1 = 78\n\n58 + 1 + 1 + 1 = 58 + 2 + 1 =\n\n= 60 + 1 = 61",
+      "answer": "а) 47 + 10 = 57\n\n47 - 10 = 37\n\nб) 72 + 10 - 1 = 82 - 1 = 81\n\n49 + 1 - 10 = 50 - 10 = 40\n\n81 - 1 - 1 - 1 = 80 - 1 - 1 =\n\n= 79 - 1 = 78\n\n58 + 1 + 1 + 1 = 58 + 2 + 1 =\n\n= 60 + 1 = 61",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-31"
+    },
+    {
+      "number": "32",
+      "section": "Задание 32",
+      "condition": "Задание 32.",
+      "solution": "Примеры Оли:\n\n49 + 1 = 50\n\n60 - 10 = 50\n\nПримеры Рустама:\n\n59 + 10 = 69\n\n70 - 1 = 69",
+      "answer": "Примеры Оли:\n\n49 + 1 = 50\n\n60 - 10 = 50\n\nПримеры Рустама:\n\n59 + 10 = 69\n\n70 - 1 = 69",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-32"
+    },
+    {
+      "number": "33",
+      "section": "Задание 33",
+      "condition": "Задание 33.",
+      "solution": "Больше 45 р. числа:\n\n50 р.;51 р.;60 р.;64 р.;72 р.",
+      "answer": "Больше 45 р. числа:\n\n50 р.;51 р.;60 р.;64 р.;72 р.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-33"
+    },
+    {
+      "number": "34",
+      "section": "Задание 34",
+      "condition": "Задание 34.",
+      "solution": "Меньше 62 р. числа:\n\n10 р.;15 р.;22 р.;34 р.;48 р.",
+      "answer": "Меньше 62 р. числа:\n\n10 р.;15 р.;22 р.;34 р.;48 р.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-34"
+    },
+    {
+      "number": "35",
+      "section": "Задание 35",
+      "condition": "Задание 35.",
+      "solution": "б) 38 р. < 83 р.\n\n100 р. > 99 р.",
+      "answer": "б) 38 р. < 83 р.\n\n100 р. > 99 р.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-35"
+    },
+    {
+      "number": "36",
+      "section": "Задание 36",
+      "condition": "Задание 36.",
+      "solution": "1) Измерения отрезков\n\nвыполните самостоятельно.\n\nНаименьшим будет зеленый\n\nотрезок, его длину нужно\n\nподчеркнуть.\n\n2) 1 дм = 10 см.",
+      "answer": "1) Измерения отрезков\n\nвыполните самостоятельно.\n\nНаименьшим будет зеленый\n\nотрезок, его длину нужно\n\nподчеркнуть.\n\n2) 1 дм = 10 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-36"
+    },
+    {
+      "number": "37",
+      "section": "Задание 37",
+      "condition": "Задание 37.",
+      "solution": "9 + 4 = 9 + 1 + 4 = 10 + 4 = 14\n\n8 + 3 = 8 + 2 + 1 = 10 + 1 = 11\n\n7 + 5 = 7 + 3 + 2 = 10 + 2 = 12\n\n6 + 8 = 6 + 4 + 4 = 10 + 4 = 14\n\n8 + 5 = 8 + 2 + 3 = 10 + 3 = 13\n\n7 + 7 = 7 + 3 + 4 = 10 + 4 = 14\n\n9 + 6 = 9 + 1 + 5 = 10 + 5 = 15\n\n5 + 9 = 9 + 1 + 4 = 10 + 4 = 14\n\n6 + 5 = 6 + 4 + 1 = 10 + 1 = 11\n\n4 + 8 = 8 + 2 + 2 = 10 + 2 = 12\n\n7 + 6 = 7 + 3 + 3 = 10 + 3 = 13\n\n9 + 8 = 9 + 1 + 7 = 10 + 7 = 17",
+      "answer": "9 + 4 = 9 + 1 + 4 = 10 + 4 = 14\n\n8 + 3 = 8 + 2 + 1 = 10 + 1 = 11\n\n7 + 5 = 7 + 3 + 2 = 10 + 2 = 12\n\n6 + 8 = 6 + 4 + 4 = 10 + 4 = 14\n\n8 + 5 = 8 + 2 + 3 = 10 + 3 = 13\n\n7 + 7 = 7 + 3 + 4 = 10 + 4 = 14\n\n9 + 6 = 9 + 1 + 5 = 10 + 5 = 15\n\n5 + 9 = 9 + 1 + 4 = 10 + 4 = 14\n\n6 + 5 = 6 + 4 + 1 = 10 + 1 = 11\n\n4 + 8 = 8 + 2 + 2 = 10 + 2 = 12\n\n7 + 6 = 7 + 3 + 3 = 10 + 3 = 13\n\n9 + 8 = 9 + 1 + 7 = 10 + 7 = 17",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-37"
+    },
+    {
+      "number": "38",
+      "section": "Задание 38",
+      "condition": "Задание 38.",
+      "solution": "Задача 1 (вторая схема).\n\nБыло - 48 гв. и 10 гв.\n\nИзрасходовал - 8 гв.\n\nСтало - ?\n\n(48 + 10) - 8 = 58 - 8 =\n\n= 50 (гвоздей) - стало\n\nв мастерской.\n\nОтвет:50 гвоздей.\n\nЗадача 2 (первая схема).\n\nБыло - 39 гв.\n\nИзрасходовал - 3 гв. и 6 гв.\n\nСтало - ?\n\n39 - (3 + 6) = 39 - 9 =\n\n= 30 (гвоздей) - стало\n\nв мастерской.\n\nОтвет:30 гвоздей.",
+      "answer": "Ответ:30 гвоздей.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-38"
+    },
+    {
+      "number": "39",
+      "section": "Задание 39",
+      "condition": "Задание 39.",
+      "solution": "а) 46 + 1 + 1 = 47 + 1 = 48\n\n46 + 10 + 10 = 56 + 10 = 66\n\n63 - 1 - 1 = 62 - 1 = 61\n\n63 - 10 - 10 = 53 - 10 = 43\n\nб) 77 - (11 - 1) = 77 - 10 =\n\n= 67\n\n100 - (11 - 10) = 100 - 1 =\n\n= 99",
+      "answer": "а) 46 + 1 + 1 = 47 + 1 = 48\n\n46 + 10 + 10 = 56 + 10 = 66\n\n63 - 1 - 1 = 62 - 1 = 61\n\n63 - 10 - 10 = 53 - 10 = 43\n\nб) 77 - (11 - 1) = 77 - 10 =\n\n= 67\n\n100 - (11 - 10) = 100 - 1 =\n\n= 99",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-39"
+    },
+    {
+      "number": "40",
+      "section": "Задание 40",
+      "condition": "Задание 40.",
+      "solution": "а) 1, 2, 3:\n\n12, 13, 11, 21, 23, 22, 31, 32, 33.\n\nб) 4, 5, 6:\n\n45, 46, 44, 54, 55, 56, 64, 65, 66.\n\nв) 7, 8, 9:\n\n78, 79, 77, 87, 88, 89, 97, 98, 99.",
+      "answer": "а) 1, 2, 3:\n\n12, 13, 11, 21, 23, 22, 31, 32, 33.\n\nб) 4, 5, 6:\n\n45, 46, 44, 54, 55, 56, 64, 65, 66.\n\nв) 7, 8, 9:\n\n78, 79, 77, 87, 88, 89, 97, 98, 99.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-40"
+    },
+    {
+      "number": "41",
+      "section": "Задание 41",
+      "condition": "Задание 41.",
+      "solution": "1 - три угла, треугольник;\n\n2 - четыре угла,\n\nчетырехугольник;\n\n3 - 5 углов, пятиугольник;\n\n4 - 6 углов, шестиугольник;\n\n5 - 4 угла, ромб;\n\n6 - 8 углов, восьмиугольник.\n\nОдним словом:\n\nМНОГОУГОЛЬНИКИ.",
+      "answer": "1 - три угла, треугольник;\n\n2 - четыре угла,\n\nчетырехугольник;\n\n3 - 5 углов, пятиугольник;\n\n4 - 6 углов, шестиугольник;\n\n5 - 4 угла, ромб;\n\n6 - 8 углов, восьмиугольник.\n\nОдним словом:\n\nМНОГОУГОЛЬНИКИ.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-41"
+    },
+    {
+      "number": "42",
+      "section": "Задание 42",
+      "condition": "Задание 42.",
+      "solution": "Задача 1.\n\nБыло - 25 рис. и 10 рис.\n\nЗабрали - 5 рис.\n\nСтало - ?\n\n(25 + 10) - 5 = 35 - 5 =\n\n= 30 (рисунков) - стало\n\nв кружке.\n\nОтвет:30 рисунков.\n\nЗадача 2.\n\n39 - (4 + 5) = 39 - 9 =\n\n= 30 (поделок) - стало\n\nв кружке.\n\nОтвет:30 поделок.",
+      "answer": "Ответ:30 поделок.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-42"
+    },
+    {
+      "number": "43",
+      "section": "Задание 43",
+      "condition": "Задание 43.",
+      "solution": "1) 90 лет;78 лет;89 лет;98 лет;\n\n100 лет.\n\n2) Старше всех черепаха,\n\nкоторой 100 лет;\n\nмладше всех черепха, которой\n\n78 лет.\n\n78 лет < 100 лет.\n\n3) Числа по порядку, начиная\n\nс наименьшего:\n\n78, 89, 90, 98, 100.",
+      "answer": "1) 90 лет;78 лет;89 лет;98 лет;\n\n100 лет.\n\n2) Старше всех черепаха,\n\nкоторой 100 лет;\n\nмладше всех черепха, которой\n\n78 лет.\n\n78 лет < 100 лет.\n\n3) Числа по порядку, начиная\n\nс наименьшего:\n\n78, 89, 90, 98, 100.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-43"
+    },
+    {
+      "number": "44",
+      "section": "Задание 44",
+      "condition": "Задание 44.",
+      "solution": "11 - 3 = 11 - 1 - 2 = 10 - 2 =\n\n= 8\n\n12 - 6 = 12 - 2 - 4 = 10 - 4 =\n\n= 6\n\n13 - 4 = 13 - 3 - 1 = 10 - 1 =\n\n= 9\n\n14 - 5 = 14 - 4 - 1 = 10 - 1 =\n\n= 9\n\n12 - 7 = 12 - 2 - 5 = 10 - 5 =\n\n= 5\n\n11 - 9 = 11 - 1 - 8 = 10 - 8 =\n\n= 2\n\n14 - 6 = 14 - 4 - 2 = 10 - 2 =\n\n= 8\n\n16 - 8 = 16 - 6 - 2 = 10 - 2 =\n\n= 8\n\n13 - 8 = 13 - 3 - 5 = 10 - 5 =\n\n= 5\n\n15 - 6 = 15 - 5 - 1 = 10 - 1 =\n\n= 9\n\n17 - 9 = 17 - 7 - 2 = 10 - 2 =\n\n= 8\n\n18 - 9 = 18 - 8 - 1 = 10 - 1 =\n\n= 9",
+      "answer": "11 - 3 = 11 - 1 - 2 = 10 - 2 =\n\n= 8\n\n12 - 6 = 12 - 2 - 4 = 10 - 4 =\n\n= 6\n\n13 - 4 = 13 - 3 - 1 = 10 - 1 =\n\n= 9\n\n14 - 5 = 14 - 4 - 1 = 10 - 1 =\n\n= 9\n\n12 - 7 = 12 - 2 - 5 = 10 - 5 =\n\n= 5\n\n11 - 9 = 11 - 1 - 8 = 10 - 8 =\n\n= 2\n\n14 - 6 = 14 - 4 - 2 = 10 - 2 =\n\n= 8\n\n16 - 8 = 16 - 6 - 2 = 10 - 2 =\n\n= 8\n\n13 - 8 = 13 - 3 - 5 = 10 - 5 =\n\n= 5\n\n15 - 6 = 15 - 5 - 1 = 10 - 1 =\n\n= 9\n\n17 - 9 = 17 - 7 - 2 = 10 - 2 =\n\n= 8\n\n18 - 9 = 18 - 8 - 1 = 10 - 1 =\n\n= 9",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-44"
+    },
+    {
+      "number": "45",
+      "section": "Задание 45",
+      "condition": "Задание 45.",
+      "solution": "Задача 1.\n\nНа лугу было 8 бабочек, потом\n\nприлетело еще 5 коричневых\n\nи 4 синих бабочки. Сколько\n\nбабочек стало на лугу?\n\n8 + (5 + 4) = 8 + 9 =\n\n= 17 (бабочек) - стало на лугу.\n\nОтвет:17 бабочек.\n\nЗадача 2.\n\nВозле речки мы увидели 6\n\nсерых и 5 коричневых стрекоз.\n\nПотом 8 стрекоз улетели.\n\nСколько стрекоз стало возле\n\nречки?\n\n(6 + 5) - 8 = 11 - 8 =\n\n= 3 (стрекозы) - стало возле\n\nречки.\n\nОтвет:3 стрекозы.",
+      "answer": "Ответ:3 стрекозы.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-45"
+    },
+    {
+      "number": "46",
+      "section": "Задание 46",
+      "condition": "Задание 46.",
+      "solution": "а) 50 + 4 - 1 = 54 - 1 = 53\n\n50 + (4 - 1) = 50 + 3 = 53\n\n50 - (4 - 3) = 50 - 1 = 49\n\nб) 91 - (100 - 10) = 91 - 90 =\n\n= 1\n\n(80 + 10) - 1 = 90 - 1 = 89\n\n100 - (13 - 12) = 100 - 1 =\n\n= 99\n\n70 + (15 - 8) = 70 + 7 = 77\n\n64 - (11 - 7) = 64 - 4 = 60\n\n(13 - 9) + 50 = 4 + 50 = 54",
+      "answer": "а) 50 + 4 - 1 = 54 - 1 = 53\n\n50 + (4 - 1) = 50 + 3 = 53\n\n50 - (4 - 3) = 50 - 1 = 49\n\nб) 91 - (100 - 10) = 91 - 90 =\n\n= 1\n\n(80 + 10) - 1 = 90 - 1 = 89\n\n100 - (13 - 12) = 100 - 1 =\n\n= 99\n\n70 + (15 - 8) = 70 + 7 = 77\n\n64 - (11 - 7) = 64 - 4 = 60\n\n(13 - 9) + 50 = 4 + 50 = 54",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-46"
+    },
+    {
+      "number": "47",
+      "section": "Задание 47",
+      "condition": "Задание 47.",
+      "solution": "Синий робот:\n\nпропущено число 4.\n\nЗеленый робот:\n\nпропущено число 40.\n\nКрасный робот:\n\nпропущено число 53.",
+      "answer": "Синий робот:\n\nпропущено число 4.\n\nЗеленый робот:\n\nпропущено число 40.\n\nКрасный робот:\n\nпропущено число 53.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/1-zadanie-47"
+    },
+    {
+      "number": "48",
+      "section": "Задание 48",
+      "condition": "Задание 48",
+      "solution": "48.",
+      "answer": "48.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-48"
+    },
+    {
+      "number": "49",
+      "section": "Задание 49",
+      "condition": "Задание 49.",
+      "solution": "70 = 30 + 20 + 20\n\n80 = 44 + 33 + 3\n\n90 = 50 + 35 + 5\n\n100 = 22 + 70 + 8",
+      "answer": "70 = 30 + 20 + 20\n\n80 = 44 + 33 + 3\n\n90 = 50 + 35 + 5\n\n100 = 22 + 70 + 8",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-49"
+    },
+    {
+      "number": "50",
+      "section": "Задание 50",
+      "condition": "Задание 50.",
+      "solution": "1) 5 + 10 + 10 + 2 + 3 = 30 р.\n\n2 + 10 + 10 + 10 + 8 = 40 р.\n\n2) В первом случае нужно\n\nвзять монеты 1 р. и 2 р.\n\nВо втором случае нужно\n\nвзять 5 р., 2 р. и 1 р.",
+      "answer": "1) 5 + 10 + 10 + 2 + 3 = 30 р.\n\n2 + 10 + 10 + 10 + 8 = 40 р.\n\n2) В первом случае нужно\n\nвзять монеты 1 р. и 2 р.\n\nВо втором случае нужно\n\nвзять 5 р., 2 р. и 1 р.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-50"
+    },
+    {
+      "number": "51",
+      "section": "Задание 51",
+      "condition": "Задание 51.",
+      "solution": "а) 2 + 48 = 48 + 2 = 50\n\n5 + 85 = 85 + 5 = 90\n\n3 + 97 = 97 + 3 = 100\n\n6 р. + 54 р. = 60 р.\n\n9 р. + 71 р. = 80 р.\n\n8 р. + 92 р. = 100 р.\n\nб) 47 см - 40 см + 93 см =\n\n= 7 см + 93 см = 100 см\n\n100 м - (4 м + 86 м) =\n\n= 100 м - 90 м = 10 м\n\n7 мм + (67 мм - 34 мм) =\n\n= 7 мм + 33 мм = 40 мм",
+      "answer": "а) 2 + 48 = 48 + 2 = 50\n\n5 + 85 = 85 + 5 = 90\n\n3 + 97 = 97 + 3 = 100\n\n6 р. + 54 р. = 60 р.\n\n9 р. + 71 р. = 80 р.\n\n8 р. + 92 р. = 100 р.\n\nб) 47 см - 40 см + 93 см =\n\n= 7 см + 93 см = 100 см\n\n100 м - (4 м + 86 м) =\n\n= 100 м - 90 м = 10 м\n\n7 мм + (67 мм - 34 мм) =\n\n= 7 мм + 33 мм = 40 мм",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-51"
+    },
+    {
+      "number": "52",
+      "section": "Задание 52",
+      "condition": "Задание 52.",
+      "solution": "28 + 12 = 28 + 10 + 2 =\n\n= 38 + 2 = 40\n\n39 + 11 = 39 + 10 + 1 =\n\n= 49 + 1 = 50\n\n47 + 13 = 47 + 10 + 3 =\n\n= 57 + 3 = 60\n\n56 + 14 = 56 + 10 + 4 =\n\n= 66 + 4 = 70\n\n35 + 25 = 35 + 20 + 5 =\n\n= 55 + 5 = 60\n\n69 + 21 = 69 + 20 + 1 =\n\n= 89 + 1 = 90\n\n33 + 37 = 33 + 30 + 7 =\n\n= 63 + 7 = 70\n\n24 + 56 = 24 + 50 + 6 =\n\n= 74 + 6 = 80\n\n83 + 17 = 83 + 10 + 7 =\n\n= 93 + 7 = 100\n\n75 + 25 = 75 + 20 + 5 =\n\n= 95 + 5 = 100\n\n66 + 34 = 66 + 30 + 4 =\n\n= 96 + 4 = 100\n\n51 + 49 = 51 + 40 + 9 =\n\n= 91 + 9 = 100",
+      "answer": "28 + 12 = 28 + 10 + 2 =\n\n= 38 + 2 = 40\n\n39 + 11 = 39 + 10 + 1 =\n\n= 49 + 1 = 50\n\n47 + 13 = 47 + 10 + 3 =\n\n= 57 + 3 = 60\n\n56 + 14 = 56 + 10 + 4 =\n\n= 66 + 4 = 70\n\n35 + 25 = 35 + 20 + 5 =\n\n= 55 + 5 = 60\n\n69 + 21 = 69 + 20 + 1 =\n\n= 89 + 1 = 90\n\n33 + 37 = 33 + 30 + 7 =\n\n= 63 + 7 = 70\n\n24 + 56 = 24 + 50 + 6 =\n\n= 74 + 6 = 80\n\n83 + 17 = 83 + 10 + 7 =\n\n= 93 + 7 = 100\n\n75 + 25 = 75 + 20 + 5 =\n\n= 95 + 5 = 100\n\n66 + 34 = 66 + 30 + 4 =\n\n= 96 + 4 = 100\n\n51 + 49 = 51 + 40 + 9 =\n\n= 91 + 9 = 100",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-52"
+    },
+    {
+      "number": "53",
+      "section": "Задание 53",
+      "condition": "Задание 53.",
+      "solution": "Задача 1.\n\nБыло - 24 курицы и 16 куриц\n\nВыбежала - 1 курица\n\nОсталось - ?\n\n(24 + 16) - 1 = 40 - 1 =\n\n= 39 (куриц) - стало\n\nв курятнике.\n\nОтвет:39 куриц.\n\nЗадача 2.\n\n7 + (12 + 18) = 7 + 30 =\n\n= 37 (куриц) - стало\n\nв курятнике.\n\nОтвет:37 куриц.",
+      "answer": "Ответ:37 куриц.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-53"
+    },
+    {
+      "number": "54",
+      "section": "Задание 54",
+      "condition": "Задание 54.",
+      "solution": "1) Пятиугольник есть\n\nв птичке №3.\n\n2) Восьмиугольник есть\n\nв птичке №2.",
+      "answer": "1) Пятиугольник есть\n\nв птичке №3.\n\n2) Восьмиугольник есть\n\nв птичке №2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-54"
+    },
+    {
+      "number": "55",
+      "section": "Задание 55",
+      "condition": "Задание 55.",
+      "solution": "б) 19 + 51 - 1 = 19 + 50 = 69\n\n34 + (69 - 3) = 34 + 66 = 100\n\n92 + (16 - 8) = 92 + 8 = 100\n\n14 - 7 + 53 = 7 + 53 = 60",
+      "answer": "б) 19 + 51 - 1 = 19 + 50 = 69\n\n34 + (69 - 3) = 34 + 66 = 100\n\n92 + (16 - 8) = 92 + 8 = 100\n\n14 - 7 + 53 = 7 + 53 = 60",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-55"
+    },
+    {
+      "number": "56",
+      "section": "Задание 56",
+      "condition": "Задание 56.",
+      "solution": "1)\n\n2)",
+      "answer": "1)\n\n2)",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-56"
+    },
+    {
+      "number": "57",
+      "section": "Задание 57",
+      "condition": "Задание 57.",
+      "solution": "39 + 11 = 50\n\n38 + 22 = 60\n\n37 + 33 = 70\n\n36 + 44 = 80\n\n35 + 55 = 90\n\n34 + 66 = 100",
+      "answer": "39 + 11 = 50\n\n38 + 22 = 60\n\n37 + 33 = 70\n\n36 + 44 = 80\n\n35 + 55 = 90\n\n34 + 66 = 100",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-57"
+    },
+    {
+      "number": "58",
+      "section": "Задание 58",
+      "condition": "Задание 58",
+      "solution": "58.",
+      "answer": "58.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-58"
+    },
+    {
+      "number": "59",
+      "section": "Задание 59",
+      "condition": "Задание 59",
+      "solution": "59.",
+      "answer": "59.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-59"
+    },
+    {
+      "number": "60",
+      "section": "Задание 60",
+      "condition": "Задание 60.",
+      "solution": "Костя купил в магазине\n\nпо списку:батон по цене 24 р;\n\nбулку, по цене 26 р.и лепешку,\n\nкоторая была на 5 рублей\n\nдешевле, чем батон и булка\n\nвместе.\n\nСколько рублей стоила\n\nлепешка?\n\n(24 + 26) - 5 = 50 - 5 =\n\n= 45 (рублей) - цена лепешки.\n\nОтвет:45 рублей.",
+      "answer": "Ответ:45 рублей.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-60"
+    },
+    {
+      "number": "61",
+      "section": "Задание 61",
+      "condition": "Задание 61.",
+      "solution": "б) 60 - (20 - 12) = 60 - 8 =\n\n= 52\n\n70 - (20 - 16) = 70 - 4 = 66\n\n90 - (20 - 18) = 90 - 2 = 88",
+      "answer": "б) 60 - (20 - 12) = 60 - 8 =\n\n= 52\n\n70 - (20 - 16) = 70 - 4 = 66\n\n90 - (20 - 18) = 90 - 2 = 88",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-61"
+    },
+    {
+      "number": "62",
+      "section": "Задание 62",
+      "condition": "Задание 62.",
+      "solution": "1) 70 - 5 = 65 - число,\n\nкоторое задумала Наташа.\n\n2) 77 + 3 = 80 - число,\n\nкоторое задумала Даша.",
+      "answer": "1) 70 - 5 = 65 - число,\n\nкоторое задумала Наташа.\n\n2) 77 + 3 = 80 - число,\n\nкоторое задумала Даша.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-62"
+    },
+    {
+      "number": "63",
+      "section": "Задание 63",
+      "condition": "Задание 63.",
+      "solution": "30 - 13 = 30 - 10 - 3 =\n\n= 20 - 3 = 17\n\n40 - 11 = 40 - 10 - 1 =\n\n= 30 - 1 = 29\n\n50 - 21 = 50 - 20 - 1 =\n\n= 30 - 1 = 29\n\n60 - 24 = 60 - 20 - 4 =\n\n= 40 - 4 = 36\n\n70 - 42 = 70 - 40 - 2 =\n\n= 30 - 2 = 28\n\n80 - 36 = 80 - 30 - 6 =\n\n= 50 - 6 = 44\n\n70 - 37 = 70 - 30 - 7 =\n\n= 40 - 7 = 33\n\n80 - 51 = 80 - 50 - 1 =\n\n= 30 - 1 = 29\n\n90 - 42 = 90 - 40 - 2 =\n\n= 50 - 2 = 48",
+      "answer": "30 - 13 = 30 - 10 - 3 =\n\n= 20 - 3 = 17\n\n40 - 11 = 40 - 10 - 1 =\n\n= 30 - 1 = 29\n\n50 - 21 = 50 - 20 - 1 =\n\n= 30 - 1 = 29\n\n60 - 24 = 60 - 20 - 4 =\n\n= 40 - 4 = 36\n\n70 - 42 = 70 - 40 - 2 =\n\n= 30 - 2 = 28\n\n80 - 36 = 80 - 30 - 6 =\n\n= 50 - 6 = 44\n\n70 - 37 = 70 - 30 - 7 =\n\n= 40 - 7 = 33\n\n80 - 51 = 80 - 50 - 1 =\n\n= 30 - 1 = 29\n\n90 - 42 = 90 - 40 - 2 =\n\n= 50 - 2 = 48",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-63"
+    },
+    {
+      "number": "64",
+      "section": "Задание 64",
+      "condition": "Задание 64.",
+      "solution": "(90 - 32) + 11 = 58 + 11 =\n\n= 69 (см) - высота\n\nжурнального столика.\n\nОтвет:69 см.",
+      "answer": "Ответ:69 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-64"
+    },
+    {
+      "number": "65",
+      "section": "Задание 65",
+      "condition": "Задание 65",
+      "solution": "65.",
+      "answer": "65.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-65"
+    },
+    {
+      "number": "66",
+      "section": "Задание 66",
+      "condition": "Задание 66.",
+      "solution": "Задача 1 - схема 2.\n\nС одеждой - 19 штук\n\nС обувью - ?\n\nВсего - 30 карточек.\n\n30 - 19 = 11 (карточек) -\n\nс рисунками обуви.\n\nОтвет:11 карточек.\n\nЗадача 2 - схема 1.\n\nС овощами - 15 штук\n\nС фруктами - 13 штук\n\nС ягодами - ?\n\nВсего - 40 карточек.\n\n40 - (15 + 13) = 40 - 28 =\n\n= 12 (карточек) - с рисунками\n\nягод.\n\nОтвет:12 карточек.",
+      "answer": "Ответ:12 карточек.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-66"
+    },
+    {
+      "number": "67",
+      "section": "Задание 67",
+      "condition": "Задание 67.",
+      "solution": "б) 5 + 45 - 39 = 50 - 39 = 11\n\n90 - (3 + 54) = 90 - 57 = 33\n\n100 - (2 + 68) = 100 - 70 = 30",
+      "answer": "б) 5 + 45 - 39 = 50 - 39 = 11\n\n90 - (3 + 54) = 90 - 57 = 33\n\n100 - (2 + 68) = 100 - 70 = 30",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-67"
+    },
+    {
+      "number": "68",
+      "section": "Задание 68",
+      "condition": "Задание 68",
+      "solution": "68.",
+      "answer": "68.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-68"
+    },
+    {
+      "number": "69",
+      "section": "Задание 69",
+      "condition": "Задание 69.",
+      "solution": "99 + 1 = 100\n\n95 + 5 = 100\n\n98 + 2 = 100\n\n97 р. + 3 р. = 100 р.\n\n93 р. + 7 р. = 100 р.\n\n91 р. + 9 р. = 100 р.\n\n96 см + 4 см = 100 см\n\n94 см + 6 см = 100 см\n\n92 см + 8 см = 100 см",
+      "answer": "99 + 1 = 100\n\n95 + 5 = 100\n\n98 + 2 = 100\n\n97 р. + 3 р. = 100 р.\n\n93 р. + 7 р. = 100 р.\n\n91 р. + 9 р. = 100 р.\n\n96 см + 4 см = 100 см\n\n94 см + 6 см = 100 см\n\n92 см + 8 см = 100 см",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-69"
+    },
+    {
+      "number": "70",
+      "section": "Задание 70",
+      "condition": "Задание 70.",
+      "solution": "Задача №2 решается в одно\n\nдействие.\n\n100 - 6 = 94 (м) - проволоки\n\nосталось в мотке.\n\nОтвет:94 м проволоки.\n\nЗадача 1.\n\nБыло - 100 м\n\nОтрезали - 6 м и 3 м\n\nОсталось - ?\n\n100 - (6 + 3) = 100 - 9 =\n\n= 91 (м) - проволоки стало\n\nв мотке.\n\nОтвет:91 м проволоки.",
+      "answer": "Ответ:91 м проволоки.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-70"
+    },
+    {
+      "number": "71",
+      "section": "Задание 71",
+      "condition": "Задание 71.",
+      "solution": "100 - 10 - 1 = 90 - 1 = 89\n\n100 - 20 - 2 = 80 - 2 = 78\n\n100 - 30 - 3 = 70 - 3 = 67",
+      "answer": "100 - 10 - 1 = 90 - 1 = 89\n\n100 - 20 - 2 = 80 - 2 = 78\n\n100 - 30 - 3 = 70 - 3 = 67",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-71"
+    },
+    {
+      "number": "72",
+      "section": "Задание 72",
+      "condition": "Задание 72.",
+      "solution": "100 - 15 = 100 - 10 - 5 =\n\n= 90 - 5 = 85\n\n100 - 25 = 100 - 20 - 5 =\n\n= 80 - 5 = 75\n\n100 - 35 = 100 - 30 - 5 =\n\n= 70 - 5 = 65\n\n100 - 13 = 100 - 10 - 3 =\n\n= 90 - 3 = 87\n\n100 - 42 = 100 - 40 - 2 =\n\n= 60 - 2 = 58\n\n100 - 51 = 100 - 50 - 1 =\n\n= 50 - 1 = 49\n\n100 - 37 = 100 - 30 - 7 =\n\n= 70 - 7 = 63\n\n100 - 64 = 100 - 60 - 4 =\n\n= 40 - 4 = 36\n\n100 - 72 = 100 - 70 - 2 =\n\n= 30 - 2 = 28",
+      "answer": "100 - 15 = 100 - 10 - 5 =\n\n= 90 - 5 = 85\n\n100 - 25 = 100 - 20 - 5 =\n\n= 80 - 5 = 75\n\n100 - 35 = 100 - 30 - 5 =\n\n= 70 - 5 = 65\n\n100 - 13 = 100 - 10 - 3 =\n\n= 90 - 3 = 87\n\n100 - 42 = 100 - 40 - 2 =\n\n= 60 - 2 = 58\n\n100 - 51 = 100 - 50 - 1 =\n\n= 50 - 1 = 49\n\n100 - 37 = 100 - 30 - 7 =\n\n= 70 - 7 = 63\n\n100 - 64 = 100 - 60 - 4 =\n\n= 40 - 4 = 36\n\n100 - 72 = 100 - 70 - 2 =\n\n= 30 - 2 = 28",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-72"
+    },
+    {
+      "number": "73",
+      "section": "Задание 73",
+      "condition": "Задание 73",
+      "solution": "73.",
+      "answer": "73.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-73"
+    },
+    {
+      "number": "74",
+      "section": "Задание 74",
+      "condition": "Задание 74.",
+      "solution": "Задача 1.\n\nМарина купила линейку\n\nпо цене 26 р. Кассиру она дала\n\n100 р. Сколько сдачи получила\n\nМарина?\n\nБыло - 100 р.\n\nПотратила - 26 р.\n\nОсталось - ?\n\n100 - 26 = 74 (рубля) - сдачи\n\nполучила Марина.\n\nОтвет:74 рубля.\n\nЗадача 2.\n\nВалера купил карандаш\n\nпо цене 6 р. и точилку по цене\n\n24 р. Кассиру он дал 100 р.\n\nСколько сдачи получил\n\nВалера?\n\nБыло - 100 р.\n\nПотратила - 6 р. и 24 р.\n\nОсталось - ?\n\n100 - (6 + 24) = 100 - 30 =\n\n= 70 (рублей) - сдачи получил\n\nВалера.\n\nОтвет:70 рублей.\n\nЗадача 3.\n\nДаша купила блокнот по цене\n\n52 р. и ручку по цене 31 р.\n\nКассиру она дал 100 р. Сколько\n\nсдачи получила Даша?\n\nБыло - 100 р.\n\nПотратила - 52 р. и 31 р.\n\nОсталось - ?\n\n100 - (52 + 31) = 100 - 83 =\n\n= 17 (рублей) - сдачи\n\nполучила Даша.\n\nОтвет:17 рублей.",
+      "answer": "Ответ:17 рублей.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-74"
+    },
+    {
+      "number": "75",
+      "section": "Задание 75",
+      "condition": "Задание 75",
+      "solution": "75.",
+      "answer": "75.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-75"
+    },
+    {
+      "number": "76",
+      "section": "Задание 76",
+      "condition": "Задание 76.",
+      "solution": "40 - 25 = 15\n\n50 - 15 = 35\n\n60 - 35 = 25\n\n70 - 65 = 5\n\n80 - 45 = 35\n\n90 - 85 = 5\n\n100 - 75 = 25",
+      "answer": "40 - 25 = 15\n\n50 - 15 = 35\n\n60 - 35 = 25\n\n70 - 65 = 5\n\n80 - 45 = 35\n\n90 - 85 = 5\n\n100 - 75 = 25",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-76"
+    },
+    {
+      "number": "77",
+      "section": "Задание 77",
+      "condition": "Задание 77.",
+      "solution": "б) 2 + 58 - 37 = 60 - 37 = 23\n\n100 - (4 + 45) = 100 - 49 = 51",
+      "answer": "б) 2 + 58 - 37 = 60 - 37 = 23\n\n100 - (4 + 45) = 100 - 49 = 51",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-77"
+    },
+    {
+      "number": "78",
+      "section": "Задание 78",
+      "condition": "Задание 78.",
+      "solution": "Задача 1.\n\n(34 + 16) + 15 = 50 + 15 =\n\n= 65 (машин) - стало\n\nна стоянке.\n\nОтвет:65 машин.\n\nЗадача 2.\n\n(34 + 6) - 15 = 40 - 15 =\n\n= 25 (машин) - стало\n\nна стоянке.\n\nОтвет:25 машин.",
+      "answer": "Ответ:25 машин.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-78"
+    },
+    {
+      "number": "79",
+      "section": "Задание 79",
+      "condition": "Задание 79.",
+      "solution": "б) 70 м - 6 м - 10 м =\n\n= 64 м - 10 м = 54 м\n\n80 см - 34 см - 20 см =\n\n= 46 см - 20 см = 26 см\n\n90 мм - 15 мм - 3 мм =\n\n= 75 мм - 3 мм = 72 мм",
+      "answer": "б) 70 м - 6 м - 10 м =\n\n= 64 м - 10 м = 54 м\n\n80 см - 34 см - 20 см =\n\n= 46 см - 20 см = 26 см\n\n90 мм - 15 мм - 3 мм =\n\n= 75 мм - 3 мм = 72 мм",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-79"
+    },
+    {
+      "number": "80",
+      "section": "Задание 80",
+      "condition": "Задание 80.",
+      "solution": "1;3;6 - прямой угол.\n\n2 - тупой угол.\n\n4; 5 - острый угол.",
+      "answer": "1;3;6 - прямой угол.\n\n2 - тупой угол.\n\n4; 5 - острый угол.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-80"
+    },
+    {
+      "number": "81",
+      "section": "Задание 81",
+      "condition": "Задание 81.",
+      "solution": "Выполните измерение\n\nсамостоятельно. Постройте\n\nнужные отрезки.",
+      "answer": "Выполните измерение\n\nсамостоятельно. Постройте\n\nнужные отрезки.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/alysheva-616/4-zadanie-81"
+    }
+  ]
+}

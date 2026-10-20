@@ -75,6 +75,7 @@ def extract_meta(soup, fallback_author: str = "") -> tuple[str, str]:
     m = re.search(r"Авторы?:\s*(.+?)\s*(?:Год:|Часть:|Серия:|Издательство:|$)", text)
     if m:
         author = re.sub(r"\s+", " ", m.group(1)).strip(" .,")
+    author = re.sub(r"\s+Части?:.*$", "", author).strip(" .,")
     year = ""
     m = re.search(r"Год:\s*([0-9]{4}(?:\s*[-–]\s*[0-9]{4})?)", text)
     if m:
@@ -113,6 +114,11 @@ def discover_targets() -> list[dict]:
                 "subject": subject, "grade": grade, "index": href,
                 "slug": m.group(1), "author": "", "year": "2024",
             })
+    targets.append({
+        "subject": "chemistry", "grade": 10,
+        "index": "https://gdz-raketa.ru/himiya/10-klass/uchebnik-gabrielyan/",
+        "slug": "uchebnik-gabrielyan-10", "author": "Габриелян О.С.", "year": "2023",
+    })
     targets.append({
         "subject": "chemistry", "grade": 11,
         "index": "https://gdz-raketa.ru/himiya/11-klass/uchebnik-gabrielyan/",

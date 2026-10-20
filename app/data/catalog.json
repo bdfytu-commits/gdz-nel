@@ -616,6 +616,80 @@
           "icon": "social"
         }
       ]
+    },
+    {
+      "id": "10",
+      "title": "10 класс",
+      "active": true,
+      "subjects": [
+        {
+          "id": "physics",
+          "title": "Физика",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "myakishev-10",
+              "title": "Мякишев. Физика 10",
+              "author": "Мякишев Г.Я., Буховцев Б.Б., Сотский Н.Н.",
+              "year": "2014",
+              "file": "physics/myakishev-10.json"
+            }
+          ],
+          "icon": "physics"
+        },
+        {
+          "id": "chemistry",
+          "title": "Химия",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "gabrielyan-10",
+              "title": "Габриелян",
+              "author": "Габриелян О. С., Остроумов И. Г., Пономарёв С. Ю",
+              "year": "2022",
+              "file": "chemistry/gabrielyan-10.json"
+            }
+          ],
+          "icon": "chemistry"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "11 класс",
+      "active": true,
+      "subjects": [
+        {
+          "id": "english",
+          "title": "Английский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "afanaseva-11",
+              "title": "Афанасьева",
+              "author": "Афанасьева О. В., Дули Д., Михеева И. В. и др",
+              "year": "2026",
+              "file": "english/afanaseva-11.json"
+            }
+          ],
+          "icon": "english"
+        },
+        {
+          "id": "physics",
+          "title": "Физика",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "myakishev-11",
+              "title": "Мякишев. Физика 11",
+              "author": "Мякишев Г.Я., Буховцев Б.Б., Чаругин В.М.",
+              "year": "2018",
+              "file": "physics/myakishev-11.json"
+            }
+          ],
+          "icon": "physics"
+        }
+      ]
     }
   ]
 }

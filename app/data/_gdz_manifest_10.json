@@ -1,0 +1,15 @@
+[
+ {
+  "grade": 10,
+  "subject": "chemistry",
+  "id": "gabrielyan-10",
+  "file": "chemistry/gabrielyan-10.json",
+  "title": "Габриелян",
+  "author": "Габриелян О. С., Остроумов И. Г., Пономарёв С. Ю",
+  "year": "2022",
+  "tasks": 208,
+  "part": null,
+  "sourceUrl": "https://gdz-raketa.ru/himiya/10-klass/uchebnik-gabrielyan/",
+  "source": "gdz-raketa"
+ }
+]

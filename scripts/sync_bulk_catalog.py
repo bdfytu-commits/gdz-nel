@@ -9,19 +9,21 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "app" / "data"
 CATALOG = DATA / "catalog.json"
-MANIFESTS = sorted(DATA.glob("_bulk_manifest*.json")) + sorted(DATA.glob("_gdz_manifest*.json"))
+MANIFESTS = (sorted(DATA.glob("_bulk_manifest*.json")) + sorted(DATA.glob("_gdz_manifest*.json"))
+             + sorted(DATA.glob("_otvet_manifest*.json")) + sorted(DATA.glob("_gdzru_manifest*.json")))
 
 SUBJECTS = {
     "math": ("Математика", "math"),
     "russian": ("Русский язык", "russian"),
     "english": ("Английский язык", "english"),
-    "world": ("Окружающий мир", "globe"),
+    "world": ("Окружающий мир", "world"),
     "literature": ("Литература", "literature"),
     "algebra": ("Алгебра", "algebra"),
     "geometry": ("Геометрия", "geometry"),
@@ -43,6 +45,9 @@ def main() -> int:
             manifest.extend(json.loads(mf.read_text(encoding="utf-8")))
     by_grade = defaultdict(lambda: defaultdict(list))
     for e in manifest:
+        if e.get("author"):
+            e["author"] = re.sub(r"\s+([,;])", r"\1", e["author"])
+            e["author"] = re.sub(r"\s+", " ", e["author"]).strip()
         path = DATA / e["file"]
         if not path.exists():
             continue
