@@ -48,7 +48,9 @@
 
 - Безопасность (20.10): `_headers` (CSP под Supabase/шрифты/jsdelivr/hCaptcha/Lava/Web3Forms, nosniff, referrer, permissions, frame-ancestors), `_redirects` закрывает `/docs/*`, `/scripts/*`, `/supabase/*`, `/.github/*`, `/android-signing/*` редиректом на главную. Пароли тестовых аккаунтов убраны из репозитория в `scripts/tests/.env.local` (gitignore), пароль `admin@gdz-nel.test` сменён — старый был засвечен в публичном репо. Секретов в трекаемых файлах нет.
 
-- Домен (20.10): `scripts/change_domain.py` — смена домена по всему репозиторию за один запуск (`--dry-run` для проверки), плюс правка `android-twa/twa-manifest.json`; напоминает про Cloudflare Custom domains, Supabase URLs, Lava, APK и sitemap. Ждёт одобрения `gdz-nel.is-a.dev`.
+- Домен (20.10): `scripts/change_domain.py` — смена домена по всему репозиторию за один запуск (`--dry-run` для проверки; сейчас 31 файл, 92 замены), плюс правка `android-twa/twa-manifest.json`; напоминает про Cloudflare Custom domains, Supabase URLs, Lava, APK и sitemap. PR `is-a-dev/register#57491` открыт, ждёт мейнтейнера.
+
+- Живой сайт (20.10): проверен из Chromium (curl блокируется Cloudflare, браузер — нет): 200 на `/`, CSP и security-заголовки на месте, `/docs/*` и `/scripts/*` редиректят на главную, неизвестный путь отдаёт `404.html` с кодом 404, `assetlinks.json` с двумя отпечатками, JSON-LD на `/app/` — `WebApplication`, на задании — `CreativeWork` + крошки. Сборки Cloudflare по API — success, CI на каждый push — зелёный.
 
 - Уборка (20.10): `supabase/cleanup_test_data.sql` — удаляет user1/user2, платежи `test-playwright`, тестовые отзывы и файлы из bucket `photos`, оставляет админа; печатает счётчики до/после. Ждёт ручного запуска в SQL Editor.
 

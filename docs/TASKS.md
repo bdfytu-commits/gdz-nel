@@ -69,7 +69,7 @@ gdz-raketa.ru, решение и ответ — с альтернативног�
 - [x] Контурные карты Матвеев и Тороп 6–9 (gdz.ru): сканы страниц-разворотов локально (`parse_kontur.py`, app/data/…/img/)
 - [x] Latex-конвертер математики: пересборка макарычева-8/9, 0 сырых «\» в текстах
 - [x] Литература Коровиной 6–9 (части 1–2) с euroki.org: новый предмет `literature` (каталог 6–9, схема, иконка), сбор вопросов/ответов текстом (`parse_euroki.py`)
-- [x] Финал данных 2.0: 15 371 задание, 41 учебник — validate 0 ошибок, stats.json и search-index.json пересобраны
+- [x] Финал данных 2.0: 16 778 заданий, 43 учебника — validate 0 ошибок, stats.json и search-index.json пересобраны
 - [x] Английский 8–9 (Ваулина) — euroki.org: `vaulina-8` (685) и `vaulina-9` (722), предмет `english` добавлен в каталог 8–9
 
 ## Премиум ГДЗ+ (19.10.2026, без пейволла)
@@ -89,6 +89,21 @@ gdz-raketa.ru, решение и ответ — с альтернативног�
 - [x] `.github/workflows/deploy.yml` удалён
 - [x] `tg-notify.yml` → триггер `push` в `main`
 - [x] Домен заменён: canonical/og/twitter/sitemap/robots/docs/UA парсеров/TG-бот
-- [ ] Привязать GitHub-аккаунт в дашборде (Connect to Git → Add account) — без этого Cloudflare не собирает; API отдаёт 8000011
-- [ ] Пересобрать APK под `gdz-nel.pages.dev` (v5)
-- [ ] После первой сборки: проверить `/`, `/app/`, `/admin/`, `/.well-known/assetlinks.json`
+- [x] Привязать GitHub-аккаунт в дашборде (Connect to Git → Add account) — автодеплой при пуше в `main` работает
+- [x] Пересобрать APK под `gdz-nel.pages.dev` (2.1.0, versionCode 8)
+- [x] После первой сборки: проверить `/`, `/app/`, `/admin/`, `/.well-known/assetlinks.json` — всё 200, сборки success по API
+
+## Финальные фазы (20.10.2026)
+
+- [x] `scripts/change_domain.py` — смена домена по репозиторию за один запуск, `--dry-run`
+- [x] Playwright: SEO-аудит, мобильный 375×812 (26 страниц, все вкладки админки), CI на каждый push
+- [x] Мобильная админка: заголовок вкладки и кнопки разведены по строкам, горизонтального скролла нет
+- [x] SEO: twitter:card в поиске, статический JSON-LD приложения, JSON-LD не пустеет после рендера
+- [x] Безопасность: CSP и security-заголовки, `/docs|/scripts|/supabase|/.github` закрыты, пароли тестов убраны в `.env.local`, пароль админа сменён
+- [x] APK-подпись: `assetlinks.json` содержит оба отпечатка (текущий v8 и старый), проверено aapt/apksigner
+- [x] `404.html` вместо soft-404, счётчики и футер приведены к 16 778 / 43 / 6–9 классы
+- [x] `supabase/cleanup_test_data.sql` готов (запускать вручную)
+- [ ] Запустить `supabase/cleanup_test_data.sql` в SQL Editor после финальных прогонов
+- [ ] Домен `gdz-nel.is-a.dev`: апрув PR → `change_domain.py` → Custom domain в Cloudflare → Supabase Auth URLs → повторная модерация Lava → APK → sitemap
+- [ ] TG-бот: токен из BotFather и деплой `scripts/tg-bot/`
+- [ ] hCaptcha: sitekey в `auth.html`, если капча включается в Supabase Auth
