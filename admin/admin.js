@@ -458,7 +458,7 @@ async function loadUsers() {
     '</tr></thead><tbody>';
 
   if (!sc.rows.length) {
-    html += '<tr><td colspan="11"><p class="empty-note">Никого не найдено.</p></td></tr>';
+    html += '<tr><td colspan="12"><p class="empty-note">Никого не найдено.</p></td></tr>';
   }
 
   sc.rows.forEach(function (u) {
@@ -527,10 +527,10 @@ async function exportUsersCsv() {
   var res = await fetchAllChunks(build, 5000);
   if (res.error) { toast('Не получилось выгрузить: ' + res.error.message, true); return; }
   csvDownload('gdz-nel-users-' + new Date().toISOString().slice(0, 10) + '.csv',
-    ['id', 'логин', 'email', 'возраст', 'пол', 'роль', 'бан', 'регистрация', 'ГДЗ+', 'подписка до'],
+    ['id', 'логин', 'email', 'возраст', 'класс', 'пол', 'роль', 'бан', 'регистрация', 'ГДЗ+', 'подписка до'],
     res.rows.map(function (u) {
       return [u.id, u.username || '', u.email || '', u.age == null ? '' : u.age,
-        u.gender || '', u.role || '', u.ban ? 'да' : 'нет', u.created_at || '',
+        gradeFromAge(u.age), u.gender || '', u.role || '', u.ban ? 'да' : 'нет', u.created_at || '',
         u.is_premium ? 'да' : 'нет', u.premium_until || ''];
     }));
   toast('Выгружено строк: ' + res.rows.length);

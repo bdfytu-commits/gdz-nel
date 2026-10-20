@@ -191,6 +191,7 @@ SUBJECT_MAP = {
     "istoriya": "history",
     "obshestvoznanie": "social",
     "angliyskiy": "english",
+    "geografiya": "geo",
 }
 
 
@@ -276,6 +277,16 @@ def page_section(soup: BeautifulSoup, fallback: str) -> str:
     return fallback
 
 
+def solution_images(soup: BeautifulSoup) -> list[str]:
+    """Сканы-решения с CDN euroki (не логотипы и не иконки)."""
+    out = []
+    for img in soup.find_all("img"):
+        src = img.get("src") or img.get("data-src") or ""
+        if "imgs.euroki.org/books/gdzs/" in src and src not in out:
+            out.append(src)
+    return out
+
+
 def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int | None = None) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     cards = soup.select("article.gdz-solution-card")
@@ -303,6 +314,23 @@ def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int |
             "sourceUrl": url,
         })
 
+    def add_image(images: list[str]) -> None:
+        nonlocal seq
+        if not images:
+            return
+        seq += 1
+        section = f"Страница {base}" if kind == "page" else f"Задание {base}"
+        tasks.append({
+            "number": str(base) if len(images) == 1 else f"{base}.{seq}",
+            "section": section,
+            "condition": f"{section}. Решение на изображении.",
+            "solution": "",
+            "answer": "",
+            "images": images,
+            "source": "euroki.org",
+            "sourceUrl": url,
+        })
+
     if cards:
         for ci, card in enumerate(cards, 1):
             q = card.select_one(".gdz-solution-card__question")
@@ -323,6 +351,8 @@ def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int |
                 num = f"{base}.{ci}" if len(cards) > 1 else str(base)
                 cond = qtext or section
                 add(num, section, cond, atext)
+        if not tasks:
+            add_image(solution_images(soup))
     else:
         # страницы без карточек обычно сканы; иногда текст лежит в content
         main = soup.select_one(".content.one_page") or soup.select_one("main")
@@ -333,6 +363,8 @@ def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int |
             text = clean_latex(text)
             if len(text) > 80 and not imgs:
                 add(str(base), page_section(soup, f"Задание {base}"), "", text)
+            if not tasks:
+                add_image(solution_images(soup))
     # уникальные номера
     seen: dict[str, int] = {}
     for t in tasks:
@@ -434,27 +466,35 @@ def main() -> int:
     ap.add_argument("--grades", default="3,4,10,11")
     ap.add_argument("--subjects", default="")
     ap.add_argument("--only", default="")
+    ap.add_argument("--slugs-file", default="", help="JSON-массив slug-ов, которые парсить")
+    ap.add_argument("--manifest", default=str(MANIFEST), help="куда писать манифест (для шардов)")
     ap.add_argument("--limit", type=int, default=None, help="страниц на книгу, для проверки")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--dry", action="store_true")
     args = ap.parse_args()
     grades = {int(x) for x in args.grades.split(",") if x.strip()}
     subjects = {x.strip() for x in args.subjects.split(",") if x.strip()}
-    books = json.loads(INVENTORY.read_text(encoding="utf-8"))
+    all_books = json.loads(INVENTORY.read_text(encoding="utf-8"))
+    all_books = [b for b in all_books if b["grade"] in grades]
     if subjects:
-        books = [b for b in books if b["source_subject"] in subjects or map_subject(b["source_subject"], b["grade"]) in subjects]
-    if args.only:
-        books = [b for b in books if args.only in b["slug"] or args.only in b["text"]]
-    books = [b for b in books if b["grade"] in grades]
+        all_books = [b for b in all_books if b["source_subject"] in subjects or map_subject(b["source_subject"], b["grade"]) in subjects]
+    # дубли считаем по всему инвентарю, а не по шарду: ID не должны зависеть от разбиения
     counts: dict[str, int] = {}
-    for b in books:
+    for b in all_books:
         key = f"{b['grade']}/{b['source_subject']}"
         counts[key] = counts.get(key, 0) + 1
     duplicates = {k for k, n in counts.items() if n > 1}
+    books = all_books
+    if args.only:
+        books = [b for b in books if args.only in b["slug"] or args.only in b["text"]]
+    if args.slugs_file:
+        allowed = set(json.loads(Path(args.slugs_file).read_text(encoding="utf-8")))
+        books = [b for b in books if b["slug"] in allowed]
+    manifest_path = Path(args.manifest)
     manifest_entries: list[dict] = []
-    if MANIFEST.exists():
+    if manifest_path.exists():
         try:
-            manifest_entries = json.loads(MANIFEST.read_text(encoding="utf-8"))
+            manifest_entries = json.loads(manifest_path.read_text(encoding="utf-8"))
         except Exception:  # noqa: BLE001
             manifest_entries = []
     known = {(e["id"]): e for e in manifest_entries}
@@ -471,8 +511,9 @@ def main() -> int:
                 known[e["id"]] = e
     if not args.dry:
         manifest_entries = sorted(known.values(), key=lambda e: (e["grade"], e["subject"], e["id"]))
-        MANIFEST.write_text(json.dumps(manifest_entries, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-        print(f"\nманифест: {MANIFEST} — {len(manifest_entries)} книг", flush=True)
+        manifest_path.parent.mkdir(parents=True, exist_ok=True)
+        manifest_path.write_text(json.dumps(manifest_entries, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        print(f"\nманифест: {manifest_path} — {len(manifest_entries)} книг", flush=True)
     return 0
 
 

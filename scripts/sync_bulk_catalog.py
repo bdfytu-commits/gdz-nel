@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "app" / "data"
 CATALOG = DATA / "catalog.json"
-MANIFEST = DATA / "_bulk_manifest.json"
+MANIFESTS = sorted(DATA.glob("_bulk_manifest*.json")) + sorted(DATA.glob("_gdz_manifest*.json"))
 
 SUBJECTS = {
     "math": ("Математика", "math"),
@@ -30,13 +30,17 @@ SUBJECTS = {
     "biology": ("Биология", "biology"),
     "history": ("История", "history"),
     "social": ("Обществознание", "social"),
+    "geo": ("География", "geo"),
 }
 LITERATURE_PRIMARY = "Литературное чтение"
 
 
 def main() -> int:
     cat = json.loads(CATALOG.read_text(encoding="utf-8"))
-    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    manifest = []
+    for mf in MANIFESTS:
+        if mf.exists():
+            manifest.extend(json.loads(mf.read_text(encoding="utf-8")))
     by_grade = defaultdict(lambda: defaultdict(list))
     for e in manifest:
         path = DATA / e["file"]

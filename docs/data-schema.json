@@ -118,7 +118,8 @@
                 "enum": [
                   "euroki.org",
                   "otvet.plus",
-                  "reshalka.com"
+                  "reshalka.com",
+                  "gdz-raketa.ru"
                 ],
                 "description": "Источник добранного задания (у основных заданий поля нет)"
               },

@@ -16,7 +16,7 @@
    «Обновить» и шлёт SKIP_WAITING (Ф15.8).
    ========================================================= */
 
-const VERSION = 'gdz-nel-v8';
+const VERSION = 'gdz-nel-v9';
 const STATIC_CACHE = VERSION + '-static';
 const DATA_CACHE = VERSION + '-data';
 const IMAGE_CACHE = VERSION + '-images';
@@ -54,6 +54,10 @@ const PRECACHE = [
   // иконки (используются как CSS-маски, нужны офлайн)
   '../assets/img/icons/alert.svg',
   '../assets/img/icons/algebra.svg',
+  '../assets/img/icons/world.svg',
+  '../assets/img/icons/chemistry.svg',
+  '../assets/img/icons/physics.svg',
+  '../assets/img/icons/geometry.svg',
   '../assets/img/icons/android.svg',
   '../assets/img/icons/arrow-left.svg',
   '../assets/img/icons/arrow-right.svg',
