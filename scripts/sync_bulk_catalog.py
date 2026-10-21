@@ -33,6 +33,7 @@ SUBJECTS = {
     "history": ("История", "history"),
     "social": ("Обществознание", "social"),
     "geo": ("География", "geo"),
+    "informatics": ("Информатика", "informatics"),
 }
 LITERATURE_PRIMARY = "Литературное чтение"
 

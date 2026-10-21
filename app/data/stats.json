@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-21T04:20:28Z",
+  "generatedAt": "2026-10-21T12:58:25Z",
   "subjects": {
     "math": {
       "title": "Математика",
       "icon": "math",
-      "tasks": 8779
+      "tasks": 25113
     },
     "russian": {
       "title": "Русский язык",
       "icon": "russian",
-      "tasks": 6844
+      "tasks": 9842
     },
     "english": {
       "title": "Английский язык",
       "icon": "english",
-      "tasks": 9181
+      "tasks": 11397
     },
     "world": {
       "title": "Окружающий мир",
@@ -24,22 +24,27 @@
     "literature": {
       "title": "Литературное чтение",
       "icon": "literature",
-      "tasks": 4345
+      "tasks": 5277
     },
     "biology": {
       "title": "Биология",
       "icon": "biology",
-      "tasks": 5769
-    },
-    "geo": {
-      "title": "География",
-      "icon": "globe",
-      "tasks": 46
+      "tasks": 9282
     },
     "history": {
       "title": "История",
       "icon": "history",
-      "tasks": 4715
+      "tasks": 10558
+    },
+    "geo": {
+      "title": "География",
+      "icon": "geo",
+      "tasks": 1685
+    },
+    "informatics": {
+      "title": "Информатика",
+      "icon": "informatics",
+      "tasks": 218
     },
     "history-maps": {
       "title": "История (контурные карты)",
@@ -137,6 +142,49 @@
     "literature/klimanova-4-101-1.json": 204,
     "literature/klimanova-4-724-2.json": 222,
     "literature/klimanova-4-101-2.json": 236,
+    "math/alysheva-5-371.json": 746,
+    "math/bunimovich-5-283.json": 750,
+    "math/vilenkin-5-941.json": 1849,
+    "math/vilenkin-5-273.json": 1989,
+    "math/vilenkin-5-409.json": 2119,
+    "math/vilenkin-5-219-1.json": 856,
+    "math/vilenkin-5-219-2.json": 1076,
+    "math/dorofeev-5-53.json": 330,
+    "math/zubareva-5-522.json": 1042,
+    "math/merzlyak-5-676.json": 2960,
+    "math/nikolskiy-5-362.json": 1215,
+    "math/perova-5-746.json": 886,
+    "math/tkacheva-5-963.json": 516,
+    "russian/aleksandrova-5-122.json": 234,
+    "russian/ladyzhenskaya-5-520.json": 967,
+    "russian/razumovskaya-5-906.json": 844,
+    "russian/rybchenkova-5-996.json": 749,
+    "russian/yakubovskaya-5-363.json": 204,
+    "english/afanaseva-5-363-1.json": 313,
+    "english/afanaseva-5-363-2.json": 311,
+    "english/biboletova-5.json": 583,
+    "english/vaulina-5.json": 610,
+    "english/komarova-5-224.json": 119,
+    "english/kuzovlev-5-90.json": 280,
+    "literature/aleksandrova-5-492.json": 212,
+    "literature/korovina-5-945-1.json": 106,
+    "literature/korovina-5-395-1.json": 344,
+    "literature/korovina-5-945-2.json": 65,
+    "literature/korovina-5-395-2.json": 205,
+    "biology/pasechnik-5-13.json": 478,
+    "biology/pasechnik-5-933.json": 507,
+    "biology/pasechnik-5-183.json": 1000,
+    "biology/ponomareva-5-683.json": 542,
+    "biology/sivoglazov-5-657.json": 986,
+    "history/vigasin-5-938.json": 2577,
+    "history/medinskiy-5-60.json": 1205,
+    "history/nikishin-5-179.json": 894,
+    "history/saplina-5-359.json": 1167,
+    "geo/alekseev-5-576.json": 497,
+    "geo/klimanova-5-533.json": 468,
+    "geo/lobzhanidze-5-771.json": 186,
+    "geo/maksimov-5-627.json": 488,
+    "informatics/semenov-5.json": 218,
     "math/vilenkin-6-1.json": 926,
     "math/vilenkin-6-2.json": 641,
     "russian/ladyzhenskaya-6-1.json": 383,
@@ -348,6 +396,98 @@
       },
       "total": 9008,
       "textbooks": 34
+    },
+    "5": {
+      "title": "5 класс",
+      "subjects": {
+        "math": {
+          "title": "Математика",
+          "icon": "math",
+          "tasks": 16334
+        },
+        "russian": {
+          "title": "Русский язык",
+          "icon": "russian",
+          "tasks": 2998
+        },
+        "english": {
+          "title": "Английский язык",
+          "icon": "english",
+          "tasks": 2216
+        },
+        "literature": {
+          "title": "Литература",
+          "icon": "literature",
+          "tasks": 932
+        },
+        "biology": {
+          "title": "Биология",
+          "icon": "biology",
+          "tasks": 3513
+        },
+        "history": {
+          "title": "История",
+          "icon": "history",
+          "tasks": 5843
+        },
+        "geo": {
+          "title": "География",
+          "icon": "geo",
+          "tasks": 1639
+        },
+        "informatics": {
+          "title": "Информатика",
+          "icon": "informatics",
+          "tasks": 218
+        }
+      },
+      "books": {
+        "math/alysheva-5-371.json": 746,
+        "math/bunimovich-5-283.json": 750,
+        "math/vilenkin-5-941.json": 1849,
+        "math/vilenkin-5-273.json": 1989,
+        "math/vilenkin-5-409.json": 2119,
+        "math/vilenkin-5-219-1.json": 856,
+        "math/vilenkin-5-219-2.json": 1076,
+        "math/dorofeev-5-53.json": 330,
+        "math/zubareva-5-522.json": 1042,
+        "math/merzlyak-5-676.json": 2960,
+        "math/nikolskiy-5-362.json": 1215,
+        "math/perova-5-746.json": 886,
+        "math/tkacheva-5-963.json": 516,
+        "russian/aleksandrova-5-122.json": 234,
+        "russian/ladyzhenskaya-5-520.json": 967,
+        "russian/razumovskaya-5-906.json": 844,
+        "russian/rybchenkova-5-996.json": 749,
+        "russian/yakubovskaya-5-363.json": 204,
+        "english/afanaseva-5-363-1.json": 313,
+        "english/afanaseva-5-363-2.json": 311,
+        "english/biboletova-5.json": 583,
+        "english/vaulina-5.json": 610,
+        "english/komarova-5-224.json": 119,
+        "english/kuzovlev-5-90.json": 280,
+        "literature/aleksandrova-5-492.json": 212,
+        "literature/korovina-5-945-1.json": 106,
+        "literature/korovina-5-395-1.json": 344,
+        "literature/korovina-5-945-2.json": 65,
+        "literature/korovina-5-395-2.json": 205,
+        "biology/pasechnik-5-13.json": 478,
+        "biology/pasechnik-5-933.json": 507,
+        "biology/pasechnik-5-183.json": 1000,
+        "biology/ponomareva-5-683.json": 542,
+        "biology/sivoglazov-5-657.json": 986,
+        "history/vigasin-5-938.json": 2577,
+        "history/medinskiy-5-60.json": 1205,
+        "history/nikishin-5-179.json": 894,
+        "history/saplina-5-359.json": 1167,
+        "geo/alekseev-5-576.json": 497,
+        "geo/klimanova-5-533.json": 468,
+        "geo/lobzhanidze-5-771.json": 186,
+        "geo/maksimov-5-627.json": 488,
+        "informatics/semenov-5.json": 218
+      },
+      "total": 33693,
+      "textbooks": 43
     },
     "6": {
       "title": "6 класс",
@@ -752,6 +892,6 @@
       "textbooks": 15
     }
   },
-  "total": 54545,
-  "textbooks": 142
+  "total": 88238,
+  "textbooks": 185
 }

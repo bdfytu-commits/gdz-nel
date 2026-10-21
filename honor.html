@@ -170,7 +170,6 @@
     var session = await getSession();
     var liked = new Set();
     var posts = [];
-    var useTable = true;
 
     function relTime(iso) {
       var t = new Date(iso).getTime();
@@ -225,47 +224,15 @@
       if (!res.error) (res.data || []).forEach(function (x) { liked.add(String(x.post_id)); });
     }
 
-    async function loadFallback() {
-      useTable = false;
-      var res = await supabase.from('reviews')
-        .select('id, text, created_at')
-        .eq('task_id', 'honor-board')
-        .eq('is_approved', true)
+    async function load() {
+      var res = await supabase.from('honor_board')
+        .select('id, text, likes, created_at')
         .order('created_at', { ascending: false })
         .limit(60);
       if (res.error) {
         feed.innerHTML = '<div class="honor-empty">Не удалось загрузить ленту. Обнови страницу.</div>';
         return;
       }
-      posts = (res.data || []).map(function (r) { return { id: r.id, text: r.text, likes: 0, created_at: r.created_at }; });
-      var counts = {};
-      var firstAction = {};
-      var lk = await supabase.from('reviews')
-        .select('task_id, user_id, text, created_at')
-        .like('task_id', 'honor-like.%')
-        .eq('is_approved', true)
-        .order('created_at', { ascending: false })
-        .limit(2000);
-      (lk.data || []).forEach(function (row) {
-        var pid = String(row.task_id).replace('honor-like:', '');
-        var delta = row.text === 'unlike' ? -1 : 1;
-        counts[pid] = (counts[pid] || 0) + delta;
-        var key = pid + ':' + row.user_id;
-        if (!(key in firstAction)) firstAction[key] = row.text;
-      });
-      posts.forEach(function (p) {
-        p.likes = Math.max(0, counts[String(p.id)] || 0);
-        if (session && firstAction[String(p.id) + ':' + session.user.id] === 'like') liked.add(String(p.id));
-      });
-      render();
-    }
-
-    async function load() {
-      var res = await supabase.from('honor_board')
-        .select('id, text, likes, created_at')
-        .order('created_at', { ascending: false })
-        .limit(60);
-      if (res.error) { await loadFallback(); return; }
       posts = res.data || [];
       await loadLikes();
       render();
@@ -283,47 +250,21 @@
       }
       var id = btn.getAttribute('data-like');
       btn.disabled = true;
-      var row;
-      if (!useTable) {
-        var wasLiked = liked.has(id);
-        var ins = await supabase.from('reviews').insert({
-          task_id: 'honor-like:' + id,
-          user_id: session.user.id,
-          rating: 1,
-          text: wasLiked ? 'unlike' : 'like',
-          is_approved: true,
-          ai_status: 'approved'
-        });
-        btn.disabled = false;
-        if (ins.error) {
-          note.textContent = 'Не получилось поставить лайк. Попробуй ещё раз.';
-          return;
-        }
-        var post = posts.find(function (p) { return String(p.id) === id; });
-        if (post) post.likes = Math.max(0, Number(post.likes || 0) + (wasLiked ? -1 : 1));
-        if (wasLiked) liked.delete(id); else liked.add(id);
-        btn.classList.toggle('is-liked', !wasLiked);
-        btn.setAttribute('aria-pressed', String(!wasLiked));
-        var cnt = btn.querySelector('[data-count]');
-        if (cnt && post) cnt.textContent = String(post.likes);
-        note.textContent = 'Лайки сохраняются в аккаунте.';
-        return;
-      }
       var res = await supabase.rpc('honor_like', { p_id: Number(id) });
       btn.disabled = false;
       if (res.error) {
         note.textContent = 'Не получилось поставить лайк. Попробуй ещё раз.';
         return;
       }
-      row = Array.isArray(res.data) ? res.data[0] : res.data;
+      var row = Array.isArray(res.data) ? res.data[0] : res.data;
       if (!row) return;
       var post = posts.find(function (p) { return String(p.id) === id; });
-      if (post) post.likes = row.likes;
+      if (post) post.likes = row.total_likes;
       if (row.liked) liked.add(id); else liked.delete(id);
       btn.classList.toggle('is-liked', !!row.liked);
       btn.setAttribute('aria-pressed', String(!!row.liked));
       var count = btn.querySelector('[data-count]');
-      if (count) count.textContent = String(row.likes);
+      if (count) count.textContent = String(row.total_likes);
       note.textContent = 'Лайки сохраняются в аккаунте.';
     });
 

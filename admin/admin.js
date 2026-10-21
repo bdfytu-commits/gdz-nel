@@ -668,17 +668,6 @@ async function loadHonor() {
     .select('id, text, likes, created_at')
     .order('created_at', { ascending: false })
     .limit(100);
-  state.honor.fallback = false;
-  if (res.error) {
-    state.honor.fallback = true;
-    res = await supabase.from('reviews')
-      .select('id, text, created_at')
-      .eq('task_id', 'honor-board')
-      .eq('is_approved', true)
-      .order('created_at', { ascending: false })
-      .limit(100);
-    (res.data || []).forEach(function (r) { r.likes = 0; });
-  }
   if (res.error) {
     content.innerHTML = '<p class="empty-note">Не получилось загрузить доску: ' + esc(res.error.message) + '</p>';
     return;
@@ -716,12 +705,6 @@ async function createHonorPost() {
   var text = el ? el.value.trim() : '';
   if (text.length < 3) { toast('Напиши хотя бы пару слов', true); return; }
   var res = await supabase.from('honor_board').insert({ text: text });
-  if (res.error) {
-    res = await supabase.from('reviews').insert({
-      task_id: 'honor-board', user_id: state.me.id, rating: 5, text: text,
-      is_approved: true, ai_status: 'approved'
-    });
-  }
   if (res.error) { toast('Не получилось: ' + res.error.message, true); return; }
   logAction('honor_create');
   toast('Запись опубликована');
@@ -736,9 +719,6 @@ async function deleteHonorPost(id) {
   });
   if (!ok) return;
   var res = await supabase.from('honor_board').delete().eq('id', id);
-  if (res.error) {
-    res = await supabase.from('reviews').delete().eq('id', id).eq('task_id', 'honor-board');
-  }
   if (res.error) { toast('Не получилось: ' + res.error.message, true); return; }
   logAction('honor_delete', String(id));
   toast('Удалено');
@@ -752,21 +732,6 @@ async function loadCommentsMod() {
     .select('id, target_profile_id, author_id, text, created_at')
     .order('created_at', { ascending: false })
     .limit(200);
-  state.comments.fallback = false;
-  if (res.error) {
-    state.comments.fallback = true;
-    var fb = await supabase.from('reviews')
-      .select('id, task_id, user_id, username, text, created_at')
-      .like('task_id', 'profile-comment:%')
-      .eq('is_approved', true)
-      .order('created_at', { ascending: false })
-      .limit(200);
-    (fb.data || []).forEach(function (r) {
-      r.target_profile_id = String(r.task_id).replace('profile-comment:', '');
-      r.author_id = r.user_id;
-    });
-    res = fb;
-  }
   if (res.error) {
     content.innerHTML = '<p class="empty-note">Не получилось загрузить комментарии: ' + esc(res.error.message) + '</p>';
     return;
@@ -808,9 +773,6 @@ async function deleteProfileComment(id) {
   });
   if (!ok) return;
   var res = await supabase.from('profile_comments').delete().eq('id', id);
-  if (res.error) {
-    res = await supabase.from('reviews').delete().eq('id', id).like('task_id', 'profile-comment:%');
-  }
   if (res.error) { toast('Не получилось: ' + res.error.message, true); return; }
   logAction('comment_delete', String(id));
   toast('Удалено');

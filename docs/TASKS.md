@@ -136,7 +136,23 @@ gdz-raketa.ru, решение и ответ — с альтернативног�
 - [x] `sync_bulk_catalog.py`: слияние манифестов euroki/gdz-raketa в каталог
 - [x] PWA v9: новые иконки в precache, сброс старого кэша данных
 - [x] админка: колонка «Класс» и фильтр 3/4/10/11 по возрасту, класс в CSV
-- [ ] дособрать данные и проверить `validate_data.py`
-- [ ] пересобрать `stats.json` и `search-index.json`
-- [ ] прогнать мобильные смоуки, SEO и премиум-сценарии
-- [ ] обновить README/CHANGELOG/PROGRESS и выпустить отчёт
+- [x] дособрать данные и проверить `validate_data.py`
+- [x] пересобрать `stats.json` и `search-index.json`
+- [x] прогнать SEO и REST-проверки; браузерные смоуки отложены, прод проверяется curl
+- [x] обновить README/CHANGELOG/PROGRESS и выпустить отчёт
+
+## Релиз 2.1 — 3–11 классы, доска почёта и профили (21.10.2026)
+
+- [x] Инвентарь euroki: 140 книг, из них 42 — 5 класс (`discover_euroki.py`); добавлен предмет `informatics` (иконка, схема, каталог)
+- [x] `parse_euroki_bulk.py`: `--resume` с возвратом готовых файлов в манифест, `--slugs-file` для шардов, атомарная запись `.json.part`, проверка битых картинок, пауза 60 с и смена UA при 403/429
+- [x] 5 класс собран: 43 файла, 33 693 задания; каталог — 88 238 заданий, 185 учебников, 15 предметов, 9 классов (3–11)
+- [x] `sync_bulk_catalog.py`, `normalize_new_books.py`, `validate_data.py`, `write_stats.py`, `build_search_index.py` — прогнаны, 0 ошибок схемы
+- [x] Supabase: применены `20261021120000_social.sql` и `20261021130000_fix_honor_like.sql`; таблицы `honor_board`, `honor_likes`, `profile_comments` и RPC работают в проде
+- [x] Доска почёта `honor.html`: тёмная лента, карточки, «Аноним», относительное время, лайк-сердечко; писать может только админ
+- [x] `profile.html`: 5 рамок, цвет ника, фон, замок и кнопка покупки для бесплатных; чужие профили через `?user=`, комментарии и удаление своих
+- [x] Админка: вкладки «Доска почёта» и «Комментарии», создание/удаление записей, модерация комментариев
+- [x] ИИ-модерация: `moderate-review` v2 ACTIVE, Groq `openai/gpt-oss-20b`; тесты «мат» → `rejected`, «без мата» → `approved`; fail-safe `is_approved=true` при ошибке
+- [x] Удалён fallback через `reviews`; проверено RLS: обычный пользователь удаляет свой комментарий, чужой — нет
+- [x] SEO: `honor.html` в sitemap и OG, счётчики/футеры 1–11 классы, PWA v10 с honor и informatics в precache
+- [x] `test_seo.py` — 14 страниц / 11 URL, чисто; прод проверен curl после деплоя
+- [x] Финальный коммит `feat: massive parsing (grades 3-11), honor board, profile customization, AI moderation` и push

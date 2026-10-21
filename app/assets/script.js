@@ -1214,7 +1214,7 @@
     'applicationCategory': 'EducationalApplication',
     'operatingSystem': 'Any',
     'inLanguage': 'ru',
-    'description': 'Условия, пошаговые решения и ответы для 6–9 классов Новосибирского экономического лицея.',
+    'description': 'Условия, пошаговые решения и ответы для 1–11 классов Новосибирского экономического лицея.',
     'offers': { '@type': 'Offer', 'price': '0', 'priceCurrency': 'RUB' }
   };
 

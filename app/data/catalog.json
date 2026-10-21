@@ -543,6 +543,378 @@
       ]
     },
     {
+      "id": "5",
+      "title": "5 класс",
+      "active": true,
+      "subjects": [
+        {
+          "id": "math",
+          "title": "Математика",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "alysheva-5-371",
+              "title": "Алышева",
+              "author": "Алышева, Амосова",
+              "year": "2023",
+              "file": "math/alysheva-5-371.json"
+            },
+            {
+              "id": "bunimovich-5-283",
+              "title": "Бунимович",
+              "author": "Бунимович, Дорофеев",
+              "year": "2024",
+              "file": "math/bunimovich-5-283.json"
+            },
+            {
+              "id": "vilenkin-5-941",
+              "title": "Виленкин (2015-2016)",
+              "author": "Виленкин, Жохов, Чесноков",
+              "year": "2015-2016",
+              "file": "math/vilenkin-5-941.json"
+            },
+            {
+              "id": "vilenkin-5-273",
+              "title": "Виленкин (2020-2021-2022)",
+              "author": "Виленкин, Жохов",
+              "year": "2020-2021-2022",
+              "file": "math/vilenkin-5-273.json"
+            },
+            {
+              "id": "vilenkin-5-409",
+              "title": "Виленкин (2023)",
+              "author": "Виленкин, Жохов, Чесноков",
+              "year": "2023",
+              "file": "math/vilenkin-5-409.json"
+            },
+            {
+              "id": "vilenkin-5-219-1",
+              "title": "Виленкин. Часть 1",
+              "author": "Виленкин, Жохов, Чесноков",
+              "year": "2018-2019",
+              "file": "math/vilenkin-5-219-1.json"
+            },
+            {
+              "id": "vilenkin-5-219-2",
+              "title": "Виленкин. Часть 2",
+              "author": "Виленкин, Жохов, Чесноков",
+              "year": "2018-2019",
+              "file": "math/vilenkin-5-219-2.json"
+            },
+            {
+              "id": "dorofeev-5-53",
+              "title": "Дорофеев",
+              "author": "Дорофеев, Шарыгин",
+              "year": "2022",
+              "file": "math/dorofeev-5-53.json"
+            },
+            {
+              "id": "zubareva-5-522",
+              "title": "Зубарева",
+              "author": "Зубарева, Мордкович",
+              "year": "2021",
+              "file": "math/zubareva-5-522.json"
+            },
+            {
+              "id": "merzlyak-5-676",
+              "title": "Мерзляк",
+              "author": "Мерзляк, Полонский, Якир. Новое издание",
+              "year": "2023",
+              "file": "math/merzlyak-5-676.json"
+            },
+            {
+              "id": "nikolskiy-5-362",
+              "title": "Никольский",
+              "author": "Никольский, Потапов, Решетников",
+              "year": "2024",
+              "file": "math/nikolskiy-5-362.json"
+            },
+            {
+              "id": "perova-5-746",
+              "title": "Перова",
+              "author": "Перова, Капустина",
+              "year": "2024",
+              "file": "math/perova-5-746.json"
+            },
+            {
+              "id": "tkacheva-5-963",
+              "title": "Ткачева",
+              "author": "Ткачева",
+              "year": "2024",
+              "file": "math/tkacheva-5-963.json"
+            }
+          ],
+          "icon": "math"
+        },
+        {
+          "id": "russian",
+          "title": "Русский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "aleksandrova-5-122",
+              "title": "Александрова",
+              "author": "Александрова, Загоровская",
+              "year": "2021-2022-2023",
+              "file": "russian/aleksandrova-5-122.json"
+            },
+            {
+              "id": "ladyzhenskaya-5-520",
+              "title": "Ладыженская",
+              "author": "Ладыженская, Баранов. Зеленый",
+              "year": "2018-2019-2021-2022-2023",
+              "file": "russian/ladyzhenskaya-5-520.json"
+            },
+            {
+              "id": "razumovskaya-5-906",
+              "title": "Разумовская",
+              "author": "Разумовская, Львова",
+              "year": "2024",
+              "file": "russian/razumovskaya-5-906.json"
+            },
+            {
+              "id": "rybchenkova-5-996",
+              "title": "Рыбченкова",
+              "author": "Рыбченкова, Александрова",
+              "year": "2020",
+              "file": "russian/rybchenkova-5-996.json"
+            },
+            {
+              "id": "yakubovskaya-5-363",
+              "title": "Якубовская",
+              "author": "Якубовская, Галунчикова",
+              "year": "2021",
+              "file": "russian/yakubovskaya-5-363.json"
+            }
+          ],
+          "icon": "russian"
+        },
+        {
+          "id": "english",
+          "title": "Английский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "afanaseva-5-363-1",
+              "title": "Афанасьева. Часть 1",
+              "author": "Афанасьева, Михеева, Баранова",
+              "year": "2024",
+              "file": "english/afanaseva-5-363-1.json"
+            },
+            {
+              "id": "afanaseva-5-363-2",
+              "title": "Афанасьева. Часть 2",
+              "author": "Афанасьева, Михеева, Баранова",
+              "year": "2024",
+              "file": "english/afanaseva-5-363-2.json"
+            },
+            {
+              "id": "biboletova-5",
+              "title": "Биболетова",
+              "author": "Биболетова",
+              "year": "2024",
+              "file": "english/biboletova-5.json"
+            },
+            {
+              "id": "vaulina-5",
+              "title": "Ваулина",
+              "author": "Ваулина, Дули, Подолянко",
+              "year": "2023",
+              "file": "english/vaulina-5.json"
+            },
+            {
+              "id": "komarova-5-224",
+              "title": "Комарова",
+              "author": "Комарова, Ларионова",
+              "year": "2024",
+              "file": "english/komarova-5-224.json"
+            },
+            {
+              "id": "kuzovlev-5-90",
+              "title": "Кузовлев",
+              "author": "Кузовлев",
+              "year": "2024",
+              "file": "english/kuzovlev-5-90.json"
+            }
+          ],
+          "icon": "english"
+        },
+        {
+          "id": "literature",
+          "title": "Литература",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "aleksandrova-5-492",
+              "title": "Александрова",
+              "author": "Александрова, Аристова",
+              "year": "2023",
+              "file": "literature/aleksandrova-5-492.json"
+            },
+            {
+              "id": "korovina-5-945-1",
+              "title": "Коровина. Часть 1 (2022)",
+              "author": "Коровина, Журавлев",
+              "year": "2022",
+              "file": "literature/korovina-5-945-1.json"
+            },
+            {
+              "id": "korovina-5-395-1",
+              "title": "Коровина. Часть 1 (2023)",
+              "author": "Коровина, Журавлев",
+              "year": "2023",
+              "file": "literature/korovina-5-395-1.json"
+            },
+            {
+              "id": "korovina-5-945-2",
+              "title": "Коровина. Часть 2 (2022)",
+              "author": "Коровина, Журавлев",
+              "year": "2022",
+              "file": "literature/korovina-5-945-2.json"
+            },
+            {
+              "id": "korovina-5-395-2",
+              "title": "Коровина. Часть 2 (2023)",
+              "author": "Коровина, Журавлев",
+              "year": "2023",
+              "file": "literature/korovina-5-395-2.json"
+            }
+          ],
+          "icon": "literature"
+        },
+        {
+          "id": "biology",
+          "title": "Биология",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "pasechnik-5-13",
+              "title": "Пасечник. (2020)",
+              "author": "Пасечник. С бабочкой",
+              "year": "2020",
+              "file": "biology/pasechnik-5-13.json"
+            },
+            {
+              "id": "pasechnik-5-933",
+              "title": "Пасечник. (2021)",
+              "author": "Пасечник. С шишкой",
+              "year": "2021",
+              "file": "biology/pasechnik-5-933.json"
+            },
+            {
+              "id": "pasechnik-5-183",
+              "title": "Пасечник. С ракушкой",
+              "author": "Пасечник. С ракушкой, Суматохин",
+              "year": "2024",
+              "file": "biology/pasechnik-5-183.json"
+            },
+            {
+              "id": "ponomareva-5-683",
+              "title": "Пономарева",
+              "author": "Пономарева, Корнилова",
+              "year": "2023",
+              "file": "biology/ponomareva-5-683.json"
+            },
+            {
+              "id": "sivoglazov-5-657",
+              "title": "Сивоглазов",
+              "author": "Сивоглазов, Плешаков",
+              "year": "2022",
+              "file": "biology/sivoglazov-5-657.json"
+            }
+          ],
+          "icon": "biology"
+        },
+        {
+          "id": "history",
+          "title": "История",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "vigasin-5-938",
+              "title": "Вигасин",
+              "author": "Вигасин, Годер",
+              "year": "2020-2021-2022-2023",
+              "file": "history/vigasin-5-938.json"
+            },
+            {
+              "id": "medinskiy-5-60",
+              "title": "Мединский",
+              "author": "Мединский, Чубарьян",
+              "year": "2025",
+              "file": "history/medinskiy-5-60.json"
+            },
+            {
+              "id": "nikishin-5-179",
+              "title": "Никишин",
+              "author": "Никишин, Стрелков",
+              "year": "2024",
+              "file": "history/nikishin-5-179.json"
+            },
+            {
+              "id": "saplina-5-359",
+              "title": "Саплина",
+              "author": "Саплина, Немировский",
+              "year": "2021-2022-2023",
+              "file": "history/saplina-5-359.json"
+            }
+          ],
+          "icon": "history"
+        },
+        {
+          "id": "geo",
+          "title": "География",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "alekseev-5-576",
+              "title": "Алексеев",
+              "author": "Алексеев, Николина",
+              "year": "2023",
+              "file": "geo/alekseev-5-576.json"
+            },
+            {
+              "id": "klimanova-5-533",
+              "title": "Климанова",
+              "author": "Климанова",
+              "year": "2021",
+              "file": "geo/klimanova-5-533.json"
+            },
+            {
+              "id": "lobzhanidze-5-771",
+              "title": "Лобжанидзе",
+              "author": "Лобжанидзе",
+              "year": "2024",
+              "file": "geo/lobzhanidze-5-771.json"
+            },
+            {
+              "id": "maksimov-5-627",
+              "title": "Максимов",
+              "author": "Максимов, Герасимова, Барабанов",
+              "year": "2023",
+              "file": "geo/maksimov-5-627.json"
+            }
+          ],
+          "icon": "geo"
+        },
+        {
+          "id": "informatics",
+          "title": "Информатика",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "semenov-5",
+              "title": "Семенов",
+              "author": "Семенов, Рудченко",
+              "year": "2024",
+              "file": "informatics/semenov-5.json"
+            }
+          ],
+          "icon": "informatics"
+        }
+      ]
+    },
+    {
       "id": "6",
       "title": "6 класс",
       "active": true,

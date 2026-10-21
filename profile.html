@@ -253,7 +253,7 @@
       <div class="footer-brand">
         <img src="assets/img/logo-160.png" alt="" width="52" height="52">
         <p class="footer-name">ГДЗ НЭЛ</p>
-        <p class="footer-meta">3–11 классы, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
+        <p class="footer-meta">1–11 классы, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
       </div>
       <nav class="footer-col" aria-label="Документы">
         <h3>Документы</h3>
@@ -392,23 +392,9 @@
     var res;
     if (isOwn) {
       res = await supabase.from('profiles').select('*').eq('id', session.user.id).single();
-      if (!res.error && res.data) {
-        var meta = session.user.user_metadata || {};
-        if (!res.data.border_type) res.data.border_type = meta.border_type || 'none';
-        if (!res.data.nick_color) res.data.nick_color = meta.nick_color || '';
-        if (!res.data.bg_color) res.data.bg_color = meta.bg_color || '';
-      }
     } else {
       res = await supabase.rpc('profile_public', { p_id: targetId });
       if (!res.error && Array.isArray(res.data)) res.data = res.data[0] || null;
-      if (res.error) {
-        var alt = await supabase.from('reviews')
-          .select('username')
-          .eq('user_id', targetId)
-          .eq('is_approved', true)
-          .limit(1);
-        res = { data: { username: (alt.data && alt.data[0] && alt.data[0].username) || 'Аноним', border_type: 'none', nick_color: '', bg_color: '' } };
-      }
     }
     if (res.error || !res.data) {
       emailEl.textContent = isOwn ? session.user.email : '';
@@ -530,22 +516,7 @@
           .eq('id', session.user.id)
           .select('*')
           .single();
-        var missingColumns = upd.error && (upd.error.code === 'PGRST204' || /column|schema cache/i.test(upd.error.message || ''));
-        if (missingColumns) {
-          var metaUpd = await supabase.auth.updateUser({ data: {
-            border_type: selectedBorder, nick_color: selectedNick, bg_color: selectedBg
-          } });
-          if (metaUpd.error) {
-            btn.disabled = false;
-            status.className = 'form-status is-err';
-            status.textContent = 'Не получилось сохранить: ' + metaUpd.error.message;
-            return;
-          }
-          profile = profile || {};
-          profile.border_type = selectedBorder;
-          profile.nick_color = selectedNick;
-          profile.bg_color = selectedBg;
-        } else if (upd.error) {
+        if (upd.error) {
           btn.disabled = false;
           status.className = 'form-status is-err';
           status.textContent = 'Не получилось сохранить: ' + upd.error.message;
@@ -566,7 +537,6 @@
     var commentList = document.getElementById('comment-list');
     var commentForm = document.getElementById('comment-form');
     var commentStatus = document.getElementById('comment-status');
-    var commentsFallback = false;
 
     function commentDate(ts) {
       try {
@@ -588,7 +558,7 @@
         var link = r.author_id && r.author_id !== targetId
           ? '<a class="comment-author" href="profile.html?user=' + encodeURIComponent(r.author_id) + '">' + escapeHtml(name) + '</a>'
           : '<span class="comment-author">' + escapeHtml(name) + '</span>';
-        var canDelete = !commentsFallback && r.author_id === session.user.id;
+        var canDelete = r.author_id === session.user.id;
         return '<article class="comment-item" data-comment="' + escapeHtml(r.id) + '">' +
           '<span class="comment-avatar">' + avatar + '</span>' +
           '<div class="comment-main"><div class="comment-head">' + link +
@@ -601,21 +571,6 @@
 
     async function loadComments() {
       var list = await supabase.rpc('profile_comments_list', { p_target: targetId });
-      if (list.error) {
-        commentsFallback = true;
-        list = await supabase.from('reviews')
-          .select('id, user_id, username, text, created_at')
-          .eq('task_id', 'profile-comment:' + targetId)
-          .eq('is_approved', true)
-          .order('created_at', { ascending: false })
-          .limit(100);
-        (list.data || []).forEach(function (r) {
-          r.author_id = r.user_id;
-          r.author_name = r.username || 'Аноним';
-          r.author_avatar = null;
-          r.author_premium = false;
-        });
-      }
       if (list.error) {
         commentList.innerHTML = '<p class="empty">Комментарии временно недоступны.</p>';
         return;
@@ -644,16 +599,6 @@
         author_id: session.user.id,
         text: text
       });
-      if (ins.error) {
-        ins = await supabase.from('reviews').insert({
-          task_id: 'profile-comment:' + targetId,
-          user_id: session.user.id,
-          rating: 5,
-          text: text,
-          is_approved: true,
-          ai_status: 'approved'
-        });
-      }
       btn.disabled = false;
       if (ins.error) {
         commentStatus.className = 'form-status is-err';

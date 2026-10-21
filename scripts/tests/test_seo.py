@@ -27,7 +27,7 @@ BASE = os.environ.get("GDZ_BASE", "http://127.0.0.1:8000").rstrip("/")
 PUBLIC = [
     "index.html", "about.html", "contact.html", "privacy.html", "terms.html",
     "disclaimer.html", "premium.html", "cheatsheets.html", "photo.html",
-    "search.html", "app/index.html",
+    "search.html", "app/index.html", "honor.html",
 ]
 # служебные: canonical и description есть, OG не обязателен
 SOFT = ["auth.html", "profile.html"]

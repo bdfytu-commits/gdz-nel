@@ -3,6 +3,9 @@
 Проект: `qncqeoklwblztbnoktwk` (регион eu-west-1), API —
 `https://qncqeoklwblztbnoktwk.supabase.co`.
 
+На 21.10.2026 миграции `social` и `fix_honor_like` применены, Edge Function
+`moderate-review` версии 2 — `ACTIVE` (модель `openai/gpt-oss-20b`).
+
 В репозитории лежит только **publishable**-ключ (`assets/supabase.js`) — он публичный
 по замыслу. Секретные ключи (`sb_secret_…`) в код и коммиты не попадают: в браузере они
 не нужны, а функциям секретный ключ выдаёт сам Supabase (или он задаётся через
@@ -10,7 +13,7 @@
 
 ## Что уже настроено
 
-Миграции в `supabase/migrations/` (применены 17–19.10.2026, порядок — по имени файла):
+Миграции в `supabase/migrations/` (применены 17–21.10.2026, порядок — по имени файла):
 
 | Файл | Что делает |
 | --- | --- |
@@ -20,6 +23,8 @@
 | `20261017120300_webhook.sql` | `pg_net`-триггер: после INSERT в `reviews` зовёт Edge Function `moderate-review` |
 | `20261017120400_admin_storage.sql` | админ может удалять чужие фото из storage и записи `photo_requests` |
 | `20261018160000_review_premium.sql` | RPC `reviews_for_task` с флагом `is_premium` автора — PRO-бейджи в отзывах |
+| `20261021120000_social.sql` | доска почёта (`honor_board`, `honor_likes`), комментарии профилей (`profile_comments`), кастомизация профиля, RPC `honor_like`, `profile_public`, `profile_comments_list` |
+| `20261021130000_fix_honor_like.sql` | исправление конфликта имени `likes` в `honor_like` (RPC падал с 42702) |
 
 Если проект пересоздаётся: применить файлы по порядку — вставить содержимое
 в SQL Editor или выполнить `supabase db push` (после `supabase link`).
@@ -28,9 +33,13 @@
 
 - `profiles`: видит и правит свой профиль, админ — все; сам себе запрещено менять
   `role`, `ban`, `email`, `terms_accepted` (триггер).
-- `reviews`: одобренные видит каждый (даже аноним), свой отзыв автор видит с любым
-  статусом; INSERT — только залогиненному и не забаненному, `ai_status='pending'`;
-  UPDATE/DELETE — только админу.
+- `reviews`: опубликованные видит каждый (даже аноним), свой отзыв автор видит с любым
+  статусом; INSERT — только залогиненному и не забаненному (пост-модерация:
+  `is_approved=true`, `ai_status='pending'`); UPDATE/DELETE — только админу.
+- `honor_board`: читают все, пишет и удаляет только админ; `honor_likes`: каждый
+  видит и меняет только свой лайк, счётчик обновляет RPC `honor_like`.
+- `profile_comments`: читают все авторизованные, автор удаляет свой комментарий,
+  админ — любой.
 - `photo_requests`: свои записи + админ; insert — не забаненным.
 - Storage: каждый загружает и удаляет файлы только в своей папке; админ — любые.
 
@@ -88,8 +97,11 @@ supabase functions deploy solve-photo
 **Отзывы.** Клиент пишет отзыв в `reviews` (`pending`). Триггер вызывает
 `moderate-review`; функция перечитывает отзыв из базы по id (телу вебхука не
 доверяет), спрашивает Groq и ставит `is_approved` + `ai_status`. Модель по ТЗ —
-`llama3-8b-8192`, запасные — `llama-3.1-8b-instant` и `llama-3.3-70b-versatile`
-(перебор при 4xx; свой выбор — секрет `GROQ_MODEL`).
+`openai/gpt-oss-20b`, запасные — `openai/gpt-oss-120b` и
+`openai/gpt-oss-safeguard-20b` (перебор при 4xx; свой выбор — секрет `GROQ_MODEL`).
+`llama-3.1-8b-instant` отключена Groq для self-serve с 16.08.2026.
+При недоступности Groq срабатывает fail-safe: отзыв публикуется, причина
+пишется в `reviews.ai_reason` и видна в админке.
 
 Промпт модерации (не менять без нужды):
 

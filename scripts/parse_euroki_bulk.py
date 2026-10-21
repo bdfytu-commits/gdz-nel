@@ -224,6 +224,7 @@ SUBJECT_MAP = {
     "obshestvoznanie": "social",
     "angliyskiy": "english",
     "geografiya": "geo",
+    "informatika": "informatics",
 }
 
 
@@ -411,8 +412,23 @@ def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int |
     return tasks
 
 
+SPECIAL_BASE = {
+    # автор в источнике — «Старое издание», а не фамилия
+    "vilenkin-staroe-izdanie-219": "vilenkin-5-219",
+    # автор — «Очень старое издание»
+    "vilenkin-universalnoe-izdanie-941": "vilenkin-5-941",
+}
+SPECIAL_TITLE = {
+    "vilenkin-staroe-izdanie-219": "Виленкин",
+    "vilenkin-universalnoe-izdanie-941": "Виленкин",
+}
+
+
 def book_base_id(book: dict, meta: dict, duplicate: bool) -> str:
     grade = book["grade"]
+    special = SPECIAL_BASE.get(book["slug"])
+    if special:
+        return special
     base = f"{translit(meta['surname'])}-{grade}"
     if duplicate:
         tail = re.search(r"-(\d+)$", book["slug"])
@@ -443,11 +459,25 @@ def process_book(book: dict, duplicate: bool, force: bool, dry: bool, limit: int
         suffix = f"-{part}" if multi and part > 0 else ""
         book_id = base_id + suffix
         out_path = DATA / subject / (book_id + ".json")
+        title_part = f". Часть {part}" if multi and part > 0 else ""
+        title = f"{SPECIAL_TITLE.get(book['slug'], meta['surname'])}{title_part}"
         if out_path.exists() and not force:
+            # --resume: готовый файл не перекачиваем, но возвращаем его в манифест.
+            # Иначе после обрыва процесса JSON есть, а книга пропадает из каталога.
+            try:
+                existing = json.loads(out_path.read_text(encoding="utf-8"))
+                existing_tasks = len(existing.get("tasks") or [])
+            except (OSError, json.JSONDecodeError):
+                existing_tasks = 0
+            made.append({
+                "grade": book["grade"], "source_subject": book["source_subject"], "subject": subject,
+                "id": book_id, "file": f"{subject}/{book_id}.json", "title": title,
+                "author": meta["author"], "year": meta["year"], "part": part if multi and part > 0 else None,
+                "tasks": existing_tasks, "sourceUrl": book["url"], "slug": book["slug"],
+            })
             print(f"-- {book_id}: уже есть, пропуск", flush=True)
             continue
         tasks: list[dict] = []
-        title_part = f". Часть {part}" if multi and part > 0 else ""
         print(f"== {book_id}: {len(items)} страниц/заданий", flush=True)
         for item in items:
             try:
@@ -483,7 +513,6 @@ def process_book(book: dict, duplicate: bool, force: bool, dry: bool, limit: int
             tmp = out_path.with_suffix(".json.part")
             tmp.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             tmp.replace(out_path)
-        title = f"{meta['surname']}{title_part}"
         entry = {
             "grade": book["grade"], "source_subject": book["source_subject"], "subject": subject,
             "id": book_id, "file": f"{subject}/{book_id}.json", "title": title,
