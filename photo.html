@@ -145,13 +145,15 @@
       <div class="footer-brand">
         <img src="assets/img/logo-160.png" alt="" width="52" height="52">
         <p class="footer-name">ГДЗ НЭЛ</p>
-        <p class="footer-meta">1–11 классы, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
+        <p class="footer-meta">3–11 классы, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
       </div>
       <nav class="footer-col" aria-label="Документы">
         <h3>Документы</h3>
         <a href="terms.html">Пользовательское соглашение</a>
         <a href="privacy.html">Конфиденциальность</a>
         <a href="disclaimer.html">Дисклеймер</a>
+        <a href="cookie-policy.html">Cookie</a>
+        <a href="accessibility.html">Доступность</a>
       </nav>
     </div>
     <p class="footer-legal">Материалы для личного использования. Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
@@ -162,7 +164,10 @@
     import { supabase, requireSession, escapeHtml } from './assets/supabase.js';
 
     var session = await requireSession({ next: 'photo.html' });
-    if (!session) throw new Error('redirect');
+    if (!session) {
+      // requireSession уже перенаправляет на вход; не роняем модуль
+      // необработанной ошибкой в консоли.
+    } else {
 
     var dropzone = document.getElementById('dropzone');
     var input = document.getElementById('photo-input');
@@ -455,6 +460,7 @@
         }
       });
       return out;
+    }
     }
   </script>
 </body>

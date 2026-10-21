@@ -76,8 +76,11 @@
       flex-direction: column;
       justify-content: space-between;
       box-shadow: 0 18px 44px rgba(0,0,0,.35);
+      transition: transform .2s var(--ease), border-color .2s var(--ease), box-shadow .2s var(--ease);
       animation: honor-in .45s var(--ease) both;
+      animation-delay: calc(var(--stagger, 0) * 55ms);
     }
+    .honor-card:hover { transform: translateY(-2px); border-color: rgba(255,92,131,.3); box-shadow: 0 22px 52px rgba(0,0,0,.42); }
     .honor-card::after {
       content: ""; position: absolute; inset: -60% -20% auto auto;
       width: 220px; height: 220px; border-radius: 50%;
@@ -112,6 +115,29 @@
     .honor-like.is-liked { color: #FF5C83; border-color: rgba(255,92,131,.55); background: rgba(255,59,107,.14); }
     .honor-like.is-liked svg { fill: currentColor; }
     .honor-like:disabled { opacity: .55; cursor: wait; }
+    .honor-like.is-popping { animation: like-pop .28s var(--ease); }
+    .honor-like.is-popping svg { animation: heart-pop .28s var(--ease); }
+    @keyframes like-pop {
+      0% { transform: scale(1); }
+      45% { transform: scale(1.16); }
+      100% { transform: scale(1); }
+    }
+    @keyframes heart-pop {
+      0% { transform: scale(1); }
+      45% { transform: scale(1.35) rotate(-8deg); }
+      100% { transform: scale(1) rotate(0); }
+    }
+    .honor-skeleton { display: grid; gap: 18px; padding: 2px 0; }
+    .honor-skeleton-card {
+      min-height: 230px; border-radius: 22px;
+      background: linear-gradient(105deg, #17171F 24%, #242431 48%, #17171F 72%);
+      background-size: 220% 100%;
+      animation: honor-shimmer 1.15s linear infinite;
+    }
+    @keyframes honor-shimmer { from { background-position: 100% 0; } to { background-position: -100% 0; } }
+    .honor-like:focus-visible, .honor-login:focus-visible, .honor-card a:focus-visible {
+      outline: 2px solid #FF5C83; outline-offset: 3px;
+    }
     .honor-empty { border: 1px dashed var(--hb-line); border-radius: 20px; padding: 38px 24px; color: var(--hb-muted); text-align: center; }
     .honor-note { margin-top: 14px; font-size: 12px; color: #74748A; text-align: center; }
     .honor-login { color: #FF8FA8; text-decoration: underline; text-underline-offset: 3px; }
@@ -119,6 +145,13 @@
       .honor-main { padding: 18px 12px 60px; }
       .honor-feed { max-height: none; overflow: visible; }
       .honor-card { border-radius: 18px; min-height: 200px; }
+      .honor-skeleton-card { min-height: 200px; border-radius: 18px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .honor-card, .honor-like, .honor-like svg, .honor-skeleton-card {
+        animation: none !important;
+        transition: none !important;
+      }
     }
   </style>
 </head>
@@ -155,8 +188,12 @@
       <p>Благодарности, объявления и лучшие моменты проекта. Писать может только администратор, а лайкать — каждый.</p>
     </section>
 
-    <div class="honor-feed" id="honor-feed" aria-live="polite">
-      <p class="honor-empty">Загружаю ленту…</p>
+    <div class="honor-feed" id="honor-feed" aria-live="polite" aria-busy="true">
+      <div class="honor-skeleton" aria-hidden="true">
+        <div class="honor-skeleton-card"></div>
+        <div class="honor-skeleton-card"></div>
+        <div class="honor-skeleton-card"></div>
+      </div>
     </div>
     <p class="honor-note" id="honor-note">Лайки сохраняются в аккаунте. Без входа можно только читать.</p>
   </main>
@@ -189,9 +226,9 @@
       return new Date(iso).toLocaleDateString('ru-RU', { day: 'numeric', month: 'long' });
     }
 
-    function cardHtml(post) {
+    function cardHtml(post, index) {
       var isLiked = liked.has(String(post.id));
-      return '<article class="honor-card" data-id="' + post.id + '">' +
+      return '<article class="honor-card" data-id="' + post.id + '" style="--stagger:' + Math.min(index, 10) + '">' +
         '<div>' +
           '<div class="honor-card-top">' +
             '<span class="honor-avatar" aria-hidden="true">А</span>' +
@@ -212,9 +249,11 @@
 
     function render() {
       if (!posts.length) {
+        feed.removeAttribute('aria-busy');
         feed.innerHTML = '<div class="honor-empty">Пока пусто. Администратор скоро что-нибудь напишет.</div>';
         return;
       }
+      feed.removeAttribute('aria-busy');
       feed.innerHTML = posts.map(cardHtml).join('');
     }
 
@@ -230,6 +269,7 @@
         .order('created_at', { ascending: false })
         .limit(60);
       if (res.error) {
+        feed.removeAttribute('aria-busy');
         feed.innerHTML = '<div class="honor-empty">Не удалось загрузить ленту. Обнови страницу.</div>';
         return;
       }
@@ -265,6 +305,10 @@
       btn.setAttribute('aria-pressed', String(!!row.liked));
       var count = btn.querySelector('[data-count]');
       if (count) count.textContent = String(row.total_likes);
+      btn.classList.remove('is-popping');
+      void btn.offsetWidth;
+      btn.classList.add('is-popping');
+      setTimeout(function () { btn.classList.remove('is-popping'); }, 320);
       note.textContent = 'Лайки сохраняются в аккаунте.';
     });
 

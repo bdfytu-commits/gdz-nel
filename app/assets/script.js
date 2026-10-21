@@ -36,7 +36,7 @@
 
   var catalog = null;
   var bookCache = {};     // file -> данные учебника
-  var allTasks = null;    // плоский список для поиска
+  var searchIndex = null; // облегчённый индекс условий для поиска
   var renderToken = 0;    // защита от гонок при быстрой навигации
   var currentTask = null; // prev/next для клавиатуры и свайпов
 
@@ -265,6 +265,36 @@
     };
   }
 
+  // мягкое появление списков и карточек: задержка задаётся через --stagger,
+  // сама анимация отключается правилом prefers-reduced-motion в CSS.
+  function staggerList(container, selector) {
+    if (!container) return;
+    var items = container.querySelectorAll(selector);
+    for (var i = 0; i < items.length && i < 24; i++) {
+      items[i].style.setProperty('--stagger', String(i));
+      items[i].classList.add('is-stagger');
+    }
+  }
+
+  // скелетон на время загрузки данных: каталог, сетка, задача
+  function routeSkeleton(parts) {
+    var html = '<div class="sk-page" aria-hidden="true">' +
+      '<div class="sk sk-heading"></div><div class="sk sk-subline"></div>';
+    if (parts.length >= 4) {
+      html += '<div class="sk sk-block"></div><div class="sk sk-block sk-block--short"></div>' +
+        '<div class="sk sk-block"></div>';
+    } else {
+      var taskGrid = parts.length === 3;
+      html += '<div class="sk-grid' + (taskGrid ? ' sk-grid--tasks' : '') + '">';
+      var count = taskGrid ? 24 : 6;
+      for (var i = 0; i < count; i++) {
+        html += '<span class="sk ' + (taskGrid ? 'sk-cell' : 'sk-card') + '"></span>';
+      }
+      html += '</div>';
+    }
+    return html + '</div>';
+  }
+
   function formatDate(ts) {
     try {
       return new Date(ts).toLocaleString('ru-RU', {
@@ -417,37 +447,14 @@
     return (subject.textbooks || []).filter(function (b) { return b.id === id; })[0] || null;
   }
 
-  // все задания всех активных классов и учебников — для глобального поиска
-  function loadAllTasks() {
-    if (allTasks) return Promise.resolve(allTasks);
-    return loadCatalog().then(function (cat) {
-      var jobs = [];
-      (cat.grades || []).forEach(function (g) {
-        if (g.active === false) return;
-        (g.subjects || []).forEach(function (s) {
-          if (s.active === false) return;
-          (s.textbooks || []).forEach(function (b) {
-            jobs.push(loadBook(b.file).then(function (book) {
-              return (book.tasks || []).map(function (t) {
-                return {
-                  grade: g.id,
-                  subject: s.id,
-                  subjectTitle: s.title,
-                  book: b.id,
-                  bookTitle: b.title,
-                  number: t.number,
-                  condition: t.condition || ''
-                };
-              });
-            }));
-          });
-        });
-      });
-      return Promise.all(jobs).then(function (chunks) {
-        allTasks = [];
-        chunks.forEach(function (chunk) { allTasks = allTasks.concat(chunk); });
-        return allTasks;
-      });
+  // облегчённый индекс: 24 МБ вместо загрузки всех 185 учебников
+  // (около 190 МБ). Поля короткие: b — книга, n — номер, g/s — класс и
+  // предмет, st/bt — названия, c — условие.
+  function loadSearchIndex() {
+    if (searchIndex) return Promise.resolve(searchIndex);
+    return getJSON(DATA_DIR + 'search-index.json').then(function (data) {
+      searchIndex = (data && data.tasks) || [];
+      return searchIndex;
     });
   }
 
@@ -530,8 +537,11 @@
 
     setTimeout(function () {
       if (token !== renderToken) return;
+      screenEl.innerHTML = routeSkeleton(parts);
+      screenEl.classList.remove('screen--out');
       Promise.resolve(renderRoute(parts, token)).then(function () {
         if (token !== renderToken) return;
+        staggerList(screenEl, '.subject-card, .bookcard, .task-cell, .list-item, .comment-item');
         screenEl.classList.remove('screen--out');
       }).catch(function (err) {
         if (token !== renderToken) return;
@@ -1214,7 +1224,7 @@
     'applicationCategory': 'EducationalApplication',
     'operatingSystem': 'Any',
     'inLanguage': 'ru',
-    'description': 'Условия, пошаговые решения и ответы для 1–11 классов Новосибирского экономического лицея.',
+    'description': 'Условия, пошаговые решения и ответы для 3–11 классов Новосибирского экономического лицея.',
     'offers': { '@type': 'Offer', 'price': '0', 'priceCurrency': 'RUB' }
   };
 
@@ -1300,7 +1310,9 @@
   function reviewsSectionHtml() {
     return '<section class="reviews no-print" id="reviews" aria-label="Отзывы к заданию">' +
       '<div class="reviews-head"><h2>Отзывы</h2><span class="reviews-count" id="reviews-count"></span></div>' +
-      '<div class="reviews-list" id="reviews-list"><p class="empty">Загружаю отзывы…</p></div>' +
+      '<div class="reviews-list" id="reviews-list" aria-busy="true">' +
+        '<div class="sk sk-review"></div><div class="sk sk-review"></div><div class="sk sk-review"></div>' +
+      '</div>' +
       '<div id="review-form-wrap"></div>' +
       '</section>';
   }
@@ -1592,7 +1604,7 @@
     screenEl.innerHTML = '<h1 class="panel-title">Поиск</h1>' +
       '<p class="panel-sub">Ищу «' + esc(query) + '»…</p>';
 
-    loadAllTasks().then(function (list) {
+    loadSearchIndex().then(function (list) {
       if (token !== renderToken) return;
 
       var q = query.toLowerCase();
@@ -1601,8 +1613,8 @@
       for (var i = 0; i < list.length && found.length < 50; i++) {
         var item = list[i];
         var hit = isDigits
-          ? String(item.number).indexOf(query) === 0
-          : item.condition.toLowerCase().indexOf(q) !== -1;
+          ? String(item.n).indexOf(query) === 0
+          : String(item.c || '').toLowerCase().indexOf(q) !== -1;
         if (hit) found.push(item);
       }
 
@@ -1617,12 +1629,12 @@
       } else {
         html += '<ul class="list">';
         found.forEach(function (item) {
-          var url = '#/' + item.grade + '/' + item.subject + '/' + item.book + '/' + item.number;
+          var url = '#/' + item.g + '/' + item.s + '/' + item.b + '/' + item.n;
           html += '<li class="list-item">' +
-            '<span class="subject-icon" style="width:40px;height:40px"><span class="icon i-' + esc(item.subject) + '" aria-hidden="true"></span></span>' +
+            '<span class="subject-icon" style="width:40px;height:40px"><span class="icon i-' + esc(item.s) + '" aria-hidden="true"></span></span>' +
             '<div class="list-main">' +
-            '<a class="list-title" href="' + url + '">' + esc(item.subjectTitle + ' · ' + item.bookTitle + ' · №' + item.number) + '</a>' +
-            '<p class="list-snippet">' + snippet(item.condition, isDigits ? '' : query) + '</p>' +
+            '<a class="list-title" href="' + url + '">' + esc(item.st + ' · ' + item.bt + ' · №' + item.n) + '</a>' +
+            '<p class="list-snippet">' + snippet(item.c, isDigits ? '' : query) + '</p>' +
             '</div>' +
             '<div class="list-actions"><span class="icon i-chevron-right" aria-hidden="true"></span></div></li>';
         });
@@ -1633,6 +1645,11 @@
       if (window.gdzTrack) window.gdzTrack('search', { q: query, found: found.length });
 
       screenEl.innerHTML = html;
+      staggerList(screenEl, '.list-item');
+    }).catch(function () {
+      if (token !== renderToken) return;
+      screenEl.innerHTML = '<h1 class="panel-title">Поиск</h1>' +
+        '<p class="empty">Не получилось загрузить поисковый индекс. Проверь соединение и попробуй ещё раз.</p>';
     });
   }
 

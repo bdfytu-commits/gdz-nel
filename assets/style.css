@@ -469,7 +469,7 @@ h1, h2, h3 {
   transition:
     transform var(--t-slow) var(--ease),
     box-shadow var(--t-slow) var(--ease),
-    opacity 300ms var(--ease);
+    opacity 240ms var(--ease);
 }
 
 .card:hover {
@@ -575,7 +575,7 @@ h1, h2, h3 {
 .shot-item {
   width: 248px;
   margin: 0;
-  transition: opacity 300ms var(--ease), transform 300ms var(--ease);
+  transition: opacity 240ms var(--ease), transform 240ms var(--ease);
 }
 
 .phone {
@@ -689,7 +689,7 @@ h1, h2, h3 {
 
 /* ---------- появление при скролле ---------- */
 
-.reveal { transition: opacity 300ms var(--ease), transform 300ms var(--ease); }
+.reveal { transition: opacity 240ms var(--ease), transform 240ms var(--ease); }
 
 .reveal.is-hidden { opacity: 0; transform: translateY(20px); }
 
@@ -1586,7 +1586,7 @@ h1, h2, h3 {
   text-align: center;
 }
 
-.sheets-wrap:not(.is-locked) .sheet-lock { display: none; }
+/* снятый замок плавно растворяется — правила перехода ниже */
 
 .sheet-lock .icon { width: 30px; height: 30px; color: #B8860B; margin-bottom: 8px; }
 
@@ -1699,4 +1699,98 @@ h1, h2, h3 {
 .comment-delete {
   border: 0; background: transparent; color: var(--c-red); font: inherit;
   font-size: 12px; cursor: pointer; padding: 0; margin-left: auto;
+}
+
+/* =========================================================
+   релиз 3.0: плавные состояния, скелетоны, разблокировка ГДЗ+
+   ========================================================= */
+
+@keyframes unlock-in {
+  from { opacity: 0; transform: translateY(7px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes comment-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes shimmer {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+/* появление формы после снятия замка */
+#custom-controls:not([hidden]) {
+  animation: unlock-in 240ms var(--ease) both;
+}
+
+.premium-lock {
+  transition: opacity 180ms var(--ease), transform 180ms var(--ease);
+}
+
+/* шпаргалки: замок плавно уходит, размытие растворяется */
+.sheets-wrap .sheets {
+  transition: filter 240ms var(--ease), opacity 240ms var(--ease);
+}
+
+.sheets-wrap.is-locked .sheets { opacity: 0.72; }
+
+.sheets-wrap::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  z-index: 1;
+  border-radius: var(--radius-l);
+  background: rgba(255, 255, 255, 0.45);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 240ms var(--ease);
+}
+
+[data-theme="dark"] .sheets-wrap::before { background: rgba(18, 20, 24, 0.55); }
+
+.sheets-wrap.is-locked::before { opacity: 1; }
+
+.sheet-lock {
+  transition:
+    opacity 220ms var(--ease),
+    transform 220ms var(--ease),
+    visibility 0s linear 220ms;
+}
+
+.sheets-wrap:not(.is-locked) .sheet-lock {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-50%, -8px);
+  pointer-events: none;
+}
+
+/* скелетоны комментариев профиля */
+.sk-comments { display: grid; gap: 10px; }
+
+.sk-comment {
+  height: 74px;
+  border-radius: 12px;
+  background: linear-gradient(100deg, var(--c-surface-2) 20%, var(--c-border) 45%, var(--c-surface-2) 70%);
+  background-size: 220% 100%;
+  animation: shimmer 1.15s linear infinite;
+}
+
+/* появление комментариев */
+.comment-item {
+  animation: comment-in 220ms var(--ease) both;
+  animation-delay: calc(var(--comment-i, 0) * 20ms);
+  transition: border-color 180ms var(--ease), box-shadow 180ms var(--ease);
+}
+
+.comment-item:hover {
+  border-color: var(--c-primary);
+  box-shadow: var(--shadow-1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sk-comment,
+  #custom-controls:not([hidden]),
+  .comment-item { animation: none !important; }
 }

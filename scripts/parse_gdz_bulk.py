@@ -85,53 +85,75 @@ def extract_meta(soup, fallback_author: str = "") -> tuple[str, str]:
     return author or fallback_author, year
 
 
-def discover_targets() -> list[dict]:
-    targets: list[dict] = []
-    subjects = [
-        ("english", 3, "https://gdz-raketa.ru/english/3-klass/"),
-        ("english", 4, "https://gdz-raketa.ru/english/4-klass/"),
-        ("russian", 3, "https://gdz-raketa.ru/russkiy-yazyk/3-klass/"),
-        ("russian", 4, "https://gdz-raketa.ru/russkiy-yazyk/4-klass/"),
-        ("english", 11, "https://gdz-raketa.ru/english/11-klass/"),
-    ]
-    skip = ("tetrad", "rabochaya", "trenazher", "azbuka", "kontrolnye", "domashnie")
-    for subject, grade, url in subjects:
-        soup = fetch_page(url)
-        if soup is None:
-            continue
-        seen: set[str] = set()
-        for a in soup.find_all("a", href=True):
-            href = urllib.parse.urljoin(url, a["href"]).rstrip("/") + "/"
-            m = re.search(r"/uchebnik-([a-z0-9-]+)/$", href)
-            if not m:
-                continue
-            if any(w in m.group(1) for w in skip):
-                continue
-            if href in seen:
-                continue
-            seen.add(href)
-            targets.append({
-                "subject": subject, "grade": grade, "index": href,
-                "slug": m.group(1), "author": "", "year": "2024",
-            })
-    targets.append({
-        "subject": "chemistry", "grade": 10,
-        "index": "https://gdz-raketa.ru/himiya/10-klass/uchebnik-gabrielyan/",
-        "slug": "uchebnik-gabrielyan-10", "author": "Габриелян О.С.", "year": "2023",
-    })
-    targets.append({
-        "subject": "chemistry", "grade": 11,
-        "index": "https://gdz-raketa.ru/himiya/11-klass/uchebnik-gabrielyan/",
-        "slug": "uchebnik-gabrielyan", "author": "Габриелян О.С.", "year": "2022",
-    })
-    targets.append({
-        "subject": "social", "grade": 11,
-        "index": "https://gdz-raketa.ru/obshhestvoznanie/11-klass/uchebnik-bogolubov/",
-        "slug": "uchebnik-bogolubov",
-        "author": "Боголюбов Л.Н., Городецкая Н.И., Лазебникова А.Ю. и др.", "year": "2024",
-    })
-    return targets
+SUBJECT_PAGES = [
+    ("math", "matematika"),
+    ("algebra", "algebra"),
+    ("geometry", "geometriya"),
+    ("russian", "russkiy-yazyk"),
+    ("literature", "literatura"),
+    ("english", "english"),
+    ("biology", "biologiya"),
+    ("history", "istoriya"),
+    ("social", "obshhestvoznanie"),
+    ("geo", "geografiya"),
+    ("physics", "fizika"),
+    ("chemistry", "himiya"),
+    ("informatics", "informatika"),
+]
 
+# Популярные издательства из ТЗ 3.0. Список используется как приоритетный
+# фильтр для логов и будущих ручных доборов; discovery забирает все учебники
+# с предметных страниц, а не только эти фамилии.
+TARGET_PUBLISHERS = (
+    "мерзляк", "никольский", "дорофеев", "бунимович", "петерсон",
+    "макарычев", "атанасян", "погорелов", "алимов", "разумовская",
+    "рыбченкова", "шмелев", "канакина", "климанова", "биболетова",
+    "афанасьева", "вербицкая", "кузовлев", "баранова", "комарова",
+    "ведюшкин", "юдовская", "данилов", "торкунов", "волобуев",
+    "никишин", "сивоглазов", "пономарева", "сонин", "беляев",
+    "котова", "лискова", "никитин", "меркин", "курдюмова", "ланин",
+    "чертов", "дронов", "алексеев", "максаковский", "николина",
+    "перышкин", "гутник", "лукашик", "касьянов", "габриелян",
+    "рудзитис", "фельдман", "босова", "семакин", "угринович", "поляков",
+)
+
+
+def discover_targets(grades: set[int], subjects: set[str]) -> list[dict]:
+    """Все учебники (не рабочие тетради) с gdz-raketa по классам 3–11."""
+    targets: list[dict] = []
+    seen_all: set[str] = set()
+    skip = ("tetrad", "rabochaya", "trenazher", "azbuka", "kontrolnye",
+            "domashnie", "zadachnik", "testy", "konspekt", "praktikum")
+    for grade in sorted(grades):
+        for subject, path in SUBJECT_PAGES:
+            if subjects and subject not in subjects:
+                continue
+            prefix = f"https://gdz-raketa.ru/{path}/{grade}-klass/"
+            url = prefix
+            soup = fetch_page(url)
+            if soup is None:
+                continue
+            seen: set[str] = set()
+            added = 0
+            for a in soup.find_all("a", href=True):
+                href = urllib.parse.urljoin(url, a["href"]).rstrip("/") + "/"
+                if not href.startswith(prefix):
+                    continue
+                m = re.search(r"/uchebnik-([a-z0-9-]+)/$", href)
+                if not m or any(w in m.group(1) for w in skip):
+                    continue
+                if href in seen or href in seen_all:
+                    continue
+                seen.add(href)
+                seen_all.add(href)
+                targets.append({
+                    "subject": subject, "grade": grade, "index": href,
+                    "slug": m.group(1), "author": "", "year": "2024",
+                })
+                added += 1
+            print(f"discover {grade} {subject}: +{added}", flush=True)
+            time.sleep(0.5)
+    return targets
 
 PAGE_RX = re.compile(r"/(?:(1|2)-chast-)?(?:stranitsa|stranica)-(\d+)/$")
 
@@ -293,9 +315,13 @@ def main() -> int:
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--dry", action="store_true")
     ap.add_argument("--only", default="")
+    ap.add_argument("--grades", default="3,4,5,6,7,8,9,10,11")
+    ap.add_argument("--subjects", default="")
     ap.add_argument("--manifest", default=str(MANIFEST))
     args = ap.parse_args()
-    targets = discover_targets()
+    grades = {int(x) for x in args.grades.split(",") if x.strip()}
+    subjects = {x.strip() for x in args.subjects.split(",") if x.strip()}
+    targets = discover_targets(grades, subjects)
     if args.only:
         targets = [t for t in targets if args.only in t["index"] or args.only in t["slug"]]
     print(f"целей: {len(targets)}", flush=True)

@@ -1149,8 +1149,8 @@ mark {
 
 /* кроссфейд темы (Ф13.13) */
 .theme-fade * {
-  transition: background-color 300ms var(--ease), color 300ms var(--ease),
-    border-color 300ms var(--ease) !important;
+  transition: background-color 240ms var(--ease), color 240ms var(--ease),
+    border-color 240ms var(--ease) !important;
 }
 
 /* ---------- адаптив ---------- */
@@ -1564,4 +1564,83 @@ mark {
   width: 13px;
   height: 13px;
   border-radius: 3px;
+}
+
+/* =========================================================
+   релиз 3.0: движение, скелетоны и мягкие переходы
+   ========================================================= */
+
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(9px); }
+  to { opacity: 1; transform: none; }
+}
+
+.is-stagger {
+  animation: card-in 220ms var(--ease) both;
+  animation-delay: calc(var(--stagger, 0) * 18ms);
+}
+
+/* плавные состояния кнопок и карточек: только там, где есть hover */
+@media (hover: hover) {
+  .btn:hover,
+  .icon-btn:hover,
+  .task-cell:hover,
+  .subject-card:hover,
+  .bookcard:hover,
+  .list-item:hover {
+    will-change: transform;
+  }
+}
+
+.btn:focus-visible,
+.icon-btn:focus-visible,
+.task-cell:focus-visible,
+.section-chip:focus-visible,
+.star-btn:focus-visible {
+  outline: 2px solid var(--c-primary);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 4px rgba(26, 163, 163, 0.13);
+}
+
+/* shimmer-скелетоны вместо мигающего текста «Загружаю…» */
+@keyframes shimmer {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+.sk-page { display: grid; gap: 12px; padding: 4px 0; }
+
+.sk-page .sk,
+.reviews-list .sk {
+  background: linear-gradient(100deg, var(--c-surface-2) 20%, var(--c-border) 45%, var(--c-surface-2) 70%);
+  background-size: 220% 100%;
+  animation: shimmer 1.15s linear infinite;
+}
+
+.sk-page .sk-heading { width: min(320px, 62%); height: 30px; border-radius: 8px; }
+.sk-page .sk-subline { width: min(440px, 84%); height: 13px; margin-bottom: 8px; border-radius: 6px; }
+.sk-page .sk-block { height: 150px; border-radius: var(--radius-l); }
+.sk-page .sk-block--short { height: 92px; }
+
+.sk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 14px;
+}
+
+.sk-grid--tasks { grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 8px; }
+.sk-page .sk-card { height: 168px; border-radius: var(--radius-l); }
+.sk-page .sk-cell { height: 56px; border-radius: var(--radius-m); }
+
+/* отзывы: shimmer-строки, пока библиотека/сеть отвечает */
+.reviews-list .sk-review {
+  height: 76px;
+  margin-bottom: 10px;
+  border-radius: var(--radius-l);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .is-stagger { animation: none !important; }
+  .sk-page .sk,
+  .reviews-list .sk { animation: none !important; }
 }

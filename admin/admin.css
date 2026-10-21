@@ -266,7 +266,10 @@
   gap: 14px;
 }
 
+.dash-grid > * { min-width: 0; }
+
 .panel {
+  min-width: 0;
   padding: 18px;
   background: var(--c-surface);
   border: 1px solid var(--c-border);
@@ -514,7 +517,18 @@
 /* ---------- адаптив ---------- */
 
 @media (max-width: 980px) {
-  .admin { grid-template-columns: 1fr; }
+  .admin {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+    min-width: 0;
+  }
+
+  .admin-side,
+  .admin-main,
+  .admin-content {
+    min-width: 0;
+    max-width: 100%;
+  }
 
   .admin-side {
     position: static;
@@ -542,7 +556,7 @@
 
   .admin-main { padding: 20px 16px 50px; }
 
-  .dash-grid { grid-template-columns: 1fr; }
+  .dash-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (max-width: 560px) {

@@ -53,6 +53,8 @@ PAGES = [
     ("privacy", "/privacy.html"),
     ("terms", "/terms.html"),
     ("disclaimer", "/disclaimer.html"),
+    ("cookie-policy", "/cookie-policy.html"),
+    ("accessibility", "/accessibility.html"),
     ("404", "/404.html"),
 ]
 

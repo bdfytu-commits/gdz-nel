@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -35,7 +36,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "app" / "data"
 INVENTORY = ROOT / "scripts" / "euroki_books.json"
-CACHE = Path("/tmp/opencode/euroki-bulk-cache")
+CACHE = Path(os.environ.get("EUROKI_CACHE", "/tmp/opencode/euroki-bulk-cache"))
 MANIFEST = DATA / "_bulk_manifest.json"
 IMAGE_CACHE: dict[str, bool] = {}
 CHECK_IMAGES = True
@@ -44,7 +45,7 @@ UA_POOL = [
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
     "Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0",
 ]
-PAUSE = 0.8
+PAUSE = float(os.environ.get("EUROKI_PAUSE", "0.8"))
 _last_request = 0.0
 _ua_index = 0
 _consecutive_errors = 0
@@ -83,7 +84,8 @@ def fetch(url: str, force: bool = False) -> str:
     for attempt in range(3):
         wait()
         ua = UA_POOL[_ua_index % len(UA_POOL)]
-        req = urllib.request.Request(url, headers={"User-Agent": ua, "Accept-Language": "ru"})
+        safe_url = urllib.parse.quote(url, safe=":/?&=%#")
+        req = urllib.request.Request(safe_url, headers={"User-Agent": ua, "Accept-Language": "ru"})
         try:
             with urllib.request.urlopen(req, timeout=40) as resp:
                 raw = resp.read()

@@ -14,7 +14,7 @@
 - `moderate-review` v2 ACTIVE: Groq `openai/gpt-oss-20b` (llama-3.1-8b-instant отключена для self-serve с 16.08.2026), fail-safe одобряет отзыв при недоступности ИИ и пишет `ai_reason`;
 - тест ИИ: отзыв с матом → `rejected` / `is_approved=false`, нейтральный → `approved`;
 - SEO: `honor.html` в sitemap и OG, тест 14 страниц / 11 URL — чисто; PWA v10;
-- счётчики и футеры обновлены: 88 238 заданий, 1–11 классы.
+- счётчики и футеры обновлены: 88 238 заданий, 3–11 классы.
 
 ## 2026-10-20
 

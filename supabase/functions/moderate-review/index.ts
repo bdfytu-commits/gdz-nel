@@ -24,6 +24,10 @@ const MODELS = [
   'openai/gpt-oss-safeguard-20b',
 ];
 
+// Переопределение нужно для интеграционного теста fail-safe: подменяем
+// адрес на локальный/внешний стенд, который отдаёт HTTP 500.
+const GROQ_URL = Deno.env.get('GROQ_API_URL') || 'https://api.groq.com/openai/v1/chat/completions';
+
 const CORS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
@@ -40,7 +44,7 @@ async function askGroq(apiKey: string, text: string): Promise<{ verdict: string;
   let lastError = '';
 
   for (const model of MODELS) {
-    const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+    const res = await fetch(GROQ_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -74,7 +78,7 @@ async function askGroq(apiKey: string, text: string): Promise<{ verdict: string;
     if (res.status >= 500) break; // Groq лежит — перебор моделей не поможет
   }
 
-  throw new Error(`Groq недоступен: ${lastError}`);
+  throw new Error(lastError);
 }
 
 Deno.serve(async (req) => {

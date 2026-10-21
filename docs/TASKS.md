@@ -153,6 +153,6 @@ gdz-raketa.ru, решение и ответ — с альтернативног�
 - [x] Админка: вкладки «Доска почёта» и «Комментарии», создание/удаление записей, модерация комментариев
 - [x] ИИ-модерация: `moderate-review` v2 ACTIVE, Groq `openai/gpt-oss-20b`; тесты «мат» → `rejected`, «без мата» → `approved`; fail-safe `is_approved=true` при ошибке
 - [x] Удалён fallback через `reviews`; проверено RLS: обычный пользователь удаляет свой комментарий, чужой — нет
-- [x] SEO: `honor.html` в sitemap и OG, счётчики/футеры 1–11 классы, PWA v10 с honor и informatics в precache
+- [x] SEO: `honor.html` в sitemap и OG, счётчики/футеры 3–11 классы, PWA v10 с honor и informatics в precache
 - [x] `test_seo.py` — 14 страниц / 11 URL, чисто; прод проверен curl после деплоя
 - [x] Финальный коммит `feat: massive parsing (grades 3-11), honor board, profile customization, AI moderation` и push

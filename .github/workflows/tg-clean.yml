@@ -1,0 +1,53 @@
+name: Telegram cleanup
+
+# Ручная очистка канала @gdz_nel.
+# Бот должен быть администратором канала с правом can_delete_messages,
+# а в секретах репозитория должны лежать TELEGRAM_BOT_TOKEN и
+# TELEGRAM_CHANNEL_ID. Bot API не отдаёт историю канала, поэтому скрипт
+# перебирает message_id от to_id вниз до 1. Сообщения старше 48 часов
+# Bot API удалять не умеет — их придётся убрать вручную в приложении.
+
+on:
+  workflow_dispatch:
+    inputs:
+      to_id:
+        description: "Верхний message_id (0 — определить автоматически)"
+        required: false
+        default: "0"
+      max_id:
+        description: "Верхняя граница перебора, если to_id=0"
+        required: false
+        default: "1000"
+      dry_run:
+        description: "Только показать диапазон, ничего не удалять"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Очистить канал
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          TO_ID: ${{ inputs.to_id }}
+          MAX_ID: ${{ inputs.max_id }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          set -euo pipefail
+          if [ -z "${TELEGRAM_BOT_TOKEN:-}" ] || [ -z "${TELEGRAM_CHANNEL_ID:-}" ]; then
+            echo "секреты TELEGRAM_BOT_TOKEN/TELEGRAM_CHANNEL_ID не заданы"
+            exit 0
+          fi
+          args=(--to-id "$TO_ID" --max-id "$MAX_ID")
+          if [ "$DRY_RUN" = "true" ]; then
+            args+=(--dry-run)
+          fi
+          python3 scripts/clean_telegram.py "${args[@]}"

@@ -11,11 +11,17 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Собрать и отправить пост
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
-          MSG: ${{ github.event.head_commit.message }}
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
         run: |
           set -euo pipefail
 
@@ -24,31 +30,68 @@ jobs:
             exit 0
           fi
 
-          if [[ "$MSG" == *"[skip tg]"* ]]; then
+          if [[ "$COMMIT_MESSAGE" == *"[skip tg]"* ]]; then
             echo "метка [skip tg], пропускаю"
             exit 0
           fi
 
-          MSG="$MSG" python3 - > /tmp/tg-post.txt <<'PY'
+          git diff --name-only "$BEFORE_SHA" "$AFTER_SHA" > /tmp/changed.txt 2>/dev/null || \
+            git show --pretty="" --name-only "$AFTER_SHA" > /tmp/changed.txt
+
+          python3 - > /tmp/tg-post.txt <<'PY'
           import html
           import os
+          from pathlib import Path
 
-          lines = [l.strip() for l in os.environ["MSG"].splitlines() if l.strip()]
-          subject = lines[0] if lines else "обновление данных"
-          body = " ".join(lines[1:])[:400]
-          if len(" ".join(lines[1:])) > 400:
-              body += "…"
+          changed = set(Path('/tmp/changed.txt').read_text(encoding='utf-8').splitlines())
+          custom = Path('docs/telegram-post.txt')
 
-          out = ["<b>ГДЗ НЭЛ — обновление</b>", "", html.escape(subject)]
-          if body:
-              out += ["", html.escape(body)]
-          out += ["", "Сайт: https://gdz-nel.pages.dev/"]
-          print("\n".join(out))
+          # Специальный файл — для ручного текста. Используем его, если он
+          # изменён в этом пуше, иначе собираем пост по затронутым областям.
+          if custom.exists() and 'docs/telegram-post.txt' in changed:
+              text = custom.read_text(encoding='utf-8').strip()
+              print(text)
+              raise SystemExit
+
+          lines = [
+              '<b>Обновление на сайте ГДЗ НЭЛ</b>',
+              '',
+          ]
+
+          points = []
+          if any(p.startswith(('app/data/', 'scripts/parse', 'scripts/sync')) for p in changed):
+              points.append('Добавили новые задания и обновили учебники.')
+          if any(p.startswith(('app/assets/', 'assets/', 'app/index.html', 'admin/')) for p in changed):
+              points.append('Улучшили интерфейс, анимации и мобильную версию.')
+          if any(p.startswith('supabase/') for p in changed):
+              points.append('Обновили отзывы, лайки и безопасность.')
+          if any(p in changed for p in ('sitemap.xml', 'robots.txt', 'index.html')) or any(p.startswith('docs/') for p in changed):
+              points.append('Поправили SEO и описание проекта.')
+          if any(p.startswith('.github/') for p in changed):
+              points.append('Настроили автоматические публикации.')
+
+          if not points:
+              points.append('Обновили сайт и исправили мелкие ошибки.')
+
+          lines.extend('— ' + html.escape(p) for p in points[:5])
+          lines += [
+              '',
+              'Заходи: https://gdz-nel.pages.dev',
+              '',
+              '#ГДЗ_НЭЛ #учёба',
+          ]
+          print('\n'.join(lines))
           PY
 
-          curl -sS --fail -X POST \
+          response=$(curl -sS -X POST \
             "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
             -d chat_id="${TELEGRAM_CHANNEL_ID}" \
             -d parse_mode=HTML \
             -d disable_web_page_preview=false \
-            --data-urlencode "text@/tmp/tg-post.txt"
+            --data-urlencode "text@/tmp/tg-post.txt" \
+            -w '\n%{http_code}' || true)
+          code="${response##*$'\n'}"
+          echo "$response"
+          if [ "$code" != "200" ]; then
+            echo "Telegram вернул HTTP $code — проверь, что бот админ канала и TELEGRAM_CHANNEL_ID верный"
+          fi

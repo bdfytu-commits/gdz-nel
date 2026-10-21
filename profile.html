@@ -174,7 +174,11 @@
           </button>
         </form>
         <p class="form-status" id="comment-status" role="status" aria-live="polite"></p>
-        <div class="comment-list" id="comment-list"><p class="empty">Загружаю комментарии…</p></div>
+        <div class="comment-list" id="comment-list" aria-busy="true">
+          <div class="sk-comments" aria-hidden="true">
+            <div class="sk-comment"></div><div class="sk-comment"></div><div class="sk-comment"></div>
+          </div>
+        </div>
       </section>
 
       <!-- достижения (Ф16) -->
@@ -253,7 +257,7 @@
       <div class="footer-brand">
         <img src="assets/img/logo-160.png" alt="" width="52" height="52">
         <p class="footer-name">ГДЗ НЭЛ</p>
-        <p class="footer-meta">1–11 классы, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
+        <p class="footer-meta">3–11 классы, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
       </div>
       <nav class="footer-col" aria-label="Документы">
         <h3>Документы</h3>
@@ -261,6 +265,8 @@
         <a href="terms.html">Пользовательское соглашение</a>
         <a href="privacy.html">Конфиденциальность</a>
         <a href="disclaimer.html">Дисклеймер</a>
+        <a href="cookie-policy.html">Cookie</a>
+        <a href="accessibility.html">Доступность</a>
       </nav>
     </div>
     <p class="footer-legal">Материалы для личного использования. Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
@@ -546,9 +552,11 @@
 
     function renderComments(rows) {
       if (!rows.length) {
+        commentList.removeAttribute('aria-busy');
         commentList.innerHTML = '<p class="empty">Пока никто не написал. Будь первым.</p>';
         return;
       }
+      commentList.removeAttribute('aria-busy');
       commentList.innerHTML = rows.map(function (r) {
         var name = r.author_name || 'Аноним';
         var letter = String(name).trim().charAt(0).toUpperCase() || 'А';
@@ -567,11 +575,15 @@
             (canDelete ? '<button class="comment-delete" type="button" data-del-comment="' + escapeHtml(r.id) + '">удалить</button>' : '') +
           '</div><p class="comment-body">' + escapeHtml(r.text) + '</p></div></article>';
       }).join('');
+      Array.prototype.forEach.call(commentList.children, function (el, i) {
+        el.style.setProperty('--comment-i', String(Math.min(i, 12)));
+      });
     }
 
     async function loadComments() {
       var list = await supabase.rpc('profile_comments_list', { p_target: targetId });
       if (list.error) {
+        commentList.removeAttribute('aria-busy');
         commentList.innerHTML = '<p class="empty">Комментарии временно недоступны.</p>';
         return;
       }

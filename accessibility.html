@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Доступность — ГДЗ НЭЛ</title>
+  <meta name="description" content="Доступность ГДЗ НЭЛ: клавиатурная навигация, контраст, масштабирование, reduced motion и как сообщить о барьере.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://gdz-nel.pages.dev/accessibility.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ГДЗ НЭЛ">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Доступность — ГДЗ НЭЛ">
+  <meta property="og:description" content="Клавиатурная навигация, контраст, масштабирование и поддержка reduced motion на ГДЗ НЭЛ.">
+  <meta property="og:image" content="https://gdz-nel.pages.dev/assets/img/screens/og-1200x630.png">
+  <meta property="og:url" content="https://gdz-nel.pages.dev/accessibility.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Доступность — ГДЗ НЭЛ">
+  <meta name="twitter:description" content="Клавиатурная навигация, контраст, масштабирование и поддержка reduced motion на ГДЗ НЭЛ.">
+  <meta name="twitter:image" content="https://gdz-nel.pages.dev/assets/img/screens/og-1200x630.png">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#1AA3A3">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- шрифты не блокируют рендер: грузим как print и переключаем на all -->
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet"></noscript>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo-120.png" alt="Эмблема НЭЛ" width="38" height="38">
+      <span class="brand-name">ГДЗ НЭЛ</span>
+    </a>
+    <nav class="site-nav" aria-label="Разделы сайта">
+      <a href="index.html#subjects">Предметы</a>
+      <a href="about.html">О проекте</a>
+      <a href="contact.html">Обратная связь</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="icon i-moon" aria-hidden="true"></span>
+      </button>
+      <a class="btn btn-primary btn-sm" href="app/index.html">
+        <span class="icon i-book" aria-hidden="true"></span>
+        <span>Открыть приложение</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="page-inner">
+      <div class="page-head">
+        <h1>Доступность</h1>
+        <p class="page-sub">Что уже сделано и как сообщить о барьере. Обновлено 21 октября 2026 года.</p>
+      </div>
+
+      <div class="prose">
+        <h2>Клавиатура и экранные читалки</h2>
+        <p>Навигация, формы, вкладки и кнопки доступны с клавиатуры. У интерактивных элементов есть видимый фокус и подписи для экранных читалок.</p>
+
+        <h2>Контраст и масштаб</h2>
+        <p>Светлая и тёмная темы используют контрастные цвета. Интерфейс масштабируется до 200 процентов без потери основных действий; на узких экранах таблицы прокручиваются горизонтально.</p>
+
+        <h2>Анимации</h2>
+        <p>Если в системе включено «уменьшение движения», анимации, параллакс и плавные переходы отключаются. Это же правило действует на мобильных устройствах.</p>
+
+        <h2>Изображения и формулы</h2>
+        <p>У декоративных картинок пустой alt, у смысловых — текстовое описание. Формулы дублируются текстом, чтобы их можно было прочитать без картинки.</p>
+
+        <h2>Сообщить о проблеме</h2>
+        <p>Если что-то не читается, не нажимается или мешает пользоваться сайтом — напиши через <a href="contact.html">обратную связь</a> или на <a href="mailto:bdfy.tu@yandex.ru">bdfy.tu@yandex.ru</a>. Укажи устройство, браузер и страницу.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/img/logo-160.png" alt="" width="52" height="52">
+        <p class="footer-name">ГДЗ НЭЛ</p>
+        <p class="footer-meta">3–11 классы, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
+        <a class="btn btn-primary btn-sm footer-apk" href="download/app.apk" download>
+          <span class="icon i-android" aria-hidden="true"></span>
+          <span>Скачать APK</span>
+        </a>
+      </div>
+      <nav class="footer-col" aria-label="Разделы">
+        <h3>Разделы</h3>
+        <a href="app/index.html">Приложение</a>
+        <a href="index.html#subjects">Предметы</a>
+        <a href="index.html#how">Как это работает</a>
+      </nav>
+      <nav class="footer-col" aria-label="Проект">
+        <h3>Проект</h3>
+        <a href="premium.html">ГДЗ+ подписка</a>
+        <a href="honor.html">Доска почёта</a>
+        <a href="about.html">О проекте</a>
+        <a href="contact.html">Обратная связь</a>
+        <a href="mailto:bdfy.tu@yandex.ru">bdfy.tu@yandex.ru</a>
+        <a href="https://github.com/bdfytu-commits/gdz-nel" rel="noopener">GitHub</a>
+        <a href="https://ecl54.ru/" rel="noopener">Сайт школы</a>
+      </nav>
+      <nav class="footer-col" aria-label="Документы">
+        <h3>Документы</h3>
+        <a href="privacy.html">Конфиденциальность</a>
+        <a href="cookie-policy.html">Cookie</a>
+        <a href="disclaimer.html">Дисклеймер</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>Сделано для учеников и родителей лицея</span>
+      <span id="footer-stats">88 238 заданий · 185 учебников · 15 предметов</span>
+    </div>
+    <p class="footer-legal">Материалы для личного использования. Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
