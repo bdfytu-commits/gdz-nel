@@ -16,7 +16,7 @@
    «Обновить» и шлёт SKIP_WAITING (Ф15.8).
    ========================================================= */
 
-const VERSION = 'gdz-nel-v10';
+const VERSION = 'gdz-nel-v11';
 const STATIC_CACHE = VERSION + '-static';
 const DATA_CACHE = VERSION + '-data';
 const IMAGE_CACHE = VERSION + '-images';
