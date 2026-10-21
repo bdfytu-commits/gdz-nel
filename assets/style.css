@@ -1630,3 +1630,72 @@ h1, h2, h3 {
 
 /* элементы с атрибутом hidden всегда скрыты, даже если у класса задан display */
 [hidden] { display: none !important; }
+
+/* ---------- профиль 2.1: кастомизация и комментарии ---------- */
+.profile-head.is-custom {
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid var(--c-border);
+}
+.avatar-xl.border-gold { box-shadow: 0 0 0 4px #1A1A1A, 0 0 0 7px #E5B80B, 0 10px 24px rgba(229,184,11,.28); }
+.avatar-xl.border-neon { box-shadow: 0 0 0 3px #1A1A1A, 0 0 0 6px #7C5CFF, 0 0 22px 4px rgba(124,92,255,.65); }
+.avatar-xl.border-fire { box-shadow: 0 0 0 3px #1A1A1A, 0 0 0 6px #FF5C2B, 0 0 26px 5px rgba(255,92,43,.55); }
+.avatar-xl.border-minimal { box-shadow: 0 0 0 2px var(--c-text); }
+.premium-lock {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 16px; border: 1px dashed var(--c-border); border-radius: 12px;
+  background: var(--c-surface-2);
+}
+.premium-lock .icon { width: 22px; height: 22px; color: var(--c-link); }
+.premium-lock p { margin: 0; flex: 1 1 220px; color: var(--c-text-muted); }
+.custom-row { margin: 14px 0 18px; }
+.custom-label { display: block; font-size: 13px; font-weight: 700; margin-bottom: 8px; }
+.border-picker { display: flex; flex-wrap: wrap; gap: 8px; }
+.border-choice {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 7px 11px; border: 1px solid var(--c-border); border-radius: 10px;
+  background: var(--c-surface); color: var(--c-text); font: inherit; font-size: 12px; cursor: pointer;
+}
+.border-choice[aria-checked="true"] { border-color: var(--c-primary); box-shadow: 0 0 0 2px rgba(26,163,163,.18); }
+.avatar-sample {
+  width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--grad-btn); color: #fff; font-size: 11px; font-weight: 800;
+}
+.border-choice .border-gold { box-shadow: 0 0 0 2px #E5B80B; }
+.border-choice .border-neon { box-shadow: 0 0 0 2px #7C5CFF, 0 0 9px #7C5CFF; }
+.border-choice .border-fire { box-shadow: 0 0 0 2px #FF5C2B, 0 0 9px rgba(255,92,43,.8); }
+.border-choice .border-minimal { box-shadow: 0 0 0 1px #fff; }
+.color-picker { display: flex; flex-wrap: wrap; gap: 9px; }
+.color-picker button {
+  width: 34px; height: 34px; padding: 3px; border-radius: 50%;
+  border: 1px solid var(--c-border); background: transparent; cursor: pointer;
+}
+.color-picker button[aria-checked="true"] { border-color: var(--c-primary); box-shadow: 0 0 0 2px rgba(26,163,163,.2); }
+.color-dot { display: block; width: 100%; height: 100%; border-radius: 50%; background: var(--grad-btn); }
+.color-dot.color-default { background: var(--c-surface-2); border: 1px dashed var(--c-text-muted); }
+.comment-form { display: grid; gap: 8px; max-width: 620px; }
+.comment-form textarea {
+  width: 100%; resize: vertical; min-height: 74px;
+  padding: 10px 12px; border: 1px solid var(--c-border); border-radius: 10px;
+  background: var(--c-surface); color: var(--c-text); font: inherit;
+}
+.comment-list { display: grid; gap: 10px; margin-top: 16px; }
+.comment-item {
+  display: flex; gap: 12px; padding: 13px 14px;
+  border: 1px solid var(--c-border); border-radius: 12px; background: var(--c-surface);
+}
+.comment-avatar {
+  flex: none; width: 38px; height: 38px; border-radius: 50%;
+  display: grid; place-items: center; overflow: hidden;
+  background: var(--grad-btn); color: #fff; font-weight: 800;
+}
+.comment-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.comment-main { min-width: 0; flex: 1; }
+.comment-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.comment-author { font-weight: 700; font-size: 14px; overflow-wrap: anywhere; }
+.comment-date { color: var(--c-text-muted); font-size: 12px; }
+.comment-body { margin: 4px 0 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.comment-delete {
+  border: 0; background: transparent; color: var(--c-red); font: inherit;
+  font-size: 12px; cursor: pointer; padding: 0; margin-left: auto;
+}

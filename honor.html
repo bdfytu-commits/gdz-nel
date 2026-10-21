@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Доска почёта — ГДЗ НЭЛ</title>
+  <meta name="description" content="Доска почёта ГДЗ НЭЛ: короткие объявления, благодарности и новости проекта. Лайкай лучшие записи.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ГДЗ НЭЛ">
+  <meta property="og:title" content="Доска почёта — ГДЗ НЭЛ">
+  <meta property="og:description" content="Благодарности, объявления и лучшие моменты проекта ГДЗ НЭЛ. Читай и ставь сердечки.">
+  <meta property="og:url" content="https://gdz-nel.pages.dev/honor.html">
+  <meta property="og:image" content="https://gdz-nel.pages.dev/assets/img/screens/landing-1440.png">
+  <meta property="og:locale" content="ru_RU">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Доска почёта — ГДЗ НЭЛ">
+  <meta name="twitter:description" content="Благодарности, объявления и лучшие моменты проекта ГДЗ НЭЛ.">
+  <meta name="twitter:image" content="https://gdz-nel.pages.dev/assets/img/screens/landing-1440.png">
+  <link rel="canonical" href="https://gdz-nel.pages.dev/honor.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#0B0B0F">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .honor-page {
+      --hb-bg: #0B0B0F;
+      --hb-card: #15151C;
+      --hb-card-2: #1D1D27;
+      --hb-text: #F3F3F7;
+      --hb-muted: #A5A5B4;
+      --hb-line: rgba(255,255,255,.09);
+      --hb-pink: #FF3B6B;
+      background: var(--hb-bg);
+      color: var(--hb-text);
+      min-height: 100vh;
+    }
+    .honor-page .site-header {
+      position: sticky;
+      background: rgba(11,11,15,.88);
+      border-bottom: 1px solid var(--hb-line);
+      backdrop-filter: blur(14px);
+    }
+    .honor-page .brand-name,
+    .honor-page .site-nav a { color: var(--hb-text); }
+    .honor-main { max-width: 720px; margin: 0 auto; padding: 28px 18px 80px; }
+    .honor-hero { padding: 18px 2px 24px; }
+    .honor-kicker {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
+      color: #FF7C9A; font-weight: 700;
+    }
+    .honor-kicker::before { content: ""; width: 24px; height: 2px; background: var(--hb-pink); }
+    .honor-hero h1 { margin: 12px 0 8px; font-size: clamp(30px, 6vw, 46px); color: #fff; }
+    .honor-hero p { margin: 0; color: var(--hb-muted); max-width: 560px; }
+    .honor-feed {
+      display: grid; gap: 18px;
+      max-height: calc(100vh - 230px);
+      overflow-y: auto;
+      scroll-snap-type: y proximity;
+      padding: 4px 4px 40px;
+      scrollbar-width: thin;
+      scrollbar-color: #3A3A48 transparent;
+    }
+    .honor-card {
+      scroll-snap-align: start;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(145deg, var(--hb-card-2), var(--hb-card));
+      border: 1px solid var(--hb-line);
+      border-radius: 22px;
+      padding: 24px 22px 18px;
+      min-height: 230px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 18px 44px rgba(0,0,0,.35);
+      animation: honor-in .45s var(--ease) both;
+    }
+    .honor-card::after {
+      content: ""; position: absolute; inset: -60% -20% auto auto;
+      width: 220px; height: 220px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,59,107,.19), transparent 68%);
+      pointer-events: none;
+    }
+    @keyframes honor-in { from { opacity: 0; transform: translateY(14px); } }
+    .honor-card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+    .honor-avatar {
+      width: 38px; height: 38px; border-radius: 50%;
+      display: grid; place-items: center;
+      background: linear-gradient(135deg, #FF3B6B, #8E44AD);
+      color: #fff; font-weight: 800; font-size: 15px;
+    }
+    .honor-author { font-weight: 700; font-size: 14px; }
+    .honor-time { color: var(--hb-muted); font-size: 12px; margin-top: 1px; }
+    .honor-text { font-size: clamp(18px, 2.4vw, 23px); line-height: 1.45; margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .honor-actions { display: flex; align-items: center; gap: 10px; margin-top: 22px; }
+    .honor-like {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid var(--hb-line);
+      color: var(--hb-text);
+      border-radius: 999px;
+      padding: 10px 16px;
+      font: inherit; font-weight: 700; font-size: 14px;
+      cursor: pointer;
+      transition: transform .18s var(--ease), background .18s var(--ease), border-color .18s var(--ease);
+    }
+    .honor-like:hover { transform: translateY(-1px); background: rgba(255,59,107,.12); border-color: rgba(255,59,107,.4); }
+    .honor-like svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 2; transition: fill .18s; }
+    .honor-like.is-liked { color: #FF5C83; border-color: rgba(255,92,131,.55); background: rgba(255,59,107,.14); }
+    .honor-like.is-liked svg { fill: currentColor; }
+    .honor-like:disabled { opacity: .55; cursor: wait; }
+    .honor-empty { border: 1px dashed var(--hb-line); border-radius: 20px; padding: 38px 24px; color: var(--hb-muted); text-align: center; }
+    .honor-note { margin-top: 14px; font-size: 12px; color: #74748A; text-align: center; }
+    .honor-login { color: #FF8FA8; text-decoration: underline; text-underline-offset: 3px; }
+    @media (max-width: 640px) {
+      .honor-main { padding: 18px 12px 60px; }
+      .honor-feed { max-height: none; overflow: visible; }
+      .honor-card { border-radius: 18px; min-height: 200px; }
+    }
+  </style>
+</head>
+<body class="honor-page">
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo-120.png" alt="Эмблема НЭЛ" width="38" height="38">
+      <span class="brand-name">ГДЗ НЭЛ</span>
+    </a>
+    <nav class="site-nav" aria-label="Разделы сайта">
+      <a href="index.html#subjects">Предметы</a>
+      <a href="honor.html" aria-current="page">Доска почёта</a>
+      <a href="about.html">О проекте</a>
+    </nav>
+    <div class="header-actions">
+      <span class="auth-slot" data-auth-slot>
+        <a class="btn btn-outline btn-sm auth-btn" href="auth.html">
+          <span class="icon i-user" aria-hidden="true"></span>
+          <span class="btn-label">Войти</span>
+        </a>
+      </span>
+      <a class="btn btn-primary btn-sm" href="app/index.html">
+        <span class="icon i-book" aria-hidden="true"></span>
+        <span class="btn-label">Открыть приложение</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="honor-main">
+    <section class="honor-hero">
+      <span class="honor-kicker">Доска почёта</span>
+      <h1>Что говорят о нас</h1>
+      <p>Благодарности, объявления и лучшие моменты проекта. Писать может только администратор, а лайкать — каждый.</p>
+    </section>
+
+    <div class="honor-feed" id="honor-feed" aria-live="polite">
+      <p class="honor-empty">Загружаю ленту…</p>
+    </div>
+    <p class="honor-note" id="honor-note">Лайки сохраняются в аккаунте. Без входа можно только читать.</p>
+  </main>
+
+  <script type="module">
+    import { supabase, getSession, escapeHtml, initHeaderAuth } from './assets/supabase.js';
+    initHeaderAuth({ authHref: 'auth.html', profileHref: 'profile.html' });
+
+    var feed = document.getElementById('honor-feed');
+    var note = document.getElementById('honor-note');
+    var session = await getSession();
+    var liked = new Set();
+    var posts = [];
+    var useTable = true;
+
+    function relTime(iso) {
+      var t = new Date(iso).getTime();
+      if (!Number.isFinite(t)) return '';
+      var s = Math.max(1, Math.floor((Date.now() - t) / 1000));
+      if (s < 60) return 'только что';
+      if (s < 3600) {
+        var m = Math.floor(s / 60);
+        return m + ' ' + (m === 1 ? 'минуту' : m < 5 ? 'минуты' : 'минут') + ' назад';
+      }
+      if (s < 86400) {
+        var h = Math.floor(s / 3600);
+        return h + ' ' + (h === 1 ? 'час' : h < 5 ? 'часа' : 'часов') + ' назад';
+      }
+      var d = Math.floor(s / 86400);
+      if (d < 7) return d + ' ' + (d === 1 ? 'день' : d < 5 ? 'дня' : 'дней') + ' назад';
+      return new Date(iso).toLocaleDateString('ru-RU', { day: 'numeric', month: 'long' });
+    }
+
+    function cardHtml(post) {
+      var isLiked = liked.has(String(post.id));
+      return '<article class="honor-card" data-id="' + post.id + '">' +
+        '<div>' +
+          '<div class="honor-card-top">' +
+            '<span class="honor-avatar" aria-hidden="true">А</span>' +
+            '<div><div class="honor-author">Аноним</div>' +
+            '<div class="honor-time">' + escapeHtml(relTime(post.created_at)) + '</div></div>' +
+          '</div>' +
+          '<p class="honor-text">' + escapeHtml(post.text) + '</p>' +
+        '</div>' +
+        '<div class="honor-actions">' +
+          '<button class="honor-like' + (isLiked ? ' is-liked' : '') + '" type="button" data-like="' + post.id + '"' +
+            ' aria-pressed="' + String(isLiked) + '" aria-label="Поставить лайк">' +
+            '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8Z"/></svg>' +
+            '<span data-count>' + Number(post.likes || 0) + '</span>' +
+          '</button>' +
+        '</div>' +
+      '</article>';
+    }
+
+    function render() {
+      if (!posts.length) {
+        feed.innerHTML = '<div class="honor-empty">Пока пусто. Администратор скоро что-нибудь напишет.</div>';
+        return;
+      }
+      feed.innerHTML = posts.map(cardHtml).join('');
+    }
+
+    async function loadLikes() {
+      if (!session) return;
+      var res = await supabase.from('honor_likes').select('post_id');
+      if (!res.error) (res.data || []).forEach(function (x) { liked.add(String(x.post_id)); });
+    }
+
+    async function loadFallback() {
+      useTable = false;
+      var res = await supabase.from('reviews')
+        .select('id, text, created_at')
+        .eq('task_id', 'honor-board')
+        .eq('is_approved', true)
+        .order('created_at', { ascending: false })
+        .limit(60);
+      if (res.error) {
+        feed.innerHTML = '<div class="honor-empty">Не удалось загрузить ленту. Обнови страницу.</div>';
+        return;
+      }
+      posts = (res.data || []).map(function (r) { return { id: r.id, text: r.text, likes: 0, created_at: r.created_at }; });
+      var counts = {};
+      var firstAction = {};
+      var lk = await supabase.from('reviews')
+        .select('task_id, user_id, text, created_at')
+        .like('task_id', 'honor-like.%')
+        .eq('is_approved', true)
+        .order('created_at', { ascending: false })
+        .limit(2000);
+      (lk.data || []).forEach(function (row) {
+        var pid = String(row.task_id).replace('honor-like:', '');
+        var delta = row.text === 'unlike' ? -1 : 1;
+        counts[pid] = (counts[pid] || 0) + delta;
+        var key = pid + ':' + row.user_id;
+        if (!(key in firstAction)) firstAction[key] = row.text;
+      });
+      posts.forEach(function (p) {
+        p.likes = Math.max(0, counts[String(p.id)] || 0);
+        if (session && firstAction[String(p.id) + ':' + session.user.id] === 'like') liked.add(String(p.id));
+      });
+      render();
+    }
+
+    async function load() {
+      var res = await supabase.from('honor_board')
+        .select('id, text, likes, created_at')
+        .order('created_at', { ascending: false })
+        .limit(60);
+      if (res.error) { await loadFallback(); return; }
+      posts = res.data || [];
+      await loadLikes();
+      render();
+      if (!session && posts.length) {
+        note.innerHTML = 'Лайки сохраняются в аккаунте. <a class="honor-login" href="auth.html?next=honor.html">Войди</a>, чтобы ставить сердечки.';
+      }
+    }
+
+    feed.addEventListener('click', async function (event) {
+      var btn = event.target.closest('[data-like]');
+      if (!btn) return;
+      if (!session) {
+        location.href = 'auth.html?next=' + encodeURIComponent('honor.html');
+        return;
+      }
+      var id = btn.getAttribute('data-like');
+      btn.disabled = true;
+      var row;
+      if (!useTable) {
+        var wasLiked = liked.has(id);
+        var ins = await supabase.from('reviews').insert({
+          task_id: 'honor-like:' + id,
+          user_id: session.user.id,
+          rating: 1,
+          text: wasLiked ? 'unlike' : 'like',
+          is_approved: true,
+          ai_status: 'approved'
+        });
+        btn.disabled = false;
+        if (ins.error) {
+          note.textContent = 'Не получилось поставить лайк. Попробуй ещё раз.';
+          return;
+        }
+        var post = posts.find(function (p) { return String(p.id) === id; });
+        if (post) post.likes = Math.max(0, Number(post.likes || 0) + (wasLiked ? -1 : 1));
+        if (wasLiked) liked.delete(id); else liked.add(id);
+        btn.classList.toggle('is-liked', !wasLiked);
+        btn.setAttribute('aria-pressed', String(!wasLiked));
+        var cnt = btn.querySelector('[data-count]');
+        if (cnt && post) cnt.textContent = String(post.likes);
+        note.textContent = 'Лайки сохраняются в аккаунте.';
+        return;
+      }
+      var res = await supabase.rpc('honor_like', { p_id: Number(id) });
+      btn.disabled = false;
+      if (res.error) {
+        note.textContent = 'Не получилось поставить лайк. Попробуй ещё раз.';
+        return;
+      }
+      row = Array.isArray(res.data) ? res.data[0] : res.data;
+      if (!row) return;
+      var post = posts.find(function (p) { return String(p.id) === id; });
+      if (post) post.likes = row.likes;
+      if (row.liked) liked.add(id); else liked.delete(id);
+      btn.classList.toggle('is-liked', !!row.liked);
+      btn.setAttribute('aria-pressed', String(!!row.liked));
+      var count = btn.querySelector('[data-count]');
+      if (count) count.textContent = String(row.likes);
+      note.textContent = 'Лайки сохраняются в аккаунте.';
+    });
+
+    load();
+  </script>
+</body>
+</html>

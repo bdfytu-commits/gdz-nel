@@ -13,6 +13,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://gdz-nel.pages.dev/honor.html</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gdz-nel.pages.dev/about.html</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>

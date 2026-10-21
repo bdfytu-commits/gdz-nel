@@ -711,3 +711,24 @@
 .dot--reviews { background: #1AA3A3; }
 .dot--photos { background: #E5A13A; }
 .dot--events { background: #8B5CF6; }
+
+/* доска почёта и комментарии */
+.admin-card {
+  padding: 18px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-l);
+  background: var(--c-surface);
+}
+.admin-card-title { margin: 0 0 6px; font-size: 17px; }
+.admin-textarea {
+  width: 100%;
+  min-height: 96px;
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--c-border);
+  border-radius: 10px;
+  background: var(--c-bg);
+  color: var(--c-text);
+  font: inherit;
+  resize: vertical;
+}

@@ -115,6 +115,68 @@
         <p class="form-status" id="profile-status" role="status" aria-live="polite"></p>
       </form>
 
+      <!-- кастомизация профиля (ГДЗ+) -->
+      <section class="panel-section" id="custom-section" hidden>
+        <h2 class="section-title"><span class="icon i-sparkles" aria-hidden="true"></span>Оформление профиля</h2>
+        <p class="panel-sub">Рамка аватара, цвет ника и фон — возможность ГДЗ+.</p>
+        <div class="premium-lock" id="custom-lock" hidden>
+          <span class="icon i-shield" aria-hidden="true"></span>
+          <p>Купи ГДЗ+, чтобы кастомизировать профиль.</p>
+          <a class="btn btn-primary btn-sm" href="premium.html">Оформить ГДЗ+</a>
+        </div>
+        <div id="custom-controls" hidden>
+          <div class="custom-row">
+            <span class="custom-label">Рамка аватара</span>
+            <div class="border-picker" id="border-picker" role="radiogroup" aria-label="Рамка аватара">
+              <button class="border-choice" type="button" role="radio" data-border="none" aria-checked="false"><span class="avatar-sample border-none">А</span>Без рамки</button>
+              <button class="border-choice" type="button" role="radio" data-border="gold" aria-checked="false"><span class="avatar-sample border-gold">А</span>Золотая</button>
+              <button class="border-choice" type="button" role="radio" data-border="neon" aria-checked="false"><span class="avatar-sample border-neon">А</span>Неоновая</button>
+              <button class="border-choice" type="button" role="radio" data-border="fire" aria-checked="false"><span class="avatar-sample border-fire">А</span>Огненная</button>
+              <button class="border-choice" type="button" role="radio" data-border="minimal" aria-checked="false"><span class="avatar-sample border-minimal">А</span>Минимализм</button>
+            </div>
+          </div>
+          <div class="custom-row">
+            <span class="custom-label">Цвет ника</span>
+            <div class="color-picker" id="nick-picker" role="radiogroup" aria-label="Цвет ника">
+              <button type="button" role="radio" data-color="" aria-checked="false" title="По умолчанию"><span class="color-dot color-default"></span></button>
+              <button type="button" role="radio" data-color="#E5B80B" aria-checked="false" title="Золотой"><span class="color-dot" style="background:#E5B80B"></span></button>
+              <button type="button" role="radio" data-color="#FF3B6B" aria-checked="false" title="Розовый"><span class="color-dot" style="background:#FF3B6B"></span></button>
+              <button type="button" role="radio" data-color="#1AA3A3" aria-checked="false" title="Бирюзовый"><span class="color-dot" style="background:#1AA3A3"></span></button>
+              <button type="button" role="radio" data-color="#7C5CFF" aria-checked="false" title="Фиолетовый"><span class="color-dot" style="background:#7C5CFF"></span></button>
+              <button type="button" role="radio" data-color="#2E7D32" aria-checked="false" title="Зелёный"><span class="color-dot" style="background:#2E7D32"></span></button>
+            </div>
+          </div>
+          <div class="custom-row">
+            <span class="custom-label">Фон профиля</span>
+            <div class="color-picker" id="bg-picker" role="radiogroup" aria-label="Фон профиля">
+              <button type="button" role="radio" data-color="" aria-checked="false" title="По умолчанию"><span class="color-dot color-default"></span></button>
+              <button type="button" role="radio" data-color="#102A2A" aria-checked="false" title="Тёмный изумруд"><span class="color-dot" style="background:#102A2A"></span></button>
+              <button type="button" role="radio" data-color="#22152E" aria-checked="false" title="Тёмный фиолет"><span class="color-dot" style="background:#22152E"></span></button>
+              <button type="button" role="radio" data-color="#2B1616" aria-checked="false" title="Тёмный бордо"><span class="color-dot" style="background:#2B1616"></span></button>
+              <button type="button" role="radio" data-color="#12243A" aria-checked="false" title="Тёмный синий"><span class="color-dot" style="background:#12243A"></span></button>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="button" id="custom-save">
+            <span class="icon i-check" aria-hidden="true"></span><span>Сохранить оформление</span>
+          </button>
+          <p class="form-status" id="custom-status" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <!-- комментарии к профилю -->
+      <section class="panel-section" id="comments-section" hidden>
+        <h2 class="section-title"><span class="icon i-message" aria-hidden="true"></span>Комментарии к профилю</h2>
+        <form class="comment-form" id="comment-form">
+          <label class="visually-hidden" for="comment-text">Комментарий</label>
+          <textarea id="comment-text" maxlength="800" rows="3" placeholder="Напиши что-нибудь по-доброму" required></textarea>
+          <button class="btn btn-primary btn-sm" type="submit" id="comment-send">
+            <span class="icon i-send" aria-hidden="true"></span><span>Отправить</span>
+          </button>
+        </form>
+        <p class="form-status" id="comment-status" role="status" aria-live="polite"></p>
+        <div class="comment-list" id="comment-list"><p class="empty">Загружаю комментарии…</p></div>
+      </section>
+
       <!-- достижения (Ф16) -->
       <section class="panel-section" id="achievements-section" hidden>
         <h2 class="section-title"><span class="icon i-award" aria-hidden="true"></span>Достижения</h2>
@@ -191,10 +253,11 @@
       <div class="footer-brand">
         <img src="assets/img/logo-160.png" alt="" width="52" height="52">
         <p class="footer-name">ГДЗ НЭЛ</p>
-        <p class="footer-meta">6–9 классы, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
+        <p class="footer-meta">3–11 классы, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
       </div>
       <nav class="footer-col" aria-label="Документы">
         <h3>Документы</h3>
+        <a href="honor.html">Доска почёта</a>
         <a href="terms.html">Пользовательское соглашение</a>
         <a href="privacy.html">Конфиденциальность</a>
         <a href="disclaimer.html">Дисклеймер</a>
@@ -215,6 +278,8 @@
     if (!session) throw new Error('redirect');
 
     var profile = null;
+    var targetId = new URLSearchParams(location.search).get('user') || session.user.id;
+    var isOwn = targetId === session.user.id;
 
     var avatarEl = document.getElementById('profile-avatar');
     var nameEl = document.getElementById('profile-name');
@@ -258,10 +323,25 @@
     }
 
     function render(data) {
-      var name = data.username || session.user.email.split('@')[0];
+      var name = data.username || (isOwn ? session.user.email.split('@')[0] : 'Аноним');
       renderAvatar(data);
       nameEl.textContent = name;
-      emailEl.textContent = session.user.email;
+      emailEl.textContent = isOwn ? session.user.email : 'Профиль ученика';
+      nameEl.style.color = data.nick_color || '';
+      var head = document.getElementById('profile-head');
+      head.classList.toggle('is-custom', !!data.bg_color);
+      head.style.background = data.bg_color || '';
+      avatarEl.className = 'avatar-xl' + (data.border_type && data.border_type !== 'none' ? ' border-' + data.border_type : '');
+      if (!isOwn) {
+        document.getElementById('avatar-btn').hidden = true;
+        document.getElementById('custom-section').hidden = true;
+        document.getElementById('achievements-section').hidden = true;
+        document.getElementById('premium-section').hidden = true;
+        document.getElementById('history-section').hidden = true;
+        document.getElementById('delete-account').closest('.danger-zone').hidden = true;
+        document.querySelectorAll('#profile-form, #password-form').forEach(function (el) { el.hidden = true; });
+        document.querySelector('.profile-actions').hidden = true;
+      }
 
       var isPremium = !!(data.is_premium && data.premium_until &&
         new Date(data.premium_until) > new Date());
@@ -293,19 +373,45 @@
           'Если это ошибка — напиши на <a href="mailto:bdfy.tu@yandex.ru">bdfy.tu@yandex.ru</a>.';
       }
 
-      document.getElementById('pf-username').value = data.username || '';
-      document.getElementById('pf-age').value = data.age == null ? '' : data.age;
-      document.getElementById('pf-gender').value = data.gender || '';
-      document.getElementById('pf-subject').value = data.favorite_subject || '';
-      form.hidden = false;
+      if (isOwn) {
+        document.getElementById('pf-username').value = data.username || '';
+        document.getElementById('pf-age').value = data.age == null ? '' : data.age;
+        document.getElementById('pf-gender').value = data.gender || '';
+        document.getElementById('pf-subject').value = data.favorite_subject || '';
+        form.hidden = false;
+        document.getElementById('custom-section').hidden = false;
+        document.getElementById('custom-lock').hidden = isPremium;
+        document.getElementById('custom-controls').hidden = !isPremium;
+        if (isPremium) initCustomization(data);
+      }
       document.title = name + ' — профиль — ГДЗ НЭЛ';
     }
 
     // профиль должен существовать (создаётся триггером при регистрации);
     // на всякий случай переживаем его отсутствие
-    var res = await supabase.from('profiles').select('*').eq('id', session.user.id).single();
+    var res;
+    if (isOwn) {
+      res = await supabase.from('profiles').select('*').eq('id', session.user.id).single();
+      if (!res.error && res.data) {
+        var meta = session.user.user_metadata || {};
+        if (!res.data.border_type) res.data.border_type = meta.border_type || 'none';
+        if (!res.data.nick_color) res.data.nick_color = meta.nick_color || '';
+        if (!res.data.bg_color) res.data.bg_color = meta.bg_color || '';
+      }
+    } else {
+      res = await supabase.rpc('profile_public', { p_id: targetId });
+      if (!res.error && Array.isArray(res.data)) res.data = res.data[0] || null;
+      if (res.error) {
+        var alt = await supabase.from('reviews')
+          .select('username')
+          .eq('user_id', targetId)
+          .eq('is_approved', true)
+          .limit(1);
+        res = { data: { username: (alt.data && alt.data[0] && alt.data[0].username) || 'Аноним', border_type: 'none', nick_color: '', bg_color: '' } };
+      }
+    }
     if (res.error || !res.data) {
-      emailEl.textContent = session.user.email;
+      emailEl.textContent = isOwn ? session.user.email : '';
       noteEl.hidden = false;
       noteEl.textContent = 'Не получилось загрузить профиль. Обнови страницу или напиши на bdfy.tu@yandex.ru.';
       throw new Error('no profile');
@@ -353,6 +459,229 @@
       profile = upd.data;
       renderAvatar(profile);
       setAvatarStatus('Аватар обновлён.');
+    });
+
+
+    /* ---------- кастомизация профиля (ГДЗ+) ---------- */
+
+    var customReady = false;
+    var selectedBorder = 'none';
+    var selectedNick = '';
+    var selectedBg = '';
+
+    function markChoice(container, attr, value) {
+      container.querySelectorAll('[data-' + attr + ']').forEach(function (el) {
+        el.setAttribute('aria-checked', String((el.getAttribute('data-' + attr) || '') === String(value)));
+      });
+    }
+
+    function previewCustomization() {
+      avatarEl.className = 'avatar-xl' + (selectedBorder && selectedBorder !== 'none' ? ' border-' + selectedBorder : '');
+      nameEl.style.color = selectedNick || '';
+      var head = document.getElementById('profile-head');
+      head.classList.toggle('is-custom', !!selectedBg);
+      head.style.background = selectedBg || '';
+    }
+
+    function initCustomization(data) {
+      if (customReady) return;
+      customReady = true;
+      selectedBorder = data.border_type || 'none';
+      selectedNick = data.nick_color || '';
+      selectedBg = data.bg_color || '';
+
+      var borderPicker = document.getElementById('border-picker');
+      var nickPicker = document.getElementById('nick-picker');
+      var bgPicker = document.getElementById('bg-picker');
+      markChoice(borderPicker, 'border', selectedBorder);
+      markChoice(nickPicker, 'color', selectedNick);
+      markChoice(bgPicker, 'color', selectedBg);
+
+      borderPicker.addEventListener('click', function (event) {
+        var btn = event.target.closest('[data-border]');
+        if (!btn) return;
+        selectedBorder = btn.getAttribute('data-border');
+        markChoice(borderPicker, 'border', selectedBorder);
+        previewCustomization();
+      });
+      nickPicker.addEventListener('click', function (event) {
+        var btn = event.target.closest('[data-color]');
+        if (!btn) return;
+        selectedNick = btn.getAttribute('data-color') || '';
+        markChoice(nickPicker, 'color', selectedNick);
+        previewCustomization();
+      });
+      bgPicker.addEventListener('click', function (event) {
+        var btn = event.target.closest('[data-color]');
+        if (!btn) return;
+        selectedBg = btn.getAttribute('data-color') || '';
+        markChoice(bgPicker, 'color', selectedBg);
+        previewCustomization();
+      });
+
+      document.getElementById('custom-save').addEventListener('click', async function () {
+        var btn = this;
+        var status = document.getElementById('custom-status');
+        btn.disabled = true;
+        status.className = 'form-status';
+        status.textContent = 'Сохраняю…';
+        var upd = await supabase.from('profiles')
+          .update({ border_type: selectedBorder, nick_color: selectedNick, bg_color: selectedBg })
+          .eq('id', session.user.id)
+          .select('*')
+          .single();
+        var missingColumns = upd.error && (upd.error.code === 'PGRST204' || /column|schema cache/i.test(upd.error.message || ''));
+        if (missingColumns) {
+          var metaUpd = await supabase.auth.updateUser({ data: {
+            border_type: selectedBorder, nick_color: selectedNick, bg_color: selectedBg
+          } });
+          if (metaUpd.error) {
+            btn.disabled = false;
+            status.className = 'form-status is-err';
+            status.textContent = 'Не получилось сохранить: ' + metaUpd.error.message;
+            return;
+          }
+          profile = profile || {};
+          profile.border_type = selectedBorder;
+          profile.nick_color = selectedNick;
+          profile.bg_color = selectedBg;
+        } else if (upd.error) {
+          btn.disabled = false;
+          status.className = 'form-status is-err';
+          status.textContent = 'Не получилось сохранить: ' + upd.error.message;
+          return;
+        } else {
+          profile = upd.data;
+        }
+        btn.disabled = false;
+        render(profile);
+        status.className = 'form-status is-ok';
+        status.textContent = 'Оформление сохранено.';
+      });
+    }
+
+    /* ---------- комментарии к профилю ---------- */
+
+    var commentsSection = document.getElementById('comments-section');
+    var commentList = document.getElementById('comment-list');
+    var commentForm = document.getElementById('comment-form');
+    var commentStatus = document.getElementById('comment-status');
+    var commentsFallback = false;
+
+    function commentDate(ts) {
+      try {
+        return new Date(ts).toLocaleString('ru-RU', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+      } catch (err) { return ''; }
+    }
+
+    function renderComments(rows) {
+      if (!rows.length) {
+        commentList.innerHTML = '<p class="empty">Пока никто не написал. Будь первым.</p>';
+        return;
+      }
+      commentList.innerHTML = rows.map(function (r) {
+        var name = r.author_name || 'Аноним';
+        var letter = String(name).trim().charAt(0).toUpperCase() || 'А';
+        var avatar = r.author_avatar
+          ? '<img src="' + escapeHtml(r.author_avatar) + '" alt="">'
+          : escapeHtml(letter);
+        var link = r.author_id && r.author_id !== targetId
+          ? '<a class="comment-author" href="profile.html?user=' + encodeURIComponent(r.author_id) + '">' + escapeHtml(name) + '</a>'
+          : '<span class="comment-author">' + escapeHtml(name) + '</span>';
+        var canDelete = !commentsFallback && r.author_id === session.user.id;
+        return '<article class="comment-item" data-comment="' + escapeHtml(r.id) + '">' +
+          '<span class="comment-avatar">' + avatar + '</span>' +
+          '<div class="comment-main"><div class="comment-head">' + link +
+            (r.author_premium ? '<span class="badge pro-badge pro-badge--sm">PRO</span>' : '') +
+            '<span class="comment-date">' + escapeHtml(commentDate(r.created_at)) + '</span>' +
+            (canDelete ? '<button class="comment-delete" type="button" data-del-comment="' + escapeHtml(r.id) + '">удалить</button>' : '') +
+          '</div><p class="comment-body">' + escapeHtml(r.text) + '</p></div></article>';
+      }).join('');
+    }
+
+    async function loadComments() {
+      var list = await supabase.rpc('profile_comments_list', { p_target: targetId });
+      if (list.error) {
+        commentsFallback = true;
+        list = await supabase.from('reviews')
+          .select('id, user_id, username, text, created_at')
+          .eq('task_id', 'profile-comment:' + targetId)
+          .eq('is_approved', true)
+          .order('created_at', { ascending: false })
+          .limit(100);
+        (list.data || []).forEach(function (r) {
+          r.author_id = r.user_id;
+          r.author_name = r.username || 'Аноним';
+          r.author_avatar = null;
+          r.author_premium = false;
+        });
+      }
+      if (list.error) {
+        commentList.innerHTML = '<p class="empty">Комментарии временно недоступны.</p>';
+        return;
+      }
+      renderComments(list.data || []);
+    }
+
+    commentsSection.hidden = false;
+    loadComments();
+
+    commentForm.addEventListener('submit', async function (event) {
+      event.preventDefault();
+      var textEl = document.getElementById('comment-text');
+      var text = textEl.value.trim();
+      if (text.length < 2) {
+        commentStatus.className = 'form-status is-err';
+        commentStatus.textContent = 'Напиши хотя бы пару символов.';
+        return;
+      }
+      var btn = document.getElementById('comment-send');
+      btn.disabled = true;
+      commentStatus.className = 'form-status';
+      commentStatus.textContent = 'Отправляю…';
+      var ins = await supabase.from('profile_comments').insert({
+        target_profile_id: targetId,
+        author_id: session.user.id,
+        text: text
+      });
+      if (ins.error) {
+        ins = await supabase.from('reviews').insert({
+          task_id: 'profile-comment:' + targetId,
+          user_id: session.user.id,
+          rating: 5,
+          text: text,
+          is_approved: true,
+          ai_status: 'approved'
+        });
+      }
+      btn.disabled = false;
+      if (ins.error) {
+        commentStatus.className = 'form-status is-err';
+        commentStatus.textContent = ins.error.message.indexOf('row-level security') !== -1
+          ? 'Не получилось: аккаунт заблокирован.'
+          : 'Не получилось отправить комментарий.';
+        return;
+      }
+      textEl.value = '';
+      commentStatus.className = 'form-status is-ok';
+      commentStatus.textContent = 'Комментарий добавлен.';
+      loadComments();
+      setTimeout(loadComments, 700);
+    });
+
+    commentList.addEventListener('click', async function (event) {
+      var btn = event.target.closest('[data-del-comment]');
+      if (!btn) return;
+      var id = btn.getAttribute('data-del-comment');
+      btn.disabled = true;
+      var del = await supabase.from('profile_comments').delete().eq('id', id);
+      if (del.error) {
+        commentStatus.className = 'form-status is-err';
+        commentStatus.textContent = 'Не получилось удалить комментарий.';
+        btn.disabled = false;
+        return;
+      }
+      loadComments();
     });
 
     /* ---------- достижения (Ф16) ---------- */

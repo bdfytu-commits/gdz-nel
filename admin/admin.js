@@ -23,7 +23,9 @@ var state = {
   reviews: { rows: [], page: 0, count: 0, filter: 'all', search: '', selected: {} },
   ai: { rows: [], page: 0, count: 0 },
   photos: { rows: [], page: 0, count: 0 },
-  achievements: { rows: [], page: 0, count: 0 }
+  achievements: { rows: [], page: 0, count: 0 },
+  honor: { rows: [] },
+  comments: { rows: [] }
 };
 
 function $(id) { return document.getElementById(id); }
@@ -657,6 +659,164 @@ async function exportReviewsCsv() {
   logAction('export_reviews', sc.filter, { rows: res.rows.length });
 }
 
+/* ---------- доска почёта и комментарии профилей ---------- */
+
+async function loadHonor() {
+  var content = $('admin-content');
+  content.innerHTML = skeleton(5);
+  var res = await supabase.from('honor_board')
+    .select('id, text, likes, created_at')
+    .order('created_at', { ascending: false })
+    .limit(100);
+  state.honor.fallback = false;
+  if (res.error) {
+    state.honor.fallback = true;
+    res = await supabase.from('reviews')
+      .select('id, text, created_at')
+      .eq('task_id', 'honor-board')
+      .eq('is_approved', true)
+      .order('created_at', { ascending: false })
+      .limit(100);
+    (res.data || []).forEach(function (r) { r.likes = 0; });
+  }
+  if (res.error) {
+    content.innerHTML = '<p class="empty-note">Не получилось загрузить доску: ' + esc(res.error.message) + '</p>';
+    return;
+  }
+  state.honor.rows = res.data || [];
+  var html = '<section class="admin-card">' +
+    '<h2 class="admin-card-title">Новая запись</h2>' +
+    '<p class="admin-muted">Пишешь от имени «Аноним». Пользователи только читают и лайкают.</p>' +
+    '<textarea id="honor-new-text" class="admin-textarea" maxlength="1200" rows="4" ' +
+    'placeholder="Благодарность, объявление или новость проекта"></textarea>' +
+    '<div class="toolbar" style="margin-top:10px">' +
+    '<button class="btn btn-primary btn-sm" type="button" data-act="honor-create">' +
+    '<span class="icon i-send" aria-hidden="true"></span><span>Опубликовать</span></button>' +
+    '<a class="btn btn-outline btn-sm" href="../honor.html" target="_blank" rel="noopener">' +
+    '<span class="icon i-external" aria-hidden="true"></span><span>Открыть ленту</span></a></div>' +
+    '</section>' +
+    '<div class="table-wrap" style="margin-top:18px"><table class="admin-table"><thead><tr>' +
+    '<th>Текст</th><th>Лайки</th><th>Дата</th><th>Действия</th></tr></thead><tbody>';
+  if (!state.honor.rows.length) {
+    html += '<tr><td colspan="4"><p class="empty-note">Пока ни одной записи.</p></td></tr>';
+  }
+  state.honor.rows.forEach(function (r) {
+    html += '<tr><td><div class="cell-text">' + esc(r.text) + '</div></td>' +
+      '<td>' + Number(r.likes || 0) + '</td><td>' + fmtDate(r.created_at) + '</td>' +
+      '<td class="row-actions"><button class="btn btn-danger btn-sm" type="button" ' +
+      'data-act="honor-delete" data-id="' + r.id + '">' +
+      '<span class="icon i-trash" aria-hidden="true"></span><span>Удалить</span></button></td></tr>';
+  });
+  html += '</tbody></table></div>';
+  content.innerHTML = html;
+}
+
+async function createHonorPost() {
+  var el = $('honor-new-text');
+  var text = el ? el.value.trim() : '';
+  if (text.length < 3) { toast('Напиши хотя бы пару слов', true); return; }
+  var res = await supabase.from('honor_board').insert({ text: text });
+  if (res.error) {
+    res = await supabase.from('reviews').insert({
+      task_id: 'honor-board', user_id: state.me.id, rating: 5, text: text,
+      is_approved: true, ai_status: 'approved'
+    });
+  }
+  if (res.error) { toast('Не получилось: ' + res.error.message, true); return; }
+  logAction('honor_create');
+  toast('Запись опубликована');
+  loadHonor();
+}
+
+async function deleteHonorPost(id) {
+  var ok = await openModal({
+    title: 'Удалить запись?',
+    body: '<p>Она исчезнет с доски почёта вместе с лайками.</p>',
+    confirmText: 'Удалить', danger: true
+  });
+  if (!ok) return;
+  var res = await supabase.from('honor_board').delete().eq('id', id);
+  if (res.error) {
+    res = await supabase.from('reviews').delete().eq('id', id).eq('task_id', 'honor-board');
+  }
+  if (res.error) { toast('Не получилось: ' + res.error.message, true); return; }
+  logAction('honor_delete', String(id));
+  toast('Удалено');
+  loadHonor();
+}
+
+async function loadCommentsMod() {
+  var content = $('admin-content');
+  content.innerHTML = skeleton(6);
+  var res = await supabase.from('profile_comments')
+    .select('id, target_profile_id, author_id, text, created_at')
+    .order('created_at', { ascending: false })
+    .limit(200);
+  state.comments.fallback = false;
+  if (res.error) {
+    state.comments.fallback = true;
+    var fb = await supabase.from('reviews')
+      .select('id, task_id, user_id, username, text, created_at')
+      .like('task_id', 'profile-comment:%')
+      .eq('is_approved', true)
+      .order('created_at', { ascending: false })
+      .limit(200);
+    (fb.data || []).forEach(function (r) {
+      r.target_profile_id = String(r.task_id).replace('profile-comment:', '');
+      r.author_id = r.user_id;
+    });
+    res = fb;
+  }
+  if (res.error) {
+    content.innerHTML = '<p class="empty-note">Не получилось загрузить комментарии: ' + esc(res.error.message) + '</p>';
+    return;
+  }
+  state.comments.rows = res.data || [];
+  var ids = {};
+  state.comments.rows.forEach(function (r) { ids[r.target_profile_id] = true; ids[r.author_id] = true; });
+  var names = {};
+  if (Object.keys(ids).length) {
+    var prof = await supabase.from('profiles').select('id, username').in('id', Object.keys(ids));
+    (prof.data || []).forEach(function (p) { names[p.id] = p.username || 'Аноним'; });
+  }
+  var html = '<p class="admin-muted" style="margin-bottom:14px">Комментарии к профилям. Удаляй мат и спам — у автора тоже есть право удалить свой комментарий.</p>' +
+    '<div class="table-wrap"><table class="admin-table"><thead><tr>' +
+    '<th>Кому</th><th>Автор</th><th>Текст</th><th>Дата</th><th>Действия</th></tr></thead><tbody>';
+  if (!state.comments.rows.length) {
+    html += '<tr><td colspan="5"><p class="empty-note">Комментариев пока нет.</p></td></tr>';
+  }
+  state.comments.rows.forEach(function (r) {
+    html += '<tr><td>' + esc(names[r.target_profile_id] || r.target_profile_id) + '</td>' +
+      '<td>' + esc(names[r.author_id] || r.author_id) + '</td>' +
+      '<td><div class="cell-text">' + esc(r.text) + '</div></td>' +
+      '<td>' + fmtDate(r.created_at) + '</td>' +
+      '<td class="row-actions"><button class="btn btn-danger btn-sm" type="button" ' +
+      'data-act="comment-delete" data-id="' + r.id + '">' +
+      '<span class="icon i-trash" aria-hidden="true"></span><span>Удалить</span></button>' +
+      '<a class="btn btn-outline btn-sm" href="../profile.html?user=' + encodeURIComponent(r.target_profile_id) + '" target="_blank" rel="noopener">Профиль</a>' +
+      '</td></tr>';
+  });
+  html += '</tbody></table></div>';
+  content.innerHTML = html;
+}
+
+async function deleteProfileComment(id) {
+  var ok = await openModal({
+    title: 'Удалить комментарий?',
+    body: '<p>Он пропадёт из профиля пользователя.</p>',
+    confirmText: 'Удалить', danger: true
+  });
+  if (!ok) return;
+  var res = await supabase.from('profile_comments').delete().eq('id', id);
+  if (res.error) {
+    res = await supabase.from('reviews').delete().eq('id', id).like('task_id', 'profile-comment:%');
+  }
+  if (res.error) { toast('Не получилось: ' + res.error.message, true); return; }
+  logAction('comment_delete', String(id));
+  toast('Удалено');
+  loadCommentsMod();
+}
+
 /* ---------- фото-логи ---------- */
 
 function storagePath(url) {
@@ -1031,7 +1191,10 @@ function onContentClick(event) {
 
   if (act === 'user') { userOp(el.getAttribute('data-id'), el.getAttribute('data-op')); return; }
   if (act === 'review') { reviewOp(el.getAttribute('data-id'), el.getAttribute('data-op')); return; }
-  if (act === 'photo') { photoOp(el.getAttribute('data-id'), el.getAttribute('data-op'), el.getAttribute('data-url')); }
+  if (act === 'photo') { photoOp(el.getAttribute('data-id'), el.getAttribute('data-op'), el.getAttribute('data-url')); return; }
+  if (act === 'honor-create') { createHonorPost(); return; }
+  if (act === 'honor-delete') { deleteHonorPost(el.getAttribute('data-id')); return; }
+  if (act === 'comment-delete') { deleteProfileComment(el.getAttribute('data-id')); return; }
 }
 
 var searchTimer = 0;
@@ -1068,7 +1231,7 @@ function onContentChange(event) {
 
 function route() {
   var tab = (location.hash || '#overview').replace('#', '') || 'overview';
-  if (['overview', 'users', 'reviews', 'ai', 'photos', 'achievements'].indexOf(tab) === -1) tab = 'overview';
+  if (['overview', 'users', 'reviews', 'ai', 'photos', 'achievements', 'honor', 'comments'].indexOf(tab) === -1) tab = 'overview';
   state.tab = tab;
 
   Array.prototype.forEach.call(document.querySelectorAll('.admin-nav a'), function (a) {
@@ -1081,7 +1244,9 @@ function route() {
     reviews: 'Модерация отзывов',
     ai: 'ИИ-логи',
     photos: 'Фото-логи',
-    achievements: 'Достижения'
+    achievements: 'Достижения',
+    honor: 'Доска почёта',
+    comments: 'Комментарии профилей'
   };
   $('admin-title').textContent = titles[tab];
 
@@ -1090,6 +1255,8 @@ function route() {
   else if (tab === 'reviews') loadReviewTable('reviews');
   else if (tab === 'ai') loadReviewTable('ai');
   else if (tab === 'achievements') loadAchievements();
+  else if (tab === 'honor') loadHonor();
+  else if (tab === 'comments') loadCommentsMod();
   else loadPhotos();
 }
 
