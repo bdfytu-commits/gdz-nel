@@ -37,6 +37,8 @@ DATA = ROOT / "app" / "data"
 INVENTORY = ROOT / "scripts" / "euroki_books.json"
 CACHE = Path("/tmp/opencode/euroki-bulk-cache")
 MANIFEST = DATA / "_bulk_manifest.json"
+IMAGE_CACHE: dict[str, bool] = {}
+CHECK_IMAGES = True
 UA_POOL = [
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
@@ -108,6 +110,35 @@ def fetch(url: str, force: bool = False) -> str:
             print(f"  !! сеть: {exc}; повтор через 5 с", flush=True)
             time.sleep(5)
     raise RuntimeError(f"не скачалось {url}: {last_exc}")
+
+
+def image_ok(url: str) -> bool:
+    """Проверяет скан: 404/410 выкидываем, остальные ответы считаем живыми."""
+    if not CHECK_IMAGES:
+        return True
+    if url in IMAGE_CACHE:
+        return IMAGE_CACHE[url]
+    ok = False
+    for method in ("HEAD", "GET"):
+        try:
+            headers = {"User-Agent": UA_POOL[0]}
+            if method == "GET":
+                headers["Range"] = "bytes=0-1023"
+            req = urllib.request.Request(url, method=method, headers=headers)
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                ok = resp.status < 400
+            if ok:
+                break
+        except urllib.error.HTTPError as exc:
+            if exc.code in (404, 410):
+                ok = False
+                break
+        except Exception:  # noqa: BLE001
+            pass
+    IMAGE_CACHE[url] = ok
+    if not ok:
+        print(f"  !! битая картинка: {url}", flush=True)
+    return ok
 
 
 def clean_latex(text: str) -> str:
@@ -318,6 +349,7 @@ def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int |
 
     def add_image(images: list[str]) -> None:
         nonlocal seq
+        images = [u for u in images if image_ok(u)]
         if not images:
             return
         seq += 1
@@ -448,7 +480,9 @@ def process_book(book: dict, duplicate: bool, force: bool, dry: bool, limit: int
             doc["part"] = part
         if not dry:
             out_path.parent.mkdir(parents=True, exist_ok=True)
-            out_path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            tmp = out_path.with_suffix(".json.part")
+            tmp.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            tmp.replace(out_path)
         title = f"{meta['surname']}{title_part}"
         entry = {
             "grade": book["grade"], "source_subject": book["source_subject"], "subject": subject,
@@ -465,15 +499,19 @@ def process_book(book: dict, duplicate: bool, force: bool, dry: bool, limit: int
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--grades", default="3,4,10,11")
+    ap.add_argument("--grades", default="3,4,5,10,11")
     ap.add_argument("--subjects", default="")
     ap.add_argument("--only", default="")
     ap.add_argument("--slugs-file", default="", help="JSON-массив slug-ов, которые парсить")
     ap.add_argument("--manifest", default=str(MANIFEST), help="куда писать манифест (для шардов)")
     ap.add_argument("--limit", type=int, default=None, help="страниц на книгу, для проверки")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--resume", action="store_true", help="не перекачивать готовые книги (поведение по умолчанию)")
+    ap.add_argument("--no-check-images", action="store_true", help="не проверять сканы на 404")
     ap.add_argument("--dry", action="store_true")
     args = ap.parse_args()
+    global CHECK_IMAGES
+    CHECK_IMAGES = not args.no_check_images
     grades = {int(x) for x in args.grades.split(",") if x.strip()}
     subjects = {x.strip() for x in args.subjects.split(",") if x.strip()}
     all_books = json.loads(INVENTORY.read_text(encoding="utf-8"))

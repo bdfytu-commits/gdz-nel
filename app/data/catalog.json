@@ -1,6 +1,548 @@
 {
   "grades": [
     {
+      "id": "3",
+      "title": "3 класс",
+      "active": true,
+      "subjects": [
+        {
+          "id": "math",
+          "title": "Математика",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "alysheva-3-281",
+              "title": "Алышева",
+              "author": "Алышева",
+              "year": "2023",
+              "file": "math/alysheva-3-281.json"
+            },
+            {
+              "id": "moro-3-817-1",
+              "title": "Моро. Часть 1 (2022)",
+              "author": "Моро",
+              "year": "2022",
+              "file": "math/moro-3-817-1.json"
+            },
+            {
+              "id": "moro-3-581-1",
+              "title": "Моро. Часть 1 (2023)",
+              "author": "Моро, Бантова",
+              "year": "2023",
+              "file": "math/moro-3-581-1.json"
+            },
+            {
+              "id": "moro-3-817-2",
+              "title": "Моро. Часть 2 (2022)",
+              "author": "Моро",
+              "year": "2022",
+              "file": "math/moro-3-817-2.json"
+            },
+            {
+              "id": "moro-3-581-2",
+              "title": "Моро. Часть 2 (2023)",
+              "author": "Моро, Бантова",
+              "year": "2023",
+              "file": "math/moro-3-581-2.json"
+            }
+          ],
+          "icon": "math"
+        },
+        {
+          "id": "russian",
+          "title": "Русский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "aleksandrova-3",
+              "title": "Александрова",
+              "author": "Александрова О. М., Вербицкая Л. А. и др. Части: без частей",
+              "year": "2023",
+              "file": "russian/aleksandrova-3.json"
+            },
+            {
+              "id": "ivanov-3-1",
+              "title": "Иванов. Часть 1",
+              "author": "Иванов С. В., Евдокимова А. О. Части: 1 и 2",
+              "year": "2023",
+              "file": "russian/ivanov-3-1.json"
+            },
+            {
+              "id": "ivanov-3-2",
+              "title": "Иванов. Часть 2",
+              "author": "Иванов С. В., Евдокимова А. О. Части: 1 и 2",
+              "year": "2023",
+              "file": "russian/ivanov-3-2.json"
+            },
+            {
+              "id": "kanakina-3-1",
+              "title": "Канакина. Часть 1",
+              "author": "Канакина В. П., Горецкий В. Г. Части: 1 и 2",
+              "year": "2019-2026",
+              "file": "russian/kanakina-3-1.json"
+            },
+            {
+              "id": "kanakina-3-2",
+              "title": "Канакина. Часть 2",
+              "author": "Канакина В. П., Горецкий В. Г. Части: 1 и 2",
+              "year": "2019-2026",
+              "file": "russian/kanakina-3-2.json"
+            },
+            {
+              "id": "klimanova-3-1",
+              "title": "Климанова. Часть 1",
+              "author": "Климанова Л. Ф., Бабушкина Т. В. Части: 1 и 2",
+              "year": "2023",
+              "file": "russian/klimanova-3-1.json"
+            },
+            {
+              "id": "klimanova-3-2",
+              "title": "Климанова. Часть 2",
+              "author": "Климанова Л. Ф., Бабушкина Т. В. Части: 1 и 2",
+              "year": "2023",
+              "file": "russian/klimanova-3-2.json"
+            }
+          ],
+          "icon": "russian"
+        },
+        {
+          "id": "english",
+          "title": "Английский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "afanaseva-3-1",
+              "title": "Афанасьева. Часть 1",
+              "author": "Афанасьева О. В., Михеева И. В. Части: 1 и 2",
+              "year": "2020-2024",
+              "file": "english/afanaseva-3-1.json"
+            },
+            {
+              "id": "afanaseva-3-2",
+              "title": "Афанасьева. Часть 2",
+              "author": "Афанасьева О. В., Михеева И. В. Части: 1 и 2",
+              "year": "2020-2024",
+              "file": "english/afanaseva-3-2.json"
+            },
+            {
+              "id": "baranova-3-1",
+              "title": "Баранова. Часть 1",
+              "author": "Баранова К. М. Дули Д. Копылова В. В. Части: 1 и 2",
+              "year": "2023",
+              "file": "english/baranova-3-1.json"
+            },
+            {
+              "id": "baranova-3-2",
+              "title": "Баранова. Часть 2",
+              "author": "Баранова К. М. Дули Д. Копылова В. В. Части: 1 и 2",
+              "year": "2023",
+              "file": "english/baranova-3-2.json"
+            },
+            {
+              "id": "bykova-3-1",
+              "title": "Быкова. Часть 1",
+              "author": "Быкова Н. И., Дули Д., Поспелова М. Д. Части: 1 и 2",
+              "year": "2023-2026",
+              "file": "english/bykova-3-1.json"
+            },
+            {
+              "id": "bykova-3-2",
+              "title": "Быкова. Часть 2",
+              "author": "Быкова Н. И., Дули Д., Поспелова М. Д. Части: 1 и 2",
+              "year": "2023-2026",
+              "file": "english/bykova-3-2.json"
+            },
+            {
+              "id": "verbitskaya-3-1",
+              "title": "Вербицкая. Часть 1",
+              "author": "Вербицкая М. В. Части: 1 и 2",
+              "year": "2020-2021",
+              "file": "english/verbitskaya-3-1.json"
+            },
+            {
+              "id": "verbitskaya-3-2",
+              "title": "Вербицкая. Часть 2",
+              "author": "Вербицкая М. В. Части: 1 и 2",
+              "year": "2020-2021",
+              "file": "english/verbitskaya-3-2.json"
+            },
+            {
+              "id": "kuzovlev-3-1",
+              "title": "Кузовлев. Часть 1",
+              "author": "Кузовлев В. П., Лапа Н. М., Костина И. П. и др. Части: 1 и 2",
+              "year": "2021",
+              "file": "english/kuzovlev-3-1.json"
+            },
+            {
+              "id": "kuzovlev-3-2",
+              "title": "Кузовлев. Часть 2",
+              "author": "Кузовлев В. П., Лапа Н. М., Костина И. П. и др. Части: 1 и 2",
+              "year": "2021",
+              "file": "english/kuzovlev-3-2.json"
+            }
+          ],
+          "icon": "english"
+        },
+        {
+          "id": "world",
+          "title": "Окружающий мир",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "novitskaya-3-750-1",
+              "title": "Новицкая. Часть 1",
+              "author": "Новицкая, Плешаков",
+              "year": "2023",
+              "file": "world/novitskaya-3-750-1.json"
+            },
+            {
+              "id": "pleshakov-3-92-1",
+              "title": "Плешаков. Часть 1 (2021)",
+              "author": "Плешаков",
+              "year": "2021",
+              "file": "world/pleshakov-3-92-1.json"
+            },
+            {
+              "id": "pleshakov-3-173-1",
+              "title": "Плешаков. Часть 1 (2023)",
+              "author": "Плешаков, Крючкова",
+              "year": "2023",
+              "file": "world/pleshakov-3-173-1.json"
+            },
+            {
+              "id": "pleshakov-3-92-2",
+              "title": "Плешаков. Часть 2 (2021)",
+              "author": "Плешаков",
+              "year": "2021",
+              "file": "world/pleshakov-3-92-2.json"
+            },
+            {
+              "id": "pleshakov-3-173-2",
+              "title": "Плешаков. Часть 2 (2023)",
+              "author": "Плешаков, Крючкова",
+              "year": "2023",
+              "file": "world/pleshakov-3-173-2.json"
+            }
+          ],
+          "icon": "world"
+        },
+        {
+          "id": "literature",
+          "title": "Литературное чтение",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "aleksandrova-3-963",
+              "title": "Александрова",
+              "author": "Александрова, Кузнецова",
+              "year": "2023",
+              "file": "literature/aleksandrova-3-963.json"
+            },
+            {
+              "id": "klimanova-3-363-1",
+              "title": "Климанова. Часть 1",
+              "author": "Климанова, Горецкий",
+              "year": "2023",
+              "file": "literature/klimanova-3-363-1.json"
+            },
+            {
+              "id": "klimanova-3-363-2",
+              "title": "Климанова. Часть 2",
+              "author": "Климанова, Горецкий",
+              "year": "2023",
+              "file": "literature/klimanova-3-363-2.json"
+            }
+          ],
+          "icon": "literature"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "4 класс",
+      "active": true,
+      "subjects": [
+        {
+          "id": "math",
+          "title": "Математика",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "alysheva-4-616",
+              "title": "Алышева",
+              "author": "Алышева, Яковлева",
+              "year": "2021-2022-2023",
+              "file": "math/alysheva-4-616.json"
+            },
+            {
+              "id": "moro-4-994",
+              "title": "Моро (2021-2022)",
+              "author": "Моро, Бантова",
+              "year": "2021-2022",
+              "file": "math/moro-4-994.json"
+            },
+            {
+              "id": "moro-4-46",
+              "title": "Моро (2023)",
+              "author": "Моро, Бантова",
+              "year": "2023",
+              "file": "math/moro-4-46.json"
+            }
+          ],
+          "icon": "math"
+        },
+        {
+          "id": "russian",
+          "title": "Русский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "ivanov-4-1",
+              "title": "Иванов. Часть 1",
+              "author": "Иванов С. В., Кузнецова М. И., Петленко Л. В. Части: 1 и 2",
+              "year": "2023",
+              "file": "russian/ivanov-4-1.json"
+            },
+            {
+              "id": "ivanov-4-2",
+              "title": "Иванов. Часть 2",
+              "author": "Иванов С. В., Кузнецова М. И., Петленко Л. В. Части: 1 и 2",
+              "year": "2023",
+              "file": "russian/ivanov-4-2.json"
+            },
+            {
+              "id": "kanakina-4-1",
+              "title": "Канакина. Часть 1",
+              "author": "Канакина В. П., Горецкий В. Г. Части: 1 и 2",
+              "year": "2019-2026",
+              "file": "russian/kanakina-4-1.json"
+            },
+            {
+              "id": "kanakina-4-2",
+              "title": "Канакина. Часть 2",
+              "author": "Канакина В. П., Горецкий В. Г. Части: 1 и 2",
+              "year": "2019-2026",
+              "file": "russian/kanakina-4-2.json"
+            },
+            {
+              "id": "klimanova-4-1",
+              "title": "Климанова. Часть 1",
+              "author": "Климанова Л. Ф., Бабушкина Т. В. Части: 1 и 2",
+              "year": "2019",
+              "file": "russian/klimanova-4-1.json"
+            },
+            {
+              "id": "klimanova-4-2",
+              "title": "Климанова. Часть 2",
+              "author": "Климанова Л. Ф., Бабушкина Т. В. Части: 1 и 2",
+              "year": "2019",
+              "file": "russian/klimanova-4-2.json"
+            }
+          ],
+          "icon": "russian"
+        },
+        {
+          "id": "english",
+          "title": "Английский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "afanaseva-4-1",
+              "title": "Афанасьева. Часть 1",
+              "author": "Афанасьева О. В., Михеева И. В., Баранова К. М. Учебники: Rainbow + Dialogue Части: 1 и 2",
+              "year": "2021-2023",
+              "file": "english/afanaseva-4-1.json"
+            },
+            {
+              "id": "afanaseva-4-2",
+              "title": "Афанасьева. Часть 2",
+              "author": "Афанасьева О. В., Михеева И. В., Баранова К. М. Учебники: Rainbow + Dialogue Части: 1 и 2",
+              "year": "2021-2023",
+              "file": "english/afanaseva-4-2.json"
+            },
+            {
+              "id": "baranova-4-1",
+              "title": "Баранова. Часть 1",
+              "author": "Баранова К. М., Дули Д., Копылова В. В. Части: 1 и 2",
+              "year": "2023",
+              "file": "english/baranova-4-1.json"
+            },
+            {
+              "id": "baranova-4-2",
+              "title": "Баранова. Часть 2",
+              "author": "Баранова К. М., Дули Д., Копылова В. В. Части: 1 и 2",
+              "year": "2023",
+              "file": "english/baranova-4-2.json"
+            },
+            {
+              "id": "biboletova-4",
+              "title": "Биболетова",
+              "author": "Биболетова М. З., Денисенко О. А. и др. Части: без частей",
+              "year": "2020",
+              "file": "english/biboletova-4.json"
+            },
+            {
+              "id": "bykova-4-1",
+              "title": "Быкова. Часть 1",
+              "author": "Быкова Н. И., Дули Д., Поспелова М. Д. Части: 1 и 2",
+              "year": "2026",
+              "file": "english/bykova-4-1.json"
+            },
+            {
+              "id": "bykova-4-2",
+              "title": "Быкова. Часть 2",
+              "author": "Быкова Н. И., Дули Д., Поспелова М. Д. Части: 1 и 2",
+              "year": "2026",
+              "file": "english/bykova-4-2.json"
+            },
+            {
+              "id": "vereschagina-4-1",
+              "title": "Верещагина. Часть 1",
+              "author": "Верещагина И. Н., Афанасьева О. В. Части: 1 и 2",
+              "year": "2023",
+              "file": "english/vereschagina-4-1.json"
+            },
+            {
+              "id": "vereschagina-4-2",
+              "title": "Верещагина. Часть 2",
+              "author": "Верещагина И. Н., Афанасьева О. В. Части: 1 и 2",
+              "year": "2023",
+              "file": "english/vereschagina-4-2.json"
+            },
+            {
+              "id": "kuzovlev-4-1",
+              "title": "Кузовлев. Часть 1 (2021)",
+              "author": "Кузовлев В. П., Перегудова Э. Ш., Стрельникова О. В. Части: 1 и 2",
+              "year": "2021",
+              "file": "english/kuzovlev-4-1.json"
+            },
+            {
+              "id": "kuzovlev-4-803-1",
+              "title": "Кузовлев. Часть 1 (2024)",
+              "author": "Кузовлев, Перегудова",
+              "year": "2024",
+              "file": "english/kuzovlev-4-803-1.json"
+            },
+            {
+              "id": "kuzovlev-4-2",
+              "title": "Кузовлев. Часть 2 (2021)",
+              "author": "Кузовлев В. П., Перегудова Э. Ш., Стрельникова О. В. Части: 1 и 2",
+              "year": "2021",
+              "file": "english/kuzovlev-4-2.json"
+            },
+            {
+              "id": "kuzovlev-4-803-2",
+              "title": "Кузовлев. Часть 2 (2024)",
+              "author": "Кузовлев, Перегудова",
+              "year": "2024",
+              "file": "english/kuzovlev-4-803-2.json"
+            },
+            {
+              "id": "m-4-1",
+              "title": "М.. Часть 1",
+              "author": "М. В. Вербицкая. Части: 1 и 2",
+              "year": "2023",
+              "file": "english/m-4-1.json"
+            },
+            {
+              "id": "m-4-2",
+              "title": "М.. Часть 2",
+              "author": "М. В. Вербицкая. Части: 1 и 2",
+              "year": "2023",
+              "file": "english/m-4-2.json"
+            }
+          ],
+          "icon": "english"
+        },
+        {
+          "id": "world",
+          "title": "Окружающий мир",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "novitskaya-4-386-1",
+              "title": "Новицкая. Часть 1",
+              "author": "Новицкая, Плешаков",
+              "year": "2024",
+              "file": "world/novitskaya-4-386-1.json"
+            },
+            {
+              "id": "pleshakov-4-144-1",
+              "title": "Плешаков. Часть 1 (2019-2021-2022)",
+              "author": "Плешаков, Крючкова",
+              "year": "2019-2021-2022",
+              "file": "world/pleshakov-4-144-1.json"
+            },
+            {
+              "id": "pleshakov-4-884-1",
+              "title": "Плешаков. Часть 1 (2023)",
+              "author": "Плешаков, Крючкова",
+              "year": "2023",
+              "file": "world/pleshakov-4-884-1.json"
+            },
+            {
+              "id": "pleshakov-4-144-2",
+              "title": "Плешаков. Часть 2 (2019-2021-2022)",
+              "author": "Плешаков, Крючкова",
+              "year": "2019-2021-2022",
+              "file": "world/pleshakov-4-144-2.json"
+            },
+            {
+              "id": "pleshakov-4-884-2",
+              "title": "Плешаков. Часть 2 (2023)",
+              "author": "Плешаков, Крючкова",
+              "year": "2023",
+              "file": "world/pleshakov-4-884-2.json"
+            }
+          ],
+          "icon": "world"
+        },
+        {
+          "id": "literature",
+          "title": "Литературное чтение",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "aleksandrova-4-909",
+              "title": "Александрова",
+              "author": "Александрова, Кузнецова",
+              "year": "2023",
+              "file": "literature/aleksandrova-4-909.json"
+            },
+            {
+              "id": "klimanova-4-724-1",
+              "title": "Климанова. Часть 1 (2022)",
+              "author": "Климанова, Горецкий",
+              "year": "2022",
+              "file": "literature/klimanova-4-724-1.json"
+            },
+            {
+              "id": "klimanova-4-101-1",
+              "title": "Климанова. Часть 1 (2023)",
+              "author": "Климанова, Горецкий",
+              "year": "2023",
+              "file": "literature/klimanova-4-101-1.json"
+            },
+            {
+              "id": "klimanova-4-724-2",
+              "title": "Климанова. Часть 2 (2022)",
+              "author": "Климанова, Горецкий",
+              "year": "2022",
+              "file": "literature/klimanova-4-724-2.json"
+            },
+            {
+              "id": "klimanova-4-101-2",
+              "title": "Климанова. Часть 2 (2023)",
+              "author": "Климанова, Горецкий",
+              "year": "2023",
+              "file": "literature/klimanova-4-101-2.json"
+            }
+          ],
+          "icon": "literature"
+        }
+      ]
+    },
+    {
       "id": "6",
       "title": "6 класс",
       "active": true,
@@ -623,6 +1165,94 @@
       "active": true,
       "subjects": [
         {
+          "id": "english",
+          "title": "Английский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "vaulina-10",
+              "title": "Ваулина",
+              "author": "Ваулина, Дули, Афанасьева",
+              "year": "2022",
+              "file": "english/vaulina-10.json"
+            }
+          ],
+          "icon": "english"
+        },
+        {
+          "id": "literature",
+          "title": "Литература",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "zinin-10",
+              "title": "Зинин, Сахаров. Литература 10",
+              "author": "Зинин С.А., Сахаров В.А.",
+              "year": "2017",
+              "file": "literature/zinin-10.json"
+            },
+            {
+              "id": "korovin-uglublennyj-uroven-10",
+              "title": "Коровин. Литература 10 (углублённый)",
+              "author": "Коровин В.И., Вершинина Н.Л., Капитанова Л.А.",
+              "year": "2018-2024",
+              "file": "literature/korovin-uglublennyj-uroven-10.json"
+            },
+            {
+              "id": "kurdyumova-10",
+              "title": "Курдюмова. Литература 10",
+              "author": "Курдюмова Т.Ф., Марьина О.Б., Колокольцев Е.Н.",
+              "year": "2018",
+              "file": "literature/kurdyumova-10.json"
+            },
+            {
+              "id": "lebedev-10",
+              "title": "Лебедев. Литература 10",
+              "author": "Лебедев Ю.В.",
+              "year": "2018-2024",
+              "file": "literature/lebedev-10.json"
+            }
+          ],
+          "icon": "literature"
+        },
+        {
+          "id": "algebra",
+          "title": "Алгебра",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "alimov-10-502",
+              "title": "Алимов",
+              "author": "Алимов, Колягин",
+              "year": "2020-2021-2022-2023",
+              "file": "algebra/alimov-10-502.json"
+            },
+            {
+              "id": "kolyagin-10-11",
+              "title": "Колягин",
+              "author": "Колягин, Ткачева",
+              "year": "2024",
+              "file": "algebra/kolyagin-10-11.json"
+            }
+          ],
+          "icon": "algebra"
+        },
+        {
+          "id": "geometry",
+          "title": "Геометрия",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "atanasyan-10",
+              "title": "Атанасян",
+              "author": "Атанасян, Бутузов",
+              "year": "2023",
+              "file": "geometry/atanasyan-10.json"
+            }
+          ],
+          "icon": "geometry"
+        },
+        {
           "id": "physics",
           "title": "Физика",
           "active": true,
@@ -651,6 +1281,100 @@
             }
           ],
           "icon": "chemistry"
+        },
+        {
+          "id": "biology",
+          "title": "Биология",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "agafonova-10-577",
+              "title": "Агафонова",
+              "author": "Агафонова, Каменский",
+              "year": "2024",
+              "file": "biology/agafonova-10-577.json"
+            },
+            {
+              "id": "belyaev-10-285",
+              "title": "Беляев",
+              "author": "Беляев, Дымшиц",
+              "year": "2023",
+              "file": "biology/belyaev-10-285.json"
+            },
+            {
+              "id": "kamenskiy-10-809",
+              "title": "Каменский",
+              "author": "Каменский, Сивоглазов",
+              "year": "2022",
+              "file": "biology/kamenskiy-10-809.json"
+            },
+            {
+              "id": "pasechnik-10-930",
+              "title": "Пасечник",
+              "author": "Пасечник",
+              "year": "2024",
+              "file": "biology/pasechnik-10-930.json"
+            }
+          ],
+          "icon": "biology"
+        },
+        {
+          "id": "history",
+          "title": "История",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "gorinov-10-324",
+              "title": "Горинов",
+              "author": "Горинов, Данилов, Торкунов",
+              "year": "2022",
+              "file": "history/gorinov-10-324.json"
+            },
+            {
+              "id": "medinskiy-10-477",
+              "title": "Мединский",
+              "author": "Мединский, Торкунов",
+              "year": "2023",
+              "file": "history/medinskiy-10-477.json"
+            },
+            {
+              "id": "soroko-tsyupa-10-403",
+              "title": "Сороко-Цюпа (2022)",
+              "author": "Сороко-Цюпа",
+              "year": "2022",
+              "file": "history/soroko-tsyupa-10-403.json"
+            },
+            {
+              "id": "soroko-tsyupa-10-409",
+              "title": "Сороко-Цюпа (2022)",
+              "author": "Сороко-Цюпа",
+              "year": "2022",
+              "file": "history/soroko-tsyupa-10-409.json"
+            }
+          ],
+          "icon": "history"
+        },
+        {
+          "id": "social",
+          "title": "Обществознание",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "bogolyubov-10-359",
+              "title": "Боголюбов (2020-2021-2022)",
+              "author": "Боголюбов, Лазебникова",
+              "year": "2020-2021-2022",
+              "file": "social/bogolyubov-10-359.json"
+            },
+            {
+              "id": "bogolyubov-10-761",
+              "title": "Боголюбов (2023)",
+              "author": "Боголюбов, Лазебникова",
+              "year": "2023",
+              "file": "social/bogolyubov-10-761.json"
+            }
+          ],
+          "icon": "social"
         }
       ]
     },
@@ -675,6 +1399,86 @@
           "icon": "english"
         },
         {
+          "id": "literature",
+          "title": "Литература",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "zinin-11",
+              "title": "Зинин, Чалмаев. Литература 11",
+              "author": "Зинин С.А., Чалмаев В.А.",
+              "year": "2017",
+              "file": "literature/zinin-11.json"
+            },
+            {
+              "id": "korovin-uglublennyj-uroven-11",
+              "title": "Коровин. Литература 11 (углублённый)",
+              "author": "Коровин В.И., Вершинина Н.Л., Гальцова Е.Д.",
+              "year": "2019-2024",
+              "file": "literature/korovin-uglublennyj-uroven-11.json"
+            },
+            {
+              "id": "kurdyumova-11",
+              "title": "Курдюмова. Литература 11",
+              "author": "Курдюмова Т.Ф., Колокольцев Е.Н., Марьина О.Б., Демидова Н.А., Сосновская И.В.",
+              "year": "2018",
+              "file": "literature/kurdyumova-11.json"
+            },
+            {
+              "id": "mihajlov-2-chastyah-bazovyj-uroven-11",
+              "title": "Михайлов, Шайтанов. Литература 11",
+              "author": "О.Н. Михайлов, И.О. Шайтанов, В.А. Чалмаев",
+              "year": "2021-2024",
+              "file": "literature/mihajlov-2-chastyah-bazovyj-uroven-11.json"
+            }
+          ],
+          "icon": "literature"
+        },
+        {
+          "id": "algebra",
+          "title": "Алгебра",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "alimov-11-262",
+              "title": "Алимов",
+              "author": "Алимов, Колягин",
+              "year": "2020-2021-2022-2023",
+              "file": "algebra/alimov-11-262.json"
+            },
+            {
+              "id": "kolyagin-11-390",
+              "title": "Колягин",
+              "author": "Колягин, Ткачева",
+              "year": "2020-2021-2022-2023",
+              "file": "algebra/kolyagin-11-390.json"
+            },
+            {
+              "id": "nikolskiy-11-462",
+              "title": "Никольский",
+              "author": "Никольский, Потапов",
+              "year": "2020-2021-2022",
+              "file": "algebra/nikolskiy-11-462.json"
+            }
+          ],
+          "icon": "algebra"
+        },
+        {
+          "id": "geometry",
+          "title": "Геометрия",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "atanasyan-11",
+              "title": "Атанасян",
+              "author": "Атанасян, Бутузов",
+              "year": "2023",
+              "file": "geometry/atanasyan-11.json"
+            }
+          ],
+          "icon": "geometry"
+        },
+        {
           "id": "physics",
           "title": "Физика",
           "active": true,
@@ -688,6 +1492,73 @@
             }
           ],
           "icon": "physics"
+        },
+        {
+          "id": "chemistry",
+          "title": "Химия",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "gabrielyan-11",
+              "title": "Габриелян",
+              "author": "Габриелян О. С",
+              "year": "2022",
+              "file": "chemistry/gabrielyan-11.json"
+            }
+          ],
+          "icon": "chemistry"
+        },
+        {
+          "id": "biology",
+          "title": "Биология",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "belyaev-11-319",
+              "title": "Беляев",
+              "author": "Беляев, Дымшиц",
+              "year": "2024",
+              "file": "biology/belyaev-11-319.json"
+            },
+            {
+              "id": "pasechnik-11-473",
+              "title": "Пасечник",
+              "author": "Пасечник, Каменский",
+              "year": "2024",
+              "file": "biology/pasechnik-11-473.json"
+            }
+          ],
+          "icon": "biology"
+        },
+        {
+          "id": "history",
+          "title": "История",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "medinskiy-11",
+              "title": "Мединский",
+              "author": "Мединский, Чубарьян",
+              "year": "2024",
+              "file": "history/medinskiy-11.json"
+            }
+          ],
+          "icon": "history"
+        },
+        {
+          "id": "social",
+          "title": "Обществознание",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "bogolyubov-11",
+              "title": "Боголюбов",
+              "author": "Боголюбов Л. Н., Городецкая Н. И., Лазебникова А. Ю. и др",
+              "year": "2024",
+              "file": "social/bogolyubov-11.json"
+            }
+          ],
+          "icon": "social"
         }
       ]
     }

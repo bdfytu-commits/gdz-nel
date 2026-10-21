@@ -1,30 +1,35 @@
 {
-  "generatedAt": "2026-10-20T12:34:19Z",
+  "generatedAt": "2026-10-21T04:20:28Z",
   "subjects": {
     "math": {
       "title": "Математика",
       "icon": "math",
-      "tasks": 4991
+      "tasks": 8779
     },
     "russian": {
       "title": "Русский язык",
       "icon": "russian",
-      "tasks": 2352
-    },
-    "literature": {
-      "title": "Литература",
-      "icon": "literature",
-      "tasks": 1982
+      "tasks": 6844
     },
     "english": {
       "title": "Английский язык",
       "icon": "english",
-      "tasks": 2909
+      "tasks": 9181
+    },
+    "world": {
+      "title": "Окружающий мир",
+      "icon": "world",
+      "tasks": 2557
+    },
+    "literature": {
+      "title": "Литературное чтение",
+      "icon": "literature",
+      "tasks": 4345
     },
     "biology": {
       "title": "Биология",
       "icon": "biology",
-      "tasks": 1953
+      "tasks": 5769
     },
     "geo": {
       "title": "География",
@@ -34,7 +39,7 @@
     "history": {
       "title": "История",
       "icon": "history",
-      "tasks": 1713
+      "tasks": 4715
     },
     "history-maps": {
       "title": "История (контурные карты)",
@@ -44,7 +49,17 @@
     "social": {
       "title": "Обществознание",
       "icon": "social",
-      "tasks": 1417
+      "tasks": 2861
+    },
+    "algebra": {
+      "title": "Алгебра",
+      "icon": "algebra",
+      "tasks": 5833
+    },
+    "geometry": {
+      "title": "Геометрия",
+      "icon": "geometry",
+      "tasks": 1681
     },
     "physics": {
       "title": "Физика",
@@ -54,10 +69,74 @@
     "chemistry": {
       "title": "Химия",
       "icon": "chemistry",
-      "tasks": 208
+      "tasks": 477
     }
   },
   "books": {
+    "math/alysheva-3-281.json": 560,
+    "math/moro-3-817-1.json": 511,
+    "math/moro-3-581-1.json": 553,
+    "math/moro-3-817-2.json": 603,
+    "math/moro-3-581-2.json": 603,
+    "russian/aleksandrova-3.json": 147,
+    "russian/ivanov-3-1.json": 247,
+    "russian/ivanov-3-2.json": 231,
+    "russian/kanakina-3-1.json": 620,
+    "russian/kanakina-3-2.json": 525,
+    "russian/klimanova-3-1.json": 270,
+    "russian/klimanova-3-2.json": 264,
+    "english/afanaseva-3-1.json": 475,
+    "english/afanaseva-3-2.json": 213,
+    "english/baranova-3-1.json": 232,
+    "english/baranova-3-2.json": 253,
+    "english/bykova-3-1.json": 190,
+    "english/bykova-3-2.json": 181,
+    "english/verbitskaya-3-1.json": 197,
+    "english/verbitskaya-3-2.json": 149,
+    "english/kuzovlev-3-1.json": 101,
+    "english/kuzovlev-3-2.json": 120,
+    "world/novitskaya-3-750-1.json": 357,
+    "world/pleshakov-3-92-1.json": 176,
+    "world/pleshakov-3-173-1.json": 363,
+    "world/pleshakov-3-92-2.json": 118,
+    "world/pleshakov-3-173-2.json": 232,
+    "literature/aleksandrova-3-963.json": 182,
+    "literature/klimanova-3-363-1.json": 234,
+    "literature/klimanova-3-363-2.json": 224,
+    "math/alysheva-4-616.json": 81,
+    "math/moro-4-994.json": 435,
+    "math/moro-4-46.json": 442,
+    "russian/ivanov-4-1.json": 205,
+    "russian/ivanov-4-2.json": 256,
+    "russian/kanakina-4-1.json": 604,
+    "russian/kanakina-4-2.json": 618,
+    "russian/klimanova-4-1.json": 260,
+    "russian/klimanova-4-2.json": 245,
+    "english/afanaseva-4-1.json": 368,
+    "english/afanaseva-4-2.json": 302,
+    "english/baranova-4-1.json": 260,
+    "english/baranova-4-2.json": 261,
+    "english/biboletova-4.json": 322,
+    "english/bykova-4-1.json": 169,
+    "english/bykova-4-2.json": 187,
+    "english/vereschagina-4-1.json": 445,
+    "english/vereschagina-4-2.json": 468,
+    "english/kuzovlev-4-1.json": 52,
+    "english/kuzovlev-4-803-1.json": 129,
+    "english/kuzovlev-4-2.json": 86,
+    "english/kuzovlev-4-803-2.json": 115,
+    "english/m-4-1.json": 190,
+    "english/m-4-2.json": 175,
+    "world/novitskaya-4-386-1.json": 314,
+    "world/pleshakov-4-144-1.json": 134,
+    "world/pleshakov-4-884-1.json": 284,
+    "world/pleshakov-4-144-2.json": 297,
+    "world/pleshakov-4-884-2.json": 282,
+    "literature/aleksandrova-4-909.json": 184,
+    "literature/klimanova-4-724-1.json": 176,
+    "literature/klimanova-4-101-1.json": 204,
+    "literature/klimanova-4-724-2.json": 222,
+    "literature/klimanova-4-101-2.json": 236,
     "math/vilenkin-6-1.json": 926,
     "math/vilenkin-6-2.json": 641,
     "russian/ladyzhenskaya-6-1.json": 383,
@@ -101,12 +180,175 @@
     "history/medinsky-9.json": 524,
     "history-maps/torop-9.json": 13,
     "social/bogolyubov-9.json": 440,
+    "english/vaulina-10.json": 632,
+    "literature/zinin-10.json": 41,
+    "literature/korovin-uglublennyj-uroven-10.json": 66,
+    "literature/kurdyumova-10.json": 40,
+    "literature/lebedev-10.json": 183,
+    "algebra/alimov-10-502.json": 1623,
+    "algebra/kolyagin-10-11.json": 1291,
+    "geometry/atanasyan-10.json": 764,
     "physics/myakishev-10.json": 782,
     "chemistry/gabrielyan-10.json": 208,
+    "biology/agafonova-10-577.json": 599,
+    "biology/belyaev-10-285.json": 867,
+    "biology/kamenskiy-10-809.json": 232,
+    "biology/pasechnik-10-930.json": 593,
+    "history/gorinov-10-324.json": 919,
+    "history/medinskiy-10-477.json": 737,
+    "history/soroko-tsyupa-10-403.json": 465,
+    "history/soroko-tsyupa-10-409.json": 296,
+    "social/bogolyubov-10-359.json": 138,
+    "social/bogolyubov-10-761.json": 866,
     "english/afanaseva-11.json": 642,
-    "physics/myakishev-11.json": 618
+    "literature/zinin-11.json": 89,
+    "literature/korovin-uglublennyj-uroven-11.json": 66,
+    "literature/kurdyumova-11.json": 50,
+    "literature/mihajlov-2-chastyah-bazovyj-uroven-11.json": 166,
+    "algebra/alimov-11-262.json": 1623,
+    "algebra/kolyagin-11-390.json": 1134,
+    "algebra/nikolskiy-11-462.json": 162,
+    "geometry/atanasyan-11.json": 917,
+    "physics/myakishev-11.json": 618,
+    "chemistry/gabrielyan-11.json": 269,
+    "biology/belyaev-11-319.json": 872,
+    "biology/pasechnik-11-473.json": 653,
+    "history/medinskiy-11.json": 585,
+    "social/bogolyubov-11.json": 440
   },
   "grades": {
+    "3": {
+      "title": "3 класс",
+      "subjects": {
+        "math": {
+          "title": "Математика",
+          "icon": "math",
+          "tasks": 2830
+        },
+        "russian": {
+          "title": "Русский язык",
+          "icon": "russian",
+          "tasks": 2304
+        },
+        "english": {
+          "title": "Английский язык",
+          "icon": "english",
+          "tasks": 2111
+        },
+        "world": {
+          "title": "Окружающий мир",
+          "icon": "world",
+          "tasks": 1246
+        },
+        "literature": {
+          "title": "Литературное чтение",
+          "icon": "literature",
+          "tasks": 640
+        }
+      },
+      "books": {
+        "math/alysheva-3-281.json": 560,
+        "math/moro-3-817-1.json": 511,
+        "math/moro-3-581-1.json": 553,
+        "math/moro-3-817-2.json": 603,
+        "math/moro-3-581-2.json": 603,
+        "russian/aleksandrova-3.json": 147,
+        "russian/ivanov-3-1.json": 247,
+        "russian/ivanov-3-2.json": 231,
+        "russian/kanakina-3-1.json": 620,
+        "russian/kanakina-3-2.json": 525,
+        "russian/klimanova-3-1.json": 270,
+        "russian/klimanova-3-2.json": 264,
+        "english/afanaseva-3-1.json": 475,
+        "english/afanaseva-3-2.json": 213,
+        "english/baranova-3-1.json": 232,
+        "english/baranova-3-2.json": 253,
+        "english/bykova-3-1.json": 190,
+        "english/bykova-3-2.json": 181,
+        "english/verbitskaya-3-1.json": 197,
+        "english/verbitskaya-3-2.json": 149,
+        "english/kuzovlev-3-1.json": 101,
+        "english/kuzovlev-3-2.json": 120,
+        "world/novitskaya-3-750-1.json": 357,
+        "world/pleshakov-3-92-1.json": 176,
+        "world/pleshakov-3-173-1.json": 363,
+        "world/pleshakov-3-92-2.json": 118,
+        "world/pleshakov-3-173-2.json": 232,
+        "literature/aleksandrova-3-963.json": 182,
+        "literature/klimanova-3-363-1.json": 234,
+        "literature/klimanova-3-363-2.json": 224
+      },
+      "total": 9131,
+      "textbooks": 30
+    },
+    "4": {
+      "title": "4 класс",
+      "subjects": {
+        "math": {
+          "title": "Математика",
+          "icon": "math",
+          "tasks": 958
+        },
+        "russian": {
+          "title": "Русский язык",
+          "icon": "russian",
+          "tasks": 2188
+        },
+        "english": {
+          "title": "Английский язык",
+          "icon": "english",
+          "tasks": 3529
+        },
+        "world": {
+          "title": "Окружающий мир",
+          "icon": "world",
+          "tasks": 1311
+        },
+        "literature": {
+          "title": "Литературное чтение",
+          "icon": "literature",
+          "tasks": 1022
+        }
+      },
+      "books": {
+        "math/alysheva-4-616.json": 81,
+        "math/moro-4-994.json": 435,
+        "math/moro-4-46.json": 442,
+        "russian/ivanov-4-1.json": 205,
+        "russian/ivanov-4-2.json": 256,
+        "russian/kanakina-4-1.json": 604,
+        "russian/kanakina-4-2.json": 618,
+        "russian/klimanova-4-1.json": 260,
+        "russian/klimanova-4-2.json": 245,
+        "english/afanaseva-4-1.json": 368,
+        "english/afanaseva-4-2.json": 302,
+        "english/baranova-4-1.json": 260,
+        "english/baranova-4-2.json": 261,
+        "english/biboletova-4.json": 322,
+        "english/bykova-4-1.json": 169,
+        "english/bykova-4-2.json": 187,
+        "english/vereschagina-4-1.json": 445,
+        "english/vereschagina-4-2.json": 468,
+        "english/kuzovlev-4-1.json": 52,
+        "english/kuzovlev-4-803-1.json": 129,
+        "english/kuzovlev-4-2.json": 86,
+        "english/kuzovlev-4-803-2.json": 115,
+        "english/m-4-1.json": 190,
+        "english/m-4-2.json": 175,
+        "world/novitskaya-4-386-1.json": 314,
+        "world/pleshakov-4-144-1.json": 134,
+        "world/pleshakov-4-884-1.json": 284,
+        "world/pleshakov-4-144-2.json": 297,
+        "world/pleshakov-4-884-2.json": 282,
+        "literature/aleksandrova-4-909.json": 184,
+        "literature/klimanova-4-724-1.json": 176,
+        "literature/klimanova-4-101-1.json": 204,
+        "literature/klimanova-4-724-2.json": 222,
+        "literature/klimanova-4-101-2.json": 236
+      },
+      "total": 9008,
+      "textbooks": 34
+    },
     "6": {
       "title": "6 класс",
       "subjects": {
@@ -369,6 +611,26 @@
     "10": {
       "title": "10 класс",
       "subjects": {
+        "english": {
+          "title": "Английский язык",
+          "icon": "english",
+          "tasks": 632
+        },
+        "literature": {
+          "title": "Литература",
+          "icon": "literature",
+          "tasks": 330
+        },
+        "algebra": {
+          "title": "Алгебра",
+          "icon": "algebra",
+          "tasks": 2914
+        },
+        "geometry": {
+          "title": "Геометрия",
+          "icon": "geometry",
+          "tasks": 764
+        },
         "physics": {
           "title": "Физика",
           "icon": "physics",
@@ -378,14 +640,47 @@
           "title": "Химия",
           "icon": "chemistry",
           "tasks": 208
+        },
+        "biology": {
+          "title": "Биология",
+          "icon": "biology",
+          "tasks": 2291
+        },
+        "history": {
+          "title": "История",
+          "icon": "history",
+          "tasks": 2417
+        },
+        "social": {
+          "title": "Обществознание",
+          "icon": "social",
+          "tasks": 1004
         }
       },
       "books": {
+        "english/vaulina-10.json": 632,
+        "literature/zinin-10.json": 41,
+        "literature/korovin-uglublennyj-uroven-10.json": 66,
+        "literature/kurdyumova-10.json": 40,
+        "literature/lebedev-10.json": 183,
+        "algebra/alimov-10-502.json": 1623,
+        "algebra/kolyagin-10-11.json": 1291,
+        "geometry/atanasyan-10.json": 764,
         "physics/myakishev-10.json": 782,
-        "chemistry/gabrielyan-10.json": 208
+        "chemistry/gabrielyan-10.json": 208,
+        "biology/agafonova-10-577.json": 599,
+        "biology/belyaev-10-285.json": 867,
+        "biology/kamenskiy-10-809.json": 232,
+        "biology/pasechnik-10-930.json": 593,
+        "history/gorinov-10-324.json": 919,
+        "history/medinskiy-10-477.json": 737,
+        "history/soroko-tsyupa-10-403.json": 465,
+        "history/soroko-tsyupa-10-409.json": 296,
+        "social/bogolyubov-10-359.json": 138,
+        "social/bogolyubov-10-761.json": 866
       },
-      "total": 990,
-      "textbooks": 2
+      "total": 11342,
+      "textbooks": 20
     },
     "11": {
       "title": "11 класс",
@@ -395,20 +690,68 @@
           "icon": "english",
           "tasks": 642
         },
+        "literature": {
+          "title": "Литература",
+          "icon": "literature",
+          "tasks": 371
+        },
+        "algebra": {
+          "title": "Алгебра",
+          "icon": "algebra",
+          "tasks": 2919
+        },
+        "geometry": {
+          "title": "Геометрия",
+          "icon": "geometry",
+          "tasks": 917
+        },
         "physics": {
           "title": "Физика",
           "icon": "physics",
           "tasks": 618
+        },
+        "chemistry": {
+          "title": "Химия",
+          "icon": "chemistry",
+          "tasks": 269
+        },
+        "biology": {
+          "title": "Биология",
+          "icon": "biology",
+          "tasks": 1525
+        },
+        "history": {
+          "title": "История",
+          "icon": "history",
+          "tasks": 585
+        },
+        "social": {
+          "title": "Обществознание",
+          "icon": "social",
+          "tasks": 440
         }
       },
       "books": {
         "english/afanaseva-11.json": 642,
-        "physics/myakishev-11.json": 618
+        "literature/zinin-11.json": 89,
+        "literature/korovin-uglublennyj-uroven-11.json": 66,
+        "literature/kurdyumova-11.json": 50,
+        "literature/mihajlov-2-chastyah-bazovyj-uroven-11.json": 166,
+        "algebra/alimov-11-262.json": 1623,
+        "algebra/kolyagin-11-390.json": 1134,
+        "algebra/nikolskiy-11-462.json": 162,
+        "geometry/atanasyan-11.json": 917,
+        "physics/myakishev-11.json": 618,
+        "chemistry/gabrielyan-11.json": 269,
+        "biology/belyaev-11-319.json": 872,
+        "biology/pasechnik-11-473.json": 653,
+        "history/medinskiy-11.json": 585,
+        "social/bogolyubov-11.json": 440
       },
-      "total": 1260,
-      "textbooks": 2
+      "total": 8286,
+      "textbooks": 15
     }
   },
-  "total": 19028,
-  "textbooks": 47
+  "total": 54545,
+  "textbooks": 142
 }

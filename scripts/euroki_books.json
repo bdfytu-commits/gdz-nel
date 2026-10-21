@@ -448,6 +448,300 @@
   "text": "Русский язык 4 класс Авторы: Якубовская, Коршунова Год: 2022 Тип: учебник Часть: 1, 2 Серия: ОВЗ"
  },
  {
+  "source_subject": "angliyskiy",
+  "grade": 5,
+  "slug": "ju_e_vaulina_spotlight_fgos",
+  "url": "https://www.euroki.org/gdz/ru/angliyskiy/5_klass/ju_e_vaulina_spotlight_fgos",
+  "text": "Английский 5 класс. Spotlight: Student's Book Авторы: Ваулина ФГОС, Дули, Подолянко Год: 2023 Тип: учебник Серия: Английский в фокусе"
+ },
+ {
+  "source_subject": "angliyskiy",
+  "grade": 5,
+  "slug": "otvety-po-angliiskomu-5-klass-komarova-224",
+  "url": "https://www.euroki.org/gdz/ru/angliyskiy/5_klass/otvety-po-angliiskomu-5-klass-komarova-224",
+  "text": "Английский 5 класс Авторы: Комарова, Ларионова Тип: учебник Серия: Инновационная школа"
+ },
+ {
+  "source_subject": "angliyskiy",
+  "grade": 5,
+  "slug": "reshebnik-po-angliiskomu-yazyku-5-klass-fgos-afanaseva-baranova-rainbow-english-363",
+  "url": "https://www.euroki.org/gdz/ru/angliyskiy/5_klass/reshebnik-po-angliiskomu-yazyku-5-klass-fgos-afanaseva-baranova-rainbow-english-363",
+  "text": "Английский язык 5 класс. Student's Book Авторы: Афанасьева, Михеева, Баранова Тип: учебник Серия: Rainbow English"
+ },
+ {
+  "source_subject": "angliyskiy",
+  "grade": 5,
+  "slug": "reshebnik-po-angliiskomu-yazyku-5-klass-kuzovlev-fgos-90",
+  "url": "https://www.euroki.org/gdz/ru/angliyskiy/5_klass/reshebnik-po-angliiskomu-yazyku-5-klass-kuzovlev-fgos-90",
+  "text": "Английский язык 5 класс. Student's book Авторы: Кузовлев Тип: учебник Серия: English"
+ },
+ {
+  "source_subject": "angliyskiy",
+  "grade": 5,
+  "slug": "reshebnik_po_anglijskomu_jazyku_5_klass_biboletova_fgos",
+  "url": "https://www.euroki.org/gdz/ru/angliyskiy/5_klass/reshebnik_po_anglijskomu_jazyku_5_klass_biboletova_fgos",
+  "text": "Английский 5 класс. Student's Book. ФГОС Авторы: Биболетова Тип: учебник Серия: Enjoy English"
+ },
+ {
+  "source_subject": "biologiya",
+  "grade": 5,
+  "slug": "lifanova-961",
+  "url": "https://www.euroki.org/gdz/ru/biologiya/5_klass/lifanova-961",
+  "text": "Природоведение 5 класс Авторы: Лифанова, Соломина Год: 2021 Тип: учебник Серия:"
+ },
+ {
+  "source_subject": "biologiya",
+  "grade": 5,
+  "slug": "otvety-po-biologii-5-klass-pasechnik-13",
+  "url": "https://www.euroki.org/gdz/ru/biologiya/5_klass/otvety-po-biologii-5-klass-pasechnik-13",
+  "text": "Биология 5 класс Авторы: Пасечник. С бабочкой Год: 2020 Тип: учебник Серия: Линейный курс"
+ },
+ {
+  "source_subject": "biologiya",
+  "grade": 5,
+  "slug": "pasechnik-fgos-183",
+  "url": "https://www.euroki.org/gdz/ru/biologiya/5_klass/pasechnik-fgos-183",
+  "text": "Биология 5 класс Авторы: Пасечник. С ракушкой, Суматохин Год: 2024, 2025, 2026 Тип: учебник Серия: Линия жизни"
+ },
+ {
+  "source_subject": "biologiya",
+  "grade": 5,
+  "slug": "pasechnik-s-shishkoi-933",
+  "url": "https://www.euroki.org/gdz/ru/biologiya/5_klass/pasechnik-s-shishkoi-933",
+  "text": "Биология 5 класс Авторы: Пасечник. С шишкой Год: 2021 Тип: учебник Серия: Бактерии, грибы, растения"
+ },
+ {
+  "source_subject": "biologiya",
+  "grade": 5,
+  "slug": "ponomareva-683",
+  "url": "https://www.euroki.org/gdz/ru/biologiya/5_klass/ponomareva-683",
+  "text": "Биология 5 класс Авторы: Пономарева, Корнилова Год: 2023 Тип: учебник"
+ },
+ {
+  "source_subject": "biologiya",
+  "grade": 5,
+  "slug": "sivoglazov-657",
+  "url": "https://www.euroki.org/gdz/ru/biologiya/5_klass/sivoglazov-657",
+  "text": "Биология 5 класс Авторы: Сивоглазов, Плешаков Год: 2022 Тип: учебник"
+ },
+ {
+  "source_subject": "geografiya",
+  "grade": 5,
+  "slug": "alekseev-fgos-576",
+  "url": "https://www.euroki.org/gdz/ru/geografiya/5_klass/alekseev-fgos-576",
+  "text": "География 5 класс Авторы: Алексеев, Николина Год: 2023 Тип: учебник Серия: Полярная звезда"
+ },
+ {
+  "source_subject": "geografiya",
+  "grade": 5,
+  "slug": "klimanova-533",
+  "url": "https://www.euroki.org/gdz/ru/geografiya/5_klass/klimanova-533",
+  "text": "География 5 класс Авторы: Климанова Год: 2021 Тип: учебник"
+ },
+ {
+  "source_subject": "geografiya",
+  "grade": 5,
+  "slug": "lobzhanidze-771",
+  "url": "https://www.euroki.org/gdz/ru/geografiya/5_klass/lobzhanidze-771",
+  "text": "География 5 класс Авторы: Лобжанидзе Год: 2024 Тип: учебник"
+ },
+ {
+  "source_subject": "geografiya",
+  "grade": 5,
+  "slug": "maksimov-627",
+  "url": "https://www.euroki.org/gdz/ru/geografiya/5_klass/maksimov-627",
+  "text": "География 5 класс Авторы: Максимов, Герасимова, Барабанов Год: 2023 Тип: учебник"
+ },
+ {
+  "source_subject": "informatika",
+  "grade": 5,
+  "slug": "otvety-po-informatike-5-klass-semenov-rudchenko-375",
+  "url": "https://www.euroki.org/gdz/ru/informatika/5_klass/otvety-po-informatike-5-klass-semenov-rudchenko-375",
+  "text": "Информатика 5 класс Авторы: Семенов, Рудченко Тип: учебник"
+ },
+ {
+  "source_subject": "istoriya",
+  "grade": 5,
+  "slug": "medinskii-60",
+  "url": "https://www.euroki.org/gdz/ru/istoriya/5_klass/medinskii-60",
+  "text": "История Древнего мира 5 класс Авторы: Мединский, Чубарьян Год: 2025 Тип: учебник Серия: история Древнего мира"
+ },
+ {
+  "source_subject": "istoriya",
+  "grade": 5,
+  "slug": "nikishin-179",
+  "url": "https://www.euroki.org/gdz/ru/istoriya/5_klass/nikishin-179",
+  "text": "История Древнего мира 5 класс Авторы: Никишин, Стрелков Тип: учебник Серия: Всеобщая история"
+ },
+ {
+  "source_subject": "istoriya",
+  "grade": 5,
+  "slug": "saplina-359",
+  "url": "https://www.euroki.org/gdz/ru/istoriya/5_klass/saplina-359",
+  "text": "История Древнего мира 5 класс Авторы: Саплина ФГОС, Немировский Год: 2021-2022-2023 Тип: учебник Серия: Всеобщая история"
+ },
+ {
+  "source_subject": "istoriya",
+  "grade": 5,
+  "slug": "vigasin-fgos-938",
+  "url": "https://www.euroki.org/gdz/ru/istoriya/5_klass/vigasin-fgos-938",
+  "text": "История Древнего мира 5 класс Авторы: Вигасин ФГОС, Годер Год: 2020-2021-2022-2023 Тип: учебник"
+ },
+ {
+  "source_subject": "istoriya",
+  "grade": 5,
+  "slug": "vseobschaya-istoriya-5-klass-saplina-471",
+  "url": "https://www.euroki.org/gdz/ru/istoriya/5_klass/vseobschaya-istoriya-5-klass-saplina-471",
+  "text": "Всеобщая история 5 класс. Тематический контроль Авторы: Саплина Тип: учебник Серия: Тематический контроль"
+ },
+ {
+  "source_subject": "literatura",
+  "grade": 5,
+  "slug": "aleksandrova-492",
+  "url": "https://www.euroki.org/gdz/ru/literatura/5_klass/aleksandrova-492",
+  "text": "Родная русская литература 5 класс Авторы: Александрова ФГОС, Аристова Год: 2023 Тип: учебник"
+ },
+ {
+  "source_subject": "literatura",
+  "grade": 5,
+  "slug": "korovina-395",
+  "url": "https://www.euroki.org/gdz/ru/literatura/5_klass/korovina-395",
+  "text": "Литература 5 класс Авторы: Коровина ФГОС, Журавлев Год: 2023 Тип: учебник Часть: 1, 2"
+ },
+ {
+  "source_subject": "literatura",
+  "grade": 5,
+  "slug": "korovina-staroe-945",
+  "url": "https://www.euroki.org/gdz/ru/literatura/5_klass/korovina-staroe-945",
+  "text": "Литература 5 класс Авторы: Коровина, Журавлев Год: 2022 Тип: учебник Часть: 1, 2"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "alysheva-ovz-371",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/alysheva-ovz-371",
+  "text": "Математика 5 класс Авторы: Алышева, Амосова Год: 2023 Тип: учебник"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "gdz-po-matematike-5-klass-nikolskii-362",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/gdz-po-matematike-5-klass-nikolskii-362",
+  "text": "Математика 5 класс Авторы: Никольский, Потапов, Решетников Тип: учебник Серия: МГУ-школе"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "gdz-po-matematike-5-klass-perova-746",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/gdz-po-matematike-5-klass-perova-746",
+  "text": "Математика 5 класс Авторы: Перова, Капустина Тип: учебник Серия:"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "otvety-po-matematike-5-klass-kozlov-358",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/otvety-po-matematike-5-klass-kozlov-358",
+  "text": "Математика 5 класс Авторы: Козлов, Никитин Тип: учебник Серия: Инновационная школа"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "reshebnik-po-matematike-5-klass-dorofeev-sharygin-fgos-prosveschenie-53",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/reshebnik-po-matematike-5-klass-dorofeev-sharygin-fgos-prosveschenie-53",
+  "text": "Математика 5 класс Авторы: Дорофеев, Шарыгин Год: 2022 Тип: учебник Серия: Академический школьный учебник"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "reshebnik-po-matematike-5-klass-fgos-bunimovich-zadachnik-uchebnik-283",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/reshebnik-po-matematike-5-klass-fgos-bunimovich-zadachnik-uchebnik-283",
+  "text": "Математика 5 класс Авторы: Бунимович, Дорофеев Тип: учебник Серия: Сферы"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "reshebnik-po-matematike-5-klass-fgos-merzlyak-polonskii-676",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/reshebnik-po-matematike-5-klass-fgos-merzlyak-polonskii-676",
+  "text": "Математика 5 класс Авторы: Мерзляк ФГОС, Полонский, Якир. Новое издание Год: 2023 Тип: учебник Серия: Алгоритм успеха"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "reshebnik-po-matematike-5-klass-tkacheva-963",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/reshebnik-po-matematike-5-klass-tkacheva-963",
+  "text": "Математика 5 класс Авторы: Ткачева Тип: учебник"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "reshebnik-po-matematike-5-klass-vilenkin-fgos-409",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/reshebnik-po-matematike-5-klass-vilenkin-fgos-409",
+  "text": "Математика 5 класс Авторы: Виленкин ФГОС, Жохов, Чесноков Год: 2023 Тип: учебник Часть: 1, 2"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "reshebnik-po-matematike-5-klass-zubareva-mordkovich-fgos-522",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/reshebnik-po-matematike-5-klass-zubareva-mordkovich-fgos-522",
+  "text": "Математика 5 класс Авторы: Зубарева, Мордкович Год: 2021 Тип: учебник"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "vilenkin-fgos-273",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/vilenkin-fgos-273",
+  "text": "Математика 5 класс Авторы: Виленкин, Жохов Год: 2020-2021-2022 Тип: учебник Часть: 1, 2"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "vilenkin-staroe-izdanie-219",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/vilenkin-staroe-izdanie-219",
+  "text": "Математика 5 класс Авторы: Старое издание Год: 2018-2019 Тип: учебник Часть: 1, 2"
+ },
+ {
+  "source_subject": "matematika",
+  "grade": 5,
+  "slug": "vilenkin-universalnoe-izdanie-941",
+  "url": "https://www.euroki.org/gdz/ru/matematika/5_klass/vilenkin-universalnoe-izdanie-941",
+  "text": "Математика 5 класс Авторы: Очень старое издание Год: 2015-2016 Тип: учебник"
+ },
+ {
+  "source_subject": "russkiy",
+  "grade": 5,
+  "slug": "aleksandrova-122",
+  "url": "https://www.euroki.org/gdz/ru/russkiy/5_klass/aleksandrova-122",
+  "text": "Русский родной язык 5 класс Авторы: Александрова ФГОС, Загоровская Год: 2021-2022-2023 Тип: учебник Серия: Русский родной язык"
+ },
+ {
+  "source_subject": "russkiy",
+  "grade": 5,
+  "slug": "gdz-po-russkomu-yazyku-5-klass-razumovskaya-fgos-906",
+  "url": "https://www.euroki.org/gdz/ru/russkiy/5_klass/gdz-po-russkomu-yazyku-5-klass-razumovskaya-fgos-906",
+  "text": "Русский язык 5 класс Авторы: Разумовская, Львова Тип: учебник Серия: Старый и новый учебник"
+ },
+ {
+  "source_subject": "russkiy",
+  "grade": 5,
+  "slug": "ladyzhenskaya-fgos-2023-520",
+  "url": "https://www.euroki.org/gdz/ru/russkiy/5_klass/ladyzhenskaya-fgos-2023-520",
+  "text": "Русский язык 5 класс Авторы: Ладыженская ФГОС, Баранов. Зеленый Год: 2018-2019-2021-2022-2023 Тип: учебник Часть: 1, 2"
+ },
+ {
+  "source_subject": "russkiy",
+  "grade": 5,
+  "slug": "otvety-rybchenkova-996",
+  "url": "https://www.euroki.org/gdz/ru/russkiy/5_klass/otvety-rybchenkova-996",
+  "text": "Русский язык 5 класс Авторы: Рыбченкова, Александрова Год: 2020 Тип: учебник"
+ },
+ {
+  "source_subject": "russkiy",
+  "grade": 5,
+  "slug": "yakubovskaya-363",
+  "url": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363",
+  "text": "Русский язык 5 класс Авторы: Якубовская, Галунчикова Год: 2021 Тип: учебник Серия:"
+ },
+ {
   "source_subject": "algebra",
   "grade": 10,
   "slug": "merzlyak-bazovyi-118",
