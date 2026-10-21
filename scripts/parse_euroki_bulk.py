@@ -20,6 +20,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -73,11 +74,29 @@ def wait() -> None:
     _last_request = time.time()
 
 
+def cache_path(url: str) -> Path:
+    """Куда класть HTML в кэш.
+
+    Linux не даёт имена длиннее 255 байт, а slug из URL легко уходит за
+    тысячу символов — раньше это валило парсер с Errno 36. Поэтому имя по
+    умолчанию — md5 от URL; старое «читаемое» имя ищем только если файл там
+    уже лежит (совместимость с прогретым кэшем).
+    """
+    hashed = CACHE / ("h-" + hashlib.md5(url.encode("utf-8")).hexdigest() + ".html")
+    if hashed.exists():
+        return hashed
+    legacy = re.sub(r"[^a-z0-9]+", "-", url.lower()).strip("-") + ".html"
+    if len(legacy.encode("utf-8")) <= 240:
+        old = CACHE / legacy
+        if old.exists():
+            return old
+    return hashed
+
+
 def fetch(url: str, force: bool = False) -> str:
     """GET с дисковым кэшем, паузой и повторами при 403/429/5xx."""
     global _ua_index, _consecutive_errors
-    key = re.sub(r"[^a-z0-9]+", "-", url.lower()).strip("-") + ".html"
-    path = CACHE / key
+    path = cache_path(url)
     if path.exists() and not force:
         return path.read_text(encoding="utf-8")
     last_exc: Exception | None = None

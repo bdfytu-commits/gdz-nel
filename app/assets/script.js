@@ -447,13 +447,32 @@
     return (subject.textbooks || []).filter(function (b) { return b.id === id; })[0] || null;
   }
 
-  // облегчённый индекс: 24 МБ вместо загрузки всех 185 учебников
-  // (около 190 МБ). Поля короткие: b — книга, n — номер, g/s — класс и
-  // предмет, st/bt — названия, c — условие.
+  // облегчённый индекс: манифест search-index.json плюс, если он
+  // большой, несколько файлов-шардов (лимит Cloudflare Pages на файл).
+  // Поля короткие: b — книга, n — номер, g/s — класс и предмет,
+  // st/bt — названия, c — условие.
+  function loadIndexPayload(url) {
+    return getJSON(url).then(function (data) {
+      if (!data) return [];
+      if (Array.isArray(data.tasks)) return data.tasks;
+      if (!Array.isArray(data.shards) || !data.shards.length) return [];
+      var base = url.slice(0, url.lastIndexOf('/') + 1);
+      return Promise.all(data.shards.map(function (name) {
+        return getJSON(base + name);
+      })).then(function (parts) {
+        var all = [];
+        parts.forEach(function (part) {
+          if (part && Array.isArray(part.tasks)) all = all.concat(part.tasks);
+        });
+        return all;
+      });
+    });
+  }
+
   function loadSearchIndex() {
     if (searchIndex) return Promise.resolve(searchIndex);
-    return getJSON(DATA_DIR + 'search-index.json').then(function (data) {
-      searchIndex = (data && data.tasks) || [];
+    return loadIndexPayload(DATA_DIR + 'search-index.json').then(function (tasks) {
+      searchIndex = tasks || [];
       return searchIndex;
     });
   }

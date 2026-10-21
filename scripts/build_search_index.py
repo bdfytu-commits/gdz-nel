@@ -23,6 +23,9 @@ DATA = ROOT / "app" / "data"
 OUT = DATA / "search-index.json"
 
 SNIPPET_LIMIT = 150
+# Cloudflare Pages не принимает файлы больше ~25 МБ, поэтому крупный
+# индекс режем на части по 18 МБ, а в search-index.json кладём манифест.
+SHARD_LIMIT = 18 * 1024 * 1024
 
 
 def short(text: str, limit: int = SNIPPET_LIMIT) -> str:
@@ -92,12 +95,49 @@ def main() -> None:
     payload = {
         "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "count": len(records),
-        "tasks": records,
     }
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")),
-                   encoding="utf-8")
-    size = OUT.stat().st_size
-    print(f"готово: {len(records)} заданий, {size / 1024:.0f} КБ -> {OUT.relative_to(ROOT)}")
+    body = json.dumps(records, ensure_ascii=False, separators=(",", ":"))
+    size = len(body.encode("utf-8"))
+
+    for old in DATA.glob("search-index-*.json"):
+        old.unlink()
+
+    if size <= SHARD_LIMIT:
+        payload["tasks"] = records
+        OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")),
+                       encoding="utf-8")
+        print(f"готово: {len(records)} заданий, {OUT.stat().st_size / 1024:.0f} КБ -> {OUT.relative_to(ROOT)}")
+        return
+
+    # режем на шарды, чтобы каждый файл проходил лимит Cloudflare Pages
+    shards: list[str] = []
+    chunk: list[dict] = []
+    chunk_size = 0
+    for record in records:
+        record_size = len(json.dumps(record, ensure_ascii=False, separators=(",", ":"))) + 1
+        if chunk and chunk_size + record_size > SHARD_LIMIT:
+            name = f"search-index-{len(shards) + 1}.json"
+            (DATA / name).write_text(
+                json.dumps({"tasks": chunk}, ensure_ascii=False, separators=(",", ":")),
+                encoding="utf-8")
+            shards.append(name)
+            chunk = []
+            chunk_size = 0
+        chunk.append(record)
+        chunk_size += record_size
+    if chunk:
+        name = f"search-index-{len(shards) + 1}.json"
+        (DATA / name).write_text(
+            json.dumps({"tasks": chunk}, ensure_ascii=False, separators=(",", ":")),
+            encoding="utf-8")
+        shards.append(name)
+
+    payload["shards"] = shards
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"готово: {len(records)} заданий, {len(shards)} шардов по ~{SHARD_LIMIT / 1024 / 1024:.0f} МБ"
+          f" -> {OUT.relative_to(ROOT)}")
+    for name in shards:
+        print(f"  {name}: {(DATA / name).stat().st_size / 1024 / 1024:.1f} МБ")
 
 
 if __name__ == "__main__":

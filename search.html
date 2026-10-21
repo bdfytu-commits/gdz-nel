@@ -206,7 +206,24 @@
             return res.json();
           })
           .then(function (data) {
-            var tasks = (data && data.tasks) || [];
+            if (data && Array.isArray(data.tasks)) return data.tasks;
+            var shards = (data && data.shards) || [];
+            if (!shards.length) return [];
+            var base = INDEX_URL.slice(0, INDEX_URL.lastIndexOf('/') + 1);
+            return Promise.all(shards.map(function (name) {
+              return fetch(base + name).then(function (res) {
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                return res.json();
+              }).then(function (part) {
+                return (part && part.tasks) || [];
+              });
+            })).then(function (parts) {
+              var all = [];
+              parts.forEach(function (part) { all = all.concat(part); });
+              return all;
+            });
+          })
+          .then(function (tasks) {
             fuse = new window.Fuse(tasks, {
               includeMatches: true,
               threshold: 0.34,
