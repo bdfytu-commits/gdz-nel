@@ -71,20 +71,20 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-12-165"
     },
     {
-      "number": "13.2",
-      "section": "Страница 13",
-      "condition": "Что вы расскажете ей о том, что случилось?",
-      "solution": "А. Том утащил одежду Джейн в мышиную нору.\nВ. Том выбросил одежду Джейн из окна.\nС. Том, мышь, разрушил домик.\nА. Унка Мунка забрала стул, стоящий наверху.\nВ. Унка Мунка забрала стеллаж и клетку с собой в нору.\nС. Она оставила платья на кровати.\nА. Мальчик-с-пальчик съел продукты.\nВ. Он забрал пирог со стола.\nС. Мыши приготовили торт.",
-      "answer": "А. Том утащил одежду Джейн в мышиную нору.\nВ. Том выбросил одежду Джейн из окна.\nС. Том, мышь, разрушил домик.\nА. Унка Мунка забрала стул, стоящий наверху.\nВ. Унка Мунка забрала стеллаж и клетку с собой в нору.\nС. Она оставила платья на кровати.\nА. Мальчик-с-пальчик съел продукты.\nВ. Он забрал пирог со стола.\nС. Мыши приготовили торт.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-13-230"
-    },
-    {
       "number": "13.4",
       "section": "Выберите верный вариант ответа (а, b или с).",
       "condition": "Что мыши делали в доме?",
       "solution": "This tale has got this name, because two mice made a mess in the\ndoll’s house.\nЭта сказка получила такое название, потому что две мыши устроили\nбеспорядок в кукольном доме.\nThey broke up the food.\nThey took away bedclothes into the mouse-hole.\nThey threw Jane’s clothes out of the window.\nThey took a chair, a bookcase, a birdcage and Lucinda’s clothes.\nОни сломали еду.\nОни утащили постельное белье в мышиную нору.\nОни выбросили одежду Джейн из окна.\nОни взяли стул, стеллаж, птичью клетку и одежду Люсинды.",
       "answer": "This tale has got this name, because two mice made a mess in the\ndoll’s house.\nЭта сказка получила такое название, потому что две мыши устроили\nбеспорядок в кукольном доме.\nThey broke up the food.\nThey took away bedclothes into the mouse-hole.\nThey threw Jane’s clothes out of the window.\nThey took a chair, a bookcase, a birdcage and Lucinda’s clothes.\nОни сломали еду.\nОни утащили постельное белье в мышиную нору.\nОни выбросили одежду Джейн из окна.\nОни взяли стул, стеллаж, птичью клетку и одежду Люсинды.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-13-230"
+    },
+    {
+      "number": "13.2",
+      "section": "Страница 13",
+      "condition": "Что вы расскажете ей о том, что случилось?",
+      "solution": "А. Том утащил одежду Джейн в мышиную нору.\nВ. Том выбросил одежду Джейн из окна.\nС. Том, мышь, разрушил домик.\nА. Унка Мунка забрала стул, стоящий наверху.\nВ. Унка Мунка забрала стеллаж и клетку с собой в нору.\nС. Она оставила платья на кровати.\nА. Мальчик-с-пальчик съел продукты.\nВ. Он забрал пирог со стола.\nС. Мыши приготовили торт.",
+      "answer": "А. Том утащил одежду Джейн в мышиную нору.\nВ. Том выбросил одежду Джейн из окна.\nС. Том, мышь, разрушил домик.\nА. Унка Мунка забрала стул, стоящий наверху.\nВ. Унка Мунка забрала стеллаж и клетку с собой в нору.\nС. Она оставила платья на кровати.\nА. Мальчик-с-пальчик съел продукты.\nВ. Он забрал пирог со стола.\nС. Мыши приготовили торт.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-13-230"
     },
@@ -161,6 +161,24 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-16-739"
     },
     {
+      "number": "17.5",
+      "section": "Перевод",
+      "condition": "4) Что находится в их комнатах?",
+      "solution": "There are books and toys in Megan’s room. She doesn’t have a computer\nor a TV.\nThere is a TV, a video and a computer in Ben’s room.\nВ комнате Меган есть книги и игрушки. У нее нет ни компьютера, ни\nтелевизора.\nВ комнате Бена есть телевизор, видеомагнитофон и компьютер.",
+      "answer": "There are books and toys in Megan’s room. She doesn’t have a computer\nor a TV.\nThere is a TV, a video and a computer in Ben’s room.\nВ комнате Меган есть книги и игрушки. У нее нет ни компьютера, ни\nтелевизора.\nВ комнате Бена есть телевизор, видеомагнитофон и компьютер.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-17-361"
+    },
+    {
+      "number": "17.6",
+      "section": "Перевод",
+      "condition": "5) Они поддерживают чистоту в своих комнатах?",
+      "solution": "Megan’s room is always tidy.\nBen and his brother hate cleaning. That’s why their room is not very\ntidy.\nВ комнате Меган всегда порядок.\nБен и его брат ненавидят уборку. Поэтому в их комнате беспорядок.",
+      "answer": "Megan’s room is always tidy.\nBen and his brother hate cleaning. That’s why their room is not very\ntidy.\nВ комнате Меган всегда порядок.\nБен и его брат ненавидят уборку. Поэтому в их комнате беспорядок.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-17-361"
+    },
+    {
       "number": "17.2",
       "section": "Я счастлив, когда я дома.",
       "condition": "1) Что Меган и Бен пишут о своих комнатах?",
@@ -186,33 +204,6 @@
       "answer": "Ben shares a room with his brother.\nБен живет в комнате со своим братом.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-17-361"
-    },
-    {
-      "number": "17.5",
-      "section": "Перевод",
-      "condition": "4) Что находится в их комнатах?",
-      "solution": "There are books and toys in Megan’s room. She doesn’t have a computer\nor a TV.\nThere is a TV, a video and a computer in Ben’s room.\nВ комнате Меган есть книги и игрушки. У нее нет ни компьютера, ни\nтелевизора.\nВ комнате Бена есть телевизор, видеомагнитофон и компьютер.",
-      "answer": "There are books and toys in Megan’s room. She doesn’t have a computer\nor a TV.\nThere is a TV, a video and a computer in Ben’s room.\nВ комнате Меган есть книги и игрушки. У нее нет ни компьютера, ни\nтелевизора.\nВ комнате Бена есть телевизор, видеомагнитофон и компьютер.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-17-361"
-    },
-    {
-      "number": "17.6",
-      "section": "Перевод",
-      "condition": "5) Они поддерживают чистоту в своих комнатах?",
-      "solution": "Megan’s room is always tidy.\nBen and his brother hate cleaning. That’s why their room is not very\ntidy.\nВ комнате Меган всегда порядок.\nБен и его брат ненавидят уборку. Поэтому в их комнате беспорядок.",
-      "answer": "Megan’s room is always tidy.\nBen and his brother hate cleaning. That’s why their room is not very\ntidy.\nВ комнате Меган всегда порядок.\nБен и его брат ненавидят уборку. Поэтому в их комнате беспорядок.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-17-361"
-    },
-    {
-      "number": "18.1",
-      "section": "Страница 18",
-      "condition": "6) Бен и Меган как-то видоизменяли свои комнаты?",
-      "solution": "Megan has redecorated her room a little.\nBen hasn’t made any changes in his room.\nМеган немного видоизменила свою комнату.\nВ комнате Бена не произошло никаких изменений.",
-      "answer": "Megan has redecorated her room a little.\nBen hasn’t made any changes in his room.\nМеган немного видоизменила свою комнату.\nВ комнате Бена не произошло никаких изменений.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-18-664"
     },
     {
       "number": "18.2",
@@ -242,13 +233,13 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-18-664"
     },
     {
-      "number": "19",
-      "section": "Вот, где я живу",
-      "condition": "Вот, где я живу",
-      "solution": "В этом Юните я расскажу тебе о месте, где я живу.\nВот несколько фотографий моего родного города.\nМне нравится ходить в пиццерию со своей семьей.\nМы весело проводим время на ярмарке.\nЭто наш бассейн. Здесь круто!\nВы можете купить много вещей в нашем торговом центре. Он очень\nбольшой!",
-      "answer": "В этом Юните я расскажу тебе о месте, где я живу.\nВот несколько фотографий моего родного города.\nМне нравится ходить в пиццерию со своей семьей.\nМы весело проводим время на ярмарке.\nЭто наш бассейн. Здесь круто!\nВы можете купить много вещей в нашем торговом центре. Он очень\nбольшой!",
+      "number": "18.1",
+      "section": "Страница 18",
+      "condition": "6) Бен и Меган как-то видоизменяли свои комнаты?",
+      "solution": "Megan has redecorated her room a little.\nBen hasn’t made any changes in his room.\nМеган немного видоизменила свою комнату.\nВ комнате Бена не произошло никаких изменений.",
+      "answer": "Megan has redecorated her room a little.\nBen hasn’t made any changes in his room.\nМеган немного видоизменила свою комнату.\nВ комнате Бена не произошло никаких изменений.",
       "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-19-458"
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-18-664"
     },
     {
       "number": "20.2",
@@ -258,15 +249,6 @@
       "answer": "Музей\nПарк\nЯрмарка\nАвтобусная остановка\nЗоопарк\nБиблиотека\nТеатр\nБольница\nБассейн\nЗоомагазин\nКинотеатр\nПиццерия\nСупермаркет\nКафе\nШкола\nДетская площадка\nМагазин игрушек\nТорговый центр\nАвтобусный парк",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-20-706"
-    },
-    {
-      "number": "21.1",
-      "section": "Страница 21",
-      "condition": "2) Почему Энди нравится жить в своем городе?",
-      "solution": "He likes living in his town, because it is small and friendly. There\nare many interesting places in his town.\nЕму нравится жить в своем городе, потому что он маленький и дружный.\nВ его городе много интересных мест.\nЯ живу в маленьком дружном (доброжелательном) городе. В моем родном\nгороде много интересных мест: музей, театр и кинотеатр. Здесь также есть\nмного магазинов. Мне нравится ходить в торговый центр. Это самый большой\nторговый центр в городе. В нашем городе есть красивый парк с очень\nклассной ярмаркой и зоопарком. Мне нравится ходить на ярмарку со своими\nдрузьями.\nМне нравится ходить в кафе или пиццерию со своей семьей. Моя сестра\nЭшли и я ходим в школу рядом с нашим домом. Она не очень большая, но\nочень классная. В моем городе есть бассейн. Я часто хожу туда. Я хорошо\nплаваю. Мне нравится ходить в библиотеку рядом со своим домом. В моем\nродном городе есть больница и автобусный парк. Я люблю жителей своего\nгорода, они очень дружелюбные (доброжелательные).",
-      "answer": "He likes living in his town, because it is small and friendly. There\nare many interesting places in his town.\nЕму нравится жить в своем городе, потому что он маленький и дружный.\nВ его городе много интересных мест.\nЯ живу в маленьком дружном (доброжелательном) городе. В моем родном\nгороде много интересных мест: музей, театр и кинотеатр. Здесь также есть\nмного магазинов. Мне нравится ходить в торговый центр. Это самый большой\nторговый центр в городе. В нашем городе есть красивый парк с очень\nклассной ярмаркой и зоопарком. Мне нравится ходить на ярмарку со своими\nдрузьями.\nМне нравится ходить в кафе или пиццерию со своей семьей. Моя сестра\nЭшли и я ходим в школу рядом с нашим домом. Она не очень большая, но\nочень классная. В моем городе есть бассейн. Я часто хожу туда. Я хорошо\nплаваю. Мне нравится ходить в библиотеку рядом со своим домом. В моем\nродном городе есть больница и автобусный парк. Я люблю жителей своего\nгорода, они очень дружелюбные (доброжелательные).",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-21-436"
     },
     {
       "number": "21.2",
@@ -305,6 +287,15 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-21-436"
     },
     {
+      "number": "21.1",
+      "section": "Страница 21",
+      "condition": "2) Почему Энди нравится жить в своем городе?",
+      "solution": "He likes living in his town, because it is small and friendly. There\nare many interesting places in his town.\nЕму нравится жить в своем городе, потому что он маленький и дружный.\nВ его городе много интересных мест.\nЯ живу в маленьком дружном (доброжелательном) городе. В моем родном\nгороде много интересных мест: музей, театр и кинотеатр. Здесь также есть\nмного магазинов. Мне нравится ходить в торговый центр. Это самый большой\nторговый центр в городе. В нашем городе есть красивый парк с очень\nклассной ярмаркой и зоопарком. Мне нравится ходить на ярмарку со своими\nдрузьями.\nМне нравится ходить в кафе или пиццерию со своей семьей. Моя сестра\nЭшли и я ходим в школу рядом с нашим домом. Она не очень большая, но\nочень классная. В моем городе есть бассейн. Я часто хожу туда. Я хорошо\nплаваю. Мне нравится ходить в библиотеку рядом со своим домом. В моем\nродном городе есть больница и автобусный парк. Я люблю жителей своего\nгорода, они очень дружелюбные (доброжелательные).",
+      "answer": "He likes living in his town, because it is small and friendly. There\nare many interesting places in his town.\nЕму нравится жить в своем городе, потому что он маленький и дружный.\nВ его городе много интересных мест.\nЯ живу в маленьком дружном (доброжелательном) городе. В моем родном\nгороде много интересных мест: музей, театр и кинотеатр. Здесь также есть\nмного магазинов. Мне нравится ходить в торговый центр. Это самый большой\nторговый центр в городе. В нашем городе есть красивый парк с очень\nклассной ярмаркой и зоопарком. Мне нравится ходить на ярмарку со своими\nдрузьями.\nМне нравится ходить в кафе или пиццерию со своей семьей. Моя сестра\nЭшли и я ходим в школу рядом с нашим домом. Она не очень большая, но\nочень классная. В моем городе есть бассейн. Я часто хожу туда. Я хорошо\nплаваю. Мне нравится ходить в библиотеку рядом со своим домом. В моем\nродном городе есть больница и автобусный парк. Я люблю жителей своего\nгорода, они очень дружелюбные (доброжелательные).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-21-436"
+    },
+    {
       "number": "23.1",
       "section": "Страница 23",
       "condition": "3) В вашей культуре. Взгляните на картинки и помогите Анне\nрассказать Энди о Москве.",
@@ -321,6 +312,15 @@
       "answer": "1. Я захожу в магазин. B\n2. Я выхожу из музея. A\n3. Я перехожу через мост. D\n4. Я хожу вокруг статуи. C\n5. Я сажусь в автобус. E\n6. Я выхожу из поезда. J\n7. Я поднимаюсь вверх по горе и спускаюсь вниз. H\n8. Я иду прямо. G\n9. Я поворачиваю налево. I\n10. Я поворачиваю направо. F",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-24-571"
+    },
+    {
+      "number": "25.6",
+      "section": "Перевод",
+      "condition": "4) “Где вы?”",
+      "solution": "- Start from the supermarket. Turn left and go across the bridge.\nWhere am I? – Начни от супермаркета. Поверни налево и перейди через\nмост. Где я?\n- You are at the funfair. – Ты на ярмарке.\n- No, I’m not/Yes, I am. – Да/Нет.",
+      "answer": "- Start from the supermarket. Turn left and go across the bridge.\nWhere am I? – Начни от супермаркета. Поверни налево и перейди через\nмост. Где я?\n- You are at the funfair. – Ты на ярмарке.\n- No, I’m not/Yes, I am. – Да/Нет.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-25-172"
     },
     {
       "number": "25.3",
@@ -341,15 +341,6 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-25-172"
     },
     {
-      "number": "25.6",
-      "section": "Перевод",
-      "condition": "4) “Где вы?”",
-      "solution": "- Start from the supermarket. Turn left and go across the bridge.\nWhere am I? – Начни от супермаркета. Поверни налево и перейди через\nмост. Где я?\n- You are at the funfair. – Ты на ярмарке.\n- No, I’m not/Yes, I am. – Да/Нет.",
-      "answer": "- Start from the supermarket. Turn left and go across the bridge.\nWhere am I? – Начни от супермаркета. Поверни налево и перейди через\nмост. Где я?\n- You are at the funfair. – Ты на ярмарке.\n- No, I’m not/Yes, I am. – Да/Нет.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-25-172"
-    },
-    {
       "number": "26.2",
       "section": "В магазине игрушек",
       "condition": "1) Взгляните на поэтажный указатель Хамлиз. Что вы можете\nкупить в Хамлиз?",
@@ -357,15 +348,6 @@
       "answer": "-1 Этаж (цокольный этаж): компьютерные игры и спортивные товары\n0 Этаж: мягкие игрушки\n1 Этаж: игры и сладости\n2 Этаж: книги и музыкальные диски\n3 Этаж: куклы\n4 Этаж: поезда и машины\n5 Этаж: Лего и кафе",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-26-654"
-    },
-    {
-      "number": "27",
-      "section": "Страница 27",
-      "condition": "2) Бабушка и дедушка купили много подарков для Энди и Эшли в\nХамлиз. Взгляните на подарки и скажите, на каком этаже бабушка и дедушка\nих купили.",
-      "solution": "Пример:\nОни купили Барби на третьем этаже.\nThey bought Teddy Bear on the ground floor.\nThey bought the sports book on the basement.\nThey bought a skateboard on the basement.\nThey bought some sweets on the first floor.\nОни купили мишку Тедди на нулевом этаже.\nОни купили книгу о спорте на цокольном этаже.\nОни купили скейтборд на цокольном этаже.\nОни купили сладости на первом этаже.",
-      "answer": "Пример:\nОни купили Барби на третьем этаже.\nThey bought Teddy Bear on the ground floor.\nThey bought the sports book on the basement.\nThey bought a skateboard on the basement.\nThey bought some sweets on the first floor.\nОни купили мишку Тедди на нулевом этаже.\nОни купили книгу о спорте на цокольном этаже.\nОни купили скейтборд на цокольном этаже.\nОни купили сладости на первом этаже.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-27-289"
     },
     {
       "number": "28.2",
@@ -422,15 +404,6 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-30-796"
     },
     {
-      "number": "31.3",
-      "section": "Урок 5",
-      "condition": "1) Куда направляются дети?",
-      "solution": "They are going to the zoo, to the café and to the toy shop.\nВ зоопарк, кафе и магазин игрушек.\nА) – Простите. Как мне добраться до зоопарка?\n- Идите прямо к автобусной остановке. Сядьте на автобус номер 12.\nВыйдите из автобуса на 4ой остановке.\n- Спасибо большое.\nВ) – Простите. Не подскажете дорогу к кафе?\n- Простите, но я не знаю.\n- Все равно спасибо.\nС) – Простите. Где находится магазин игрушек?\n- Идите прямо к зоомагазину и поверните налево. Вы увидите магазин\nигрушек через улицу.\n- Большое спасибо.",
-      "answer": "They are going to the zoo, to the café and to the toy shop.\nВ зоопарк, кафе и магазин игрушек.\nА) – Простите. Как мне добраться до зоопарка?\n- Идите прямо к автобусной остановке. Сядьте на автобус номер 12.\nВыйдите из автобуса на 4ой остановке.\n- Спасибо большое.\nВ) – Простите. Не подскажете дорогу к кафе?\n- Простите, но я не знаю.\n- Все равно спасибо.\nС) – Простите. Где находится магазин игрушек?\n- Идите прямо к зоомагазину и поверните налево. Вы увидите магазин\nигрушек через улицу.\n- Большое спасибо.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-31-964"
-    },
-    {
       "number": "31.4",
       "section": "Перевод",
       "condition": "2) К какому диалогу относится картинка?",
@@ -454,6 +427,15 @@
       "condition": "1) Можете ли вы найти все диалоги в лабиринте?",
       "solution": "Как мне добраться до зоопарка?\nИдите прямо по мосту. Перейдите через мост. Зоопарк будет\nсправа.\nНе подскажете дорогу к парку?\nСядьте на автобус номер 2. Выйдите из автобуса на второй\nостановке.\nГде находится музей?\nИдите прямо. Поверните направо на Бридж Стрит. Перейдите через\nмост. Музей будет слева.",
       "answer": "Как мне добраться до зоопарка?\nИдите прямо по мосту. Перейдите через мост. Зоопарк будет\nсправа.\nНе подскажете дорогу к парку?\nСядьте на автобус номер 2. Выйдите из автобуса на второй\nостановке.\nГде находится музей?\nИдите прямо. Поверните направо на Бридж Стрит. Перейдите через\nмост. Музей будет слева.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-31-964"
+    },
+    {
+      "number": "31.3",
+      "section": "Урок 5",
+      "condition": "1) Куда направляются дети?",
+      "solution": "They are going to the zoo, to the café and to the toy shop.\nВ зоопарк, кафе и магазин игрушек.\nА) – Простите. Как мне добраться до зоопарка?\n- Идите прямо к автобусной остановке. Сядьте на автобус номер 12.\nВыйдите из автобуса на 4ой остановке.\n- Спасибо большое.\nВ) – Простите. Не подскажете дорогу к кафе?\n- Простите, но я не знаю.\n- Все равно спасибо.\nС) – Простите. Где находится магазин игрушек?\n- Идите прямо к зоомагазину и поверните налево. Вы увидите магазин\nигрушек через улицу.\n- Большое спасибо.",
+      "answer": "They are going to the zoo, to the café and to the toy shop.\nВ зоопарк, кафе и магазин игрушек.\nА) – Простите. Как мне добраться до зоопарка?\n- Идите прямо к автобусной остановке. Сядьте на автобус номер 12.\nВыйдите из автобуса на 4ой остановке.\n- Спасибо большое.\nВ) – Простите. Не подскажете дорогу к кафе?\n- Простите, но я не знаю.\n- Все равно спасибо.\nС) – Простите. Где находится магазин игрушек?\n- Идите прямо к зоомагазину и поверните налево. Вы увидите магазин\nигрушек через улицу.\n- Большое спасибо.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-31-964"
     },
@@ -485,15 +467,6 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-33-185"
     },
     {
-      "number": "34.2",
-      "section": "Страница 34",
-      "condition": "1) Какое сообщение она сделала?",
-      "solution": "Vika lives in Lipetsk. She likes living there because her hometown is\nbeautiful. There are many interesting places to visit there. You can see\nwild animals at the zoo. You can also go on rides in the park or have a\nwalk there, too. Her favourite place is the zoo. People are friendly and\nnice in her hometown. Her hometown is beautiful.\nВика живет в Липецке. Ей нравится жить там, потому что ее родной\nгород красивый. Там есть много интересных мест, которые можно посетить.\nВ зоопарке можно увидеть диких животных. Вы также можете покататься на\nаттракционах в парке или прогуляться там же. Ее любимое место - зоопарк.\nВ ее родном городе живут дружелюбные и милые люди. Ее родной город\nпрекрасен.",
-      "answer": "Vika lives in Lipetsk. She likes living there because her hometown is\nbeautiful. There are many interesting places to visit there. You can see\nwild animals at the zoo. You can also go on rides in the park or have a\nwalk there, too. Her favourite place is the zoo. People are friendly and\nnice in her hometown. Her hometown is beautiful.\nВика живет в Липецке. Ей нравится жить там, потому что ее родной\nгород красивый. Там есть много интересных мест, которые можно посетить.\nВ зоопарке можно увидеть диких животных. Вы также можете покататься на\nаттракционах в парке или прогуляться там же. Ее любимое место - зоопарк.\nВ ее родном городе живут дружелюбные и милые люди. Ее родной город\nпрекрасен.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-34-938"
-    },
-    {
       "number": "34.3",
       "section": "Перевод",
       "condition": "2) Послушайте рассказ Вики. Что вы узнали о\nЛипецке?",
@@ -512,13 +485,13 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-34-938"
     },
     {
-      "number": "35",
-      "section": "Работа моей мечты",
-      "condition": "Работа моей мечты",
-      "solution": "В этом Юните я собираюсь рассказать тебе о профессиях, которые мне\nнравятся.\nМой папа – врач.\nА мама – учительница.\nЭшли собирается стать актрисой или писательницей.\nА я собираюсь стать…\nСпарки: хорошим другом для меня!",
-      "answer": "В этом Юните я собираюсь рассказать тебе о профессиях, которые мне\nнравятся.\nМой папа – врач.\nА мама – учительница.\nЭшли собирается стать актрисой или писательницей.\nА я собираюсь стать…\nСпарки: хорошим другом для меня!",
+      "number": "34.2",
+      "section": "Страница 34",
+      "condition": "1) Какое сообщение она сделала?",
+      "solution": "Vika lives in Lipetsk. She likes living there because her hometown is\nbeautiful. There are many interesting places to visit there. You can see\nwild animals at the zoo. You can also go on rides in the park or have a\nwalk there, too. Her favourite place is the zoo. People are friendly and\nnice in her hometown. Her hometown is beautiful.\nВика живет в Липецке. Ей нравится жить там, потому что ее родной\nгород красивый. Там есть много интересных мест, которые можно посетить.\nВ зоопарке можно увидеть диких животных. Вы также можете покататься на\nаттракционах в парке или прогуляться там же. Ее любимое место - зоопарк.\nВ ее родном городе живут дружелюбные и милые люди. Ее родной город\nпрекрасен.",
+      "answer": "Vika lives in Lipetsk. She likes living there because her hometown is\nbeautiful. There are many interesting places to visit there. You can see\nwild animals at the zoo. You can also go on rides in the park or have a\nwalk there, too. Her favourite place is the zoo. People are friendly and\nnice in her hometown. Her hometown is beautiful.\nВика живет в Липецке. Ей нравится жить там, потому что ее родной\nгород красивый. Там есть много интересных мест, которые можно посетить.\nВ зоопарке можно увидеть диких животных. Вы также можете покататься на\nаттракционах в парке или прогуляться там же. Ее любимое место - зоопарк.\nВ ее родном городе живут дружелюбные и милые люди. Ее родной город\nпрекрасен.",
       "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-35-700"
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-34-938"
     },
     {
       "number": "36.3",
@@ -528,6 +501,15 @@
       "answer": "Врач\nУчитель\nПисатель\nВетеринар\nПевец\nМодель\nАктер или актриса\nПилот\nРепортер (корреспондент)\nСпортсмен\nПолицейский\nФермер",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-36-160"
+    },
+    {
+      "number": "37.5",
+      "section": "Перевод",
+      "condition": "1) Чем Элли занимается?",
+      "solution": "Ellie is a doctor. She works in a hospital. She helps sick\npeople.\nЭлли работает врачом,\nВрачом, врачом;\nЭлли работает врачом\nВесь день напролет.\nОна работает в больнице,\nВ больнице, в больнице;\nОна помогает больным людям.\nВот чем она занимается.",
+      "answer": "Ellie is a doctor. She works in a hospital. She helps sick\npeople.\nЭлли работает врачом,\nВрачом, врачом;\nЭлли работает врачом\nВесь день напролет.\nОна работает в больнице,\nВ больнице, в больнице;\nОна помогает больным людям.\nВот чем она занимается.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-37-927"
     },
     {
       "number": "37.1",
@@ -544,15 +526,6 @@
       "condition": "3) Какие самые популярные профессии в вашем классе?\nПроголосуйте! Выберите топ-5 профессий.",
       "solution": "He grows fruit and vegetables. I think he is a farmer.\nHe writes stories and novels. I think he is a writer.\nHe protects people from the criminals. I think he is a police\nofficer.\nHe makes news. I think he is a reporter.\nHe cares about animals. I think he is a vet.\nОн выращивает фрукты и овощи. Я думаю, что он фермер.\nОн пишет рассказы и романы. Я думаю, что он писатель.\nОн защищает людей от преступников. Я думаю, что он полицейский.\nОн делает новости. Я думаю, что он репортер.\nОн заботится о животных. Я думаю, что он ветеринар.",
       "answer": "He grows fruit and vegetables. I think he is a farmer.\nHe writes stories and novels. I think he is a writer.\nHe protects people from the criminals. I think he is a police\nofficer.\nHe makes news. I think he is a reporter.\nHe cares about animals. I think he is a vet.\nОн выращивает фрукты и овощи. Я думаю, что он фермер.\nОн пишет рассказы и романы. Я думаю, что он писатель.\nОн защищает людей от преступников. Я думаю, что он полицейский.\nОн делает новости. Я думаю, что он репортер.\nОн заботится о животных. Я думаю, что он ветеринар.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-37-927"
-    },
-    {
-      "number": "37.5",
-      "section": "Перевод",
-      "condition": "1) Чем Элли занимается?",
-      "solution": "Ellie is a doctor. She works in a hospital. She helps sick\npeople.\nЭлли работает врачом,\nВрачом, врачом;\nЭлли работает врачом\nВесь день напролет.\nОна работает в больнице,\nВ больнице, в больнице;\nОна помогает больным людям.\nВот чем она занимается.",
-      "answer": "Ellie is a doctor. She works in a hospital. She helps sick\npeople.\nЭлли работает врачом,\nВрачом, врачом;\nЭлли работает врачом\nВесь день напролет.\nОна работает в больнице,\nВ больнице, в больнице;\nОна помогает больным людям.\nВот чем она занимается.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-37-927"
     },
@@ -575,15 +548,6 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-38-675"
     },
     {
-      "number": "39.2",
-      "section": "Я собираюсь стать врачом",
-      "condition": "1) О каких профессиях они говорят?",
-      "solution": "They are talking about actors.\nОни говорят об актерах.\n- Кем ты собираешь быть, Дэниел?\n- Я собираюсь стать актером.\n- О! Эмили тоже собирается играть в пьесах и фильмах.\n- Правда? Это здорово! А мы собираемся стать известными актерами.\n- Но я не собираюсь становиться известной. Я собираюсь стать\nсчастливой.",
-      "answer": "They are talking about actors.\nОни говорят об актерах.\n- Кем ты собираешь быть, Дэниел?\n- Я собираюсь стать актером.\n- О! Эмили тоже собирается играть в пьесах и фильмах.\n- Правда? Это здорово! А мы собираемся стать известными актерами.\n- Но я не собираюсь становиться известной. Я собираюсь стать\nсчастливой.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-39-423"
-    },
-    {
       "number": "39.3",
       "section": "Перевод",
       "condition": "2) Какой вопрос задает Энди?",
@@ -602,13 +566,13 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-39-423"
     },
     {
-      "number": "40.2",
-      "section": "Страница 40",
-      "condition": "1) Послушайте Элли и угадайте работу ее мечты.",
-      "solution": "Ellie is going to sing and play music. She is going to be famous. She\nis going to be a singer.\nЭлли собирается петь и заниматься музыкой. Она собирается стать\nизвестной. Она собирается стать певицей.",
-      "answer": "Ellie is going to sing and play music. She is going to be famous. She\nis going to be a singer.\nЭлли собирается петь и заниматься музыкой. Она собирается стать\nизвестной. Она собирается стать певицей.",
+      "number": "39.2",
+      "section": "Я собираюсь стать врачом",
+      "condition": "1) О каких профессиях они говорят?",
+      "solution": "They are talking about actors.\nОни говорят об актерах.\n- Кем ты собираешь быть, Дэниел?\n- Я собираюсь стать актером.\n- О! Эмили тоже собирается играть в пьесах и фильмах.\n- Правда? Это здорово! А мы собираемся стать известными актерами.\n- Но я не собираюсь становиться известной. Я собираюсь стать\nсчастливой.",
+      "answer": "They are talking about actors.\nОни говорят об актерах.\n- Кем ты собираешь быть, Дэниел?\n- Я собираюсь стать актером.\n- О! Эмили тоже собирается играть в пьесах и фильмах.\n- Правда? Это здорово! А мы собираемся стать известными актерами.\n- Но я не собираюсь становиться известной. Я собираюсь стать\nсчастливой.",
       "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-40-606"
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-39-423"
     },
     {
       "number": "40.3",
@@ -638,6 +602,15 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-40-606"
     },
     {
+      "number": "40.2",
+      "section": "Страница 40",
+      "condition": "1) Послушайте Элли и угадайте работу ее мечты.",
+      "solution": "Ellie is going to sing and play music. She is going to be famous. She\nis going to be a singer.\nЭлли собирается петь и заниматься музыкой. Она собирается стать\nизвестной. Она собирается стать певицей.",
+      "answer": "Ellie is going to sing and play music. She is going to be famous. She\nis going to be a singer.\nЭлли собирается петь и заниматься музыкой. Она собирается стать\nизвестной. Она собирается стать певицей.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-40-606"
+    },
+    {
       "number": "41.2",
       "section": "Истории талантливых детей",
       "condition": "1) О чем эти рассказы? Соедините заголовки с\nрассказами.",
@@ -645,15 +618,6 @@
       "answer": "Хайд живет во Флориде, США. Ей 10 лет, и она красивая юная\nмодель. Ей нравятся книги, спорт и фильмы. Она очень хорошо играет на\nпианино. Она пишет книги для маленьких детей и делает хорошие сообщения\nдля школьной газеты. Она хочет стать писательницей или актрисой. – Say\nHello to Hyde. (Скажите Хайд привет)\nГрейс живет в Калифорнии, США. Ей 10 лет. Она начала заниматься\nрисованием, когда ей было 7. Сейчас вы можете увидеть ее картины на\nвыставках. Хобби Грейс: чтение, письмо, рисование, плавание и игра на\nпианино. Она очень хорошая ученица. Она очень любит животных, и однажды\nона станет ветеринаром. Painter with many hobbies. (Художник с большим\nколичеством интересов)\nМелисса живет в Москве, Россия. Ей 11 лет. Она собирается стать\nпевицей. Она ходит на занятия по вокалу и по игре на пианино. Ей было 3,\nкогда она начала петь. Когда ей было 5, она начала писать свои песни.\nМузыка – ее любимый предмет в школе. Она поет в школе, дома и на\nпеременках (в игровое время). Мы считаем, что она будет очень\nталантливой певицей. Moscow’s Miss Morozova. (Московская Мисс\nМорозова)\nАлек Медлок живет в Калифорнии, США. Ему 10 лет. Он любит читать,\nзаниматься спортом, играть в игры со своими друзьями и кататься на\nвелосипеде. И ему также нравится изучать языки. Алек ходил во\nфранцузскую школу, и он очень хорошо говорит на французском языке. У\nнего много друзей из Китая, и он собирается изучать китайский язык. Он\nсобирается хорошо говорить и на китайском языке. Он считает, что будет\nхорошо преподавать языки. Language Master. (Мастер языков)",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-41-962"
-    },
-    {
-      "number": "42",
-      "section": "Страница 42",
-      "condition": "2) Правила чтения. Являются ли следующие предложения верными\nили неверными, согласно рассказам? Докажите, используя\nтекст.",
-      "solution": "Мелисса собирается стать певицей\n. Т\nХайд пишет хорошие книги для детей.\nТ\nАлек Медлок ходил во французскую школу.\nТ\nХайд хочет быть учительницей китайского языка.\nF\nГрейс нравится рисовать и играть на пианино.\nТ\nМелисса будет талантливой актрисой.\nF\nАлек Медлок родом из Калифорнии.\nТ\nХобби Грейс – танцы и езда на велосипеде\n. F",
-      "answer": "Мелисса собирается стать певицей\n. Т\nХайд пишет хорошие книги для детей.\nТ\nАлек Медлок ходил во французскую школу.\nТ\nХайд хочет быть учительницей китайского языка.\nF\nГрейс нравится рисовать и играть на пианино.\nТ\nМелисса будет талантливой актрисой.\nF\nАлек Медлок родом из Калифорнии.\nТ\nХобби Грейс – танцы и езда на велосипеде\n. F",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-42-790"
     },
     {
       "number": "43.1",
@@ -692,15 +656,6 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-44-98"
     },
     {
-      "number": "46.1",
-      "section": "Страница 46",
-      "condition": "3) Какая работа подходит ему больше всего?\nПочему?",
-      "solution": "I think the best job for him is a teacher or a doctor, because Andy\nwants to work with people and help them.\nЯ считаю, что лучшая работа для него – это учитель или врач, потому\nчто Энди хочет работать с людьми и помогать им.",
-      "answer": "I think the best job for him is a teacher or a doctor, because Andy\nwants to work with people and help them.\nЯ считаю, что лучшая работа для него – это учитель или врач, потому\nчто Энди хочет работать с людьми и помогать им.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-46-293"
-    },
-    {
       "number": "46.2",
       "section": "Перевод",
       "condition": "2. Заполните анкету “Узнай про себя”.",
@@ -719,22 +674,13 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-46-293"
     },
     {
-      "number": "47",
-      "section": "Ответьте на вопросы.",
-      "condition": "Ответьте на вопросы.",
-      "solution": "1. Сколько новых слов и выражений из Юнитов 5,6 и 7 вы узнали?\n2. Какие слова мы употребляем, когда описываем дома и комнаты?\n3. Какие слова мы употребляем, когда описываем перемены в\nкомнатах?\n4. Какие слова мы употребляем, когда описываем свой родной город?\n5. Какие слова могут помочь тебе найти дорогу?\n6. Какие самые популярные профессии в твоем классе?\n1. to redecorate, a ground floor, a basement.\n2. a bathroom, a bedroom, a carpet, a chair, a cooker, a cupboard,\ndownstairs, a flat, a floor, a fridge, a living room, a sofa, upstairs,\na wardrobe, a corridor, a curtain, a dining room, messy, a shelf, a\nwall, a bookcase.\n3. nothing, neat, messy, a wall, a shelf, a curtain, to tidy, tidy,\nto redecorate, to change, a carpet etc.\n4. a bus station, a bus stop, a cinema, a hometown, a hospital, a\nlibrary, a museum, people, a pizza restaurant, a shop, a shopping\ncentre, a supermarket, a theatre.\n5. across, around, a direction, down, left, off, on, out of, right,\nstraight on, to turn, up, to get to, a way to.\n6. a model, a pilot, a sportsman, a singer.",
-      "answer": "1. Сколько новых слов и выражений из Юнитов 5,6 и 7 вы узнали?\n2. Какие слова мы употребляем, когда описываем дома и комнаты?\n3. Какие слова мы употребляем, когда описываем перемены в\nкомнатах?\n4. Какие слова мы употребляем, когда описываем свой родной город?\n5. Какие слова могут помочь тебе найти дорогу?\n6. Какие самые популярные профессии в твоем классе?\n1. to redecorate, a ground floor, a basement.\n2. a bathroom, a bedroom, a carpet, a chair, a cooker, a cupboard,\ndownstairs, a flat, a floor, a fridge, a living room, a sofa, upstairs,\na wardrobe, a corridor, a curtain, a dining room, messy, a shelf, a\nwall, a bookcase.\n3. nothing, neat, messy, a wall, a shelf, a curtain, to tidy, tidy,\nto redecorate, to change, a carpet etc.\n4. a bus station, a bus stop, a cinema, a hometown, a hospital, a\nlibrary, a museum, people, a pizza restaurant, a shop, a shopping\ncentre, a supermarket, a theatre.\n5. across, around, a direction, down, left, off, on, out of, right,\nstraight on, to turn, up, to get to, a way to.\n6. a model, a pilot, a sportsman, a singer.",
+      "number": "46.1",
+      "section": "Страница 46",
+      "condition": "3) Какая работа подходит ему больше всего?\nПочему?",
+      "solution": "I think the best job for him is a teacher or a doctor, because Andy\nwants to work with people and help them.\nЯ считаю, что лучшая работа для него – это учитель или врач, потому\nчто Энди хочет работать с людьми и помогать им.",
+      "answer": "I think the best job for him is a teacher or a doctor, because Andy\nwants to work with people and help them.\nЯ считаю, что лучшая работа для него – это учитель или врач, потому\nчто Энди хочет работать с людьми и помогать им.",
       "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-47-921"
-    },
-    {
-      "number": "49",
-      "section": "Лучшие моменты года",
-      "condition": "Лучшие моменты года",
-      "solution": "Время играть!\nЧто на твоем календаре?\nМы идем на пикник!\nТебе нравятся летние лагеря?\nТы хочешь быть знаменитым?\nГде Фадж?\nДавайте устроим школьную ярмарку!\nЧем ты собираешься заняться на каникулах?",
-      "answer": "Время играть!\nЧто на твоем календаре?\nМы идем на пикник!\nТебе нравятся летние лагеря?\nТы хочешь быть знаменитым?\nГде Фадж?\nДавайте устроим школьную ярмарку!\nЧем ты собираешься заняться на каникулах?",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-49-412"
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-46-293"
     },
     {
       "number": "50.3",
@@ -836,15 +782,6 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-56-849"
     },
     {
-      "number": "57.3",
-      "section": "Урок 4",
-      "condition": "1) Почему они известны?",
-      "solution": "They are famous because of their characters in Harry Potter\nfilms.\nОни известны благодаря своим персонажам в фильмах о Гарри\nПоттере.\nВопросы\nИмена\nДэниел Рэдклифф\nРуперт Гринт\nКогда ты родился?\n23 июля, 1989\n24 августа, 1988\nОткуда ты родом?\nЛондон\nХерефордшир\nУ тебя большая семья?\nМама и папа\nМама, папа, один младший брат и 3 младшие сестры\nУ тебя есть домашние питомцы?\nДве собаки\nОдна собака\nВ чем ты силен?\nАктерство, игра на гитаре, игра в футбол\nАктерство, игра на гитаре, игра в футбол, рисование\nЧто тебе нравится?\nРок музыка, написание рассказов, выполнение трюков\nПлавание, езда на велосипеде, прогулка с собакой, поп и рэп\nмузыка\nБлагодаря чему ты известен?\nРоль Гарри в пяти фильмах о Гарри Поттере\nРоль Рона в пяти фильмах о Гарри Поттере",
-      "answer": "They are famous because of their characters in Harry Potter\nfilms.\nОни известны благодаря своим персонажам в фильмах о Гарри\nПоттере.\nВопросы\nИмена\nДэниел Рэдклифф\nРуперт Гринт\nКогда ты родился?\n23 июля, 1989\n24 августа, 1988\nОткуда ты родом?\nЛондон\nХерефордшир\nУ тебя большая семья?\nМама и папа\nМама, папа, один младший брат и 3 младшие сестры\nУ тебя есть домашние питомцы?\nДве собаки\nОдна собака\nВ чем ты силен?\nАктерство, игра на гитаре, игра в футбол\nАктерство, игра на гитаре, игра в футбол, рисование\nЧто тебе нравится?\nРок музыка, написание рассказов, выполнение трюков\nПлавание, езда на велосипеде, прогулка с собакой, поп и рэп\nмузыка\nБлагодаря чему ты известен?\nРоль Гарри в пяти фильмах о Гарри Поттере\nРоль Рона в пяти фильмах о Гарри Поттере",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-57-243"
-    },
-    {
       "number": "57.4",
       "section": "Перевод",
       "condition": "2) Что вы узнали о Дэниеле и Руперте?",
@@ -854,13 +791,13 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-57-243"
     },
     {
-      "number": "58.1",
-      "section": "Страница 58",
-      "condition": "3) Эмма – любимая актриса Лизы. Она много знает об\nЭмме.",
-      "solution": "When was Emma born? – 15 April, 1990\nWhere is she from? – Oxford\nIs her family big? – Mum and one younger brother\nHas she got any pets? – 2 cats\nWhat is she good at? – Acting, singing, playing hockey and tennis,\nlearning languages (Актерство, пение, игра в хоккей и теннис, изучение\nязыков)\nWhat does she like? – Reading, playing sports, listening to music,\ngoing shopping and going out with her friends (чтение, занятие спортом,\nпрослушивание музыки, поход по магазинам и встречи с друзьями)\nWhat is she famous for? – Hermione in Harry Potter films (Роль\nГермионы в фильмах о Гарри Поттере)",
-      "answer": "When was Emma born? – 15 April, 1990\nWhere is she from? – Oxford\nIs her family big? – Mum and one younger brother\nHas she got any pets? – 2 cats\nWhat is she good at? – Acting, singing, playing hockey and tennis,\nlearning languages (Актерство, пение, игра в хоккей и теннис, изучение\nязыков)\nWhat does she like? – Reading, playing sports, listening to music,\ngoing shopping and going out with her friends (чтение, занятие спортом,\nпрослушивание музыки, поход по магазинам и встречи с друзьями)\nWhat is she famous for? – Hermione in Harry Potter films (Роль\nГермионы в фильмах о Гарри Поттере)",
+      "number": "57.3",
+      "section": "Урок 4",
+      "condition": "1) Почему они известны?",
+      "solution": "They are famous because of their characters in Harry Potter\nfilms.\nОни известны благодаря своим персонажам в фильмах о Гарри\nПоттере.\nВопросы\nИмена\nДэниел Рэдклифф\nРуперт Гринт\nКогда ты родился?\n23 июля, 1989\n24 августа, 1988\nОткуда ты родом?\nЛондон\nХерефордшир\nУ тебя большая семья?\nМама и папа\nМама, папа, один младший брат и 3 младшие сестры\nУ тебя есть домашние питомцы?\nДве собаки\nОдна собака\nВ чем ты силен?\nАктерство, игра на гитаре, игра в футбол\nАктерство, игра на гитаре, игра в футбол, рисование\nЧто тебе нравится?\nРок музыка, написание рассказов, выполнение трюков\nПлавание, езда на велосипеде, прогулка с собакой, поп и рэп\nмузыка\nБлагодаря чему ты известен?\nРоль Гарри в пяти фильмах о Гарри Поттере\nРоль Рона в пяти фильмах о Гарри Поттере",
+      "answer": "They are famous because of their characters in Harry Potter\nfilms.\nОни известны благодаря своим персонажам в фильмах о Гарри\nПоттере.\nВопросы\nИмена\nДэниел Рэдклифф\nРуперт Гринт\nКогда ты родился?\n23 июля, 1989\n24 августа, 1988\nОткуда ты родом?\nЛондон\nХерефордшир\nУ тебя большая семья?\nМама и папа\nМама, папа, один младший брат и 3 младшие сестры\nУ тебя есть домашние питомцы?\nДве собаки\nОдна собака\nВ чем ты силен?\nАктерство, игра на гитаре, игра в футбол\nАктерство, игра на гитаре, игра в футбол, рисование\nЧто тебе нравится?\nРок музыка, написание рассказов, выполнение трюков\nПлавание, езда на велосипеде, прогулка с собакой, поп и рэп\nмузыка\nБлагодаря чему ты известен?\nРоль Гарри в пяти фильмах о Гарри Поттере\nРоль Рона в пяти фильмах о Гарри Поттере",
       "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-58-191"
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-57-243"
     },
     {
       "number": "58.2",
@@ -890,6 +827,15 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-58-191"
     },
     {
+      "number": "58.1",
+      "section": "Страница 58",
+      "condition": "3) Эмма – любимая актриса Лизы. Она много знает об\nЭмме.",
+      "solution": "When was Emma born? – 15 April, 1990\nWhere is she from? – Oxford\nIs her family big? – Mum and one younger brother\nHas she got any pets? – 2 cats\nWhat is she good at? – Acting, singing, playing hockey and tennis,\nlearning languages (Актерство, пение, игра в хоккей и теннис, изучение\nязыков)\nWhat does she like? – Reading, playing sports, listening to music,\ngoing shopping and going out with her friends (чтение, занятие спортом,\nпрослушивание музыки, поход по магазинам и встречи с друзьями)\nWhat is she famous for? – Hermione in Harry Potter films (Роль\nГермионы в фильмах о Гарри Поттере)",
+      "answer": "When was Emma born? – 15 April, 1990\nWhere is she from? – Oxford\nIs her family big? – Mum and one younger brother\nHas she got any pets? – 2 cats\nWhat is she good at? – Acting, singing, playing hockey and tennis,\nlearning languages (Актерство, пение, игра в хоккей и теннис, изучение\nязыков)\nWhat does she like? – Reading, playing sports, listening to music,\ngoing shopping and going out with her friends (чтение, занятие спортом,\nпрослушивание музыки, поход по магазинам и встречи с друзьями)\nWhat is she famous for? – Hermione in Harry Potter films (Роль\nГермионы в фильмах о Гарри Поттере)",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-58-191"
+    },
+    {
       "number": "59.2",
       "section": "Давайте устроим школьную ярмарку!",
       "condition": "1) Что учителя и ученики собираются делать в этом году на\nлетней ярмарке? На ярмарке будет весело? Почему?",
@@ -897,15 +843,6 @@
       "answer": "The school teachers and children are going to organize a\ncompetition.\nI think the fair is going to be fun because there will be wonderful\nprizes, interesting competitions and sweets.\nУчителя и ученики собираются организовать конкурс.\nДумаю, ярмарка будет веселой, потому что будут замечательные призы,\nинтересные конкурсы и сладости.\nДобро пожаловать на летнюю ярмарку!\nУ нас будет проходить летняя ярмарка 17 июля в 3.30 дня.\nПожалуйста, принесите в школу:\nЛотерейные призы\nРастения\nЦветы\nКниги\nВы можете принести поделки или торты и печенья.\nМы собираемся собраться тысячу фунтов стерлингов.\nХотите принять участие в соревновании “Разукрашенные лица”? Не\nзабудьте принести краски для лица.\nВы можете прийти в причудливом наряде и получить чудесные призы.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-59-893"
-    },
-    {
-      "number": "60.1",
-      "section": "Страница 60",
-      "condition": "2) Для чего существуют школьные ярмарки? Как вы\nдумаете?",
-      "solution": "I think they are not only for having fun, but also for making new\nfriends.\nЯ думаю, что они существуют не только для развлечений, но и для\nзнакомства с новыми друзьями.",
-      "answer": "I think they are not only for having fun, but also for making new\nfriends.\nЯ думаю, что они существуют не только для развлечений, но и для\nзнакомства с новыми друзьями.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-60-476"
     },
     {
       "number": "60.3",
@@ -926,6 +863,15 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-60-476"
     },
     {
+      "number": "60.1",
+      "section": "Страница 60",
+      "condition": "2) Для чего существуют школьные ярмарки? Как вы\nдумаете?",
+      "solution": "I think they are not only for having fun, but also for making new\nfriends.\nЯ думаю, что они существуют не только для развлечений, но и для\nзнакомства с новыми друзьями.",
+      "answer": "I think they are not only for having fun, but also for making new\nfriends.\nЯ думаю, что они существуют не только для развлечений, но и для\nзнакомства с новыми друзьями.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-60-476"
+    },
+    {
       "number": "61.1",
       "section": "Страница 61",
       "condition": "3) Работа в группе.",
@@ -933,6 +879,15 @@
       "answer": "Группа 1:\nпослушайте сообщение о том, чем учителя,\nдети и их родители занимались на ярмарке.\nГруппа 2:\nзадайте группе 1 вопросы о том, чем\nзанимались учителя, дети и их родители на ярмарке.\n- What have parents done at the Fair?\n- Parents have bought 45 handicrafts, 30 books and a lot of plants\nand flowers.\n- What have teachers done?\n- Teachers, parents and children have bought and eaten 100 cakes.\nTeachers have raised 1000 pounds. The money will go to school\nprojects.\n- What have children done?\n- Children have got 20 lottery prizes.\n- Что родители сделали на ярмарке?\n- Родители купили 45 поделок, 30 книг, много растений и цветов.\n- Что сделали учителя?\n- Учителя, родители и дети купили и съели 100 пирожных. Учителя\nсобрали 1000 фунтов. Деньги пойдут на школьные проекты.\n- Что сделали дети?\n- Дети получили 20 лотерейных призов.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-61-193"
+    },
+    {
+      "number": "62.6",
+      "section": "Перевод",
+      "condition": "3. Работа в парах. Чем ты собираешься заняться летом?\nОбсудите свои планы с партнером. Используйте слова в\nрамочке.",
+      "solution": "- It’s summer at last! We can forget about homework and lessons.\n- Yes, we can do a lot of interesting things. We can go to the cafes\nand shopping centres.\n- We can also go on picnics. What are you going to do?\n- I’m going to travel to Spain with my parents.\n- Really? That’s great!\n- What are you going to do then?\n- I’m going to watch new films and read my favourite books.\n- Have a nice time!\n- Наконец-то лето! Мы можем забыть о домашних заданиях и уроках.\n- Да, мы можем заняться многими интересными вещами. Мы можем пойти в\nкафе и в торговые центры.\n- Мы также можем отправиться на пикники. Что ты собираешься\nделать?\n- Я собираюсь поехать в Испанию с родителями.\n- Правда? Это здорово!\n- Что ты собираешься делать?\n- Я буду смотреть новые фильмы и читать любимые книги.\n- Приятно провести время!",
+      "answer": "- It’s summer at last! We can forget about homework and lessons.\n- Yes, we can do a lot of interesting things. We can go to the cafes\nand shopping centres.\n- We can also go on picnics. What are you going to do?\n- I’m going to travel to Spain with my parents.\n- Really? That’s great!\n- What are you going to do then?\n- I’m going to watch new films and read my favourite books.\n- Have a nice time!\n- Наконец-то лето! Мы можем забыть о домашних заданиях и уроках.\n- Да, мы можем заняться многими интересными вещами. Мы можем пойти в\nкафе и в торговые центры.\n- Мы также можем отправиться на пикники. Что ты собираешься\nделать?\n- Я собираюсь поехать в Испанию с родителями.\n- Правда? Это здорово!\n- Что ты собираешься делать?\n- Я буду смотреть новые фильмы и читать любимые книги.\n- Приятно провести время!",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-62-871"
     },
     {
       "number": "62.3",
@@ -949,15 +904,6 @@
       "condition": "2) Энди и Гарри собираются весело провести время?\nПочему?",
       "solution": "Harry isn’t going to have fun, because he will stay at home.\nAndy is going to have fun, because he will visit Paris Disneyland\nwith his parents.\nГарри не будет весело проводить время, потому что он останется\nдома.\nЭнди собирается весело провести время, потому что он посетит\nПарижский Диснейленд со своими родителями.",
       "answer": "Harry isn’t going to have fun, because he will stay at home.\nAndy is going to have fun, because he will visit Paris Disneyland\nwith his parents.\nГарри не будет весело проводить время, потому что он останется\nдома.\nЭнди собирается весело провести время, потому что он посетит\nПарижский Диснейленд со своими родителями.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-62-871"
-    },
-    {
-      "number": "62.6",
-      "section": "Перевод",
-      "condition": "3. Работа в парах. Чем ты собираешься заняться летом?\nОбсудите свои планы с партнером. Используйте слова в\nрамочке.",
-      "solution": "- It’s summer at last! We can forget about homework and lessons.\n- Yes, we can do a lot of interesting things. We can go to the cafes\nand shopping centres.\n- We can also go on picnics. What are you going to do?\n- I’m going to travel to Spain with my parents.\n- Really? That’s great!\n- What are you going to do then?\n- I’m going to watch new films and read my favourite books.\n- Have a nice time!\n- Наконец-то лето! Мы можем забыть о домашних заданиях и уроках.\n- Да, мы можем заняться многими интересными вещами. Мы можем пойти в\nкафе и в торговые центры.\n- Мы также можем отправиться на пикники. Что ты собираешься\nделать?\n- Я собираюсь поехать в Испанию с родителями.\n- Правда? Это здорово!\n- Что ты собираешься делать?\n- Я буду смотреть новые фильмы и читать любимые книги.\n- Приятно провести время!",
-      "answer": "- It’s summer at last! We can forget about homework and lessons.\n- Yes, we can do a lot of interesting things. We can go to the cafes\nand shopping centres.\n- We can also go on picnics. What are you going to do?\n- I’m going to travel to Spain with my parents.\n- Really? That’s great!\n- What are you going to do then?\n- I’m going to watch new films and read my favourite books.\n- Have a nice time!\n- Наконец-то лето! Мы можем забыть о домашних заданиях и уроках.\n- Да, мы можем заняться многими интересными вещами. Мы можем пойти в\nкафе и в торговые центры.\n- Мы также можем отправиться на пикники. Что ты собираешься\nделать?\n- Я собираюсь поехать в Испанию с родителями.\n- Правда? Это здорово!\n- Что ты собираешься делать?\n- Я буду смотреть новые фильмы и читать любимые книги.\n- Приятно провести время!",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-62-871"
     },
@@ -1034,6 +980,33 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-65-974"
     },
     {
+      "number": "19",
+      "section": "Вот, где я живу",
+      "condition": "Вот, где я живу",
+      "solution": "В этом Юните я расскажу тебе о месте, где я живу.\nВот несколько фотографий моего родного города.\nМне нравится ходить в пиццерию со своей семьей.\nМы весело проводим время на ярмарке.\nЭто наш бассейн. Здесь круто!\nВы можете купить много вещей в нашем торговом центре. Он очень\nбольшой!",
+      "answer": "В этом Юните я расскажу тебе о месте, где я живу.\nВот несколько фотографий моего родного города.\nМне нравится ходить в пиццерию со своей семьей.\nМы весело проводим время на ярмарке.\nЭто наш бассейн. Здесь круто!\nВы можете купить много вещей в нашем торговом центре. Он очень\nбольшой!",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-19-458"
+    },
+    {
+      "number": "49",
+      "section": "Лучшие моменты года",
+      "condition": "Лучшие моменты года",
+      "solution": "Время играть!\nЧто на твоем календаре?\nМы идем на пикник!\nТебе нравятся летние лагеря?\nТы хочешь быть знаменитым?\nГде Фадж?\nДавайте устроим школьную ярмарку!\nЧем ты собираешься заняться на каникулах?",
+      "answer": "Время играть!\nЧто на твоем календаре?\nМы идем на пикник!\nТебе нравятся летние лагеря?\nТы хочешь быть знаменитым?\nГде Фадж?\nДавайте устроим школьную ярмарку!\nЧем ты собираешься заняться на каникулах?",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-49-412"
+    },
+    {
+      "number": "47",
+      "section": "Ответьте на вопросы.",
+      "condition": "Ответьте на вопросы.",
+      "solution": "1. Сколько новых слов и выражений из Юнитов 5,6 и 7 вы узнали?\n2. Какие слова мы употребляем, когда описываем дома и комнаты?\n3. Какие слова мы употребляем, когда описываем перемены в\nкомнатах?\n4. Какие слова мы употребляем, когда описываем свой родной город?\n5. Какие слова могут помочь тебе найти дорогу?\n6. Какие самые популярные профессии в твоем классе?\n1. to redecorate, a ground floor, a basement.\n2. a bathroom, a bedroom, a carpet, a chair, a cooker, a cupboard,\ndownstairs, a flat, a floor, a fridge, a living room, a sofa, upstairs,\na wardrobe, a corridor, a curtain, a dining room, messy, a shelf, a\nwall, a bookcase.\n3. nothing, neat, messy, a wall, a shelf, a curtain, to tidy, tidy,\nto redecorate, to change, a carpet etc.\n4. a bus station, a bus stop, a cinema, a hometown, a hospital, a\nlibrary, a museum, people, a pizza restaurant, a shop, a shopping\ncentre, a supermarket, a theatre.\n5. across, around, a direction, down, left, off, on, out of, right,\nstraight on, to turn, up, to get to, a way to.\n6. a model, a pilot, a sportsman, a singer.",
+      "answer": "1. Сколько новых слов и выражений из Юнитов 5,6 и 7 вы узнали?\n2. Какие слова мы употребляем, когда описываем дома и комнаты?\n3. Какие слова мы употребляем, когда описываем перемены в\nкомнатах?\n4. Какие слова мы употребляем, когда описываем свой родной город?\n5. Какие слова могут помочь тебе найти дорогу?\n6. Какие самые популярные профессии в твоем классе?\n1. to redecorate, a ground floor, a basement.\n2. a bathroom, a bedroom, a carpet, a chair, a cooker, a cupboard,\ndownstairs, a flat, a floor, a fridge, a living room, a sofa, upstairs,\na wardrobe, a corridor, a curtain, a dining room, messy, a shelf, a\nwall, a bookcase.\n3. nothing, neat, messy, a wall, a shelf, a curtain, to tidy, tidy,\nto redecorate, to change, a carpet etc.\n4. a bus station, a bus stop, a cinema, a hometown, a hospital, a\nlibrary, a museum, people, a pizza restaurant, a shop, a shopping\ncentre, a supermarket, a theatre.\n5. across, around, a direction, down, left, off, on, out of, right,\nstraight on, to turn, up, to get to, a way to.\n6. a model, a pilot, a sportsman, a singer.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-47-921"
+    },
+    {
       "number": "66",
       "section": "Ответьте на вопросы.",
       "condition": "Ответьте на вопросы.",
@@ -1041,6 +1014,33 @@
       "answer": "1. Сколько новых слов и словосочетаний из Юнита 8 вы узнали?\n2. Какие слова мы употребляем, когда говорим о занятиях после школы\n(кружках, секциях, свободном времени)?\n1. a handicraft, a fair, to raise, a husband.\n2. a calendar, a date, a fair, a moment, a prize, a competition, a\nhandicraft, to take part in, an event.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-66-44"
+    },
+    {
+      "number": "35",
+      "section": "Работа моей мечты",
+      "condition": "Работа моей мечты",
+      "solution": "В этом Юните я собираюсь рассказать тебе о профессиях, которые мне\nнравятся.\nМой папа – врач.\nА мама – учительница.\nЭшли собирается стать актрисой или писательницей.\nА я собираюсь стать…\nСпарки: хорошим другом для меня!",
+      "answer": "В этом Юните я собираюсь рассказать тебе о профессиях, которые мне\nнравятся.\nМой папа – врач.\nА мама – учительница.\nЭшли собирается стать актрисой или писательницей.\nА я собираюсь стать…\nСпарки: хорошим другом для меня!",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-35-700"
+    },
+    {
+      "number": "27",
+      "section": "Страница 27",
+      "condition": "2) Бабушка и дедушка купили много подарков для Энди и Эшли в\nХамлиз. Взгляните на подарки и скажите, на каком этаже бабушка и дедушка\nих купили.",
+      "solution": "Пример:\nОни купили Барби на третьем этаже.\nThey bought Teddy Bear on the ground floor.\nThey bought the sports book on the basement.\nThey bought a skateboard on the basement.\nThey bought some sweets on the first floor.\nОни купили мишку Тедди на нулевом этаже.\nОни купили книгу о спорте на цокольном этаже.\nОни купили скейтборд на цокольном этаже.\nОни купили сладости на первом этаже.",
+      "answer": "Пример:\nОни купили Барби на третьем этаже.\nThey bought Teddy Bear on the ground floor.\nThey bought the sports book on the basement.\nThey bought a skateboard on the basement.\nThey bought some sweets on the first floor.\nОни купили мишку Тедди на нулевом этаже.\nОни купили книгу о спорте на цокольном этаже.\nОни купили скейтборд на цокольном этаже.\nОни купили сладости на первом этаже.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-27-289"
+    },
+    {
+      "number": "42",
+      "section": "Страница 42",
+      "condition": "2) Правила чтения. Являются ли следующие предложения верными\nили неверными, согласно рассказам? Докажите, используя\nтекст.",
+      "solution": "Мелисса собирается стать певицей\n. Т\nХайд пишет хорошие книги для детей.\nТ\nАлек Медлок ходил во французскую школу.\nТ\nХайд хочет быть учительницей китайского языка.\nF\nГрейс нравится рисовать и играть на пианино.\nТ\nМелисса будет талантливой актрисой.\nF\nАлек Медлок родом из Калифорнии.\nТ\nХобби Грейс – танцы и езда на велосипеде\n. F",
+      "answer": "Мелисса собирается стать певицей\n. Т\nХайд пишет хорошие книги для детей.\nТ\nАлек Медлок ходил во французскую школу.\nТ\nХайд хочет быть учительницей китайского языка.\nF\nГрейс нравится рисовать и играть на пианино.\nТ\nМелисса будет талантливой актрисой.\nF\nАлек Медлок родом из Калифорнии.\nТ\nХобби Грейс – танцы и езда на велосипеде\n. F",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/2-str-42-790"
     }
   ],
   "part": 2

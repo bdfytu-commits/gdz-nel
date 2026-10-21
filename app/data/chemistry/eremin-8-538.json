@@ -1,0 +1,671 @@
+{
+  "subject": "chemistry",
+  "textbook": "eremin-8-538",
+  "author": "Еремин, Кузьменко",
+  "year": "2024",
+  "source": "parsed",
+  "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538",
+  "parsedAt": "2026-10-21T14:52:37Z",
+  "tasks": [
+    {
+      "number": "1",
+      "section": "§1. Вещества",
+      "condition": "§1. Вещества. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019267.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-1-veschestva"
+    },
+    {
+      "number": "10",
+      "section": "§10. Классификация веществ. Простые и сложные вещества",
+      "condition": "§10. Классификация веществ. Простые и сложные вещества. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019268.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-10-klassifikatsiya-veschestv-prostye-i-slozhnye-veschestva"
+    },
+    {
+      "number": "11",
+      "section": "§11. Относительная атомная и молекулярная массы",
+      "condition": "§11. Относительная атомная и молекулярная массы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019269.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-11-otnositelnaya-atomnaya-i-molekulyarnaya-massy"
+    },
+    {
+      "number": "12",
+      "section": "§12. Закон сохранения массы веществ. Уравнения химических реакций",
+      "condition": "§12. Закон сохранения массы веществ. Уравнения химических реакций. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019270.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-12-zakon-sohraneniya-massy-veschestv-uravneniya-himicheskih-reaktsiy"
+    },
+    {
+      "number": "13",
+      "section": "§13. Типы химических реакций",
+      "condition": "§13. Типы химических реакций. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019271.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-13-tipy-himicheskih-reaktsiy"
+    },
+    {
+      "number": "14",
+      "section": "§14. Кислород",
+      "condition": "§14. Кислород. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019272.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-14-kislorod"
+    },
+    {
+      "number": "15",
+      "section": "§15. Получение кислорода в лаборатории",
+      "condition": "§15. Получение кислорода в лаборатории. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019273.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-15-poluchenie-kisloroda-v-laboratorii"
+    },
+    {
+      "number": "16",
+      "section": "§16. Химические свойства кислорода",
+      "condition": "§16. Химические свойства кислорода. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019274.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-16-himicheskie-svoystva-kisloroda"
+    },
+    {
+      "number": "17",
+      "section": "§17. Валентность. Составление формул оксидов",
+      "condition": "§17. Валентность. Составление формул оксидов. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019275.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-17-valentnost-sostavlenie-formul-oksidov"
+    },
+    {
+      "number": "18",
+      "section": "§18. Воздух",
+      "condition": "§18. Воздух. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019276.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-18-vozduh"
+    },
+    {
+      "number": "19",
+      "section": "§19. Горение веществ на воздухе",
+      "condition": "§19. Горение веществ на воздухе. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019277.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-19-gorenie-veschestv-na-vozduhe"
+    },
+    {
+      "number": "2",
+      "section": "§2. Агрегатные состояния вещества",
+      "condition": "§2. Агрегатные состояния вещества. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019278.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-2-agregatnye-sostoyaniya-veschestva"
+    },
+    {
+      "number": "20",
+      "section": "§20. Получение кислорода в промышленности и его применение",
+      "condition": "§20. Получение кислорода в промышленности и его применение. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019279.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-20-poluchenie-kisloroda-v-promyshlennosti-i-ego-primenenie"
+    },
+    {
+      "number": "21",
+      "section": "§21. Водород",
+      "condition": "§21. Водород. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019280.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-21-vodorod"
+    },
+    {
+      "number": "22",
+      "section": "§22. Получение водорода в лаборатории",
+      "condition": "§22. Получение водорода в лаборатории. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019281.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-22-poluchenie-vodoroda-v-laboratorii"
+    },
+    {
+      "number": "23",
+      "section": "§23. Химические свойства водорода",
+      "condition": "§23. Химические свойства водорода. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019282.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-23-himicheskie-svoystva-vodoroda"
+    },
+    {
+      "number": "24",
+      "section": "§24. Применение водорода. Получение водорода в промышленности",
+      "condition": "§24. Применение водорода. Получение водорода в промышленности. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019283.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-24-primenenie-vodoroda-poluchenie-vodoroda-v-promyshlennosti"
+    },
+    {
+      "number": "25",
+      "section": "§25. Кислоты",
+      "condition": "§25. Кислоты. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019284.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-25-kisloty"
+    },
+    {
+      "number": "26",
+      "section": "§26. Соли",
+      "condition": "§26. Соли. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019285.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-26-soli"
+    },
+    {
+      "number": "27",
+      "section": "§27. Кислотные оксиды",
+      "condition": "§27. Кислотные оксиды. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019286.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-27-kislotnye-oksidy"
+    },
+    {
+      "number": "28",
+      "section": "§28. Вода",
+      "condition": "§28. Вода. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019287.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-28-voda"
+    },
+    {
+      "number": "29",
+      "section": "§29. Растворы. Растворимость твердых веществ в воде",
+      "condition": "§29. Растворы. Растворимость твердых веществ в воде. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019288.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-29-rastvory-rastvorimost-tverdyh-veschestv-v-vode"
+    },
+    {
+      "number": "3",
+      "section": "§3. Работа в химической лаборатории",
+      "condition": "§3. Работа в химической лаборатории. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019289.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-3-rabota-v-himicheskoy-laboratorii"
+    },
+    {
+      "number": "30",
+      "section": "§30. Растворимость газов и жидкостей в воде",
+      "condition": "§30. Растворимость газов и жидкостей в воде. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019290.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-30-rastvorimost-gazov-i-zhidkostey-v-vode"
+    },
+    {
+      "number": "31",
+      "section": "§31. Концентрация растворов. Массовая доля растворенного вещества",
+      "condition": "§31. Концентрация растворов. Массовая доля растворенного вещества. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019291.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-31-kontsentratsiya-rastvorov-massovaya-dolya-rastvorennogo-veschestva"
+    },
+    {
+      "number": "32",
+      "section": "§32. Приготовление растворов",
+      "condition": "§32. Приготовление растворов. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019292.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-32-prigotovlenie-rastvorov"
+    },
+    {
+      "number": "33",
+      "section": "§33. Химические свойства воды",
+      "condition": "§33. Химические свойства воды. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019293.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-33-himicheskie-svoystva-vody"
+    },
+    {
+      "number": "34",
+      "section": "§34. Основания",
+      "condition": "§34. Основания. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019294.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-34-osnovaniya"
+    },
+    {
+      "number": "35",
+      "section": "§35. Общая характеристика оксидов",
+      "condition": "§35. Общая характеристика оксидов. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019295.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-35-obschaya-harakteristika-oksidov"
+    },
+    {
+      "number": "36",
+      "section": "§36. Взаимодействие веществ, обладающих кислотными и основными свойствами",
+      "condition": "§36. Взаимодействие веществ, обладающих кислотными и основными свойствами. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019296.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-36-vzaimodeystvie-veschestv-obladayuschih-kislotnymi-i-osnovnymi-svoystvami"
+    },
+    {
+      "number": "37",
+      "section": "§37. Реакции обмена в водных растворах",
+      "condition": "§37. Реакции обмена в водных растворах. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019297.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-37-reaktsii-obmena-v-vodnyh-rastvorah"
+    },
+    {
+      "number": "38",
+      "section": "§38. Генетическая связь между важнейшими классами неорганических веществ",
+      "condition": "§38. Генетическая связь между важнейшими классами неорганических веществ. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019298.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-38-geneticheskaya-svyaz-mezhdu-vazhneyshimi-klassami-neorganicheskih-veschestv"
+    },
+    {
+      "number": "39",
+      "section": "§39. Первые попытки классификации химических элементов",
+      "condition": "§39. Первые попытки классификации химических элементов. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019299.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-39-pervye-popytki-klassifikatsii-himicheskih-elementov"
+    },
+    {
+      "number": "4",
+      "section": "§4. Индивидуальные вещества и смеси веществ",
+      "condition": "§4. Индивидуальные вещества и смеси веществ. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019300.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-4-individualnye-veschestva-i-smesi-veschestv"
+    },
+    {
+      "number": "40",
+      "section": "§40. Амфотерные оксиды и гидроксиды",
+      "condition": "§40. Амфотерные оксиды и гидроксиды. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019301.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-40-amfoternye-oksidy-i-gidroksidy"
+    },
+    {
+      "number": "41",
+      "section": "§41. Периодический закон. Периоды",
+      "condition": "§41. Периодический закон. Периоды. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019302.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-41-periodicheskiy-zakon-periody"
+    },
+    {
+      "number": "42",
+      "section": "§42. Периодическая система химических элементов Д. И. Менделеева. Группы",
+      "condition": "§42. Периодическая система химических элементов Д. И. Менделеева. Группы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019303.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-42-periodicheskaya-sistema-himicheskih-elementov-d-i-mendeleeva-gruppy"
+    },
+    {
+      "number": "43",
+      "section": "§43. Характеристика химического элемента по его положению в Периодической системе",
+      "condition": "§43. Характеристика химического элемента по его положению в Периодической системе. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019304.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-43-harakteristika-himicheskogo-elementa-po-ego-polozheniyu-v-periodicheskoy-sisteme"
+    },
+    {
+      "number": "44",
+      "section": "§44. Ядро атома",
+      "condition": "§44. Ядро атома. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019305.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-44-yadro-atoma"
+    },
+    {
+      "number": "45",
+      "section": "§45. Порядковый номер элемента. Изотопы",
+      "condition": "§45. Порядковый номер элемента. Изотопы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019306.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-45-poryadkovyy-nomer-elementa-izotopy"
+    },
+    {
+      "number": "46",
+      "section": "§46. Электроны в атоме. Орбитали",
+      "condition": "§46. Электроны в атоме. Орбитали. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019307.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-46-elektrony-v-atome-orbitali"
+    },
+    {
+      "number": "47",
+      "section": "§47. Строение электронных оболочек атомов",
+      "condition": "§47. Строение электронных оболочек атомов. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019308.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-47-stroenie-elektronnyh-obolochek-atomov"
+    },
+    {
+      "number": "48",
+      "section": "§48. Изменение свойств элементов в периодах и главных подгруппах. Электроотрицательность",
+      "condition": "§48. Изменение свойств элементов в периодах и главных подгруппах. Электроотрицательность. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019309.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-48-izmenenie-svoystv-elementov-v-periodah-i-glavnyh-podgruppah-elektrootritsatelnost"
+    },
+    {
+      "number": "49",
+      "section": "§49. Химическая связь и энергия",
+      "condition": "§49. Химическая связь и энергия. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019310.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-49-himicheskaya-svyaz-i-energiya"
+    },
+    {
+      "number": "5",
+      "section": "§5. Разделение смесей",
+      "condition": "§5. Разделение смесей. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019311.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-5-razdelenie-smesey"
+    },
+    {
+      "number": "50",
+      "section": "§50. Ковалентная связь",
+      "condition": "§50. Ковалентная связь. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019312.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-50-kovalentnaya-svyaz"
+    },
+    {
+      "number": "51",
+      "section": "§51. Полярная и неполярная связь. Свойства ковалентной связи",
+      "condition": "§51. Полярная и неполярная связь. Свойства ковалентной связи. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019313.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-51-polyarnaya-i-nepolyarnaya-svyaz-svoystva-kovalentnoy-svyazi"
+    },
+    {
+      "number": "52",
+      "section": "§52. Ионная связь",
+      "condition": "§52. Ионная связь. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019314.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-52-ionnaya-svyaz"
+    },
+    {
+      "number": "53",
+      "section": "§53. Металлическая связь",
+      "condition": "§53. Металлическая связь. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019315.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-53-metallicheskaya-svyaz"
+    },
+    {
+      "number": "54",
+      "section": "§54. Валентность и степень окисления",
+      "condition": "§54. Валентность и степень окисления. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019316.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-54-valentnost-i-stepen-okisleniya"
+    },
+    {
+      "number": "55",
+      "section": "§55. Твердые вещества",
+      "condition": "§55. Твердые вещества. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019317.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-55-tverdye-veschestva"
+    },
+    {
+      "number": "6",
+      "section": "§6. Физические и химические явления",
+      "condition": "§6. Физические и химические явления. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019318.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-6-fizicheskie-i-himicheskie-yavleniya"
+    },
+    {
+      "number": "7",
+      "section": "§7. Атомы. Химические элементы",
+      "condition": "§7. Атомы. Химические элементы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019319.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-7-atomy-himicheskie-elementy"
+    },
+    {
+      "number": "8",
+      "section": "§8. Молекулы. Атомно-молекулярная теория",
+      "condition": "§8. Молекулы. Атомно-молекулярная теория. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019320.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-8-molekuly-atomno-molekulyarnaya-teoriya"
+    },
+    {
+      "number": "9",
+      "section": "§9. Закон постоянного состава веществ молекулярного строения",
+      "condition": "§9. Закон постоянного состава веществ молекулярного строения. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5605/2019321.png?v=1596098948"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/himiya/8_klass/reshebnik-po-himii-8-klass-eremin-kuzmenko-538/paragrafy-zadanie-9-zakon-postoyannogo-sostava-veschestv-molekulyarnogo-stroeniya"
+    }
+  ]
+}

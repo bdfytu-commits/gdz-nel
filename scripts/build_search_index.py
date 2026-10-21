@@ -109,35 +109,50 @@ def main() -> None:
         print(f"готово: {len(records)} заданий, {OUT.stat().st_size / 1024:.0f} КБ -> {OUT.relative_to(ROOT)}")
         return
 
-    # режем на шарды, чтобы каждый файл проходил лимит Cloudflare Pages
-    shards: list[str] = []
-    chunk: list[dict] = []
-    chunk_size = 0
+    # шардим по классу и предмету: поиск подгружает только нужные части
+    GRADE_ORDER = ["5", "6", "7", "8", "9", "4", "3", "10", "11", "1", "2"]
+    SUBJECT_ORDER = ["math", "russian", "english", "algebra", "geometry", "physics",
+                     "chemistry", "biology", "history", "social", "geo", "informatics",
+                     "world", "literature", "history-maps"]
+    groups: dict[tuple[str, str], list[dict]] = {}
     for record in records:
-        record_size = len(json.dumps(record, ensure_ascii=False, separators=(",", ":"))) + 1
-        if chunk and chunk_size + record_size > SHARD_LIMIT:
-            name = f"search-index-{len(shards) + 1}.json"
-            (DATA / name).write_text(
-                json.dumps({"tasks": chunk}, ensure_ascii=False, separators=(",", ":")),
-                encoding="utf-8")
-            shards.append(name)
-            chunk = []
-            chunk_size = 0
-        chunk.append(record)
-        chunk_size += record_size
-    if chunk:
-        name = f"search-index-{len(shards) + 1}.json"
-        (DATA / name).write_text(
-            json.dumps({"tasks": chunk}, ensure_ascii=False, separators=(",", ":")),
-            encoding="utf-8")
-        shards.append(name)
+        groups.setdefault((str(record.get("g") or "0"), str(record.get("s") or "0")), []).append(record)
+
+    def group_key(pair: tuple[str, str]) -> tuple:
+        g, s = pair
+        return (GRADE_ORDER.index(g) if g in GRADE_ORDER else 99,
+                SUBJECT_ORDER.index(s) if s in SUBJECT_ORDER else 99, g, s)
+
+    shards: list[dict] = []
+    for (grade, subject) in sorted(groups, key=group_key):
+        chunk: list[dict] = []
+        chunk_size = 0
+        chunks: list[list[dict]] = []
+        for record in groups[(grade, subject)]:
+            record_size = len(json.dumps(record, ensure_ascii=False, separators=(",", ":"))) + 1
+            if chunk and chunk_size + record_size > SHARD_LIMIT:
+                chunks.append(chunk)
+                chunk = []
+                chunk_size = 0
+            chunk.append(record)
+            chunk_size += record_size
+        if chunk:
+            chunks.append(chunk)
+        for index, part in enumerate(chunks, 1):
+            suffix = f"-{index}" if len(chunks) > 1 else ""
+            name = f"search-index-{grade}-{subject}{suffix}.json"
+            body_part = json.dumps({"grade": grade, "subject": subject, "tasks": part},
+                                   ensure_ascii=False, separators=(",", ":"))
+            (DATA / name).write_text(body_part, encoding="utf-8")
+            shards.append({"file": name, "grade": grade, "subject": subject, "count": len(part)})
 
     payload["shards"] = shards
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"готово: {len(records)} заданий, {len(shards)} шардов по ~{SHARD_LIMIT / 1024 / 1024:.0f} МБ"
+    print(f"готово: {len(records)} заданий, {len(shards)} шардов по классам и предметам"
           f" -> {OUT.relative_to(ROOT)}")
-    for name in shards:
-        print(f"  {name}: {(DATA / name).stat().st_size / 1024 / 1024:.1f} МБ")
+    for shard in shards:
+        size = (DATA / shard["file"]).stat().st_size / 1024 / 1024
+        print(f"  {shard['file']}: {shard['count']} заданий, {size:.1f} МБ")
 
 
 if __name__ == "__main__":

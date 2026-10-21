@@ -189,7 +189,10 @@
 
   <script src="assets/script.js"></script>
   <script type="module">
-    import { supabase, getSession } from './assets/supabase.js';
+    import { supabase, getSession, initHeaderAuth } from './assets/supabase.js';
+
+    // если пользователь уже вошёл, в шапке показываем аватар
+    initHeaderAuth();
 
     /* ---------- вспомогательное ---------- */
 

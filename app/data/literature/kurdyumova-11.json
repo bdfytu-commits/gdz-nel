@@ -8,103 +8,6 @@
   "parsedAt": "2026-10-20T06:59:28Z",
   "tasks": [
     {
-      "number": "1.41",
-      "section": "Часть 1, страница 41",
-      "condition": "Задание 41. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e133d.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e1a48.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e2182.jpg"
-      ],
-      "source": "gdz.ru",
-      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-41/"
-    },
-    {
-      "number": "1.43",
-      "section": "Часть 1, страница 43",
-      "condition": "Задание 43. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e2824.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e2ee1.jpg"
-      ],
-      "source": "gdz.ru",
-      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-43/"
-    },
-    {
-      "number": "1.68",
-      "section": "Часть 1, страница 68",
-      "condition": "Задание 68. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e3452.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e3b8b.jpg"
-      ],
-      "source": "gdz.ru",
-      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-68/"
-    },
-    {
-      "number": "1.69",
-      "section": "Часть 1, страница 69",
-      "condition": "Задание 69. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e41fe.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e48fa.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e4cc7.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e53f7.jpg"
-      ],
-      "source": "gdz.ru",
-      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-69/"
-    },
-    {
-      "number": "1.87",
-      "section": "Часть 1, страница 87",
-      "condition": "Задание 87. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e5a1e.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e611f.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e6825.jpg"
-      ],
-      "source": "gdz.ru",
-      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-87/"
-    },
-    {
-      "number": "1.88",
-      "section": "Часть 1, страница 88",
-      "condition": "Задание 88. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e6cc0.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e73e5.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e7b13.jpg"
-      ],
-      "source": "gdz.ru",
-      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-88/"
-    },
-    {
-      "number": "1.89",
-      "section": "Часть 1, страница 89",
-      "condition": "Задание 89. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e812f.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e8842.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e8f4e.jpg"
-      ],
-      "source": "gdz.ru",
-      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-89/"
-    },
-    {
       "number": "1.105",
       "section": "Часть 1, страница 105",
       "condition": "Задание 105. Решение на изображении.",
@@ -440,60 +343,101 @@
       "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-349/"
     },
     {
-      "number": "2.23",
-      "section": "Часть 2, страница 23",
-      "condition": "Задание 23. Решение на изображении.",
+      "number": "1.41",
+      "section": "Часть 1, страница 41",
+      "condition": "Задание 41. Решение на изображении.",
       "solution": "Решение на изображении.",
       "answer": "См. изображение.",
       "images": [
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e701076.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e70172e.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e701c34.jpg"
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e133d.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e1a48.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e2182.jpg"
       ],
       "source": "gdz.ru",
-      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/2-prt-23/"
+      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-41/"
     },
     {
-      "number": "2.49",
-      "section": "Часть 2, страница 49",
-      "condition": "Задание 49. Решение на изображении.",
+      "number": "1.43",
+      "section": "Часть 1, страница 43",
+      "condition": "Задание 43. Решение на изображении.",
       "solution": "Решение на изображении.",
       "answer": "См. изображение.",
       "images": [
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e70791c.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e707f40.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e708621.jpg"
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e2824.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e2ee1.jpg"
       ],
       "source": "gdz.ru",
-      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/2-prt-49/"
+      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-43/"
     },
     {
-      "number": "2.50",
-      "section": "Часть 2, страница 50",
-      "condition": "Задание 50. Решение на изображении.",
+      "number": "1.68",
+      "section": "Часть 1, страница 68",
+      "condition": "Задание 68. Решение на изображении.",
       "solution": "Решение на изображении.",
       "answer": "См. изображение.",
       "images": [
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e708d2b.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e70946f.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e709b08.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e70a183.jpg"
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e3452.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e3b8b.jpg"
       ],
       "source": "gdz.ru",
-      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/2-prt-50/"
+      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-68/"
     },
     {
-      "number": "2.99",
-      "section": "Часть 2, страница 99",
-      "condition": "Задание 99. Решение на изображении.",
+      "number": "1.69",
+      "section": "Часть 1, страница 69",
+      "condition": "Задание 69. Решение на изображении.",
       "solution": "Решение на изображении.",
       "answer": "См. изображение.",
       "images": [
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e70a6ea.jpg",
-        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e70ad7c.jpg"
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e41fe.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e48fa.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e4cc7.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e53f7.jpg"
       ],
       "source": "gdz.ru",
-      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/2-prt-99/"
+      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-69/"
+    },
+    {
+      "number": "1.87",
+      "section": "Часть 1, страница 87",
+      "condition": "Задание 87. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e5a1e.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e611f.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e6825.jpg"
+      ],
+      "source": "gdz.ru",
+      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-87/"
+    },
+    {
+      "number": "1.88",
+      "section": "Часть 1, страница 88",
+      "condition": "Задание 88. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e6cc0.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e73e5.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e7b13.jpg"
+      ],
+      "source": "gdz.ru",
+      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-88/"
+    },
+    {
+      "number": "1.89",
+      "section": "Часть 1, страница 89",
+      "condition": "Задание 89. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e812f.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e8842.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e6e8f4e.jpg"
+      ],
+      "source": "gdz.ru",
+      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/1-prt-89/"
     },
     {
       "number": "2.100",
@@ -658,6 +602,20 @@
       "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/2-prt-219/"
     },
     {
+      "number": "2.23",
+      "section": "Часть 2, страница 23",
+      "condition": "Задание 23. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e701076.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e70172e.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e701c34.jpg"
+      ],
+      "source": "gdz.ru",
+      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/2-prt-23/"
+    },
+    {
       "number": "2.238",
       "section": "Часть 2, страница 238",
       "condition": "Задание 238. Решение на изображении.",
@@ -703,6 +661,48 @@
       ],
       "source": "gdz.ru",
       "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/2-prt-241/"
+    },
+    {
+      "number": "2.49",
+      "section": "Часть 2, страница 49",
+      "condition": "Задание 49. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e70791c.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e707f40.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e708621.jpg"
+      ],
+      "source": "gdz.ru",
+      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/2-prt-49/"
+    },
+    {
+      "number": "2.50",
+      "section": "Часть 2, страница 50",
+      "condition": "Задание 50. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e708d2b.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e70946f.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e709b08.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e70a183.jpg"
+      ],
+      "source": "gdz.ru",
+      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/2-prt-50/"
+    },
+    {
+      "number": "2.99",
+      "section": "Часть 2, страница 99",
+      "condition": "Задание 99. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e70a6ea.jpg",
+        "https://gdz.ru/attachments/images/tasks/000/118/823/0000/626670e70ad7c.jpg"
+      ],
+      "source": "gdz.ru",
+      "sourceUrl": "https://gdz.ru/class-11/literatura/kurdyumova/2-prt-99/"
     }
   ]
 }

@@ -8,6 +8,102 @@
   "parsedAt": "2026-10-20T06:04:33Z",
   "tasks": [
     {
+      "number": "Лабораторная работа №1. Наблюдение действия магнитного поля на ток",
+      "section": "Задания",
+      "condition": "Задание Лабораторная работа №1. Наблюдение действия магнитного поля на ток. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/l-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "Лабораторная работа №2. Изучение явления электромагнитной индукции",
+      "section": "Задания",
+      "condition": "Задание Лабораторная работа №2. Изучение явления электромагнитной индукции. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/l-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "Лабораторная работа №3. Определение ускорения свободного падения при помощи маятника",
+      "section": "Задания",
+      "condition": "Задание Лабораторная работа №3. Определение ускорения свободного падения при помощи маятника. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/l-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "Лабораторная работа №4. Измерение показателя преломления стекла",
+      "section": "Задания",
+      "condition": "Задание Лабораторная работа №4. Измерение показателя преломления стекла. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/l-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "Лабораторная работа №5. Определение оптической силы и фокусного расстояния собирающей линзы",
+      "section": "Задания",
+      "condition": "Задание Лабораторная работа №5. Определение оптической силы и фокусного расстояния собирающей линзы. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/l-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "Лабораторная работа №6. Измерение длины световой волны",
+      "section": "Задания",
+      "condition": "Задание Лабораторная работа №6. Измерение длины световой волны. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/l-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "Лабораторная работа №7. Оценка информационной емкости компакт-диска (cd)",
+      "section": "Задания",
+      "condition": "Задание Лабораторная работа №7. Оценка информационной емкости компакт-диска (cd). Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/l-7.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "Лабораторная работа №8. Наблюдение сплошного и линейчатого спектров",
+      "section": "Задания",
+      "condition": "Задание Лабораторная работа №8. Наблюдение сплошного и линейчатого спектров. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/l-8.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "1.1",
       "section": "§1. Магнитное поле. индукция магнитного поля",
       "condition": "Задание 1. Решение на изображении.",
@@ -15,6 +111,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/5-11-p-1-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "1.A1",
+      "section": "§1. Магнитное поле. индукция магнитного поля",
+      "condition": "Задание A1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/5-11-p-1-ze-a1.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -32,6 +140,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "1.A2",
+      "section": "§1. Магнитное поле. индукция магнитного поля",
+      "condition": "Задание A2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/5-11-p-1-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "1.3",
       "section": "§1. Магнитное поле. индукция магнитного поля",
       "condition": "Задание 3. Решение на изображении.",
@@ -39,6 +159,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/5-11-p-1-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "1.A3",
+      "section": "§1. Магнитное поле. индукция магнитного поля",
+      "condition": "Задание A3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/5-11-p-1-ze-a3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -68,42 +200,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "1.A1",
-      "section": "§1. Магнитное поле. индукция магнитного поля",
-      "condition": "Задание A1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/5-11-p-1-ze-a1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "1.A2",
-      "section": "§1. Магнитное поле. индукция магнитного поля",
-      "condition": "Задание A2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/5-11-p-1-ze-a2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "1.A3",
-      "section": "§1. Магнитное поле. индукция магнитного поля",
-      "condition": "Задание A3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/5-11-p-1-ze-a3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "2.1",
       "section": "§2. Сила Ампера",
       "condition": "Задание 1. Решение на изображении.",
@@ -111,6 +207,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "2.A1",
+      "section": "§2. Сила Ампера",
+      "condition": "Задание A1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-ze-a1.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -128,6 +236,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "2.A2",
+      "section": "§2. Сила Ампера",
+      "condition": "Задание A2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "2.3",
       "section": "§2. Сила Ампера",
       "condition": "Задание 3. Решение на изображении.",
@@ -135,6 +255,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "2.A3",
+      "section": "§2. Сила Ампера",
+      "condition": "Задание A3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-ze-a3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -152,6 +284,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "2.A4",
+      "section": "§2. Сила Ампера",
+      "condition": "Задание A4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-ze-a4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "2.5",
       "section": "§2. Сила Ампера",
       "condition": "Задание 5. Решение на изображении.",
@@ -164,6 +308,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "2.A5",
+      "section": "§2. Сила Ампера",
+      "condition": "Задание A5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-ze-a5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "2.6",
       "section": "§2. Сила Ампера",
       "condition": "Задание 6. Решение на изображении.",
@@ -171,6 +327,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-v-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "2.A6",
+      "section": "§2. Сила Ампера",
+      "condition": "Задание A6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-ze-a6.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -212,78 +380,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "2.A1",
-      "section": "§2. Сила Ампера",
-      "condition": "Задание A1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-ze-a1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "2.A2",
-      "section": "§2. Сила Ампера",
-      "condition": "Задание A2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-ze-a2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "2.A3",
-      "section": "§2. Сила Ампера",
-      "condition": "Задание A3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-ze-a3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "2.A4",
-      "section": "§2. Сила Ампера",
-      "condition": "Задание A4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-ze-a4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "2.A5",
-      "section": "§2. Сила Ампера",
-      "condition": "Задание A5. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-ze-a5.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "2.A6",
-      "section": "§2. Сила Ампера",
-      "condition": "Задание A6. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/12-16-p-2-ze-a6.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "3.1",
       "section": "§3. Примеры решения задач по теме «Сила Ампера»",
       "condition": "Задание 1. Решение на изображении.",
@@ -291,6 +387,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/17-19-p-3-sr-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "3.A1",
+      "section": "§3. Примеры решения задач по теме «Сила Ампера»",
+      "condition": "Задание A1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/17-19-p-3-ze-a1.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -308,18 +416,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "3.3",
-      "section": "§3. Примеры решения задач по теме «Сила Ампера»",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/17-19-p-3-sr-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "3.C2",
       "section": "§3. Примеры решения задач по теме «Сила Ампера»",
       "condition": "Задание C2. Решение на изображении.",
@@ -327,6 +423,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/17-19-p-3-ze-c2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "3.3",
+      "section": "§3. Примеры решения задач по теме «Сила Ампера»",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/17-19-p-3-sr-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -368,18 +476,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "3.A1",
-      "section": "§3. Примеры решения задач по теме «Сила Ампера»",
-      "condition": "Задание A1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/17-19-p-3-ze-a1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "4.1",
       "section": "§4. Действие магнитного поля на движущуюся заряженную частицу. Сила Лоренца",
       "condition": "Задание 1. Решение на изображении.",
@@ -387,30 +483,6 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/20-23-p-4-v-1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "4.2",
-      "section": "§4. Действие магнитного поля на движущуюся заряженную частицу. Сила Лоренца",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/20-23-p-4-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "4.3",
-      "section": "§4. Действие магнитного поля на движущуюся заряженную частицу. Сила Лоренца",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/20-23-p-4-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -428,6 +500,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "4.2",
+      "section": "§4. Действие магнитного поля на движущуюся заряженную частицу. Сила Лоренца",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/20-23-p-4-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "4.A2",
       "section": "§4. Действие магнитного поля на движущуюся заряженную частицу. Сила Лоренца",
       "condition": "Задание A2. Решение на изображении.",
@@ -435,6 +519,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/20-23-p-4-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "4.3",
+      "section": "§4. Действие магнитного поля на движущуюся заряженную частицу. Сила Лоренца",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/20-23-p-4-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -476,54 +572,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "5.2",
-      "section": "§5. Примеры решения задач по теме «Сила Лоренца»",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/24-26-p-5-sr-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "5.3",
-      "section": "§5. Примеры решения задач по теме «Сила Лоренца»",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/24-26-p-5-sr-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "5.4",
-      "section": "§5. Примеры решения задач по теме «Сила Лоренца»",
-      "condition": "Задание 4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/24-26-p-5-sr-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "5.5",
-      "section": "§5. Примеры решения задач по теме «Сила Лоренца»",
-      "condition": "Задание 5. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/24-26-p-5-sr-5.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "5.A1",
       "section": "§5. Примеры решения задач по теме «Сила Лоренца»",
       "condition": "Задание A1. Решение на изображении.",
@@ -531,6 +579,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/24-26-p-5-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "5.2",
+      "section": "§5. Примеры решения задач по теме «Сила Лоренца»",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/24-26-p-5-sr-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -548,6 +608,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "5.3",
+      "section": "§5. Примеры решения задач по теме «Сила Лоренца»",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/24-26-p-5-sr-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "5.C3",
       "section": "§5. Примеры решения задач по теме «Сила Лоренца»",
       "condition": "Задание C3. Решение на изображении.",
@@ -560,6 +632,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "5.4",
+      "section": "§5. Примеры решения задач по теме «Сила Лоренца»",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/24-26-p-5-sr-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "5.C4",
       "section": "§5. Примеры решения задач по теме «Сила Лоренца»",
       "condition": "Задание C4. Решение на изображении.",
@@ -567,6 +651,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/24-26-p-5-ze-c4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "5.5",
+      "section": "§5. Примеры решения задач по теме «Сила Лоренца»",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/24-26-p-5-sr-5.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -620,42 +716,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "7.2",
-      "section": "§7. Электромагнитная индукция. Магнитный поток",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/31-34-p-7-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "7.3",
-      "section": "§7. Электромагнитная индукция. Магнитный поток",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/31-34-p-7-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "7.4",
-      "section": "§7. Электромагнитная индукция. Магнитный поток",
-      "condition": "Задание 4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/31-34-p-7-v-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "7.A1",
       "section": "§7. Электромагнитная индукция. Магнитный поток",
       "condition": "Задание A1. Решение на изображении.",
@@ -663,6 +723,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/31-34-p-7-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "7.2",
+      "section": "§7. Электромагнитная индукция. Магнитный поток",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/31-34-p-7-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -680,6 +752,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "7.3",
+      "section": "§7. Электромагнитная индукция. Магнитный поток",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/31-34-p-7-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "7.A3",
       "section": "§7. Электромагнитная индукция. Магнитный поток",
       "condition": "Задание A3. Решение на изображении.",
@@ -687,6 +771,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/31-34-p-7-ze-a3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "7.4",
+      "section": "§7. Электромагнитная индукция. Магнитный поток",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/31-34-p-7-v-4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -740,54 +836,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "8.2",
-      "section": "§8. Правило Ленца. Закон электромагнитной индукции",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/35-39-p-8-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "8.3",
-      "section": "§8. Правило Ленца. Закон электромагнитной индукции",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/35-39-p-8-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "8.4",
-      "section": "§8. Правило Ленца. Закон электромагнитной индукции",
-      "condition": "Задание 4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/35-39-p-8-v-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "8.5",
-      "section": "§8. Правило Ленца. Закон электромагнитной индукции",
-      "condition": "Задание 5. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/35-39-p-8-v-5.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "8.A1",
       "section": "§8. Правило Ленца. Закон электромагнитной индукции",
       "condition": "Задание A1. Решение на изображении.",
@@ -795,6 +843,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/35-39-p-8-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "8.2",
+      "section": "§8. Правило Ленца. Закон электромагнитной индукции",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/35-39-p-8-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -812,6 +872,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "8.3",
+      "section": "§8. Правило Ленца. Закон электромагнитной индукции",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/35-39-p-8-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "8.A3",
       "section": "§8. Правило Ленца. Закон электромагнитной индукции",
       "condition": "Задание A3. Решение на изображении.",
@@ -824,6 +896,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "8.4",
+      "section": "§8. Правило Ленца. Закон электромагнитной индукции",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/35-39-p-8-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "8.A4",
       "section": "§8. Правило Ленца. Закон электромагнитной индукции",
       "condition": "Задание A4. Решение на изображении.",
@@ -831,6 +915,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/35-39-p-8-ze-a4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "8.5",
+      "section": "§8. Правило Ленца. Закон электромагнитной индукции",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/35-39-p-8-v-5.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -860,30 +956,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "9.2",
-      "section": "§9. ЭДС индукции в движущихся проводниках",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/40-42-p-9-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "9.3",
-      "section": "§9. ЭДС индукции в движущихся проводниках",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/40-42-p-9-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "9.A1",
       "section": "§9. ЭДС индукции в движущихся проводниках",
       "condition": "Задание A1. Решение на изображении.",
@@ -896,6 +968,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "9.2",
+      "section": "§9. ЭДС индукции в движущихся проводниках",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/40-42-p-9-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "9.A2",
       "section": "§9. ЭДС индукции в движущихся проводниках",
       "condition": "Задание A2. Решение на изображении.",
@@ -903,6 +987,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/40-42-p-9-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "9.3",
+      "section": "§9. ЭДС индукции в движущихся проводниках",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/40-42-p-9-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -956,6 +1052,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "10.C1",
+      "section": "§10. Примеры решения задач по теме «Закон электромагнитной индукции»",
+      "condition": "Задание C1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/43-47-p-10-ze-c1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "10.2",
       "section": "§10. Примеры решения задач по теме «Закон электромагнитной индукции»",
       "condition": "Задание 2. Решение на изображении.",
@@ -963,6 +1071,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/43-47-p-10-sr-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "10.C2",
+      "section": "§10. Примеры решения задач по теме «Закон электромагнитной индукции»",
+      "condition": "Задание C2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/43-47-p-10-ze-c2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -980,6 +1100,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "10.C3",
+      "section": "§10. Примеры решения задач по теме «Закон электромагнитной индукции»",
+      "condition": "Задание C3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/43-47-p-10-ze-c3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "10.4",
       "section": "§10. Примеры решения задач по теме «Закон электромагнитной индукции»",
       "condition": "Задание 4. Решение на изображении.",
@@ -987,6 +1119,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/43-47-p-10-sr-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "10.C4",
+      "section": "§10. Примеры решения задач по теме «Закон электромагнитной индукции»",
+      "condition": "Задание C4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/43-47-p-10-ze-c4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -1011,54 +1155,6 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/43-47-p-10-sr-6.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "10.C1",
-      "section": "§10. Примеры решения задач по теме «Закон электромагнитной индукции»",
-      "condition": "Задание C1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/43-47-p-10-ze-c1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "10.C2",
-      "section": "§10. Примеры решения задач по теме «Закон электромагнитной индукции»",
-      "condition": "Задание C2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/43-47-p-10-ze-c2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "10.C3",
-      "section": "§10. Примеры решения задач по теме «Закон электромагнитной индукции»",
-      "condition": "Задание C3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/43-47-p-10-ze-c3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "10.C4",
-      "section": "§10. Примеры решения задач по теме «Закон электромагнитной индукции»",
-      "condition": "Задание C4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/43-47-p-10-ze-c4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -1184,30 +1280,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "13.2",
-      "section": "§13. Свободные колебания",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/53-58-p-13-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "13.3",
-      "section": "§13. Свободные колебания",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/53-58-p-13-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "13.A1",
       "section": "§13. Свободные колебания",
       "condition": "Задание A1. Решение на изображении.",
@@ -1220,6 +1292,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "13.2",
+      "section": "§13. Свободные колебания",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/53-58-p-13-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "13.A2",
       "section": "§13. Свободные колебания",
       "condition": "Задание A2. Решение на изображении.",
@@ -1227,6 +1311,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/53-58-p-13-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "13.3",
+      "section": "§13. Свободные колебания",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/53-58-p-13-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -1280,42 +1376,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "14.2",
-      "section": "§14. Гармонические колебания",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/59-65-p-14-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "14.3",
-      "section": "§14. Гармонические колебания",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/59-65-p-14-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "14.4",
-      "section": "§14. Гармонические колебания",
-      "condition": "Задание 4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/59-65-p-14-v-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "14.A1",
       "section": "§14. Гармонические колебания",
       "condition": "Задание A1. Решение на изображении.",
@@ -1323,6 +1383,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/59-65-p-14-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "14.2",
+      "section": "§14. Гармонические колебания",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/59-65-p-14-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -1340,6 +1412,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "14.3",
+      "section": "§14. Гармонические колебания",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/59-65-p-14-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "14.A3",
       "section": "§14. Гармонические колебания",
       "condition": "Задание A3. Решение на изображении.",
@@ -1347,6 +1431,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/59-65-p-14-ze-a3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "14.4",
+      "section": "§14. Гармонические колебания",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/59-65-p-14-v-4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -1496,30 +1592,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "17.2",
-      "section": "§17. Свободные электромагнитные колебания",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/74-76-p-17-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "17.3",
-      "section": "§17. Свободные электромагнитные колебания",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/74-76-p-17-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "17.A1",
       "section": "§17. Свободные электромагнитные колебания",
       "condition": "Задание A1. Решение на изображении.",
@@ -1532,6 +1604,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "17.2",
+      "section": "§17. Свободные электромагнитные колебания",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/74-76-p-17-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "17.A2",
       "section": "§17. Свободные электромагнитные колебания",
       "condition": "Задание A2. Решение на изображении.",
@@ -1539,6 +1623,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/74-76-p-17-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "17.3",
+      "section": "§17. Свободные электромагнитные колебания",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/74-76-p-17-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -1628,6 +1724,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "19.B1",
+      "section": "§19. Гармонические электромагнитные колебания в колебательном контуре. Формула Томсона",
+      "condition": "Задание B1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/80-82-p-19-ze-b1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "19.2",
       "section": "§19. Гармонические электромагнитные колебания в колебательном контуре. Формула Томсона",
       "condition": "Задание 2. Решение на изображении.",
@@ -1652,18 +1760,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "19.B1",
-      "section": "§19. Гармонические электромагнитные колебания в колебательном контуре. Формула Томсона",
-      "condition": "Задание B1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/80-82-p-19-ze-b1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "20.1",
       "section": "§20. Примеры решения задач по теме «Гармонические электромагнитные колебания»",
       "condition": "Задание 1. Решение на изображении.",
@@ -1676,6 +1772,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "20.C1",
+      "section": "§20. Примеры решения задач по теме «Гармонические электромагнитные колебания»",
+      "condition": "Задание C1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/83-85-p-20-ze-c1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "20.2",
       "section": "§20. Примеры решения задач по теме «Гармонические электромагнитные колебания»",
       "condition": "Задание 2. Решение на изображении.",
@@ -1683,6 +1791,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/83-85-p-20-sr-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "20.C2",
+      "section": "§20. Примеры решения задач по теме «Гармонические электромагнитные колебания»",
+      "condition": "Задание C2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/83-85-p-20-ze-c2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -1712,30 +1832,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "20.C1",
-      "section": "§20. Примеры решения задач по теме «Гармонические электромагнитные колебания»",
-      "condition": "Задание C1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/83-85-p-20-ze-c1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "20.C2",
-      "section": "§20. Примеры решения задач по теме «Гармонические электромагнитные колебания»",
-      "condition": "Задание C2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/83-85-p-20-ze-c2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "21.1",
       "section": "§21. Переменный электрический ток. Резистор в цепи переменного тока",
       "condition": "Задание 1. Решение на изображении.",
@@ -1748,6 +1844,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "21.A1",
+      "section": "§21. Переменный электрический ток. Резистор в цепи переменного тока",
+      "condition": "Задание A1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/86-90-p-21-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "21.2",
       "section": "§21. Переменный электрический ток. Резистор в цепи переменного тока",
       "condition": "Задание 2. Решение на изображении.",
@@ -1755,6 +1863,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/86-90-p-21-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "21.A2",
+      "section": "§21. Переменный электрический ток. Резистор в цепи переменного тока",
+      "condition": "Задание A2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/86-90-p-21-ze-a2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -1784,30 +1904,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "21.A1",
-      "section": "§21. Переменный электрический ток. Резистор в цепи переменного тока",
-      "condition": "Задание A1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/86-90-p-21-ze-a1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "21.A2",
-      "section": "§21. Переменный электрический ток. Резистор в цепи переменного тока",
-      "condition": "Задание A2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/86-90-p-21-ze-a2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "22.1",
       "section": "§22. Конденсатор и катушка индуктивности в цепи переменного тока",
       "condition": "Задание 1. Решение на изображении.",
@@ -1815,42 +1911,6 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/91-95-p-22-v-1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "22.2",
-      "section": "§22. Конденсатор и катушка индуктивности в цепи переменного тока",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/91-95-p-22-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "22.3",
-      "section": "§22. Конденсатор и катушка индуктивности в цепи переменного тока",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/91-95-p-22-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "22.4",
-      "section": "§22. Конденсатор и катушка индуктивности в цепи переменного тока",
-      "condition": "Задание 4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/91-95-p-22-v-4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -1868,6 +1928,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "22.2",
+      "section": "§22. Конденсатор и катушка индуктивности в цепи переменного тока",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/91-95-p-22-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "22.A2",
       "section": "§22. Конденсатор и катушка индуктивности в цепи переменного тока",
       "condition": "Задание A2. Решение на изображении.",
@@ -1880,6 +1952,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "22.3",
+      "section": "§22. Конденсатор и катушка индуктивности в цепи переменного тока",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/91-95-p-22-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "22.A3",
       "section": "§22. Конденсатор и катушка индуктивности в цепи переменного тока",
       "condition": "Задание A3. Решение на изображении.",
@@ -1887,6 +1971,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/91-95-p-22-ze-a3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "22.4",
+      "section": "§22. Конденсатор и катушка индуктивности в цепи переменного тока",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/91-95-p-22-v-4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -1940,6 +2036,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "24.C1",
+      "section": "§24. Примеры решения задач по теме «Переменныи электрический ток»",
+      "condition": "Задание C1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/98-100-p-24-ze-c1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "24.2",
       "section": "§24. Примеры решения задач по теме «Переменныи электрический ток»",
       "condition": "Задание 2. Решение на изображении.",
@@ -1947,6 +2055,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/98-100-p-24-sr-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "24.C2",
+      "section": "§24. Примеры решения задач по теме «Переменныи электрический ток»",
+      "condition": "Задание C2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/98-100-p-24-ze-c2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -1971,30 +2091,6 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/98-100-p-24-sr-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "24.C1",
-      "section": "§24. Примеры решения задач по теме «Переменныи электрический ток»",
-      "condition": "Задание C1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/98-100-p-24-ze-c1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "24.C2",
-      "section": "§24. Примеры решения задач по теме «Переменныи электрический ток»",
-      "condition": "Задание C2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/98-100-p-24-ze-c2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -2432,30 +2528,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "32.2",
-      "section": "§32. Примеры решения задач по теме «Механические волны»",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/128-130-p-32-sr-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "32.3",
-      "section": "§32. Примеры решения задач по теме «Механические волны»",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/128-130-p-32-sr-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "32.A1",
       "section": "§32. Примеры решения задач по теме «Механические волны»",
       "condition": "Задание A1. Решение на изображении.",
@@ -2468,6 +2540,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "32.2",
+      "section": "§32. Примеры решения задач по теме «Механические волны»",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/128-130-p-32-sr-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "32.A2",
       "section": "§32. Примеры решения задач по теме «Механические волны»",
       "condition": "Задание A2. Решение на изображении.",
@@ -2475,6 +2559,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/128-130-p-32-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "32.3",
+      "section": "§32. Примеры решения задач по теме «Механические волны»",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/128-130-p-32-sr-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -2648,42 +2744,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "35.2",
-      "section": "§35. Электромагнитное поле. Электромагнитная волна",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/140-145-p-35-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "35.3",
-      "section": "§35. Электромагнитное поле. Электромагнитная волна",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/140-145-p-35-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "35.4",
-      "section": "§35. Электромагнитное поле. Электромагнитная волна",
-      "condition": "Задание 4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/140-145-p-35-v-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "35.A1",
       "section": "§35. Электромагнитное поле. Электромагнитная волна",
       "condition": "Задание A1. Решение на изображении.",
@@ -2691,6 +2751,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/140-145-p-35-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "35.2",
+      "section": "§35. Электромагнитное поле. Электромагнитная волна",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/140-145-p-35-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -2708,6 +2780,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "35.3",
+      "section": "§35. Электромагнитное поле. Электромагнитная волна",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/140-145-p-35-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "35.A3",
       "section": "§35. Электромагнитное поле. Электромагнитная волна",
       "condition": "Задание A3. Решение на изображении.",
@@ -2715,6 +2799,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/140-145-p-35-ze-a3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "35.4",
+      "section": "§35. Электромагнитное поле. Электромагнитная волна",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/140-145-p-35-v-4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -2744,6 +2840,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "36.A1",
+      "section": "§36. Экспериментальное обнаружение электромагнитных волн. Плотность потока электромагнитного излучения",
+      "condition": "Задание A1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/146-150-p-36-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "36.2",
       "section": "§36. Экспериментальное обнаружение электромагнитных волн. Плотность потока электромагнитного излучения",
       "condition": "Задание 2. Решение на изображении.",
@@ -2751,6 +2859,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/146-150-p-36-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "36.A2",
+      "section": "§36. Экспериментальное обнаружение электромагнитных волн. Плотность потока электромагнитного излучения",
+      "condition": "Задание A2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/146-150-p-36-ze-a2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -2768,6 +2888,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "36.A3",
+      "section": "§36. Экспериментальное обнаружение электромагнитных волн. Плотность потока электромагнитного излучения",
+      "condition": "Задание A3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/146-150-p-36-ze-a3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "36.4",
       "section": "§36. Экспериментальное обнаружение электромагнитных волн. Плотность потока электромагнитного излучения",
       "condition": "Задание 4. Решение на изображении.",
@@ -2775,6 +2907,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/146-150-p-36-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "36.A4",
+      "section": "§36. Экспериментальное обнаружение электромагнитных волн. Плотность потока электромагнитного излучения",
+      "condition": "Задание A4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/146-150-p-36-ze-a4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -2804,54 +2948,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "36.A1",
-      "section": "§36. Экспериментальное обнаружение электромагнитных волн. Плотность потока электромагнитного излучения",
-      "condition": "Задание A1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/146-150-p-36-ze-a1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "36.A2",
-      "section": "§36. Экспериментальное обнаружение электромагнитных волн. Плотность потока электромагнитного излучения",
-      "condition": "Задание A2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/146-150-p-36-ze-a2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "36.A3",
-      "section": "§36. Экспериментальное обнаружение электромагнитных волн. Плотность потока электромагнитного излучения",
-      "condition": "Задание A3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/146-150-p-36-ze-a3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "36.A4",
-      "section": "§36. Экспериментальное обнаружение электромагнитных волн. Плотность потока электромагнитного излучения",
-      "condition": "Задание A4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/146-150-p-36-ze-a4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "37.1",
       "section": "§37. Изобретение радио А. С. Поповым. Принципы радиосвязи",
       "condition": "Задание 1. Решение на изображении.",
@@ -2864,18 +2960,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "37.2",
-      "section": "§37. Изобретение радио А. С. Поповым. Принципы радиосвязи",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/151-154-p-37-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "37.A1",
       "section": "§37. Изобретение радио А. С. Поповым. Принципы радиосвязи",
       "condition": "Задание A1. Решение на изображении.",
@@ -2883,6 +2967,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/151-154-p-37-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "37.2",
+      "section": "§37. Изобретение радио А. С. Поповым. Принципы радиосвязи",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/151-154-p-37-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -2936,18 +3032,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "39.2",
-      "section": "§39. Свойства электромагнитных волн",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/157-159-p-39-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "39.A1",
       "section": "§39. Свойства электромагнитных волн",
       "condition": "Задание A1. Решение на изображении.",
@@ -2955,6 +3039,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/157-159-p-39-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "39.2",
+      "section": "§39. Свойства электромагнитных волн",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/157-159-p-39-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3128,18 +3224,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "45.2",
-      "section": "§45. Принцип Гюйгенса. закон отражения света",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/174-175-p-45-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "45.A1",
       "section": "§45. Принцип Гюйгенса. закон отражения света",
       "condition": "Задание A1. Решение на изображении.",
@@ -3147,6 +3231,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/174-175-p-45-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "45.2",
+      "section": "§45. Принцип Гюйгенса. закон отражения света",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/174-175-p-45-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3236,18 +3332,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "47.2",
-      "section": "§47. Законы преломления света",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/179-182-p-47-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "47.A1",
       "section": "§47. Законы преломления света",
       "condition": "Задание A1. Решение на изображении.",
@@ -3255,6 +3339,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/179-182-p-47-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "47.2",
+      "section": "§47. Законы преломления света",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/179-182-p-47-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3272,18 +3368,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "48.2",
-      "section": "§48. Полное отражение света",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/183-186-p-48-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "48.A1",
       "section": "§48. Полное отражение света",
       "condition": "Задание A1. Решение на изображении.",
@@ -3291,6 +3375,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/183-186-p-48-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "48.2",
+      "section": "§48. Полное отражение света",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/183-186-p-48-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3344,66 +3440,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "49.2",
-      "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-sr-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "49.3",
-      "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-sr-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "49.4",
-      "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
-      "condition": "Задание 4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-sr-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "49.5",
-      "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
-      "condition": "Задание 5. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-sr-5.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "49.6",
-      "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
-      "condition": "Задание 6. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-sr-6.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "49.A1",
       "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
       "condition": "Задание A1. Решение на изображении.",
@@ -3411,6 +3447,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "49.2",
+      "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-sr-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3428,6 +3476,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "49.3",
+      "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-sr-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "49.A3",
       "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
       "condition": "Задание A3. Решение на изображении.",
@@ -3435,6 +3495,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-ze-a3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "49.4",
+      "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-sr-4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3452,6 +3524,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "49.5",
+      "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-sr-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "49.A5",
       "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
       "condition": "Задание A5. Решение на изображении.",
@@ -3459,6 +3543,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-ze-a5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "49.6",
+      "section": "§49. Примеры решения задач по теме «Закон преломления света. Полное отражение света»",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/187-190-p-49-sr-6.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3560,6 +3656,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "52.C1",
+      "section": "§52. Примеры решения задач по теме «Линзы»",
+      "condition": "Задание C1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/199-202-p-52-ze-c1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "52.2",
       "section": "§52. Примеры решения задач по теме «Линзы»",
       "condition": "Задание 2. Решение на изображении.",
@@ -3572,6 +3680,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "52.C2",
+      "section": "§52. Примеры решения задач по теме «Линзы»",
+      "condition": "Задание C2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/199-202-p-52-ze-c2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "52.3",
       "section": "§52. Примеры решения задач по теме «Линзы»",
       "condition": "Задание 3. Решение на изображении.",
@@ -3579,6 +3699,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/199-202-p-52-sr-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "52.C3",
+      "section": "§52. Примеры решения задач по теме «Линзы»",
+      "condition": "Задание C3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/199-202-p-52-ze-c3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3656,42 +3788,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "52.C1",
-      "section": "§52. Примеры решения задач по теме «Линзы»",
-      "condition": "Задание C1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/199-202-p-52-ze-c1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "52.C2",
-      "section": "§52. Примеры решения задач по теме «Линзы»",
-      "condition": "Задание C2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/199-202-p-52-ze-c2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "52.C3",
-      "section": "§52. Примеры решения задач по теме «Линзы»",
-      "condition": "Задание C3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/199-202-p-52-ze-c3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "53.1",
       "section": "§53. Дисперсия света",
       "condition": "Задание 1. Решение на изображении.",
@@ -3699,30 +3795,6 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/203-205-p-53-v-1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "53.2",
-      "section": "§53. Дисперсия света",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/203-205-p-53-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "53.3",
-      "section": "§53. Дисперсия света",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/203-205-p-53-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3740,6 +3812,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "53.2",
+      "section": "§53. Дисперсия света",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/203-205-p-53-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "53.A2",
       "section": "§53. Дисперсия света",
       "condition": "Задание A2. Решение на изображении.",
@@ -3747,6 +3831,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/203-205-p-53-ze-a-02.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "53.3",
+      "section": "§53. Дисперсия света",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/203-205-p-53-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3776,6 +3872,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "54.A1",
+      "section": "§54. Интерференция света",
+      "condition": "Задание A1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/206-210-p-54-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "54.2",
       "section": "§54. Интерференция света",
       "condition": "Задание 2. Решение на изображении.",
@@ -3783,6 +3891,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/206-210-p-54-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "54.A2",
+      "section": "§54. Интерференция света",
+      "condition": "Задание A2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/206-210-p-54-ze-a2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3800,6 +3920,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "54.A3",
+      "section": "§54. Интерференция света",
+      "condition": "Задание A3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/206-210-p-54-ze-a3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "54.4",
       "section": "§54. Интерференция света",
       "condition": "Задание 4. Решение на изображении.",
@@ -3807,6 +3939,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/206-210-p-54-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "54.A4",
+      "section": "§54. Интерференция света",
+      "condition": "Задание A4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/206-210-p-54-ze-a4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3831,54 +3975,6 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/206-210-p-54-v-6.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "54.A1",
-      "section": "§54. Интерференция света",
-      "condition": "Задание A1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/206-210-p-54-ze-a1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "54.A2",
-      "section": "§54. Интерференция света",
-      "condition": "Задание A2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/206-210-p-54-ze-a2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "54.A3",
-      "section": "§54. Интерференция света",
-      "condition": "Задание A3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/206-210-p-54-ze-a3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "54.A4",
-      "section": "§54. Интерференция света",
-      "condition": "Задание A4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/206-210-p-54-ze-a4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -3944,30 +4040,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "58.2",
-      "section": "§58. Дифракционная решётка",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/218-220-p-58-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "58.3",
-      "section": "§58. Дифракционная решётка",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/218-220-p-58-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "58.A1",
       "section": "§58. Дифракционная решётка",
       "condition": "Задание A1. Решение на изображении.",
@@ -3980,6 +4052,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "58.2",
+      "section": "§58. Дифракционная решётка",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/218-220-p-58-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "58.A2",
       "section": "§58. Дифракционная решётка",
       "condition": "Задание A2. Решение на изображении.",
@@ -3987,6 +4071,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/218-220-p-58-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "58.3",
+      "section": "§58. Дифракционная решётка",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/218-220-p-58-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -4028,6 +4124,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "59.C1",
+      "section": "§59. Примеры решения задач по теме «Интерференция и дифракция света»",
+      "condition": "Задание C1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/221-224-p-59-ze-c1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "59.2",
       "section": "§59. Примеры решения задач по теме «Интерференция и дифракция света»",
       "condition": "Задание 2. Решение на изображении.",
@@ -4040,6 +4148,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "59.C2",
+      "section": "§59. Примеры решения задач по теме «Интерференция и дифракция света»",
+      "condition": "Задание C2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/221-224-p-59-ze-c2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "59.3",
       "section": "§59. Примеры решения задач по теме «Интерференция и дифракция света»",
       "condition": "Задание 3. Решение на изображении.",
@@ -4047,6 +4167,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/221-224-p-59-sr-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "59.C3",
+      "section": "§59. Примеры решения задач по теме «Интерференция и дифракция света»",
+      "condition": "Задание C3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/221-224-p-59-ze-c3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -4083,42 +4215,6 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/221-224-p-59-sr-6.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "59.C1",
-      "section": "§59. Примеры решения задач по теме «Интерференция и дифракция света»",
-      "condition": "Задание C1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/221-224-p-59-ze-c1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "59.C2",
-      "section": "§59. Примеры решения задач по теме «Интерференция и дифракция света»",
-      "condition": "Задание C2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/221-224-p-59-ze-c2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "59.C3",
-      "section": "§59. Примеры решения задач по теме «Интерференция и дифракция света»",
-      "condition": "Задание C3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/221-224-p-59-ze-c3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -4184,30 +4280,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "62.2",
-      "section": "§62. Постулаты теории относительности",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/232-235-p-62-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "62.3",
-      "section": "§62. Постулаты теории относительности",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/232-235-p-62-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "62.A1",
       "section": "§62. Постулаты теории относительности",
       "condition": "Задание A1. Решение на изображении.",
@@ -4220,6 +4292,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "62.2",
+      "section": "§62. Постулаты теории относительности",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/232-235-p-62-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "62.A2",
       "section": "§62. Постулаты теории относительности",
       "condition": "Задание A2. Решение на изображении.",
@@ -4227,6 +4311,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/232-235-p-62-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "62.3",
+      "section": "§62. Постулаты теории относительности",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/232-235-p-62-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -4280,18 +4376,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "63.2",
-      "section": "§63. Основные следствия из постулатов теории относительности",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/236-238-p-63-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "63.A1",
       "section": "§63. Основные следствия из постулатов теории относительности",
       "condition": "Задание A1. Решение на изображении.",
@@ -4299,6 +4383,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/236-238-p-63-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "63.2",
+      "section": "§63. Основные следствия из постулатов теории относительности",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/236-238-p-63-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -4400,6 +4496,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "65.C1",
+      "section": "§65. Примеры решения задач по теме «Элементы специальной теории относительности»",
+      "condition": "Задание C1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/242-245-p-65-ze-c1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "65.2",
       "section": "§65. Примеры решения задач по теме «Элементы специальной теории относительности»",
       "condition": "Задание 2. Решение на изображении.",
@@ -4412,6 +4520,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "65.C2",
+      "section": "§65. Примеры решения задач по теме «Элементы специальной теории относительности»",
+      "condition": "Задание C2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/242-245-p-65-ze-c2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "65.3",
       "section": "§65. Примеры решения задач по теме «Элементы специальной теории относительности»",
       "condition": "Задание 3. Решение на изображении.",
@@ -4419,6 +4539,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/242-245-p-65-sr-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "65.C3",
+      "section": "§65. Примеры решения задач по теме «Элементы специальной теории относительности»",
+      "condition": "Задание C3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/242-245-p-65-ze-c3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -4455,42 +4587,6 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/242-245-p-65-sr-6.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "65.C1",
-      "section": "§65. Примеры решения задач по теме «Элементы специальной теории относительности»",
-      "condition": "Задание C1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/242-245-p-65-ze-c1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "65.C2",
-      "section": "§65. Примеры решения задач по теме «Элементы специальной теории относительности»",
-      "condition": "Задание C2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/242-245-p-65-ze-c2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "65.C3",
-      "section": "§65. Примеры решения задач по теме «Элементы специальной теории относительности»",
-      "condition": "Задание C3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/242-245-p-65-ze-c3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -4772,42 +4868,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "71.2",
-      "section": "§71. Фотоны. Корпускулярно-волновой дуализм",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/268-271-p-71-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "71.3",
-      "section": "§71. Фотоны. Корпускулярно-волновой дуализм",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/268-271-p-71-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "71.4",
-      "section": "§71. Фотоны. Корпускулярно-волновой дуализм",
-      "condition": "Задание 4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/268-271-p-71-v-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "71.A1",
       "section": "§71. Фотоны. Корпускулярно-волновой дуализм",
       "condition": "Задание A1. Решение на изображении.",
@@ -4815,6 +4875,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/268-271-p-71-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "71.2",
+      "section": "§71. Фотоны. Корпускулярно-волновой дуализм",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/268-271-p-71-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -4832,6 +4904,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "71.3",
+      "section": "§71. Фотоны. Корпускулярно-волновой дуализм",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/268-271-p-71-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "71.A3",
       "section": "§71. Фотоны. Корпускулярно-волновой дуализм",
       "condition": "Задание A3. Решение на изображении.",
@@ -4839,6 +4923,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/268-271-p-71-ze-a3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "71.4",
+      "section": "§71. Фотоны. Корпускулярно-волновой дуализм",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/268-271-p-71-v-4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -4940,6 +5036,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "73.C1",
+      "section": "§73. Примеры решения задач по теме «Световые кванты. Фотоэффект»",
+      "condition": "Задание C1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/275-278-p-73-ze-c1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "73.2",
       "section": "§73. Примеры решения задач по теме «Световые кванты. Фотоэффект»",
       "condition": "Задание 2. Решение на изображении.",
@@ -4952,6 +5060,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "73.C2",
+      "section": "§73. Примеры решения задач по теме «Световые кванты. Фотоэффект»",
+      "condition": "Задание C2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/275-278-p-73-ze-c2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "73.3",
       "section": "§73. Примеры решения задач по теме «Световые кванты. Фотоэффект»",
       "condition": "Задание 3. Решение на изображении.",
@@ -4959,6 +5079,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/275-278-p-73-sr-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "73.C3",
+      "section": "§73. Примеры решения задач по теме «Световые кванты. Фотоэффект»",
+      "condition": "Задание C3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/275-278-p-73-ze-c3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -5024,42 +5156,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "73.C1",
-      "section": "§73. Примеры решения задач по теме «Световые кванты. Фотоэффект»",
-      "condition": "Задание C1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/275-278-p-73-ze-c1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "73.C2",
-      "section": "§73. Примеры решения задач по теме «Световые кванты. Фотоэффект»",
-      "condition": "Задание C2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/275-278-p-73-ze-c2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "73.C3",
-      "section": "§73. Примеры решения задач по теме «Световые кванты. Фотоэффект»",
-      "condition": "Задание C3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/275-278-p-73-ze-c3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "74.1",
       "section": "§ 74. Строение атома. Опыты Резерфорда",
       "condition": "Задание 1. Решение на изображении.",
@@ -5108,42 +5204,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "75.2",
-      "section": "§75. Квантовые постулаты Бора. Модель атома водорода по Бору",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/284-288-p-75-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "75.3",
-      "section": "§75. Квантовые постулаты Бора. Модель атома водорода по Бору",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/284-288-p-75-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "75.4",
-      "section": "§75. Квантовые постулаты Бора. Модель атома водорода по Бору",
-      "condition": "Задание 4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/284-288-p-75-v-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "75.A1",
       "section": "§75. Квантовые постулаты Бора. Модель атома водорода по Бору",
       "condition": "Задание A1. Решение на изображении.",
@@ -5151,6 +5211,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/284-288-p-75-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "75.2",
+      "section": "§75. Квантовые постулаты Бора. Модель атома водорода по Бору",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/284-288-p-75-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -5168,6 +5240,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "75.3",
+      "section": "§75. Квантовые постулаты Бора. Модель атома водорода по Бору",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/284-288-p-75-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "75.A3",
       "section": "§75. Квантовые постулаты Бора. Модель атома водорода по Бору",
       "condition": "Задание A3. Решение на изображении.",
@@ -5175,6 +5259,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/284-288-p-75-ze-a3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "75.4",
+      "section": "§75. Квантовые постулаты Бора. Модель атома водорода по Бору",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/284-288-p-75-v-4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -5216,18 +5312,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "76.2",
-      "section": "§76. Лазеры",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/289-293-p-76-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "76.A1",
       "section": "§76. Лазеры",
       "condition": "Задание A1. Решение на изображении.",
@@ -5235,6 +5319,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/289-293-p-76-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "76.2",
+      "section": "§76. Лазеры",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/289-293-p-76-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -5288,6 +5384,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "77.C1",
+      "section": "§77. Примеры решения задач по теме «Атомная физика»",
+      "condition": "Задание C1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/294-298-p-77-ze-c1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "77.2",
       "section": "§77. Примеры решения задач по теме «Атомная физика»",
       "condition": "Задание 2. Решение на изображении.",
@@ -5300,6 +5408,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "77.C2",
+      "section": "§77. Примеры решения задач по теме «Атомная физика»",
+      "condition": "Задание C2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/294-298-p-77-ze-c2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "77.3",
       "section": "§77. Примеры решения задач по теме «Атомная физика»",
       "condition": "Задание 3. Решение на изображении.",
@@ -5307,6 +5427,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/294-298-p-77-sr-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "77.C3",
+      "section": "§77. Примеры решения задач по теме «Атомная физика»",
+      "condition": "Задание C3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/294-298-p-77-ze-c3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -5360,42 +5492,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "77.C1",
-      "section": "§77. Примеры решения задач по теме «Атомная физика»",
-      "condition": "Задание C1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/294-298-p-77-ze-c1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "77.C2",
-      "section": "§77. Примеры решения задач по теме «Атомная физика»",
-      "condition": "Задание C2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/294-298-p-77-ze-c2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "77.C3",
-      "section": "§77. Примеры решения задач по теме «Атомная физика»",
-      "condition": "Задание C3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/294-298-p-77-ze-c3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "78.1",
       "section": "§ 78. Строение атомного ядра. Ядерные силы",
       "condition": "Задание 1. Решение на изображении.",
@@ -5408,18 +5504,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "78.2",
-      "section": "§ 78. Строение атомного ядра. Ядерные силы",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/299-302-p-78-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "78.A1",
       "section": "§ 78. Строение атомного ядра. Ядерные силы",
       "condition": "Задание A1. Решение на изображении.",
@@ -5427,6 +5511,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/299-302-p-78-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "78.2",
+      "section": "§ 78. Строение атомного ядра. Ядерные силы",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/299-302-p-78-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -5516,18 +5612,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "80.2",
-      "section": "§80. Энергия связи атомных ядер",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/305-307-p-80-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "80.A1",
       "section": "§80. Энергия связи атомных ядер",
       "condition": "Задание A1. Решение на изображении.",
@@ -5535,6 +5619,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/305-307-p-80-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "80.2",
+      "section": "§80. Энергия связи атомных ядер",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/305-307-p-80-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -5564,6 +5660,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "81.A1",
+      "section": "§81. Примеры решения задач по теме «Энергия связи атомных ядер»",
+      "condition": "Задание A1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/308-309-p-81-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "81.2",
       "section": "§81. Примеры решения задач по теме «Энергия связи атомных ядер»",
       "condition": "Задание 2. Решение на изображении.",
@@ -5576,6 +5684,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "81.A2",
+      "section": "§81. Примеры решения задач по теме «Энергия связи атомных ядер»",
+      "condition": "Задание A2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/308-309-p-81-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "81.3",
       "section": "§81. Примеры решения задач по теме «Энергия связи атомных ядер»",
       "condition": "Задание 3. Решение на изображении.",
@@ -5583,6 +5703,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/308-309-p-81-sr-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "81.A3",
+      "section": "§81. Примеры решения задач по теме «Энергия связи атомных ядер»",
+      "condition": "Задание A3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/308-309-p-81-ze-a3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -5619,42 +5751,6 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/308-309-p-81-sr-6.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "81.A1",
-      "section": "§81. Примеры решения задач по теме «Энергия связи атомных ядер»",
-      "condition": "Задание A1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/308-309-p-81-ze-a1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "81.A2",
-      "section": "§81. Примеры решения задач по теме «Энергия связи атомных ядер»",
-      "condition": "Задание A2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/308-309-p-81-ze-a2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "81.A3",
-      "section": "§81. Примеры решения задач по теме «Энергия связи атомных ядер»",
-      "condition": "Задание A3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/308-309-p-81-ze-a3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -5708,18 +5804,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "83.2",
-      "section": "§83. Виды радиоактивного излучения",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/313-317-p-83-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "83.A1",
       "section": "§83. Виды радиоактивного излучения",
       "condition": "Задание A1. Решение на изображении.",
@@ -5727,6 +5811,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/313-317-p-83-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "83.2",
+      "section": "§83. Виды радиоактивного излучения",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/313-317-p-83-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -5756,30 +5852,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "84.2",
-      "section": "§84. Закон радиоактивного распада. Период полураспада",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/318-320-p-84-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "84.3",
-      "section": "§84. Закон радиоактивного распада. Период полураспада",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/318-320-p-84-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "84.A1",
       "section": "§84. Закон радиоактивного распада. Период полураспада",
       "condition": "Задание A1. Решение на изображении.",
@@ -5792,6 +5864,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "84.2",
+      "section": "§84. Закон радиоактивного распада. Период полураспада",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/318-320-p-84-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "84.A2",
       "section": "§84. Закон радиоактивного распада. Период полураспада",
       "condition": "Задание A2. Решение на изображении.",
@@ -5799,6 +5883,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/318-320-p-84-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "84.3",
+      "section": "§84. Закон радиоактивного распада. Период полураспада",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/318-320-p-84-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -5840,6 +5936,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "85.C1",
+      "section": "§85. Примеры решения задач по теме «Закон радиоактивного распада»",
+      "condition": "Задание C1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/321-322-p-85-ze-c1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "85.2",
       "section": "§85. Примеры решения задач по теме «Закон радиоактивного распада»",
       "condition": "Задание 2. Решение на изображении.",
@@ -5847,6 +5955,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/321-322-p-85-sr-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "85.C2",
+      "section": "§85. Примеры решения задач по теме «Закон радиоактивного распада»",
+      "condition": "Задание C2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/321-322-p-85-ze-c2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -5888,30 +6008,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "85.C1",
-      "section": "§85. Примеры решения задач по теме «Закон радиоактивного распада»",
-      "condition": "Задание C1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/321-322-p-85-ze-c1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "85.C2",
-      "section": "§85. Примеры решения задач по теме «Закон радиоактивного распада»",
-      "condition": "Задание C2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/321-322-p-85-ze-c2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "86.1",
       "section": "§86. Методы наблюдения и регистрации элементарных частиц",
       "condition": "Задание 1. Решение на изображении.",
@@ -5948,54 +6044,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "87.2",
-      "section": "§87. Искусственная радиоактивность. Ядерные реакции",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/327-331-p-87-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "87.3",
-      "section": "§87. Искусственная радиоактивность. Ядерные реакции",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/327-331-p-87-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "87.4",
-      "section": "§87. Искусственная радиоактивность. Ядерные реакции",
-      "condition": "Задание 4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/327-331-p-87-v-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "87.5",
-      "section": "§87. Искусственная радиоактивность. Ядерные реакции",
-      "condition": "Задание 5. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/327-331-p-87-v-5.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "87.A1",
       "section": "§87. Искусственная радиоактивность. Ядерные реакции",
       "condition": "Задание A1. Решение на изображении.",
@@ -6003,6 +6051,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/327-331-p-87-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "87.2",
+      "section": "§87. Искусственная радиоактивность. Ядерные реакции",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/327-331-p-87-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -6020,6 +6080,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "87.3",
+      "section": "§87. Искусственная радиоактивность. Ядерные реакции",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/327-331-p-87-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "87.A3",
       "section": "§87. Искусственная радиоактивность. Ядерные реакции",
       "condition": "Задание A3. Решение на изображении.",
@@ -6032,6 +6104,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "87.4",
+      "section": "§87. Искусственная радиоактивность. Ядерные реакции",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/327-331-p-87-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "87.A4",
       "section": "§87. Искусственная радиоактивность. Ядерные реакции",
       "condition": "Задание A4. Решение на изображении.",
@@ -6039,6 +6123,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/327-331-p-87-ze-a4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "87.5",
+      "section": "§87. Искусственная радиоактивность. Ядерные реакции",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/327-331-p-87-v-5.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -6068,18 +6164,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "88.2",
-      "section": "§88. Деление ядер урана. Цепная реакция деления",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/332-336-p-88-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "88.A1",
       "section": "§88. Деление ядер урана. Цепная реакция деления",
       "condition": "Задание A1. Решение на изображении.",
@@ -6087,6 +6171,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/332-336-p-88-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "88.2",
+      "section": "§88. Деление ядер урана. Цепная реакция деления",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/332-336-p-88-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -6140,18 +6236,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "89.2",
-      "section": "§89. Ядерный реактор",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/337-339-p-89-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "89.A1",
       "section": "§89. Ядерный реактор",
       "condition": "Задание A1. Решение на изображении.",
@@ -6159,6 +6243,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/337-339-p-89-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "89.2",
+      "section": "§89. Ядерный реактор",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/337-339-p-89-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -6236,42 +6332,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "91.2",
-      "section": "§91. Примеры решения задач по теме «Ядерные реакции»",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/342-343-p-91-sr-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "91.3",
-      "section": "§91. Примеры решения задач по теме «Ядерные реакции»",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/342-343-p-91-sr-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "91.4",
-      "section": "§91. Примеры решения задач по теме «Ядерные реакции»",
-      "condition": "Задание 4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/342-343-p-91-sr-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "91.C1",
       "section": "§91. Примеры решения задач по теме «Ядерные реакции»",
       "condition": "Задание C1. Решение на изображении.",
@@ -6279,6 +6339,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/342-343-p-91-ze-c1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "91.2",
+      "section": "§91. Примеры решения задач по теме «Ядерные реакции»",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/342-343-p-91-sr-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -6296,6 +6368,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "91.3",
+      "section": "§91. Примеры решения задач по теме «Ядерные реакции»",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/342-343-p-91-sr-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "91.C3",
       "section": "§91. Примеры решения задач по теме «Ядерные реакции»",
       "condition": "Задание C3. Решение на изображении.",
@@ -6303,6 +6387,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/342-343-p-91-ze-c3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "91.4",
+      "section": "§91. Примеры решения задач по теме «Ядерные реакции»",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/342-343-p-91-sr-4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -6620,6 +6716,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "101.A1",
+      "section": "§101. Физическая природа планет и малых тел Солнечной системы",
+      "condition": "Задание A1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/374-378-p-101-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "101.2",
       "section": "§101. Физическая природа планет и малых тел Солнечной системы",
       "condition": "Задание 2. Решение на изображении.",
@@ -6627,6 +6735,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/374-378-p-101-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "101.A2",
+      "section": "§101. Физическая природа планет и малых тел Солнечной системы",
+      "condition": "Задание A2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/374-378-p-101-ze-a2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -6692,30 +6812,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "101.A1",
-      "section": "§101. Физическая природа планет и малых тел Солнечной системы",
-      "condition": "Задание A1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/374-378-p-101-ze-a1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "101.A2",
-      "section": "§101. Физическая природа планет и малых тел Солнечной системы",
-      "condition": "Задание A2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/374-378-p-101-ze-a2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "102.1",
       "section": "§ 102. Солнце",
       "condition": "Задание 1. Решение на изображении.",
@@ -6764,30 +6860,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "103.2",
-      "section": "§103. Основные характеристики звезд",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/384-387-p-103-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "103.3",
-      "section": "§103. Основные характеристики звезд",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/384-387-p-103-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "103.A1",
       "section": "§103. Основные характеристики звезд",
       "condition": "Задание A1. Решение на изображении.",
@@ -6800,6 +6872,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "103.2",
+      "section": "§103. Основные характеристики звезд",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/384-387-p-103-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "103.A2",
       "section": "§103. Основные характеристики звезд",
       "condition": "Задание A2. Решение на изображении.",
@@ -6807,6 +6891,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/384-387-p-103-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "103.3",
+      "section": "§103. Основные характеристики звезд",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/384-387-p-103-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -6836,6 +6932,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "104.A1",
+      "section": "§104. Внутреннее строение Солнца и звезд",
+      "condition": "Задание A1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/388-391-p-104-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "104.2",
       "section": "§104. Внутреннее строение Солнца и звезд",
       "condition": "Задание 2. Решение на изображении.",
@@ -6848,6 +6956,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "104.A2",
+      "section": "§104. Внутреннее строение Солнца и звезд",
+      "condition": "Задание A2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/388-391-p-104-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "104.3",
       "section": "§104. Внутреннее строение Солнца и звезд",
       "condition": "Задание 3. Решение на изображении.",
@@ -6855,6 +6975,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/388-391-p-104-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "104.A3",
+      "section": "§104. Внутреннее строение Солнца и звезд",
+      "condition": "Задание A3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/388-391-p-104-ze-a3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -6879,42 +7011,6 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/388-391-p-104-v-5.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "104.A1",
-      "section": "§104. Внутреннее строение Солнца и звезд",
-      "condition": "Задание A1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/388-391-p-104-ze-a1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "104.A2",
-      "section": "§104. Внутреннее строение Солнца и звезд",
-      "condition": "Задание A2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/388-391-p-104-ze-a2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "104.A3",
-      "section": "§104. Внутреннее строение Солнца и звезд",
-      "condition": "Задание A3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/388-391-p-104-ze-a3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -6980,42 +7076,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "106.2",
-      "section": "§ 106. Млечный Путь — наша Галактика",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/394-396-p-106-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "106.3",
-      "section": "§ 106. Млечный Путь — наша Галактика",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/394-396-p-106-v-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "106.4",
-      "section": "§ 106. Млечный Путь — наша Галактика",
-      "condition": "Задание 4. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/394-396-p-106-v-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "106.A1",
       "section": "§ 106. Млечный Путь — наша Галактика",
       "condition": "Задание A1. Решение на изображении.",
@@ -7023,6 +7083,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/394-396-p-106-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "106.2",
+      "section": "§ 106. Млечный Путь — наша Галактика",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/394-396-p-106-v-2.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -7040,6 +7112,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "106.3",
+      "section": "§ 106. Млечный Путь — наша Галактика",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/394-396-p-106-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "106.A3",
       "section": "§ 106. Млечный Путь — наша Галактика",
       "condition": "Задание A3. Решение на изображении.",
@@ -7047,6 +7131,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/394-396-p-106-ze-a3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "106.4",
+      "section": "§ 106. Млечный Путь — наша Галактика",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/394-396-p-106-v-4.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -7076,6 +7172,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "107.A1",
+      "section": "§107. Галактики",
+      "condition": "Задание A1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/397-401-p-107-ze-a1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "107.2",
       "section": "§107. Галактики",
       "condition": "Задание 2. Решение на изображении.",
@@ -7088,6 +7196,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "107.A2",
+      "section": "§107. Галактики",
+      "condition": "Задание A2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/397-401-p-107-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "107.3",
       "section": "§107. Галактики",
       "condition": "Задание 3. Решение на изображении.",
@@ -7095,6 +7215,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/397-401-p-107-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "107.C3",
+      "section": "§107. Галактики",
+      "condition": "Задание C3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/397-401-p-107-ze-c3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -7124,42 +7256,6 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
-      "number": "107.A1",
-      "section": "§107. Галактики",
-      "condition": "Задание A1. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/397-401-p-107-ze-a1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "107.A2",
-      "section": "§107. Галактики",
-      "condition": "Задание A2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/397-401-p-107-ze-a2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "107.C3",
-      "section": "§107. Галактики",
-      "condition": "Задание C3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/397-401-p-107-ze-c3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
       "number": "108.1",
       "section": "§108. Строение и эволюция Вселенной",
       "condition": "Задание 1. Решение на изображении.",
@@ -7167,30 +7263,6 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/402-405-p-108-v-1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "108.2",
-      "section": "§108. Строение и эволюция Вселенной",
-      "condition": "Задание 2. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/402-405-p-108-v-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "108.3",
-      "section": "§108. Строение и эволюция Вселенной",
-      "condition": "Задание 3. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/402-405-p-108-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -7208,6 +7280,18 @@
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
     },
     {
+      "number": "108.2",
+      "section": "§108. Строение и эволюция Вселенной",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/402-405-p-108-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
       "number": "108.A2",
       "section": "§108. Строение и эволюция Вселенной",
       "condition": "Задание A2. Решение на изображении.",
@@ -7215,6 +7299,18 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/402-405-p-108-ze-a2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
+    },
+    {
+      "number": "108.3",
+      "section": "§108. Строение и эволюция Вселенной",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-myakishev/402-405-p-108-v-3.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
@@ -7323,102 +7419,6 @@
       "answer": "См. изображение.",
       "images": [
         "https://otvet.plus/img/11-klass-myakishev/406-407-p-109-sr-7.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "Лабораторная работа №1. Наблюдение действия магнитного поля на ток",
-      "section": "Задания",
-      "condition": "Задание Лабораторная работа №1. Наблюдение действия магнитного поля на ток. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/l-1.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "Лабораторная работа №2. Изучение явления электромагнитной индукции",
-      "section": "Задания",
-      "condition": "Задание Лабораторная работа №2. Изучение явления электромагнитной индукции. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/l-2.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "Лабораторная работа №3. Определение ускорения свободного падения при помощи маятника",
-      "section": "Задания",
-      "condition": "Задание Лабораторная работа №3. Определение ускорения свободного падения при помощи маятника. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/l-3.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "Лабораторная работа №4. Измерение показателя преломления стекла",
-      "section": "Задания",
-      "condition": "Задание Лабораторная работа №4. Измерение показателя преломления стекла. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/l-4.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "Лабораторная работа №5. Определение оптической силы и фокусного расстояния собирающей линзы",
-      "section": "Задания",
-      "condition": "Задание Лабораторная работа №5. Определение оптической силы и фокусного расстояния собирающей линзы. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/l-5.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "Лабораторная работа №6. Измерение длины световой волны",
-      "section": "Задания",
-      "condition": "Задание Лабораторная работа №6. Измерение длины световой волны. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/l-6.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "Лабораторная работа №7. Оценка информационной емкости компакт-диска (cd)",
-      "section": "Задания",
-      "condition": "Задание Лабораторная работа №7. Оценка информационной емкости компакт-диска (cd). Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/l-7.png"
-      ],
-      "source": "otvet.plus",
-      "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"
-    },
-    {
-      "number": "Лабораторная работа №8. Наблюдение сплошного и линейчатого спектров",
-      "section": "Задания",
-      "condition": "Задание Лабораторная работа №8. Наблюдение сплошного и линейчатого спектров. Решение на изображении.",
-      "solution": "Решение на изображении.",
-      "answer": "См. изображение.",
-      "images": [
-        "https://otvet.plus/img/11-klass-myakishev/l-8.png"
       ],
       "source": "otvet.plus",
       "sourceUrl": "https://otvet.plus/11-klass/fizika/myakishev/"

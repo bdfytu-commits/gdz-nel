@@ -139,21 +139,21 @@
             <span class="custom-label">Цвет ника</span>
             <div class="color-picker" id="nick-picker" role="radiogroup" aria-label="Цвет ника">
               <button type="button" role="radio" data-color="" aria-checked="false" title="По умолчанию"><span class="color-dot color-default"></span></button>
-              <button type="button" role="radio" data-color="#E5B80B" aria-checked="false" title="Золотой"><span class="color-dot" style="background:#E5B80B"></span></button>
-              <button type="button" role="radio" data-color="#FF3B6B" aria-checked="false" title="Розовый"><span class="color-dot" style="background:#FF3B6B"></span></button>
-              <button type="button" role="radio" data-color="#1AA3A3" aria-checked="false" title="Бирюзовый"><span class="color-dot" style="background:#1AA3A3"></span></button>
-              <button type="button" role="radio" data-color="#7C5CFF" aria-checked="false" title="Фиолетовый"><span class="color-dot" style="background:#7C5CFF"></span></button>
-              <button type="button" role="radio" data-color="#2E7D32" aria-checked="false" title="Зелёный"><span class="color-dot" style="background:#2E7D32"></span></button>
+              <button type="button" role="radio" data-color="#E5B80B" aria-checked="false" title="Золотой"><span class="color-dot sw-gold"></span></button>
+              <button type="button" role="radio" data-color="#FF3B6B" aria-checked="false" title="Розовый"><span class="color-dot sw-rose"></span></button>
+              <button type="button" role="radio" data-color="#1AA3A3" aria-checked="false" title="Бирюзовый"><span class="color-dot sw-teal"></span></button>
+              <button type="button" role="radio" data-color="#7C5CFF" aria-checked="false" title="Фиолетовый"><span class="color-dot sw-violet"></span></button>
+              <button type="button" role="radio" data-color="#2E7D32" aria-checked="false" title="Зелёный"><span class="color-dot sw-green"></span></button>
             </div>
           </div>
           <div class="custom-row">
             <span class="custom-label">Фон профиля</span>
             <div class="color-picker" id="bg-picker" role="radiogroup" aria-label="Фон профиля">
               <button type="button" role="radio" data-color="" aria-checked="false" title="По умолчанию"><span class="color-dot color-default"></span></button>
-              <button type="button" role="radio" data-color="#102A2A" aria-checked="false" title="Тёмный изумруд"><span class="color-dot" style="background:#102A2A"></span></button>
-              <button type="button" role="radio" data-color="#22152E" aria-checked="false" title="Тёмный фиолет"><span class="color-dot" style="background:#22152E"></span></button>
-              <button type="button" role="radio" data-color="#2B1616" aria-checked="false" title="Тёмный бордо"><span class="color-dot" style="background:#2B1616"></span></button>
-              <button type="button" role="radio" data-color="#12243A" aria-checked="false" title="Тёмный синий"><span class="color-dot" style="background:#12243A"></span></button>
+              <button type="button" role="radio" data-color="#102A2A" aria-checked="false" title="Тёмный изумруд"><span class="color-dot sw-emerald"></span></button>
+              <button type="button" role="radio" data-color="#22152E" aria-checked="false" title="Тёмный фиолет"><span class="color-dot sw-plum"></span></button>
+              <button type="button" role="radio" data-color="#2B1616" aria-checked="false" title="Тёмный бордо"><span class="color-dot sw-bordo"></span></button>
+              <button type="button" role="radio" data-color="#12243A" aria-checked="false" title="Тёмный синий"><span class="color-dot sw-navy"></span></button>
             </div>
           </div>
           <button class="btn btn-primary" type="button" id="custom-save">
@@ -277,8 +277,11 @@
   <script type="module">
     import {
       supabase, requireSession, avatarColor, escapeHtml,
-      BADGES, badgeTitle, badgeDesc
+      BADGES, badgeTitle, badgeDesc, initHeaderAuth
     } from './assets/supabase.js';
+
+    // шапка: «Войти» меняется на аватар, если сессия уже есть
+    initHeaderAuth();
 
     var session = await requireSession({ next: 'profile.html' });
     if (!session) throw new Error('redirect');

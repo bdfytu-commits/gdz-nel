@@ -447,33 +447,52 @@
     return (subject.textbooks || []).filter(function (b) { return b.id === id; })[0] || null;
   }
 
-  // облегчённый индекс: манифест search-index.json плюс, если он
-  // большой, несколько файлов-шардов (лимит Cloudflare Pages на файл).
-  // Поля короткие: b — книга, n — номер, g/s — класс и предмет,
-  // st/bt — названия, c — условие.
-  function loadIndexPayload(url) {
-    return getJSON(url).then(function (data) {
-      if (!data) return [];
-      if (Array.isArray(data.tasks)) return data.tasks;
-      if (!Array.isArray(data.shards) || !data.shards.length) return [];
-      var base = url.slice(0, url.lastIndexOf('/') + 1);
-      return Promise.all(data.shards.map(function (name) {
-        return getJSON(base + name);
-      })).then(function (parts) {
-        var all = [];
-        parts.forEach(function (part) {
-          if (part && Array.isArray(part.tasks)) all = all.concat(part.tasks);
-        });
-        return all;
-      });
+  // облегчённый индекс: манифест search-index.json плюс шарды по классам
+  // и предметам. Шарды грузятся порциями и только до первых совпадений,
+  // поэтому поиск не тянет весь индекс сразу.
+  var indexManifest = null;
+
+  function loadIndexManifest() {
+    if (indexManifest) return Promise.resolve(indexManifest);
+    return getJSON(DATA_DIR + 'search-index.json').then(function (data) {
+      indexManifest = data || {};
+      return indexManifest;
     });
   }
 
-  function loadSearchIndex() {
-    if (searchIndex) return Promise.resolve(searchIndex);
-    return loadIndexPayload(DATA_DIR + 'search-index.json').then(function (tasks) {
-      searchIndex = tasks || [];
-      return searchIndex;
+  function scanIndex(list, query, isDigits, found, limit) {
+    for (var i = 0; i < list.length && found.length < limit; i++) {
+      var item = list[i] || {};
+      var hit = isDigits
+        ? String(item.n).indexOf(query) === 0
+        : String(item.c || '').toLowerCase().indexOf(query) !== -1;
+      if (hit) found.push(item);
+    }
+  }
+
+  function searchIndexProgressively(query, isDigits, limit) {
+    return loadIndexManifest().then(function (man) {
+      var found = [];
+      if (Array.isArray(man.tasks)) {
+        scanIndex(man.tasks, query, isDigits, found, limit);
+        return found;
+      }
+      var shards = Array.isArray(man.shards) ? man.shards : [];
+      var pos = 0;
+      function step() {
+        if (pos >= shards.length || found.length >= limit) return Promise.resolve(found);
+        var batch = shards.slice(pos, pos + 2);
+        pos += 2;
+        return Promise.all(batch.map(function (shard) {
+          return getJSON(DATA_DIR + shard.file).catch(function () { return null; });
+        })).then(function (parts) {
+          parts.forEach(function (part) {
+            if (part && Array.isArray(part.tasks)) scanIndex(part.tasks, query, isDigits, found, limit);
+          });
+          return step();
+        });
+      }
+      return step();
     });
   }
 
@@ -495,7 +514,18 @@
   }
 
   function sortedTasks(book) {
-    return (book.tasks || []).slice().sort(compareTaskNumbers);
+    var order = {};
+    var rank = 0;
+    (book.tasks || []).forEach(function (task) {
+      var name = task.section || '';
+      if (!(name in order)) order[name] = rank++;
+    });
+    return (book.tasks || []).slice().sort(function (a, b) {
+      var sa = a.section || '';
+      var sb = b.section || '';
+      if (order[sa] !== order[sb]) return order[sa] - order[sb];
+      return compareTaskNumbers(a, b);
+    });
   }
 
   /* =========================================================
@@ -1623,19 +1653,9 @@
     screenEl.innerHTML = '<h1 class="panel-title">Поиск</h1>' +
       '<p class="panel-sub">Ищу «' + esc(query) + '»…</p>';
 
-    loadSearchIndex().then(function (list) {
+    var isDigits = /^\d+(?:[.,]\d+)?$/.test(query);
+    searchIndexProgressively(query, isDigits, 50).then(function (found) {
       if (token !== renderToken) return;
-
-      var q = query.toLowerCase();
-      var isDigits = /^\d+(?:[.,]\d+)?$/.test(query);
-      var found = [];
-      for (var i = 0; i < list.length && found.length < 50; i++) {
-        var item = list[i];
-        var hit = isDigits
-          ? String(item.n).indexOf(query) === 0
-          : String(item.c || '').toLowerCase().indexOf(q) !== -1;
-        if (hit) found.push(item);
-      }
 
       var html = '<h1 class="panel-title">Поиск</h1>' +
         '<p class="panel-sub">' + (found.length

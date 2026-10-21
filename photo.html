@@ -161,7 +161,9 @@
 
   <script src="assets/script.js"></script>
   <script type="module">
-    import { supabase, requireSession, escapeHtml } from './assets/supabase.js';
+    import { supabase, requireSession, escapeHtml, initHeaderAuth } from './assets/supabase.js';
+
+    initHeaderAuth();
 
     var session = await requireSession({ next: 'photo.html' });
     if (!session) {

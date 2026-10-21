@@ -56,10 +56,14 @@ async def main():
         visible = await page.locator(".task-cell:visible").count()
         print("4) фильтр ?q=1.2: видимых ячеек =", visible)
 
-        # 5. поиск по слову
+        # 5. поиск по слову (индекс шардирован, шарды доезжают порциями)
         await page.goto(BASE + "/app/#/search/урожайность", wait_until="networkidle")
-        await page.wait_for_timeout(800)
-        results = await page.locator(".list-item").count()
+        results = 0
+        for _ in range(24):
+            await page.wait_for_timeout(250)
+            results = await page.locator(".list-item").count()
+            if results:
+                break
         print("5) поиск: результатов =", results)
 
         # 6. нижняя навигация и кнопка «наверх» на телефоне

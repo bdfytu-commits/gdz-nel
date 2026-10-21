@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Поиск по заданиям — ГДЗ НЭЛ</title>
-  <meta name="description" content="Поиск по всем заданиям ГДЗ НЭЛ сразу по 88 238 заданиям из 185 учебников: ищите по условию, разделу или номеру — поиск прощает опечатки.">
+  <meta name="description" content="Поиск по всем заданиям ГДЗ НЭЛ сразу по 298 940 заданиям из 550 учебников: ищите по условию, разделу или номеру — поиск прощает опечатки.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://gdz-nel.pages.dev/search.html">
 
@@ -128,7 +128,7 @@
     </div>
     <div class="footer-bottom">
       <span>Сделано для учеников и родителей лицея</span>
-      <span id="footer-stats">88 238 заданий · 185 учебников · 15 предметов</span>
+      <span id="footer-stats">298 940 заданий · 550 учебников · 15 предметов</span>
     </div>
     <p class="footer-legal">Материалы для личного использования. Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
   </footer>
@@ -149,8 +149,11 @@
 
       var HISTORY_KEY = 'gdz-nel-search-history';
       var INDEX_URL = 'app/data/search-index.json';
-      var fuse = null;
-      var loading = false;
+      var manifest = null;
+      var manifestPromise = null;
+      var shardFuses = [];
+      var shardPromises = {};
+      var searchToken = 0;
       var started = false;
       var timer = 0;
 
@@ -196,54 +199,78 @@
         renderHistory();
       });
 
-      function loadIndex() {
-        if (fuse || loading) return Promise.resolve();
-        loading = true;
+      function fuseOptions() {
+        return {
+          includeMatches: true,
+          threshold: 0.34,
+          ignoreLocation: true,
+          minMatchCharLength: 2,
+          keys: [
+            { name: 'c', weight: 0.50 },
+            { name: 'n', weight: 0.20 },
+            { name: 'sec', weight: 0.15 },
+            { name: 'bt', weight: 0.10 },
+            { name: 'st', weight: 0.05 }
+          ]
+        };
+      }
+
+      function loadManifest() {
+        if (manifestPromise) return manifestPromise;
         statusEl.textContent = 'Загружаю задания…';
-        return fetch(INDEX_URL)
+        manifestPromise = fetch(INDEX_URL)
           .then(function (res) {
             if (!res.ok) throw new Error('HTTP ' + res.status);
             return res.json();
           })
           .then(function (data) {
-            if (data && Array.isArray(data.tasks)) return data.tasks;
-            var shards = (data && data.shards) || [];
-            if (!shards.length) return [];
-            var base = INDEX_URL.slice(0, INDEX_URL.lastIndexOf('/') + 1);
-            return Promise.all(shards.map(function (name) {
-              return fetch(base + name).then(function (res) {
-                if (!res.ok) throw new Error('HTTP ' + res.status);
-                return res.json();
-              }).then(function (part) {
-                return (part && part.tasks) || [];
-              });
-            })).then(function (parts) {
-              var all = [];
-              parts.forEach(function (part) { all = all.concat(part); });
-              return all;
-            });
-          })
-          .then(function (tasks) {
-            fuse = new window.Fuse(tasks, {
-              includeMatches: true,
-              threshold: 0.34,
-              ignoreLocation: true,
-              minMatchCharLength: 2,
-              keys: [
-                { name: 'c', weight: 0.50 },
-                { name: 'n', weight: 0.20 },
-                { name: 'sec', weight: 0.15 },
-                { name: 'bt', weight: 0.10 },
-                { name: 'st', weight: 0.05 }
-              ]
-            });
-            statusEl.textContent = '';
+            if (data && Array.isArray(data.tasks)) {
+              shardFuses = [new window.Fuse(data.tasks, fuseOptions())];
+              manifest = { shards: [] };
+            } else {
+              manifest = data || { shards: [] };
+              manifest.shards = manifest.shards || [];
+            }
+            return manifest;
           })
           .catch(function () {
             statusEl.textContent = 'Не получилось загрузить базу поиска. Проверьте интернет и обновите страницу.';
-            loading = false;
             throw new Error('index');
           });
+        return manifestPromise;
+      }
+
+      function loadShard(index) {
+        if (shardFuses[index]) return Promise.resolve(shardFuses[index]);
+        if (shardPromises[index]) return shardPromises[index];
+        var base = INDEX_URL.slice(0, INDEX_URL.lastIndexOf('/') + 1);
+        var shard = manifest.shards[index];
+        shardPromises[index] = fetch(base + shard.file)
+          .then(function (res) {
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            return res.json();
+          })
+          .then(function (part) {
+            shardFuses[index] = new window.Fuse((part && part.tasks) || [], fuseOptions());
+            return shardFuses[index];
+          });
+        return shardPromises[index];
+      }
+
+      function searchLoaded(query, limit) {
+        var out = [];
+        var seen = {};
+        shardFuses.forEach(function (fuse) {
+          if (!fuse) return;
+          fuse.search(query, { limit: limit }).forEach(function (item) {
+            var key = item.item.b + '|' + item.item.n;
+            if (seen[key]) return;
+            seen[key] = 1;
+            out.push(item);
+          });
+        });
+        out.sort(function (a, b) { return b.score - a.score; });
+        return out.slice(0, limit);
       }
 
       function highlight(text, key, matches) {
@@ -298,17 +325,32 @@
           resultsEl.innerHTML = '';
           return;
         }
-        loadIndex().then(function () {
-          var items = fuse.search(query, { limit: 40 });
-          var url = new URL(location.href);
-          url.searchParams.set('q', query);
-          history.replaceState(null, '', url);
-          statusEl.textContent = items.length
-            ? 'Найдено заданий: ' + items.length
-            : '';
-          renderResults(items, query);
-          if (remember) pushHistory(query);
-          if (window.gdzTrack) window.gdzTrack('search', { query: query.slice(0, 40), found: items.length });
+        var token = ++searchToken;
+        loadManifest().then(function (man) {
+          var total = man.shards.length;
+          var pos = 0;
+          function step() {
+            if (token !== searchToken) return;
+            var items = searchLoaded(query, 40);
+            renderResults(items, query);
+            statusEl.textContent = items.length
+              ? 'Найдено заданий: ' + items.length
+              : (pos < total ? 'Ищу по базе…' : '');
+            if (items.length >= 40 || pos >= total) {
+              var url = new URL(location.href);
+              url.searchParams.set('q', query);
+              history.replaceState(null, '', url);
+              if (remember) pushHistory(query);
+              if (window.gdzTrack) window.gdzTrack('search', { query: query.slice(0, 40), found: items.length });
+              return;
+            }
+            var batch = [];
+            while (pos < total && batch.length < 2) batch.push(pos++);
+            Promise.all(batch.map(loadShard)).then(step).catch(function () {
+              statusEl.textContent = 'Не получилось загрузить часть поисковой базы.';
+            });
+          }
+          step();
         }).catch(function () { /* сообщение уже показано */ });
       }
 

@@ -1,0 +1,3311 @@
+{
+  "subject": "informatics",
+  "textbook": "semenov-6",
+  "author": "Семенов, Рудченко",
+  "year": "2024",
+  "source": "parsed",
+  "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408",
+  "parsedAt": "2026-10-21T14:40:36Z",
+  "tasks": [
+    {
+      "number": "1",
+      "section": "Задания",
+      "condition": "1. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074161.png?v=1607018534"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-1"
+    },
+    {
+      "number": "2",
+      "section": "Задания",
+      "condition": "2. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074272.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-2"
+    },
+    {
+      "number": "3",
+      "section": "Задания",
+      "condition": "3. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074359.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-3"
+    },
+    {
+      "number": "4",
+      "section": "Задания",
+      "condition": "4. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074370.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-4"
+    },
+    {
+      "number": "5",
+      "section": "Задания",
+      "condition": "5. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074381.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-5"
+    },
+    {
+      "number": "6",
+      "section": "Задания",
+      "condition": "6. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074392.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-6"
+    },
+    {
+      "number": "7",
+      "section": "Задания",
+      "condition": "7. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074403.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-7"
+    },
+    {
+      "number": "8",
+      "section": "Задания",
+      "condition": "8. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074414.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-8"
+    },
+    {
+      "number": "9",
+      "section": "Задания",
+      "condition": "9. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074425.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-9"
+    },
+    {
+      "number": "10",
+      "section": "Задания",
+      "condition": "10. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074162.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-10"
+    },
+    {
+      "number": "11",
+      "section": "Задания",
+      "condition": "11. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074173.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-11"
+    },
+    {
+      "number": "12",
+      "section": "Задания",
+      "condition": "12. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074184.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-12"
+    },
+    {
+      "number": "13",
+      "section": "Задания",
+      "condition": "13. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074195.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-13"
+    },
+    {
+      "number": "14",
+      "section": "Задания",
+      "condition": "14. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074206.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-14"
+    },
+    {
+      "number": "15",
+      "section": "Задания",
+      "condition": "15. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074217.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-15"
+    },
+    {
+      "number": "16",
+      "section": "Задания",
+      "condition": "16. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074228.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-16"
+    },
+    {
+      "number": "17",
+      "section": "Задания",
+      "condition": "17. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074239.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-17"
+    },
+    {
+      "number": "18",
+      "section": "Задания",
+      "condition": "18. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074250.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-18"
+    },
+    {
+      "number": "19",
+      "section": "Задания",
+      "condition": "19. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074261.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-19"
+    },
+    {
+      "number": "20",
+      "section": "Задания",
+      "condition": "20. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074273.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-20"
+    },
+    {
+      "number": "21",
+      "section": "Задания",
+      "condition": "21. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074284.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-21"
+    },
+    {
+      "number": "22",
+      "section": "Задания",
+      "condition": "22. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074295.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-22"
+    },
+    {
+      "number": "23",
+      "section": "Задания",
+      "condition": "23. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074306.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-23"
+    },
+    {
+      "number": "24",
+      "section": "Задания",
+      "condition": "24. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074317.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-24"
+    },
+    {
+      "number": "25",
+      "section": "Задания",
+      "condition": "25. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074328.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-25"
+    },
+    {
+      "number": "26",
+      "section": "Задания",
+      "condition": "26. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074339.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-26"
+    },
+    {
+      "number": "27",
+      "section": "Задания",
+      "condition": "27. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074350.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-27"
+    },
+    {
+      "number": "28",
+      "section": "Задания",
+      "condition": "28. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074357.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-28"
+    },
+    {
+      "number": "29",
+      "section": "Задания",
+      "condition": "29. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074358.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-29"
+    },
+    {
+      "number": "30",
+      "section": "Задания",
+      "condition": "30. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074360.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-30"
+    },
+    {
+      "number": "31",
+      "section": "Задания",
+      "condition": "31. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074361.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-31"
+    },
+    {
+      "number": "32",
+      "section": "Задания",
+      "condition": "32. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074362.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-32"
+    },
+    {
+      "number": "33",
+      "section": "Задания",
+      "condition": "33. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074363.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-33"
+    },
+    {
+      "number": "34",
+      "section": "Задания",
+      "condition": "34. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074364.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-34"
+    },
+    {
+      "number": "35",
+      "section": "Задания",
+      "condition": "35. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074365.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-35"
+    },
+    {
+      "number": "36",
+      "section": "Задания",
+      "condition": "36. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074366.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-36"
+    },
+    {
+      "number": "37",
+      "section": "Задания",
+      "condition": "37. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074367.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-37"
+    },
+    {
+      "number": "38",
+      "section": "Задания",
+      "condition": "38. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074368.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-38"
+    },
+    {
+      "number": "39",
+      "section": "Задания",
+      "condition": "39. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074369.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-39"
+    },
+    {
+      "number": "40",
+      "section": "Задания",
+      "condition": "40. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074371.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-40"
+    },
+    {
+      "number": "41",
+      "section": "Задания",
+      "condition": "41. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074372.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-41"
+    },
+    {
+      "number": "42",
+      "section": "Задания",
+      "condition": "42. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074373.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-42"
+    },
+    {
+      "number": "43",
+      "section": "Задания",
+      "condition": "43. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074374.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-43"
+    },
+    {
+      "number": "44",
+      "section": "Задания",
+      "condition": "44. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074375.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-44"
+    },
+    {
+      "number": "45",
+      "section": "Задания",
+      "condition": "45. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074376.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-45"
+    },
+    {
+      "number": "46",
+      "section": "Задания",
+      "condition": "46. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074377.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-46"
+    },
+    {
+      "number": "47",
+      "section": "Задания",
+      "condition": "47. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074378.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-47"
+    },
+    {
+      "number": "48",
+      "section": "Задания",
+      "condition": "48. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074379.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-48"
+    },
+    {
+      "number": "49",
+      "section": "Задания",
+      "condition": "49. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074380.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-49"
+    },
+    {
+      "number": "50",
+      "section": "Задания",
+      "condition": "50. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074382.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-50"
+    },
+    {
+      "number": "51",
+      "section": "Задания",
+      "condition": "51. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074383.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-51"
+    },
+    {
+      "number": "52",
+      "section": "Задания",
+      "condition": "52. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074384.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-52"
+    },
+    {
+      "number": "53",
+      "section": "Задания",
+      "condition": "53. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074385.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-53"
+    },
+    {
+      "number": "54",
+      "section": "Задания",
+      "condition": "54. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074386.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-54"
+    },
+    {
+      "number": "55",
+      "section": "Задания",
+      "condition": "55. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074387.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-55"
+    },
+    {
+      "number": "56",
+      "section": "Задания",
+      "condition": "56. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074388.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-56"
+    },
+    {
+      "number": "57",
+      "section": "Задания",
+      "condition": "57. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074389.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-57"
+    },
+    {
+      "number": "58",
+      "section": "Задания",
+      "condition": "58. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074390.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-58"
+    },
+    {
+      "number": "59",
+      "section": "Задания",
+      "condition": "59. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074391.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-59"
+    },
+    {
+      "number": "60",
+      "section": "Задания",
+      "condition": "60. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074393.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-60"
+    },
+    {
+      "number": "61",
+      "section": "Задания",
+      "condition": "61. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074394.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-61"
+    },
+    {
+      "number": "62",
+      "section": "Задания",
+      "condition": "62. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074395.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-62"
+    },
+    {
+      "number": "63",
+      "section": "Задания",
+      "condition": "63. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074396.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-63"
+    },
+    {
+      "number": "64",
+      "section": "Задания",
+      "condition": "64. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074397.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-64"
+    },
+    {
+      "number": "65",
+      "section": "Задания",
+      "condition": "65. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074398.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-65"
+    },
+    {
+      "number": "66",
+      "section": "Задания",
+      "condition": "66. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074399.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-66"
+    },
+    {
+      "number": "67",
+      "section": "Задания",
+      "condition": "67. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074400.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-67"
+    },
+    {
+      "number": "68",
+      "section": "Задания",
+      "condition": "68. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074401.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-68"
+    },
+    {
+      "number": "69",
+      "section": "Задания",
+      "condition": "69. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074402.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-69"
+    },
+    {
+      "number": "70",
+      "section": "Задания",
+      "condition": "70. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074404.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-70"
+    },
+    {
+      "number": "71",
+      "section": "Задания",
+      "condition": "71. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074405.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-71"
+    },
+    {
+      "number": "72",
+      "section": "Задания",
+      "condition": "72. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074406.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-72"
+    },
+    {
+      "number": "73",
+      "section": "Задания",
+      "condition": "73. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074407.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-73"
+    },
+    {
+      "number": "74",
+      "section": "Задания",
+      "condition": "74. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074408.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-74"
+    },
+    {
+      "number": "75",
+      "section": "Задания",
+      "condition": "75. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074409.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-75"
+    },
+    {
+      "number": "76",
+      "section": "Задания",
+      "condition": "76. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074410.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-76"
+    },
+    {
+      "number": "77",
+      "section": "Задания",
+      "condition": "77. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074411.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-77"
+    },
+    {
+      "number": "78",
+      "section": "Задания",
+      "condition": "78. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074412.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-78"
+    },
+    {
+      "number": "79",
+      "section": "Задания",
+      "condition": "79. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074413.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-79"
+    },
+    {
+      "number": "80",
+      "section": "Задания",
+      "condition": "80. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074415.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-80"
+    },
+    {
+      "number": "81",
+      "section": "Задания",
+      "condition": "81. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074416.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-81"
+    },
+    {
+      "number": "82",
+      "section": "Задания",
+      "condition": "82. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074417.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-82"
+    },
+    {
+      "number": "83",
+      "section": "Задания",
+      "condition": "83. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074418.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-83"
+    },
+    {
+      "number": "84",
+      "section": "Задания",
+      "condition": "84. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074419.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-84"
+    },
+    {
+      "number": "85",
+      "section": "Задания",
+      "condition": "85. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074420.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-85"
+    },
+    {
+      "number": "86",
+      "section": "Задания",
+      "condition": "86. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074421.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-86"
+    },
+    {
+      "number": "87",
+      "section": "Задания",
+      "condition": "87. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074422.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-87"
+    },
+    {
+      "number": "88",
+      "section": "Задания",
+      "condition": "88. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074423.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-88"
+    },
+    {
+      "number": "89",
+      "section": "Задания",
+      "condition": "89. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074424.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-89"
+    },
+    {
+      "number": "90",
+      "section": "Задания",
+      "condition": "90. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074426.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-90"
+    },
+    {
+      "number": "91",
+      "section": "Задания",
+      "condition": "91. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074427.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-91"
+    },
+    {
+      "number": "92",
+      "section": "Задания",
+      "condition": "92. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074428.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-92"
+    },
+    {
+      "number": "93",
+      "section": "Задания",
+      "condition": "93. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074429.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-93"
+    },
+    {
+      "number": "94",
+      "section": "Задания",
+      "condition": "94. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074430.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-94"
+    },
+    {
+      "number": "95",
+      "section": "Задания",
+      "condition": "95. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074431.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-95"
+    },
+    {
+      "number": "96",
+      "section": "Задания",
+      "condition": "96. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074432.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-96"
+    },
+    {
+      "number": "97",
+      "section": "Задания",
+      "condition": "97. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074433.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-97"
+    },
+    {
+      "number": "98",
+      "section": "Задания",
+      "condition": "98. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074434.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-98"
+    },
+    {
+      "number": "99",
+      "section": "Задания",
+      "condition": "99. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074435.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-99"
+    },
+    {
+      "number": "100",
+      "section": "Задания",
+      "condition": "100. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074163.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-100"
+    },
+    {
+      "number": "101",
+      "section": "Задания",
+      "condition": "101. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074164.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-101"
+    },
+    {
+      "number": "102",
+      "section": "Задания",
+      "condition": "102. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074165.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-102"
+    },
+    {
+      "number": "103",
+      "section": "Задания",
+      "condition": "103. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074166.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-103"
+    },
+    {
+      "number": "104",
+      "section": "Задания",
+      "condition": "104. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074167.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-104"
+    },
+    {
+      "number": "105",
+      "section": "Задания",
+      "condition": "105. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074168.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-105"
+    },
+    {
+      "number": "106",
+      "section": "Задания",
+      "condition": "106. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074169.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-106"
+    },
+    {
+      "number": "107",
+      "section": "Задания",
+      "condition": "107. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074170.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-107"
+    },
+    {
+      "number": "108",
+      "section": "Задания",
+      "condition": "108. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074171.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-108"
+    },
+    {
+      "number": "109",
+      "section": "Задания",
+      "condition": "109. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074172.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-109"
+    },
+    {
+      "number": "110",
+      "section": "Задания",
+      "condition": "110. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074174.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-110"
+    },
+    {
+      "number": "111",
+      "section": "Задания",
+      "condition": "111. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074175.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-111"
+    },
+    {
+      "number": "112",
+      "section": "Задания",
+      "condition": "112. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074176.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-112"
+    },
+    {
+      "number": "113",
+      "section": "Задания",
+      "condition": "113. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074177.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-113"
+    },
+    {
+      "number": "114",
+      "section": "Задания",
+      "condition": "114. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074178.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-114"
+    },
+    {
+      "number": "115",
+      "section": "Задания",
+      "condition": "115. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074179.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-115"
+    },
+    {
+      "number": "116",
+      "section": "Задания",
+      "condition": "116. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074180.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-116"
+    },
+    {
+      "number": "117",
+      "section": "Задания",
+      "condition": "117. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074181.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-117"
+    },
+    {
+      "number": "118",
+      "section": "Задания",
+      "condition": "118. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074182.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-118"
+    },
+    {
+      "number": "119",
+      "section": "Задания",
+      "condition": "119. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074183.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-119"
+    },
+    {
+      "number": "120",
+      "section": "Задания",
+      "condition": "120. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074185.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-120"
+    },
+    {
+      "number": "121",
+      "section": "Задания",
+      "condition": "121. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074186.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-121"
+    },
+    {
+      "number": "122",
+      "section": "Задания",
+      "condition": "122. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074187.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-122"
+    },
+    {
+      "number": "123",
+      "section": "Задания",
+      "condition": "123. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074188.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-123"
+    },
+    {
+      "number": "124",
+      "section": "Задания",
+      "condition": "124. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074189.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-124"
+    },
+    {
+      "number": "125",
+      "section": "Задания",
+      "condition": "125. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074190.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-125"
+    },
+    {
+      "number": "126",
+      "section": "Задания",
+      "condition": "126. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074191.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-126"
+    },
+    {
+      "number": "127",
+      "section": "Задания",
+      "condition": "127. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074192.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-127"
+    },
+    {
+      "number": "128",
+      "section": "Задания",
+      "condition": "128. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074193.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-128"
+    },
+    {
+      "number": "129",
+      "section": "Задания",
+      "condition": "129. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074194.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-129"
+    },
+    {
+      "number": "130",
+      "section": "Задания",
+      "condition": "130. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074196.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-130"
+    },
+    {
+      "number": "131",
+      "section": "Задания",
+      "condition": "131. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074197.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-131"
+    },
+    {
+      "number": "132",
+      "section": "Задания",
+      "condition": "132. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074198.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-132"
+    },
+    {
+      "number": "133",
+      "section": "Задания",
+      "condition": "133. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074199.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-133"
+    },
+    {
+      "number": "134",
+      "section": "Задания",
+      "condition": "134. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074200.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-134"
+    },
+    {
+      "number": "135",
+      "section": "Задания",
+      "condition": "135. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074201.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-135"
+    },
+    {
+      "number": "136",
+      "section": "Задания",
+      "condition": "136. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074202.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-136"
+    },
+    {
+      "number": "137",
+      "section": "Задания",
+      "condition": "137. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074203.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-137"
+    },
+    {
+      "number": "138",
+      "section": "Задания",
+      "condition": "138. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074204.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-138"
+    },
+    {
+      "number": "139",
+      "section": "Задания",
+      "condition": "139. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074205.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-139"
+    },
+    {
+      "number": "140",
+      "section": "Задания",
+      "condition": "140. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074207.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-140"
+    },
+    {
+      "number": "141",
+      "section": "Задания",
+      "condition": "141. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074208.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-141"
+    },
+    {
+      "number": "142",
+      "section": "Задания",
+      "condition": "142. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074209.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-142"
+    },
+    {
+      "number": "143",
+      "section": "Задания",
+      "condition": "143. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074210.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-143"
+    },
+    {
+      "number": "144",
+      "section": "Задания",
+      "condition": "144. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074211.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-144"
+    },
+    {
+      "number": "145",
+      "section": "Задания",
+      "condition": "145. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074212.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-145"
+    },
+    {
+      "number": "146",
+      "section": "Задания",
+      "condition": "146. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074213.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-146"
+    },
+    {
+      "number": "147",
+      "section": "Задания",
+      "condition": "147. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074214.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-147"
+    },
+    {
+      "number": "148",
+      "section": "Задания",
+      "condition": "148. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074215.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-148"
+    },
+    {
+      "number": "149",
+      "section": "Задания",
+      "condition": "149. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074216.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-149"
+    },
+    {
+      "number": "150",
+      "section": "Задания",
+      "condition": "150. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074218.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-150"
+    },
+    {
+      "number": "151",
+      "section": "Задания",
+      "condition": "151. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074219.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-151"
+    },
+    {
+      "number": "152",
+      "section": "Задания",
+      "condition": "152. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074220.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-152"
+    },
+    {
+      "number": "153",
+      "section": "Задания",
+      "condition": "153. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074221.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-153"
+    },
+    {
+      "number": "154",
+      "section": "Задания",
+      "condition": "154. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074222.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-154"
+    },
+    {
+      "number": "155",
+      "section": "Задания",
+      "condition": "155. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074223.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-155"
+    },
+    {
+      "number": "156",
+      "section": "Задания",
+      "condition": "156. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074224.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-156"
+    },
+    {
+      "number": "157",
+      "section": "Задания",
+      "condition": "157. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074225.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-157"
+    },
+    {
+      "number": "158",
+      "section": "Задания",
+      "condition": "158. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074226.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-158"
+    },
+    {
+      "number": "159",
+      "section": "Задания",
+      "condition": "159. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074227.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-159"
+    },
+    {
+      "number": "160",
+      "section": "Задания",
+      "condition": "160. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074229.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-160"
+    },
+    {
+      "number": "161",
+      "section": "Задания",
+      "condition": "161. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074230.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-161"
+    },
+    {
+      "number": "162",
+      "section": "Задания",
+      "condition": "162. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074231.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-162"
+    },
+    {
+      "number": "163",
+      "section": "Задания",
+      "condition": "163. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074232.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-163"
+    },
+    {
+      "number": "164",
+      "section": "Задания",
+      "condition": "164. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074233.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-164"
+    },
+    {
+      "number": "165",
+      "section": "Задания",
+      "condition": "165. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074234.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-165"
+    },
+    {
+      "number": "166",
+      "section": "Задания",
+      "condition": "166. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074235.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-166"
+    },
+    {
+      "number": "167",
+      "section": "Задания",
+      "condition": "167. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074236.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-167"
+    },
+    {
+      "number": "168",
+      "section": "Задания",
+      "condition": "168. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074237.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-168"
+    },
+    {
+      "number": "169",
+      "section": "Задания",
+      "condition": "169. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074238.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-169"
+    },
+    {
+      "number": "170",
+      "section": "Задания",
+      "condition": "170. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074240.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-170"
+    },
+    {
+      "number": "171",
+      "section": "Задания",
+      "condition": "171. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074241.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-171"
+    },
+    {
+      "number": "172",
+      "section": "Задания",
+      "condition": "172. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074242.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-172"
+    },
+    {
+      "number": "173",
+      "section": "Задания",
+      "condition": "173. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074243.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-173"
+    },
+    {
+      "number": "174",
+      "section": "Задания",
+      "condition": "174. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074244.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-174"
+    },
+    {
+      "number": "175",
+      "section": "Задания",
+      "condition": "175. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074245.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-175"
+    },
+    {
+      "number": "176",
+      "section": "Задания",
+      "condition": "176. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074246.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-176"
+    },
+    {
+      "number": "177",
+      "section": "Задания",
+      "condition": "177. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074247.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-177"
+    },
+    {
+      "number": "178",
+      "section": "Задания",
+      "condition": "178. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074248.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-178"
+    },
+    {
+      "number": "179",
+      "section": "Задания",
+      "condition": "179. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074249.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-179"
+    },
+    {
+      "number": "180",
+      "section": "Задания",
+      "condition": "180. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074251.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-180"
+    },
+    {
+      "number": "181",
+      "section": "Задания",
+      "condition": "181. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074252.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-181"
+    },
+    {
+      "number": "182",
+      "section": "Задания",
+      "condition": "182. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074253.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-182"
+    },
+    {
+      "number": "183",
+      "section": "Задания",
+      "condition": "183. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074254.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-183"
+    },
+    {
+      "number": "184",
+      "section": "Задания",
+      "condition": "184. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074255.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-184"
+    },
+    {
+      "number": "185",
+      "section": "Задания",
+      "condition": "185. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074256.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-185"
+    },
+    {
+      "number": "186",
+      "section": "Задания",
+      "condition": "186. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074257.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-186"
+    },
+    {
+      "number": "187",
+      "section": "Задания",
+      "condition": "187. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074258.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-187"
+    },
+    {
+      "number": "188",
+      "section": "Задания",
+      "condition": "188. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074259.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-188"
+    },
+    {
+      "number": "189",
+      "section": "Задания",
+      "condition": "189. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074260.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-189"
+    },
+    {
+      "number": "190",
+      "section": "Задания",
+      "condition": "190. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074262.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-190"
+    },
+    {
+      "number": "191",
+      "section": "Задания",
+      "condition": "191. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074263.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-191"
+    },
+    {
+      "number": "192",
+      "section": "Задания",
+      "condition": "192. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074264.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-192"
+    },
+    {
+      "number": "193",
+      "section": "Задания",
+      "condition": "193. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074265.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-193"
+    },
+    {
+      "number": "194",
+      "section": "Задания",
+      "condition": "194. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074266.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-194"
+    },
+    {
+      "number": "195",
+      "section": "Задания",
+      "condition": "195. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074267.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-195"
+    },
+    {
+      "number": "196",
+      "section": "Задания",
+      "condition": "196. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074268.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-196"
+    },
+    {
+      "number": "197",
+      "section": "Задания",
+      "condition": "197. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074269.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-197"
+    },
+    {
+      "number": "198",
+      "section": "Задания",
+      "condition": "198. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074270.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-198"
+    },
+    {
+      "number": "199",
+      "section": "Задания",
+      "condition": "199. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074271.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-199"
+    },
+    {
+      "number": "200",
+      "section": "Задания",
+      "condition": "200. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074274.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-200"
+    },
+    {
+      "number": "201",
+      "section": "Задания",
+      "condition": "201. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074275.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-201"
+    },
+    {
+      "number": "202",
+      "section": "Задания",
+      "condition": "202. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074276.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-202"
+    },
+    {
+      "number": "203",
+      "section": "Задания",
+      "condition": "203. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074277.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-203"
+    },
+    {
+      "number": "204",
+      "section": "Задания",
+      "condition": "204. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074278.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-204"
+    },
+    {
+      "number": "205",
+      "section": "Задания",
+      "condition": "205. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074279.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-205"
+    },
+    {
+      "number": "206",
+      "section": "Задания",
+      "condition": "206. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074280.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-206"
+    },
+    {
+      "number": "207",
+      "section": "Задания",
+      "condition": "207. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074281.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-207"
+    },
+    {
+      "number": "208",
+      "section": "Задания",
+      "condition": "208. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074282.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-208"
+    },
+    {
+      "number": "209",
+      "section": "Задания",
+      "condition": "209. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074283.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-209"
+    },
+    {
+      "number": "210",
+      "section": "Задания",
+      "condition": "210. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074285.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-210"
+    },
+    {
+      "number": "211",
+      "section": "Задания",
+      "condition": "211. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074286.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-211"
+    },
+    {
+      "number": "212",
+      "section": "Задания",
+      "condition": "212. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074287.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-212"
+    },
+    {
+      "number": "213",
+      "section": "Задания",
+      "condition": "213. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074288.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-213"
+    },
+    {
+      "number": "214",
+      "section": "Задания",
+      "condition": "214. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074289.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-214"
+    },
+    {
+      "number": "215",
+      "section": "Задания",
+      "condition": "215. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074290.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-215"
+    },
+    {
+      "number": "216",
+      "section": "Задания",
+      "condition": "216. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074291.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-216"
+    },
+    {
+      "number": "217",
+      "section": "Задания",
+      "condition": "217. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074292.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-217"
+    },
+    {
+      "number": "218",
+      "section": "Задания",
+      "condition": "218. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074293.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-218"
+    },
+    {
+      "number": "219",
+      "section": "Задания",
+      "condition": "219. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074294.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-219"
+    },
+    {
+      "number": "220",
+      "section": "Задания",
+      "condition": "220. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074296.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-220"
+    },
+    {
+      "number": "221",
+      "section": "Задания",
+      "condition": "221. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074297.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-221"
+    },
+    {
+      "number": "222",
+      "section": "Задания",
+      "condition": "222. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074298.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-222"
+    },
+    {
+      "number": "223",
+      "section": "Задания",
+      "condition": "223. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074299.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-223"
+    },
+    {
+      "number": "224",
+      "section": "Задания",
+      "condition": "224. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074300.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-224"
+    },
+    {
+      "number": "225",
+      "section": "Задания",
+      "condition": "225. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074301.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-225"
+    },
+    {
+      "number": "226",
+      "section": "Задания",
+      "condition": "226. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074302.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-226"
+    },
+    {
+      "number": "227",
+      "section": "Задания",
+      "condition": "227. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074303.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-227"
+    },
+    {
+      "number": "228",
+      "section": "Задания",
+      "condition": "228. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074304.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-228"
+    },
+    {
+      "number": "229",
+      "section": "Задания",
+      "condition": "229. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074305.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-229"
+    },
+    {
+      "number": "230",
+      "section": "Задания",
+      "condition": "230. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074307.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-230"
+    },
+    {
+      "number": "231",
+      "section": "Задания",
+      "condition": "231. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074308.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-231"
+    },
+    {
+      "number": "232",
+      "section": "Задания",
+      "condition": "232. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074309.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-232"
+    },
+    {
+      "number": "233",
+      "section": "Задания",
+      "condition": "233. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074310.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-233"
+    },
+    {
+      "number": "234",
+      "section": "Задания",
+      "condition": "234. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074311.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-234"
+    },
+    {
+      "number": "235",
+      "section": "Задания",
+      "condition": "235. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074312.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-235"
+    },
+    {
+      "number": "236",
+      "section": "Задания",
+      "condition": "236. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074313.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-236"
+    },
+    {
+      "number": "237",
+      "section": "Задания",
+      "condition": "237. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074314.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-237"
+    },
+    {
+      "number": "238",
+      "section": "Задания",
+      "condition": "238. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074315.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-238"
+    },
+    {
+      "number": "239",
+      "section": "Задания",
+      "condition": "239. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074316.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-239"
+    },
+    {
+      "number": "240",
+      "section": "Задания",
+      "condition": "240. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074318.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-240"
+    },
+    {
+      "number": "241",
+      "section": "Задания",
+      "condition": "241. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074319.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-241"
+    },
+    {
+      "number": "242",
+      "section": "Задания",
+      "condition": "242. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074320.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-242"
+    },
+    {
+      "number": "243",
+      "section": "Задания",
+      "condition": "243. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074321.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-243"
+    },
+    {
+      "number": "244",
+      "section": "Задания",
+      "condition": "244. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074322.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-244"
+    },
+    {
+      "number": "245",
+      "section": "Задания",
+      "condition": "245. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074323.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-245"
+    },
+    {
+      "number": "246",
+      "section": "Задания",
+      "condition": "246. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074324.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-246"
+    },
+    {
+      "number": "247",
+      "section": "Задания",
+      "condition": "247. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074325.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-247"
+    },
+    {
+      "number": "248",
+      "section": "Задания",
+      "condition": "248. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074326.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-248"
+    },
+    {
+      "number": "249",
+      "section": "Задания",
+      "condition": "249. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074327.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-249"
+    },
+    {
+      "number": "250",
+      "section": "Задания",
+      "condition": "250. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074329.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-250"
+    },
+    {
+      "number": "251",
+      "section": "Задания",
+      "condition": "251. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074330.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-251"
+    },
+    {
+      "number": "252",
+      "section": "Задания",
+      "condition": "252. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074331.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-252"
+    },
+    {
+      "number": "253",
+      "section": "Задания",
+      "condition": "253. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074332.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-253"
+    },
+    {
+      "number": "254",
+      "section": "Задания",
+      "condition": "254. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074333.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-254"
+    },
+    {
+      "number": "255",
+      "section": "Задания",
+      "condition": "255. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074334.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-255"
+    },
+    {
+      "number": "256",
+      "section": "Задания",
+      "condition": "256. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074335.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-256"
+    },
+    {
+      "number": "257",
+      "section": "Задания",
+      "condition": "257. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074336.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-257"
+    },
+    {
+      "number": "258",
+      "section": "Задания",
+      "condition": "258. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074337.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-258"
+    },
+    {
+      "number": "259",
+      "section": "Задания",
+      "condition": "259. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074338.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-259"
+    },
+    {
+      "number": "260",
+      "section": "Задания",
+      "condition": "260. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074340.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-260"
+    },
+    {
+      "number": "261",
+      "section": "Задания",
+      "condition": "261. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074341.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-261"
+    },
+    {
+      "number": "262",
+      "section": "Задания",
+      "condition": "262. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074342.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-262"
+    },
+    {
+      "number": "263",
+      "section": "Задания",
+      "condition": "263. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074343.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-263"
+    },
+    {
+      "number": "264",
+      "section": "Задания",
+      "condition": "264. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074344.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-264"
+    },
+    {
+      "number": "265",
+      "section": "Задания",
+      "condition": "265. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074345.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-265"
+    },
+    {
+      "number": "266",
+      "section": "Задания",
+      "condition": "266. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074346.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-266"
+    },
+    {
+      "number": "267",
+      "section": "Задания",
+      "condition": "267. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074347.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-267"
+    },
+    {
+      "number": "268",
+      "section": "Задания",
+      "condition": "268. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074348.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-268"
+    },
+    {
+      "number": "269",
+      "section": "Задания",
+      "condition": "269. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074349.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-269"
+    },
+    {
+      "number": "270",
+      "section": "Задания",
+      "condition": "270. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074351.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-270"
+    },
+    {
+      "number": "271",
+      "section": "Задания",
+      "condition": "271. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074352.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-271"
+    },
+    {
+      "number": "272",
+      "section": "Задания",
+      "condition": "272. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074353.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-272"
+    },
+    {
+      "number": "273",
+      "section": "Задания",
+      "condition": "273. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074354.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-273"
+    },
+    {
+      "number": "274",
+      "section": "Задания",
+      "condition": "274. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074355.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-274"
+    },
+    {
+      "number": "275",
+      "section": "Задания",
+      "condition": "275. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5660/2074356.png?v=1607018536"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/informatika/6_klass/otvety-po-informatike-6-klass-semenov-408/zadanie-275"
+    }
+  ]
+}

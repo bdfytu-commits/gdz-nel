@@ -1,0 +1,4811 @@
+{
+  "subject": "algebra",
+  "textbook": "makarychev-9-602",
+  "author": "Макарычев Углубленный",
+  "year": "2022",
+  "source": "parsed",
+  "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602",
+  "parsedAt": "2026-10-21T15:15:01Z",
+  "tasks": [
+    {
+      "number": "1",
+      "section": "Задания",
+      "condition": "1. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564770.png?v=1666457889"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-1"
+    },
+    {
+      "number": "2",
+      "section": "Задания",
+      "condition": "2. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564881.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-2"
+    },
+    {
+      "number": "3",
+      "section": "Задания",
+      "condition": "3. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564992.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-3"
+    },
+    {
+      "number": "4",
+      "section": "Задания",
+      "condition": "4. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565103.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-4"
+    },
+    {
+      "number": "5",
+      "section": "Задания",
+      "condition": "5. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565115.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-5"
+    },
+    {
+      "number": "6",
+      "section": "Задания",
+      "condition": "6. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565126.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-6"
+    },
+    {
+      "number": "7",
+      "section": "Задания",
+      "condition": "7. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565137.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-7"
+    },
+    {
+      "number": "8",
+      "section": "Задания",
+      "condition": "8. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565148.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-8"
+    },
+    {
+      "number": "9",
+      "section": "Задания",
+      "condition": "9. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565159.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-9"
+    },
+    {
+      "number": "10",
+      "section": "Задания",
+      "condition": "10. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564771.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-10"
+    },
+    {
+      "number": "11",
+      "section": "Задания",
+      "condition": "11. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564782.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-11"
+    },
+    {
+      "number": "12",
+      "section": "Задания",
+      "condition": "12. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564793.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-12"
+    },
+    {
+      "number": "13",
+      "section": "Задания",
+      "condition": "13. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564804.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-13"
+    },
+    {
+      "number": "14",
+      "section": "Задания",
+      "condition": "14. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564815.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-14"
+    },
+    {
+      "number": "15",
+      "section": "Задания",
+      "condition": "15. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564826.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-15"
+    },
+    {
+      "number": "16",
+      "section": "Задания",
+      "condition": "16. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564837.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-16"
+    },
+    {
+      "number": "17",
+      "section": "Задания",
+      "condition": "17. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564848.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-17"
+    },
+    {
+      "number": "18",
+      "section": "Задания",
+      "condition": "18. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564859.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-18"
+    },
+    {
+      "number": "19",
+      "section": "Задания",
+      "condition": "19. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564870.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-19"
+    },
+    {
+      "number": "20",
+      "section": "Задания",
+      "condition": "20. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564882.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-20"
+    },
+    {
+      "number": "21",
+      "section": "Задания",
+      "condition": "21. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564893.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-21"
+    },
+    {
+      "number": "22",
+      "section": "Задания",
+      "condition": "22. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564904.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-22"
+    },
+    {
+      "number": "23",
+      "section": "Задания",
+      "condition": "23. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564915.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-23"
+    },
+    {
+      "number": "24",
+      "section": "Задания",
+      "condition": "24. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564926.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-24"
+    },
+    {
+      "number": "25",
+      "section": "Задания",
+      "condition": "25. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564937.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-25"
+    },
+    {
+      "number": "26",
+      "section": "Задания",
+      "condition": "26. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564948.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-26"
+    },
+    {
+      "number": "27",
+      "section": "Задания",
+      "condition": "27. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564959.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-27"
+    },
+    {
+      "number": "28",
+      "section": "Задания",
+      "condition": "28. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564970.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-28"
+    },
+    {
+      "number": "29",
+      "section": "Задания",
+      "condition": "29. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564981.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-29"
+    },
+    {
+      "number": "30",
+      "section": "Задания",
+      "condition": "30. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564993.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-30"
+    },
+    {
+      "number": "31",
+      "section": "Задания",
+      "condition": "31. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565004.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-31"
+    },
+    {
+      "number": "32",
+      "section": "Задания",
+      "condition": "32. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565015.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-32"
+    },
+    {
+      "number": "33",
+      "section": "Задания",
+      "condition": "33. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565026.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-33"
+    },
+    {
+      "number": "34",
+      "section": "Задания",
+      "condition": "34. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565037.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-34"
+    },
+    {
+      "number": "35",
+      "section": "Задания",
+      "condition": "35. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565048.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-35"
+    },
+    {
+      "number": "36",
+      "section": "Задания",
+      "condition": "36. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565059.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-36"
+    },
+    {
+      "number": "37",
+      "section": "Задания",
+      "condition": "37. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565070.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-37"
+    },
+    {
+      "number": "38",
+      "section": "Задания",
+      "condition": "38. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565081.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-38"
+    },
+    {
+      "number": "39",
+      "section": "Задания",
+      "condition": "39. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565092.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-39"
+    },
+    {
+      "number": "40",
+      "section": "Задания",
+      "condition": "40. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565104.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-40"
+    },
+    {
+      "number": "41",
+      "section": "Задания",
+      "condition": "41. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565106.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-41"
+    },
+    {
+      "number": "42",
+      "section": "Задания",
+      "condition": "42. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565107.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-42"
+    },
+    {
+      "number": "43",
+      "section": "Задания",
+      "condition": "43. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565108.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-43"
+    },
+    {
+      "number": "44",
+      "section": "Задания",
+      "condition": "44. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565109.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-44"
+    },
+    {
+      "number": "45",
+      "section": "Задания",
+      "condition": "45. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565110.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-45"
+    },
+    {
+      "number": "46",
+      "section": "Задания",
+      "condition": "46. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565111.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-46"
+    },
+    {
+      "number": "47",
+      "section": "Задания",
+      "condition": "47. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565112.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-47"
+    },
+    {
+      "number": "48",
+      "section": "Задания",
+      "condition": "48. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565113.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-48"
+    },
+    {
+      "number": "49",
+      "section": "Задания",
+      "condition": "49. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565114.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-49"
+    },
+    {
+      "number": "50",
+      "section": "Задания",
+      "condition": "50. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565116.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-50"
+    },
+    {
+      "number": "51",
+      "section": "Задания",
+      "condition": "51. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565117.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-51"
+    },
+    {
+      "number": "52",
+      "section": "Задания",
+      "condition": "52. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565118.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-52"
+    },
+    {
+      "number": "53",
+      "section": "Задания",
+      "condition": "53. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565119.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-53"
+    },
+    {
+      "number": "54",
+      "section": "Задания",
+      "condition": "54. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565120.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-54"
+    },
+    {
+      "number": "55",
+      "section": "Задания",
+      "condition": "55. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565121.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-55"
+    },
+    {
+      "number": "56",
+      "section": "Задания",
+      "condition": "56. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565122.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-56"
+    },
+    {
+      "number": "57",
+      "section": "Задания",
+      "condition": "57. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565123.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-57"
+    },
+    {
+      "number": "58",
+      "section": "Задания",
+      "condition": "58. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565124.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-58"
+    },
+    {
+      "number": "59",
+      "section": "Задания",
+      "condition": "59. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565125.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-59"
+    },
+    {
+      "number": "60",
+      "section": "Задания",
+      "condition": "60. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565127.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-60"
+    },
+    {
+      "number": "61",
+      "section": "Задания",
+      "condition": "61. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565128.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-61"
+    },
+    {
+      "number": "62",
+      "section": "Задания",
+      "condition": "62. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565129.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-62"
+    },
+    {
+      "number": "63",
+      "section": "Задания",
+      "condition": "63. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565130.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-63"
+    },
+    {
+      "number": "64",
+      "section": "Задания",
+      "condition": "64. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565131.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-64"
+    },
+    {
+      "number": "65",
+      "section": "Задания",
+      "condition": "65. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565132.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-65"
+    },
+    {
+      "number": "66",
+      "section": "Задания",
+      "condition": "66. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565133.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-66"
+    },
+    {
+      "number": "67",
+      "section": "Задания",
+      "condition": "67. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565134.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-67"
+    },
+    {
+      "number": "68",
+      "section": "Задания",
+      "condition": "68. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565135.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-68"
+    },
+    {
+      "number": "69",
+      "section": "Задания",
+      "condition": "69. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565136.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-69"
+    },
+    {
+      "number": "70",
+      "section": "Задания",
+      "condition": "70. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565138.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-70"
+    },
+    {
+      "number": "71",
+      "section": "Задания",
+      "condition": "71. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565139.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-71"
+    },
+    {
+      "number": "72",
+      "section": "Задания",
+      "condition": "72. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565140.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-72"
+    },
+    {
+      "number": "73",
+      "section": "Задания",
+      "condition": "73. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565141.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-73"
+    },
+    {
+      "number": "74",
+      "section": "Задания",
+      "condition": "74. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565142.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-74"
+    },
+    {
+      "number": "75",
+      "section": "Задания",
+      "condition": "75. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565143.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-75"
+    },
+    {
+      "number": "76",
+      "section": "Задания",
+      "condition": "76. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565144.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-76"
+    },
+    {
+      "number": "77",
+      "section": "Задания",
+      "condition": "77. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565145.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-77"
+    },
+    {
+      "number": "78",
+      "section": "Задания",
+      "condition": "78. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565146.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-78"
+    },
+    {
+      "number": "79",
+      "section": "Задания",
+      "condition": "79. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565147.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-79"
+    },
+    {
+      "number": "80",
+      "section": "Задания",
+      "condition": "80. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565149.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-80"
+    },
+    {
+      "number": "81",
+      "section": "Задания",
+      "condition": "81. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565150.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-81"
+    },
+    {
+      "number": "82",
+      "section": "Задания",
+      "condition": "82. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565151.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-82"
+    },
+    {
+      "number": "83",
+      "section": "Задания",
+      "condition": "83. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565152.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-83"
+    },
+    {
+      "number": "84",
+      "section": "Задания",
+      "condition": "84. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565153.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-84"
+    },
+    {
+      "number": "85",
+      "section": "Задания",
+      "condition": "85. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565154.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-85"
+    },
+    {
+      "number": "86",
+      "section": "Задания",
+      "condition": "86. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565155.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-86"
+    },
+    {
+      "number": "87",
+      "section": "Задания",
+      "condition": "87. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565156.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-87"
+    },
+    {
+      "number": "88",
+      "section": "Задания",
+      "condition": "88. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565157.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-88"
+    },
+    {
+      "number": "89",
+      "section": "Задания",
+      "condition": "89. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565158.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-89"
+    },
+    {
+      "number": "90",
+      "section": "Задания",
+      "condition": "90. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565160.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-90"
+    },
+    {
+      "number": "91",
+      "section": "Задания",
+      "condition": "91. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565161.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-91"
+    },
+    {
+      "number": "92",
+      "section": "Задания",
+      "condition": "92. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565162.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-92"
+    },
+    {
+      "number": "93",
+      "section": "Задания",
+      "condition": "93. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565163.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-93"
+    },
+    {
+      "number": "94",
+      "section": "Задания",
+      "condition": "94. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565164.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-94"
+    },
+    {
+      "number": "95",
+      "section": "Задания",
+      "condition": "95. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565165.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-95"
+    },
+    {
+      "number": "96",
+      "section": "Задания",
+      "condition": "96. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565166.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-96"
+    },
+    {
+      "number": "97",
+      "section": "Задания",
+      "condition": "97. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565167.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-97"
+    },
+    {
+      "number": "98",
+      "section": "Задания",
+      "condition": "98. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565168.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-98"
+    },
+    {
+      "number": "99",
+      "section": "Задания",
+      "condition": "99. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565169.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-99"
+    },
+    {
+      "number": "100",
+      "section": "Задания",
+      "condition": "100. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564772.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-100"
+    },
+    {
+      "number": "101",
+      "section": "Задания",
+      "condition": "101. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564773.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-101"
+    },
+    {
+      "number": "102",
+      "section": "Задания",
+      "condition": "102. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564774.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-102"
+    },
+    {
+      "number": "103",
+      "section": "Задания",
+      "condition": "103. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564775.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-103"
+    },
+    {
+      "number": "104",
+      "section": "Задания",
+      "condition": "104. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564776.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-104"
+    },
+    {
+      "number": "105",
+      "section": "Задания",
+      "condition": "105. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564777.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-105"
+    },
+    {
+      "number": "106",
+      "section": "Задания",
+      "condition": "106. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564778.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-106"
+    },
+    {
+      "number": "107",
+      "section": "Задания",
+      "condition": "107. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564779.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-107"
+    },
+    {
+      "number": "108",
+      "section": "Задания",
+      "condition": "108. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564780.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-108"
+    },
+    {
+      "number": "109",
+      "section": "Задания",
+      "condition": "109. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564781.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-109"
+    },
+    {
+      "number": "110",
+      "section": "Задания",
+      "condition": "110. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564783.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-110"
+    },
+    {
+      "number": "111",
+      "section": "Задания",
+      "condition": "111. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564784.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-111"
+    },
+    {
+      "number": "112",
+      "section": "Задания",
+      "condition": "112. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564785.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-112"
+    },
+    {
+      "number": "113",
+      "section": "Задания",
+      "condition": "113. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564786.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-113"
+    },
+    {
+      "number": "114",
+      "section": "Задания",
+      "condition": "114. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564787.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-114"
+    },
+    {
+      "number": "115",
+      "section": "Задания",
+      "condition": "115. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564788.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-115"
+    },
+    {
+      "number": "116",
+      "section": "Задания",
+      "condition": "116. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564789.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-116"
+    },
+    {
+      "number": "117",
+      "section": "Задания",
+      "condition": "117. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564790.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-117"
+    },
+    {
+      "number": "118",
+      "section": "Задания",
+      "condition": "118. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564791.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-118"
+    },
+    {
+      "number": "119",
+      "section": "Задания",
+      "condition": "119. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564792.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-119"
+    },
+    {
+      "number": "120",
+      "section": "Задания",
+      "condition": "120. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564794.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-120"
+    },
+    {
+      "number": "121",
+      "section": "Задания",
+      "condition": "121. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564795.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-121"
+    },
+    {
+      "number": "122",
+      "section": "Задания",
+      "condition": "122. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564796.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-122"
+    },
+    {
+      "number": "123",
+      "section": "Задания",
+      "condition": "123. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564797.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-123"
+    },
+    {
+      "number": "124",
+      "section": "Задания",
+      "condition": "124. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564798.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-124"
+    },
+    {
+      "number": "125",
+      "section": "Задания",
+      "condition": "125. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564799.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-125"
+    },
+    {
+      "number": "126",
+      "section": "Задания",
+      "condition": "126. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564800.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-126"
+    },
+    {
+      "number": "127",
+      "section": "Задания",
+      "condition": "127. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564801.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-127"
+    },
+    {
+      "number": "128",
+      "section": "Задания",
+      "condition": "128. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564802.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-128"
+    },
+    {
+      "number": "129",
+      "section": "Задания",
+      "condition": "129. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564803.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-129"
+    },
+    {
+      "number": "130",
+      "section": "Задания",
+      "condition": "130. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564805.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-130"
+    },
+    {
+      "number": "131",
+      "section": "Задания",
+      "condition": "131. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564806.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-131"
+    },
+    {
+      "number": "132",
+      "section": "Задания",
+      "condition": "132. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564807.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-132"
+    },
+    {
+      "number": "133",
+      "section": "Задания",
+      "condition": "133. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564808.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-133"
+    },
+    {
+      "number": "134",
+      "section": "Задания",
+      "condition": "134. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564809.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-134"
+    },
+    {
+      "number": "135",
+      "section": "Задания",
+      "condition": "135. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564810.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-135"
+    },
+    {
+      "number": "136",
+      "section": "Задания",
+      "condition": "136. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564811.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-136"
+    },
+    {
+      "number": "137",
+      "section": "Задания",
+      "condition": "137. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564812.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-137"
+    },
+    {
+      "number": "138",
+      "section": "Задания",
+      "condition": "138. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564813.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-138"
+    },
+    {
+      "number": "139",
+      "section": "Задания",
+      "condition": "139. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564814.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-139"
+    },
+    {
+      "number": "140",
+      "section": "Задания",
+      "condition": "140. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564816.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-140"
+    },
+    {
+      "number": "141",
+      "section": "Задания",
+      "condition": "141. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564817.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-141"
+    },
+    {
+      "number": "142",
+      "section": "Задания",
+      "condition": "142. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564818.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-142"
+    },
+    {
+      "number": "143",
+      "section": "Задания",
+      "condition": "143. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564819.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-143"
+    },
+    {
+      "number": "144",
+      "section": "Задания",
+      "condition": "144. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564820.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-144"
+    },
+    {
+      "number": "145",
+      "section": "Задания",
+      "condition": "145. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564821.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-145"
+    },
+    {
+      "number": "146",
+      "section": "Задания",
+      "condition": "146. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564822.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-146"
+    },
+    {
+      "number": "147",
+      "section": "Задания",
+      "condition": "147. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564823.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-147"
+    },
+    {
+      "number": "148",
+      "section": "Задания",
+      "condition": "148. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564824.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-148"
+    },
+    {
+      "number": "149",
+      "section": "Задания",
+      "condition": "149. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564825.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-149"
+    },
+    {
+      "number": "150",
+      "section": "Задания",
+      "condition": "150. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564827.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-150"
+    },
+    {
+      "number": "151",
+      "section": "Задания",
+      "condition": "151. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564828.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-151"
+    },
+    {
+      "number": "152",
+      "section": "Задания",
+      "condition": "152. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564829.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-152"
+    },
+    {
+      "number": "153",
+      "section": "Задания",
+      "condition": "153. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564830.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-153"
+    },
+    {
+      "number": "154",
+      "section": "Задания",
+      "condition": "154. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564831.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-154"
+    },
+    {
+      "number": "155",
+      "section": "Задания",
+      "condition": "155. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564832.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-155"
+    },
+    {
+      "number": "156",
+      "section": "Задания",
+      "condition": "156. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564833.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-156"
+    },
+    {
+      "number": "157",
+      "section": "Задания",
+      "condition": "157. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564834.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-157"
+    },
+    {
+      "number": "158",
+      "section": "Задания",
+      "condition": "158. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564835.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-158"
+    },
+    {
+      "number": "159",
+      "section": "Задания",
+      "condition": "159. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564836.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-159"
+    },
+    {
+      "number": "160",
+      "section": "Задания",
+      "condition": "160. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564838.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-160"
+    },
+    {
+      "number": "161",
+      "section": "Задания",
+      "condition": "161. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564839.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-161"
+    },
+    {
+      "number": "162",
+      "section": "Задания",
+      "condition": "162. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564840.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-162"
+    },
+    {
+      "number": "163",
+      "section": "Задания",
+      "condition": "163. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564841.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-163"
+    },
+    {
+      "number": "164",
+      "section": "Задания",
+      "condition": "164. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564842.png?v=1666457892"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-164"
+    },
+    {
+      "number": "165",
+      "section": "Задания",
+      "condition": "165. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564843.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-165"
+    },
+    {
+      "number": "166",
+      "section": "Задания",
+      "condition": "166. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564844.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-166"
+    },
+    {
+      "number": "167",
+      "section": "Задания",
+      "condition": "167. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564845.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-167"
+    },
+    {
+      "number": "168",
+      "section": "Задания",
+      "condition": "168. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564846.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-168"
+    },
+    {
+      "number": "169",
+      "section": "Задания",
+      "condition": "169. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564847.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-169"
+    },
+    {
+      "number": "170",
+      "section": "Задания",
+      "condition": "170. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564849.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-170"
+    },
+    {
+      "number": "171",
+      "section": "Задания",
+      "condition": "171. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564850.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-171"
+    },
+    {
+      "number": "172",
+      "section": "Задания",
+      "condition": "172. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564851.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-172"
+    },
+    {
+      "number": "173",
+      "section": "Задания",
+      "condition": "173. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564852.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-173"
+    },
+    {
+      "number": "174",
+      "section": "Задания",
+      "condition": "174. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564853.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-174"
+    },
+    {
+      "number": "175",
+      "section": "Задания",
+      "condition": "175. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564854.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-175"
+    },
+    {
+      "number": "176",
+      "section": "Задания",
+      "condition": "176. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564855.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-176"
+    },
+    {
+      "number": "177",
+      "section": "Задания",
+      "condition": "177. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564856.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-177"
+    },
+    {
+      "number": "178",
+      "section": "Задания",
+      "condition": "178. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564857.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-178"
+    },
+    {
+      "number": "179",
+      "section": "Задания",
+      "condition": "179. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564858.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-179"
+    },
+    {
+      "number": "180",
+      "section": "Задания",
+      "condition": "180. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564860.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-180"
+    },
+    {
+      "number": "181",
+      "section": "Задания",
+      "condition": "181. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564861.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-181"
+    },
+    {
+      "number": "182",
+      "section": "Задания",
+      "condition": "182. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564862.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-182"
+    },
+    {
+      "number": "183",
+      "section": "Задания",
+      "condition": "183. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564863.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-183"
+    },
+    {
+      "number": "184",
+      "section": "Задания",
+      "condition": "184. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564864.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-184"
+    },
+    {
+      "number": "185",
+      "section": "Задания",
+      "condition": "185. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564865.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-185"
+    },
+    {
+      "number": "186",
+      "section": "Задания",
+      "condition": "186. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564866.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-186"
+    },
+    {
+      "number": "187",
+      "section": "Задания",
+      "condition": "187. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564867.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-187"
+    },
+    {
+      "number": "188",
+      "section": "Задания",
+      "condition": "188. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564868.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-188"
+    },
+    {
+      "number": "189",
+      "section": "Задания",
+      "condition": "189. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564869.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-189"
+    },
+    {
+      "number": "190",
+      "section": "Задания",
+      "condition": "190. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564871.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-190"
+    },
+    {
+      "number": "191",
+      "section": "Задания",
+      "condition": "191. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564872.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-191"
+    },
+    {
+      "number": "192",
+      "section": "Задания",
+      "condition": "192. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564873.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-192"
+    },
+    {
+      "number": "193",
+      "section": "Задания",
+      "condition": "193. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564874.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-193"
+    },
+    {
+      "number": "194",
+      "section": "Задания",
+      "condition": "194. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564875.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-194"
+    },
+    {
+      "number": "195",
+      "section": "Задания",
+      "condition": "195. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564876.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-195"
+    },
+    {
+      "number": "196",
+      "section": "Задания",
+      "condition": "196. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564877.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-196"
+    },
+    {
+      "number": "197",
+      "section": "Задания",
+      "condition": "197. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564878.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-197"
+    },
+    {
+      "number": "198",
+      "section": "Задания",
+      "condition": "198. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564879.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-198"
+    },
+    {
+      "number": "199",
+      "section": "Задания",
+      "condition": "199. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564880.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-199"
+    },
+    {
+      "number": "200",
+      "section": "Задания",
+      "condition": "200. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564883.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-200"
+    },
+    {
+      "number": "201",
+      "section": "Задания",
+      "condition": "201. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564884.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-201"
+    },
+    {
+      "number": "202",
+      "section": "Задания",
+      "condition": "202. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564885.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-202"
+    },
+    {
+      "number": "203",
+      "section": "Задания",
+      "condition": "203. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564886.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-203"
+    },
+    {
+      "number": "204",
+      "section": "Задания",
+      "condition": "204. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564887.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-204"
+    },
+    {
+      "number": "205",
+      "section": "Задания",
+      "condition": "205. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564888.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-205"
+    },
+    {
+      "number": "206",
+      "section": "Задания",
+      "condition": "206. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564889.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-206"
+    },
+    {
+      "number": "207",
+      "section": "Задания",
+      "condition": "207. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564890.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-207"
+    },
+    {
+      "number": "208",
+      "section": "Задания",
+      "condition": "208. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564891.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-208"
+    },
+    {
+      "number": "209",
+      "section": "Задания",
+      "condition": "209. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564892.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-209"
+    },
+    {
+      "number": "210",
+      "section": "Задания",
+      "condition": "210. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564894.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-210"
+    },
+    {
+      "number": "211",
+      "section": "Задания",
+      "condition": "211. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564895.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-211"
+    },
+    {
+      "number": "212",
+      "section": "Задания",
+      "condition": "212. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564896.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-212"
+    },
+    {
+      "number": "213",
+      "section": "Задания",
+      "condition": "213. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564897.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-213"
+    },
+    {
+      "number": "214",
+      "section": "Задания",
+      "condition": "214. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564898.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-214"
+    },
+    {
+      "number": "215",
+      "section": "Задания",
+      "condition": "215. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564899.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-215"
+    },
+    {
+      "number": "216",
+      "section": "Задания",
+      "condition": "216. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564900.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-216"
+    },
+    {
+      "number": "217",
+      "section": "Задания",
+      "condition": "217. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564901.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-217"
+    },
+    {
+      "number": "218",
+      "section": "Задания",
+      "condition": "218. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564902.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-218"
+    },
+    {
+      "number": "219",
+      "section": "Задания",
+      "condition": "219. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564903.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-219"
+    },
+    {
+      "number": "220",
+      "section": "Задания",
+      "condition": "220. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564905.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-220"
+    },
+    {
+      "number": "221",
+      "section": "Задания",
+      "condition": "221. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564906.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-221"
+    },
+    {
+      "number": "222",
+      "section": "Задания",
+      "condition": "222. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564907.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-222"
+    },
+    {
+      "number": "223",
+      "section": "Задания",
+      "condition": "223. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564908.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-223"
+    },
+    {
+      "number": "224",
+      "section": "Задания",
+      "condition": "224. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564909.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-224"
+    },
+    {
+      "number": "225",
+      "section": "Задания",
+      "condition": "225. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564910.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-225"
+    },
+    {
+      "number": "226",
+      "section": "Задания",
+      "condition": "226. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564911.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-226"
+    },
+    {
+      "number": "227",
+      "section": "Задания",
+      "condition": "227. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564912.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-227"
+    },
+    {
+      "number": "228",
+      "section": "Задания",
+      "condition": "228. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564913.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-228"
+    },
+    {
+      "number": "229",
+      "section": "Задания",
+      "condition": "229. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564914.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-229"
+    },
+    {
+      "number": "230",
+      "section": "Задания",
+      "condition": "230. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564916.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-230"
+    },
+    {
+      "number": "231",
+      "section": "Задания",
+      "condition": "231. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564917.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-231"
+    },
+    {
+      "number": "232",
+      "section": "Задания",
+      "condition": "232. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564918.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-232"
+    },
+    {
+      "number": "233",
+      "section": "Задания",
+      "condition": "233. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564919.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-233"
+    },
+    {
+      "number": "234",
+      "section": "Задания",
+      "condition": "234. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564920.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-234"
+    },
+    {
+      "number": "235",
+      "section": "Задания",
+      "condition": "235. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564921.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-235"
+    },
+    {
+      "number": "236",
+      "section": "Задания",
+      "condition": "236. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564922.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-236"
+    },
+    {
+      "number": "237",
+      "section": "Задания",
+      "condition": "237. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564923.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-237"
+    },
+    {
+      "number": "238",
+      "section": "Задания",
+      "condition": "238. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564924.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-238"
+    },
+    {
+      "number": "239",
+      "section": "Задания",
+      "condition": "239. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564925.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-239"
+    },
+    {
+      "number": "240",
+      "section": "Задания",
+      "condition": "240. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564927.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-240"
+    },
+    {
+      "number": "241",
+      "section": "Задания",
+      "condition": "241. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564928.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-241"
+    },
+    {
+      "number": "242",
+      "section": "Задания",
+      "condition": "242. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564929.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-242"
+    },
+    {
+      "number": "243",
+      "section": "Задания",
+      "condition": "243. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564930.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-243"
+    },
+    {
+      "number": "244",
+      "section": "Задания",
+      "condition": "244. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564931.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-244"
+    },
+    {
+      "number": "245",
+      "section": "Задания",
+      "condition": "245. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564932.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-245"
+    },
+    {
+      "number": "246",
+      "section": "Задания",
+      "condition": "246. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564933.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-246"
+    },
+    {
+      "number": "247",
+      "section": "Задания",
+      "condition": "247. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564934.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-247"
+    },
+    {
+      "number": "248",
+      "section": "Задания",
+      "condition": "248. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564935.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-248"
+    },
+    {
+      "number": "249",
+      "section": "Задания",
+      "condition": "249. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564936.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-249"
+    },
+    {
+      "number": "250",
+      "section": "Задания",
+      "condition": "250. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564938.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-250"
+    },
+    {
+      "number": "251",
+      "section": "Задания",
+      "condition": "251. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564939.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-251"
+    },
+    {
+      "number": "252",
+      "section": "Задания",
+      "condition": "252. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564940.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-252"
+    },
+    {
+      "number": "253",
+      "section": "Задания",
+      "condition": "253. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564941.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-253"
+    },
+    {
+      "number": "254",
+      "section": "Задания",
+      "condition": "254. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564942.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-254"
+    },
+    {
+      "number": "255",
+      "section": "Задания",
+      "condition": "255. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564943.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-255"
+    },
+    {
+      "number": "256",
+      "section": "Задания",
+      "condition": "256. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564944.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-256"
+    },
+    {
+      "number": "257",
+      "section": "Задания",
+      "condition": "257. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564945.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-257"
+    },
+    {
+      "number": "258",
+      "section": "Задания",
+      "condition": "258. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564946.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-258"
+    },
+    {
+      "number": "259",
+      "section": "Задания",
+      "condition": "259. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564947.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-259"
+    },
+    {
+      "number": "260",
+      "section": "Задания",
+      "condition": "260. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564949.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-260"
+    },
+    {
+      "number": "261",
+      "section": "Задания",
+      "condition": "261. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564950.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-261"
+    },
+    {
+      "number": "262",
+      "section": "Задания",
+      "condition": "262. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564951.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-262"
+    },
+    {
+      "number": "263",
+      "section": "Задания",
+      "condition": "263. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564952.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-263"
+    },
+    {
+      "number": "264",
+      "section": "Задания",
+      "condition": "264. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564953.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-264"
+    },
+    {
+      "number": "265",
+      "section": "Задания",
+      "condition": "265. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564954.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-265"
+    },
+    {
+      "number": "266",
+      "section": "Задания",
+      "condition": "266. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564955.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-266"
+    },
+    {
+      "number": "267",
+      "section": "Задания",
+      "condition": "267. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564956.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-267"
+    },
+    {
+      "number": "268",
+      "section": "Задания",
+      "condition": "268. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564957.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-268"
+    },
+    {
+      "number": "269",
+      "section": "Задания",
+      "condition": "269. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564958.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-269"
+    },
+    {
+      "number": "270",
+      "section": "Задания",
+      "condition": "270. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564960.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-270"
+    },
+    {
+      "number": "271",
+      "section": "Задания",
+      "condition": "271. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564961.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-271"
+    },
+    {
+      "number": "272",
+      "section": "Задания",
+      "condition": "272. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564962.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-272"
+    },
+    {
+      "number": "273",
+      "section": "Задания",
+      "condition": "273. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564963.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-273"
+    },
+    {
+      "number": "274",
+      "section": "Задания",
+      "condition": "274. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564964.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-274"
+    },
+    {
+      "number": "275",
+      "section": "Задания",
+      "condition": "275. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564965.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-275"
+    },
+    {
+      "number": "276",
+      "section": "Задания",
+      "condition": "276. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564966.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-276"
+    },
+    {
+      "number": "277",
+      "section": "Задания",
+      "condition": "277. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564967.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-277"
+    },
+    {
+      "number": "278",
+      "section": "Задания",
+      "condition": "278. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564968.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-278"
+    },
+    {
+      "number": "279",
+      "section": "Задания",
+      "condition": "279. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564969.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-279"
+    },
+    {
+      "number": "280",
+      "section": "Задания",
+      "condition": "280. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564971.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-280"
+    },
+    {
+      "number": "281",
+      "section": "Задания",
+      "condition": "281. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564972.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-281"
+    },
+    {
+      "number": "282",
+      "section": "Задания",
+      "condition": "282. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564973.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-282"
+    },
+    {
+      "number": "283",
+      "section": "Задания",
+      "condition": "283. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564974.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-283"
+    },
+    {
+      "number": "284",
+      "section": "Задания",
+      "condition": "284. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564975.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-284"
+    },
+    {
+      "number": "285",
+      "section": "Задания",
+      "condition": "285. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564976.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-285"
+    },
+    {
+      "number": "286",
+      "section": "Задания",
+      "condition": "286. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564977.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-286"
+    },
+    {
+      "number": "287",
+      "section": "Задания",
+      "condition": "287. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564978.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-287"
+    },
+    {
+      "number": "288",
+      "section": "Задания",
+      "condition": "288. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564979.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-288"
+    },
+    {
+      "number": "289",
+      "section": "Задания",
+      "condition": "289. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564980.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-289"
+    },
+    {
+      "number": "290",
+      "section": "Задания",
+      "condition": "290. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564982.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-290"
+    },
+    {
+      "number": "291",
+      "section": "Задания",
+      "condition": "291. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564983.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-291"
+    },
+    {
+      "number": "292",
+      "section": "Задания",
+      "condition": "292. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564984.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-292"
+    },
+    {
+      "number": "293",
+      "section": "Задания",
+      "condition": "293. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564985.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-293"
+    },
+    {
+      "number": "294",
+      "section": "Задания",
+      "condition": "294. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564986.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-294"
+    },
+    {
+      "number": "295",
+      "section": "Задания",
+      "condition": "295. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564987.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-295"
+    },
+    {
+      "number": "296",
+      "section": "Задания",
+      "condition": "296. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564988.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-296"
+    },
+    {
+      "number": "297",
+      "section": "Задания",
+      "condition": "297. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564989.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-297"
+    },
+    {
+      "number": "298",
+      "section": "Задания",
+      "condition": "298. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564990.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-298"
+    },
+    {
+      "number": "299",
+      "section": "Задания",
+      "condition": "299. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564991.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-299"
+    },
+    {
+      "number": "300",
+      "section": "Задания",
+      "condition": "300. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564994.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-300"
+    },
+    {
+      "number": "301",
+      "section": "Задания",
+      "condition": "301. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564995.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-301"
+    },
+    {
+      "number": "302",
+      "section": "Задания",
+      "condition": "302. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564996.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-302"
+    },
+    {
+      "number": "303",
+      "section": "Задания",
+      "condition": "303. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564997.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-303"
+    },
+    {
+      "number": "304",
+      "section": "Задания",
+      "condition": "304. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564998.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-304"
+    },
+    {
+      "number": "305",
+      "section": "Задания",
+      "condition": "305. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2564999.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-305"
+    },
+    {
+      "number": "306",
+      "section": "Задания",
+      "condition": "306. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565000.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-306"
+    },
+    {
+      "number": "307",
+      "section": "Задания",
+      "condition": "307. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565001.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-307"
+    },
+    {
+      "number": "308",
+      "section": "Задания",
+      "condition": "308. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565002.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-308"
+    },
+    {
+      "number": "309",
+      "section": "Задания",
+      "condition": "309. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565003.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-309"
+    },
+    {
+      "number": "310",
+      "section": "Задания",
+      "condition": "310. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565005.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-310"
+    },
+    {
+      "number": "311",
+      "section": "Задания",
+      "condition": "311. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565006.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-311"
+    },
+    {
+      "number": "312",
+      "section": "Задания",
+      "condition": "312. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565007.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-312"
+    },
+    {
+      "number": "313",
+      "section": "Задания",
+      "condition": "313. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565008.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-313"
+    },
+    {
+      "number": "314",
+      "section": "Задания",
+      "condition": "314. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565009.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-314"
+    },
+    {
+      "number": "315",
+      "section": "Задания",
+      "condition": "315. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565010.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-315"
+    },
+    {
+      "number": "316",
+      "section": "Задания",
+      "condition": "316. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565011.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-316"
+    },
+    {
+      "number": "317",
+      "section": "Задания",
+      "condition": "317. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565012.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-317"
+    },
+    {
+      "number": "318",
+      "section": "Задания",
+      "condition": "318. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565013.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-318"
+    },
+    {
+      "number": "319",
+      "section": "Задания",
+      "condition": "319. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565014.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-319"
+    },
+    {
+      "number": "320",
+      "section": "Задания",
+      "condition": "320. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565016.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-320"
+    },
+    {
+      "number": "321",
+      "section": "Задания",
+      "condition": "321. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565017.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-321"
+    },
+    {
+      "number": "322",
+      "section": "Задания",
+      "condition": "322. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565018.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-322"
+    },
+    {
+      "number": "323",
+      "section": "Задания",
+      "condition": "323. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565019.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-323"
+    },
+    {
+      "number": "324",
+      "section": "Задания",
+      "condition": "324. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565020.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-324"
+    },
+    {
+      "number": "325",
+      "section": "Задания",
+      "condition": "325. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565021.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-325"
+    },
+    {
+      "number": "326",
+      "section": "Задания",
+      "condition": "326. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565022.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-326"
+    },
+    {
+      "number": "327",
+      "section": "Задания",
+      "condition": "327. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565023.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-327"
+    },
+    {
+      "number": "328",
+      "section": "Задания",
+      "condition": "328. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565024.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-328"
+    },
+    {
+      "number": "329",
+      "section": "Задания",
+      "condition": "329. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565025.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-329"
+    },
+    {
+      "number": "330",
+      "section": "Задания",
+      "condition": "330. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565027.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-330"
+    },
+    {
+      "number": "331",
+      "section": "Задания",
+      "condition": "331. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565028.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-331"
+    },
+    {
+      "number": "332",
+      "section": "Задания",
+      "condition": "332. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565029.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-332"
+    },
+    {
+      "number": "333",
+      "section": "Задания",
+      "condition": "333. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565030.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-333"
+    },
+    {
+      "number": "334",
+      "section": "Задания",
+      "condition": "334. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565031.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-334"
+    },
+    {
+      "number": "335",
+      "section": "Задания",
+      "condition": "335. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565032.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-335"
+    },
+    {
+      "number": "336",
+      "section": "Задания",
+      "condition": "336. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565033.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-336"
+    },
+    {
+      "number": "337",
+      "section": "Задания",
+      "condition": "337. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565034.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-337"
+    },
+    {
+      "number": "338",
+      "section": "Задания",
+      "condition": "338. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565035.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-338"
+    },
+    {
+      "number": "339",
+      "section": "Задания",
+      "condition": "339. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565036.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-339"
+    },
+    {
+      "number": "340",
+      "section": "Задания",
+      "condition": "340. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565038.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-340"
+    },
+    {
+      "number": "341",
+      "section": "Задания",
+      "condition": "341. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565039.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-341"
+    },
+    {
+      "number": "342",
+      "section": "Задания",
+      "condition": "342. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565040.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-342"
+    },
+    {
+      "number": "343",
+      "section": "Задания",
+      "condition": "343. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565041.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-343"
+    },
+    {
+      "number": "344",
+      "section": "Задания",
+      "condition": "344. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565042.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-344"
+    },
+    {
+      "number": "345",
+      "section": "Задания",
+      "condition": "345. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565043.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-345"
+    },
+    {
+      "number": "346",
+      "section": "Задания",
+      "condition": "346. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565044.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-346"
+    },
+    {
+      "number": "347",
+      "section": "Задания",
+      "condition": "347. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565045.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-347"
+    },
+    {
+      "number": "348",
+      "section": "Задания",
+      "condition": "348. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565046.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-348"
+    },
+    {
+      "number": "349",
+      "section": "Задания",
+      "condition": "349. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565047.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-349"
+    },
+    {
+      "number": "350",
+      "section": "Задания",
+      "condition": "350. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565049.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-350"
+    },
+    {
+      "number": "351",
+      "section": "Задания",
+      "condition": "351. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565050.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-351"
+    },
+    {
+      "number": "352",
+      "section": "Задания",
+      "condition": "352. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565051.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-352"
+    },
+    {
+      "number": "353",
+      "section": "Задания",
+      "condition": "353. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565052.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-353"
+    },
+    {
+      "number": "354",
+      "section": "Задания",
+      "condition": "354. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565053.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-354"
+    },
+    {
+      "number": "355",
+      "section": "Задания",
+      "condition": "355. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565054.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-355"
+    },
+    {
+      "number": "356",
+      "section": "Задания",
+      "condition": "356. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565055.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-356"
+    },
+    {
+      "number": "357",
+      "section": "Задания",
+      "condition": "357. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565056.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-357"
+    },
+    {
+      "number": "358",
+      "section": "Задания",
+      "condition": "358. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565057.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-358"
+    },
+    {
+      "number": "359",
+      "section": "Задания",
+      "condition": "359. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565058.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-359"
+    },
+    {
+      "number": "360",
+      "section": "Задания",
+      "condition": "360. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565060.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-360"
+    },
+    {
+      "number": "361",
+      "section": "Задания",
+      "condition": "361. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565061.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-361"
+    },
+    {
+      "number": "362",
+      "section": "Задания",
+      "condition": "362. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565062.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-362"
+    },
+    {
+      "number": "363",
+      "section": "Задания",
+      "condition": "363. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565063.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-363"
+    },
+    {
+      "number": "364",
+      "section": "Задания",
+      "condition": "364. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565064.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-364"
+    },
+    {
+      "number": "365",
+      "section": "Задания",
+      "condition": "365. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565065.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-365"
+    },
+    {
+      "number": "366",
+      "section": "Задания",
+      "condition": "366. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565066.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-366"
+    },
+    {
+      "number": "367",
+      "section": "Задания",
+      "condition": "367. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565067.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-367"
+    },
+    {
+      "number": "368",
+      "section": "Задания",
+      "condition": "368. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565068.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-368"
+    },
+    {
+      "number": "369",
+      "section": "Задания",
+      "condition": "369. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565069.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-369"
+    },
+    {
+      "number": "370",
+      "section": "Задания",
+      "condition": "370. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565071.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-370"
+    },
+    {
+      "number": "371",
+      "section": "Задания",
+      "condition": "371. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565072.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-371"
+    },
+    {
+      "number": "372",
+      "section": "Задания",
+      "condition": "372. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565073.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-372"
+    },
+    {
+      "number": "373",
+      "section": "Задания",
+      "condition": "373. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565074.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-373"
+    },
+    {
+      "number": "374",
+      "section": "Задания",
+      "condition": "374. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565075.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-374"
+    },
+    {
+      "number": "375",
+      "section": "Задания",
+      "condition": "375. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565076.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-375"
+    },
+    {
+      "number": "376",
+      "section": "Задания",
+      "condition": "376. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565077.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-376"
+    },
+    {
+      "number": "377",
+      "section": "Задания",
+      "condition": "377. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565078.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-377"
+    },
+    {
+      "number": "378",
+      "section": "Задания",
+      "condition": "378. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565079.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-378"
+    },
+    {
+      "number": "379",
+      "section": "Задания",
+      "condition": "379. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565080.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-379"
+    },
+    {
+      "number": "380",
+      "section": "Задания",
+      "condition": "380. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565082.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-380"
+    },
+    {
+      "number": "381",
+      "section": "Задания",
+      "condition": "381. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565083.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-381"
+    },
+    {
+      "number": "382",
+      "section": "Задания",
+      "condition": "382. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565084.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-382"
+    },
+    {
+      "number": "383",
+      "section": "Задания",
+      "condition": "383. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565085.png?v=1666457893"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-383"
+    },
+    {
+      "number": "384",
+      "section": "Задания",
+      "condition": "384. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565086.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-384"
+    },
+    {
+      "number": "385",
+      "section": "Задания",
+      "condition": "385. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565087.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-385"
+    },
+    {
+      "number": "386",
+      "section": "Задания",
+      "condition": "386. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565088.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-386"
+    },
+    {
+      "number": "387",
+      "section": "Задания",
+      "condition": "387. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565089.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-387"
+    },
+    {
+      "number": "388",
+      "section": "Задания",
+      "condition": "388. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565090.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-388"
+    },
+    {
+      "number": "389",
+      "section": "Задания",
+      "condition": "389. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565091.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-389"
+    },
+    {
+      "number": "390",
+      "section": "Задания",
+      "condition": "390. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565093.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-390"
+    },
+    {
+      "number": "391",
+      "section": "Задания",
+      "condition": "391. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565094.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-391"
+    },
+    {
+      "number": "392",
+      "section": "Задания",
+      "condition": "392. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565095.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-392"
+    },
+    {
+      "number": "393",
+      "section": "Задания",
+      "condition": "393. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565096.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-393"
+    },
+    {
+      "number": "394",
+      "section": "Задания",
+      "condition": "394. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565097.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-394"
+    },
+    {
+      "number": "395",
+      "section": "Задания",
+      "condition": "395. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565098.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-395"
+    },
+    {
+      "number": "396",
+      "section": "Задания",
+      "condition": "396. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565099.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-396"
+    },
+    {
+      "number": "397",
+      "section": "Задания",
+      "condition": "397. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565100.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-397"
+    },
+    {
+      "number": "398",
+      "section": "Задания",
+      "condition": "398. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565101.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-398"
+    },
+    {
+      "number": "399",
+      "section": "Задания",
+      "condition": "399. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565102.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-399"
+    },
+    {
+      "number": "400",
+      "section": "Задания",
+      "condition": "400. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5919/2565105.png?v=1666457894"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/algebra/9_klass/makarychev-uglublennyi--602/zadanie-400"
+    }
+  ]
+}

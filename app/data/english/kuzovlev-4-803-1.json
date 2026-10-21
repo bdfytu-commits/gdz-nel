@@ -8,24 +8,6 @@
   "parsedAt": "2026-10-20T05:58:46Z",
   "tasks": [
     {
-      "number": "5",
-      "section": "Мои летние фавориты",
-      "condition": "Мои летние фавориты",
-      "solution": "Привет, меня зовут Элизабет (Лиза) Биссетт.\nМне 9 лет, но в ноябре мне будет 10.\nЯ живу со своей мамой Джилл и папой Джоном.\nМы живем в Лондоне.\nУ меня есть кошка, Тигги. Ей 3 года.\nМне нравится готовить вместе со своей мамой.\nС папой мне нравится сидеть за компьютером.\nЧем мне нравится заниматься летом?\nЯ расскажу тебе о наших любимых летних занятиях.",
-      "answer": "Я расскажу тебе о наших любимых летних занятиях.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-5-188"
-    },
-    {
-      "number": "5-2",
-      "section": "Места, которые делают меня счастливым",
-      "condition": "Места, которые делают меня счастливым",
-      "solution": "Меня зовут Эндрю (Энди) Миллс. Мне 10 лет.\nЯ живу с мамой, папой и со своей сестрой Эшли.\nМоей сестре 14 лет, и она очень умная.\nУ нас дома живет попугай.\nНекоторые дети считают его экзотическим животным.\nНо я люблю своего Спарки, и хорошо забочусь о нем.\nЯ расскажу тебе о том, как мы живем в нашем доме.",
-      "answer": "Я расскажу тебе о том, как мы живем в нашем доме.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-5-748"
-    },
-    {
       "number": "6.2",
       "section": "Мой дом – чудесен",
       "condition": "1) Словарь. Какие комнаты есть в доме?",
@@ -44,24 +26,6 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-6-558"
     },
     {
-      "number": "7.1",
-      "section": "Страница 7",
-      "condition": "2) Кому из ребят нравятся летние каникулы?\nПочему?",
-      "solution": "Liza likes summer holidays because her family travels a lot in\nsummer.\nЛизе нравятся летние каникулы, потому что ее семья много путешествует\nлетом.",
-      "answer": "летом.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-7-339"
-    },
-    {
-      "number": "7.1-2",
-      "section": "Страница 7",
-      "condition": "2) Что находится в комнатах?",
-      "solution": "There is a wardrobe, a cupboard, a chair and a carpet in Andy’s\nbedroom.\nThere is a TV and a sofa in the living room.\nThere is a fridge and a cooker in the kitchen.",
-      "answer": "There is a fridge and a cooker in the kitchen.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-7-444"
-    },
-    {
       "number": "7.2",
       "section": "Перевод",
       "condition": "3) Кому не нравятся летние каникулы? Почему?",
@@ -69,15 +33,6 @@
       "answer": "летом дома.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-7-339"
-    },
-    {
-      "number": "7.2-2",
-      "section": "Страница 7",
-      "condition": "3) Нравится ли вам этот дом?",
-      "solution": "I like this house because the bedrooms are upstairs.\nМне нравится дом, потому что спальни расположены наверху.",
-      "answer": "Мне нравится дом, потому что спальни расположены наверху.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-7-444"
     },
     {
       "number": "7.3",
@@ -125,6 +80,42 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-7-339"
     },
     {
+      "number": "7.1",
+      "section": "Страница 7",
+      "condition": "2) Кому из ребят нравятся летние каникулы?\nПочему?",
+      "solution": "Liza likes summer holidays because her family travels a lot in\nsummer.\nЛизе нравятся летние каникулы, потому что ее семья много путешествует\nлетом.",
+      "answer": "летом.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-7-339"
+    },
+    {
+      "number": "7.1-2",
+      "section": "Страница 7",
+      "condition": "2) Что находится в комнатах?",
+      "solution": "There is a wardrobe, a cupboard, a chair and a carpet in Andy’s\nbedroom.\nThere is a TV and a sofa in the living room.\nThere is a fridge and a cooker in the kitchen.",
+      "answer": "There is a fridge and a cooker in the kitchen.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-7-444"
+    },
+    {
+      "number": "7.2-2",
+      "section": "Страница 7",
+      "condition": "3) Нравится ли вам этот дом?",
+      "solution": "I like this house because the bedrooms are upstairs.\nМне нравится дом, потому что спальни расположены наверху.",
+      "answer": "Мне нравится дом, потому что спальни расположены наверху.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-7-444"
+    },
+    {
+      "number": "8.4-2",
+      "section": "Послушайте их рассказы. Соедините картинки с рассказами.",
+      "condition": "4. Что находится в вашей квартире или в вашем\nдоме?",
+      "solution": "I like my flat. There are three rooms in it: my bedroom, my parents’\nbedroom and a living room. We also have a bathroom and a kitchen. I like\nmy room because there are many things I need. I have got a computer, a\ndesk, a bed and a TV set. I put my clothes in a big wardrobe. I also\nhave many books. I keep them in the cupboard. But I haven’t got a mirror\nand a table in my room.\nМне нравится моя квартира. В ней три комнаты: моя спальня, спальня\nмоих родителей и гостиная. У нас также есть ванная комната и кухня. Мне\nнравится моя комната, потому что там есть все, что мне необходимо. У\nменя есть компьютер, парта, кровать и телевизор. Я кладу свою одежду в\nбольшой шкаф. У меня также есть много книг. Я храню их в шкафу. Но в\nмоей комнате нет зеркала и стола.",
+      "answer": "моей комнате нет зеркала и стола.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-8-925"
+    },
+    {
       "number": "8.2",
       "section": "Страница 8",
       "condition": "1) Задайте ему вопросы о его летних каникулах.",
@@ -150,15 +141,6 @@
       "answer": "Activity Book упр. 4, Reader упр.1",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-8-752"
-    },
-    {
-      "number": "8.4-2",
-      "section": "Послушайте их рассказы. Соедините картинки с рассказами.",
-      "condition": "4. Что находится в вашей квартире или в вашем\nдоме?",
-      "solution": "I like my flat. There are three rooms in it: my bedroom, my parents’\nbedroom and a living room. We also have a bathroom and a kitchen. I like\nmy room because there are many things I need. I have got a computer, a\ndesk, a bed and a TV set. I put my clothes in a big wardrobe. I also\nhave many books. I keep them in the cupboard. But I haven’t got a mirror\nand a table in my room.\nМне нравится моя квартира. В ней три комнаты: моя спальня, спальня\nмоих родителей и гостиная. У нас также есть ванная комната и кухня. Мне\nнравится моя комната, потому что там есть все, что мне необходимо. У\nменя есть компьютер, парта, кровать и телевизор. Я кладу свою одежду в\nбольшой шкаф. У меня также есть много книг. Я храню их в шкафу. Но в\nмоей комнате нет зеркала и стола.",
-      "answer": "моей комнате нет зеркала и стола.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-8-925"
     },
     {
       "number": "9.2",
@@ -188,15 +170,6 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-9-352"
     },
     {
-      "number": "11.1",
-      "section": "Страница 11",
-      "condition": "3) Чем еще Лиза и Сид занимались летом? А чем они не\nзанимались?",
-      "solution": "Пример:\nЯ думаю, Лиза наблюдала за веселыми\nобезьянками. Но она не кормила кенгуру.\nI think Liza gave bananas to an elephant. But she didn’t catch a big\nfish.\nI think Liza went to the festival in the Sahara. But she didn’t buy a\nboomerang.\nI think Liza gathered and ate oranges. But she didn’t listen to a\nkookaburra.\nI think Sid fed a kangaroo. But he didn’t climb an orange tree.\nI think Sid listened to a kookaburra. But he didn’t ride an\nostrich.\nI think Sid caught a big fish. But he didn’t watch joyful\nmonkeys.\nЯ думаю, Лиза кормила слона бананами. Но она не поймала большую\nрыбу.\nЯ думаю, Лиза ездила на фестиваль в Сахару. Но она не купила\nбумеранг.\nЯ думаю, Лиза собирала и кушала апельсины. Но она не слушала пение\nкукабары.\nЯ думаю, Сид кормил кенгуру. Но он не лазил на апельсиновое\nдерево.\nЯ думаю, Сид слушал пение кукабары. Но он не ездил верхом на\nстраусе.\nЯ думаю, Сид поймал большую рыбу. Но он не наблюдал за веселыми\nобезьянками.",
-      "answer": "обезьянками.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-11-927"
-    },
-    {
       "number": "11.5",
       "section": "Перевод",
       "condition": "1) Чем вы занимались летом?",
@@ -211,6 +184,15 @@
       "condition": "2) Работа в парах.",
       "solution": "Спросите своего партнера о том, как он провел свои летние\nканикулы.\nОтветьте на вопросы своего партнера.\n- Did you enjoy your last summer holidays? – Тебе понравились твои\nнедавние летние каникулы?\n- Oh yes, I did. – О, да.\n- Where did you go in summer? – Куда ты ездил?\n- I went to visit my relatives in Sochi. – Я ездил навестить своих\nродственников в Сочи.\n- When did you go there? – Когда ты туда ездил?\n- We went there in August. – Мы отправились туда в августе.\n- What did you do there? – Чем ты там занимался?\n- I swam in the Black Sea, went to see different places and ate nice\ndishes. - Я купался в Черном море, посещал разные места и ел вкусные\nблюда.",
       "answer": "Ответьте на вопросы своего партнера.\n- Did you enjoy your last summer holidays? – Тебе понравились твои\nнедавние летние каникулы?\n- Oh yes, I did. – О, да.\n- Where did you go in summer? – Куда ты ездил?\n- I went to visit my relatives in Sochi. – Я ездил навестить своих\nродственников в Сочи.\n- When did you go there? – Когда ты туда ездил?\n- We went there in August. – Мы отправились туда в августе.\n- What did you do there? – Чем ты там занимался?\n- I swam in the Black Sea, went to see different places and ate nice\ndishes. - Я купался в Черном море, посещал разные места и ел вкусные\nблюда.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-11-927"
+    },
+    {
+      "number": "11.1",
+      "section": "Страница 11",
+      "condition": "3) Чем еще Лиза и Сид занимались летом? А чем они не\nзанимались?",
+      "solution": "Пример:\nЯ думаю, Лиза наблюдала за веселыми\nобезьянками. Но она не кормила кенгуру.\nI think Liza gave bananas to an elephant. But she didn’t catch a big\nfish.\nI think Liza went to the festival in the Sahara. But she didn’t buy a\nboomerang.\nI think Liza gathered and ate oranges. But she didn’t listen to a\nkookaburra.\nI think Sid fed a kangaroo. But he didn’t climb an orange tree.\nI think Sid listened to a kookaburra. But he didn’t ride an\nostrich.\nI think Sid caught a big fish. But he didn’t watch joyful\nmonkeys.\nЯ думаю, Лиза кормила слона бананами. Но она не поймала большую\nрыбу.\nЯ думаю, Лиза ездила на фестиваль в Сахару. Но она не купила\nбумеранг.\nЯ думаю, Лиза собирала и кушала апельсины. Но она не слушала пение\nкукабары.\nЯ думаю, Сид кормил кенгуру. Но он не лазил на апельсиновое\nдерево.\nЯ думаю, Сид слушал пение кукабары. Но он не ездил верхом на\nстраусе.\nЯ думаю, Сид поймал большую рыбу. Но он не наблюдал за веселыми\nобезьянками.",
+      "answer": "обезьянками.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-11-927"
     },
@@ -231,15 +213,6 @@
       "answer": "Мисс Такер сказала: “Ты можешь принести Паффи.”",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-12-170"
-    },
-    {
-      "number": "13.1",
-      "section": "Страница 13",
-      "condition": "2) Найдите в рассказе слова, которые подходят для картинок,\nпредставленных ниже. Какие из этих вещей ребята принесли со своих\nканикул?",
-      "solution": "Rocks, seashells, a magnet, a snake, a horse, a ranch.\nThey brought some rocks, some seashells, a magnet and a snake.\nОни принесли камни, ракушки, магнит и ужа.",
-      "answer": "Они принесли камни, ракушки, магнит и ужа.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-13-571"
     },
     {
       "number": "13.2",
@@ -269,6 +242,15 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-13-571"
     },
     {
+      "number": "13.1",
+      "section": "Страница 13",
+      "condition": "2) Найдите в рассказе слова, которые подходят для картинок,\nпредставленных ниже. Какие из этих вещей ребята принесли со своих\nканикул?",
+      "solution": "Rocks, seashells, a magnet, a snake, a horse, a ranch.\nThey brought some rocks, some seashells, a magnet and a snake.\nОни принесли камни, ракушки, магнит и ужа.",
+      "answer": "Они принесли камни, ракушки, магнит и ужа.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-13-571"
+    },
+    {
       "number": "14.3",
       "section": "Урок 4",
       "condition": "1) Чем Лиза будет заниматься на этих каникулах?",
@@ -276,6 +258,15 @@
       "answer": "холод.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-14-641"
+    },
+    {
+      "number": "15.4",
+      "section": "Перевод",
+      "condition": "5) Что Лизе нужно взять, а что – нет, отправляясь в\nС-Петербург? Почему вы так считаете?",
+      "solution": "Пример:\nЕй не нужно брать с собой лыжные ботинки,\nона не будет их там носить. В октябре в России нет снега.\nShe shouldn’t take a swimming costume, because she won’t wear it\nthere. The weather is not hot in Russia in October.\nShe should take a sweater because she will wear it there. The weather\nis cold in Russia in October.\nShe should take an umbrella because she will use it there. It is\nrainy in Russia in October.\nShe should take jeans, shoes, a warm hat and a coat because she will\nwear them there. The weather is cold in Russia in October.\nShe shouldn’t take shorts, because she won’t wear them there. The\nweather is not hot in Russia in October.\nЕй не стоит брать купальник, потому что она не будет носить его там.\nВ октябре в России погода не жаркая.\nЕй стоит взять свитер, потому что она будет носить его там. Погода в\nРоссии холодная в октябре.\nЕй стоит взять зонтик, потому что она будет пользоваться им там. В\nоктябре в России идут дожди.\nЕй стоит взять джинсы, ботинки, теплую шапку и пальто, потому что она\nбудет носить это все там. Погода в России холодная в октябре.\nЕй не стоит брать шорты, потому что она не будет носить их там. В\nоктябре в России погода не жаркая.",
+      "answer": "октябре в России погода не жаркая.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-15-89"
     },
     {
       "number": "15.2",
@@ -296,22 +287,13 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-15-89"
     },
     {
-      "number": "15.4",
+      "number": "17.3",
       "section": "Перевод",
-      "condition": "5) Что Лизе нужно взять, а что – нет, отправляясь в\nС-Петербург? Почему вы так считаете?",
-      "solution": "Пример:\nЕй не нужно брать с собой лыжные ботинки,\nона не будет их там носить. В октябре в России нет снега.\nShe shouldn’t take a swimming costume, because she won’t wear it\nthere. The weather is not hot in Russia in October.\nShe should take a sweater because she will wear it there. The weather\nis cold in Russia in October.\nShe should take an umbrella because she will use it there. It is\nrainy in Russia in October.\nShe should take jeans, shoes, a warm hat and a coat because she will\nwear them there. The weather is cold in Russia in October.\nShe shouldn’t take shorts, because she won’t wear them there. The\nweather is not hot in Russia in October.\nЕй не стоит брать купальник, потому что она не будет носить его там.\nВ октябре в России погода не жаркая.\nЕй стоит взять свитер, потому что она будет носить его там. Погода в\nРоссии холодная в октябре.\nЕй стоит взять зонтик, потому что она будет пользоваться им там. В\nоктябре в России идут дожди.\nЕй стоит взять джинсы, ботинки, теплую шапку и пальто, потому что она\nбудет носить это все там. Погода в России холодная в октябре.\nЕй не стоит брать шорты, потому что она не будет носить их там. В\nоктябре в России погода не жаркая.",
-      "answer": "октябре в России погода не жаркая.",
+      "condition": "2) В интернете, ребята отвечают на вопросы о каникулах. На\nкакие вопросы ответил Ник?",
+      "solution": "Где тебе нравится проводить каникулы? +\nКто обычно ездит с тобой? +\nКогда тебе нравится проводить каникулы? Почему? +\nЧем ты занимаешься на каникулах? +\nКак ты провел свои недавние летние каникулы? +\nЧем тебе нравилось заниматься? +\nКак ты думаешь, чем ты займешься на следующих каникулах?",
+      "answer": "Как ты думаешь, чем ты займешься на следующих каникулах?",
       "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-15-89"
-    },
-    {
-      "number": "16",
-      "section": "Страница 16",
-      "condition": "2. Напишите письмо Лизе и расскажите о своих осенних\nканикулах.",
-      "solution": "…I will stay at home.\n…Play a new computer game….Clean my room and feed my cat.\n…will meet my friends.\n…Go to school….it’s so boring sitting at home.\n…Sasha\nДорогая Лиза,\nЯ не думаю, что у меня будет много занятий на каникулах.\nЯ думаю, я останусь дома.\nЯ бы хотел поиграть в новую компьютерную игру, но мне также нужно\nубраться в своей комнате и кормить кота.\nЯ надеюсь, что встречусь со своими друзьями.\nНе могу дождаться возвращения в школу, потому что дома так скучно\nсидеть.\nИз России с любовью,\nСаша.",
-      "answer": "Саша.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-16-745"
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-17-488"
     },
     {
       "number": "17.2",
@@ -323,15 +305,6 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-17-488"
     },
     {
-      "number": "17.3",
-      "section": "Перевод",
-      "condition": "2) В интернете, ребята отвечают на вопросы о каникулах. На\nкакие вопросы ответил Ник?",
-      "solution": "Где тебе нравится проводить каникулы? +\nКто обычно ездит с тобой? +\nКогда тебе нравится проводить каникулы? Почему? +\nЧем ты занимаешься на каникулах? +\nКак ты провел свои недавние летние каникулы? +\nЧем тебе нравилось заниматься? +\nКак ты думаешь, чем ты займешься на следующих каникулах?",
-      "answer": "Как ты думаешь, чем ты займешься на следующих каникулах?",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-17-488"
-    },
-    {
       "number": "18.1",
       "section": "Страница 18",
       "condition": "2. Какими были ваши лучшие каникулы? (Используйте вопросы из\nупражнения 1.2.)",
@@ -339,15 +312,6 @@
       "answer": "Грецию.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-18-917"
-    },
-    {
-      "number": "19",
-      "section": "Животные, которые мне нравятся.",
-      "condition": "Животные, которые мне нравятся.",
-      "solution": "Моя кошка Тигги имеет два окраса – рыжий и белый.\nНо выглядит она как настоящий тигр.\nНо при этом она не злая.\nЯ люблю свою кошку.\nМне нравятся разные животные.\nМне нравится узнавать что-то новое о них.\nЯ думаю, тебе тоже нравятся животные.\nНе могу дождаться, когда расскажу тебе о своих любимых животных.",
-      "answer": "Не могу дождаться, когда расскажу тебе о своих любимых животных.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-19-296"
     },
     {
       "number": "20.3",
@@ -366,24 +330,6 @@
       "answer": "The whale is fat.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-20-847"
-    },
-    {
-      "number": "21.1",
-      "section": "Страница 21",
-      "condition": "3) В альбоме Лизы есть стихотворение о животных Доктора\nСьюза. Какими животные представлены в стихотворении? Отгадайте\nслова.",
-      "solution": "Bad, fat, fast, smart.\nКто-то хороший,\nА кто-то плохой,\nКто-то высокий,\nА кто-то толстенький,\nПочему же они\nХороши, плохи, толсты?\nНе могу ответить я,\nТы спроси своего отца.\nКто-то медленный,\nА кто-то быстрый,\nКто-то глупый,\nА кто-то умный,\nНо есть среди них весельчаки,\nХочешь ли знать почему?\nСпроси у мамы своей.",
-      "answer": "Спроси у мамы своей.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-21-16"
-    },
-    {
-      "number": "21.3",
-      "section": "Страница 21",
-      "condition": "5) О каких животных из альбома Лизы могло бы быть\nстихотворение?",
-      "solution": "The poem can be about a humming bird, a whale, a giraffe and an\nostrich.\nСтихотворение могло бы быть о колибри, о ките, о жирафе и о\nстраусе.",
-      "answer": "страусе.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-21-16"
     },
     {
       "number": "21.7",
@@ -413,13 +359,22 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-21-16"
     },
     {
-      "number": "22.2",
-      "section": "Страница 22",
-      "condition": "1) Какие животные есть в проекте Лизы?",
-      "solution": "There are tigers, monkeys, bears, lions, elephants, seals, kangaroos\nand horses in Liza’s project.\nВ проекте Лизы есть тигры, обезьяны, медведи, львы, слоны, тюлени,\nкенгуру и лошади.\nСлоны могут работать в цирке. Они большие, тяжелые и толстые, но они\nдобрые и талантливые. Они умеют танцевать. Мне нравятся слоны.\nАллигаторы не могут работать в цирке. Дети боятся аллигаторов и\nкрокодилов, потому что у них большие зубы. Они опасные. Они могут вас\nскушать.",
-      "answer": "скушать.",
+      "number": "21.1",
+      "section": "Страница 21",
+      "condition": "3) В альбоме Лизы есть стихотворение о животных Доктора\nСьюза. Какими животные представлены в стихотворении? Отгадайте\nслова.",
+      "solution": "Bad, fat, fast, smart.\nКто-то хороший,\nА кто-то плохой,\nКто-то высокий,\nА кто-то толстенький,\nПочему же они\nХороши, плохи, толсты?\nНе могу ответить я,\nТы спроси своего отца.\nКто-то медленный,\nА кто-то быстрый,\nКто-то глупый,\nА кто-то умный,\nНо есть среди них весельчаки,\nХочешь ли знать почему?\nСпроси у мамы своей.",
+      "answer": "Спроси у мамы своей.",
       "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-22-203"
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-21-16"
+    },
+    {
+      "number": "21.3",
+      "section": "Страница 21",
+      "condition": "5) О каких животных из альбома Лизы могло бы быть\nстихотворение?",
+      "solution": "The poem can be about a humming bird, a whale, a giraffe and an\nostrich.\nСтихотворение могло бы быть о колибри, о ките, о жирафе и о\nстраусе.",
+      "answer": "страусе.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-21-16"
     },
     {
       "number": "22.3",
@@ -427,6 +382,15 @@
       "condition": "2) Какие животные могут работать в цирке? Почему? Как вы\nдумаете?",
       "solution": "Monkeys can work in a circus because they can ride a bicycle. They\nare fluffy.\nSeals can work in a circus because they can play with a ball. They\nare funny.\nTigers and kangaroos can work in a circus because they can jump. They\nare fast.\nBears can work in a circus because they can wear clothes and ride a\nroller-skate. They are smart.\nElephants can work in a circus because they can ride a bicycle. They\nare talented.\nОбезьяны могут работать в цирке, потому что они умеют кататься на\nвелосипеде. Они пушистые.\nТюлени могут работать в цирке, потому что они могут играть с мячом.\nОни забавные.\nТигры и кенгуру могут работать в цирке, потому что они умеют прыгать.\nОни быстрые.\nМедведи могут работать в цирке, потому что они могут носить одежду и\nкататься на роликах. Они умные.\nСлоны могут работать в цирке, потому что они умеют кататься на\nвелосипеде. Они талантливы.",
       "answer": "велосипеде. Они талантливы.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-22-203"
+    },
+    {
+      "number": "22.2",
+      "section": "Страница 22",
+      "condition": "1) Какие животные есть в проекте Лизы?",
+      "solution": "There are tigers, monkeys, bears, lions, elephants, seals, kangaroos\nand horses in Liza’s project.\nВ проекте Лизы есть тигры, обезьяны, медведи, львы, слоны, тюлени,\nкенгуру и лошади.\nСлоны могут работать в цирке. Они большие, тяжелые и толстые, но они\nдобрые и талантливые. Они умеют танцевать. Мне нравятся слоны.\nАллигаторы не могут работать в цирке. Дети боятся аллигаторов и\nкрокодилов, потому что у них большие зубы. Они опасные. Они могут вас\nскушать.",
+      "answer": "скушать.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-22-203"
     },
@@ -440,15 +404,6 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-23-805"
     },
     {
-      "number": "24.2",
-      "section": "Страница 24",
-      "condition": "1) Сколько животных вы сможете сравнить?",
-      "solution": "Пример:\nКошки пушистее собак.\nCows are heavier than horses.\nDogs are better friends than cats.\nPigs are smarter than sheep.\nSheep are fluffier than horses.\nTurkeys are larger than hens.\nRabbits are more cheerful than hens.\nHorses are more beautiful than pigs.\nPigs are fatter than horses.\nКоровы тяжелее лошадей.\nСобаки считаются лучшими друзьями, чем кошки.\nСвиньи умнее овец.\nОвцы пушистее лошадей.\nИндюшки крупнее кур.\nКролики забавнее кур.\nЛошади красивее свиней.\nСвиньи толще лошадей.",
-      "answer": "Свиньи толще лошадей.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-24-935"
-    },
-    {
       "number": "24.3",
       "section": "Перевод",
       "condition": "2) Работа в парах. Сравните животных.",
@@ -458,13 +413,13 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-24-935"
     },
     {
-      "number": "25.4",
-      "section": "Страница 25",
-      "condition": "1) Какие из этих собак могут работать на ферме?",
-      "solution": "A bulldog can work on the farm, because his teeth are sharp, so he\ncan protect his owner. Although, his legs are short and ears are\nsmall.\nA Saint Bernard can work on the farm, because he is big and he can\nprotect his owner.\nБульдог может работать на ферме, потому что у него острые зубы,\nпоэтому он может защитить своего хозяина. Хотя ноги у него короткие, а\nуши маленькие.\nСенбернар может работать на ферме, потому что он большого размера и\nможет защитить своего хозяина.",
-      "answer": "может защитить своего хозяина.",
+      "number": "24.2",
+      "section": "Страница 24",
+      "condition": "1) Сколько животных вы сможете сравнить?",
+      "solution": "Пример:\nКошки пушистее собак.\nCows are heavier than horses.\nDogs are better friends than cats.\nPigs are smarter than sheep.\nSheep are fluffier than horses.\nTurkeys are larger than hens.\nRabbits are more cheerful than hens.\nHorses are more beautiful than pigs.\nPigs are fatter than horses.\nКоровы тяжелее лошадей.\nСобаки считаются лучшими друзьями, чем кошки.\nСвиньи умнее овец.\nОвцы пушистее лошадей.\nИндюшки крупнее кур.\nКролики забавнее кур.\nЛошади красивее свиней.\nСвиньи толще лошадей.",
+      "answer": "Свиньи толще лошадей.",
       "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-25-497"
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-24-935"
     },
     {
       "number": "25.5",
@@ -481,6 +436,15 @@
       "condition": "3) Опишите одну из этих собак. Ваш партнер угадает,\nкакую.",
       "solution": "This dog is smaller than a collie. It is lighter than a Saint\nBernard. Its legs are shorter than a bulldog’s legs. And it is cuter\nthan a Pekinese.\nЭта собака меньше, чем колли. Она легче, чем Сенбернар. Ее лапы\nкороче, чем лапы бульдога. И она милее, чем пекинес.",
       "answer": "короче, чем лапы бульдога. И она милее, чем пекинес.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-25-497"
+    },
+    {
+      "number": "25.4",
+      "section": "Страница 25",
+      "condition": "1) Какие из этих собак могут работать на ферме?",
+      "solution": "A bulldog can work on the farm, because his teeth are sharp, so he\ncan protect his owner. Although, his legs are short and ears are\nsmall.\nA Saint Bernard can work on the farm, because he is big and he can\nprotect his owner.\nБульдог может работать на ферме, потому что у него острые зубы,\nпоэтому он может защитить своего хозяина. Хотя ноги у него короткие, а\nуши маленькие.\nСенбернар может работать на ферме, потому что он большого размера и\nможет защитить своего хозяина.",
+      "answer": "может защитить своего хозяина.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-25-497"
     },
@@ -512,6 +476,15 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-27-223"
     },
     {
+      "number": "28.7",
+      "section": "Перевод",
+      "condition": "1) Что вы знаете об этих животных?",
+      "solution": "Пример:\nАкула больше крокодила. Кит – самый большой\nиз них троих.\nThe parrot is smaller than the turkey. The humming bird is the\nsmallest of the three animals.\nThe horse is smarter than the dog. The monkey is the smartest of the\nthree animals.\nThe shark is more dangerous than the whale. The alligator is the most\ndangerous of the three animals.\nThe alligator is heavier than the ostrich. The giraffe is the\nheaviest of the three animals.\nThe fox is more beautiful than the bear. The lion is the most\nbeautiful of the three animals.\nThe parrot is a better friend than the elephant. The dog is the best\nfriend of the three animals.\nThe shark is a worse monster than the snake. The crocodile is the\nworst monster of the three animals.\nПопугай меньше индюшки. Колибри - самая маленькая птица из них\nтроих.\nЛошадь умнее собаки. Обезьяна - самая умная из них троих.\nАкула опаснее кита. Аллигатор является самым опасным из них\nтроих.\nАллигатор тяжелее страуса. Жираф является самым тяжелым из них\nтроих.\nЛиса красивее медведя. Лев является самым красивым из них троих.\nПопугай - лучший друг, чем слон. Собака является самым лучшим другом\nиз них троих.\nАкула худший монстр, чем змея. Крокодил является самым худшим\nмонстром из них троих.",
+      "answer": "монстром из них троих.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-28-934"
+    },
+    {
       "number": "28.4",
       "section": "Страница 28",
       "condition": "1) О каких слонах рассказ Лизы?",
@@ -526,15 +499,6 @@
       "condition": "2) Составьте две истории о двух других слонах.",
       "solution": "This elephant is the smallest one. It is lighter than the African\nelephant and it is shorter than the Asian one.\nThis elephant is the biggest one. It is higher than the Asian\nelephant and it is heavier than the African dwarf one.\nЭтот слон самый маленький. Он легче, чем Африканский слон, и он ниже,\nчем Азиатский.\nЭтот слон самый большой. Он выше Азиатского слона и тяжелее\nАфриканского карликового.",
       "answer": "Африканского карликового.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-28-934"
-    },
-    {
-      "number": "28.7",
-      "section": "Перевод",
-      "condition": "1) Что вы знаете об этих животных?",
-      "solution": "Пример:\nАкула больше крокодила. Кит – самый большой\nиз них троих.\nThe parrot is smaller than the turkey. The humming bird is the\nsmallest of the three animals.\nThe horse is smarter than the dog. The monkey is the smartest of the\nthree animals.\nThe shark is more dangerous than the whale. The alligator is the most\ndangerous of the three animals.\nThe alligator is heavier than the ostrich. The giraffe is the\nheaviest of the three animals.\nThe fox is more beautiful than the bear. The lion is the most\nbeautiful of the three animals.\nThe parrot is a better friend than the elephant. The dog is the best\nfriend of the three animals.\nThe shark is a worse monster than the snake. The crocodile is the\nworst monster of the three animals.\nПопугай меньше индюшки. Колибри - самая маленькая птица из них\nтроих.\nЛошадь умнее собаки. Обезьяна - самая умная из них троих.\nАкула опаснее кита. Аллигатор является самым опасным из них\nтроих.\nАллигатор тяжелее страуса. Жираф является самым тяжелым из них\nтроих.\nЛиса красивее медведя. Лев является самым красивым из них троих.\nПопугай - лучший друг, чем слон. Собака является самым лучшим другом\nиз них троих.\nАкула худший монстр, чем змея. Крокодил является самым худшим\nмонстром из них троих.",
-      "answer": "монстром из них троих.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-28-934"
     },
@@ -656,15 +620,6 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-33-152"
     },
     {
-      "number": "35",
-      "section": "Время для меня!",
-      "condition": "Время для меня!",
-      "solution": "Привет! Меня зовут Джек Мортон. Мне 10 лет.\nМне нравится рассказывать о своей семье и друзьях.\nУ меня есть мама, папа и маленькая сестра.\nМою маму зовут Джулия.\nА моего папу – Дэвид.\nМою сестру зовут Джессика. Она красивая и она хороший друг.\nМои родители – замечательные.\nЭто наш пёс. Его зовут Фредди. Он забавный.\nЭтот Юнит о том, как мы проводим время в нашей семье.",
-      "answer": "Этот Юнит о том, как мы проводим время в нашей семье.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-35-895"
-    },
-    {
       "number": "36.3",
       "section": "Урок 1",
       "condition": "1) Джессика хорошая ученица? Давайте проверим.",
@@ -672,24 +627,6 @@
       "answer": "- Молодец! Сейчас три часа.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-36-883"
-    },
-    {
-      "number": "38.1",
-      "section": "Страница 38",
-      "condition": "2. Давайте сыграем. “Quick Bingo”.",
-      "solution": "It’s 7 am\nIt’s half past 8\nIt’s a quarter past 10\nIt thirty-seven minutes past 11/it’s twenty-three minutes to\n12\nIt’s five minutes past 10\nIt’s 12 am\nIt’s twenty-five minutes past 1\nIt’s 2 o’clock\nIt’ half past seven\nIt’s ten minutes to 9\nIt’s a quarter to 6\nIt’s midnight",
-      "answer": "It’s midnight",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-38-658"
-    },
-    {
-      "number": "38.4",
-      "section": "Страница 38",
-      "condition": "1) Который сейчас час в Москве, в Лондоне и в вашем городе?\nСделайте заметки.",
-      "solution": "11 pm\n5 pm\n9:30 am\n12:15 pm",
-      "answer": "12:15 pm",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-38-658"
     },
     {
       "number": "38.5",
@@ -706,6 +643,24 @@
       "condition": "3) Ролевая игра. Поговорите о времени в Нью-Йорке и о времени\nв вашем городе.",
       "solution": "12 pm\n6 am\n5:30 pm\n8 am\n6 am\n12 am\n11:30 am\n2 am",
       "answer": "2 am",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-38-658"
+    },
+    {
+      "number": "38.1",
+      "section": "Страница 38",
+      "condition": "2. Давайте сыграем. “Quick Bingo”.",
+      "solution": "It’s 7 am\nIt’s half past 8\nIt’s a quarter past 10\nIt thirty-seven minutes past 11/it’s twenty-three minutes to\n12\nIt’s five minutes past 10\nIt’s 12 am\nIt’s twenty-five minutes past 1\nIt’s 2 o’clock\nIt’ half past seven\nIt’s ten minutes to 9\nIt’s a quarter to 6\nIt’s midnight",
+      "answer": "It’s midnight",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-38-658"
+    },
+    {
+      "number": "38.4",
+      "section": "Страница 38",
+      "condition": "1) Который сейчас час в Москве, в Лондоне и в вашем городе?\nСделайте заметки.",
+      "solution": "11 pm\n5 pm\n9:30 am\n12:15 pm",
+      "answer": "12:15 pm",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-38-658"
     },
@@ -809,20 +764,20 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-44-292"
     },
     {
-      "number": "45.1",
-      "section": "Страница 45",
-      "condition": "2) Нравится ли Джеку и Джессике их выходные? Почему? Докажите\nиз текста.",
-      "solution": "I think they like their weekends, because they get up late and go to\nbed late, too.\nЯ думаю, им нравятся их выходные, потому что они встают поздно и\nложатся спать тоже поздно.",
-      "answer": "ложатся спать тоже поздно.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-45-362"
-    },
-    {
       "number": "45.2",
       "section": "Перевод",
       "condition": "3) Ролевая игра. Вы проводите свои выходные как Джек и\nДжессика?",
       "solution": "На выходных я встаю поздно.\nЯ тоже. На выходных я встаю поздно.\nЭто не про меня. Я не поздно встаю на выходных, а рано.\nI play computer games at the weekend.\nMe too. I play computer games at the weekend.\nNot me! I don’t play computer games at the weekend. I read\nbooks.",
       "answer": "books.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-45-362"
+    },
+    {
+      "number": "45.1",
+      "section": "Страница 45",
+      "condition": "2) Нравится ли Джеку и Джессике их выходные? Почему? Докажите\nиз текста.",
+      "solution": "I think they like their weekends, because they get up late and go to\nbed late, too.\nЯ думаю, им нравятся их выходные, потому что они встают поздно и\nложатся спать тоже поздно.",
+      "answer": "ложатся спать тоже поздно.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-45-362"
     },
@@ -836,20 +791,20 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-45-362"
     },
     {
-      "number": "46.2",
-      "section": "Страница 46",
-      "condition": "1) Послушайте рассказ друга Джека, следуйте информации в\nтаблице и угадайте имя друга.",
-      "solution": "His name is Harry.\nЕго зовут Гарри.",
-      "answer": "Его зовут Гарри.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-46-497"
-    },
-    {
       "number": "46.3",
       "section": "Перевод",
       "condition": "2) Составьте рассказ об одном из друзей Джека. Ваши\nодноклассники должны угадать его имя.",
       "solution": "He gets up late, at eleven am. Then he has breakfast and after\nbreakfast, he plays football with his friends. He usually has lunch at\nhalf past one. After lunch, he goes to the funfair, where he goes on\nrides. He has dinner at half past six. In the evening, he usually plays\ncomputer games.\nОн встает поздно, в 11 утра. Затем он завтракает и после завтрака\nиграет в футбол со своими друзьями. Он обычно обедает в половине\nпервого. После обеда он отправляется на ярмарку, где катается на\nаттракционах. Ужинает он в половине шестого. Вечером он обычно играет в\nкомпьютерные игры.",
       "answer": "компьютерные игры.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-46-497"
+    },
+    {
+      "number": "46.2",
+      "section": "Страница 46",
+      "condition": "1) Послушайте рассказ друга Джека, следуйте информации в\nтаблице и угадайте имя друга.",
+      "solution": "His name is Harry.\nЕго зовут Гарри.",
+      "answer": "Его зовут Гарри.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-46-497"
     },
@@ -924,15 +879,6 @@
       "answer": "своими друзьями, учителями и родственниками.",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-48-855"
-    },
-    {
-      "number": "49",
-      "section": "Мне нравится моя школа!",
-      "condition": "Мне нравится моя школа!",
-      "solution": "Я хожу в начальную школу.\nМне нравится рассказывать о своей школе и своих одноклассниках.\nДжессика тоже ходит в начальную школу.\nЕй нравится ходить в школу.\nЕй нравится узнавать (изучать) новые вещи.\nНаша собака Фредди не ходит в школу.\nМы не знаем почему.\nОна умная и талантливая (Это шутка).\nЧто ж…О чем этот Юнит?\nО школе: занятиях в школе, домашней работе, учителях и\nодноклассниках.",
-      "answer": "одноклассниках.",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-49-161"
     },
     {
       "number": "50.4",
@@ -1070,20 +1016,20 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-58-39"
     },
     {
-      "number": "59.3",
-      "section": "Урок 4",
-      "condition": "1) Что Джек ищет этим утром?",
-      "solution": "Jack is looking for his lunchbox.\nОн ищет свой ланчбокс.\n- Джек! Что ты ищешь?\n- Я ищу свой ланчбокс. Где он? И где Фредди?\n- Фредди в саду. А что?\n- Что он там делает? Он спит?\n- Нет. Он не спит. Он ест.\n- Что он ест?\n- Не знаю…\n- Я знаю. Он ест мое печенье!",
-      "answer": "- Я знаю. Он ест мое печенье!",
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-59-473"
-    },
-    {
       "number": "59.4",
       "section": "Перевод",
       "condition": "2) Что Фредди делает?",
       "solution": "He is eating Jack’s biscuits.\nКушает печенье Джека.",
       "answer": "Кушает печенье Джека.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-59-473"
+    },
+    {
+      "number": "59.3",
+      "section": "Урок 4",
+      "condition": "1) Что Джек ищет этим утром?",
+      "solution": "Jack is looking for his lunchbox.\nОн ищет свой ланчбокс.\n- Джек! Что ты ищешь?\n- Я ищу свой ланчбокс. Где он? И где Фредди?\n- Фредди в саду. А что?\n- Что он там делает? Он спит?\n- Нет. Он не спит. Он ест.\n- Что он ест?\n- Не знаю…\n- Я знаю. Он ест мое печенье!",
+      "answer": "- Я знаю. Он ест мое печенье!",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-59-473"
     },
@@ -1160,6 +1106,51 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-62-587"
     },
     {
+      "number": "35",
+      "section": "Время для меня!",
+      "condition": "Время для меня!",
+      "solution": "Привет! Меня зовут Джек Мортон. Мне 10 лет.\nМне нравится рассказывать о своей семье и друзьях.\nУ меня есть мама, папа и маленькая сестра.\nМою маму зовут Джулия.\nА моего папу – Дэвид.\nМою сестру зовут Джессика. Она красивая и она хороший друг.\nМои родители – замечательные.\nЭто наш пёс. Его зовут Фредди. Он забавный.\nЭтот Юнит о том, как мы проводим время в нашей семье.",
+      "answer": "Этот Юнит о том, как мы проводим время в нашей семье.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-35-895"
+    },
+    {
+      "number": "19",
+      "section": "Животные, которые мне нравятся.",
+      "condition": "Животные, которые мне нравятся.",
+      "solution": "Моя кошка Тигги имеет два окраса – рыжий и белый.\nНо выглядит она как настоящий тигр.\nНо при этом она не злая.\nЯ люблю свою кошку.\nМне нравятся разные животные.\nМне нравится узнавать что-то новое о них.\nЯ думаю, тебе тоже нравятся животные.\nНе могу дождаться, когда расскажу тебе о своих любимых животных.",
+      "answer": "Не могу дождаться, когда расскажу тебе о своих любимых животных.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-19-296"
+    },
+    {
+      "number": "5-2",
+      "section": "Места, которые делают меня счастливым",
+      "condition": "Места, которые делают меня счастливым",
+      "solution": "Меня зовут Эндрю (Энди) Миллс. Мне 10 лет.\nЯ живу с мамой, папой и со своей сестрой Эшли.\nМоей сестре 14 лет, и она очень умная.\nУ нас дома живет попугай.\nНекоторые дети считают его экзотическим животным.\nНо я люблю своего Спарки, и хорошо забочусь о нем.\nЯ расскажу тебе о том, как мы живем в нашем доме.",
+      "answer": "Я расскажу тебе о том, как мы живем в нашем доме.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-5-748"
+    },
+    {
+      "number": "49",
+      "section": "Мне нравится моя школа!",
+      "condition": "Мне нравится моя школа!",
+      "solution": "Я хожу в начальную школу.\nМне нравится рассказывать о своей школе и своих одноклассниках.\nДжессика тоже ходит в начальную школу.\nЕй нравится ходить в школу.\nЕй нравится узнавать (изучать) новые вещи.\nНаша собака Фредди не ходит в школу.\nМы не знаем почему.\nОна умная и талантливая (Это шутка).\nЧто ж…О чем этот Юнит?\nО школе: занятиях в школе, домашней работе, учителях и\nодноклассниках.",
+      "answer": "одноклассниках.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-49-161"
+    },
+    {
+      "number": "5",
+      "section": "Мои летние фавориты",
+      "condition": "Мои летние фавориты",
+      "solution": "Привет, меня зовут Элизабет (Лиза) Биссетт.\nМне 9 лет, но в ноябре мне будет 10.\nЯ живу со своей мамой Джилл и папой Джоном.\nМы живем в Лондоне.\nУ меня есть кошка, Тигги. Ей 3 года.\nМне нравится готовить вместе со своей мамой.\nС папой мне нравится сидеть за компьютером.\nЧем мне нравится заниматься летом?\nЯ расскажу тебе о наших любимых летних занятиях.",
+      "answer": "Я расскажу тебе о наших любимых летних занятиях.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-5-188"
+    },
+    {
       "number": "63",
       "section": "Ответьте на вопросы.",
       "condition": "Ответьте на вопросы.",
@@ -1167,6 +1158,15 @@
       "answer": "Tutor, secondary school",
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-63-202"
+    },
+    {
+      "number": "16",
+      "section": "Страница 16",
+      "condition": "2. Напишите письмо Лизе и расскажите о своих осенних\nканикулах.",
+      "solution": "…I will stay at home.\n…Play a new computer game….Clean my room and feed my cat.\n…will meet my friends.\n…Go to school….it’s so boring sitting at home.\n…Sasha\nДорогая Лиза,\nЯ не думаю, что у меня будет много занятий на каникулах.\nЯ думаю, я останусь дома.\nЯ бы хотел поиграть в новую компьютерную игру, но мне также нужно\nубраться в своей комнате и кормить кота.\nЯ надеюсь, что встречусь со своими друзьями.\nНе могу дождаться возвращения в школу, потому что дома так скучно\nсидеть.\nИз России с любовью,\nСаша.",
+      "answer": "Саша.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/angliyskiy/4_klass/reshebnik-po-angliiskomu-4-klass-kuzovlev-peregudova-803/1-str-16-745"
     }
   ],
   "part": 1

@@ -1,0 +1,827 @@
+{
+  "subject": "physics",
+  "textbook": "purysheva-9-169",
+  "author": "Пурышева, Важеевская",
+  "year": "2024",
+  "source": "parsed",
+  "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169",
+  "parsedAt": "2026-10-21T15:09:14Z",
+  "tasks": [
+    {
+      "number": "29",
+      "section": "Вопросы к параграфам",
+      "condition": "§29. Постоянные магниты. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983712.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-29-postoyannye-magnity"
+    },
+    {
+      "number": "30",
+      "section": "Вопросы к параграфам",
+      "condition": "§30. Магнитное поле. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983713.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-30-magnitnoe-pole"
+    },
+    {
+      "number": "31",
+      "section": "Вопросы к параграфам",
+      "condition": "§31. Магнитное поле Земли. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983714.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-31-magnitnoe-pole-zemli"
+    },
+    {
+      "number": "32",
+      "section": "Вопросы к параграфам",
+      "condition": "§32. Магнитное поле электрического тока. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983715.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-32-magnitnoe-pole-elektricheskogo-toka"
+    },
+    {
+      "number": "33",
+      "section": "Вопросы к параграфам",
+      "condition": "§33. Применение магнитов. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983716.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-33-primenenie-magnitov"
+    },
+    {
+      "number": "34",
+      "section": "Вопросы к параграфам",
+      "condition": "§34. Действие магнитного поля на проводник с током. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983717.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-34-deystvie-magnitnogo-polya-na-provodnik-s-tokom"
+    },
+    {
+      "number": "35",
+      "section": "Вопросы к параграфам",
+      "condition": "§35. Электродвигатель. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983718.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-35-elektrodvigatel"
+    },
+    {
+      "number": "36",
+      "section": "Вопросы к параграфам",
+      "condition": "§36. Явление электромагнитной индукции. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983719.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-36-yavlenie-elektromagnitnoy-induktsii"
+    },
+    {
+      "number": "37",
+      "section": "Вопросы к параграфам",
+      "condition": "§37. Магнитный поток. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983720.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-37-magnitnyy-potok"
+    },
+    {
+      "number": "38",
+      "section": "Вопросы к параграфам",
+      "condition": "§38. Направление индукционного тока. Правило Ленца. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983721.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-38-napravlenie-induktsionnogo-toka-pravilo-lentsa"
+    },
+    {
+      "number": "39",
+      "section": "Вопросы к параграфам",
+      "condition": "§39. Самоиндукция. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983722.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-39-samoinduktsiya"
+    },
+    {
+      "number": "40",
+      "section": "Вопросы к параграфам",
+      "condition": "§40. Переменный электрический ток. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983723.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-40-peremennyy-elektricheskiy-tok"
+    },
+    {
+      "number": "41",
+      "section": "Вопросы к параграфам",
+      "condition": "§41. Трансформатор. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983724.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-41-transformator"
+    },
+    {
+      "number": "42",
+      "section": "Вопросы к параграфам",
+      "condition": "§42. Передача электрической энергии. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983725.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-42-peredacha-elektricheskoy-energii"
+    },
+    {
+      "number": "43",
+      "section": "Вопросы к параграфам",
+      "condition": "§43. Конденсатор. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983726.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-43-kondensator"
+    },
+    {
+      "number": "44",
+      "section": "Вопросы к параграфам",
+      "condition": "§44. Колебательный контур. Свободные электромагнитные колебания. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983727.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-44-kolebatelnyy-kontur-svobodnye-elektromagnitnye-kolebaniya"
+    },
+    {
+      "number": "45",
+      "section": "Вопросы к параграфам",
+      "condition": "§45. Вынужденные электромагнитные колебания. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983728.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-45-vynuzhdennye-elektromagnitnye-kolebaniya"
+    },
+    {
+      "number": "46",
+      "section": "Вопросы к параграфам",
+      "condition": "§46. Электромагнитные волны. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983729.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-46-elektromagnitnye-volny"
+    },
+    {
+      "number": "47",
+      "section": "Вопросы к параграфам",
+      "condition": "§47. Использование электромагнитных волн для передачи информации. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983730.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-47-ispolzovanie-elektromagnitnyh-voln-dlya-peredachi-informatsii"
+    },
+    {
+      "number": "48",
+      "section": "Вопросы к параграфам",
+      "condition": "§48. Свойства электромагнитных волн. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983731.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-48-svoystva-elektromagnitnyh-voln"
+    },
+    {
+      "number": "49",
+      "section": "Вопросы к параграфам",
+      "condition": "§49. Электромагнитная природа света. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983732.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-49-elektromagnitnaya-priroda-sveta"
+    },
+    {
+      "number": "50",
+      "section": "Вопросы к параграфам",
+      "condition": "§50. Шкала электромагнитных волн. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983733.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-50-shkala-elektromagnitnyh-voln"
+    },
+    {
+      "number": "51",
+      "section": "Вопросы к параграфам",
+      "condition": "§51. Фотоэффект. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983734.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-51-fotoeffekt"
+    },
+    {
+      "number": "52",
+      "section": "Вопросы к параграфам",
+      "condition": "§52. Строение атома. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983735.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-52-stroenie-atoma"
+    },
+    {
+      "number": "53",
+      "section": "Вопросы к параграфам",
+      "condition": "§53. Спектры испускания и поглощения. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983736.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-53-spektry-ispuskaniya-i-pogloscheniya"
+    },
+    {
+      "number": "54",
+      "section": "Вопросы к параграфам",
+      "condition": "§54. Радиоактивность. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983737.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-54-radioaktivnost"
+    },
+    {
+      "number": "55",
+      "section": "Вопросы к параграфам",
+      "condition": "§55. Состав атомного ядра. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983738.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-55-sostav-atomnogo-yadra"
+    },
+    {
+      "number": "56",
+      "section": "Вопросы к параграфам",
+      "condition": "§56. Радиоактивные превращения. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983739.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-56-radioaktivnye-prevrascheniya"
+    },
+    {
+      "number": "57",
+      "section": "Вопросы к параграфам",
+      "condition": "§57. Ядерные силы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983740.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-57-yadernye-sily"
+    },
+    {
+      "number": "58",
+      "section": "Вопросы к параграфам",
+      "condition": "§58. Ядерные реакции. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983741.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-58-yadernye-reaktsii"
+    },
+    {
+      "number": "59",
+      "section": "Вопросы к параграфам",
+      "condition": "§59. Дефект массы. Энергетический выход ядерных реакций. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983742.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-59-defekt-massy-energeticheskiy-vyhod-yadernyh-reaktsiy"
+    },
+    {
+      "number": "60",
+      "section": "Вопросы к параграфам",
+      "condition": "§60. Деление ядер урана. Цепная реакция. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983743.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-60-delenie-yader-urana-tsepnaya-reaktsiya"
+    },
+    {
+      "number": "61",
+      "section": "Вопросы к параграфам",
+      "condition": "§61. Ядерный реактор. Ядерная энергетика. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983744.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-61-yadernyy-reaktor-yadernaya-energetika"
+    },
+    {
+      "number": "62",
+      "section": "Вопросы к параграфам",
+      "condition": "§62. Термоядерные реакции. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983745.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-62-termoyadernye-reaktsii"
+    },
+    {
+      "number": "63",
+      "section": "Вопросы к параграфам",
+      "condition": "§63. Действия радиоактивных излучений и их применение. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983746.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-63-deystviya-radioaktivnyh-izlucheniy-i-ih-primenenie"
+    },
+    {
+      "number": "64",
+      "section": "Вопросы к параграфам",
+      "condition": "§64. Элементарные частицы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983747.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-64-elementarnye-chastitsy"
+    },
+    {
+      "number": "65",
+      "section": "Вопросы к параграфам",
+      "condition": "§65. Строение и масштабы Вселенной. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983748.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-65-stroenie-i-masshtaby-vselennoy"
+    },
+    {
+      "number": "66",
+      "section": "Вопросы к параграфам",
+      "condition": "§66. Развитие представлений о системе мира. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983749.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-66-razvitie-predstavleniy-o-sisteme-mira"
+    },
+    {
+      "number": "67",
+      "section": "Вопросы к параграфам",
+      "condition": "§67. Система «Земля – Луна». Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983750.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-67-sistema-«zemlya-–-luna»"
+    },
+    {
+      "number": "68",
+      "section": "Вопросы к параграфам",
+      "condition": "§68. Физическая природа планеты Земля и ее естественного спутника Луны. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983751.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-68-fizicheskaya-priroda-planety-zemlya-i-ee-estestvennogo-sputnika-luny"
+    },
+    {
+      "number": "69",
+      "section": "Вопросы к параграфам",
+      "condition": "§69. Планеты. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983752.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-69-planety"
+    },
+    {
+      "number": "70",
+      "section": "Вопросы к параграфам",
+      "condition": "§70. Малые тела Солнечной системы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983753.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-70-malye-tela-solnechnoy-sistemy"
+    },
+    {
+      "number": "71",
+      "section": "Вопросы к параграфам",
+      "condition": "§71. Солнечная система – комплекс тел, имеющих общее происхождение. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983754.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-71-solnechnaya-sistema-–-kompleks-tel-imeyuschih-obschee-proishozhdenie"
+    },
+    {
+      "number": "72",
+      "section": "Вопросы к параграфам",
+      "condition": "§72. Использование результатов космических исследований в науке, технике и народном хозяйстве. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983755.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/voprosy-k-paragrafam-zadanie-72-ispolzovanie-rezultatov-kosmicheskih-issledovaniy-v-nauke-tehnike-i-narodnom-hozyaystve"
+    },
+    {
+      "number": "29-2",
+      "section": "Задание 29",
+      "condition": "Задание 29. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983756.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-29"
+    },
+    {
+      "number": "30-2",
+      "section": "Задание 30",
+      "condition": "Задание 30. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983757.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-30"
+    },
+    {
+      "number": "31-2",
+      "section": "Задание 31",
+      "condition": "Задание 31. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983758.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-31"
+    },
+    {
+      "number": "32-2",
+      "section": "Задание 32",
+      "condition": "Задание 32. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983759.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-32"
+    },
+    {
+      "number": "33-2",
+      "section": "Задание 33",
+      "condition": "Задание 33. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983760.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-33"
+    },
+    {
+      "number": "34-2",
+      "section": "Задание 34",
+      "condition": "Задание 34. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983761.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-34"
+    },
+    {
+      "number": "35-2",
+      "section": "Задание 35",
+      "condition": "Задание 35. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983762.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-35"
+    },
+    {
+      "number": "36-2",
+      "section": "Задание 36",
+      "condition": "Задание 36. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983763.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-36"
+    },
+    {
+      "number": "37-2",
+      "section": "Задание 37",
+      "condition": "Задание 37. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983764.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-37"
+    },
+    {
+      "number": "38-2",
+      "section": "Задание 38",
+      "condition": "Задание 38. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983765.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-38"
+    },
+    {
+      "number": "39-2",
+      "section": "Задание 39",
+      "condition": "Задание 39. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983766.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-39"
+    },
+    {
+      "number": "40-2",
+      "section": "Задание 40",
+      "condition": "Задание 40. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983767.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-40"
+    },
+    {
+      "number": "41-2",
+      "section": "Задание 41",
+      "condition": "Задание 41. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983768.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-41"
+    },
+    {
+      "number": "42-2",
+      "section": "Задание 42",
+      "condition": "Задание 42. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983769.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-42"
+    },
+    {
+      "number": "43-2",
+      "section": "Задание 43",
+      "condition": "Задание 43. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983770.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-43"
+    },
+    {
+      "number": "44-2",
+      "section": "Задание 44",
+      "condition": "Задание 44. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983771.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-44"
+    },
+    {
+      "number": "45-2",
+      "section": "Задание 45",
+      "condition": "Задание 45. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983772.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-45"
+    },
+    {
+      "number": "46-2",
+      "section": "Задание 46",
+      "condition": "Задание 46. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983773.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-46"
+    },
+    {
+      "number": "47-2",
+      "section": "Задание 47",
+      "condition": "Задание 47. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983774.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-47"
+    },
+    {
+      "number": "48-2",
+      "section": "Задание 48",
+      "condition": "Задание 48. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983775.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-48"
+    },
+    {
+      "number": "49-2",
+      "section": "Задание 49",
+      "condition": "Задание 49. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983776.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-49"
+    },
+    {
+      "number": "50-2",
+      "section": "Задание 50",
+      "condition": "Задание 50. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983777.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-50"
+    },
+    {
+      "number": "51-2",
+      "section": "Задание 51",
+      "condition": "Задание 51. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983778.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-51"
+    },
+    {
+      "number": "52-2",
+      "section": "Задание 52",
+      "condition": "Задание 52. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5606/1983779.png?v=1586935943"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/9_klass/reshebnik-po-fizike-9-klass-purysheva-vazheevskaya-169/zadaniya-zadanie-zadanie-52"
+    }
+  ]
+}

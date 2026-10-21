@@ -1,0 +1,431 @@
+{
+  "subject": "physics",
+  "textbook": "kabardin-8-399",
+  "author": "Кабардин",
+  "year": "2024",
+  "source": "parsed",
+  "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399",
+  "parsedAt": "2026-10-21T15:00:11Z",
+  "tasks": [
+    {
+      "number": "1",
+      "section": "§1. Электрический заряд. Взаимодействие зарядов",
+      "condition": "§1. Электрический заряд. Взаимодействие зарядов. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025564.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-1-elektricheskiy-zaryad-vzaimodeystvie-zaryadov"
+    },
+    {
+      "number": "10",
+      "section": "§10. Последовательное соединение проводников",
+      "condition": "§10. Последовательное соединение проводников. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025565.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-10-posledovatelnoe-soedinenie-provodnikov"
+    },
+    {
+      "number": "11",
+      "section": "§11. Параллельное соединение проводников",
+      "condition": "§11. Параллельное соединение проводников. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025566.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-11-parallelnoe-soedinenie-provodnikov"
+    },
+    {
+      "number": "12",
+      "section": "§12. Работа и мощность электрического тока",
+      "condition": "§12. Работа и мощность электрического тока. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025567.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-12-rabota-i-moschnost-elektricheskogo-toka"
+    },
+    {
+      "number": "13",
+      "section": "§13. Природа электрического тока",
+      "condition": "§13. Природа электрического тока. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025568.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-13-priroda-elektricheskogo-toka"
+    },
+    {
+      "number": "14",
+      "section": "§14. Полупроводниковые приборы",
+      "condition": "§14. Полупроводниковые приборы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025569.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-14-poluprovodnikovye-pribory"
+    },
+    {
+      "number": "15",
+      "section": "§15. Правила безопасности при работе",
+      "condition": "§15. Правила безопасности при работе. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025570.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-15-pravila-bezopasnosti-pri-rabote"
+    },
+    {
+      "number": "16",
+      "section": "§16. Взаимодействие постоянных магнитов",
+      "condition": "§16. Взаимодействие постоянных магнитов. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025571.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-16-vzaimodeystvie-postoyannyh-magnitov"
+    },
+    {
+      "number": "17",
+      "section": "§17. Магнитное поле тока",
+      "condition": "§17. Магнитное поле тока. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025572.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-17-magnitnoe-pole-toka"
+    },
+    {
+      "number": "18",
+      "section": "§18. Электромагнит",
+      "condition": "§18. Электромагнит. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025573.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-18-elektromagnit"
+    },
+    {
+      "number": "19",
+      "section": "§19. Действие магнитного поля на проводник с током",
+      "condition": "§19. Действие магнитного поля на проводник с током. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025574.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-19-deystvie-magnitnogo-polya-na-provodnik-s-tokom"
+    },
+    {
+      "number": "2",
+      "section": "§2. Закон сохранения электрического заряда",
+      "condition": "§2. Закон сохранения электрического заряда. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025575.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-2-zakon-sohraneniya-elektricheskogo-zaryada"
+    },
+    {
+      "number": "20",
+      "section": "§20. Электродвигатель",
+      "condition": "§20. Электродвигатель. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025576.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-20-elektrodvigatel"
+    },
+    {
+      "number": "21",
+      "section": "§21. Электромагнитная индукция",
+      "condition": "§21. Электромагнитная индукция. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025577.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-21-elektromagnitnaya-induktsiya"
+    },
+    {
+      "number": "22",
+      "section": "§22. Правило Ленца",
+      "condition": "§22. Правило Ленца. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025578.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-22-pravilo-lentsa"
+    },
+    {
+      "number": "23",
+      "section": "§23. Самоиндукция",
+      "condition": "§23. Самоиндукция. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025579.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-23-samoinduktsiya"
+    },
+    {
+      "number": "24",
+      "section": "§24. Электрогенератор",
+      "condition": "§24. Электрогенератор. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025580.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-24-elektrogenerator"
+    },
+    {
+      "number": "25",
+      "section": "§25. Переменный ток",
+      "condition": "§25. Переменный ток. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025581.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-25-peremennyy-tok"
+    },
+    {
+      "number": "26",
+      "section": "§26. Переменный ток",
+      "condition": "§26. Переменный ток. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025582.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-26-peremennyy-tok"
+    },
+    {
+      "number": "27",
+      "section": "§27. Электромагнитные колебания",
+      "condition": "§27. Электромагнитные колебания. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025583.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-27-elektromagnitnye-kolebaniya"
+    },
+    {
+      "number": "28",
+      "section": "§28. Электромагнитные волны и их свойства",
+      "condition": "§28. Электромагнитные волны и их свойства. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025584.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-28-elektromagnitnye-volny-i-ih-svoystva"
+    },
+    {
+      "number": "29",
+      "section": "§29. Принципы радиосвязи и телевидения",
+      "condition": "§29. Принципы радиосвязи и телевидения. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025585.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-29-printsipy-radiosvyazi-i-televideniya"
+    },
+    {
+      "number": "3",
+      "section": "§3. Действие электрического поля на электрические заряды",
+      "condition": "§3. Действие электрического поля на электрические заряды. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025586.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-3-deystvie-elektricheskogo-polya-na-elektricheskie-zaryady"
+    },
+    {
+      "number": "30",
+      "section": "§30. Свойства света",
+      "condition": "§30. Свойства света. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025587.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-30-svoystva-sveta"
+    },
+    {
+      "number": "31",
+      "section": "§31. Отражение света",
+      "condition": "§31. Отражение света. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025588.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-31-otrazhenie-sveta"
+    },
+    {
+      "number": "32",
+      "section": "§32. Преломление света",
+      "condition": "§32. Преломление света. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025589.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-32-prelomlenie-sveta"
+    },
+    {
+      "number": "33",
+      "section": "§33. Линзы",
+      "condition": "§33. Линзы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025590.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-33-linzy"
+    },
+    {
+      "number": "34",
+      "section": "§34. Оптические приборы",
+      "condition": "§34. Оптические приборы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025591.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-34-opticheskie-pribory"
+    },
+    {
+      "number": "35",
+      "section": "§35. Дисперсия света",
+      "condition": "§35. Дисперсия света. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025592.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-35-dispersiya-sveta"
+    },
+    {
+      "number": "4",
+      "section": "§4. Энергия электрического поля",
+      "condition": "§4. Энергия электрического поля. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025593.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-4-energiya-elektricheskogo-polya"
+    },
+    {
+      "number": "5",
+      "section": "§5. Постоянный электрический ток",
+      "condition": "§5. Постоянный электрический ток. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025594.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-5-postoyannyy-elektricheskiy-tok"
+    },
+    {
+      "number": "6",
+      "section": "§6. Источники постоянного тока",
+      "condition": "§6. Источники постоянного тока. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025595.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-6-istochniki-postoyannogo-toka"
+    },
+    {
+      "number": "7",
+      "section": "§7. Сила тока",
+      "condition": "§7. Сила тока. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025596.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-7-sila-toka"
+    },
+    {
+      "number": "8",
+      "section": "§8. Закон Ома для участка цепи",
+      "condition": "§8. Закон Ома для участка цепи. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025597.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-8-zakon-oma-dlya-uchastka-tsepi"
+    },
+    {
+      "number": "9",
+      "section": "§9. Измерение электрических величин",
+      "condition": "§9. Измерение электрических величин. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5629/2025598.png?v=1598516567"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-kabardin-399/paragrafy-uchebnika-zadanie-9-izmerenie-elektricheskih-velichin"
+    }
+  ]
+}

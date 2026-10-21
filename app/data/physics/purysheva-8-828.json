@@ -1,0 +1,1055 @@
+{
+  "subject": "physics",
+  "textbook": "purysheva-8-828",
+  "author": "Пурышева, Важеевская",
+  "year": "2024",
+  "source": "parsed",
+  "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828",
+  "parsedAt": "2026-10-21T15:12:44Z",
+  "tasks": [
+    {
+      "number": "1",
+      "section": "Вопросы к параграфам",
+      "condition": "§1. Развитие взглядов на строение вещества. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027370.png?v=1599031739"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-1-razvitie-vzglyadov-na-stroenie-veschestva"
+    },
+    {
+      "number": "10",
+      "section": "Вопросы к параграфам",
+      "condition": "§10. Сообщающиеся сосуды. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027371.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-10-soobschayuschiesya-sosudy"
+    },
+    {
+      "number": "11",
+      "section": "Вопросы к параграфам",
+      "condition": "§11. Гидравлическая машина. Гидравлический пресс. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027372.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-11-gidravlicheskaya-mashina-gidravlicheskiy-press"
+    },
+    {
+      "number": "12",
+      "section": "Вопросы к параграфам",
+      "condition": "§12. Атмосферное давление. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027373.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-12-atmosfernoe-davlenie"
+    },
+    {
+      "number": "13",
+      "section": "Вопросы к параграфам",
+      "condition": "§13. Действие жидкости и газа на погруженное в них тело. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027374.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-13-deystvie-zhidkosti-i-gaza-na-pogruzhennoe-v-nih-telo"
+    },
+    {
+      "number": "14",
+      "section": "Вопросы к параграфам",
+      "condition": "§14. Плавание судов. Воздухоплавание. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027375.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-14-plavanie-sudov-vozduhoplavanie"
+    },
+    {
+      "number": "15",
+      "section": "Вопросы к параграфам",
+      "condition": "§15. Строение твердых тел. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027376.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-15-stroenie-tverdyh-tel"
+    },
+    {
+      "number": "16",
+      "section": "Вопросы к параграфам",
+      "condition": "§16. Деформация твердых тел. Виды деформации. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027377.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-16-deformatsiya-tverdyh-tel-vidy-deformatsii"
+    },
+    {
+      "number": "17",
+      "section": "Вопросы к параграфам",
+      "condition": "§17. Свойства твердых тел. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027378.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-17-svoystva-tverdyh-tel"
+    },
+    {
+      "number": "2",
+      "section": "Вопросы к параграфам",
+      "condition": "§2. Сплошные ли тела. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027379.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-2-sploshnye-li-tela"
+    },
+    {
+      "number": "3",
+      "section": "Вопросы к параграфам",
+      "condition": "§3. Молекулы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027380.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-3-molekuly"
+    },
+    {
+      "number": "32",
+      "section": "Вопросы к параграфам",
+      "condition": "§32. Связь между параметрами состояния газа. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027381.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-32-svyaz-mezhdu-parametrami-sostoyaniya-gaza"
+    },
+    {
+      "number": "33",
+      "section": "Вопросы к параграфам",
+      "condition": "§33. Применение газов в технике. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027382.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-33-primenenie-gazov-v-tehnike"
+    },
+    {
+      "number": "34",
+      "section": "Вопросы к параграфам",
+      "condition": "§34. Тепловое расширение твердых тел и жидкостей. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027383.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-34-teplovoe-rasshirenie-tverdyh-tel-i-zhidkostey"
+    },
+    {
+      "number": "35",
+      "section": "Вопросы к параграфам",
+      "condition": "§35. Принципы работы тепловых двигателей. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027384.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-35-printsipy-raboty-teplovyh-dvigateley"
+    },
+    {
+      "number": "36",
+      "section": "Вопросы к параграфам",
+      "condition": "§36. Двигатель внутреннего сгорания. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027385.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-36-dvigatel-vnutrennego-sgoraniya"
+    },
+    {
+      "number": "37",
+      "section": "Вопросы к параграфам",
+      "condition": "§37. Паровая турбина. Тепловые двигатели и охрана окружающей среды. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027386.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-37-parovaya-turbina-teplovye-dvigateli-i-ohrana-okruzhayuschey-sredy"
+    },
+    {
+      "number": "38",
+      "section": "Вопросы к параграфам",
+      "condition": "§38. Электрический заряд. Электрическое взаимодействие. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027387.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-38-elektricheskiy-zaryad-elektricheskoe-vzaimodeystvie"
+    },
+    {
+      "number": "39",
+      "section": "Вопросы к параграфам",
+      "condition": "§39. Делимость электрического заряда. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027388.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-39-delimost-elektricheskogo-zaryada"
+    },
+    {
+      "number": "4",
+      "section": "Вопросы к параграфам",
+      "condition": "§4. Движение молекул. Диффузия. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027389.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-4-dvizhenie-molekul-diffuziya"
+    },
+    {
+      "number": "40",
+      "section": "Вопросы к параграфам",
+      "condition": "§40. Строение атома. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027390.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-40-stroenie-atoma"
+    },
+    {
+      "number": "41",
+      "section": "Вопросы к параграфам",
+      "condition": "§41. Электризация тел. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027391.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-41-elektrizatsiya-tel"
+    },
+    {
+      "number": "42",
+      "section": "Вопросы к параграфам",
+      "condition": "§42. Закон Кулона. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027392.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-42-zakon-kulona"
+    },
+    {
+      "number": "43",
+      "section": "Вопросы к параграфам",
+      "condition": "§43. Понятие об электрическом поле. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027393.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-43-ponyatie-ob-elektricheskom-pole"
+    },
+    {
+      "number": "44",
+      "section": "Вопросы к параграфам",
+      "condition": "§44. Линии напряженности электрического поля. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027394.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-44-linii-napryazhennosti-elektricheskogo-polya"
+    },
+    {
+      "number": "45",
+      "section": "Вопросы к параграфам",
+      "condition": "§45. Электризация через влияние. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027395.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-45-elektrizatsiya-cherez-vliyanie"
+    },
+    {
+      "number": "46",
+      "section": "Вопросы к параграфам",
+      "condition": "§46. Проводники и диэлектрики. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027396.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-46-provodniki-i-dielektriki"
+    },
+    {
+      "number": "47",
+      "section": "Вопросы к параграфам",
+      "condition": "§47. Проводники и диэлектрики в электрическом поле. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027397.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-47-provodniki-i-dielektriki-v-elektricheskom-pole"
+    },
+    {
+      "number": "48",
+      "section": "Вопросы к параграфам",
+      "condition": "§48. Электрический ток. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027398.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-48-elektricheskiy-tok"
+    },
+    {
+      "number": "49",
+      "section": "Вопросы к параграфам",
+      "condition": "§49. Источники тока. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027399.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-49-istochniki-toka"
+    },
+    {
+      "number": "5",
+      "section": "Вопросы к параграфам",
+      "condition": "§5. Взаимодействие молекул. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027400.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-5-vzaimodeystvie-molekul"
+    },
+    {
+      "number": "50",
+      "section": "Вопросы к параграфам",
+      "condition": "§50. Действия электрического тока. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027401.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-50-deystviya-elektricheskogo-toka"
+    },
+    {
+      "number": "51",
+      "section": "Вопросы к параграфам",
+      "condition": "§51. Электрическая цепь. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027402.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-51-elektricheskaya-tsep"
+    },
+    {
+      "number": "52",
+      "section": "Вопросы к параграфам",
+      "condition": "§52. Сила тока. Амперметр. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027403.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-52-sila-toka-ampermetr"
+    },
+    {
+      "number": "53",
+      "section": "Вопросы к параграфам",
+      "condition": "§53. Электрическое напряжение. Вольтметр. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027404.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-53-elektricheskoe-napryazhenie-voltmetr"
+    },
+    {
+      "number": "54",
+      "section": "Вопросы к параграфам",
+      "condition": "§54. Сопротивление проводника. Закон Ома для участка цепи. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027405.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-54-soprotivlenie-provodnika-zakon-oma-dlya-uchastka-tsepi"
+    },
+    {
+      "number": "55",
+      "section": "Вопросы к параграфам",
+      "condition": "§55. Расчет сопротивления проводника. Реостаты. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027406.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-55-raschet-soprotivleniya-provodnika-reostaty"
+    },
+    {
+      "number": "56",
+      "section": "Вопросы к параграфам",
+      "condition": "§56. Последовательное сопротивление проводников. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027407.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-56-posledovatelnoe-soprotivlenie-provodnikov"
+    },
+    {
+      "number": "57",
+      "section": "Вопросы к параграфам",
+      "condition": "§57. Параллельное соединение проводников. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027408.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-57-parallelnoe-soedinenie-provodnikov"
+    },
+    {
+      "number": "58",
+      "section": "Вопросы к параграфам",
+      "condition": "§58. Мощность электрического тока. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027409.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-58-moschnost-elektricheskogo-toka"
+    },
+    {
+      "number": "59",
+      "section": "Вопросы к параграфам",
+      "condition": "§59. Работа электрического тока. Закон Джоуля-Ленца. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027410.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-59-rabota-elektricheskogo-toka-zakon-dzhoulya-lentsa"
+    },
+    {
+      "number": "6",
+      "section": "Вопросы к параграфам",
+      "condition": "§6. Смачивание. Капиллярные явления. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027411.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-6-smachivanie-kapillyarnye-yavleniya"
+    },
+    {
+      "number": "7",
+      "section": "Вопросы к параграфам",
+      "condition": "§7. Строение газов, жидкостей и твердых тел. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027412.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-7-stroenie-gazov-zhidkostey-i-tverdyh-tel"
+    },
+    {
+      "number": "8",
+      "section": "Вопросы к параграфам",
+      "condition": "§8. Давление жидкостей и газов. Закон Паскаля. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027413.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-8-davlenie-zhidkostey-i-gazov-zakon-paskalya"
+    },
+    {
+      "number": "9",
+      "section": "Вопросы к параграфам",
+      "condition": "§9. Давление в жидкости и газе. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027414.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/voprosy-k-paragrafam-zadanie-9-davlenie-v-zhidkosti-i-gaze"
+    },
+    {
+      "number": "1-2",
+      "section": "Задание 1",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027415.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-1"
+    },
+    {
+      "number": "10-2",
+      "section": "Задание 10",
+      "condition": "Задание 10. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027416.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-10"
+    },
+    {
+      "number": "11-2",
+      "section": "Задание 11",
+      "condition": "Задание 11. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027417.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-11"
+    },
+    {
+      "number": "12-2",
+      "section": "Задание 12",
+      "condition": "Задание 12. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027418.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-12"
+    },
+    {
+      "number": "13-2",
+      "section": "Задание 13",
+      "condition": "Задание 13. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027419.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-13"
+    },
+    {
+      "number": "14-2",
+      "section": "Задание 14",
+      "condition": "Задание 14. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027420.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-14"
+    },
+    {
+      "number": "15-2",
+      "section": "Задание 15",
+      "condition": "Задание 15. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027421.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-15"
+    },
+    {
+      "number": "16-2",
+      "section": "Задание 16",
+      "condition": "Задание 16. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027422.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-16"
+    },
+    {
+      "number": "2-2",
+      "section": "Задание 2",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027423.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-2"
+    },
+    {
+      "number": "3-2",
+      "section": "Задание 3",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027424.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-3"
+    },
+    {
+      "number": "31",
+      "section": "Задание 31",
+      "condition": "Задание 31. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027425.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-31"
+    },
+    {
+      "number": "32-2",
+      "section": "Задание 32",
+      "condition": "Задание 32. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027426.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-32"
+    },
+    {
+      "number": "33-2",
+      "section": "Задание 33",
+      "condition": "Задание 33. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027427.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-33"
+    },
+    {
+      "number": "34-2",
+      "section": "Задание 34",
+      "condition": "Задание 34. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027428.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-34"
+    },
+    {
+      "number": "35-2",
+      "section": "Задание 35",
+      "condition": "Задание 35. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027429.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-35"
+    },
+    {
+      "number": "36-2",
+      "section": "Задание 36",
+      "condition": "Задание 36. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027430.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-36"
+    },
+    {
+      "number": "37-2",
+      "section": "Задание 37",
+      "condition": "Задание 37. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027431.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-37"
+    },
+    {
+      "number": "38-2",
+      "section": "Задание 38",
+      "condition": "Задание 38. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027432.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-38"
+    },
+    {
+      "number": "39-2",
+      "section": "Задание 39",
+      "condition": "Задание 39. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027433.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-39"
+    },
+    {
+      "number": "4-2",
+      "section": "Задание 4",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027434.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-4"
+    },
+    {
+      "number": "40-2",
+      "section": "Задание 40",
+      "condition": "Задание 40. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027435.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-40"
+    },
+    {
+      "number": "41-2",
+      "section": "Задание 41",
+      "condition": "Задание 41. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027436.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-41"
+    },
+    {
+      "number": "42-2",
+      "section": "Задание 42",
+      "condition": "Задание 42. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027437.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-42"
+    },
+    {
+      "number": "43-2",
+      "section": "Задание 43",
+      "condition": "Задание 43. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027438.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-43"
+    },
+    {
+      "number": "44-2",
+      "section": "Задание 44",
+      "condition": "Задание 44. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027439.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-44"
+    },
+    {
+      "number": "45-2",
+      "section": "Задание 45",
+      "condition": "Задание 45. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027440.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-45"
+    },
+    {
+      "number": "46-2",
+      "section": "Задание 46",
+      "condition": "Задание 46. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027441.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-46"
+    },
+    {
+      "number": "47-2",
+      "section": "Задание 47",
+      "condition": "Задание 47. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027442.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-47"
+    },
+    {
+      "number": "48-2",
+      "section": "Задание 48",
+      "condition": "Задание 48. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027443.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-48"
+    },
+    {
+      "number": "49-2",
+      "section": "Задание 49",
+      "condition": "Задание 49. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027444.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-49"
+    },
+    {
+      "number": "5-2",
+      "section": "Задание 5",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027445.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-5"
+    },
+    {
+      "number": "50-2",
+      "section": "Задание 50",
+      "condition": "Задание 50. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027446.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-50"
+    },
+    {
+      "number": "51-2",
+      "section": "Задание 51",
+      "condition": "Задание 51. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027447.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-51"
+    },
+    {
+      "number": "52-2",
+      "section": "Задание 52",
+      "condition": "Задание 52. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027448.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-52"
+    },
+    {
+      "number": "53-2",
+      "section": "Задание 53",
+      "condition": "Задание 53. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027449.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-53"
+    },
+    {
+      "number": "54-2",
+      "section": "Задание 54",
+      "condition": "Задание 54. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027450.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-54"
+    },
+    {
+      "number": "55-2",
+      "section": "Задание 55",
+      "condition": "Задание 55. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027451.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-55"
+    },
+    {
+      "number": "56-2",
+      "section": "Задание 56",
+      "condition": "Задание 56. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027452.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-56"
+    },
+    {
+      "number": "6-2",
+      "section": "Задание 6",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027453.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-6"
+    },
+    {
+      "number": "7-2",
+      "section": "Задание 7",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027454.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-7"
+    },
+    {
+      "number": "8-2",
+      "section": "Задание 8",
+      "condition": "Задание 8. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027455.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-8"
+    },
+    {
+      "number": "9-2",
+      "section": "Задание 9",
+      "condition": "Задание 9. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5598/2027456.png?v=1599031740"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/reshebnik-po-fizike-8-klass-purysheva-vazheevskaya-828/zadaniya-zadanie-zadanie-9"
+    }
+  ]
+}

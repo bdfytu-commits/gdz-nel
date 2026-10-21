@@ -1,0 +1,4527 @@
+{
+  "subject": "russian",
+  "textbook": "razumovskaya-9",
+  "author": "Разумовская, Львова",
+  "year": "2024",
+  "source": "parsed",
+  "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1",
+  "parsedAt": "2026-10-21T15:22:12Z",
+  "tasks": [
+    {
+      "number": "1.1",
+      "section": "Задания",
+      "condition": "1. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628007.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628367.png?v=1671624577"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-1"
+    },
+    {
+      "number": "2.1",
+      "section": "Задания",
+      "condition": "2. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628118.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628470.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-2"
+    },
+    {
+      "number": "3.1",
+      "section": "Задания",
+      "condition": "3. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628229.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628572.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-3"
+    },
+    {
+      "number": "4.1",
+      "section": "Задания",
+      "condition": "4. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628292.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628614.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-4"
+    },
+    {
+      "number": "5.1",
+      "section": "Задания",
+      "condition": "5. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628303.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628623.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-5"
+    },
+    {
+      "number": "6.1",
+      "section": "Задания",
+      "condition": "6. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628314.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628633.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-6"
+    },
+    {
+      "number": "7.1",
+      "section": "Задания",
+      "condition": "7. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628325.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628643.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-7"
+    },
+    {
+      "number": "8.1",
+      "section": "Задания",
+      "condition": "8. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628336.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628652.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-8"
+    },
+    {
+      "number": "9.1",
+      "section": "Задания",
+      "condition": "9. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628347.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628662.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-9"
+    },
+    {
+      "number": "10.1",
+      "section": "Задания",
+      "condition": "10. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628008.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628368.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-10"
+    },
+    {
+      "number": "11",
+      "section": "Задания",
+      "condition": "11. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628019.png?v=1671624606"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-11"
+    },
+    {
+      "number": "12.1",
+      "section": "Задания",
+      "condition": "12. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628030.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628389.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-12"
+    },
+    {
+      "number": "13.1",
+      "section": "Задания",
+      "condition": "13. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628041.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628400.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-13"
+    },
+    {
+      "number": "14.1",
+      "section": "Задания",
+      "condition": "14. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628052.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628410.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-14"
+    },
+    {
+      "number": "15.1",
+      "section": "Задания",
+      "condition": "15. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628063.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628419.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-15"
+    },
+    {
+      "number": "16.1",
+      "section": "Задания",
+      "condition": "16. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628074.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628429.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-16"
+    },
+    {
+      "number": "17.1",
+      "section": "Задания",
+      "condition": "17. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628085.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628440.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-17"
+    },
+    {
+      "number": "18.1",
+      "section": "Задания",
+      "condition": "18. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628096.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628451.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-18"
+    },
+    {
+      "number": "19.1",
+      "section": "Задания",
+      "condition": "19. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628107.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628460.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-19"
+    },
+    {
+      "number": "20.1",
+      "section": "Задания",
+      "condition": "20. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628119.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628471.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-20"
+    },
+    {
+      "number": "21.1",
+      "section": "Задания",
+      "condition": "21. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628130.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628482.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-21"
+    },
+    {
+      "number": "22.1",
+      "section": "Задания",
+      "condition": "22. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628141.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628491.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-22"
+    },
+    {
+      "number": "23.1",
+      "section": "Задания",
+      "condition": "23. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628152.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628501.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-23"
+    },
+    {
+      "number": "24.1",
+      "section": "Задания",
+      "condition": "24. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628163.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628512.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-24"
+    },
+    {
+      "number": "25.1",
+      "section": "Задания",
+      "condition": "25. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628174.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628522.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-25"
+    },
+    {
+      "number": "26.1",
+      "section": "Задания",
+      "condition": "26. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628185.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628532.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-26"
+    },
+    {
+      "number": "27.1",
+      "section": "Задания",
+      "condition": "27. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628196.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628542.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-27"
+    },
+    {
+      "number": "28.1",
+      "section": "Задания",
+      "condition": "28. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628207.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628553.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-28"
+    },
+    {
+      "number": "29.1",
+      "section": "Задания",
+      "condition": "29. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628218.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628563.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-29"
+    },
+    {
+      "number": "30.1",
+      "section": "Задания",
+      "condition": "30. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628230.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628573.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-30"
+    },
+    {
+      "number": "31.1",
+      "section": "Задания",
+      "condition": "31. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628241.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628584.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-31"
+    },
+    {
+      "number": "32.1",
+      "section": "Задания",
+      "condition": "32. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628252.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628594.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-32"
+    },
+    {
+      "number": "33.1",
+      "section": "Задания",
+      "condition": "33. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628263.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628605.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-33"
+    },
+    {
+      "number": "34.1",
+      "section": "Задания",
+      "condition": "34. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628274.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628608.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-34"
+    },
+    {
+      "number": "35.1",
+      "section": "Задания",
+      "condition": "35. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628285.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628609.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-35"
+    },
+    {
+      "number": "36.1",
+      "section": "Задания",
+      "condition": "36. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628288.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628610.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-36"
+    },
+    {
+      "number": "37.1",
+      "section": "Задания",
+      "condition": "37. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628289.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628611.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-37"
+    },
+    {
+      "number": "38.1",
+      "section": "Задания",
+      "condition": "38. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628290.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628612.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-38"
+    },
+    {
+      "number": "39.1",
+      "section": "Задания",
+      "condition": "39. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628291.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628613.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-39"
+    },
+    {
+      "number": "40.1",
+      "section": "Задания",
+      "condition": "40. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628293.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628615.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-40"
+    },
+    {
+      "number": "41.1",
+      "section": "Задания",
+      "condition": "41. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628294.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628616.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-41"
+    },
+    {
+      "number": "42.1",
+      "section": "Задания",
+      "condition": "42. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628295.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628617.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-42"
+    },
+    {
+      "number": "43.1",
+      "section": "Задания",
+      "condition": "43. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628296.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628618.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-43"
+    },
+    {
+      "number": "44.1",
+      "section": "Задания",
+      "condition": "44. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628297.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628619.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-44"
+    },
+    {
+      "number": "45.1",
+      "section": "Задания",
+      "condition": "45. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628298.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628620.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-45"
+    },
+    {
+      "number": "46",
+      "section": "Задания",
+      "condition": "46. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628299.png?v=1671624606"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-46"
+    },
+    {
+      "number": "47.1",
+      "section": "Задания",
+      "condition": "47. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628300.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628621.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-47"
+    },
+    {
+      "number": "48",
+      "section": "Задания",
+      "condition": "48. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628301.png?v=1671624606"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-48"
+    },
+    {
+      "number": "49.1",
+      "section": "Задания",
+      "condition": "49. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628302.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628622.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-49"
+    },
+    {
+      "number": "50.1",
+      "section": "Задания",
+      "condition": "50. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628304.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628624.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-50"
+    },
+    {
+      "number": "51.1",
+      "section": "Задания",
+      "condition": "51. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628305.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628625.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-51"
+    },
+    {
+      "number": "52.1",
+      "section": "Задания",
+      "condition": "52. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628306.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628626.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-52"
+    },
+    {
+      "number": "53.1",
+      "section": "Задания",
+      "condition": "53. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628307.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628627.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-53"
+    },
+    {
+      "number": "54.1",
+      "section": "Задания",
+      "condition": "54. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628308.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628628.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-54"
+    },
+    {
+      "number": "55.1",
+      "section": "Задания",
+      "condition": "55. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628309.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628629.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-55"
+    },
+    {
+      "number": "56.1",
+      "section": "Задания",
+      "condition": "56. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628310.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628630.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-56"
+    },
+    {
+      "number": "57.1",
+      "section": "Задания",
+      "condition": "57. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628311.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628631.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-57"
+    },
+    {
+      "number": "58",
+      "section": "Задания",
+      "condition": "58. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628312.png?v=1671624606"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-58"
+    },
+    {
+      "number": "59.1",
+      "section": "Задания",
+      "condition": "59. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628313.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628632.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-59"
+    },
+    {
+      "number": "60.1",
+      "section": "Задания",
+      "condition": "60. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628315.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628634.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-60"
+    },
+    {
+      "number": "61.1",
+      "section": "Задания",
+      "condition": "61. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628316.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628635.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-61"
+    },
+    {
+      "number": "62.1",
+      "section": "Задания",
+      "condition": "62. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628317.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628636.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-62"
+    },
+    {
+      "number": "63.1",
+      "section": "Задания",
+      "condition": "63. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628318.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628637.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-63"
+    },
+    {
+      "number": "64.1",
+      "section": "Задания",
+      "condition": "64. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628319.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628638.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-64"
+    },
+    {
+      "number": "65.1",
+      "section": "Задания",
+      "condition": "65. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628320.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628639.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-65"
+    },
+    {
+      "number": "66.1",
+      "section": "Задания",
+      "condition": "66. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628321.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628640.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-66"
+    },
+    {
+      "number": "67.1",
+      "section": "Задания",
+      "condition": "67. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628322.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628641.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-67"
+    },
+    {
+      "number": "68",
+      "section": "Задания",
+      "condition": "68. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628323.png?v=1671624606"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-68"
+    },
+    {
+      "number": "69.1",
+      "section": "Задания",
+      "condition": "69. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628324.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628642.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-69"
+    },
+    {
+      "number": "70.1",
+      "section": "Задания",
+      "condition": "70. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628326.png?v=1671624606",
+        "https://imgs.euroki.org/books/gdzs/3592/2628644.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-70"
+    },
+    {
+      "number": "71",
+      "section": "Задания",
+      "condition": "71. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628327.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-71"
+    },
+    {
+      "number": "72.1",
+      "section": "Задания",
+      "condition": "72. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628328.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628645.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-72"
+    },
+    {
+      "number": "73.1",
+      "section": "Задания",
+      "condition": "73. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628329.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628646.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-73"
+    },
+    {
+      "number": "74.1",
+      "section": "Задания",
+      "condition": "74. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628330.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628647.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-74"
+    },
+    {
+      "number": "75.1",
+      "section": "Задания",
+      "condition": "75. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628331.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628648.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-75"
+    },
+    {
+      "number": "76.1",
+      "section": "Задания",
+      "condition": "76. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628332.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628649.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-76"
+    },
+    {
+      "number": "77.1",
+      "section": "Задания",
+      "condition": "77. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628333.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628650.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-77"
+    },
+    {
+      "number": "78.1",
+      "section": "Задания",
+      "condition": "78. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628334.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628651.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-78"
+    },
+    {
+      "number": "79",
+      "section": "Задания",
+      "condition": "79. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628335.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-79"
+    },
+    {
+      "number": "80",
+      "section": "Задания",
+      "condition": "80. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628337.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-80"
+    },
+    {
+      "number": "81.1",
+      "section": "Задания",
+      "condition": "81. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628338.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628653.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-81"
+    },
+    {
+      "number": "82.1",
+      "section": "Задания",
+      "condition": "82. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628339.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628654.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-82"
+    },
+    {
+      "number": "83.1",
+      "section": "Задания",
+      "condition": "83. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628340.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628655.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-83"
+    },
+    {
+      "number": "84.1",
+      "section": "Задания",
+      "condition": "84. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628341.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628656.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-84"
+    },
+    {
+      "number": "85.1",
+      "section": "Задания",
+      "condition": "85. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628342.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628657.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-85"
+    },
+    {
+      "number": "86.1",
+      "section": "Задания",
+      "condition": "86. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628343.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628658.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-86"
+    },
+    {
+      "number": "87.1",
+      "section": "Задания",
+      "condition": "87. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628344.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628659.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-87"
+    },
+    {
+      "number": "88.1",
+      "section": "Задания",
+      "condition": "88. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628345.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628660.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-88"
+    },
+    {
+      "number": "89.1",
+      "section": "Задания",
+      "condition": "89. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628346.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628661.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-89"
+    },
+    {
+      "number": "90.1",
+      "section": "Задания",
+      "condition": "90. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628348.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628663.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-90"
+    },
+    {
+      "number": "91.1",
+      "section": "Задания",
+      "condition": "91. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628349.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628664.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-91"
+    },
+    {
+      "number": "92.1",
+      "section": "Задания",
+      "condition": "92. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628350.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628665.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-92"
+    },
+    {
+      "number": "93.1",
+      "section": "Задания",
+      "condition": "93. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628351.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628666.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-93"
+    },
+    {
+      "number": "94",
+      "section": "Задания",
+      "condition": "94. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628352.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-94"
+    },
+    {
+      "number": "95.1",
+      "section": "Задания",
+      "condition": "95. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628353.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628667.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-95"
+    },
+    {
+      "number": "96.1",
+      "section": "Задания",
+      "condition": "96. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628354.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628668.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-96"
+    },
+    {
+      "number": "97.1",
+      "section": "Задания",
+      "condition": "97. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628355.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628669.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-97"
+    },
+    {
+      "number": "98",
+      "section": "Задания",
+      "condition": "98. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628356.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-98"
+    },
+    {
+      "number": "99.1",
+      "section": "Задания",
+      "condition": "99. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628357.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628670.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-99"
+    },
+    {
+      "number": "100.1",
+      "section": "Задания",
+      "condition": "100. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628009.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628369.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-100"
+    },
+    {
+      "number": "101.1",
+      "section": "Задания",
+      "condition": "101. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628010.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628370.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-101"
+    },
+    {
+      "number": "102.1",
+      "section": "Задания",
+      "condition": "102. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628011.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628371.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-102"
+    },
+    {
+      "number": "103.1",
+      "section": "Задания",
+      "condition": "103. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628012.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628372.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-103"
+    },
+    {
+      "number": "104.1",
+      "section": "Задания",
+      "condition": "104. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628013.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628373.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-104"
+    },
+    {
+      "number": "105.1",
+      "section": "Задания",
+      "condition": "105. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628014.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628374.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-105"
+    },
+    {
+      "number": "106.1",
+      "section": "Задания",
+      "condition": "106. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628015.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628375.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-106"
+    },
+    {
+      "number": "107.1",
+      "section": "Задания",
+      "condition": "107. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628016.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628376.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-107"
+    },
+    {
+      "number": "108.1",
+      "section": "Задания",
+      "condition": "108. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628017.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628377.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-108"
+    },
+    {
+      "number": "109.1",
+      "section": "Задания",
+      "condition": "109. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628018.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628378.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-109"
+    },
+    {
+      "number": "110.1",
+      "section": "Задания",
+      "condition": "110. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628020.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628379.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-110"
+    },
+    {
+      "number": "111.1",
+      "section": "Задания",
+      "condition": "111. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628021.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628380.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-111"
+    },
+    {
+      "number": "112.1",
+      "section": "Задания",
+      "condition": "112. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628022.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628381.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-112"
+    },
+    {
+      "number": "113.1",
+      "section": "Задания",
+      "condition": "113. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628023.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628382.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-113"
+    },
+    {
+      "number": "114.1",
+      "section": "Задания",
+      "condition": "114. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628024.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628383.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-114"
+    },
+    {
+      "number": "115.1",
+      "section": "Задания",
+      "condition": "115. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628025.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628384.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-115"
+    },
+    {
+      "number": "116.1",
+      "section": "Задания",
+      "condition": "116. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628026.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628385.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-116"
+    },
+    {
+      "number": "117.1",
+      "section": "Задания",
+      "condition": "117. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628027.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628386.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-117"
+    },
+    {
+      "number": "118.1",
+      "section": "Задания",
+      "condition": "118. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628028.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628387.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-118"
+    },
+    {
+      "number": "119.1",
+      "section": "Задания",
+      "condition": "119. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628029.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628388.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-119"
+    },
+    {
+      "number": "120.1",
+      "section": "Задания",
+      "condition": "120. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628031.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628390.png?v=1671624580"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-120"
+    },
+    {
+      "number": "121.1",
+      "section": "Задания",
+      "condition": "121. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628032.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628391.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-121"
+    },
+    {
+      "number": "122.1",
+      "section": "Задания",
+      "condition": "122. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628033.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628392.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-122"
+    },
+    {
+      "number": "123.1",
+      "section": "Задания",
+      "condition": "123. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628034.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628393.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-123"
+    },
+    {
+      "number": "124.1",
+      "section": "Задания",
+      "condition": "124. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628035.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628394.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-124"
+    },
+    {
+      "number": "125.1",
+      "section": "Задания",
+      "condition": "125. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628036.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628395.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-125"
+    },
+    {
+      "number": "126.1",
+      "section": "Задания",
+      "condition": "126. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628037.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628396.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-126"
+    },
+    {
+      "number": "127.1",
+      "section": "Задания",
+      "condition": "127. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628038.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628397.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-127"
+    },
+    {
+      "number": "128.1",
+      "section": "Задания",
+      "condition": "128. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628039.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628398.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-128"
+    },
+    {
+      "number": "129.1",
+      "section": "Задания",
+      "condition": "129. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628040.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628399.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-129"
+    },
+    {
+      "number": "130.1",
+      "section": "Задания",
+      "condition": "130. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628042.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628401.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-130"
+    },
+    {
+      "number": "131.1",
+      "section": "Задания",
+      "condition": "131. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628043.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628402.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-131"
+    },
+    {
+      "number": "132.1",
+      "section": "Задания",
+      "condition": "132. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628044.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628403.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-132"
+    },
+    {
+      "number": "133.1",
+      "section": "Задания",
+      "condition": "133. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628045.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628404.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-133"
+    },
+    {
+      "number": "134.1",
+      "section": "Задания",
+      "condition": "134. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628046.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628405.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-134"
+    },
+    {
+      "number": "135.1",
+      "section": "Задания",
+      "condition": "135. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628047.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628406.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-135"
+    },
+    {
+      "number": "136.1",
+      "section": "Задания",
+      "condition": "136. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628048.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628407.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-136"
+    },
+    {
+      "number": "137",
+      "section": "Задания",
+      "condition": "137. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628049.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-137"
+    },
+    {
+      "number": "138.1",
+      "section": "Задания",
+      "condition": "138. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628050.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628408.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-138"
+    },
+    {
+      "number": "139.1",
+      "section": "Задания",
+      "condition": "139. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628051.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628409.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-139"
+    },
+    {
+      "number": "140.1",
+      "section": "Задания",
+      "condition": "140. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628053.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628411.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-140"
+    },
+    {
+      "number": "141.1",
+      "section": "Задания",
+      "condition": "141. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628054.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628412.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-141"
+    },
+    {
+      "number": "142",
+      "section": "Задания",
+      "condition": "142. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628055.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-142"
+    },
+    {
+      "number": "143.1",
+      "section": "Задания",
+      "condition": "143. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628056.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628413.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-143"
+    },
+    {
+      "number": "144.1",
+      "section": "Задания",
+      "condition": "144. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628057.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628414.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-144"
+    },
+    {
+      "number": "145.1",
+      "section": "Задания",
+      "condition": "145. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628058.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628415.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-145"
+    },
+    {
+      "number": "146.1",
+      "section": "Задания",
+      "condition": "146. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628059.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628416.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-146"
+    },
+    {
+      "number": "147.1",
+      "section": "Задания",
+      "condition": "147. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628060.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628417.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-147"
+    },
+    {
+      "number": "148.1",
+      "section": "Задания",
+      "condition": "148. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628061.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628418.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-148"
+    },
+    {
+      "number": "149",
+      "section": "Задания",
+      "condition": "149. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628062.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-149"
+    },
+    {
+      "number": "150.1",
+      "section": "Задания",
+      "condition": "150. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628064.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628420.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-150"
+    },
+    {
+      "number": "151.1",
+      "section": "Задания",
+      "condition": "151. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628065.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628421.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-151"
+    },
+    {
+      "number": "152",
+      "section": "Задания",
+      "condition": "152. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628066.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-152"
+    },
+    {
+      "number": "153.1",
+      "section": "Задания",
+      "condition": "153. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628067.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628422.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-153"
+    },
+    {
+      "number": "154.1",
+      "section": "Задания",
+      "condition": "154. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628068.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628423.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-154"
+    },
+    {
+      "number": "155.1",
+      "section": "Задания",
+      "condition": "155. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628069.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628424.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-155"
+    },
+    {
+      "number": "156.1",
+      "section": "Задания",
+      "condition": "156. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628070.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628425.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-156"
+    },
+    {
+      "number": "157.1",
+      "section": "Задания",
+      "condition": "157. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628071.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628426.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-157"
+    },
+    {
+      "number": "158.1",
+      "section": "Задания",
+      "condition": "158. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628072.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628427.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-158"
+    },
+    {
+      "number": "159.1",
+      "section": "Задания",
+      "condition": "159. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628073.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628428.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-159"
+    },
+    {
+      "number": "160.1",
+      "section": "Задания",
+      "condition": "160. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628075.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628430.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-160"
+    },
+    {
+      "number": "161.1",
+      "section": "Задания",
+      "condition": "161. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628076.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628431.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-161"
+    },
+    {
+      "number": "162.1",
+      "section": "Задания",
+      "condition": "162. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628077.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628432.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-162"
+    },
+    {
+      "number": "163.1",
+      "section": "Задания",
+      "condition": "163. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628078.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628433.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-163"
+    },
+    {
+      "number": "164.1",
+      "section": "Задания",
+      "condition": "164. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628079.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628434.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-164"
+    },
+    {
+      "number": "165.1",
+      "section": "Задания",
+      "condition": "165. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628080.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628435.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-165"
+    },
+    {
+      "number": "166.1",
+      "section": "Задания",
+      "condition": "166. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628081.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628436.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-166"
+    },
+    {
+      "number": "167.1",
+      "section": "Задания",
+      "condition": "167. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628082.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628437.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-167"
+    },
+    {
+      "number": "168.1",
+      "section": "Задания",
+      "condition": "168. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628083.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628438.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-168"
+    },
+    {
+      "number": "169.1",
+      "section": "Задания",
+      "condition": "169. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628084.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628439.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-169"
+    },
+    {
+      "number": "170.1",
+      "section": "Задания",
+      "condition": "170. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628086.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628441.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-170"
+    },
+    {
+      "number": "171.1",
+      "section": "Задания",
+      "condition": "171. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628087.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628442.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-171"
+    },
+    {
+      "number": "172.1",
+      "section": "Задания",
+      "condition": "172. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628088.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628443.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-172"
+    },
+    {
+      "number": "173.1",
+      "section": "Задания",
+      "condition": "173. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628089.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628444.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-173"
+    },
+    {
+      "number": "174.1",
+      "section": "Задания",
+      "condition": "174. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628090.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628445.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-174"
+    },
+    {
+      "number": "175.1",
+      "section": "Задания",
+      "condition": "175. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628091.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628446.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-175"
+    },
+    {
+      "number": "176.1",
+      "section": "Задания",
+      "condition": "176. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628092.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628447.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-176"
+    },
+    {
+      "number": "177.1",
+      "section": "Задания",
+      "condition": "177. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628093.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628448.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-177"
+    },
+    {
+      "number": "178.1",
+      "section": "Задания",
+      "condition": "178. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628094.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628449.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-178"
+    },
+    {
+      "number": "179.1",
+      "section": "Задания",
+      "condition": "179. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628095.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628450.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-179"
+    },
+    {
+      "number": "180.1",
+      "section": "Задания",
+      "condition": "180. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628097.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628452.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-180"
+    },
+    {
+      "number": "181.1",
+      "section": "Задания",
+      "condition": "181. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628098.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628453.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-181"
+    },
+    {
+      "number": "182.1",
+      "section": "Задания",
+      "condition": "182. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628099.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628454.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-182"
+    },
+    {
+      "number": "183.1",
+      "section": "Задания",
+      "condition": "183. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628100.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628455.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-183"
+    },
+    {
+      "number": "184.1",
+      "section": "Задания",
+      "condition": "184. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628101.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628456.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-184"
+    },
+    {
+      "number": "185",
+      "section": "Задания",
+      "condition": "185. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628102.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-185"
+    },
+    {
+      "number": "186",
+      "section": "Задания",
+      "condition": "186. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628103.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-186"
+    },
+    {
+      "number": "187.1",
+      "section": "Задания",
+      "condition": "187. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628104.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628457.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-187"
+    },
+    {
+      "number": "188.1",
+      "section": "Задания",
+      "condition": "188. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628105.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628458.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-188"
+    },
+    {
+      "number": "189.1",
+      "section": "Задания",
+      "condition": "189. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628106.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628459.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-189"
+    },
+    {
+      "number": "190.1",
+      "section": "Задания",
+      "condition": "190. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628108.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628461.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-190"
+    },
+    {
+      "number": "191.1",
+      "section": "Задания",
+      "condition": "191. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628109.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628462.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-191"
+    },
+    {
+      "number": "192.1",
+      "section": "Задания",
+      "condition": "192. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628110.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628463.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-192"
+    },
+    {
+      "number": "193.1",
+      "section": "Задания",
+      "condition": "193. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628111.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628464.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-193"
+    },
+    {
+      "number": "194.1",
+      "section": "Задания",
+      "condition": "194. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628112.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628465.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-194"
+    },
+    {
+      "number": "195.1",
+      "section": "Задания",
+      "condition": "195. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628113.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628466.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-195"
+    },
+    {
+      "number": "196",
+      "section": "Задания",
+      "condition": "196. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628114.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-196"
+    },
+    {
+      "number": "197.1",
+      "section": "Задания",
+      "condition": "197. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628115.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628467.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-197"
+    },
+    {
+      "number": "198.1",
+      "section": "Задания",
+      "condition": "198. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628116.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628468.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-198"
+    },
+    {
+      "number": "199.1",
+      "section": "Задания",
+      "condition": "199. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628117.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628469.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-199"
+    },
+    {
+      "number": "200.1",
+      "section": "Задания",
+      "condition": "200. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628120.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628472.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-200"
+    },
+    {
+      "number": "201.1",
+      "section": "Задания",
+      "condition": "201. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628121.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628473.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-201"
+    },
+    {
+      "number": "202.1",
+      "section": "Задания",
+      "condition": "202. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628122.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628474.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-202"
+    },
+    {
+      "number": "203.1",
+      "section": "Задания",
+      "condition": "203. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628123.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628475.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-203"
+    },
+    {
+      "number": "204.1",
+      "section": "Задания",
+      "condition": "204. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628124.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628476.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-204"
+    },
+    {
+      "number": "205.1",
+      "section": "Задания",
+      "condition": "205. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628125.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628477.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-205"
+    },
+    {
+      "number": "206.1",
+      "section": "Задания",
+      "condition": "206. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628126.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628478.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-206"
+    },
+    {
+      "number": "207.1",
+      "section": "Задания",
+      "condition": "207. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628127.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628479.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-207"
+    },
+    {
+      "number": "208.1",
+      "section": "Задания",
+      "condition": "208. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628128.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628480.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-208"
+    },
+    {
+      "number": "209.1",
+      "section": "Задания",
+      "condition": "209. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628129.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628481.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-209"
+    },
+    {
+      "number": "210",
+      "section": "Задания",
+      "condition": "210. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628131.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-210"
+    },
+    {
+      "number": "211.1",
+      "section": "Задания",
+      "condition": "211. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628132.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628483.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-211"
+    },
+    {
+      "number": "212.1",
+      "section": "Задания",
+      "condition": "212. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628133.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628484.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-212"
+    },
+    {
+      "number": "213",
+      "section": "Задания",
+      "condition": "213. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628134.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-213"
+    },
+    {
+      "number": "214.1",
+      "section": "Задания",
+      "condition": "214. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628135.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628485.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-214"
+    },
+    {
+      "number": "215.1",
+      "section": "Задания",
+      "condition": "215. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628136.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628486.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-215"
+    },
+    {
+      "number": "216.1",
+      "section": "Задания",
+      "condition": "216. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628137.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628487.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-216"
+    },
+    {
+      "number": "217.1",
+      "section": "Задания",
+      "condition": "217. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628138.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628488.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-217"
+    },
+    {
+      "number": "218.1",
+      "section": "Задания",
+      "condition": "218. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628139.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628489.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-218"
+    },
+    {
+      "number": "219.1",
+      "section": "Задания",
+      "condition": "219. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628140.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628490.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-219"
+    },
+    {
+      "number": "220.1",
+      "section": "Задания",
+      "condition": "220. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628142.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628492.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-220"
+    },
+    {
+      "number": "221.1",
+      "section": "Задания",
+      "condition": "221. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628143.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628493.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-221"
+    },
+    {
+      "number": "222",
+      "section": "Задания",
+      "condition": "222. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628144.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-222"
+    },
+    {
+      "number": "223.1",
+      "section": "Задания",
+      "condition": "223. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628145.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628494.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-223"
+    },
+    {
+      "number": "224.1",
+      "section": "Задания",
+      "condition": "224. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628146.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628495.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-224"
+    },
+    {
+      "number": "225.1",
+      "section": "Задания",
+      "condition": "225. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628147.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628496.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-225"
+    },
+    {
+      "number": "226.1",
+      "section": "Задания",
+      "condition": "226. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628148.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628497.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-226"
+    },
+    {
+      "number": "227.1",
+      "section": "Задания",
+      "condition": "227. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628149.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628498.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-227"
+    },
+    {
+      "number": "228.1",
+      "section": "Задания",
+      "condition": "228. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628150.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628499.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-228"
+    },
+    {
+      "number": "229.1",
+      "section": "Задания",
+      "condition": "229. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628151.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628500.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-229"
+    },
+    {
+      "number": "230.1",
+      "section": "Задания",
+      "condition": "230. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628153.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628502.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-230"
+    },
+    {
+      "number": "231.1",
+      "section": "Задания",
+      "condition": "231. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628154.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628503.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-231"
+    },
+    {
+      "number": "232.1",
+      "section": "Задания",
+      "condition": "232. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628155.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628504.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-232"
+    },
+    {
+      "number": "233.1",
+      "section": "Задания",
+      "condition": "233. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628156.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628505.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-233"
+    },
+    {
+      "number": "234.1",
+      "section": "Задания",
+      "condition": "234. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628157.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628506.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-234"
+    },
+    {
+      "number": "235.1",
+      "section": "Задания",
+      "condition": "235. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628158.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628507.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-235"
+    },
+    {
+      "number": "236.1",
+      "section": "Задания",
+      "condition": "236. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628159.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628508.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-236"
+    },
+    {
+      "number": "237.1",
+      "section": "Задания",
+      "condition": "237. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628160.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628509.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-237"
+    },
+    {
+      "number": "238.1",
+      "section": "Задания",
+      "condition": "238. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628161.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628510.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-238"
+    },
+    {
+      "number": "239.1",
+      "section": "Задания",
+      "condition": "239. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628162.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628511.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-239"
+    },
+    {
+      "number": "240.1",
+      "section": "Задания",
+      "condition": "240. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628164.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628513.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-240"
+    },
+    {
+      "number": "241.1",
+      "section": "Задания",
+      "condition": "241. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628165.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628514.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-241"
+    },
+    {
+      "number": "242.1",
+      "section": "Задания",
+      "condition": "242. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628166.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628515.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-242"
+    },
+    {
+      "number": "243.1",
+      "section": "Задания",
+      "condition": "243. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628167.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628516.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-243"
+    },
+    {
+      "number": "244.1",
+      "section": "Задания",
+      "condition": "244. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628168.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628517.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-244"
+    },
+    {
+      "number": "245.1",
+      "section": "Задания",
+      "condition": "245. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628169.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628518.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-245"
+    },
+    {
+      "number": "246.1",
+      "section": "Задания",
+      "condition": "246. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628170.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628519.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-246"
+    },
+    {
+      "number": "247.1",
+      "section": "Задания",
+      "condition": "247. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628171.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628520.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-247"
+    },
+    {
+      "number": "248",
+      "section": "Задания",
+      "condition": "248. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628172.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-248"
+    },
+    {
+      "number": "249.1",
+      "section": "Задания",
+      "condition": "249. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628173.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628521.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-249"
+    },
+    {
+      "number": "250.1",
+      "section": "Задания",
+      "condition": "250. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628175.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628523.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-250"
+    },
+    {
+      "number": "251.1",
+      "section": "Задания",
+      "condition": "251. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628176.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628524.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-251"
+    },
+    {
+      "number": "252.1",
+      "section": "Задания",
+      "condition": "252. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628177.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628525.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-252"
+    },
+    {
+      "number": "253",
+      "section": "Задания",
+      "condition": "253. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628178.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-253"
+    },
+    {
+      "number": "254.1",
+      "section": "Задания",
+      "condition": "254. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628179.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628526.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-254"
+    },
+    {
+      "number": "255.1",
+      "section": "Задания",
+      "condition": "255. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628180.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628527.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-255"
+    },
+    {
+      "number": "256.1",
+      "section": "Задания",
+      "condition": "256. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628181.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628528.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-256"
+    },
+    {
+      "number": "257.1",
+      "section": "Задания",
+      "condition": "257. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628182.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628529.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-257"
+    },
+    {
+      "number": "258.1",
+      "section": "Задания",
+      "condition": "258. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628183.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628530.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-258"
+    },
+    {
+      "number": "259.1",
+      "section": "Задания",
+      "condition": "259. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628184.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628531.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-259"
+    },
+    {
+      "number": "260",
+      "section": "Задания",
+      "condition": "260. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628186.png?v=1671624607"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-260"
+    },
+    {
+      "number": "261.1",
+      "section": "Задания",
+      "condition": "261. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628187.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628533.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-261"
+    },
+    {
+      "number": "262.1",
+      "section": "Задания",
+      "condition": "262. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628188.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628534.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-262"
+    },
+    {
+      "number": "263.1",
+      "section": "Задания",
+      "condition": "263. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628189.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628535.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-263"
+    },
+    {
+      "number": "264.1",
+      "section": "Задания",
+      "condition": "264. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628190.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628536.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-264"
+    },
+    {
+      "number": "265.1",
+      "section": "Задания",
+      "condition": "265. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628191.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628537.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-265"
+    },
+    {
+      "number": "266.1",
+      "section": "Задания",
+      "condition": "266. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628192.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628538.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-266"
+    },
+    {
+      "number": "267.1",
+      "section": "Задания",
+      "condition": "267. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628193.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628539.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-267"
+    },
+    {
+      "number": "268.1",
+      "section": "Задания",
+      "condition": "268. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628194.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628540.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-268"
+    },
+    {
+      "number": "269.1",
+      "section": "Задания",
+      "condition": "269. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628195.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628541.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-269"
+    },
+    {
+      "number": "270.1",
+      "section": "Задания",
+      "condition": "270. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628197.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628543.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-270"
+    },
+    {
+      "number": "271.1",
+      "section": "Задания",
+      "condition": "271. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628198.png?v=1671624607",
+        "https://imgs.euroki.org/books/gdzs/3592/2628544.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-271"
+    },
+    {
+      "number": "272.1",
+      "section": "Задания",
+      "condition": "272. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628199.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628545.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-272"
+    },
+    {
+      "number": "273.1",
+      "section": "Задания",
+      "condition": "273. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628200.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628546.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-273"
+    },
+    {
+      "number": "274.1",
+      "section": "Задания",
+      "condition": "274. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628201.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628547.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-274"
+    },
+    {
+      "number": "275.1",
+      "section": "Задания",
+      "condition": "275. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628202.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628548.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-275"
+    },
+    {
+      "number": "276.1",
+      "section": "Задания",
+      "condition": "276. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628203.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628549.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-276"
+    },
+    {
+      "number": "277.1",
+      "section": "Задания",
+      "condition": "277. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628204.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628550.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-277"
+    },
+    {
+      "number": "278.1",
+      "section": "Задания",
+      "condition": "278. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628205.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628551.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-278"
+    },
+    {
+      "number": "279.1",
+      "section": "Задания",
+      "condition": "279. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628206.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628552.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-279"
+    },
+    {
+      "number": "280.1",
+      "section": "Задания",
+      "condition": "280. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628208.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628554.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-280"
+    },
+    {
+      "number": "281.1",
+      "section": "Задания",
+      "condition": "281. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628209.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628555.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-281"
+    },
+    {
+      "number": "282.1",
+      "section": "Задания",
+      "condition": "282. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628210.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628556.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-282"
+    },
+    {
+      "number": "283.1",
+      "section": "Задания",
+      "condition": "283. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628211.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628557.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-283"
+    },
+    {
+      "number": "284.1",
+      "section": "Задания",
+      "condition": "284. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628212.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628558.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-284"
+    },
+    {
+      "number": "285.1",
+      "section": "Задания",
+      "condition": "285. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628213.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628559.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-285"
+    },
+    {
+      "number": "286.1",
+      "section": "Задания",
+      "condition": "286. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628214.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628560.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-286"
+    },
+    {
+      "number": "287",
+      "section": "Задания",
+      "condition": "287. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628215.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-287"
+    },
+    {
+      "number": "288.1",
+      "section": "Задания",
+      "condition": "288. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628216.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628561.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-288"
+    },
+    {
+      "number": "289.1",
+      "section": "Задания",
+      "condition": "289. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628217.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628562.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-289"
+    },
+    {
+      "number": "290.1",
+      "section": "Задания",
+      "condition": "290. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628219.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628564.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-290"
+    },
+    {
+      "number": "291.1",
+      "section": "Задания",
+      "condition": "291. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628220.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628565.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-291"
+    },
+    {
+      "number": "292",
+      "section": "Задания",
+      "condition": "292. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628221.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-292"
+    },
+    {
+      "number": "293.1",
+      "section": "Задания",
+      "condition": "293. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628222.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628566.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-293"
+    },
+    {
+      "number": "294.1",
+      "section": "Задания",
+      "condition": "294. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628223.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628567.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-294"
+    },
+    {
+      "number": "295.1",
+      "section": "Задания",
+      "condition": "295. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628224.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628568.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-295"
+    },
+    {
+      "number": "296",
+      "section": "Задания",
+      "condition": "296. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628225.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-296"
+    },
+    {
+      "number": "297.1",
+      "section": "Задания",
+      "condition": "297. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628226.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628569.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-297"
+    },
+    {
+      "number": "298.1",
+      "section": "Задания",
+      "condition": "298. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628227.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628570.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-298"
+    },
+    {
+      "number": "299.1",
+      "section": "Задания",
+      "condition": "299. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628228.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628571.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-299"
+    },
+    {
+      "number": "300.1",
+      "section": "Задания",
+      "condition": "300. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628231.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628574.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-300"
+    },
+    {
+      "number": "301.1",
+      "section": "Задания",
+      "condition": "301. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628232.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628575.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-301"
+    },
+    {
+      "number": "302.1",
+      "section": "Задания",
+      "condition": "302. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628233.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628576.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-302"
+    },
+    {
+      "number": "303.1",
+      "section": "Задания",
+      "condition": "303. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628234.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628577.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-303"
+    },
+    {
+      "number": "304.1",
+      "section": "Задания",
+      "condition": "304. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628235.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628578.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-304"
+    },
+    {
+      "number": "305.1",
+      "section": "Задания",
+      "condition": "305. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628236.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628579.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-305"
+    },
+    {
+      "number": "306.1",
+      "section": "Задания",
+      "condition": "306. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628237.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628580.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-306"
+    },
+    {
+      "number": "307.1",
+      "section": "Задания",
+      "condition": "307. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628238.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628581.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-307"
+    },
+    {
+      "number": "308.1",
+      "section": "Задания",
+      "condition": "308. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628239.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628582.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-308"
+    },
+    {
+      "number": "309.1",
+      "section": "Задания",
+      "condition": "309. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628240.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628583.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-309"
+    },
+    {
+      "number": "310.1",
+      "section": "Задания",
+      "condition": "310. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628242.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628585.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-310"
+    },
+    {
+      "number": "311.1",
+      "section": "Задания",
+      "condition": "311. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628243.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628586.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-311"
+    },
+    {
+      "number": "312.1",
+      "section": "Задания",
+      "condition": "312. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628244.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628587.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-312"
+    },
+    {
+      "number": "313.1",
+      "section": "Задания",
+      "condition": "313. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628245.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628588.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-313"
+    },
+    {
+      "number": "314",
+      "section": "Задания",
+      "condition": "314. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628246.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-314"
+    },
+    {
+      "number": "315.1",
+      "section": "Задания",
+      "condition": "315. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628247.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628589.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-315"
+    },
+    {
+      "number": "316.1",
+      "section": "Задания",
+      "condition": "316. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628248.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628590.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-316"
+    },
+    {
+      "number": "317.1",
+      "section": "Задания",
+      "condition": "317. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628249.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628591.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-317"
+    },
+    {
+      "number": "318.1",
+      "section": "Задания",
+      "condition": "318. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628250.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628592.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-318"
+    },
+    {
+      "number": "319.1",
+      "section": "Задания",
+      "condition": "319. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628251.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628593.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-319"
+    },
+    {
+      "number": "320.1",
+      "section": "Задания",
+      "condition": "320. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628253.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628595.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-320"
+    },
+    {
+      "number": "321.1",
+      "section": "Задания",
+      "condition": "321. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628254.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628596.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-321"
+    },
+    {
+      "number": "322.1",
+      "section": "Задания",
+      "condition": "322. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628255.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628597.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-322"
+    },
+    {
+      "number": "323.1",
+      "section": "Задания",
+      "condition": "323. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628256.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628598.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-323"
+    },
+    {
+      "number": "324.1",
+      "section": "Задания",
+      "condition": "324. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628257.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628599.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-324"
+    },
+    {
+      "number": "325.1",
+      "section": "Задания",
+      "condition": "325. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628258.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628600.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-325"
+    },
+    {
+      "number": "326.1",
+      "section": "Задания",
+      "condition": "326. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628259.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628601.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-326"
+    },
+    {
+      "number": "327.1",
+      "section": "Задания",
+      "condition": "327. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628260.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628602.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-327"
+    },
+    {
+      "number": "328.1",
+      "section": "Задания",
+      "condition": "328. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628261.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628603.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-328"
+    },
+    {
+      "number": "329.1",
+      "section": "Задания",
+      "condition": "329. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628262.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628604.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-329"
+    },
+    {
+      "number": "330.1",
+      "section": "Задания",
+      "condition": "330. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628264.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628606.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-330"
+    },
+    {
+      "number": "331.1",
+      "section": "Задания",
+      "condition": "331. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628265.png?v=1671624608",
+        "https://imgs.euroki.org/books/gdzs/3592/2628607.png?v=1671624581"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-331"
+    },
+    {
+      "number": "332",
+      "section": "Задания",
+      "condition": "332. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628266.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-332"
+    },
+    {
+      "number": "333",
+      "section": "Задания",
+      "condition": "333. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628267.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-333"
+    },
+    {
+      "number": "334",
+      "section": "Задания",
+      "condition": "334. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628268.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-334"
+    },
+    {
+      "number": "335",
+      "section": "Задания",
+      "condition": "335. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628269.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-335"
+    },
+    {
+      "number": "336",
+      "section": "Задания",
+      "condition": "336. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628270.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-336"
+    },
+    {
+      "number": "337",
+      "section": "Задания",
+      "condition": "337. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628271.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-337"
+    },
+    {
+      "number": "338",
+      "section": "Задания",
+      "condition": "338. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628272.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-338"
+    },
+    {
+      "number": "339",
+      "section": "Задания",
+      "condition": "339. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628273.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-339"
+    },
+    {
+      "number": "340",
+      "section": "Задания",
+      "condition": "340. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628275.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-340"
+    },
+    {
+      "number": "341",
+      "section": "Задания",
+      "condition": "341. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628276.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-341"
+    },
+    {
+      "number": "342",
+      "section": "Задания",
+      "condition": "342. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628277.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-342"
+    },
+    {
+      "number": "343",
+      "section": "Задания",
+      "condition": "343. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628278.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-343"
+    },
+    {
+      "number": "344",
+      "section": "Задания",
+      "condition": "344. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628279.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-344"
+    },
+    {
+      "number": "345",
+      "section": "Задания",
+      "condition": "345. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628280.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-345"
+    },
+    {
+      "number": "346",
+      "section": "Задания",
+      "condition": "346. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628281.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-346"
+    },
+    {
+      "number": "347",
+      "section": "Задания",
+      "condition": "347. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628282.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-347"
+    },
+    {
+      "number": "348",
+      "section": "Задания",
+      "condition": "348. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628283.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-348"
+    },
+    {
+      "number": "349",
+      "section": "Задания",
+      "condition": "349. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628284.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-349"
+    },
+    {
+      "number": "350",
+      "section": "Задания",
+      "condition": "350. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628286.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-350"
+    },
+    {
+      "number": "351",
+      "section": "Задания",
+      "condition": "351. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/1927/2628287.png?v=1671624608"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/9_klass/m_razumovskaja_1/zadanie-351"
+    }
+  ]
+}

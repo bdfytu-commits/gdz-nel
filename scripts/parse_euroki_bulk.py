@@ -259,6 +259,8 @@ def task_links(index_html: str, book: dict) -> list[dict]:
     """Все ссылки на задания книги с номером, частью и типом."""
     soup = BeautifulSoup(index_html, "html.parser")
     base_path = urllib.parse.urlsplit(book["url"]).path.rstrip("/")
+    subject = map_subject(book["source_subject"], book["grade"])
+    math_like = subject in {"math", "algebra", "geometry", "physics", "chemistry"}
     found: dict[str, dict] = {}
     for a in soup.find_all("a", href=True):
         href = urllib.parse.urljoin(book["url"], a["href"]).split("#", 1)[0]
@@ -295,7 +297,61 @@ def task_links(index_html: str, book: dict) -> list[dict]:
             if m:
                 item = {"kind": "num", "part": 0, "num": int(m.group(1)), "url": href}
         if item:
-            item["section"] = a.get_text(" ", strip=True)[:120]
+            label = re.sub(r"\s+", " ", a.get_text(" ", strip=True)).strip()
+            topic = a.find_parent(class_="book-navigation__topic")
+            head = topic.select_one(".topic_headline") if topic else None
+            group = re.sub(r"\s+", " ", head.get_text(" ", strip=True)).strip(" :") if head else ""
+            label_num = ""
+            theme = ""
+            m = re.match(r"^(\d+(?:[.,]\d+)*)\.?\s+(.*)$", label)
+            if m:
+                label_num = m.group(1).replace(",", ".")
+                theme = re.sub(r"\s+", " ", m.group(2)).strip(" .")
+            elif re.fullmatch(r"\d+(?:[.,]\d+)*", label):
+                label_num = label.replace(",", ".")
+            group_num = ""
+            group_title = group
+            m = re.match(r"^(\d+(?:\.\d+)?)[.)]?\s+(.*)$", group)
+            if m:
+                group_num = m.group(1)
+                group_title = re.sub(r"\s+", " ", m.group(2)).strip(" .")
+            m = re.match(r"^(?:Unit|Module)\s+(\d+)", group, re.I)
+            if m:
+                group_num = m.group(1)
+                group_title = group
+            chapter = ""
+            m = re.search(r"(?:glava|urok|yunit|unit|module)-(\d+)", rel, re.I)
+            if m:
+                chapter = m.group(1)
+            if not chapter:
+                m = re.match(r"^(\d+)-(\d+)-", rel)
+                if m:
+                    chapter = f"{m.group(1)}.{m.group(2)}"
+            if not chapter:
+                m = re.match(r"^chast-\d+-(\d+)-", rel)
+                if m:
+                    chapter = m.group(1)
+            if not chapter:
+                m = re.match(r"^(\d+)-", rel)
+                if m and int(m.group(1)) <= 60:
+                    chapter = m.group(1)
+            if not chapter and group_num:
+                chapter = group_num
+            if item["kind"] == "page":
+                number = ""
+            elif label_num:
+                number = label_num
+                if "." not in number and chapter and math_like:
+                    number = f"{chapter}.{number}"
+            else:
+                number = str(item["num"])
+            section = theme or group_title or (f"Страница {item['num']}" if item["kind"] == "page" else f"Задание {number or item['num']}")
+            if "voprosy-k-paragrafam" in rel:
+                section = "Вопросы к параграфам"
+            item["section"] = section[:120]
+            item["number"] = number
+            item["chapter"] = chapter
+            item["label"] = label[:120]
             found[href] = item
     return sorted(found.values(), key=lambda x: (x["part"], x["kind"], x["num"]))
 
@@ -342,11 +398,12 @@ def solution_images(soup: BeautifulSoup) -> list[str]:
 
 
 def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int | None = None,
-                    section_hint: str = "") -> list[dict]:
+                    section_hint: str = "", number_hint: str = "") -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     cards = soup.select("article.gdz-solution-card")
     tasks: list[dict] = []
     seq = 0
+    base_num = number_hint or str(base)
 
     def add(number: str, section: str, condition: str, solution: str) -> None:
         nonlocal seq
@@ -357,7 +414,7 @@ def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int |
         if not condition:
             condition = f"Задание {number}."
         if not section:
-            section = f"Страница {base}" if kind == "page" else f"Задание {base}"
+            section = f"Страница {base}" if kind == "page" else f"Задание {number}"
         seq += 1
         tasks.append({
             "number": number,
@@ -375,9 +432,10 @@ def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int |
         if not images:
             return
         seq += 1
-        section = section_hint or (f"Страница {base}" if kind == "page" else f"Задание {base}")
+        section = section_hint or (f"Страница {base}" if kind == "page" else f"Задание {base_num}")
+        number = base_num if len(images) == 1 else f"{base_num}.{seq}"
         tasks.append({
-            "number": str(base) if len(images) == 1 else f"{base}.{seq}",
+            "number": number,
             "section": section,
             "condition": f"{section}. Решение на изображении.",
             "solution": "",
@@ -395,16 +453,17 @@ def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int |
             qtext = clean_latex(q.get_text("\n", strip=True)) if q else ""
             atext = a.get_text("\n", strip=True) if a else ""
             section = clean_latex(sec.get_text(" ", strip=True)) if sec else ""
-            if not section or section in {"•", "-", "—"}:
-                section = f"Страница {base}" if kind == "page" else f"Задание {base}"
+            if (not section or section in {"•", "-", "—"} or section_hint == "Вопросы к параграфам"
+                    or re.fullmatch(r"\d+(?:\.\d+)*", section)):
+                section = section_hint or (f"Страница {base}" if kind == "page" else f"Задание {base_num}")
             boxed = split_boxed(atext)
             if boxed:
                 for n, chunk in boxed:
-                    num = f"{base}.{n}" if kind != "ex" else (str(base) if len(boxed) == 1 else f"{base}.{n}")
+                    num = f"{base}.{n}" if kind == "page" else (base_num if len(boxed) == 1 else f"{base_num}.{n}")
                     cond = qtext if qtext and len(boxed) == 1 else f"Задание {n}. Страница {base}." if kind == "page" else f"Задание {num}."
                     add(num, section, cond, chunk)
             elif atext.strip():
-                num = f"{base}.{ci}" if len(cards) > 1 else str(base)
+                num = f"{base}.{ci}" if kind == "page" else (f"{base_num}.{ci}" if len(cards) > 1 else base_num)
                 cond = qtext or section
                 add(num, section, cond, atext)
         if not tasks:
@@ -431,6 +490,101 @@ def parse_task_page(html: str, url: str, base: int, kind: str, force_part: int |
         else:
             seen[n] = 1
     return tasks
+
+
+MATH_SUBJECTS = {"math", "algebra", "geometry", "physics", "chemistry"}
+
+
+def chapter_from_url(url: str) -> str:
+    """Номер главы/урока/юнита/темы из URL euroki."""
+    m = re.search(r"(?:glava|urok|yunit|unit|module)-(\d+)", url, re.I)
+    if m:
+        return m.group(1)
+    path = urllib.parse.urlsplit(url).path.rstrip("/")
+    seg = path.rsplit("/", 1)[-1]
+    m = re.match(r"^(\d+)-(\d+)-", seg)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
+    m = re.match(r"^chast-\d+-(\d+)-", seg)
+    if m:
+        return m.group(1)
+    if seg.startswith("chast-"):
+        return ""
+    m = re.match(r"^(\d+)-", seg)
+    if m and int(m.group(1)) <= 60:
+        return m.group(1)
+    return ""
+
+
+def chapter_from_task(task: dict) -> str:
+    ch = chapter_from_url(str(task.get("sourceUrl") or ""))
+    if ch:
+        return ch
+    m = re.match(r"^(\d+(?:\.\d+)?)[.)]?\s", str(task.get("section") or ""))
+    return m.group(1) if m else ""
+
+
+def finalize_numbers(tasks: list[dict], subject: str) -> list[dict]:
+    """Склеивает дубли страниц и делает номера уникальными в книге.
+
+    Если нумерация в учебнике перезапускается по главам, добавляет
+    префикс главы (2.1, 2.2, ...), чтобы в сетке не было одинаковых кнопок.
+    """
+    merged: dict[tuple[str, str], dict] = {}
+    out: list[dict] = []
+    for t in tasks:
+        key = (str(t.get("number", "")), str(t.get("section", "")))
+        if key in merged:
+            keep = merged[key]
+            imgs = list(dict.fromkeys((keep.get("images") or []) + (t.get("images") or [])))
+            if imgs:
+                keep["images"] = imgs
+            if len(str(t.get("solution") or "")) > len(str(keep.get("solution") or "")):
+                keep["solution"] = t.get("solution") or ""
+                keep["condition"] = t.get("condition") or keep.get("condition", "")
+                keep["answer"] = t.get("answer") or keep.get("answer", "")
+            continue
+        merged[key] = t
+        out.append(t)
+    counts: dict[str, int] = {}
+    for t in out:
+        n = str(t.get("number", ""))
+        counts[n] = counts.get(n, 0) + 1
+    used: set[str] = set()
+    for t in out:
+        n = str(t.get("number", ""))
+        if counts.get(n, 0) > 1 or n in used:
+            ch = chapter_from_task(t)
+            base = f"{ch}.{n}" if ch and "." not in n else n
+            cand = base
+            k = 2
+            while cand in used:
+                cand = f"{base}-{k}"
+                k += 1
+            t["number"] = cand
+        used.add(str(t["number"]))
+    return out
+
+
+def number_sort_key(task: dict) -> tuple:
+    return tuple(int(x) for x in re.findall(r"\d+", str(task.get("number") or ""))) or (0,)
+
+
+def task_sort_key(task: dict) -> tuple:
+    """Сортировка с сохранением цельных разделов (глава, тема, страницы)."""
+    sec = str(task.get("section") or "")
+    m = re.match(r"Глава\s+(\d+)", sec)
+    if m:
+        return (int(m.group(1)), 0, sec)
+    m = re.match(r"Часть\s+(\d+)", sec)
+    if m:
+        return (int(m.group(1)) - 0.5, 0, sec)
+    if sec in {"Задания", "Все задания"}:
+        return (-1, 0, sec)
+    m = re.match(r"(\d+)\.", str(task.get("number") or ""))
+    if m:
+        return (int(m.group(1)), 1, sec)
+    return (500, 0, sec)
 
 
 SPECIAL_BASE = {
@@ -506,17 +660,18 @@ def process_book(book: dict, duplicate: bool, force: bool, dry: bool, limit: int
             except Exception as exc:  # noqa: BLE001
                 print(f"  !! {item['url']}: {exc}", flush=True)
                 continue
-            got = parse_task_page(html, item["url"], item["num"], item["kind"], section_hint=item.get("section", ""))
+            got = parse_task_page(html, item["url"], item["num"], item["kind"],
+                                  section_hint=item.get("section", ""),
+                                  number_hint=item.get("number", ""))
             if not got:
                 continue
             tasks.extend(got)
         if not tasks:
             print(f"!! {book_id}: текстовых задач нет (сканы), пропуск", flush=True)
             continue
+        tasks = finalize_numbers(tasks, subject)
         # нормализуем и сортируем
-        def sort_key(t: dict) -> tuple:
-            return tuple(int(x) for x in re.findall(r"\d+", t["number"])) or (0,)
-        tasks.sort(key=sort_key)
+        tasks.sort(key=lambda t: (task_sort_key(t), number_sort_key(t)))
         doc = {
             "subject": subject,
             "textbook": book_id,

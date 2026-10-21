@@ -83,6 +83,36 @@ BOOKS = [
          author="Тороп В.В., Арсентьев Н.М.",
          year="2023–2026",
          url="https://gdz.ru/class-9/istoriya/konturnie-karti-torop/"),
+    dict(subject="geo", id="letyagin-5", grade=5,
+         title="Летягин. Атлас с контурными картами",
+         author="Летягин А.А.",
+         year="2023–2026",
+         url="https://gdz.ru/class-5/geografiya/atlas-konturnie-karti-letyagin/"),
+    dict(subject="geo", id="privalovskiy-10", grade=10,
+         title="Приваловский. Контурные карты, 10–11 класс",
+         author="Приваловский А.Н.",
+         year="2023–2026",
+         url="https://gdz.ru/class-10/geografiya/konturnie-karti-privalovskij/"),
+    dict(subject="geo", id="kuznetsov-10", grade=10,
+         title="Кузнецов. Атлас с контурными картами, 10–11 класс",
+         author="Кузнецов А.П.",
+         year="2023–2026",
+         url="https://gdz.ru/class-10/geografiya/atlas-s-konturnimi-kartami-kuznecov/"),
+    dict(subject="history-maps", id="gushina-5", grade=5,
+         title="Гущина. Контурные карты. Древний мир",
+         author="Гущина Т.А.",
+         year="2023–2026",
+         url="https://gdz.ru/class-5/istoriya/konturnie-karti-drevnij-mir-gushina/"),
+    dict(subject="history-maps", id="kolpakov-5", grade=5,
+         title="Колпаков. Атлас с контурными картами",
+         author="Колпаков С.В., Пономарев М.В.",
+         year="2023–2026",
+         url="https://gdz.ru/class-5/istoriya/atlas-s-konturnimi-kartami-i-zadaniyami-kolpakov/"),
+    dict(subject="history-maps", id="torop-pereligin-10", grade=10,
+         title="Тороп, Перелыгин. Контурные карты, 10–11 класс",
+         author="Тороп В.В., Перелыгин В.В.",
+         year="2023–2026",
+         url="https://gdz.ru/class-10/istoriya/konturnie-karti-torop-pereligin/"),
 ]
 
 
@@ -102,17 +132,25 @@ def fetch(url: str) -> str:
     return text
 
 
-def page_links(book: dict) -> list[str]:
-    """Номера страниц книги в порядке следования (2, 4, …)."""
+def page_links(book: dict) -> list[tuple[str, str]]:
+    """Страницы книги: (номер, полный URL). Поддерживает -s/ и -trnom/."""
     html = fetch(book["url"])
     slug = book["url"].rstrip("/").rsplit("/", 1)[-1]
-    nums = []
+    pages: dict[str, str] = {}
     soup = BeautifulSoup(html, "html.parser")
     for a in soup.find_all("a", href=True):
-        m = re.search(r"/" + re.escape(slug) + r"/(\d+)-s/?$", a["href"])
-        if m and m.group(1) not in nums:
-            nums.append(m.group(1))
-    return sorted(nums, key=int)
+        href = a["href"]
+        m = re.search(r"/" + re.escape(slug) + r"/(\d+)(?:-[a-z0-9-]+)?/?$", href)
+        if not m:
+            continue
+        num = m.group(1)
+        if num in pages:
+            continue
+        if href.startswith("http"):
+            pages[num] = href
+        elif href.startswith("/"):
+            pages[num] = "https://gdz.ru" + href
+    return sorted(pages.items(), key=lambda x: int(x[0]))
 
 
 def task_number(html: str, fallback: str) -> str:
@@ -171,17 +209,16 @@ def process_book(book: dict, force: bool) -> None:
         print("книга уже собрана, пропуск:", book["id"], "(для пересборки --force)")
         return
 
-    nums = page_links(book)
-    print(f"=== {book['id']}: страниц на источнике — {len(nums)}: {', '.join(nums)}")
-    if not nums:
+    pages = page_links(book)
+    print(f"=== {book['id']}: страниц на источнике — {len(pages)}: {', '.join(n for n, _ in pages)}")
+    if not pages:
         print("!! ссылок на страницы не найдено — пропуск книги")
         return
 
     img_dir = DATA / book["subject"] / "img" / book["id"]
     tasks = []
     fails = 0
-    for num in nums:
-        page_url = book["url"].rstrip("/") + f"/{num}-s/"
+    for num, page_url in pages:
         try:
             html = fetch(page_url)
         except Exception as exc:  # noqa: BLE001

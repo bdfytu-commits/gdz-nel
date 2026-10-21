@@ -9,7 +9,7 @@
   "tasks": [
     {
       "number": "1",
-      "section": "1",
+      "section": "Задания",
       "condition": "1. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -21,7 +21,7 @@
     },
     {
       "number": "2",
-      "section": "2",
+      "section": "Задания",
       "condition": "2. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -33,7 +33,7 @@
     },
     {
       "number": "3",
-      "section": "3",
+      "section": "Задания",
       "condition": "3. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -45,7 +45,7 @@
     },
     {
       "number": "4",
-      "section": "4",
+      "section": "Задания",
       "condition": "4. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -57,7 +57,7 @@
     },
     {
       "number": "5",
-      "section": "5",
+      "section": "Задания",
       "condition": "5. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -69,7 +69,7 @@
     },
     {
       "number": "6",
-      "section": "6",
+      "section": "Задания",
       "condition": "6. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -81,7 +81,7 @@
     },
     {
       "number": "7",
-      "section": "7",
+      "section": "Задания",
       "condition": "7. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -93,7 +93,7 @@
     },
     {
       "number": "8",
-      "section": "8",
+      "section": "Задания",
       "condition": "8. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -105,7 +105,7 @@
     },
     {
       "number": "9",
-      "section": "9",
+      "section": "Задания",
       "condition": "9. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -117,7 +117,7 @@
     },
     {
       "number": "10",
-      "section": "10",
+      "section": "Задания",
       "condition": "10. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -129,7 +129,7 @@
     },
     {
       "number": "11",
-      "section": "11",
+      "section": "Задания",
       "condition": "11. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -141,7 +141,7 @@
     },
     {
       "number": "12",
-      "section": "12",
+      "section": "Задания",
       "condition": "12. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -153,7 +153,7 @@
     },
     {
       "number": "13",
-      "section": "13",
+      "section": "Задания",
       "condition": "13. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -165,7 +165,7 @@
     },
     {
       "number": "14",
-      "section": "14",
+      "section": "Задания",
       "condition": "14. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -177,7 +177,7 @@
     },
     {
       "number": "15",
-      "section": "15",
+      "section": "Задания",
       "condition": "15. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -189,7 +189,7 @@
     },
     {
       "number": "16",
-      "section": "16",
+      "section": "Задания",
       "condition": "16. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -201,7 +201,7 @@
     },
     {
       "number": "17",
-      "section": "17",
+      "section": "Задания",
       "condition": "17. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -213,7 +213,7 @@
     },
     {
       "number": "18",
-      "section": "18",
+      "section": "Задания",
       "condition": "18. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -225,7 +225,7 @@
     },
     {
       "number": "19",
-      "section": "19",
+      "section": "Задания",
       "condition": "19. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -237,7 +237,7 @@
     },
     {
       "number": "20",
-      "section": "20",
+      "section": "Задания",
       "condition": "20. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -249,7 +249,7 @@
     },
     {
       "number": "21",
-      "section": "21",
+      "section": "Задания",
       "condition": "21. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -261,7 +261,7 @@
     },
     {
       "number": "22",
-      "section": "22",
+      "section": "Задания",
       "condition": "22. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -273,7 +273,7 @@
     },
     {
       "number": "23",
-      "section": "23",
+      "section": "Задания",
       "condition": "23. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -285,7 +285,7 @@
     },
     {
       "number": "24",
-      "section": "24",
+      "section": "Задания",
       "condition": "24. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -297,7 +297,7 @@
     },
     {
       "number": "25",
-      "section": "25",
+      "section": "Задания",
       "condition": "25. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -308,20 +308,8 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-25"
     },
     {
-      "number": "25-2",
-      "section": "стр. 25",
-      "condition": "стр. 25. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585448.png?v=1666802296"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/kontrolnye-voprosy-i-zadaniya-zadanie-str-25"
-    },
-    {
       "number": "26",
-      "section": "26",
+      "section": "Задания",
       "condition": "26. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -333,7 +321,7 @@
     },
     {
       "number": "27",
-      "section": "27",
+      "section": "Задания",
       "condition": "27. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -345,7 +333,7 @@
     },
     {
       "number": "28",
-      "section": "28",
+      "section": "Задания",
       "condition": "28. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -357,7 +345,7 @@
     },
     {
       "number": "29",
-      "section": "29",
+      "section": "Задания",
       "condition": "29. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -369,7 +357,7 @@
     },
     {
       "number": "30",
-      "section": "30",
+      "section": "Задания",
       "condition": "30. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -381,7 +369,7 @@
     },
     {
       "number": "31",
-      "section": "31",
+      "section": "Задания",
       "condition": "31. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -393,7 +381,7 @@
     },
     {
       "number": "32",
-      "section": "32",
+      "section": "Задания",
       "condition": "32. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -405,7 +393,7 @@
     },
     {
       "number": "33",
-      "section": "33",
+      "section": "Задания",
       "condition": "33. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -417,7 +405,7 @@
     },
     {
       "number": "34",
-      "section": "34",
+      "section": "Задания",
       "condition": "34. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -429,7 +417,7 @@
     },
     {
       "number": "35",
-      "section": "35",
+      "section": "Задания",
       "condition": "35. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -441,7 +429,7 @@
     },
     {
       "number": "36",
-      "section": "36",
+      "section": "Задания",
       "condition": "36. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -453,7 +441,7 @@
     },
     {
       "number": "37",
-      "section": "37",
+      "section": "Задания",
       "condition": "37. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -465,7 +453,7 @@
     },
     {
       "number": "38",
-      "section": "38",
+      "section": "Задания",
       "condition": "38. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -477,7 +465,7 @@
     },
     {
       "number": "39",
-      "section": "39",
+      "section": "Задания",
       "condition": "39. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -489,7 +477,7 @@
     },
     {
       "number": "40",
-      "section": "40",
+      "section": "Задания",
       "condition": "40. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -501,7 +489,7 @@
     },
     {
       "number": "41",
-      "section": "41",
+      "section": "Задания",
       "condition": "41. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -513,7 +501,7 @@
     },
     {
       "number": "42",
-      "section": "42",
+      "section": "Задания",
       "condition": "42. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -525,7 +513,7 @@
     },
     {
       "number": "43",
-      "section": "43",
+      "section": "Задания",
       "condition": "43. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -537,7 +525,7 @@
     },
     {
       "number": "44",
-      "section": "44",
+      "section": "Задания",
       "condition": "44. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -549,7 +537,7 @@
     },
     {
       "number": "45",
-      "section": "45",
+      "section": "Задания",
       "condition": "45. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -561,7 +549,7 @@
     },
     {
       "number": "46",
-      "section": "46",
+      "section": "Задания",
       "condition": "46. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -573,7 +561,7 @@
     },
     {
       "number": "47",
-      "section": "47",
+      "section": "Задания",
       "condition": "47. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -585,7 +573,7 @@
     },
     {
       "number": "48",
-      "section": "48",
+      "section": "Задания",
       "condition": "48. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -597,7 +585,7 @@
     },
     {
       "number": "49",
-      "section": "49",
+      "section": "Задания",
       "condition": "49. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -609,7 +597,7 @@
     },
     {
       "number": "50",
-      "section": "50",
+      "section": "Задания",
       "condition": "50. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -621,7 +609,7 @@
     },
     {
       "number": "51",
-      "section": "51",
+      "section": "Задания",
       "condition": "51. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -633,7 +621,7 @@
     },
     {
       "number": "52",
-      "section": "52",
+      "section": "Задания",
       "condition": "52. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -644,20 +632,8 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-52"
     },
     {
-      "number": "52-2",
-      "section": "стр. 52",
-      "condition": "стр. 52. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585449.png?v=1666802296"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/kontrolnye-voprosy-i-zadaniya-zadanie-str-52"
-    },
-    {
       "number": "53",
-      "section": "53",
+      "section": "Задания",
       "condition": "53. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -669,7 +645,7 @@
     },
     {
       "number": "54",
-      "section": "54",
+      "section": "Задания",
       "condition": "54. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -681,7 +657,7 @@
     },
     {
       "number": "55",
-      "section": "55",
+      "section": "Задания",
       "condition": "55. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -693,7 +669,7 @@
     },
     {
       "number": "56",
-      "section": "56",
+      "section": "Задания",
       "condition": "56. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -705,7 +681,7 @@
     },
     {
       "number": "57",
-      "section": "57",
+      "section": "Задания",
       "condition": "57. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -717,7 +693,7 @@
     },
     {
       "number": "58",
-      "section": "58",
+      "section": "Задания",
       "condition": "58. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -729,7 +705,7 @@
     },
     {
       "number": "59",
-      "section": "59",
+      "section": "Задания",
       "condition": "59. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -741,7 +717,7 @@
     },
     {
       "number": "60",
-      "section": "60",
+      "section": "Задания",
       "condition": "60. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -753,7 +729,7 @@
     },
     {
       "number": "61",
-      "section": "61",
+      "section": "Задания",
       "condition": "61. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -765,7 +741,7 @@
     },
     {
       "number": "62",
-      "section": "62",
+      "section": "Задания",
       "condition": "62. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -777,7 +753,7 @@
     },
     {
       "number": "63",
-      "section": "63",
+      "section": "Задания",
       "condition": "63. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -789,7 +765,7 @@
     },
     {
       "number": "64",
-      "section": "64",
+      "section": "Задания",
       "condition": "64. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -801,7 +777,7 @@
     },
     {
       "number": "65",
-      "section": "65",
+      "section": "Задания",
       "condition": "65. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -813,7 +789,7 @@
     },
     {
       "number": "66",
-      "section": "66",
+      "section": "Задания",
       "condition": "66. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -825,7 +801,7 @@
     },
     {
       "number": "67",
-      "section": "67",
+      "section": "Задания",
       "condition": "67. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -837,7 +813,7 @@
     },
     {
       "number": "68",
-      "section": "68",
+      "section": "Задания",
       "condition": "68. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -849,7 +825,7 @@
     },
     {
       "number": "69",
-      "section": "69",
+      "section": "Задания",
       "condition": "69. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -861,7 +837,7 @@
     },
     {
       "number": "70",
-      "section": "70",
+      "section": "Задания",
       "condition": "70. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -873,7 +849,7 @@
     },
     {
       "number": "71",
-      "section": "71",
+      "section": "Задания",
       "condition": "71. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -885,7 +861,7 @@
     },
     {
       "number": "72",
-      "section": "72",
+      "section": "Задания",
       "condition": "72. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -897,7 +873,7 @@
     },
     {
       "number": "73",
-      "section": "73",
+      "section": "Задания",
       "condition": "73. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -909,7 +885,7 @@
     },
     {
       "number": "74",
-      "section": "74",
+      "section": "Задания",
       "condition": "74. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -921,7 +897,7 @@
     },
     {
       "number": "75",
-      "section": "75",
+      "section": "Задания",
       "condition": "75. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -933,7 +909,7 @@
     },
     {
       "number": "76",
-      "section": "76",
+      "section": "Задания",
       "condition": "76. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -945,7 +921,7 @@
     },
     {
       "number": "77",
-      "section": "77",
+      "section": "Задания",
       "condition": "77. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -957,7 +933,7 @@
     },
     {
       "number": "78",
-      "section": "78",
+      "section": "Задания",
       "condition": "78. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -969,7 +945,7 @@
     },
     {
       "number": "79",
-      "section": "79",
+      "section": "Задания",
       "condition": "79. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -981,7 +957,7 @@
     },
     {
       "number": "80",
-      "section": "80",
+      "section": "Задания",
       "condition": "80. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -993,7 +969,7 @@
     },
     {
       "number": "81",
-      "section": "81",
+      "section": "Задания",
       "condition": "81. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1005,7 +981,7 @@
     },
     {
       "number": "82",
-      "section": "82",
+      "section": "Задания",
       "condition": "82. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1017,7 +993,7 @@
     },
     {
       "number": "83",
-      "section": "83",
+      "section": "Задания",
       "condition": "83. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1029,7 +1005,7 @@
     },
     {
       "number": "84",
-      "section": "84",
+      "section": "Задания",
       "condition": "84. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1041,7 +1017,7 @@
     },
     {
       "number": "85",
-      "section": "85",
+      "section": "Задания",
       "condition": "85. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1053,7 +1029,7 @@
     },
     {
       "number": "86",
-      "section": "86",
+      "section": "Задания",
       "condition": "86. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1065,7 +1041,7 @@
     },
     {
       "number": "87",
-      "section": "87",
+      "section": "Задания",
       "condition": "87. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1077,7 +1053,7 @@
     },
     {
       "number": "88",
-      "section": "88",
+      "section": "Задания",
       "condition": "88. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1089,7 +1065,7 @@
     },
     {
       "number": "89",
-      "section": "89",
+      "section": "Задания",
       "condition": "89. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1101,7 +1077,7 @@
     },
     {
       "number": "90",
-      "section": "90",
+      "section": "Задания",
       "condition": "90. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1113,7 +1089,7 @@
     },
     {
       "number": "91",
-      "section": "91",
+      "section": "Задания",
       "condition": "91. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1125,7 +1101,7 @@
     },
     {
       "number": "92",
-      "section": "92",
+      "section": "Задания",
       "condition": "92. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1137,7 +1113,7 @@
     },
     {
       "number": "93",
-      "section": "93",
+      "section": "Задания",
       "condition": "93. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1149,7 +1125,7 @@
     },
     {
       "number": "94",
-      "section": "94",
+      "section": "Задания",
       "condition": "94. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1161,7 +1137,7 @@
     },
     {
       "number": "95",
-      "section": "95",
+      "section": "Задания",
       "condition": "95. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1173,7 +1149,7 @@
     },
     {
       "number": "96",
-      "section": "96",
+      "section": "Задания",
       "condition": "96. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1185,7 +1161,7 @@
     },
     {
       "number": "97",
-      "section": "97",
+      "section": "Задания",
       "condition": "97. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1196,20 +1172,8 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-97"
     },
     {
-      "number": "97-2",
-      "section": "стр. 97",
-      "condition": "стр. 97. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585450.png?v=1666802296"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/kontrolnye-voprosy-i-zadaniya-zadanie-str-97"
-    },
-    {
       "number": "98",
-      "section": "98",
+      "section": "Задания",
       "condition": "98. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1221,7 +1185,7 @@
     },
     {
       "number": "99",
-      "section": "99",
+      "section": "Задания",
       "condition": "99. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1233,7 +1197,7 @@
     },
     {
       "number": "100",
-      "section": "100",
+      "section": "Задания",
       "condition": "100. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1245,7 +1209,7 @@
     },
     {
       "number": "101",
-      "section": "101",
+      "section": "Задания",
       "condition": "101. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1257,7 +1221,7 @@
     },
     {
       "number": "102",
-      "section": "102",
+      "section": "Задания",
       "condition": "102. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1269,7 +1233,7 @@
     },
     {
       "number": "103",
-      "section": "103",
+      "section": "Задания",
       "condition": "103. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1281,7 +1245,7 @@
     },
     {
       "number": "104",
-      "section": "104",
+      "section": "Задания",
       "condition": "104. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1293,7 +1257,7 @@
     },
     {
       "number": "105",
-      "section": "105",
+      "section": "Задания",
       "condition": "105. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1305,7 +1269,7 @@
     },
     {
       "number": "106",
-      "section": "106",
+      "section": "Задания",
       "condition": "106. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1317,7 +1281,7 @@
     },
     {
       "number": "107",
-      "section": "107",
+      "section": "Задания",
       "condition": "107. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1329,7 +1293,7 @@
     },
     {
       "number": "108",
-      "section": "108",
+      "section": "Задания",
       "condition": "108. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1341,7 +1305,7 @@
     },
     {
       "number": "109",
-      "section": "109",
+      "section": "Задания",
       "condition": "109. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1353,7 +1317,7 @@
     },
     {
       "number": "110",
-      "section": "110",
+      "section": "Задания",
       "condition": "110. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1365,7 +1329,7 @@
     },
     {
       "number": "111",
-      "section": "111",
+      "section": "Задания",
       "condition": "111. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1377,7 +1341,7 @@
     },
     {
       "number": "112",
-      "section": "112",
+      "section": "Задания",
       "condition": "112. Решение на изображении.",
       "solution": "",
       "answer": "",
@@ -1386,6 +1350,1062 @@
       ],
       "source": "euroki.org",
       "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-112"
+    },
+    {
+      "number": "113",
+      "section": "Задания",
+      "condition": "113. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585263.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-113"
+    },
+    {
+      "number": "114",
+      "section": "Задания",
+      "condition": "114. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585264.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-114"
+    },
+    {
+      "number": "115",
+      "section": "Задания",
+      "condition": "115. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585265.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-115"
+    },
+    {
+      "number": "116",
+      "section": "Задания",
+      "condition": "116. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585266.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-116"
+    },
+    {
+      "number": "117",
+      "section": "Задания",
+      "condition": "117. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585267.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-117"
+    },
+    {
+      "number": "118",
+      "section": "Задания",
+      "condition": "118. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585268.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-118"
+    },
+    {
+      "number": "119",
+      "section": "Задания",
+      "condition": "119. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585269.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-119"
+    },
+    {
+      "number": "120",
+      "section": "Задания",
+      "condition": "120. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585271.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-120"
+    },
+    {
+      "number": "121",
+      "section": "Задания",
+      "condition": "121. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585272.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-121"
+    },
+    {
+      "number": "122",
+      "section": "Задания",
+      "condition": "122. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585273.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-122"
+    },
+    {
+      "number": "123",
+      "section": "Задания",
+      "condition": "123. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585274.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-123"
+    },
+    {
+      "number": "124",
+      "section": "Задания",
+      "condition": "124. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585275.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-124"
+    },
+    {
+      "number": "125",
+      "section": "Задания",
+      "condition": "125. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585276.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-125"
+    },
+    {
+      "number": "126",
+      "section": "Задания",
+      "condition": "126. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585277.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-126"
+    },
+    {
+      "number": "127",
+      "section": "Задания",
+      "condition": "127. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585278.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-127"
+    },
+    {
+      "number": "128",
+      "section": "Задания",
+      "condition": "128. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585279.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-128"
+    },
+    {
+      "number": "129",
+      "section": "Задания",
+      "condition": "129. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585280.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-129"
+    },
+    {
+      "number": "130",
+      "section": "Задания",
+      "condition": "130. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585282.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-130"
+    },
+    {
+      "number": "131",
+      "section": "Задания",
+      "condition": "131. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585283.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-131"
+    },
+    {
+      "number": "132",
+      "section": "Задания",
+      "condition": "132. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585284.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-132"
+    },
+    {
+      "number": "133",
+      "section": "Задания",
+      "condition": "133. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585285.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-133"
+    },
+    {
+      "number": "134",
+      "section": "Задания",
+      "condition": "134. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585286.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-134"
+    },
+    {
+      "number": "135",
+      "section": "Задания",
+      "condition": "135. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585287.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-135"
+    },
+    {
+      "number": "136",
+      "section": "Задания",
+      "condition": "136. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585288.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-136"
+    },
+    {
+      "number": "137",
+      "section": "Задания",
+      "condition": "137. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585289.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-137"
+    },
+    {
+      "number": "138",
+      "section": "Задания",
+      "condition": "138. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585290.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-138"
+    },
+    {
+      "number": "139",
+      "section": "Задания",
+      "condition": "139. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585291.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-139"
+    },
+    {
+      "number": "140",
+      "section": "Задания",
+      "condition": "140. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585293.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-140"
+    },
+    {
+      "number": "141",
+      "section": "Задания",
+      "condition": "141. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585294.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-141"
+    },
+    {
+      "number": "142",
+      "section": "Задания",
+      "condition": "142. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585295.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-142"
+    },
+    {
+      "number": "143",
+      "section": "Задания",
+      "condition": "143. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585296.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-143"
+    },
+    {
+      "number": "144",
+      "section": "Задания",
+      "condition": "144. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585297.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-144"
+    },
+    {
+      "number": "145",
+      "section": "Задания",
+      "condition": "145. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585298.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-145"
+    },
+    {
+      "number": "146",
+      "section": "Задания",
+      "condition": "146. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585299.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-146"
+    },
+    {
+      "number": "147",
+      "section": "Задания",
+      "condition": "147. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585300.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-147"
+    },
+    {
+      "number": "148",
+      "section": "Задания",
+      "condition": "148. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585301.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-148"
+    },
+    {
+      "number": "149",
+      "section": "Задания",
+      "condition": "149. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585302.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-149"
+    },
+    {
+      "number": "150",
+      "section": "Задания",
+      "condition": "150. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585304.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-150"
+    },
+    {
+      "number": "151",
+      "section": "Задания",
+      "condition": "151. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585305.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-151"
+    },
+    {
+      "number": "152",
+      "section": "Задания",
+      "condition": "152. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585306.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-152"
+    },
+    {
+      "number": "153",
+      "section": "Задания",
+      "condition": "153. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585307.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-153"
+    },
+    {
+      "number": "154",
+      "section": "Задания",
+      "condition": "154. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585308.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-154"
+    },
+    {
+      "number": "155",
+      "section": "Задания",
+      "condition": "155. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585309.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-155"
+    },
+    {
+      "number": "156",
+      "section": "Задания",
+      "condition": "156. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585310.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-156"
+    },
+    {
+      "number": "157",
+      "section": "Задания",
+      "condition": "157. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585311.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-157"
+    },
+    {
+      "number": "158",
+      "section": "Задания",
+      "condition": "158. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585312.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-158"
+    },
+    {
+      "number": "159",
+      "section": "Задания",
+      "condition": "159. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585313.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-159"
+    },
+    {
+      "number": "160",
+      "section": "Задания",
+      "condition": "160. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585315.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-160"
+    },
+    {
+      "number": "161",
+      "section": "Задания",
+      "condition": "161. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585316.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-161"
+    },
+    {
+      "number": "162",
+      "section": "Задания",
+      "condition": "162. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585317.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-162"
+    },
+    {
+      "number": "163",
+      "section": "Задания",
+      "condition": "163. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585318.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-163"
+    },
+    {
+      "number": "164",
+      "section": "Задания",
+      "condition": "164. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585319.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-164"
+    },
+    {
+      "number": "165",
+      "section": "Задания",
+      "condition": "165. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585320.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-165"
+    },
+    {
+      "number": "166",
+      "section": "Задания",
+      "condition": "166. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585321.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-166"
+    },
+    {
+      "number": "167",
+      "section": "Задания",
+      "condition": "167. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585322.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-167"
+    },
+    {
+      "number": "168",
+      "section": "Задания",
+      "condition": "168. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585323.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-168"
+    },
+    {
+      "number": "169",
+      "section": "Задания",
+      "condition": "169. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585324.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-169"
+    },
+    {
+      "number": "170",
+      "section": "Задания",
+      "condition": "170. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585326.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-170"
+    },
+    {
+      "number": "171",
+      "section": "Задания",
+      "condition": "171. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585327.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-171"
+    },
+    {
+      "number": "172",
+      "section": "Задания",
+      "condition": "172. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585328.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-172"
+    },
+    {
+      "number": "173",
+      "section": "Задания",
+      "condition": "173. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585329.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-173"
+    },
+    {
+      "number": "174",
+      "section": "Задания",
+      "condition": "174. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585330.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-174"
+    },
+    {
+      "number": "175",
+      "section": "Задания",
+      "condition": "175. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585331.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-175"
+    },
+    {
+      "number": "176",
+      "section": "Задания",
+      "condition": "176. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585332.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-176"
+    },
+    {
+      "number": "177",
+      "section": "Задания",
+      "condition": "177. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585333.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-177"
+    },
+    {
+      "number": "178",
+      "section": "Задания",
+      "condition": "178. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585334.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-178"
+    },
+    {
+      "number": "179",
+      "section": "Задания",
+      "condition": "179. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585335.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-179"
+    },
+    {
+      "number": "180",
+      "section": "Задания",
+      "condition": "180. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585337.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-180"
+    },
+    {
+      "number": "181",
+      "section": "Задания",
+      "condition": "181. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585338.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-181"
+    },
+    {
+      "number": "182",
+      "section": "Задания",
+      "condition": "182. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585339.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-182"
+    },
+    {
+      "number": "183",
+      "section": "Задания",
+      "condition": "183. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585340.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-183"
+    },
+    {
+      "number": "184",
+      "section": "Задания",
+      "condition": "184. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585341.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-184"
+    },
+    {
+      "number": "185",
+      "section": "Задания",
+      "condition": "185. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585342.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-185"
+    },
+    {
+      "number": "186",
+      "section": "Задания",
+      "condition": "186. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585343.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-186"
+    },
+    {
+      "number": "187",
+      "section": "Задания",
+      "condition": "187. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585344.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-187"
+    },
+    {
+      "number": "188",
+      "section": "Задания",
+      "condition": "188. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585345.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-188"
+    },
+    {
+      "number": "189",
+      "section": "Задания",
+      "condition": "189. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585346.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-189"
+    },
+    {
+      "number": "190",
+      "section": "Задания",
+      "condition": "190. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585348.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-190"
+    },
+    {
+      "number": "191",
+      "section": "Задания",
+      "condition": "191. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585349.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-191"
+    },
+    {
+      "number": "192",
+      "section": "Задания",
+      "condition": "192. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585350.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-192"
+    },
+    {
+      "number": "193",
+      "section": "Задания",
+      "condition": "193. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585351.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-193"
+    },
+    {
+      "number": "194",
+      "section": "Задания",
+      "condition": "194. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585352.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-194"
+    },
+    {
+      "number": "195",
+      "section": "Задания",
+      "condition": "195. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585353.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-195"
+    },
+    {
+      "number": "196",
+      "section": "Задания",
+      "condition": "196. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585354.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-196"
+    },
+    {
+      "number": "197",
+      "section": "Задания",
+      "condition": "197. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585355.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-197"
+    },
+    {
+      "number": "198",
+      "section": "Задания",
+      "condition": "198. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585356.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-198"
+    },
+    {
+      "number": "199",
+      "section": "Задания",
+      "condition": "199. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585357.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-199"
+    },
+    {
+      "number": "200",
+      "section": "Задания",
+      "condition": "200. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5796/2585360.png?v=1666802297"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-200"
     },
     {
       "number": "112-2",
@@ -1400,1060 +2420,40 @@
       "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/kontrolnye-voprosy-i-zadaniya-zadanie-str-112"
     },
     {
-      "number": "113",
-      "section": "113",
-      "condition": "113. Решение на изображении.",
+      "number": "25-2",
+      "section": "стр. 25",
+      "condition": "стр. 25. Решение на изображении.",
       "solution": "",
       "answer": "",
       "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585263.png?v=1666802297"
+        "https://imgs.euroki.org/books/gdzs/5796/2585448.png?v=1666802296"
       ],
       "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-113"
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/kontrolnye-voprosy-i-zadaniya-zadanie-str-25"
     },
     {
-      "number": "114",
-      "section": "114",
-      "condition": "114. Решение на изображении.",
+      "number": "52-2",
+      "section": "стр. 52",
+      "condition": "стр. 52. Решение на изображении.",
       "solution": "",
       "answer": "",
       "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585264.png?v=1666802297"
+        "https://imgs.euroki.org/books/gdzs/5796/2585449.png?v=1666802296"
       ],
       "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-114"
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/kontrolnye-voprosy-i-zadaniya-zadanie-str-52"
     },
     {
-      "number": "115",
-      "section": "115",
-      "condition": "115. Решение на изображении.",
+      "number": "97-2",
+      "section": "стр. 97",
+      "condition": "стр. 97. Решение на изображении.",
       "solution": "",
       "answer": "",
       "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585265.png?v=1666802297"
+        "https://imgs.euroki.org/books/gdzs/5796/2585450.png?v=1666802296"
       ],
       "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-115"
-    },
-    {
-      "number": "116",
-      "section": "116",
-      "condition": "116. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585266.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-116"
-    },
-    {
-      "number": "117",
-      "section": "117",
-      "condition": "117. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585267.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-117"
-    },
-    {
-      "number": "118",
-      "section": "118",
-      "condition": "118. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585268.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-118"
-    },
-    {
-      "number": "119",
-      "section": "119",
-      "condition": "119. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585269.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-119"
-    },
-    {
-      "number": "120",
-      "section": "120",
-      "condition": "120. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585271.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-120"
-    },
-    {
-      "number": "121",
-      "section": "121",
-      "condition": "121. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585272.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-121"
-    },
-    {
-      "number": "122",
-      "section": "122",
-      "condition": "122. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585273.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-122"
-    },
-    {
-      "number": "123",
-      "section": "123",
-      "condition": "123. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585274.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-123"
-    },
-    {
-      "number": "124",
-      "section": "124",
-      "condition": "124. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585275.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-124"
-    },
-    {
-      "number": "125",
-      "section": "125",
-      "condition": "125. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585276.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-125"
-    },
-    {
-      "number": "126",
-      "section": "126",
-      "condition": "126. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585277.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-126"
-    },
-    {
-      "number": "127",
-      "section": "127",
-      "condition": "127. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585278.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-127"
-    },
-    {
-      "number": "128",
-      "section": "128",
-      "condition": "128. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585279.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-128"
-    },
-    {
-      "number": "129",
-      "section": "129",
-      "condition": "129. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585280.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-129"
-    },
-    {
-      "number": "130",
-      "section": "130",
-      "condition": "130. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585282.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-130"
-    },
-    {
-      "number": "131",
-      "section": "131",
-      "condition": "131. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585283.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-131"
-    },
-    {
-      "number": "132",
-      "section": "132",
-      "condition": "132. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585284.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-132"
-    },
-    {
-      "number": "133",
-      "section": "133",
-      "condition": "133. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585285.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-133"
-    },
-    {
-      "number": "134",
-      "section": "134",
-      "condition": "134. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585286.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-134"
-    },
-    {
-      "number": "135",
-      "section": "135",
-      "condition": "135. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585287.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-135"
-    },
-    {
-      "number": "136",
-      "section": "136",
-      "condition": "136. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585288.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-136"
-    },
-    {
-      "number": "137",
-      "section": "137",
-      "condition": "137. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585289.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-137"
-    },
-    {
-      "number": "138",
-      "section": "138",
-      "condition": "138. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585290.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-138"
-    },
-    {
-      "number": "139",
-      "section": "139",
-      "condition": "139. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585291.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-139"
-    },
-    {
-      "number": "140",
-      "section": "140",
-      "condition": "140. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585293.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-140"
-    },
-    {
-      "number": "141",
-      "section": "141",
-      "condition": "141. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585294.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-141"
-    },
-    {
-      "number": "142",
-      "section": "142",
-      "condition": "142. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585295.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-142"
-    },
-    {
-      "number": "143",
-      "section": "143",
-      "condition": "143. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585296.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-143"
-    },
-    {
-      "number": "144",
-      "section": "144",
-      "condition": "144. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585297.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-144"
-    },
-    {
-      "number": "145",
-      "section": "145",
-      "condition": "145. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585298.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-145"
-    },
-    {
-      "number": "146",
-      "section": "146",
-      "condition": "146. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585299.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-146"
-    },
-    {
-      "number": "147",
-      "section": "147",
-      "condition": "147. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585300.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-147"
-    },
-    {
-      "number": "148",
-      "section": "148",
-      "condition": "148. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585301.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-148"
-    },
-    {
-      "number": "149",
-      "section": "149",
-      "condition": "149. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585302.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-149"
-    },
-    {
-      "number": "150",
-      "section": "150",
-      "condition": "150. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585304.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-150"
-    },
-    {
-      "number": "151",
-      "section": "151",
-      "condition": "151. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585305.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-151"
-    },
-    {
-      "number": "152",
-      "section": "152",
-      "condition": "152. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585306.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-152"
-    },
-    {
-      "number": "153",
-      "section": "153",
-      "condition": "153. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585307.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-153"
-    },
-    {
-      "number": "154",
-      "section": "154",
-      "condition": "154. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585308.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-154"
-    },
-    {
-      "number": "155",
-      "section": "155",
-      "condition": "155. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585309.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-155"
-    },
-    {
-      "number": "156",
-      "section": "156",
-      "condition": "156. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585310.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-156"
-    },
-    {
-      "number": "157",
-      "section": "157",
-      "condition": "157. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585311.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-157"
-    },
-    {
-      "number": "158",
-      "section": "158",
-      "condition": "158. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585312.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-158"
-    },
-    {
-      "number": "159",
-      "section": "159",
-      "condition": "159. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585313.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-159"
-    },
-    {
-      "number": "160",
-      "section": "160",
-      "condition": "160. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585315.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-160"
-    },
-    {
-      "number": "161",
-      "section": "161",
-      "condition": "161. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585316.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-161"
-    },
-    {
-      "number": "162",
-      "section": "162",
-      "condition": "162. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585317.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-162"
-    },
-    {
-      "number": "163",
-      "section": "163",
-      "condition": "163. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585318.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-163"
-    },
-    {
-      "number": "164",
-      "section": "164",
-      "condition": "164. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585319.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-164"
-    },
-    {
-      "number": "165",
-      "section": "165",
-      "condition": "165. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585320.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-165"
-    },
-    {
-      "number": "166",
-      "section": "166",
-      "condition": "166. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585321.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-166"
-    },
-    {
-      "number": "167",
-      "section": "167",
-      "condition": "167. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585322.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-167"
-    },
-    {
-      "number": "168",
-      "section": "168",
-      "condition": "168. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585323.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-168"
-    },
-    {
-      "number": "169",
-      "section": "169",
-      "condition": "169. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585324.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-169"
-    },
-    {
-      "number": "170",
-      "section": "170",
-      "condition": "170. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585326.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-170"
-    },
-    {
-      "number": "171",
-      "section": "171",
-      "condition": "171. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585327.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-171"
-    },
-    {
-      "number": "172",
-      "section": "172",
-      "condition": "172. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585328.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-172"
-    },
-    {
-      "number": "173",
-      "section": "173",
-      "condition": "173. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585329.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-173"
-    },
-    {
-      "number": "174",
-      "section": "174",
-      "condition": "174. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585330.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-174"
-    },
-    {
-      "number": "175",
-      "section": "175",
-      "condition": "175. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585331.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-175"
-    },
-    {
-      "number": "176",
-      "section": "176",
-      "condition": "176. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585332.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-176"
-    },
-    {
-      "number": "177",
-      "section": "177",
-      "condition": "177. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585333.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-177"
-    },
-    {
-      "number": "178",
-      "section": "178",
-      "condition": "178. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585334.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-178"
-    },
-    {
-      "number": "179",
-      "section": "179",
-      "condition": "179. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585335.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-179"
-    },
-    {
-      "number": "180",
-      "section": "180",
-      "condition": "180. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585337.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-180"
-    },
-    {
-      "number": "181",
-      "section": "181",
-      "condition": "181. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585338.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-181"
-    },
-    {
-      "number": "182",
-      "section": "182",
-      "condition": "182. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585339.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-182"
-    },
-    {
-      "number": "183",
-      "section": "183",
-      "condition": "183. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585340.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-183"
-    },
-    {
-      "number": "184",
-      "section": "184",
-      "condition": "184. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585341.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-184"
-    },
-    {
-      "number": "185",
-      "section": "185",
-      "condition": "185. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585342.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-185"
-    },
-    {
-      "number": "186",
-      "section": "186",
-      "condition": "186. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585343.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-186"
-    },
-    {
-      "number": "187",
-      "section": "187",
-      "condition": "187. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585344.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-187"
-    },
-    {
-      "number": "188",
-      "section": "188",
-      "condition": "188. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585345.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-188"
-    },
-    {
-      "number": "189",
-      "section": "189",
-      "condition": "189. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585346.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-189"
-    },
-    {
-      "number": "190",
-      "section": "190",
-      "condition": "190. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585348.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-190"
-    },
-    {
-      "number": "191",
-      "section": "191",
-      "condition": "191. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585349.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-191"
-    },
-    {
-      "number": "192",
-      "section": "192",
-      "condition": "192. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585350.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-192"
-    },
-    {
-      "number": "193",
-      "section": "193",
-      "condition": "193. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585351.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-193"
-    },
-    {
-      "number": "194",
-      "section": "194",
-      "condition": "194. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585352.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-194"
-    },
-    {
-      "number": "195",
-      "section": "195",
-      "condition": "195. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585353.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-195"
-    },
-    {
-      "number": "196",
-      "section": "196",
-      "condition": "196. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585354.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-196"
-    },
-    {
-      "number": "197",
-      "section": "197",
-      "condition": "197. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585355.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-197"
-    },
-    {
-      "number": "198",
-      "section": "198",
-      "condition": "198. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585356.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-198"
-    },
-    {
-      "number": "199",
-      "section": "199",
-      "condition": "199. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585357.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-199"
-    },
-    {
-      "number": "200",
-      "section": "200",
-      "condition": "200. Решение на изображении.",
-      "solution": "",
-      "answer": "",
-      "images": [
-        "https://imgs.euroki.org/books/gdzs/5796/2585360.png?v=1666802297"
-      ],
-      "source": "euroki.org",
-      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/zadanie-200"
+      "sourceUrl": "https://www.euroki.org/gdz/ru/russkiy/5_klass/yakubovskaya-363/kontrolnye-voprosy-i-zadaniya-zadanie-str-97"
     }
   ]
 }

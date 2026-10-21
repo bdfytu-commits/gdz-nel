@@ -1,0 +1,972 @@
+{
+  "subject": "math",
+  "textbook": "dorofeev-4-339-2",
+  "author": "Дорофеев, Миракова, Бука",
+  "year": "2024",
+  "source": "parsed",
+  "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339",
+  "parsedAt": "2026-10-21T16:26:34Z",
+  "tasks": [
+    {
+      "number": "1.8",
+      "section": "Сложение и вычитание многозначных чисел столбиком",
+      "condition": "Сложение и вычитание многозначных чисел столбиком. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067606.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-1-slozhenie-i-vychitanie-mnogoznachnyh-chisel-stolbikom-zadanie-str-8"
+    },
+    {
+      "number": "2.8",
+      "section": "Центнер и тонна",
+      "condition": "Центнер и тонна. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067654.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-2-tsentner-i-tonna-zadanie-str-8"
+    },
+    {
+      "number": "4.18",
+      "section": "Секунда",
+      "condition": "Секунда. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067663.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-4-sekunda-zadanie-str-18"
+    },
+    {
+      "number": "5.18",
+      "section": "Сложение и вычитание величин",
+      "condition": "Сложение и вычитание величин. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067664.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-5-slozhenie-i-vychitanie-velichin-zadanie-str-18"
+    },
+    {
+      "number": "5.22",
+      "section": "Сложение и вычитание величин",
+      "condition": "Сложение и вычитание величин. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067668.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-5-slozhenie-i-vychitanie-velichin-zadanie-str-22"
+    },
+    {
+      "number": "6.22",
+      "section": "Умножение многозначного числа на однозначное число",
+      "condition": "Умножение многозначного числа на однозначное число. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067669.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-6-umnozhenie-mnogoznachnogo-chisla-na-odnoznachnoe-chislo-zadanie-str-22"
+    },
+    {
+      "number": "8.31",
+      "section": "Нахождение дроби от числа",
+      "condition": "Нахождение дроби от числа. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067678.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-8-nahozhdenie-drobi-ot-chisla-zadanie-str-31"
+    },
+    {
+      "number": "9.31",
+      "section": "Умножение на круглые десятки, сотни и тысячи",
+      "condition": "Умножение на круглые десятки, сотни и тысячи. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067679.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-9-umnozhenie-na-kruglye--desyatki-sotni-i-tysyachi-zadanie-str-31"
+    },
+    {
+      "number": "9.33",
+      "section": "Умножение на круглые десятки, сотни и тысячи",
+      "condition": "Умножение на круглые десятки, сотни и тысячи. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067681.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-9-umnozhenie-na-kruglye--desyatki-sotni-i-tysyachi-zadanie-str-33"
+    },
+    {
+      "number": "10.33",
+      "section": "Таблица единиц длины",
+      "condition": "Таблица единиц длины. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067607.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-10-tablitsa-edinits-dliny-zadanie-str-33"
+    },
+    {
+      "number": "12.45",
+      "section": "Таблица единиц массы",
+      "condition": "Таблица единиц массы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067619.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-12-tablitsa-edinits-massy-zadanie-str-45"
+    },
+    {
+      "number": "13.45",
+      "section": "Задачи на движение в противоположных направлениях",
+      "condition": "Задачи на движение в противоположных направлениях. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067620.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-13-zadachi-na-dvizhenie-v-protivopolozhnyh-napravleniyah-zadanie-str-45"
+    },
+    {
+      "number": "66",
+      "section": "Время. Единицы времени",
+      "condition": "Время. Единицы времени. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067640.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-17-vremya-edinitsy-vremeni-zadanie-str-66"
+    },
+    {
+      "number": "67",
+      "section": "Время. Единицы времени",
+      "condition": "Время. Единицы времени. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067641.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-17-vremya-edinitsy-vremeni-zadanie-str-67"
+    },
+    {
+      "number": "68",
+      "section": "Время. Единицы времени",
+      "condition": "Время. Единицы времени. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067642.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-17-vremya-edinitsy-vremeni-zadanie-str-68"
+    },
+    {
+      "number": "69",
+      "section": "Время. Единицы времени",
+      "condition": "Время. Единицы времени. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067643.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-17-vremya-edinitsy-vremeni-zadanie-str-69"
+    },
+    {
+      "number": "70",
+      "section": "Время. Единицы времени",
+      "condition": "Время. Единицы времени. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067644.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-17-vremya-edinitsy-vremeni-zadanie-str-70"
+    },
+    {
+      "number": "71",
+      "section": "Время. Единицы времени",
+      "condition": "Время. Единицы времени. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067645.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-17-vremya-edinitsy-vremeni-zadanie-str-71"
+    },
+    {
+      "number": "72",
+      "section": "Время. Единицы времени",
+      "condition": "Время. Единицы времени. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067646.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-17-vremya-edinitsy-vremeni-zadanie-str-72"
+    },
+    {
+      "number": "73",
+      "section": "Время. Единицы времени",
+      "condition": "Время. Единицы времени. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067647.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-17-vremya-edinitsy-vremeni-zadanie-str-73"
+    },
+    {
+      "number": "74",
+      "section": "Время. Единицы времени",
+      "condition": "Время. Единицы времени. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067648.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-17-vremya-edinitsy-vremeni-zadanie-str-74"
+    },
+    {
+      "number": "11",
+      "section": "Доли и дроби",
+      "condition": "Доли и дроби. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067656.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-3-doli-i-drobi-zadanie-str-11"
+    },
+    {
+      "number": "12",
+      "section": "Доли и дроби",
+      "condition": "Доли и дроби. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067657.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-3-doli-i-drobi-zadanie-str-12"
+    },
+    {
+      "number": "13",
+      "section": "Доли и дроби",
+      "condition": "Доли и дроби. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067658.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-3-doli-i-drobi-zadanie-str-13"
+    },
+    {
+      "number": "14",
+      "section": "Доли и дроби",
+      "condition": "Доли и дроби. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067659.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-3-doli-i-drobi-zadanie-str-14"
+    },
+    {
+      "number": "55",
+      "section": "Задачи в одном напрвлении",
+      "condition": "Задачи в одном напрвлении. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067629.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-15-zadachi-v-odnom-naprvlenii-zadanie-str-55"
+    },
+    {
+      "number": "56",
+      "section": "Задачи в одном напрвлении",
+      "condition": "Задачи в одном напрвлении. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067630.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-15-zadachi-v-odnom-naprvlenii-zadanie-str-56"
+    },
+    {
+      "number": "57",
+      "section": "Задачи в одном напрвлении",
+      "condition": "Задачи в одном напрвлении. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067631.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-15-zadachi-v-odnom-naprvlenii-zadanie-str-57"
+    },
+    {
+      "number": "58",
+      "section": "Задачи в одном напрвлении",
+      "condition": "Задачи в одном напрвлении. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067632.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-15-zadachi-v-odnom-naprvlenii-zadanie-str-58"
+    },
+    {
+      "number": "59",
+      "section": "Задачи в одном напрвлении",
+      "condition": "Задачи в одном напрвлении. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067633.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-15-zadachi-v-odnom-naprvlenii-zadanie-str-59"
+    },
+    {
+      "number": "60",
+      "section": "Задачи в одном напрвлении",
+      "condition": "Задачи в одном напрвлении. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067634.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-15-zadachi-v-odnom-naprvlenii-zadanie-str-60"
+    },
+    {
+      "number": "61",
+      "section": "Задачи в одном напрвлении",
+      "condition": "Задачи в одном напрвлении. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067635.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-15-zadachi-v-odnom-naprvlenii-zadanie-str-61"
+    },
+    {
+      "number": "36",
+      "section": "Задачи на встречное движение",
+      "condition": "Задачи на встречное движение. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067610.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-11-zadachi-na-vstrechnoe-dvizhenie-zadanie-str-36"
+    },
+    {
+      "number": "37",
+      "section": "Задачи на встречное движение",
+      "condition": "Задачи на встречное движение. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067611.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-11-zadachi-na-vstrechnoe-dvizhenie-zadanie-str-37"
+    },
+    {
+      "number": "38",
+      "section": "Задачи на встречное движение",
+      "condition": "Задачи на встречное движение. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067612.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-11-zadachi-na-vstrechnoe-dvizhenie-zadanie-str-38"
+    },
+    {
+      "number": "39",
+      "section": "Задачи на встречное движение",
+      "condition": "Задачи на встречное движение. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067613.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-11-zadachi-na-vstrechnoe-dvizhenie-zadanie-str-39"
+    },
+    {
+      "number": "40",
+      "section": "Задачи на встречное движение",
+      "condition": "Задачи на встречное движение. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067614.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-11-zadachi-na-vstrechnoe-dvizhenie-zadanie-str-40"
+    },
+    {
+      "number": "41",
+      "section": "Задачи на встречное движение",
+      "condition": "Задачи на встречное движение. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067615.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-11-zadachi-na-vstrechnoe-dvizhenie-zadanie-str-41"
+    },
+    {
+      "number": "46",
+      "section": "Задачи на движение в противоположных направлениях",
+      "condition": "Задачи на движение в противоположных направлениях. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067621.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-13-zadachi-na-dvizhenie-v-protivopolozhnyh-napravleniyah-zadanie-str-46"
+    },
+    {
+      "number": "48",
+      "section": "Задачи на движение в противоположных направлениях",
+      "condition": "Задачи на движение в противоположных направлениях. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067622.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-13-zadachi-na-dvizhenie-v-protivopolozhnyh-napravleniyah-zadanie-str-48"
+    },
+    {
+      "number": "49",
+      "section": "Задачи на движение в противоположных направлениях",
+      "condition": "Задачи на движение в противоположных направлениях. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067623.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-13-zadachi-na-dvizhenie-v-protivopolozhnyh-napravleniyah-zadanie-str-49"
+    },
+    {
+      "number": "50",
+      "section": "Задачи на движение в противоположных направлениях",
+      "condition": "Задачи на движение в противоположных направлениях. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067624.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-13-zadachi-na-dvizhenie-v-protivopolozhnyh-napravleniyah-zadanie-str-50"
+    },
+    {
+      "number": "51",
+      "section": "Задачи на движение в противоположных направлениях",
+      "condition": "Задачи на движение в противоположных направлениях. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067625.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-13-zadachi-na-dvizhenie-v-protivopolozhnyh-napravleniyah-zadanie-str-51"
+    },
+    {
+      "number": "62",
+      "section": "Материал для повторения и самоконтроля",
+      "condition": "Материал для повторения и самоконтроля. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067636.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-16-material-dlya-povtoreniya-i-samokontrolya-zadanie-str-62"
+    },
+    {
+      "number": "63",
+      "section": "Материал для повторения и самоконтроля",
+      "condition": "Материал для повторения и самоконтроля. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067637.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-16-material-dlya-povtoreniya-i-samokontrolya-zadanie-str-63"
+    },
+    {
+      "number": "64",
+      "section": "Материал для повторения и самоконтроля",
+      "condition": "Материал для повторения и самоконтроля. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067638.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-16-material-dlya-povtoreniya-i-samokontrolya-zadanie-str-64"
+    },
+    {
+      "number": "65",
+      "section": "Материал для повторения и самоконтроля",
+      "condition": "Материал для повторения и самоконтроля. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067639.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-16-material-dlya-povtoreniya-i-samokontrolya-zadanie-str-65"
+    },
+    {
+      "number": "27",
+      "section": "Нахождение дроби от числа",
+      "condition": "Нахождение дроби от числа. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067674.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-8-nahozhdenie-drobi-ot-chisla-zadanie-str-27"
+    },
+    {
+      "number": "28",
+      "section": "Нахождение дроби от числа",
+      "condition": "Нахождение дроби от числа. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067675.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-8-nahozhdenie-drobi-ot-chisla-zadanie-str-28"
+    },
+    {
+      "number": "29",
+      "section": "Нахождение дроби от числа",
+      "condition": "Нахождение дроби от числа. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067676.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-8-nahozhdenie-drobi-ot-chisla-zadanie-str-29"
+    },
+    {
+      "number": "30",
+      "section": "Нахождение дроби от числа",
+      "condition": "Нахождение дроби от числа. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067677.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-8-nahozhdenie-drobi-ot-chisla-zadanie-str-30"
+    },
+    {
+      "number": "15",
+      "section": "Секунда",
+      "condition": "Секунда. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067660.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-4-sekunda-zadanie-str-15"
+    },
+    {
+      "number": "16",
+      "section": "Секунда",
+      "condition": "Секунда. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067661.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-4-sekunda-zadanie-str-16"
+    },
+    {
+      "number": "17",
+      "section": "Секунда",
+      "condition": "Секунда. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067662.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-4-sekunda-zadanie-str-17"
+    },
+    {
+      "number": "19",
+      "section": "Сложение и вычитание величин",
+      "condition": "Сложение и вычитание величин. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067665.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-5-slozhenie-i-vychitanie-velichin-zadanie-str-19"
+    },
+    {
+      "number": "20",
+      "section": "Сложение и вычитание величин",
+      "condition": "Сложение и вычитание величин. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067666.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-5-slozhenie-i-vychitanie-velichin-zadanie-str-20"
+    },
+    {
+      "number": "21",
+      "section": "Сложение и вычитание величин",
+      "condition": "Сложение и вычитание величин. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067667.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-5-slozhenie-i-vychitanie-velichin-zadanie-str-21"
+    },
+    {
+      "number": "4",
+      "section": "Сложение и вычитание многозначных чисел столбиком",
+      "condition": "Сложение и вычитание многозначных чисел столбиком. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067602.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-1-slozhenie-i-vychitanie-mnogoznachnyh-chisel-stolbikom-zadanie-str-4"
+    },
+    {
+      "number": "5",
+      "section": "Сложение и вычитание многозначных чисел столбиком",
+      "condition": "Сложение и вычитание многозначных чисел столбиком. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067603.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-1-slozhenie-i-vychitanie-mnogoznachnyh-chisel-stolbikom-zadanie-str-5"
+    },
+    {
+      "number": "6",
+      "section": "Сложение и вычитание многозначных чисел столбиком",
+      "condition": "Сложение и вычитание многозначных чисел столбиком. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067604.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-1-slozhenie-i-vychitanie-mnogoznachnyh-chisel-stolbikom-zadanie-str-6"
+    },
+    {
+      "number": "7",
+      "section": "Сложение и вычитание многозначных чисел столбиком",
+      "condition": "Сложение и вычитание многозначных чисел столбиком. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067605.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-1-slozhenie-i-vychitanie-mnogoznachnyh-chisel-stolbikom-zadanie-str-7"
+    },
+    {
+      "number": "77",
+      "section": "Таблица единиц времени",
+      "condition": "Таблица единиц времени. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067651.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-19-tablitsa-edinits-vremeni-zadanie-str-77"
+    },
+    {
+      "number": "78",
+      "section": "Таблица единиц времени",
+      "condition": "Таблица единиц времени. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067652.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-19-tablitsa-edinits-vremeni-zadanie-str-78"
+    },
+    {
+      "number": "34",
+      "section": "Таблица единиц длины",
+      "condition": "Таблица единиц длины. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067608.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-10-tablitsa-edinits-dliny-zadanie-str-34"
+    },
+    {
+      "number": "35",
+      "section": "Таблица единиц длины",
+      "condition": "Таблица единиц длины. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067609.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-10-tablitsa-edinits-dliny-zadanie-str-35"
+    },
+    {
+      "number": "42",
+      "section": "Таблица единиц массы",
+      "condition": "Таблица единиц массы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067616.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-12-tablitsa-edinits-massy-zadanie-str-42"
+    },
+    {
+      "number": "43",
+      "section": "Таблица единиц массы",
+      "condition": "Таблица единиц массы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067617.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-12-tablitsa-edinits-massy-zadanie-str-43"
+    },
+    {
+      "number": "44",
+      "section": "Таблица единиц массы",
+      "condition": "Таблица единиц массы. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067618.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-12-tablitsa-edinits-massy-zadanie-str-44"
+    },
+    {
+      "number": "75",
+      "section": "Умножение величины на число",
+      "condition": "Умножение величины на число. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067649.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-18-umnozhenie-velichiny-na-chislo-zadanie-str-75"
+    },
+    {
+      "number": "76",
+      "section": "Умножение величины на число",
+      "condition": "Умножение величины на число. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067650.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-18-umnozhenie-velichiny-na-chislo-zadanie-str-76"
+    },
+    {
+      "number": "23",
+      "section": "Умножение многозначного числа на однозначное число",
+      "condition": "Умножение многозначного числа на однозначное число. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067670.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-6-umnozhenie-mnogoznachnogo-chisla-na-odnoznachnoe-chislo-zadanie-str-23"
+    },
+    {
+      "number": "24",
+      "section": "Умножение многозначного числа на однозначное число",
+      "condition": "Умножение многозначного числа на однозначное число. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067671.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-6-umnozhenie-mnogoznachnogo-chisla-na-odnoznachnoe-chislo-zadanie-str-24"
+    },
+    {
+      "number": "25",
+      "section": "Умножение на 10, 100, 1000, 10 000 и 100 000",
+      "condition": "Умножение на 10, 100, 1000, 10 000 и 100 000. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067672.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-7-umnozhenie-na-10-100-1000-10-000-i-100-000-zadanie-str-25"
+    },
+    {
+      "number": "26",
+      "section": "Умножение на 10, 100, 1000, 10 000 и 100 000",
+      "condition": "Умножение на 10, 100, 1000, 10 000 и 100 000. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067673.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-7-umnozhenie-na-10-100-1000-10-000-i-100-000-zadanie-str-26"
+    },
+    {
+      "number": "52",
+      "section": "Умножение на двузначное число",
+      "condition": "Умножение на двузначное число. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067626.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-14-umnozhenie-na-dvuznachnoe-chislo-zadanie-str-52"
+    },
+    {
+      "number": "53",
+      "section": "Умножение на двузначное число",
+      "condition": "Умножение на двузначное число. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067627.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-14-umnozhenie-na-dvuznachnoe-chislo-zadanie-str-53"
+    },
+    {
+      "number": "54",
+      "section": "Умножение на двузначное число",
+      "condition": "Умножение на двузначное число. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067628.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-14-umnozhenie-na-dvuznachnoe-chislo-zadanie-str-54"
+    },
+    {
+      "number": "32",
+      "section": "Умножение на круглые десятки, сотни и тысячи",
+      "condition": "Умножение на круглые десятки, сотни и тысячи. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067680.png?v=1606390770"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-9-umnozhenie-na-kruglye--desyatki-sotni-i-tysyachi-zadanie-str-32"
+    },
+    {
+      "number": "9",
+      "section": "Центнер и тонна",
+      "condition": "Центнер и тонна. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067655.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-2-tsentner-i-tonna-zadanie-str-9"
+    },
+    {
+      "number": "10",
+      "section": "Центнер и тонна",
+      "condition": "Центнер и тонна. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5657/2067653.png?v=1606390769"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/otvety-po-matematike-za-4-klass-dorofeev-339/chast-2-2-tsentner-i-tonna-zadanie-str-10"
+    }
+  ],
+  "part": 2
+}

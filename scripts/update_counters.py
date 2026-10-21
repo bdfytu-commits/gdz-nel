@@ -27,6 +27,20 @@ def ru(number: int) -> str:
     return f"{number:,}".replace(",", " ")
 
 
+def tasks_word(number: int) -> str:
+    tail = number % 100
+    if tail in (11, 12, 13, 14):
+        return "заданий"
+    return {1: "задание", 2: "задания", 3: "задания", 4: "задания"}.get(number % 10, "заданий")
+
+
+def books_word(number: int) -> str:
+    tail = number % 100
+    if tail in (11, 12, 13, 14):
+        return "книгам"
+    return "книге" if number % 10 == 1 else "книгам"
+
+
 def subjects_count() -> int:
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
     ids = {s["id"] for g in catalog["grades"] for s in g.get("subjects", [])}
@@ -45,6 +59,11 @@ def main() -> int:
         print("в stats.json нулевые счётчики")
         return 2
     ball = f"{ru(total)} заданий · {textbooks} учебников · {subjects} предметов"
+    grade5 = (stats.get("grades") or {}).get("5") or {}
+    g5_total = int(grade5.get("total") or 0)
+    g5_books = int(grade5.get("textbooks") or 0)
+    g5_text = (f"в 5 классе — {ru(g5_total)} {tasks_word(g5_total)} "
+               f"по {g5_books} {books_word(g5_books)}") if g5_total and g5_books else ""
 
     changed = 0
     for path in HTML_FILES:
@@ -59,6 +78,17 @@ def main() -> int:
         text = re.sub(
             r'(<dt id="stat-books">)[^<]*(</dt>)',
             lambda m: m.group(1) + str(textbooks) + m.group(2), text)
+        text = re.sub(
+            r'(<dt id="stat-subjects">)[^<]*(</dt>)',
+            lambda m: m.group(1) + str(subjects) + m.group(2), text)
+        text = re.sub(r"\d[\d ]* заданий по \d[\d ]* учебникам",
+                      f"{ru(total)} заданий по {textbooks} учебникам", text)
+        text = re.sub(r"заданий — \d[\d ]* по \d[\d ]* учебникам",
+                      f"заданий — {ru(total)} по {textbooks} учебникам", text)
+        text = re.sub(r"\d[\d ]* заданиям из \d[\d ]* учебников",
+                      f"{ru(total)} заданиям из {textbooks} учебников", text)
+        if g5_text:
+            text = re.sub(r"в 5 классе — [\d ]+ задани[йя] по \d+ книгам", g5_text, text)
         if text != before:
             path.write_text(text, encoding="utf-8")
             changed += 1

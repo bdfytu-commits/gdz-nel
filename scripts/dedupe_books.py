@@ -64,16 +64,26 @@ def main() -> int:
                 path = DATA / book["file"]
                 info[book["id"]] = {"book": book, "tasks": tasks_of(path) if path.exists() else -1}
 
-            # 1. битые огрызки: X.json при живых X-1.json / X-2.json
-            for bid, meta in list(info.items()):
-                if not re.fullmatch(r".+", bid) or re.search(r"-\d+$", bid):
+            # 1. битые огрызки внутри семейства X / X-1 / X-2: если одна
+            # сторона почти пустая (<= 25 заданий), а другая полная (>= 100),
+            # пустую сторону убираем. Две полные стороны — это разные издания,
+            # их не трогаем.
+            JUNK_MAX = 25
+            FULL_MIN = 100
+            families: dict[str, list[str]] = defaultdict(list)
+            for bid in info:
+                m = re.match(r"^(.*)-\d+$", bid)
+                if m and m.group(1) in info:
+                    families[m.group(1)].append(bid)
+            for base, sidecars in families.items():
+                members = [base] + sidecars
+                best = max(info[b]["tasks"] for b in members)
+                if best < FULL_MIN:
                     continue
-                sibs = [other for other in info if re.fullmatch(re.escape(bid) + r"-\d+", other)]
-                if not sibs:
-                    continue
-                best_sib = max(info[other]["tasks"] for other in sibs)
-                if meta["tasks"] < best_sib:
-                    removals[meta["book"]["file"]] = f"огрызок {bid} ({meta['tasks']} против {best_sib})"
+                for bid in members:
+                    if info[bid]["tasks"] <= JUNK_MAX:
+                        removals[info[bid]["book"]["file"]] = (
+                            f"огрызок {bid} ({info[bid]['tasks']} заданий против {best})")
 
             # 2. одинаковые книги из разных источников
             groups: dict[tuple, list[str]] = defaultdict(list)

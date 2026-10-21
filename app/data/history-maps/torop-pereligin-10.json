@@ -1,0 +1,81 @@
+{
+  "subject": "history-maps",
+  "textbook": "torop-pereligin-10",
+  "author": "Тороп В.В., Перелыгин В.В.",
+  "year": "2023–2026",
+  "source": "parsed",
+  "sourceUrl": "https://gdz.ru/class-10/istoriya/konturnie-karti-torop-pereligin/",
+  "parsedAt": "2026-10-21T16:24:11Z",
+  "tasks": [
+    {
+      "number": "2–3",
+      "section": "Контурные карты",
+      "condition": "Страница 2–3 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/history-maps/img/torop-pereligin-10/str-2-3.jpg"
+      ]
+    },
+    {
+      "number": "4–5",
+      "section": "Контурные карты",
+      "condition": "Страница 4–5 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/history-maps/img/torop-pereligin-10/str-4-5.jpg"
+      ]
+    },
+    {
+      "number": "6–7",
+      "section": "Контурные карты",
+      "condition": "Страница 6–7 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/history-maps/img/torop-pereligin-10/str-6-7.jpg"
+      ]
+    },
+    {
+      "number": "8–9",
+      "section": "Контурные карты",
+      "condition": "Страница 8–9 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/history-maps/img/torop-pereligin-10/str-8-9.jpg"
+      ]
+    },
+    {
+      "number": "10–11",
+      "section": "Контурные карты",
+      "condition": "Страница 10–11 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/history-maps/img/torop-pereligin-10/str-10-11.jpg"
+      ]
+    },
+    {
+      "number": "12–13",
+      "section": "Контурные карты",
+      "condition": "Страница 12–13 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/history-maps/img/torop-pereligin-10/str-12-13.jpg"
+      ]
+    },
+    {
+      "number": "14–15",
+      "section": "Контурные карты",
+      "condition": "Страница 14–15 контурных карт.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "data/history-maps/img/torop-pereligin-10/str-14-15.jpg"
+      ]
+    }
+  ]
+}

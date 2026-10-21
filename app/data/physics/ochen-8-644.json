@@ -1,0 +1,107 @@
+{
+  "subject": "physics",
+  "textbook": "ochen-8-644",
+  "author": "Очень старое издание",
+  "year": "2024",
+  "source": "parsed",
+  "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/peryshkin-universalnoe-izdanie-644",
+  "parsedAt": "2026-10-21T15:04:01Z",
+  "tasks": [
+    {
+      "number": "3.1",
+      "section": "Задание 1",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5876/2363166.png?v=1647956551"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/peryshkin-universalnoe-izdanie-644/3-sposoby-izmeneniya-vnutrenney-energii-tela-zadanie-zadanie-1"
+    },
+    {
+      "number": "15.2",
+      "section": "Задание 2",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5876/2363146.png?v=1647956551"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/peryshkin-universalnoe-izdanie-644/15-udelnaya-teplota-plavleniya-zadanie-zadanie-2"
+    },
+    {
+      "number": "17.3",
+      "section": "Задание 3",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5876/2363150.png?v=1647956551"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/peryshkin-universalnoe-izdanie-644/17-pogloschenie-energii-pri-isparenii-zhidkosti-i-vydelenie-eyo-pri-kondensatsii-para-zadanie-zadanie-3"
+    },
+    {
+      "number": "11",
+      "section": "Задание 11",
+      "condition": "Задание 11. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5876/2363225.png?v=1647956551"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/peryshkin-universalnoe-izdanie-644/61-deystvie-magnitnogo-polya-na-provodnik-s-tokom-elektricheskiy-dvigatel-zadanie-zadanie-11"
+    },
+    {
+      "number": "12",
+      "section": "Задание 12",
+      "condition": "Задание 12. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5876/2363227.png?v=1647956551"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/peryshkin-universalnoe-izdanie-644/62-istochniki-sveta-rasprostranenie-sveta-zadanie-zadanie-12"
+    },
+    {
+      "number": "6",
+      "section": "Задание 6",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5876/2363172.png?v=1647956551"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/peryshkin-universalnoe-izdanie-644/32-elektricheskiy-tok-istochniki-elektricheskogo-toka-zadanie-zadanie-6"
+    },
+    {
+      "number": "7",
+      "section": "Задание 7",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5876/2363209.png?v=1647956551"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/peryshkin-universalnoe-izdanie-644/52-edinitsy-raboty-elektricheskogo-toka-primenyaemye-na-praktike-zadanie-zadanie-7"
+    },
+    {
+      "number": "9",
+      "section": "Задание 9",
+      "condition": "Задание 9. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5876/2363218.png?v=1647956551"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/fizika/8_klass/peryshkin-universalnoe-izdanie-644/58-magnitnoe-pole-katushki-s-tokom-elektromagnity-i-ih-primenenie-zadanie-zadanie-9"
+    }
+  ]
+}

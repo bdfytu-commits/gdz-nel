@@ -1,0 +1,2801 @@
+{
+  "subject": "geometry",
+  "textbook": "merzlyak-9-897",
+  "author": "Мерзляк, Полонский, Якир",
+  "year": "2022",
+  "source": "parsed",
+  "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897",
+  "parsedAt": "2026-10-21T15:22:28Z",
+  "tasks": [
+    {
+      "number": "1",
+      "section": "Задание 1",
+      "condition": "Задание 1",
+      "solution": "1) Косинус = 1/5:\n\n2) Косинус = - 0,4:\n\n3) Синус = 0,6:\n\n4) Синус = 1:\n\n5) Косинус = 0:\n\n6) Косинус = - 1:",
+      "answer": "6) Косинус = - 1:",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-1"
+    },
+    {
+      "number": "10",
+      "section": "Задание 10",
+      "condition": "Задание 10",
+      "solution": "1) a = 1/2:\n\n0 < 1/2 < 1;\n\nОтвет: да.\n\n2) a = 0,3:\n\n0 < 0,3 < 1.\n\nОтвет: да.\n\n3) a = √35:\n\n0 < √35 < 1.\n\nОтвет: да.\n\n4) a = - 0,99:\n\n- 1 < - 0,99 < 0.\n\nОтвет: да.\n\n5) a = 1,001:\n\n1,001 > 1.\n\nОтвет: нет.\n\n6) a = √52:\n\n√52 = √5√4 > 1.\n\nОтвет: нет.",
+      "answer": "Ответ: нет.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-10"
+    },
+    {
+      "number": "100",
+      "section": "Задание 100",
+      "condition": "Задание 100",
+      "solution": "Дано:\n\n;\n\nAB = 24 см;\n\nR_опис = 8√3 см.\n\nНайти:\n\n∠ C.\n\nРешение.\n\nR = AB2∠ C\n\n∠ C = AB2R\n\n∠ C = 242 8√3 = 32√3 = √32.\n\n∠ C = √32 = 60^\n\n∠ C = 180^ - 60^ = 120.\n\nОтвет: 60^; 120^.",
+      "answer": "Ответ: 60^; 120^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-100"
+    },
+    {
+      "number": "101",
+      "section": "Задание 101",
+      "condition": "Задание 101",
+      "solution": "Схематический рисунок.\n\nДано:\n\nBC = 1 ч;\n\n∠ B = 100^;\n\n∠ C = 50^.\n\nНайти:\n\nP_ABC.\n\nРешение.\n\n∠ A = 180^ - ∠ B - ∠ C = 30^;\n\nBC∠ A = AB∠ C = AC∠ B\n\n130^ = AB50^ = AC100^\n\nAB0,76 = AC0,98 = 2\n\nAB 1,52; AC 1,96.\n\nP_ABC = AB + BC + AC =\n\n= 1,52 + 1 + 1,96 4,5 ч.\n\nОтвет: 4,5 ч.",
+      "answer": "Ответ: 4,5 ч.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-101"
+    },
+    {
+      "number": "102",
+      "section": "Задание 102",
+      "condition": "Задание 102",
+      "solution": "Схематический рисунок.\n\nДано:\n\nBD - биссектриса ∠ B;\n\n∠ A = α;\n\n∠ C = ;\n\nAC = b.\n\nНайти:\n\nBD.\n\nРешение.\n\n1) В :\n\n∠ B = 180^ - ∠ A - ∠ C =\n\n= 180^ - α - ;\n\n∠ B = (180^ - α - ) =\n\n= (α + );\n\nAB∠ C = AC∠ B\n\nAB = AC ∠ C∠ B = b/(α + );\n\n∠ DBC = 1/2∠ B = 90^ - 1/2(α + ).\n\n2) В :\n\n∠ BDA = ∠ DBC + ∠ ACB;\n\n∠ BDA = 90^ - 1/2(α + ) + =\n\n= 90^ - α - /2;\n\n∠ BDA = α - /2.\n\n3) В :\n\nAB∠ BDA = BD∠ A\n\nBD = AB ∠ A∠ BDA =\n\n= bα(α + )α - /2.\n\nОтвет: bα(α + )α - /2.",
+      "answer": "Ответ: bα(α + )α - /2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-102"
+    },
+    {
+      "number": "103",
+      "section": "Задание 103",
+      "condition": "Задание 103",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- равнобедренный;\n\nAD - биссектриса ∠ A;\n\nAC = a;\n\n∠ B = α.\n\nНайти:\n\nAD.\n\nРешение.\n\n1) В :\n\n∠ A = ∠ C = 180^ - ∠ B2 = 90^ - α/2;\n\n∠ BAD = ∠ CAD = 1/2∠ A = 45^ - α/4;\n\n∠ C = α/2.\n\nAC∠ B = AB∠ C\n\nAB = AC ∠ C∠ B = aα/2α.\n\n2) В :\n\n∠ BDA = 180^ - ∠ BAD - ∠ B =\n\n= 180^ - ≤ft( 45^ + 3α/4 );\n\n∠ BDA = ≤ft( 45^ + 3α/4 ).\n\nAB∠ BDA = AD∠ B\n\nAD = AB ∠ B∠ BDA =\n\n= aα/2≤ft( 45^ + 3α/4 ).\n\nОтвет: aα/2≤ft( 45^ + 3α/4 ).",
+      "answer": "Ответ: aα/2≤ft( 45^ + 3α/4 ).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-103"
+    },
+    {
+      "number": "104",
+      "section": "Задание 104",
+      "condition": "Задание 104",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\nAD - биссектриса ∠ A.\n\nДоказать:\n\nBDAB = CDAC.\n\nДоказательство.\n\n1) В :\n\n∠ BAD = ∠ CAD = 1/2∠ A.\n\n2) В :\n\n∠ CDA = 180^ - ∠ BDA;\n\n∠ CDA = ∠ BDA.\n\nAB∠ BDA = BD∠ BAD\n\nBDAB = ∠ BAD∠ BDA = ≤ft( 1/2∠ A )∠ BDA.\n\n3) В :\n\nAC∠ CDA = CD∠ CAD\n\nCDAC = ∠ CAD∠ CDA = ≤ft( 1/2∠ A )∠ BDA\n\nCD :AC = BD :AB.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-104"
+    },
+    {
+      "number": "105",
+      "section": "Задание 105",
+      "condition": "Задание 105",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - трапеция;\n\nAB = CD;\n\nBC = 9 см;\n\nAD = 21 см;\n\nBH - высота;\n\nBH = 8 см.\n\nНайти:\n\nR_опис. окр.\n\nРешение:\n\n1) Рассмотрим ABCD:\n\nAH = 1/2(AD - BC) =\n\n= 21 - 9/2 = 6 см.\n\n2) В :\n\n∠ AHB = 90^;\n\nAB = AH^2 + BH^2 =\n\n= √36 + 64 = √100 = 10 см.\n\n∠ A = BHAB = 8/10 = 4/5.\n\n3) В :\n\n∠ A = 1 - ^2∠ A =\n\n= √1 - 16/25 = 3/5;\n\nBD^2 = AB^2 + AD^2 - 2AB AD ∠ A =\n\n= 100 + 441 - 2 10 21 3/5 =\n\n= 541 - 252 = 289.\n\nBD = 17 см.\n\nR = BD2∠ A = 17/2 :4/5 = 17/2 5/4 =\n\n= 85/8 см = 10,625 см.\n\nОтвет: 10,625 см.",
+      "answer": "Ответ: 10,625 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-105"
+    },
+    {
+      "number": "106",
+      "section": "Задание 106",
+      "condition": "Задание 106",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\nCD - биссектриса ∠ C;\n\nDE BC;\n\nAE = a;\n\n∠ A = α;\n\n∠ B = β.\n\nНайти:\n\nCE.\n\nРешение.\n\n1) Четырехугольник CEDB:\n\n∠ DEC = 180^ - ∠ BCE;\n\n∠ DCE = 1/2∠ BCE.\n\n2) В :\n\n∠ CDE = 180^ - ∠ DEC - ∠ DCE =\n\n= ∠ BCE - 1/2∠ BCE = 1/2∠ BCE.\n\nСледовательно, -\n\nравнобедренный:\n\nDE = CE.\n\n3) Для прямых DE и BC и\n\nсекущей AB:\n\n∠ ADE = ∠ ABC = β -\n\nсоответственные.\n\n4) В :\n\nDE∠ A = AE∠ ADE;\n\nCE = DE = AE ∠ A∠ ADE = aα/β.\n\nОтвет: aα/β.",
+      "answer": "Ответ: aα/β.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-106"
+    },
+    {
+      "number": "107",
+      "section": "Задание 107",
+      "condition": "Задание 107",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\nAM - медиана;\n\n∠ MAB = α;\n\n∠ MAC = β;\n\nAM = m.\n\nНайти:\n\nAB; AC.\n\nРешение.\n\n1) Дополнительное построение:\n\nMK = AM;\n\nK AM.\n\n2) Четырехугольник ABKC:\n\nAM = MK;\n\nBM = MC.\n\nСледовательно:\n\nABKC - параллелограмм.\n\nОтсюда:\n\n∠ BAC = ∠ BAK + ∠ CAK = α + β;\n\nCK = AB;\n\n∠ ACK = 180^ - ∠ BAC.\n\n∠ ACK = ∠ BAC =\n\n= (α + β).\n\n3) В :\n\n∠ AKC = 180^ - ∠ ACK - ∠ CAK =\n\n= ∠ BAC - ∠ CAK = α;\n\nAK = 2AM = 2m.\n\nAK∠ ACK = CK∠ CAK =\n\n= AC∠ AKC;\n\nAB = CK = AK ∠ CAK∠ ACK =\n\n= 2mβ/(α + β);\n\nAC = AK ∠ AKC∠ ACK =\n\n= 2mα/(α + β).\n\nОтвет: 2mβ/(α + β); 2mα/(α + β).",
+      "answer": "Ответ: 2mβ/(α + β); 2mα/(α + β).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-107"
+    },
+    {
+      "number": "108",
+      "section": "Задание 108",
+      "condition": "Задание 108",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\nCD - медиана;\n\n∠ ACD = α;\n\n∠ BCD = β;\n\nBC = a.\n\nНайти:\n\nCD.\n\nРешение.\n\n1) Дополнительное построение:\n\nKD = CD;\n\nK CD.\n\n2) Рассмотрим CBKA:\n\nCD = KD;\n\nBD = AD.\n\nСледовательно:\n\nCBKA - параллелограмм.\n\nОтсюда:\n\n∠ BCA = ∠ BCK + ∠ ACK = α + β;\n\nAK = BC = a;\n\n∠ CAK = 180^ - ∠ BCA;\n\n∠ CAK = ∠ BCA =\n\n= (α + β).\n\n3) В :\n\nCK∠ CAK = AK∠ ACK\n\nCK = AK ∠ CAK∠ ACK =\n\n= a(α + β)/α;\n\nCD = 1/2CK = a(α + β)/2α.\n\nОтвет: a(α + β)/2α.",
+      "answer": "Ответ: a(α + β)/2α.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-108"
+    },
+    {
+      "number": "109",
+      "section": "Задание 109",
+      "condition": "Задание 109",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\nAA_1, BB_1, CC_1 - высоты ;\n\nAA_1 BB_1 = H.\n\nДоказать:\n\nR_AHB = R_BHC = R_AHC = R_ABC.\n\nДоказательство.\n\n1) В :\n\n∠ C = 180^ - ∠ A - ∠ B;\n\n∠ C = (∠ A + ∠ B);\n\nR_ABC = AB2∠ C = AB2(∠ A + ∠ B).\n\n2) В :\n\n∠ AA_1B = 90^;\n\n∠ BAH = 90^ - ∠ B;\n\n∠ BB_1A = 90^;\n\n∠ ABH = 90^ - ∠ A;\n\n∠ AHB = 180^ - ∠ BAH - ∠ ABH;\n\n∠ AHB = ∠ A + ∠ B.\n\nR_AHB = AB2∠ AHB =\n\n= AB2(∠ A + ∠ B).\n\n3) Аналогично:\n\nR_ABC = R_BHC = BC2(∠ B + ∠ C);\n\nR_ABC = R_AHC = AC2(∠ A + ∠ C).\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-109"
+    },
+    {
+      "number": "11",
+      "section": "Задание 11",
+      "condition": "Задание 11",
+      "solution": "1) a = 3/5; 0^ ≤ a ≤ 90^:\n\na = 1 - ^2a =\n\n= √1 - 9/25 = √16/25 = 4/5.\n\n2) a = 1/3; 90^ ≤ a ≤ 180^:\n\na = - 1 - ^2a =\n\n= - √1 - 1/9 = - √8/9 = - 2√23.\n\n3) a = √34:\n\na = ± 1 - ^2a =\n\n= ± √1 - 3/16 = ± √13/16 = ± √134.\n\n4) a = - 0,8:\n\na = ± 1 - ^2a =\n\n= ± √1 - 0,64 = ± √0,36 = ± 0,6.\n\n5) a = 4/5; 90^ < a ≤ 180^:\n\na = - 1 - ^2a =\n\n= - √1 - 16/25 = - √9/25 = - 3/5.\n\ntg a = a/ a = 4/5 :≤ft( - 3/5 ) = - 4/3.\n\n6) a = 12/13; 0^ < a ≤ 90^:\n\na = 1 - ^2a =\n\n= √1 - 144/169 = √25/169 = 5/13.\n\nctg a = a/ a = 12/13 :5/13 = 12/5.\n\nОтвет: 12/5.",
+      "answer": "Ответ: 12/5.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-11"
+    },
+    {
+      "number": "110",
+      "section": "Задание 110",
+      "condition": "Задание 110",
+      "solution": "Рисунок в учебнике.\n\nДано:\n\n;\n\n∠ A = 15^;\n\n∠ B = 5^;\n\nAB = a.\n\nНайти:\n\nAB; ACB.\n\nРешение.\n\n1) В :\n\n∠ C = 180^ - ∠ A - ∠ B = 160^;\n\nAB∠ C = AC∠ B = BC∠ A\n\nAC = AB ∠ B∠ C =\n\n= a 5^160^ 0,2548a;\n\nBC = AB ∠ A∠ C =\n\n= a 15^160^ 0,7567a.\n\n2) Время в пути:\n\nACB = 1/2AC + BC;\n\nACB = 0,1274a + 0,7567a =\n\n= 0,8841a.\n\nОтвет: через село C.",
+      "answer": "Ответ: через село C.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-110"
+    },
+    {
+      "number": "111",
+      "section": "Задание 111",
+      "condition": "Задание 111",
+      "solution": "Рисунок в учебнике.\n\nДано:\n\n;\n\n∠ A = 30^;\n\n∠ B = 70^;\n\nAB = a.\n\nНайти:\n\nAC; BC.\n\nРешение.\n\n1) В :\n\n∠ C = 180^ - ∠ A - ∠ B = 80^;\n\nAB∠ C = AC∠ B = BC∠ A\n\nAC = AB ∠ B∠ C =\n\n= a 70^80^ 0,9542a;\n\nBC = AB ∠ A∠ C =\n\n= a 30^80^ 0,5077a.\n\n2) Время в пути:\n\nAC = 0,9542a/90 0,0106a;\n\nBC = 0,5077a/60 0,0085a.\n\nОтвет: автобус.",
+      "answer": "Ответ: автобус.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-111"
+    },
+    {
+      "number": "112",
+      "section": "Задание 112",
+      "condition": "Задание 112",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - прямоугольник;\n\nBM - биссектриса ∠ B;\n\nCK - биссектриса ∠ C.\n\nДоказать:\n\nBM = CK.\n\nДоказательство.\n\n1) Рассмотрим ABCD:\n\n∠ A = ∠ B = ∠ C = ∠ D = 90^;\n\n∠ ABM = 1/2∠ B = 45^;\n\n∠ DCK = 1/2∠ C = 45^;\n\nAB = CD.\n\n2) = - по катету\n\nи углу:\n\n∠ A = ∠ D = 90^;\n\nAB = CD;\n\n∠ B = ∠ C.\n\nОтсюда:\n\nBM = CK.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-112"
+    },
+    {
+      "number": "113",
+      "section": "Задание 113",
+      "condition": "Задание 113",
+      "solution": "Рисунок в учебнике.\n\nДано:\n\nDE AC;\n\nFK AB.\n\nНайти:\n\nподобные треугольники.\n\nРешение.\n\n1) Для прямых AB и FK и\n\nсекущей AC:\n\n∠ BAC = ∠ FKC - соответств.\n\n2) Для прямых AB и FK и секущей DE:\n\n∠ BDE = ∠ FME - соответств.\n\n3) Для прямых DE и AC и секущей AB:\n\n∠ BDE = ∠ BAC - соответств.\n\n4) Для прямых AB и FK и секущей BC:\n\n∠ ABC = ∠ KFC - соответств.\n\n5) Подобны по двум углам:\n\n∠ BAC = ∠ BDE = ∠ FME = ∠ FKC;\n\n∠ ABC = ∠ DBE = ∠ MFE = ∠ KFC;\n\n.\n\nОтвет:\n\n; ; ; .",
+      "answer": "Ответ:\n\n; ; ; .",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-113"
+    },
+    {
+      "number": "114",
+      "section": "Задание 114",
+      "condition": "Задание 114",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - квадрат;\n\nAK :KB = 1 :2;\n\nDM :MC = 3 :1;\n\nMK = 13 см.\n\nНайти:\n\nAB.\n\nРешение:\n\n1) Дополнительное построение:\n\nKH CD;\n\nH CD.\n\n2) В ABCD:\n\nAB = CD = AD = KH = a;\n\nDH = AK = 1/3a,\n\nCM = 1/4a;\n\nMH = a - 1/3a - 1/4a = 5a/12.\n\n3) В :\n\nKH^2 + MH^2 = KM^2\n\na^2 + ≤ft( 5a/12 )^2 = 13^2\n\na^2 + 25/144a^2 = 169\n\n169/144a^2 = 169\n\na^2 = 144\n\na = 12 см.\n\nОтвет: 12 см.",
+      "answer": "Ответ: 12 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-114"
+    },
+    {
+      "number": "115",
+      "section": "Задание 115",
+      "condition": "Задание 115",
+      "solution": "Прямоугольный треугольник.\n\n1) a = 7 см, b = 35 см:\n\nc = a^2 + b^2 = √49 + 1225 =\n\n= 35,7 см;\n\nα = a/c = 7/35,7 0,1961;\n\nα 11^;\n\n= 90^;\n\nβ = 90^ - 11^ = 79^.\n\n2) c = 17 см, a = 8 см:\n\nb = c^2 - a^2 = √289 - 64 =\n\n= 15 см;\n\nα = a/c = 8/17 0,4706;\n\nα 28^;\n\n= 90^;\n\nβ = 90^ - 28^ = 62^.\n\n3) c = 4 см, α = 50^:\n\na = c α = 4 50^ 3,1 см;\n\nb = c α = 4 50^ 2,6 см;\n\n= 90^;\n\nβ = 90^ - 50^ = 40^.\n\n4) a = 8 см, α = 42^:\n\nc = a/α = 842^ 12 см;\n\nb = atg α = 8tg 42^ 8,9 см;\n\n= 90^;\n\nβ = 90^ - 42^ = 48^.",
+      "answer": "β = 90^ - 42^ = 48^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-115"
+    },
+    {
+      "number": "116",
+      "section": "Задание 116",
+      "condition": "Задание 116",
+      "solution": "1) a = 10 см, β = 20^, = 85^:\n\nα = 180^ - 20^ - 85^ = 75^;\n\nb = aβ/α = 10 20^75^ 3,5 см;\n\nc = a/α = 10 85^75^ 10,3 см.\n\n2) b = 16 см, α = 40^, β = 110^:\n\n= 180^ - 40^ - 110^ = 30^;\n\na = bα/β = 16 40^110^\n\n10,9 см;\n\nc = b/β = 16 30^110^\n\n8,5 см.",
+      "answer": "8,5 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-116"
+    },
+    {
+      "number": "117",
+      "section": "Задание 117",
+      "condition": "Задание 117",
+      "solution": "1) b = 9 см, α = 35^, = 70^:\n\nβ = 180^ - 35^ - 70^ = 75^;\n\na = bα/β = 9 35^75^ 5,3 см;\n\nc = b/β = 9 70^75^ 8,8 см.\n\n2) c = 14 см, β = 132^, = 24^:\n\nα = 180^ - 132^ - 24^ = 24^;\n\na = cα/ = 14 24^24^ = 14 см;\n\nb = cβ/ =\n\n= 14 132^24^ 25,6 см.",
+      "answer": "= 14 132^24^ 25,6 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-117"
+    },
+    {
+      "number": "118",
+      "section": "Задание 118",
+      "condition": "Задание 118",
+      "solution": "1) b = 18 см, c = 22 см, α = 76^:\n\na = b^2 + c^2 - 2bc α;\n\na = 324 + 484 - 36 22 76^;\n\na = √808 - 792 0,24 24,8 см;\n\nβ = bα/a = 18 76^24,8;\n\nβ 0,7042;\n\nβ 45^;\n\n= 180^ - 76^ - 45^ = 59^.\n\n2) a = 20 см, b = 15 см, = 104^;\n\nc = a^2 + b^2 - 2ab ;\n\nc = 400 + 225 - 40 15 104^;\n\nc = √625 + 600 0,24 27,8 см;\n\nα = a/c = 20 104^27,8;\n\nα 0,6981;\n\nα 44^;\n\nβ = 180^ - 104^ - 44^ = 32^.",
+      "answer": "β = 180^ - 104^ - 44^ = 32^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-118"
+    },
+    {
+      "number": "119",
+      "section": "Задание 119",
+      "condition": "Задание 119",
+      "solution": "1) a = 8 см, c = 6 см, β = 15^:\n\nb = a^2 + c^2 - 2ac β;\n\nb = 64 + 36 - 2 8 6 15^;\n\nb = √100 - 96 0,97 2,7 см;\n\nα = aβ/b = 8 15^2,7;\n\nα 0,7669;\n\nα 130^;\n\n= 180^ - 15^ - 130^ = 35^.\n\n2) b = 7 см, c = 5 см, α = 145^:\n\na = b^2 + c^2 - 2bc α;\n\na = 49 + 25 - 14 5 145^;\n\na = √74 + 70 0,82 11,5 см;\n\nβ = bα/a = 7 145^11,5;\n\nβ 0,3491;\n\nβ 20^;\n\n= 180^ - 145^ - 20^ = 15^.",
+      "answer": "= 180^ - 145^ - 20^ = 15^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-119"
+    },
+    {
+      "number": "12",
+      "section": "Задание 12",
+      "condition": "Задание 12",
+      "solution": "1) a = 5/13:\n\na = ± 1 - ^2a =\n\n= ± √1 - 25/169 = ± √144/169 = ± 12/13.\n\n2) a = 1/6:\n\na = ± 1 - ^2a =\n\n= ± √1 - 1/36 = ± √35/36 = ± √356.\n\n3) a = 5/13; 0^ ≤ a < 90^:\n\na = 1 - ^2a =\n\n= √1 - 25/169 = √144/169 = 12/13.\n\ntg a = a/ a = 5/13 :12/13 = 5/12.\n\n4) a = - 8/17:\n\na = ± 1 - ^2a =\n\n= ± √1 - 64/289 = ± √225/289 = ± 15/17.\n\nctg a = a/ a = - 8/17 :≤ft( ± 15/17 ) =\n\n= ± 8/15.",
+      "answer": "= ± 8/15.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-12"
+    },
+    {
+      "number": "120",
+      "section": "Задание 120",
+      "condition": "Задание 120",
+      "solution": "1) a = 4 см, b = 5 см, c = 7 см:\n\nα = b^2 + c^2 - a^22bc =\n\n= 25 + 49 - 16/2 5 7;\n\nα = 58/70 0,8286;\n\nα 34^.\n\nβ = a^2 + c^2 - b^22ac =\n\n= 16 + 49 - 25/2 4 7 = 40/56 0,7143;\n\nβ 44^;\n\n= 180^ - 34^ - 44^ = 102^.\n\n2) a = 26 см, b = 19 см, c = 42 см;\n\nα = b^2 + c^2 - a^22bc =\n\n= 361 + 1764 - 676/2 19 42 =\n\n= 1449/1596 0,9079;\n\nα 25^;\n\nβ = a^2 + c^2 - b^22ac =\n\n= 676 + 1764 - 361/2 26 42 =\n\n= 2079/2184 0,9519;\n\nβ 18^;\n\n= 180^ - 25^ - 18^ = 137^.",
+      "answer": "= 180^ - 25^ - 18^ = 137^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-120"
+    },
+    {
+      "number": "121",
+      "section": "Задание 121",
+      "condition": "Задание 121",
+      "solution": "1) a = 5 см, b = 6 см, c = 8 см:\n\nα = b^2 + c^2 - a^22bc =\n\n= 36 + 64 - 25/2 6 875/96 0,7813;\n\nα 39^;\n\nβ = a^2 + c^2 - b^22ac =\n\n= 25 + 64 - 36/2 5 8 = 53/80 0,6625;\n\nβ 49^;\n\n= 180^ - 39^ - 49^ = 92^.\n\n2) a = 21 см, b = 17 см, c = 32 см;\n\nα = b^2 + c^2 - a^22bc =\n\n= 289 + 1024 - 441/2 17 32 =\n\n= 872/1088 0,8015;\n\nα 37^;\n\nβ = a^2 + c^2 - b^22ac =\n\n= 441 + 1024 - 289/2 21 32 =\n\n= 1176/1344 0,8750;\n\nβ 29^.\n\n= 180^ - 37^ - 29^ = 114^.",
+      "answer": "= 180^ - 37^ - 29^ = 114^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-121"
+    },
+    {
+      "number": "122",
+      "section": "Задание 122",
+      "condition": "Задание 122",
+      "solution": "1) a = 10 см, b = 3 см, β = 10^:\n\nα = aβ/b = 10 10^3;\n\nα 0,5789;\n\nα 35^;\n\n= 180^ - 35^ - 10^ = 135^;\n\nc = b/β =\n\n= 3 135^10^ 12,2 см.\n\n2) a = 10 см, b = 3 см, β = 10^:\n\nα = aβ/b = 10 10^3;\n\nα 0,5789;\n\nα 145^;\n\n= 180^ - 145^ - 10^ = 25^;\n\nc = b/β = 3 25^10^ 7,3 см.",
+      "answer": "c = b/β = 3 25^10^ 7,3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-122"
+    },
+    {
+      "number": "123",
+      "section": "Задание 123",
+      "condition": "Задание 123",
+      "solution": "1) a = 7 см, b = 11 см, β = 46^:\n\nα = aβ/b = 7 46^11;\n\nα 0,4578;\n\nα 27^;\n\n= 180^ - 27^ - 46^ = 107^;\n\nc = b/β =\n\n= 11 107^46^ 14,6 см.\n\n2) b = 15 см, c = 17 см, β = 32^:\n\n= cβ/b = 17 32^15;\n\n0,6006.\n\n_1 37^; _2 143^:\n\nα_1 = 180^ - 32^ - 37^ = 111^;\n\na_1 = cα/ =\n\n= 17 111^37^ 26,4 см;\n\nα_2 = 180^ - 32^ - 143^ = 5^;\n\na_2 = cα/ = 17 5^143^ 2,5 см.\n\n3) a = 7 см, c = 3 см, = 27^:\n\nα = a/c = 7 27^3;\n\nα 1,0593;\n\nα - не существует.",
+      "answer": "α - не существует.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-123"
+    },
+    {
+      "number": "124",
+      "section": "Задание 124",
+      "condition": "Задание 124",
+      "solution": "1) a = 23 см, c = 30 см, = 102^:\n\nα = a/c = 23 102^30;\n\nα 0,7499;\n\nα 49^;\n\nβ = 180^ - 102^ - 49^ = 29^;\n\nb = cβ/ = 30 29^102^ 14,9 см.\n\n2) a = 18 см, b = 25 см, α = 36^:\n\nβ = bα/a = 25 36^18;\n\nβ 0,8164.\n\nβ_1 55^; β_2 125^.\n\n_1 = 180^ - 55^ - 36^ = 89^;\n\nc_1 = a/α =\n\n= 18 89^36^ 30,6 см.\n\n_2 = 180^ - 125^ - 36^ = 19^;\n\nc_2 = a/α =\n\n= 18 19^36^ 10,0 см.",
+      "answer": "= 18 19^36^ 10,0 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-124"
+    },
+    {
+      "number": "125",
+      "section": "Задание 125",
+      "condition": "Задание 125",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAB = BC = 20 см;\n\nCM - медиана;\n\nAD - биссектриса ∠ A;\n\n∠ A = 70^.\n\nНайти:\n\n1) AC;\n\n2) CM;\n\n3) AD;\n\n4) R_опис. окр..\n\nРешение.\n\n1) В :\n\nAB = BC;\n\n∠ C = ∠ A = 70^;\n\n∠ B = 180^ - 70^ - 70^ = 40^;\n\n= 400 + 400 - 2 20 20 40^ =\n\n= 800 - 800 0,7660 = 187,2;\n\nAC = √187,2 13,7 см.\n\n2) В :\n\nAM = 1/2AB = 1/2 20 = 10 см;\n\n= 287,2 - 274 0,3420 = 193,5;\n\nCM = √193,5 13,9 см.\n\n3) В :\n\n∠ CAD = 1/2∠ A = 1/2 70^ = 35^;\n\n∠ ADC = 180^ - 35^ - 70^ = 75^;\n\nAD∠ C = AC∠ ADC\n\nAD = AC ∠ C∠ ADC\n\nAD = 13,7 70^75^ 13,3 см.\n\n4) В :\n\nR = AB2∠ C = 20270^ 10,6 см.\n\nОтвет: 1) 13,7 см; 2) 13,9 см;\n\n3) 13,3 см; 4) 10,6 см.",
+      "answer": "Ответ: 1) 13,7 см; 2) 13,9 см;\n\n3) 13,3 см; 4) 10,6 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-125"
+    },
+    {
+      "number": "126",
+      "section": "Задание 126",
+      "condition": "Задание 126",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - трапеция;\n\nAC = 8 см;\n\nAB = CD;\n\n∠ CAD = 38^;\n\n∠ BAD = 72^.\n\nНайти:\n\n1) AB, BC, AD;\n\n2) R_опис. окр..\n\nРешение.\n\n1) Рассмотрим ABCD:\n\n∠ B = 180^ - ∠ A =\n\n= 180^ - 72^ = 108^;\n\n∠ BAC = ∠ A - ∠ CAD =\n\n= 72^ - 38^ = 34^;\n\n∠ BCA = 180^ - ∠ B - ∠ BAC = 38^;\n\n∠ C = ∠ B = 108^;\n\n∠ D = ∠ A = 72^.\n\n2) В :\n\nAB = AC ∠ BCA∠ ABC =\n\n= 8 38^108^ 5,2 см;\n\nBC = AC ∠ BAC∠ ABC =\n\n= 8 34^108^ 4,7 см.\n\n3) В :\n\n∠ ACD = ∠ C - ∠ BCA =\n\n= 108^ - 38^ = 70^;\n\nAD = AC ∠ ACD∠ ADC =\n\n= 8 70^72^ 7,9 см.\n\n4) В :\n\nR = AC2∠ ABC =\n\n= 82 108^ = 4,2 см.\n\nОтвет:\n\n1) 5,2 см; 4,7 см; 5,2 см; 7,9 см;\n\n2) 4,2 см.",
+      "answer": "Ответ:\n\n1) 5,2 см; 4,7 см; 5,2 см; 7,9 см;\n\n2) 4,2 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-126"
+    },
+    {
+      "number": "127",
+      "section": "Задание 127",
+      "condition": "Задание 127",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - трапеция;\n\nAD = 16 см;\n\nBC = 12 см;\n\nAB = 7 см;\n\nCD = 9 см.\n\nНайти:\n\n∠ A; ∠ B;∠ C; ∠ D.\n\nРешение.\n\n1) Дополнительное построение:\n\nCE AB;\n\nE AD.\n\n2) Для прямых CE и AB и\n\nсекущей AD:\n\n∠ CED = ∠ BAD - соответств.\n\n3) Параллелограмм ABCE:\n\nDE = AD - BC = 16 - 12 = 4 см;\n\nCE = AB = 7 см.\n\n4) ∠ D = ED^2 + CD^2 - CE^22 ED CD =\n\n= 16 + 81 - 49/2 4 9 = 48/72 0,6667;\n\n∠ D 48^.\n\n∠ E = CE^2 + ED^2 - CD^22 CE ED =\n\n= 49 + 16 - 81/2 7 4 =\n\n= - 16/56 - 0,2857;\n\n∠ A = ∠ E 107^.\n\n5) Трапеция ABCD:\n\n∠ B = 180^ - ∠ A =\n\n= 180^ - 107^ = 73^;\n\n∠ C = 180^ - ∠ D =\n\n= 180^ - 48^ = 132^.\n\nОтвет: 107^; 73^; 132^; 48^.",
+      "answer": "Ответ: 107^; 73^; 132^; 48^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-127"
+    },
+    {
+      "number": "128",
+      "section": "Задание 128",
+      "condition": "Задание 128",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - параллелограмм;\n\nBM - бисс ∠ B;\n\nAM = 8 см;\n\nP_ABCD = 50 см.\n\nНайти:\n\nDK.\n\nРешение.\n\n1) Для прямых BC и AD и\n\nсекущей BM:\n\n∠ BMA = ∠ CBM - накрест леж.\n\n2) В :\n\n∠ AMB = ∠ CBM = ∠ ABM = 1/2∠ B.\n\nСледовательно:\n\n- равнобедренный.\n\nОтсюда:\n\nAB = AM = 8 см.\n\n3) Рассмотрим ABCD:\n\nP_ABCD = 2AB + 2BC = 50 см;\n\nAB + BC = 25\n\nBC = 25 - AB = 17 см.\n\n∠ A = ∠ C;\n\nCD = AB = 8 см.\n\n4) - по двум углам:\n\n∠ A = ∠ C;\n\n∠ ABM = ∠ CBK.\n\nОтсюда:\n\nABCK = AMBC\n\n8/CD + DK = 8/17\n\n8 + DK = 17\n\nDK = 9 см.\n\nОтвет: 9 см.",
+      "answer": "Ответ: 9 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-128"
+    },
+    {
+      "number": "129",
+      "section": "Задание 129",
+      "condition": "Задание 129",
+      "solution": "Схематический рисунок.\n\nДано:\n\n_1B_1C_1;\n\nAB = 8 см;\n\nA_1B_1 = 5 см;\n\nP_A_1B_1C_1 = P_ABC - 18 см.\n\nНайти:\n\nP_ABC; P_A_1B_1C_1.\n\nРешение.\n\nВ и _1B_1C_1:\n\nk = P_ABCP_A_1B_1C_1 = ABA_1B_1 = 8/5;\n\nP_ABCP_ABC - 18 = 8/5\n\n5P_ABC = 8P_ABC - 144\n\n3P_ABC = 144\n\nP_ABC = 48 см.\n\nP_A_1B_1C_1 = 48 - 18 = 30 см.\n\nОтвет: 30 см; 48 см.",
+      "answer": "Ответ: 30 см; 48 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-129"
+    },
+    {
+      "number": "13",
+      "section": "Задание 13",
+      "condition": "Задание 13",
+      "solution": "1) 0^ < a < 90^\n\na > 0.\n\n90^ < b < 180^\n\nb < 0.\n\nОтвет: да.\n\n2) 45^ = (90^ - 45^) =\n\n= 45^.\n\nОтвет: да.\n\n3) ^2a + ^2a = 1\n\na = 0:\n\na = 1 - 0^2 = 1.\n\nОтвет: нет.\n\n4) 90^ < a < 180^\n\na < 0.\n\nОтвет: да.\n\n5) 0^ < a < 180^\n\na > 0.\n\nОтвет: нет.\n\n6) a = 0:\n\na = 90^.\n\nОтвет: да.\n\n7) a = 0:\n\na_1 = 0^;\n\na_2 = 180^.\n\nОтвет: нет.\n\n8) a = - 1:\n\na = 180^.\n\nОтвет: нет.\n\n9) a = 1:\n\na = 90^.\n\nОтвет: да.\n\n10) 90^ = 1:\n\n0^ ≤ a < 90^\n\n90^ < a ≤ 180^\n\na < 1.\n\nОтвет: да.\n\n11) 180^ = - 1:\n\n0^ ≤ a < 180^\n\na > - 1.\n\nОтвет: да.\n\n12) (180^ - a) = a.\n\nОтвет: да.\n\n13) (180^ - a) = - a.\n\nОтвет: да.\n\n14) 45^ = (360^ - 45^) =\n\n= 315^.\n\nОтвет: нет.\n\n15) 45^ = (180^ - 45^) =\n\n= 135^.\n\nОтвет: нет.\n\n16) 0^ < a < 90^:\n\ntg a > 0.\n\n90^ < b < 180^:\n\ntg b < 0.\n\nОтвет: да.\n\n17) 0^ < a < 90^:\n\ntg a > 0.\n\n90^ < b < 180^:\n\nctg b < 0.\n\nОтвет: да.",
+      "answer": "Ответ: да.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-13"
+    },
+    {
+      "number": "130",
+      "section": "Задание 130",
+      "condition": "Задание 130",
+      "solution": "Рисунок в учебнике.\n\nДано:\n\nABCD - прямоугольник;\n\nM - середина CD;\n\nAB = 6 см;\n\nAD = 5 см.\n\nНайти:\n\nS_ACM.\n\nРешение:\n\n1) Рассмотрим ABCD:\n\nCD = AB = 6 см;\n\nDM = 1/2CD = 3 см.\n\n2) В :\n\nS_AMD = 1/2AD DM =\n\n= 1/2 5 3 = 15/2 см^2.\n\n3) В :\n\nS_ACD = 1/2AD CD =\n\n= 1/2 5 6 = 15 см^2.\n\n4) В :\n\nS_ACM = S_ACD - S_AMD =\n\n= 15 - 15/2 = 15/2 = 7,5 см^2.\n\nОтвет: 7,5 см^2.",
+      "answer": "Ответ: 7,5 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-130"
+    },
+    {
+      "number": "131",
+      "section": "Задание 131",
+      "condition": "Задание 131",
+      "solution": "Схематический рисунок.\n\nДано:\n\n∠ ADB = α.\n\nДоказать:\n\nS_ABC = AC BDα/2.\n\nДоказательство.\n\n1) Дополнительное построение:\n\nBH AC;\n\nH AC.\n\n2) В :\n\n∠ BDH = 180^ - ∠ ADB;\n\n∠ BDH = ∠ ADB = α.\n\nα = BHBD\n\nBH = BD α.\n\n3) В :\n\nS_ABC = 1/2AC BH = AC BDα/2.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-131"
+    },
+    {
+      "number": "132",
+      "section": "Задание 132",
+      "condition": "Задание 132",
+      "solution": "1) AB = 12 см;AC = 9 см;∠ A = 30^:\n\nS = 1/2AB AC ∠ A =\n\n= 1/2 12 9 30^ =\n\n= 54 1/2 = 27 см^2.\n\nОтвет: 27 см^2 .\n\n2) AC = 3 см;BC = 6√2 см;∠ C = 135^:\n\nS = 1/2AC BC ∠ C =\n\n= 1/2 3 6√2 135^ =\n\n= 9√2 √22 = 9 см^2.\n\nОтвет: 9 см^2.",
+      "answer": "Ответ: 9 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-132"
+    },
+    {
+      "number": "133",
+      "section": "Задание 133",
+      "condition": "Задание 133",
+      "solution": "1) DE = 7 см, DF = 8 см, ∠ D = 60^:\n\nS = 1/2DE DF ∠ D =\n\n= 1/2 7 8 60^ =\n\n= 28 √32 = 14√3 см^2.\n\nОтвет: 14√3 см^2 .\n\n2) DE = 10 см;EF = 6 см;∠ E = 150^:\n\nS = 1/2DE EF ∠ E =\n\n= 1/2 10 6 150^ =\n\n= 30 1/2 = 15 см^2.\n\nОтвет: 15 см^2.",
+      "answer": "Ответ: 15 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-133"
+    },
+    {
+      "number": "134",
+      "section": "Задание 134",
+      "condition": "Задание 134",
+      "solution": "Схематический рисунок.\n\nРешение.\n\nS_MKN = 75 см^2;KN = 15 см;\n\n∠ K = 30^:\n\nS_MKN = 1/2MK KN ∠ K\n\nMK 15 30^ = 150\n\nMK 1/2 = 10\n\nMK = 20 см.\n\nОтвет: 20 см.",
+      "answer": "Ответ: 20 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-134"
+    },
+    {
+      "number": "135",
+      "section": "Задание 135",
+      "condition": "Задание 135",
+      "solution": "1) AB = 12 см;\n\nBC = 10 см;\n\nS_ABC = 30√3 см^2:\n\nS_ABC = 1/2AB BC ∠ B\n\n12 10 ∠ B = 60√3\n\n∠ B = √32\n\n∠ B = 60^.\n\nОтвет: 60^; 120^.\n\n2) AB = 14 см;\n\nAC = 8 см;\n\nS_ABC = 56 см^2:\n\nS_ABC = 1/2AB AC ∠ A\n\n14 8 ∠ A = 112\n\n∠ A = 1\n\n∠ A = 90^.\n\nОтвет: 90^.",
+      "answer": "Ответ: 90^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-135"
+    },
+    {
+      "number": "136",
+      "section": "Задание 136",
+      "condition": "Задание 136",
+      "solution": "S_ABC = 18 см^2;AC = 8 см;BC = 9 см:\n\nS_ABC = 1/2AC BC ∠ C\n\n8 9 ∠ C = 36\n\n∠ C = 1/2\n\n∠ C = 30^.\n\n∠ C = 180^ - 30^ = 150^.\n\nОтвет: 30^; 150^.",
+      "answer": "Ответ: 30^; 150^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-136"
+    },
+    {
+      "number": "137",
+      "section": "Задание 137",
+      "condition": "Задание 137",
+      "solution": "Схематический рисунок.\n\nAB = BC = 16 см;\n\n∠ A = ∠ C = 15^:\n\n∠ B = 180^ - 15^ - 15^ = 150^.\n\nS_ABC = 1/2AB BC ∠ B =\n\n= 1/2 16 16 150^ =\n\n= 128 1/2 = 64 см^2.\n\nОтвет: 64 см^2.",
+      "answer": "Ответ: 64 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-137"
+    },
+    {
+      "number": "138",
+      "section": "Задание 138",
+      "condition": "Задание 138",
+      "solution": "1) 13 см, 14 см, 15 см:\n\np = 1/2(13 + 14 + 15) =\n\n= 1/2 42 = 21 см.\n\nS = √21(21 - 13)(21 - 14)(21 - 15);\n\nS = √21 8 7 6 =\n\n= √7056 = 84 см^2.\n\nОтвет: 84 см^2.\n\n2) 2 см, 3 см, 4 см:\n\np = 1/2(2 + 3 + 4) =\n\n= 1/2 9 = 4,5 см.\n\nS = √4,5(4,5 - 2)(4,5 - 3)(4,5 - 4)\n\nS = √4,5 2,5 1,5 0,5 =\n\n= √135/16 = 3√154 см^2.\n\nОтвет: 3√154 см^2.",
+      "answer": "Ответ: 3√154 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-138"
+    },
+    {
+      "number": "139",
+      "section": "Задание 139",
+      "condition": "Задание 139",
+      "solution": "1) 9 см, 10 см, 17 см:\n\np = 1/2(9 + 10 + 17) =\n\n= 1/2 36 = 18 см.\n\nS = √18(18 - 9)(18 - 10)(18 - 17);\n\nS = √18 9 8 1 =\n\n= √1296 = 36 см^2.\n\nОтвет: 36 см^2.\n\n2) 4 см, 5 см, 7 см:\n\np = 1/2(4 + 5 + 7) = 1/2 16 = 8 см.\n\nS = √8(8 - 4)(8 - 5)(8 - 7) =\n\n= √8 4 3 1 = √96 = 4√6 см^2.\n\nОтвет: 4√6 см^2.",
+      "answer": "Ответ: 4√6 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-139"
+    },
+    {
+      "number": "14",
+      "section": "Задание 14",
+      "condition": "Задание 14",
+      "solution": "1)110^140^ < 0:\n\n110^ > 0; 140^ < 0.\n\n2)80^100^148^ > 0:\n\n80^ > 0;\n\n100^ < 0; 148^ < 0.\n\n3)128^^2130^tg92^ < 0:\n\n128^ > 0; tg92^ < 0.\n\n4)70^90^tg104^ = 0:\n\n90^ = 0.\n\n5)ctg100^114^11^ < 0;\n\nctg100^ < 0; 114^ > 0;\n\n11^ > 0.\n\n6)85^171^ctg87^ > 0;\n\n85^ > 0; 171^ > 0;\n\nctg87^ > 0.",
+      "answer": "ctg87^ > 0.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-14"
+    },
+    {
+      "number": "140",
+      "section": "Задание 140",
+      "condition": "Задание 140",
+      "solution": "Схематический рисунок.\n\nAB = 13 см;BC = 20 см;AC = 21 см:\n\np = 1/2(13 + 20 + 21) =\n\n= 54/2 = 27 см;\n\nS = √27(27 - 13)(27 - 20)(27 - 21);\n\nS = √27 14 7 6 =\n\n= √15 876 = 126 см^2.\n\nS = 1/2AC BH\n\nBH = 2SAC\n\nBH = 2 126/21 = 2 6 = 12 см.\n\nОтвет: 12 см.",
+      "answer": "Ответ: 12 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-140"
+    },
+    {
+      "number": "141",
+      "section": "Задание 141",
+      "condition": "Задание 141",
+      "solution": "Схематический рисунок.\n\nAB = 25 см;BC = 30 см;AC = 11 см:\n\np = 1/2(25 + 30 + 11) =\n\n= 66/2 = 33 см;\n\nS = √33(33 - 25)(33 - 30)(33 - 11);\n\nS = √33 8 3 22 =\n\n= √17 424 = 132 см^2.\n\nS = 1/2AC BH\n\nBH = 2SAC\n\nBH = 2 132/11 = 2 12 = 24 см.\n\nОтвет: 24 см.",
+      "answer": "Ответ: 24 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-141"
+    },
+    {
+      "number": "142",
+      "section": "Задание 142",
+      "condition": "Задание 142",
+      "solution": "Схематический рисунок.\n\nP = 32 см;r = 1,5 см:\n\np = 1/2P = 1/2 32 = 16 см;\n\nS_ABC = pr = 16 1,5 = 24 см^2.\n\nОтвет: 24 см^2.",
+      "answer": "Ответ: 24 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-142"
+    },
+    {
+      "number": "143",
+      "section": "Задание 143",
+      "condition": "Задание 143",
+      "solution": "Схематический рисунок.\n\nS = 84 см^2;P = 72 см:\n\np = 1/2P = 1/2 72 = 36 см;\n\nr = S/p = 84/36 = 7/3 = 21/3 см.\n\nОтвет: 21/3 см.",
+      "answer": "Ответ: 21/3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-143"
+    },
+    {
+      "number": "144",
+      "section": "Задание 144",
+      "condition": "Задание 144",
+      "solution": "1) 5 см, 5 см, 6 см:\n\np = 1/2(5 + 5 + 6) = 1/2 16 = 8;\n\nS = √8(8 - 5)(8 - 5)(8 - 6) =\n\n= √8 3 3 2 = √144 = 12 см^2.\n\nR = abc4S = 5 5 6/4 12 = 3,125 см;\n\nr = S/p = 12/8 = 3/2 = 1,5 см.\n\nОтвет: 1,5 см; 3,125 см.\n\n2) 25 см, 29 см, 36 см:\n\np = 1/2(25 + 29 + 36) =\n\n= 1/2 90 = 45;\n\nS = √45(45 - 25)(45 - 29)(45 - 36);\n\nS = √45 20 16 9 =\n\n= √129 600 = 360 см^2.\n\nR = abc4S = 25 29 36/4 360 = 145/8 =\n\n= 18,125 см;\n\nr = S/p = 360/45 = 8 см.\n\nОтвет: 8 см; 18,125 см.",
+      "answer": "Ответ: 8 см; 18,125 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-144"
+    },
+    {
+      "number": "145",
+      "section": "Задание 145",
+      "condition": "Задание 145",
+      "solution": "Схематический рисунок.\n\nAB = 6 см;BC = 25 см;AC = 29 см:\n\np = 1/2(6 + 25 + 29) =\n\n= 1/2 60 = 30 см.\n\nS = √30(30 - 6)(30 - 25)(30 - 29);\n\nS = √30 24 5 1 =\n\n= √3600 = 60 см^2.\n\nR = abc4S = 6 25 29/4 60 = 145/8 =\n\n= 18,125 см;\n\nr = S/p = 60/30 = 2 см.\n\nОтвет: 2 см; 18,125 см.",
+      "answer": "Ответ: 2 см; 18,125 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-145"
+    },
+    {
+      "number": "146",
+      "section": "Задание 146",
+      "condition": "Задание 146",
+      "solution": "1) a = 5√2 см;b = 9 см;α = 45^:\n\nS = ab α = 5√2 9 45^ =\n\n= 45√2 √22 = 45 см^2.\n\nОтвет: 45 см^2.\n\n2) a = 10 см;b = 18 см;α = 150^:\n\nS = ab α = 10 18 150^ =\n\n= 180 1/2 = 90 см^2.\n\nОтвет: 90 см^2.",
+      "answer": "Ответ: 90 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-146"
+    },
+    {
+      "number": "147",
+      "section": "Задание 147",
+      "condition": "Задание 147",
+      "solution": "Схематический рисунок.\n\nAB = 12 см;BC = 7 см;∠ ABC = 120^:\n\nS = AB BC ∠ ABC =\n\n= 12 7 120^ = 84 60^ =\n\n= 84 √32 = 42√3 см^2.\n\nОтвет: 42√3 см^2.",
+      "answer": "Ответ: 42√3 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-147"
+    },
+    {
+      "number": "148",
+      "section": "Задание 148",
+      "condition": "Задание 148",
+      "solution": "Схематический рисунок.\n\nABCD - ромб.\n\nAB = 9√3 см;∠ ABC = 60^:\n\nBC = AB = 9√3;\n\nS = AB BC ∠ ABC =\n\n= 9√3 9√3 60^ =\n\n= 81 3 √32 = 243√32 см^2.\n\nОтвет: 243√32 см^2.",
+      "answer": "Ответ: 243√32 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-148"
+    },
+    {
+      "number": "149",
+      "section": "Задание 149",
+      "condition": "Задание 149",
+      "solution": "Схематический рисунок.\n\nAC = 8 см;BD = 12 см;∠ BOA = 30^:\n\nS = 1/2 AC BD ∠ BOA =\n\n= 1/2 8 12 30^ =\n\n= 48 1/2 = 24 см^2.\n\nОтвет: 24 см^2.",
+      "answer": "Ответ: 24 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-149"
+    },
+    {
+      "number": "15",
+      "section": "Задание 15",
+      "condition": "Задание 15",
+      "solution": "1) 2120^ + 4150^ - 2 tg 135^ =\n\n= 260^ - 430^ + 2 tg 45^ =\n\n= 2 √32 - 4 √32 + 2 1 = 2 - √3.\n\n= - 1/2 - 8 ≤ft( 1/2 )^2 + 0 =\n\n= - 1/2 - 2 = - 21/2.\n\n= - 1 ≤ft( 45^ √3 + 45^ )^2 =\n\n= - ≤ft( √22 √3 + √22 )^2 =\n\n= - ≤ft( √3 + 1√2 )^2 = - 3 + 2√3 + 12 =\n\n= - 4 + 2√32 = - 2 - √3.\n\n= 1/2 + 1/4 + 1/2 = 11/4.",
+      "answer": "= 1/2 + 1/4 + 1/2 = 11/4.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-15"
+    },
+    {
+      "number": "150",
+      "section": "Задание 150",
+      "condition": "Задание 150",
+      "solution": "Схематический рисунок.\n\nAC = 3√3 см;\n\nBD = 4 см;\n\n∠ BOA = 60^:\n\nS = 1/2 AC BD ∠ BOA =\n\n= 1/2 3√3 4 60^ =\n\n= 6√3 √32 = 9 см^2.\n\nОтвет: 9 см^2.",
+      "answer": "Ответ: 9 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-150"
+    },
+    {
+      "number": "151",
+      "section": "Задание 151",
+      "condition": "Задание 151",
+      "solution": "Схематический рисунок.\n\nS_ABC = 36 см^2;∠ ABC = 30^:\n\nBC = AB;\n\nS = 1/2AB BC∠ ABC\n\nAB^2 30^ = 72\n\nAB^2 1/2 = 72\n\nAB^2 = 144\n\nAB = 12 см.\n\nОтвет: 12 см.",
+      "answer": "Ответ: 12 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-151"
+    },
+    {
+      "number": "152",
+      "section": "Задание 152",
+      "condition": "Задание 152",
+      "solution": "S = 1/2 a b α;\n\nα ≤ 1;\n\nα = 1;\n\nα = 90^.\n\nОтвет: прямоугольный\n\nс данными катетами имеет\n\nнаибольшую площадь.",
+      "answer": "Ответ: прямоугольный\n\nс данными катетами имеет\n\nнаибольшую площадь.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-152"
+    },
+    {
+      "number": "153",
+      "section": "Задание 153",
+      "condition": "Задание 153",
+      "solution": "a = 4 см;b = 6 см; ∠ ab = α.\n\n1) S = 6 см^2:\n\nS = 1/2 4 6α\n\n24 α = 12\n\nα = 1/2.\n\nОтвет: да.\n\n2) S = 14 см^2:\n\nS = 1/2 4 6α\n\n24 α = 28\n\nα = 7/6 > 1.\n\nОтвет: нет.\n\n3) S = 12 см^2:\n\nS = 1/2 4 6α\n\n24 α = 24\n\nα = 1.\n\nОтвет: да.",
+      "answer": "Ответ: да.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-153"
+    },
+    {
+      "number": "154",
+      "section": "Задание 154",
+      "condition": "Задание 154",
+      "solution": "Дано:\n\nABCD - параллелограмм;\n\nMNFK - прямоугольник;\n\nAB = MN;\n\nAD = NF;\n\nS_ABCD = 1/2S_MNFK.\n\nНайти:\n\n∠ BAD.\n\n1) S_MNFK = MN FK = AB AD.\n\n2) S_ABCD = AB AD ∠ BAD\n\nAB AD ∠ BAD = 1/2AB AD\n\n∠ BAD = 1/2\n\n∠ BAD = 30^.\n\nОтвет: 30^.",
+      "answer": "Ответ: 30^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-154"
+    },
+    {
+      "number": "155",
+      "section": "Задание 155",
+      "condition": "Задание 155",
+      "solution": "Рисунок в учебнике.\n\n1) Отношение S_1 и S_2.\n\nа) S_1S_2 = 1/2 3 b α1/2 b 1 α = 3.\n\nб) S_1S_2 = 1/2 2 a α1/2 a 4 α = 2/4 = 1/2.\n\nв) S_1S_2 = 1/2 1 4 α1/2 2 5 α = 4/10 = 2/5.\n\n2) Докажем:\n\nS_1S_2 = 1/2 AB AC ∠ BAC1/2 A_1B_1 A_1C_1 ∠ B_1A_1C_1 =\n\n= AB AC ∠ BACA_1B_1 A_1C_1 ∠ BAC =\n\n= AB ACA_1B_1 A_1C_1.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-155"
+    },
+    {
+      "number": "156",
+      "section": "Задание 156",
+      "condition": "Задание 156",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAD - биссектриса ∠ A;\n\nS_ABD = 12 см^2;\n\nS_ACD = 20 см^2.\n\nНайти:\n\nAB :AC.\n\nРешение.\n\n1) В :\n\n∠ BAD = ∠ CAD = 1/2∠ A.\n\n2) В :\n\nS_ABD = 1/2AB AD ∠ BAD\n\nAB = 24AD ≤ft( 1/2∠ A ).\n\n3) В :\n\nS_ACD = 1/2AC AD ∠ CAD\n\nAC = 40AD ≤ft( 1/2∠ A ).\n\n4) Отношение:\n\nABAC = 24/40 = 3/5.\n\nОтвет: 3 :5.",
+      "answer": "Ответ: 3 :5.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-156"
+    },
+    {
+      "number": "157",
+      "section": "Задание 157",
+      "condition": "Задание 157",
+      "solution": "Схематический рисунок.\n\nДано:\n\nBC = a;\n\n∠ B = β;\n\n∠ C = .\n\nНайти:\n\nS_ABC.\n\nРешение.\n\n∠ A = 180^ - ∠ B - ∠ C;\n\n∠ A = (∠ B + ∠ C) =\n\n= (β + ).\n\nBC∠ A = AB∠ C\n\nAB = BC ∠ C∠ A = a/(β + )\n\nS_ABC = 1/2AB BC∠ B =\n\n= a^2β2(β + ).\n\nОтвет: a^2β2(β + ).",
+      "answer": "Ответ: a^2β2(β + ).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-157"
+    },
+    {
+      "number": "158",
+      "section": "Задание 158",
+      "condition": "Задание 158",
+      "solution": "Схематический рисунок.\n\nДано:\n\nR_оп. окр. = R;\n\n∠ A = α;\n\n∠ B = β.\n\nНайти:\n\nS_ABC.\n\nРешение.\n\n∠ C = 180^ - ∠ A - ∠ B.\n\n∠ C = (∠ A + ∠ B)\n\n∠ C = (α + β).\n\nAC = 2R ∠ B = 2Rβ;\n\nBC = 2R ∠ A = 2Rα.\n\nS = 1/2AC BC ∠ A =\n\n= 2R^2αβ(α + β).\n\nОтвет: 2R^2αβ(α + β).",
+      "answer": "Ответ: 2R^2αβ(α + β).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-158"
+    },
+    {
+      "number": "159",
+      "section": "Задание 159",
+      "condition": "Задание 159",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAC = b;\n\n∠ A = α;\n\n∠ B = β.\n\nНайти:\n\nS_ABC.\n\nРешение.\n\n∠ C = 180^ - ∠ A - ∠ B;\n\n∠ C = (∠ A + ∠ B) =\n\n= (α + β).\n\nAC∠ B = BC∠ A\n\nBC = AC ∠ A∠ B = bα/β.\n\nS_ABC = 1/2AC BC∠ A =\n\n= b^2α(α + β)2β.\n\nОтвет: b^2α(α + β)2β.",
+      "answer": "Ответ: b^2α(α + β)2β.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-159"
+    },
+    {
+      "number": "16",
+      "section": "Задание 16",
+      "condition": "Задание 16",
+      "solution": "1) 2150^ - 4120^ =\n\n= 230^ + 460^ =\n\n= 2 1/2 + 4 1/2 = 1 + 2 = 3.\n\n2) tg 45^120^ctg 150^ =\n\n= 1 60^ ( - ctg 30^) =\n\n= √32 ≤ft( - √3 ) = - 3/2 = - 1,5.\n\n= ≤ft( √33 √22 - √3 √22 )^2 =\n\n= ≤ft( √6 - 3√66 )^2 = ≤ft( - 2√66 )^2 =\n\n= ≤ft( - 2√6 )^2 = 4/6 = 2/3.",
+      "answer": "= ≤ft( - 2√6 )^2 = 4/6 = 2/3.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-16"
+    },
+    {
+      "number": "160",
+      "section": "Задание 160",
+      "condition": "Задание 160",
+      "solution": "Схематический рисунок.\n\nДано:\n\nBD - высота;\n\nCE - высота;\n\n∠ A = α;\n\nBD = h_1;\n\nCE = h_2.\n\nНайти:\n\nS_ABC.\n\nРешение.\n\nS = 1/2AC BD = 1/2AC h_1\n\nAC = 2Sh_1.\n\nS = 1/2AB CE = 1/2AB h_2\n\nAB = 2Sh_2.\n\nS = 1/2AB AC ∠ A.\n\n2S^2h_1h_2 α = S\n\nS = h_1h_22α.\n\nОтвет: h_1h_22α.",
+      "answer": "Ответ: h_1h_22α.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-160"
+    },
+    {
+      "number": "161",
+      "section": "Задание 161",
+      "condition": "Задание 161",
+      "solution": "Схематический рисунок.\n\nДано:\n\nBM - высота;\n\nBM = h;\n\n∠ A = α;\n\n∠ ABC = β.\n\nНайти:\n\nS_ABC.\n\nРешение.\n\n1) В :\n\n∠ AMB = 90^;\n\nAB = BM∠ A = h/α.\n\n2) В :\n\n∠ C = 180^ - ∠ A - ∠ B;\n\n∠ C = (∠ A + ∠ B) = (α + β).\n\nAB∠ C = AC∠ B\n\nAC = AB ∠ B∠ C =\n\n= hβ/α(α + β).\n\nS = 1/2AC BM = h^2β2α(α + β).\n\nОтвет: h^2β2α(α + β).",
+      "answer": "Ответ: h^2β2α(α + β).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-161"
+    },
+    {
+      "number": "162",
+      "section": "Задание 162",
+      "condition": "Задание 162",
+      "solution": "Схематический рисунок.\n\nДано:\n\nO - центр впис. окружности;\n\nAB = 17 см;\n\nBC = 25 см;\n\nAC = 28 см;\n\nOH AB.\n\nНайти:\n\nS_AOB; S_BOC; S_AOC.\n\nРешение.\n\n1) В :\n\np = 1/2(17 + 25 + 28) =\n\n= 1/2 70 = 35 см;\n\nS = √35(35 - 17)(35 - 25)(35 - 28)\n\nS = √35 18 10 7 =\n\n= √44 100 = 210 см^2.\n\nOH = r = S/p = 210/35 = 6 см.\n\n2) В :\n\nS = 1/2AB OH = 1/2 17 6 = 51 см^2.\n\n3) В :\n\nS = 1/2 BC OH =\n\n= 1/2 25 6 = 75 см^2.\n\n4) В :\n\nS = 1/2 AC OH =\n\n= 1/2 28 6 = 84 см^2.\n\nОтвет: 51 см^2; 75 см^2; 84 см^2.",
+      "answer": "Ответ: 51 см^2; 75 см^2; 84 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-162"
+    },
+    {
+      "number": "163",
+      "section": "Задание 163",
+      "condition": "Задание 163",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAD - биссектриса ∠ A;\n\nAB = 6 см;\n\nAC = 8 см;\n\n∠ BAC = 120^.\n\nНайти:\n\nAD.\n\nРешение.\n\n1) В :\n\n∠ BAD = ∠ CAD = 1/2∠ A = 60^.\n\nS_ABC = 1/2AB AC ∠ A =\n\n= 1/2 6 8 120^ = 12√3 см^2.\n\n2) В :\n\nS_BAD = 1/2AB AD ∠ BAD =\n\n= 1/2 6AD 60^ = 1,5AD√3.\n\n3) В :\n\nS_CAD = 1/2AC AD ∠ CAD =\n\n= 1/2 8AD 60^ = 2AD√3.\n\nS_ABC = S_BAD + S_CAD:\n\n1,5AD√3 + 2AD√3 = 12√3\n\n3,5AD√3 = 12√3\n\n7AD√3 = 24√3\n\nAD = 24/7 см.\n\nОтвет: 24/7 см.",
+      "answer": "Ответ: 24/7 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-163"
+    },
+    {
+      "number": "164",
+      "section": "Задание 164",
+      "condition": "Задание 164",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - трапеция;\n\nAB = 13 см;\n\nBC = 10 см;\n\nCD = 37 см;\n\nAD = 50 см.\n\nНайти:\n\nS_ABCD.\n\nРешение.\n\n1) Дополнительное построение:\n\nBE CD, E AD;\n\nBH AD, H AD.\n\n2) EBCD - параллелограмм:\n\nBE = CD = 37 см.\n\nDE = BC = 10 см.\n\n3) В :\n\nAE = AD - DE =\n\n= 50 - 10 = 40 см.\n\np = 1/2(13 + 37 + 40) =\n\n= 1/2 90 = 45 см.\n\nS_ABE = √45(45 - 13)(45 - 37)(45 - 40)\n\nS_ABE = √45 32 8 5 =\n\n= √57 600 = 240 =\n\n= 1/2AE BH\n\nBH = 2 S_ABEAE\n\nBH = 2 240/40 = 2 6 = 12 см.\n\n4) ABCD - трапеция:\n\nS_ABCD = 1/2(BC + AD) BH =\n\n= 1/2(10 + 50) 12 =\n\n= 12 30 = 360 см^2.\n\nОтвет: 360 см^2.",
+      "answer": "Ответ: 360 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-164"
+    },
+    {
+      "number": "165",
+      "section": "Задание 165",
+      "condition": "Задание 165",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - трапеция;\n\nBC = 4 см;\n\nAD = 5 см;\n\nAC = 7 см;\n\nBD = 8 см.\n\nНайти:\n\nS_ABCD.\n\nРешение.\n\n1) Дополнительное построение:\n\nCE BD;\n\nE AD.\n\n2) DBCE - параллелограмм:\n\nCE = BD = 8 см;\n\nDE = BC = 4 см.\n\n3) В :\n\nAE = AD + DE = 5 + 4 = 9 см.\n\np = 1/2(7 + 8 + 9) =\n\n= 1/2 24 = 12 см.\n\nS_ACE = √12(12 - 7)(12 - 8)(12 - 9) =\n\n= √12 5 4 3 = √720 = 12√5.\n\nS_ACE = 1/2AE h = 1/2(AD + DE)h.\n\n4) ABCD - трапеция:\n\nS_ABCD = 1/2(BC + AD) h =\n\n= 1/2(AD + DE)h;\n\nS_ABCD = S_ACE = 12√5 см^2.\n\nОтвет: 12√5 см^2.",
+      "answer": "Ответ: 12√5 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-165"
+    },
+    {
+      "number": "166",
+      "section": "Задание 166",
+      "condition": "Задание 166",
+      "solution": "Схематический рисунок.\n\nДано:\n\nBM - высота;\n\nCK - высота;\n\n∠ A = 45^.\n\nНайти:\n\nS_AMK :S_ABC.\n\nРешение.\n\n1) В :\n\n∠ AMB = 90^;\n\n∠ A = AMAB.\n\n2) В :\n\n∠ AKC = 90^;\n\n∠ A = AKAC.\n\n3) В :\n\nS_ABC = 1/2AC AB ∠ A.\n\n4) В :\n\nS_AMK = 1/2AK AM ∠ A;\n\nS_AMKS_ABC = AK AM/AC AB = ^2∠ A;\n\nS_AMKS_ABC = ^245^ = 1/2.\n\nОтвет: 1 :2.",
+      "answer": "Ответ: 1 :2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-166"
+    },
+    {
+      "number": "167",
+      "section": "Задание 167",
+      "condition": "Задание 167",
+      "solution": "Схематический рисунок.\n\nДано:\n\nO - центр окружности,\n\nвписананной в ∠ C;\n\nOE = OF = r;\n\nOC - бисс ∠ C;\n\nAB = 50 см;\n\nBC = 39 см;\n\nAC = 41 см.\n\nНайти:\n\nr.\n\nРешение.\n\n1) В :\n\n∠ ACO = ∠ BCO = 1/2∠ C;\n\np = 1/2(50 + 39 + 41) =\n\n= 1/2 130 = 65;\n\nS_ABC = √65(65 - 50)(65 - 39)(65 - 41);\n\nS_ABC = √65 15 26 24 =\n\n= √608 400 = 780 см^2.\n\n2) В :\n\nS_OAC = 1/2AC OF = 41/2r.\n\n3) В :\n\nS_OBC = 1/2BC OE = 39/2r;\n\nS_ABC = S_OAC + S_OBC;\n\n41/2r + 39/2r = 780\n\n80r = 1560\n\nr = 19,5 см.\n\nОтвет: 19,5 см.",
+      "answer": "Ответ: 19,5 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-167"
+    },
+    {
+      "number": "168",
+      "section": "Задание 168",
+      "condition": "Задание 168",
+      "solution": "Схематический рисунок.\n\nДано:\n\nO - центр впис. окружности;\n\nS_AOB = 26 см^2;\n\nS_BOC = 28 см^2;\n\nS_AOC = 30 см^2;\n\nOH AB.\n\nНайти:\n\nS_AOB; S_BOC; S_AOC.\n\nРешение.\n\n1) В :\n\nS = 1/2AB OH\n\nAB OH = 52\n\nAB = 52OH.\n\n2) В :\n\nS = 1/2 BC OH\n\nBC OH = 56\n\nBC = 56OH.\n\n3) В :\n\nS = 1/2 AC OH\n\nAC OH = 60\n\nAC = 60OH.\n\n4) В :\n\np = 1/2 52 + 56 + 60OH = 84OH;\n\nS_ABC = 84OH 84 - 52OH 84 - 56OH 84 - 60OH;\n\nS_ABC = 84 32 28 24OH^4 = 1344OH^2.\n\nS_ABC = S_AOB + S_BOC + S_AOC:\n\n1344OH^2 = 26 + 28 + 30\n\nOH^2 = 1344/84 = 16\n\nOH = 4 см.\n\nAB = 52/4 = 13 см.\n\nBC = 56/4 = 14 см.\n\nAC = 60/4 = 15 см.\n\nОтвет: 13 см; 14 см; 15 см.",
+      "answer": "Ответ: 13 см; 14 см; 15 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-168"
+    },
+    {
+      "number": "169",
+      "section": "Задание 169",
+      "condition": "Задание 169",
+      "solution": "Схематический рисунок.\n\nДано:\n\nO - центр впис. окружности;\n\nAA_1, BB_1, CC_1 - высоты ;\n\nAA_1 = h_1;\n\nBB_1 = h_2;\n\nCC_1 = h_3.\n\nДоказать:\n\n1h_1 + 1h_2 + 1h_3 = 1/r.\n\nДоказательство.\n\n1) Пусть:\n\nBC = a,\n\nAC = b,\n\nAB = c.\n\n2) В :\n\nS = 1/2ah_1 = 1/2bh_2 = 1/2ch_3;\n\nS = pr = 1/2(a + b + c)r.\n\nah_1 = bh_2 = ch_3 = (a + b + c)r;\n\na/a + b + c = rh_1;\n\nb/a + b + c = rh_2;\n\nc/a + b + c = rh_3;\n\nrh_1 + rh_2 + rh_3 = a + b + c/a + b + c = 1\n\n1h_1 + 1h_2 + 1h_3 = 1/r.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-169"
+    },
+    {
+      "number": "17",
+      "section": "Задание 17",
+      "condition": "Задание 17",
+      "solution": "1) 18^162^ = 18^(180^ - 18^) =\n\n= 18^18^ = 1;\n\n2) 18^162^ = 18^(180^ - 18^) =\n\n= 18^- 18^ = - 1;\n\n3) tg 18^tg 162^ = tg 18^tg(180^ - 18^) =\n\n= tg 18^- tg 18^ = - 1;\n\n4) ctg 18^ctg 162^ = ctg 18^ctg(180^ - 18^) =\n\n= ctg 18^- ctg 18^ = - 1.",
+      "answer": "= ctg 18^- ctg 18^ = - 1.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-17"
+    },
+    {
+      "number": "170",
+      "section": "Задание 170",
+      "condition": "Задание 170",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - прямоугольник;\n\nBH AC;\n\n∠ ABH/∠ CBH = 4/5.\n\nНайти:\n\n∠ DBH.\n\nРешение.\n\n1) ABCD - прямоугольник:\n\n∠ B = ∠ ABH + ∠ CBH = 90^\n\n4/5∠ CBH + ∠ CBH = 90^\n\n9/5 ∠ CBH = 90^\n\n∠ CBH = 50^.\n\n∠ ABH = 4/5 50^ = 40^.\n\nAC = BD;\n\nAO = BO = 1/2AC.\n\n2) В :\n\n∠ AHB = 90^;\n\n∠ BAH = 90^ - ∠ ABH = 50^.\n\n3) - равнобедренный:\n\nAO = BO.\n\nОтсюда:\n\n∠ ABO = ∠ BAO = 50^;\n\n∠ DBH = ∠ ABO - ∠ ABH = 10^.\n\nОтвет: 10^.",
+      "answer": "Ответ: 10^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-170"
+    },
+    {
+      "number": "171",
+      "section": "Задание 171",
+      "condition": "Задание 171",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - трапеция;\n\nMK - средняя линия;\n\nME CD;\n\nMK = 56 см;\n\nAE :ED = 5 :8.\n\nНайти:\n\nBC; AD.\n\nРешение.\n\n1) EMKD - параллелограмм:\n\nED = MK = 56 см.\n\n2) ABCD - трапеция:\n\nAD = AE + DE = 5/8DE + DE =\n\n= 13/8DE = 13/8 56 = 91 см.\n\nMK = 1/2(AD + BC)\n\nBC = 2MK - AD\n\nBC = 2 56 - 91 =\n\n= 112 - 91 = 21 см.\n\nОтвет: 21 см; 91 см.",
+      "answer": "Ответ: 21 см; 91 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-171"
+    },
+    {
+      "number": "172",
+      "section": "Задание 172",
+      "condition": "Задание 172",
+      "solution": "Схематический рисунок.\n\nДано:\n\nCD - биссектриса ∠ C;\n\nDE AC;\n\nAC = 16 см;\n\nBC = 24 см.\n\nНайти:\n\nDE.\n\nРешение.\n\n1) Для прямых DE и AC и\n\nсекущей CD:\n\n∠ EDC = ∠ ACD - накрест леж.;\n\n2) Для прямых DE и AC и\n\nсекущей AB:\n\n∠ BAC = ∠ BDE - соответств.\n\n3) В :\n\n∠ BCD = ∠ ACD = 1/2∠ C.\n\n4) - равнобедренный:\n\n∠ EDC = ∠ ECD.\n\nОтсюда:\n\nEC = DE.\n\n5) - по двум углам:\n\n∠ BDE = ∠ BAC;\n\n∠ B - общий.\n\nОтсюда:\n\nBE = BC - EC = 24 - DE;\n\nACDE = BCBE\n\n16DE = 24/24 - DE\n\n384 - 16DE = 24DE\n\n40DE = 384\n\nDE = 9,6 см.\n\nОтвет: 9,6 см.",
+      "answer": "Ответ: 9,6 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-172"
+    },
+    {
+      "number": "173",
+      "section": "Задание 173",
+      "condition": "Задание 173",
+      "solution": "S_n = (n - 2) 180^;\n\nn - число углов:\n\nS_7 = (7 - 2) 180^ =\n\n= 5 180^ = 900^.\n\nОтвет: 900^.",
+      "answer": "Ответ: 900^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-173"
+    },
+    {
+      "number": "174",
+      "section": "Задание 174",
+      "condition": "Задание 174",
+      "solution": "1) S_n = 1080^:\n\nS_n = (n - 2) 180^ = 1080^\n\nn - 2 = 6\n\nn = 8 N.\n\nОтвет: да.\n\n2) S_n = 1200^:\n\nS_n = (n - 2) 180^ = 1200^\n\nn - 2 = 62/3\n\nn = 82/3 N.\n\nОтвет: нет.",
+      "answer": "Ответ: нет.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-174"
+    },
+    {
+      "number": "175",
+      "section": "Задание 175",
+      "condition": "Задание 175",
+      "solution": "1) a = 72^:\n\nS_n = (n - 2) 180^ = n 72^\n\nn - 2 = 2/5n\n\n3/5n = 2\n\nn = 31/3.\n\nОтвет: нет.\n\n2) S_n = 171^:\n\nS_n = (n - 2) 180^ = n 171^\n\nn - 2 = 19/20n\n\n1/20n = 2\n\nn = 40.\n\nОтвет: да.",
+      "answer": "Ответ: да.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-175"
+    },
+    {
+      "number": "176",
+      "section": "Задание 176",
+      "condition": "Задание 176",
+      "solution": "1) A_1A_2 A_n - многоугольник;\n\nO - центр окружности:\n\nOA_1 = OA_2 = = OA_n = R,\n\nA_1A_2 = A_2A_3 = = A_nA_1;\n\n_1OA_2 = _2OA_3 =\n\n= = _nOA_1;\n\n∠ OA_1A_2 = ∠ OA_2A_1 =\n\n= = ∠ OA_nA_1;\n\n∠ A_1A_2A_3 = ∠ A_2A_3A_4 =\n\n= = ∠ A_nA_1A_2.\n\nОтвет: да.\n\n2) ABCD - прямоугольник;\n\nAB ≠ BC:\n\n∠ A = ∠ B = ∠ C = ∠ D = 90^;\n\n∠ A + ∠ C = ∠ B + ∠ D;\n\nABCD - вписанный.\n\nОтвет: нет.\n\n3) A_1A_2 A_n - многоугольник;\n\nO - центр окружности;\n\nOH_1 A_1A_2;\n\nOH_2 A_2A_3, ;\n\nOH_n A_nA_1.\n\nOH_1 = OH_2 = = OH_n = R;\n\nA_1A_2 = A_2A_3 = = A_nA_1;\n\n_1A_2 = _2A_2;\n\n∠ OA_2H_1 = ∠ OA_2H_2;\n\n_1A_2 = _2A_3;\n\nOA_1 = OA_3;\n\nOA_1 = OA_2 = = OA_n;\n\n_1OA_2 = _2OA_3 = = _nOA_1;\n\n∠ OA_1A_2 = ∠ OA_2A_1 = = ∠ OA_nA_1;\n\n∠ A_1A_2A_3 = ∠ A_2A_3A_4 =\n\n= = ∠ A_nA_1A_2.\n\nОтвет: да.\n\n4) A_1A_2 A_n - многоугольник;\n\nO - центр окружности;\n\nOH_1 A_1A_2;\n\nOH_2 A_2A_3, ;\n\nOH_n A_nA_1.\n\nOH_1 = OH_2 = = OH_n = R;\n\n∠ A_1A_2A_3 = ∠ A_2A_3A_4 =\n\n= = ∠ A_nA_1A_2;\n\n_1A_2 = _2A_2;\n\n∠ OA_2H_1 = ∠ OA_2H_2 = 1/2∠ A_2;\n\n∠ OA_1H_1 = ∠ OA_2H_1 = ∠ OA_2H_2 =\n\n= = ∠ OA_nH_1;\n\n_1OA_2 = _2OA_3 = = _nOA_1;\n\nOA_1 = OA_2 = = OA_n.\n\nОтвет: да.",
+      "answer": "Ответ: да.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-176"
+    },
+    {
+      "number": "177",
+      "section": "Задание 177",
+      "condition": "Задание 177",
+      "solution": "1)\n\nA_1A_2 = A_2A_3 = = A_5A_6 = R.\n\n2)\n\n3)\n\nOA_2 A_1A_3, A_1H = A_3H.",
+      "answer": "OA_2 A_1A_3, A_1H = A_3H.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-177"
+    },
+    {
+      "number": "178",
+      "section": "Задание 178",
+      "condition": "Задание 178",
+      "solution": "1)\n\n2)",
+      "answer": "2)",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-178"
+    },
+    {
+      "number": "179",
+      "section": "Задание 179",
+      "condition": "Задание 179",
+      "solution": "1) n = 6:\n\nS_6 = (6 - 2) 180^ =\n\n= 4 180^ = 720^\n\na = 1/6 S_6 = 1/6 720^ = 120^.\n\nОтвет: 120^.\n\n2) n = 9:\n\nS_9 = (9 - 2) 180^ =\n\n= 7 180^ = 1260^\n\na = 1/9 S_9 = 1/9 1260^ = 140^.\n\nОтвет: 140^.\n\n3) n = 15:\n\nS_15 = (15 - 2) 180^ =\n\n= 13 180^ = 2340^\n\na = 1/15 S_15 = 1/15 2340^ = 156^.\n\nОтвет: 156^.",
+      "answer": "Ответ: 156^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-179"
+    },
+    {
+      "number": "18",
+      "section": "Задание 18",
+      "condition": "Задание 18",
+      "solution": "1) 28^152^ = 28^(180^ - 28^) =\n\n= 28^28^ = 1;\n\n2) 49^131^ = 49^(180^ - 49^) =\n\n= 49^- 49^ = - 1;\n\n3) tg 12^tg 168^ = tg 12^tg(180^ - 12^) =\n\n= tg 12^- tg 12^ = - 1;",
+      "answer": "= tg 12^- tg 12^ = - 1;",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-18"
+    },
+    {
+      "number": "180",
+      "section": "Задание 180",
+      "condition": "Задание 180",
+      "solution": "1) n = 8:\n\nS_6 = (8 - 2) 180^ =\n\n= 6 180^ = 1080^\n\na = 1/8 S_6 = 1/8 1080^ = 135^.\n\nОтвет: 135^.\n\n2) n = 10:\n\nS_9 = (10 - 2) 180^ =\n\n= 8 180^ = 1440^\n\na = 1/10 S_9 = 1/10 1440^ = 144^.\n\nОтвет: 144^.",
+      "answer": "Ответ: 144^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-180"
+    },
+    {
+      "number": "181",
+      "section": "Задание 181",
+      "condition": "Задание 181",
+      "solution": "1) a = 60^:\n\nS_n = (n - 2) 180^ = n 60^\n\nn - 2 = 1/3n\n\n2/3n = 2\n\nn = 3 стороны.\n\nОтвет: 3.\n\n2) a = 171^:\n\nS_n = (n - 2) 180^ = n 171^\n\nn - 2 = 19/20n\n\n1/20n = 2\n\nn = 40 сторон.\n\nОтвет: 40.",
+      "answer": "Ответ: 40.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-181"
+    },
+    {
+      "number": "182",
+      "section": "Задание 182",
+      "condition": "Задание 182",
+      "solution": "1) a = 90^:\n\nS_n = (n - 2) 180^ = n 90^\n\nn - 2 = 1/2n\n\n1/2n = 2\n\nn = 4 стороны.\n\nОтвет: 4.\n\n2) a = 108^:\n\nS_n = (n - 2) 180^ = n 108^\n\nn - 2 = 3/5n\n\n2/5n = 2\n\nn = 5 сторон.\n\nОтвет: 5.",
+      "answer": "Ответ: 5.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-182"
+    },
+    {
+      "number": "183",
+      "section": "Задание 183",
+      "condition": "Задание 183",
+      "solution": "1) a = 140^;\n\nS_n = (n - 2) 180^ = n 140^\n\nn - 2 = 7/9n\n\n2/9n = 2\n\nn = 9.\n\nОтвет: да.\n\n2) S_n = 130^:\n\nS_n = (n - 2) 180^ = n 130^\n\nn - 2 = 13/18n\n\n5/18n = 2\n\nn = 7,2.\n\nОтвет: нет.",
+      "answer": "Ответ: нет.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-183"
+    },
+    {
+      "number": "184",
+      "section": "Задание 184",
+      "condition": "Задание 184",
+      "solution": "α - угол многоугольника;\n\nβ = 1/9α - смежный угол.\n\n1) β = 180^ - α = 1/9α\n\n10/9α = 180^\n\nα = 162^.\n\n2) S_n = (n - 2) 180^ = n 162^\n\nn - 2 = 9/10n\n\n1/10n = 2\n\nn = 20 сторон.\n\nОтвет: 20.",
+      "answer": "Ответ: 20.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-184"
+    },
+    {
+      "number": "185",
+      "section": "Задание 185",
+      "condition": "Задание 185",
+      "solution": "α - угол многоугольника;\n\nβ = α - 168^ - смежный угол.\n\n1) β = 180^ - α = α - 168^\n\n2α = 348^\n\nα = 174^.\n\n2) S_n = (n - 2) 180^ = n 174^\n\nn - 2 = 29/30n\n\n1/30n = 2\n\nn = 60 сторон.\n\nОтвет: 60.",
+      "answer": "Ответ: 60.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-185"
+    },
+    {
+      "number": "186",
+      "section": "Задание 186",
+      "condition": "Задание 186",
+      "solution": "1) β = 90^:\n\nα = 180^ - 90^ = 90^;\n\nS_n = (n - 2) 180^ = n 90^\n\nn - 2 = 1/2n\n\n1/2n = 2\n\nn = 4 стороны.\n\nОтвет: 4.\n\n2) β = 24^:\n\nα = 180^ - 24^ = 156^;\n\nS_n = (n - 2) 180^ = n 156^\n\nn - 2 = 13/15n\n\n2/15n = 2\n\nn = 15 сторон.\n\nОтвет: 15.",
+      "answer": "Ответ: 15.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-186"
+    },
+    {
+      "number": "187",
+      "section": "Задание 187",
+      "condition": "Задание 187",
+      "solution": "1) β = 120^:\n\nα = 180^ - 120^ = 60^;\n\nS_n = (n - 2) 180^ = n 60^\n\nn - 2 = 1/3n\n\n2/3n = 2\n\nn = 3 стороны.\n\nОтвет: 3.\n\n2) β = 72^:\n\nα = 180^ - 72^ = 108^;\n\nS_n = (n - 2) 180^ = n 108^\n\nn - 2 = 3/5n\n\n2/5n = 2\n\nn = 5 сторон.\n\nОтвет: 5.",
+      "answer": "Ответ: 5.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-187"
+    },
+    {
+      "number": "188",
+      "section": "Задание 188",
+      "condition": "Задание 188",
+      "solution": "a_3\n\nR\n\nr\n\n6√3\n\n6\n\n3\n\n12\n\n4√3\n\n2√3\n\n4√3\n\n4\n\n2\n\nR_1 = 6√3260^ = 3√3 :√32 = 6;\n\nr_1 = 6√32 tg 60^ = 3√3 :√3 = 3;\n\na_2 = 4√3 260^ =\n\n= 8√3 √32 = 12;\n\nr_2 = 122 tg 60^ = 6√3 = 2√3;\n\na_3 = 2 2 tg 60^ = 4√3;\n\nR_3 = 4√3260^ = 2√3 :√32 = 4.",
+      "answer": "R_3 = 4√3260^ = 2√3 :√32 = 4.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-188"
+    },
+    {
+      "number": "189",
+      "section": "Задание 189",
+      "condition": "Задание 189",
+      "solution": "a_4\n\nR\n\nr\n\n8\n\n4√2\n\n4\n\n4√2\n\n4\n\n2√2\n\n2√2\n\n2\n\n√2\n\nR_1 = 8245^ = 4 :√22 = 4√2;\n\nr_1 = 82 tg 45^ = 4;\n\na_2 = 4 245^ = 8 √22 = 4√2;\n\nr_2 = 4√22 tg 45^ = 2√2;\n\na_3 = √2 2 tg 45^ = 2√2;\n\nR_3 = 2√2245^ = √2 :√22 = 2.",
+      "answer": "R_3 = 2√2245^ = √2 :√22 = 2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-189"
+    },
+    {
+      "number": "19",
+      "section": "Задание 19",
+      "condition": "Задание 19",
+      "solution": "a, b, c - углы данного\n\nпрямоугольного треугольника:\n\nc = 90^; b = 90^ - a.\n\nРешение.\n\nСумма квадратов синусов:\n\n^2a + ^2b + ^2c =\n\n= ^2a + ^2(90^ - a) + ^290^ =\n\n= ^2a + ^2a + 1^2 = 1 + 1 = 2.\n\nОтвет: 2.",
+      "answer": "Ответ: 2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-19"
+    },
+    {
+      "number": "190",
+      "section": "Задание 190",
+      "condition": "Задание 190",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- равносторонний;\n\nBH - высота;\n\nBH = 15 см.\n\nНайти:\n\n1) R;\n\n2) r.\n\nРешение.\n\n1) В :\n\nCH = 1/2AC = 1/2BC.\n\n2) В :\n\n∠ BHC = 90^;\n\nBC^2 = BH^2 + CH^2\n\nBC^2 = 225 + 1/4BC^2\n\n3/4BC^2 = 225\n\nBC^2 = 300\n\nBC = 10√3 см.\n\n3) В :\n\nR = 10√3260^ =\n\n= 5√3 :√32 = 10 см.\n\nr = 10√32 tg 60^ = 5√3 :√3 = 5 см.\n\nОтвет: 1) 10 см; 2) 5 см.",
+      "answer": "Ответ: 1) 10 см; 2) 5 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-190"
+    },
+    {
+      "number": "191",
+      "section": "Задание 191",
+      "condition": "Задание 191",
+      "solution": "Схематический\n\nДано:\n\nABCD - квадрат;\n\nBD = AC = 6√2 см.\n\nНайти:\n\n1) R;\n\n2) r.\n\nРешение:\n\n1) OA = OB = 1/2BD = 3√2;\n\nAC BD;\n\n∠ AOB = 90^.\n\n2) В :\n\n∠ AOB = 90^;\n\nAB = AO^2 + BO^2 =\n\n= √18 + 18 = √36 = 6 см.\n\n3) R = 6245^ = 3 :√22 = 3√2 см.\n\nr = 62 tg 45^ = 3 :1 = 3 см.\n\nОтвет: 1) 3√2 см; 2) 3 см.",
+      "answer": "Ответ: 1) 3√2 см; 2) 3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-191"
+    },
+    {
+      "number": "192",
+      "section": "Задание 192",
+      "condition": "Задание 192",
+      "solution": "R = 12 см.\n\n1) n = 6:\n\nR_n = a_n2180^n\n\na_n = 2R_n180^n\n\na_6 = 2 12 30^ =\n\n= 24 1/2 = 12 см.\n\nОтвет: 12 см.\n\n2) n = 12:\n\nR_n = a_n2180^n\n\na_n = 2R_n180^n\n\na_6 = 2 12 15^ =\n\n= 122 - √3 см.\n\nОтвет: 122 - √3 см.",
+      "answer": "Ответ: 122 - √3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-192"
+    },
+    {
+      "number": "193",
+      "section": "Задание 193",
+      "condition": "Задание 193",
+      "solution": "r = 8√3 см:\n\nr_n = a_n2tg180^n\n\na_n = 2r_ntg180^n\n\na_6 = 2 8√3 tg 30^ =\n\n= 16√3 √33 = 16 см.\n\nОтвет: 16 см.",
+      "answer": "Ответ: 16 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-193"
+    },
+    {
+      "number": "194",
+      "section": "Задание 194",
+      "condition": "Задание 194",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- равносторонний.\n\nДоказать:\n\nR :r = 2.\n\nДоказательство.\n\nR = AB260^;\n\nr = AB2 tg 60^;\n\nR/r = tg 60^60^ = 160^ = 2.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-194"
+    },
+    {
+      "number": "195",
+      "section": "Задание 195",
+      "condition": "Задание 195",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- равносторонний;\n\nR = r + 4 см.\n\nНайти:\n\nr; R; AB.\n\nРешение.\n\nR = 2r;\n\n2r = r + 4\n\nr = 4 см.\n\nR = 2 4 = 8 см.\n\nAB = 2R60^\n\nAB = 2 8 √32 = 8√3 см.\n\nОтвет: 4 см; 8 см; 8√3 см.",
+      "answer": "Ответ: 4 см; 8 см; 8√3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-195"
+    },
+    {
+      "number": "196",
+      "section": "Задание 196",
+      "condition": "Задание 196",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAB - сторона;\n\nOH AB;\n\nOH = r;\n\nAB = a;\n\nOA = OB = R.\n\nНайти:\n\nr.\n\nРешение.\n\n1) - равнобедренный:\n\nAO = OB = R.\n\nОтюда:\n\nAH = BH = 1/2AB = 1/2a.\n\n2) OH = OB^2 - BH^2;\n\nr = R^2 - a^24.\n\nОтвет: R^2 - a^24.",
+      "answer": "Ответ: R^2 - a^24.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-196"
+    },
+    {
+      "number": "197",
+      "section": "Задание 197",
+      "condition": "Задание 197",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAB - сторона;\n\nOH AB;\n\nOH = r;\n\nAB = a;\n\nOA = OB = R.\n\nНайти:\n\na.\n\nРешение.\n\n1) - равнобедренный:\n\nAO = OB = R.\n\nОтсюда:\n\nAH = BH = 1/2AB = 1/2a.\n\n2) 2BH = 2OB^2 - OH^2\n\na = 2R^2 - r^2.\n\nОтвет: 2R^2 - r^2.",
+      "answer": "Ответ: 2R^2 - r^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-197"
+    },
+    {
+      "number": "198",
+      "section": "Задание 198",
+      "condition": "Задание 198",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAB - сторона;\n\nOH AB;\n\nOH = r;\n\nAB = a;\n\nOA = OB = R.\n\nНайти:\n\nR.\n\nРешение.\n\n1) - равнобедренный:\n\nAO = OB = R.\n\nОтсюда:\n\nAH = BH = 1/2AB = 1/2a.\n\n2) OB = OH^2 + BH^2\n\nOB = R = r^2 + a^24.\n\nОтвет: r^2 + a^24.",
+      "answer": "Ответ: r^2 + a^24.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-198"
+    },
+    {
+      "number": "199",
+      "section": "Задание 199",
+      "condition": "Задание 199",
+      "solution": "a_6 = 4√3 см.\n\n1) r_6 = a_62 tg180^6 = 4√32 tg 30^ =\n\n= 2√3 :√33 = 6 см.\n\n2) a_4 = 2R_4180^4 =\n\n= 2 645^ = 12 √22 = 6√2.\n\nОтвет: 6√2 см.",
+      "answer": "Ответ: 6√2 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-199"
+    },
+    {
+      "number": "2",
+      "section": "Задание 2",
+      "condition": "Задание 2",
+      "solution": "1) a = 1/3:\n\n(180^ - a) = a = 1/3.\n\n2) a = 0,7:\n\n(180^ - a) = - a = - 0,7.\n\n3) a = - 4/9:\n\n(180^ - a) = - a = 4/9.\n\n4) tg a = - 5:\n\ntg(180^ - a) = - tg a = 5.\n\n5) ctg a = - 1/3:\n\nctg(180^ - a) = - ctg a = 1/3.",
+      "answer": "ctg(180^ - a) = - ctg a = 1/3.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-2"
+    },
+    {
+      "number": "20",
+      "section": "Задание 20",
+      "condition": "Задание 20",
+      "solution": "a, b, c - углы данного\n\nпрямоугольного треугольника:\n\nc = 90^; b = 90^ - a.\n\nРешение.\n\nСумма квадратов косинусов:\n\n^2a + ^2b + ^2c =\n\n= ^2a + ^2a + 0^2 =\n\n= 1 + 0 = 1.\n\nОтвет: 1.",
+      "answer": "Ответ: 1.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-20"
+    },
+    {
+      "number": "200",
+      "section": "Задание 200",
+      "condition": "Задание 200",
+      "solution": "a_4 = 6√2 см.\n\n1) R_4 = a_42180^4 = 6√22 45^ =\n\n= 3√2 :√22 = 6 см.\n\n2) a_3 = 2R_3 tg180^3 =\n\n= 2 6 tg 60^ = 2 6 √3 =\n\n= 12√3 см.\n\nОтвет: 12√3 см.",
+      "answer": "Ответ: 12√3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-200"
+    },
+    {
+      "number": "201",
+      "section": "Задание 201",
+      "condition": "Задание 201",
+      "solution": "d = 16 см:\n\na_4 = 2R_4180^4 =\n\n= 2 16/2 45^ = 16 √22 =\n\n= 8√2 = 8^2 2 = √128 см.\n\n12 = 12^2 = √144 > √128.\n\nОтвет: нет.",
+      "answer": "Ответ: нет.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-201"
+    },
+    {
+      "number": "202",
+      "section": "Задание 202",
+      "condition": "Задание 202",
+      "solution": "a_3 = 15 см:\n\nR_3 = a_32180^3 = 15260^ =\n\n= 15/2 :√32 = 15√33 = 5√3 см.\n\nd = 2R_3 = 10√3 17,3 см.\n\nОтвет: 17,3 см.",
+      "answer": "Ответ: 17,3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-202"
+    },
+    {
+      "number": "203",
+      "section": "Задание 203",
+      "condition": "Задание 203",
+      "solution": "a_4 = 14 см:\n\nR_4 = a_42180^4 = 14245^ =\n\n= 7 :√22 = 7 2√2 = 7√2 см;\n\nd = 2R_4 = 14√2 19,8 см.\n\nОтвет: 19,8 см.",
+      "answer": "Ответ: 19,8 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-203"
+    },
+    {
+      "number": "204",
+      "section": "Задание 204",
+      "condition": "Задание 204",
+      "solution": "α - угол n-угольника;\n\nβ = α - 36^:\n\nα = 180^ (n - 2)n;\n\nβ = 360^n;\n\n360^n = 180^ n - 360^n - 36^\n\n360^ = 180^ n - 360^ - 36^ n\n\n144^ n = 720^\n\nn = 5 сторон.\n\nОтвет: 5.",
+      "answer": "Ответ: 5.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-204"
+    },
+    {
+      "number": "205",
+      "section": "Задание 205",
+      "condition": "Задание 205",
+      "solution": "Схематический рисунок.\n\nДано:\n\nOE = OF = r;\n\nAB = BD;\n\nOE AB;\n\nOF BD;\n\n∠ EOF = 20^.\n\nНайти:\n\nn.\n\nРешение.\n\n1) Пусть:\n\n∠ AOB = ∠ BOD = β.\n\n2) OA = OB = OD = R.\n\n3) - равнобедренный:\n\nOE - высота и биссектриса;\n\n∠ EOB = 1/2β.\n\n4) - равнобедренный:\n\nOF - высота и биссектриса;\n\n∠ FOB = 1/2β;\n\n∠ EOF = ∠ EOB + ∠ FOB = β.\n\n5) n = 360^β = 360^20^ = 18 сторон.\n\nОтвет: 18.",
+      "answer": "Ответ: 18.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-205"
+    },
+    {
+      "number": "206",
+      "section": "Задание 206",
+      "condition": "Задание 206",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCDE - прав.пятиугольник.\n\nДоказать:\n\nAC = = EB.\n\nДоказательство.\n\n1) ABCDE - пятиугольник:\n\nOA = OC = R;\n\n∠ AOC = ∠ AOB + ∠ BOC = 2β.\n\n= R^2 + R^2 - 2R R 2β =\n\n= 2R^2 - 2R^22β;\n\nAC = R2 - 22β.\n\nЧто и требовалось доказать",
+      "answer": "Что и требовалось доказать",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-206"
+    },
+    {
+      "number": "207",
+      "section": "Задание 207",
+      "condition": "Задание 207",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCDE - прав.пятиугольник.\n\nДоказать:\n\nEC AB.\n\nДоказательство.\n\n1) ABCDE - пятиугольник:\n\n∠ EOA = ∠ AOB = ∠ BOC = β;\n\n∠ EOC = ∠ EOD + ∠ DOC = 2β;\n\nOA = OB = OC = OE = R;\n\nβ = 360^5 = 72^.\n\n2) - равнобедренный:\n\n∠ OCE = 1/2 (180^ - ∠ EOC) =\n\n= 90^ - 72^ = 18^.\n\n3) - равнобедренный:\n\n∠ OBA = 1/2 (180^ - ∠ AOB) =\n\n= 90^ - 1/2 72^ = 54^.\n\n4) - равнобедренный:\n\n∠ OBC = ∠ OCB = 1/2 (180^ - ∠ BOC);\n\n∠ OBC = ∠ OCB =\n\n= 90^ - 1/2 72^ = 54^.\n\n5) ABCE - четырехугольник:\n\n∠ ABC + ∠ ECB =\n\n= ∠ ABO + ∠ OBC + ∠ OCB + ∠ OCE =\n\n= 54^ + 54^ + 54^ + 18^ = 180^.\n\nОтсюда:\n\nABCE - трапеция;\n\nCE AB.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-207"
+    },
+    {
+      "number": "208",
+      "section": "Задание 208",
+      "condition": "Задание 208",
+      "solution": "r_3 = a2 tg 180^3 =\n\n= a/2 :tg 60^ = a2√3;\n\nr_4 = a2 tg 180^4 = a/2 :tg 45^ = a/2.\n\n1) По разные стороны от хорды:\n\nl = r_3 + r_4 = a2√3 + a/2 = a + a√32√3;\n\nl = a≤ft( 1 + √3 )2√3 = a≤ft( √3 + 3 )6.\n\nОтвет: a≤ft( √3 + 3 )6.\n\n2) По одну сторону от хорды:\n\nl = r_4 - r_3 = a/2 - a2√3 = a√3 - a2√3;\n\nl = a≤ft( √3 - 1 )2√3 = a≤ft( 3 - √3 )6.\n\nОтвет: a≤ft( 3 - √3 )6.",
+      "answer": "Ответ: a≤ft( 3 - √3 )6.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-208"
+    },
+    {
+      "number": "209",
+      "section": "Задание 209",
+      "condition": "Задание 209",
+      "solution": "r_3 = a2 tg 180^3 = a/2 :tg 60^ = a2√3;\n\nr_6 = a2 tg 180^6 = a/2 :tg 30^ = a√32.\n\n1) По разные стороны от хорды:\n\nl = r_3 + r_6 = a2√3 + a√32;\n\nl = a + 3a2√3 = 4a2√3 = 2a√33.\n\nОтвет: 2a√33.\n\n2) По одну сторону от хорды:\n\nl = r_6 - r_3 = a√32 - a2√3;\n\nl = 3a - a2√3 = 2a2√3 = a√33.\n\nОтвет: a√33.",
+      "answer": "Ответ: a√33.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-209"
+    },
+    {
+      "number": "21",
+      "section": "Задание 21",
+      "condition": "Задание 21",
+      "solution": "Схематический рисунок.\n\nДано:\n\n∠ B = 60^;\n\nO - центр вписанной\n\nокружности.\n\nНайти:\n\n∠ AOC.\n\nРешение.\n\n1) В :\n\n∠ A + ∠ C = 180^ - ∠ B = 120^;\n\nAO - биссектриса ∠ BAC;\n\nOC - биссектриса ∠ BCA;\n\n∠ OAC + ∠ OCA =\n\n= 1/2(∠ A + ∠ C) = 60^.\n\n2) В :\n\n∠ AOC =\n\n= 180^ - (∠ OAC + ∠ OCA) = 120^;\n\n∠ AOC = 120^ =\n\n= - 60^ = - 1/2.\n\nОтвет: - 1/2.",
+      "answer": "Ответ: - 1/2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-21"
+    },
+    {
+      "number": "210",
+      "section": "Задание 210",
+      "condition": "Задание 210",
+      "solution": "R - радиус этой окружности:\n\nR = R_впис. окр = R_опис. окр.\n\n1) Для вписанного :\n\na_в = 2R 180^3 =\n\n= 2R 60^ = R√3.\n\n2) Для описанного :\n\na_о = 2r tg180^3 =\n\n= 2R tg 60^ = 2R√3.\n\n3) Отношение длин сторон:\n\na_вa_о = R√32R√3 = 1/2.\n\nОтвет: 1 :2.",
+      "answer": "Ответ: 1 :2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-210"
+    },
+    {
+      "number": "211",
+      "section": "Задание 211",
+      "condition": "Задание 211",
+      "solution": "R - радиус окружности:\n\nR = R_впис. окр = R_опис. окр.\n\n1) Для вписанного:\n\na_в = 2R 180^6 =\n\n= 2R 30^ = R.\n\n2) Для описанного:\n\na_о = 2r tg180^6 =\n\n= 2R tg 30^ = 2R√3.\n\n3) Отношение длин сторон:\n\na_вa_о = R :2R√3 = √32.\n\nОтвет: √3 :2.",
+      "answer": "Ответ: √3 :2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-211"
+    },
+    {
+      "number": "212",
+      "section": "Задание 212",
+      "condition": "Задание 212",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABC - прав.восьмиугольник;\n\nO - центр опис. окружности;\n\nOA = OB = R.\n\nДоказать:\n\nAB = R2 - √2.\n\nДоказательство.\n\nРешение:\n\n1) ∠ AOB = 360^8 = 45^.\n\n2) В :\n\nAB^2 = AO^2 + OB^2 - 2AO OB∠ O =\n\n= R^2 + R^2 - 2R R 45^ =\n\n= 2R^2 - √2R^2;\n\nAB = R2 - √2.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-212"
+    },
+    {
+      "number": "213",
+      "section": "Задание 213",
+      "condition": "Задание 213",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABC - правильный\n\nдвенадцатиугольник;\n\nO - центр опис. окружности;\n\nOA = OB = R.\n\nДоказать:\n\nAB = R2 - √3.\n\nДоказательство.\n\n1) ∠ AOB = 360^12 = 30^.\n\n2) В :\n\nAB^2 = AO^2 + OB^2 - 2AO OB∠ O =\n\n= R^2 + R^2 - 2R R 30^ =\n\n= 2R^2 - √3R^2;\n\nAB = R2 - √3.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-213"
+    },
+    {
+      "number": "214",
+      "section": "Задание 214",
+      "condition": "Задание 214",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCDEF - правильный\n\nшестиугольник;\n\nAB = 25 мм.\n\nНайти:\n\nBF + 1 мм.\n\nРешение.\n\n1) ABCDEF - шестиугольник:\n\nn ∠ A = (n - 2) 180^\n\n6 ∠ A = 4 180^\n\n6 ∠ A = 720^\n\n∠ A = 120^.\n\nAB = AF = 25;\n\n2) В :\n\nBF^2 =\n\n= AB^2 + AF^2 - 2AB AF∠ A =\n\n= 625 + 625 - 2 25 25120^ =\n\n= 1250 + 1250 1/2 = 1875;\n\nBF 43.\n\nBF + 1 = 44 мм.\n\nОтвет: 4,4 см.",
+      "answer": "Ответ: 4,4 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-214"
+    },
+    {
+      "number": "215",
+      "section": "Задание 215",
+      "condition": "Задание 215",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABC - правильный\n\nвосьмиугольник;\n\nO - центр опис. окружности;\n\nR_опис. окр = R.\n\nНайти:\n\nS.\n\nРешение.\n\n1) AO = OB = R;\n\n∠ AOB = 360^8 = 45^.\n\n2) В :\n\nS_AOB = 1/2AO OB ∠ AOB =\n\n= 1/2R R 45^ = R^2√24.\n\n3) S = 8S_AOB = 2R^2√2.\n\nОтвет: 2R^2√2.",
+      "answer": "Ответ: 2R^2√2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-215"
+    },
+    {
+      "number": "216",
+      "section": "Задание 216",
+      "condition": "Задание 216",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCDEF - правильный\n\nшестиугольник;\n\nO - центр опис. окружности;\n\nAB = a.\n\nНайти:\n\nS; CF; AC.\n\nРешение.\n\n1) R = a2180^6 = a;\n\nOC = OF = R = a;\n\nAF = BC = AB = a.\n\n6 ∠ A = (6 - 2) 180^\n\n6∠ A = 720^\n\n∠ A = 120^.\n\n2) В :\n\nS_ABC = 1/2AB BC ∠ B =\n\n= 1/2 a a 120^ =\n\n= 1/2a^2 √32 = a^2√34.\n\n3) В :\n\nCF = OC + OF = 2a;\n\nAC = CF^2 - AF^2 =\n\n= 4a^2 - a^2 = a√3.\n\n4) S = 6S_ABC = 3a^2√32.\n\nОтвет: a√3; 2a; 3a^2√32.",
+      "answer": "Ответ: a√3; 2a; 3a^2√32.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-216"
+    },
+    {
+      "number": "217",
+      "section": "Задание 217",
+      "condition": "Задание 217",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - квадрат;\n\nAD = 6 см;\n\nEF = FM = MN.\n\nНайти:\n\nEF.\n\nРешение.\n\n1) ABCD - квадрат:\n\nAF = MD = AE = DN;\n\nAD = AF + FM + MD;\n\nAF + EF + AF = 6\n\nEF = 6 - 2AF.\n\n2) В :\n\n∠ EAF = 90^;\n\nEF = AE^2 + AF^2 =\n\n= AF^2 + AF^2 = AF√2.\n\nAF√2 = 6 - 2AF\n\nAF≤ft( 2 + √2 ) = 6\n\nAF = 62 + √2.\n\nEF = 6√22 + √2 = 122√2 + 2 =\n\n= 6√2 + 1 = 6≤ft( √2 - 1 ).\n\nОтвет: 6≤ft( √2 - 1 ) см.",
+      "answer": "Ответ: 6≤ft( √2 - 1 ) см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-217"
+    },
+    {
+      "number": "218",
+      "section": "Задание 218",
+      "condition": "Задание 218",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- равносторонний;\n\nAC = 24 см;\n\nLE = EF = FM.\n\nНайти:\n\nEF.\n\nРешение.\n\n1) 6 ∠ E = (6 - 2) 180^\n\n6 ∠ E = 720^\n\n∠ E = 120^.\n\n∠ AEL = 180^ - ∠ E = 60^;\n\n∠ LEF = ∠ MFE;\n\n∠ AEL = ∠ CFM = 60^.\n\n2) - равносторонний:\n\n∠ A = ∠ E = 60^;\n\nLE = AE.\n\n3) - равносторонний:\n\n∠ C = ∠ F = 60^;\n\nMF = CF.\n\n4) В :\n\nAC = AE + EF + CF = 24\n\nEF + EF + EF = 24\n\nEF = 8 см.\n\nОтвет: 8 см.",
+      "answer": "Ответ: 8 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-218"
+    },
+    {
+      "number": "219",
+      "section": "Задание 219",
+      "condition": "Задание 219",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABC - правильный\n\nвосьмиугольник;\n\nO - центр опис. окружности;\n\nAB = a.\n\nНайти:\n\nAC; AD; AE.\n\nРешение:\n\n1) 8 ∠ B = 6 180^\n\n8 ∠ B = 1080^\n\n∠ B = 135^.\n\n∠ D = ∠ C = ∠ B = 135^.\n\n2) AE - диаметр;\n\n∠ ACE = ∠ ADE = 90^.\n\n3) В :\n\nAC^2 = AB^2 + BC^2 - 2AB BC∠ B =\n\n= a^2 + a^2 - 2a a 135^ =\n\n= 2a^2 + 2a^2 √22 = a^2≤ft( 2 + √2 );\n\nAC = a2 + √2.\n\n4) В :\n\nCE = AC = a2 + √2;\n\nAE = AC^2 + CE^2 =\n\n= 2a^2 ≤ft( 2 + √2 ) =\n\n= a4 + 2√2.\n\n5) В :\n\nAD = AE^2 - DE^2 =\n\n= a^2≤ft( 4 + 2√2 ) - a^2 =\n\n= a^2≤ft( 3 + 2√2 ) =\n\n= a2 + 2√2 + 1 =\n\n= a≤ft( √2 + 1 )^2 = a≤ft( √2 + 1 ).\n\nОтвет: a2 + √2; a≤ft( √2 + 1 );\n\na4 + 2√2.",
+      "answer": "Ответ: a2 + √2; a≤ft( √2 + 1 );\n\na4 + 2√2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-219"
+    },
+    {
+      "number": "22",
+      "section": "Задание 22",
+      "condition": "Задание 22",
+      "solution": "Схематический рисунок.\n\nДано:\n\n∠ BOC = - √32;\n\nO - центр вписанной\n\nокружности.\n\nНайти:\n\n∠ A.\n\nРешение.\n\n1) В :\n\n∠ BOC = ≤ft( - √32 ) = 150^;\n\n∠ OBC + ∠ OCB =\n\n= 180^ - ∠ BOC = 30^.\n\n2) В :\n\nO - центр окружности;\n\nBO - биссектриса ∠ ABC;\n\nCO - биссектриса ∠ ACB;\n\n∠ B + ∠ C = 2(∠ OBC + ∠ OCB) = 60^;\n\n∠ A = 180^ - (∠ B + ∠ C) = 120^.\n\nОтвет: 120^.",
+      "answer": "Ответ: 120^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-22"
+    },
+    {
+      "number": "220",
+      "section": "Задание 220",
+      "condition": "Задание 220",
+      "solution": "a_12 = a; r_12 = R_6.\n\nРешение.\n\n1) tg 15^ = 1 - 30^1 + 30^ =\n\n= 1 - √321 + √32 = 2 - √32 + √3 =\n\n= ≤ft( 2 - √3 )^24 - 3 = 2 - √3.\n\n2) Для вписанной окружности:\n\nr_12 = a2 tg 180^12 = a2 tg 15^ =\n\n= a2≤ft( 2 - √3 ) = a≤ft( 2 + √3 )2.\n\n3) Для описанной окружности:\n\na_6 = 2R_6180^6 = 2R_630^ =\n\n= 2 a≤ft( 2 + √3 )2 1/2 = a≤ft( 2 + √3 )2.\n\nОтвет: a≤ft( 2 + √3 )2.",
+      "answer": "Ответ: a≤ft( 2 + √3 )2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-220"
+    },
+    {
+      "number": "221",
+      "section": "Задание 221",
+      "condition": "Задание 221",
+      "solution": "a_8 = a; r_8 = R_4.\n\n1) tg 22,5^ = 1 - 45^1 + 45^ =\n\n= 1 - √221 + √22 = √2 - 1√2 + 1 =\n\n= ≤ft( √2 - 1 )^22 - 1 = √2 - 1.\n\n2) Для вписанной окружности:\n\nr_8 = a2 tg 180^8 = a2 tg 22,5^ =\n\n= a2≤ft( √2 - 1 ) = a≤ft( √2 + 1 )2.\n\n3) Для описанной окружности:\n\na_4 = 2R_4180^4 = 2R_445^ =\n\n= 2 a≤ft( √2 + 1 )2 √22 = a≤ft( 2 + √2 )2.\n\nОтвет: a≤ft( 2 + √2 )2.",
+      "answer": "Ответ: a≤ft( 2 + √2 )2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-221"
+    },
+    {
+      "number": "222",
+      "section": "Задание 222",
+      "condition": "Задание 222",
+      "solution": "1) Сумма углов многоугольника:\n\na = (n - 2) 180^n.\n\n2) Количество углов около точки:\n\nN = 360^ : (n - 2) 180^n =\n\n= 2n/n - 2 = 2n/n - 2 = 2n - 4 + 4/n - 2 =\n\n= 2 + 4/n - 2.\n\n3) Целое число:\n\nn = 3 → N = 2 + 4 = 6;\n\nn = 4 → N = 2 + 2 = 4;\n\nn = 6 → N = 2 + 1 = 3.\n\nОтвет: треугольник, квадрат,\n\nшестиугольник.",
+      "answer": "Ответ: треугольник, квадрат,\n\nшестиугольник.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-222"
+    },
+    {
+      "number": "223",
+      "section": "Задание 223",
+      "condition": "Задание 223",
+      "solution": "Шестиугольник ABCDEF.\n\nСхематический рисунок.\n\nРешение.\n\n1) В ABCDEF:\n\n∠ ACD = 1/2 AD = 1/2 180^ = 90^;\n\n∠ D = (6 - 2) 180^6 = 120^;\n\n∠ D = ∠ E = ∠ B = 120^.\n\n2) В - равносторонний:\n\n∠ D = ∠ E = 180^ - 120^ = 60^.\n\nОтсюда:\n\nDK = KE = DE = 1.\n\n3) В :\n\nAC^2 = AB^2 + BC^2 - 2AB BC ∠ B =\n\n= 1 + 1 - 2 1 1 120^ =\n\n= 2 + 2 1/2 = 2 + 1 = 3;\n\nAC = √3.\n\n4) В :\n\n∠ ACK = 90^;\n\nCK = CD + DK = 2;\n\nAK = CK^2 + AC^2 = √4 + 3 = √7.\n\nОтвет: AK - искомый отрезок.",
+      "answer": "Ответ: AK - искомый отрезок.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-223"
+    },
+    {
+      "number": "224",
+      "section": "Задание 224",
+      "condition": "Задание 224",
+      "solution": "AB = BC = CD = DE = AE.\n\n1) ∠ BAC = 1/2 BC =\n\n= 1/2 360^5 = 36^;\n\n2) ∠ BAD = 1/2 BD =\n\n= 1/2 2 360^5 = 72^;\n\n3) ∠ BAE = 1/2 BE =\n\n= 1/2 3 360^5 = 108^;\n\n4) ∠ CAD = 1/2 CD =\n\n= 1/2 360^5 = 36^;\n\n5) ∠ DAE = 1/2 DE =\n\n= 1/2 360^5 = 36^.",
+      "answer": "= 1/2 360^5 = 36^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-224"
+    },
+    {
+      "number": "225",
+      "section": "Задание 225",
+      "condition": "Задание 225",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAB = 28 см;\n\nBC = 8 см;\n\nAD = 24 см;\n\nAE = 42 см;\n\nBE = 21 см.\n\nНайти:\n\nCD.\n\nРешение.\n\n1) В :\n\n∠ A = AE^2 + AB^2 - BE^22AE AB =\n\n= 1764 + 784 - 441/2 42 28 =\n\n= 2107/2352 = 43/48.\n\n2) В :\n\nAC = AB + BC = 28 + 8 = 36;\n\nCD^2 = AC^2 + AD^2 - 2AC AD∠ A =\n\n= 1296 + 576 - 2 36 24 43/48 =\n\n= 1872 - 1548 = 324;\n\nCD = 18 см.\n\nОтвет: 18 см.",
+      "answer": "Ответ: 18 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-225"
+    },
+    {
+      "number": "226",
+      "section": "Задание 226",
+      "condition": "Задание 226",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- равнобедренный;\n\nAC = 24 см;\n\nAB = BC;\n\nO - центр опис. окружности;\n\nAO = OC = 13 см.\n\nНайти:\n\nS_ABC.\n\nРешение.\n\n∠ B = AC2R = 24/2 13 = 12/13;\n\n∠ B = - 1 - ^2∠ B =\n\n= - √1 - 144/169 = - 5/13.\n\nAC^2 = AB^2 + BC^2 - 2AB BC∠ B\n\nAB^2 + AB^2 - 2AB AB ≤ft( - 5/13 ) = 576\n\n2AB^2 + 10/13AB^2 = 576\n\n36/13AB^2 = 576\n\nAB^2 = 208.\n\nS_ABC = 1/2AB BC∠ B =\n\n= 1/2AB^2 12/13 = 6/13 208 = 96 см^2.\n\nОтвет: 96 см^2.",
+      "answer": "Ответ: 96 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-226"
+    },
+    {
+      "number": "227",
+      "section": "Задание 227",
+      "condition": "Задание 227",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAB, AC - касательные;\n\nO - центр окружности;\n\nAB = AC = 12 см;\n\nBC = 14,4 см.\n\nНайти:\n\nOB.\n\nРешение:\n\n1) OB AB,\n\nOC AC,\n\nOB = OC.\n\n2) В :\n\n∠ A = AB^2 + AC^2 - BC^22AB AC =\n\n= 144 + 144 - 207,36/2 12 12 =\n\n= 80,64/288 = 0,28.\n\n3) ABOC:\n\n∠ O = 360^ - ∠ A - ∠ B - ∠ C\n\n∠ O = 180^ - ∠ A;\n\n∠ O = - ∠ A = - 0,28.\n\n4) В :\n\nBC^2 = OB^2 + OC^2 - 2OB OC∠ O\n\nOB^2 + OB^2 + 2OB OB 0,28 = 207,36\n\n2OB^2 + 0,56OB^2 = 207,36\n\n2,56OB^2 = 207,36\n\nOB^2 = 81\n\nOB = 9 см.\n\nОтвет: 9 см.",
+      "answer": "Ответ: 9 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-227"
+    },
+    {
+      "number": "228",
+      "section": "Задание 228",
+      "condition": "Задание 228",
+      "solution": "1) d = 1,2 см:\n\nC = 2π R = π d = 1,2π см.\n\nОтвет: 1,2π см.\n\n2) d = 3,5 см:\n\nC = 2π R = π d = 3,5π см.\n\nОтвет: 3,5π см.",
+      "answer": "Ответ: 3,5π см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-228"
+    },
+    {
+      "number": "229",
+      "section": "Задание 229",
+      "condition": "Задание 229",
+      "solution": "1) R = 6 см:\n\nC = 2π R = 12π см.\n\nОтвет: 12π см.\n\n2) R = 1,4 м:\n\nC = 2π R = 2,8π м.\n\nОтвет: 2,8π м.",
+      "answer": "Ответ: 2,8π м.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-229"
+    },
+    {
+      "number": "23",
+      "section": "Задание 23",
+      "condition": "Задание 23",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - параллелограмм;\n\nBH - высота;\n\nAH = DH;\n\nBH = 5 см;\n\n∠ A = ∠ C = 30^.\n\nНайти:\n\nBD; ∠ ABD; ∠ CBD.\n\nРешение.\n\n1) В :\n\n∠ BAH = 30^;\n\n∠ BHA = 90^;\n\nAB = 2BH = 2 5 = 10 см.\n\n2) В :\n\nBH - высота и медиана;\n\n- равнобедренный;\n\nBD = AB = 10;\n\n∠ BDA = ∠ BAD = 30^;\n\n∠ ABD = 180^ - ∠ A - ∠ D;\n\n∠ ABD = 180^ - 60^ = 120^.\n\n3) Рассмотрим ABCD:\n\n∠ B = 180^ - ∠ A = 150^;\n\n∠ CBD = ∠ B - ∠ ABD = 30^.\n\nОтвет: 10 см; 120^; 30^.",
+      "answer": "Ответ: 10 см; 120^; 30^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-23"
+    },
+    {
+      "number": "230",
+      "section": "Задание 230",
+      "condition": "Задание 230",
+      "solution": "1) R = 4 см:\n\nS = π R^2 = 16π см^2.\n\nОтвет: 16π см^2.\n\n2) d = 14 дм:\n\nS = π R^2 = 196π дм^2.\n\nОтвет: 196π дм^2.",
+      "answer": "Ответ: 196π дм^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-230"
+    },
+    {
+      "number": "231",
+      "section": "Задание 231",
+      "condition": "Задание 231",
+      "solution": "1) d = 20 см:\n\nS = π R^2 = π d^24 = 100π см^2.\n\nОтвет: 100π см^2.\n\n2) d = 3,2 дм:\n\nS = π R^2 = π d^24 = 2,56π дм^2.\n\nОтвет: 2,56π дм^2.",
+      "answer": "Ответ: 2,56π дм^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-231"
+    },
+    {
+      "number": "232",
+      "section": "Задание 232",
+      "condition": "Задание 232",
+      "solution": "l - длина окружности:;\n\nC = 2πR\n\nR = C/2π = l/2π;\n\nS = π R^2 = π l^24π^2 = l^24π.\n\nОтвет: l^24π.",
+      "answer": "Ответ: l^24π.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-232"
+    },
+    {
+      "number": "233",
+      "section": "Задание 233",
+      "condition": "Задание 233",
+      "solution": "C = 125,6 см:\n\nC = 2πR\n\nR = C/2π = 125,6/2π = 62,8/π.\n\nS = π R^2 = 62,8^2π =\n\n= 3943,84/π 1256 см^2.\n\nОтвет: 1256 см^2.",
+      "answer": "Ответ: 1256 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-233"
+    },
+    {
+      "number": "234",
+      "section": "Задание 234",
+      "condition": "Задание 234",
+      "solution": "1) Увеличить R в два раза:\n\nC_2C_1 = 2π R_22π R_1 = R_2R_1 = 2.\n\nОтвет: увеличится в 2 раза.\n\n2) Уменьшить R в три раза:\n\nC_2C_1 = 2π R_22π R_1 = R_2R_1 = 1/3.\n\nОтвет: уменьшится в 3 раза.",
+      "answer": "Ответ: уменьшится в 3 раза.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-234"
+    },
+    {
+      "number": "235",
+      "section": "Задание 235",
+      "condition": "Задание 235",
+      "solution": "C = 40 000 000 м:\n\nC = 2πR\n\nR = C/2π 40 000/2 3,14 6 400 км.\n\nОтвет: 6 400 км.",
+      "answer": "Ответ: 6 400 км.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-235"
+    },
+    {
+      "number": "236",
+      "section": "Задание 236",
+      "condition": "Задание 236",
+      "solution": "d_1 = 6 м; d_2 = 10 м:\n\nC_1C_2 = 2π R_12π R_2 = π d_1π d_2 = d_1d_2 = 6/10 = 3/5.\n\nОтвет: 3 :5.",
+      "answer": "Ответ: 3 :5.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-236"
+    },
+    {
+      "number": "237",
+      "section": "Задание 237",
+      "condition": "Задание 237",
+      "solution": "а) L = 1/2C_b + 1/2C_b + a + a =\n\n= C_b + 2a = π b + 2a.\n\nОтвет: π b + 2a.\n\nб) L =\n\n= 1/2C_a + 1/2C_a + 1/2C_a + 1/2C_a/2 + 1/2C_a/2 =\n\n= 3/2C_a + C_a/2 = 3/2π a + π a/2 = 2πa.\n\nОтвет: 2πa.",
+      "answer": "Ответ: 2πa.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-237"
+    },
+    {
+      "number": "238",
+      "section": "Задание 238",
+      "condition": "Задание 238",
+      "solution": "a_1 = 29^;\n\na_2 = 169^;\n\nC = 15 900 км:\n\nL = a_2 - a_1360^ C =\n\n= 169^ - 29^360^ 15 900 =\n\n= 7/18 15 900 6 200 км.\n\nОтвет: 6 200 км.",
+      "answer": "Ответ: 6 200 км.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-238"
+    },
+    {
+      "number": "239",
+      "section": "Задание 239",
+      "condition": "Задание 239",
+      "solution": "а) S = a^2 1/2 = a^22;\n\nб) S = a^2 - S_a = a^2 - π ≤ft( a/2 )^2 =\n\n= a^2 - π a^24 = a^2≤ft( 1 - π/4 );\n\nв) S = 1/2S_a - S_a/2 =\n\n= 1/2π ≤ft( a/2 )^2 - π ≤ft( a/4 )^2 =\n\n= 1/2π a^24 - π a^216 =\n\n= π a^2≤ft( 1/8 - 1/16 ) = π a^216.",
+      "answer": "= π a^2≤ft( 1/8 - 1/16 ) = π a^216.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-239"
+    },
+    {
+      "number": "24",
+      "section": "Задание 24",
+      "condition": "Задание 24",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - трапеция;\n\nCE AB;\n\nAE = 7 см;\n\nDE = 10 см;\n\nKM - средняя линия.\n\nНайти:\n\nKM.\n\nРешение.\n\n1) В трапеции ABCD:\n\nBC AD.\n\n2) В четырехугольнике ABCE:\n\nCE AB; BC AE.\n\nСледовательно:\n\nABCE - параллелограмм.\n\nОтсюда:\n\nBC = AE = 7.\n\n3) В трапеции ABCD:\n\nAD = AE + DE = 17 см.\n\nKM = BC + AD/2 = 24/2 = 12 см.\n\nОтвет: 12 см.",
+      "answer": "Ответ: 12 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-24"
+    },
+    {
+      "number": "240",
+      "section": "Задание 240",
+      "condition": "Задание 240",
+      "solution": "а) S = 8a 8a - 4 π a^2 =\n\n= 64a^2 - 4π a^2 = 4a^2(16 - π).\n\nб) S = π (3a)^2 - 4a^2 - 1/2 2a a =\n\n= 9π a^2 - 4a^2 - a^2 = a^2(9π - 5).",
+      "answer": "= 9π a^2 - 4a^2 - a^2 = a^2(9π - 5).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-240"
+    },
+    {
+      "number": "241",
+      "section": "Задание 241",
+      "condition": "Задание 241",
+      "solution": "d_1 = 30 см; d_2 = 20 см.\n\n1) Больший:\n\nS_1 = π R_1^2 = π≤ft( d_12 )^2 =\n\n= π 15^2 = 225π.\n\n2) Два меньших:\n\nS_2 = 2π R^2 = 2π≤ft( d_22 )^2 =\n\n= 2π 10^2 = 200π.\n\nОтвет: один большой.",
+      "answer": "Ответ: один большой.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-241"
+    },
+    {
+      "number": "242",
+      "section": "Задание 242",
+      "condition": "Задание 242",
+      "solution": "R = a2180^3 = a260^ =\n\n= a/2 :√32 = a√3.\n\nC = 2π R = 2π a√3 = 2π a√3 =\n\n= 2π√33a.\n\nОтвет: 2π√33a.",
+      "answer": "Ответ: 2π√33a.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-242"
+    },
+    {
+      "number": "243",
+      "section": "Задание 243",
+      "condition": "Задание 243",
+      "solution": "R = a2 tg180^4 = a2 tg 45^ = a/2.\n\nC = 2π R = 2π a/2 = aπ.\n\nОтвет: aπ.",
+      "answer": "Ответ: aπ.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-243"
+    },
+    {
+      "number": "244",
+      "section": "Задание 244",
+      "condition": "Задание 244",
+      "solution": "R = a2180^4 = a245^ =\n\n= a/2 :√22 = a√2.\n\nS = π R^2 = π ≤ft( a√2 )^2 =\n\n= π a^22 = π a^22.\n\nОтвет: π a^22.",
+      "answer": "Ответ: π a^22.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-244"
+    },
+    {
+      "number": "245",
+      "section": "Задание 245",
+      "condition": "Задание 245",
+      "solution": "R = a2 tg180^6 = a2 tg 30^ =\n\n= a/2 :1√3 = a√32.\n\nS = π R^2 = π ≤ft( a√32 )^2 =\n\n= π 3a^24 = 3π a^24.\n\nОтвет: 3π a^24.",
+      "answer": "Ответ: 3π a^24.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-245"
+    },
+    {
+      "number": "246",
+      "section": "Задание 246",
+      "condition": "Задание 246",
+      "solution": "R = a2 tg180^3 = a2 tg 60^ = a2√3.\n\nS = π R^2 = π ≤ft( a2√3 )^2 = π a^212.\n\nОтвет: π a^212.",
+      "answer": "Ответ: π a^212.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-246"
+    },
+    {
+      "number": "247",
+      "section": "Задание 247",
+      "condition": "Задание 247",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - прямоугольник;\n\nAB = a;\n\nAD = b;\n\nO - центр опис. окружности.\n\nНайти:\n\nS.\n\nРешение.\n\n1) ABCD - прямоугольник:\n\nBD = AB^2 + AD^2 = a^2 + b^2;\n\nR = BO = 1/2BD = a^2 + b^22.\n\n2) S = π R^2 = π≤ft( a^2 + b^2 )4.\n\nОтвет: π≤ft( a^2 + b^2 )4.",
+      "answer": "Ответ: π≤ft( a^2 + b^2 )4.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-247"
+    },
+    {
+      "number": "248",
+      "section": "Задание 248",
+      "condition": "Задание 248",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- равнобедренный;\n\nAB = BC = b;\n\n∠ A = ∠ C = α.\n\nНайти:\n\nS.\n\nРешение.\n\n1) В :\n\nR = BC2∠ A = b/2α.\n\n2) Круг:\n\nS = π R^2 = π b^24^2α.\n\nОтвет: π b^24^2α.",
+      "answer": "Ответ: π b^24^2α.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-248"
+    },
+    {
+      "number": "249",
+      "section": "Задание 249",
+      "condition": "Задание 249",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - прямоугольник;\n\nAB = a;\n\n∠ ABD = α;\n\nO - центр опис. окружности.\n\nНайти:\n\nS.\n\nРешение.\n\n1) ABCD - прямоугольник:\n\nBD = AB∠ ABD = a/α;\n\nR = BO = 1/2 BD = a/2α.\n\n2) Круг:\n\nC = 2π R = π a/α.\n\nОтвет: π a/α.",
+      "answer": "Ответ: π a/α.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-249"
+    },
+    {
+      "number": "25",
+      "section": "Задание 25",
+      "condition": "Задание 25",
+      "solution": "a = 8 см; b = 11 см.\n\n1) Против большего угла\n\nтреугольника лежит большая\n\nсторона, следовательно:\n\n∠ a < ∠ b;\n\n∠ a + ∠ b < 180^;\n\n∠ a < 90^.\n\nОтвет: нет.\n\n2) Против большего угла\n\nтреугольника лежит большая\n\nсторона, следовательно:\n\n∠ a < ∠ b;\n\n∠ a + ∠ b < 180^;\n\n∠ a < 90^.\n\nОтвет: нет.",
+      "answer": "Ответ: нет.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-25"
+    },
+    {
+      "number": "250",
+      "section": "Задание 250",
+      "condition": "Задание 250",
+      "solution": "R = 8 см.\n\n1) a = 4^:\n\nL = πRa180^ = 8π 4^180^ = 8π/45.\n\nОтвет: 8π/45 см.\n\n2) a = 320^:\n\nL = πRa180^ = 8π 320^180^ = 128π/9.\n\nОтвет: 128π/9 см.",
+      "answer": "Ответ: 128π/9 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-250"
+    },
+    {
+      "number": "251",
+      "section": "Задание 251",
+      "condition": "Задание 251",
+      "solution": "L = 12π см; a = 27^:\n\nL = πRa180^\n\nR = 180^Lπ a\n\nR = 180^ 12ππ 27^ = 80 см.\n\nОтвет: 80 см.",
+      "answer": "Ответ: 80 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-251"
+    },
+    {
+      "number": "252",
+      "section": "Задание 252",
+      "condition": "Задание 252",
+      "solution": "R = 24 см; L = 3π см:\n\nL = πRa180^\n\na = 180^Lπ R\n\na = 180^ 3ππ 24 = 22,5^.\n\nОтвет: 22,5^.",
+      "answer": "Ответ: 22,5^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-252"
+    },
+    {
+      "number": "253",
+      "section": "Задание 253",
+      "condition": "Задание 253",
+      "solution": "a = 1^; R = 6400 км:\n\nL = πRa180^ = 6400^π180^ 112 км.\n\nОтвет: 112 км.",
+      "answer": "Ответ: 112 км.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-253"
+    },
+    {
+      "number": "254",
+      "section": "Задание 254",
+      "condition": "Задание 254",
+      "solution": "R = 6 см.\n\n1) a = 15^:\n\nS = π R^2 a :360^ =\n\n= π 6^2 15^360^ = 1,5π.\n\nОтвет: 1,5π см^2.\n\n2) a = 280^:\n\nS = π R^2 a :360^ =\n\n= π 6^2 280^360^ = 28π.\n\nОтвет: 28π см^2.",
+      "answer": "Ответ: 28π см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-254"
+    },
+    {
+      "number": "255",
+      "section": "Задание 255",
+      "condition": "Задание 255",
+      "solution": "S_с = 5/8S_кр:\n\nS_с = aS_кр360^\n\na = 360^ S_сS_кр\n\na = 5/8 360^ = 225^.\n\nОтвет: 225^.",
+      "answer": "Ответ: 225^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-255"
+    },
+    {
+      "number": "256",
+      "section": "Задание 256",
+      "condition": "Задание 256",
+      "solution": "S_с = 6π дм^2; R = 12 дм:\n\nS_с = S_кр a360^\n\na = S_сS_кр 360^\n\na = 360^ S_сπ R^2 = 360^ 6ππ 144 = 15^.\n\nОтвет: 15^.",
+      "answer": "Ответ: 15^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-256"
+    },
+    {
+      "number": "257",
+      "section": "Задание 257",
+      "condition": "Задание 257",
+      "solution": "S_с = 5π/4 см^2; a = 75^:\n\nS_с = S_кр a360^\n\nS_кр = 360^ S_сa\n\nS_кр = 360^75^ 5π/4 = 24/5 5π/4 = 6π.\n\nS_кр = π R^2\n\nR = S_крπ = √6.\n\nОтвет: √6 см.",
+      "answer": "Ответ: √6 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-257"
+    },
+    {
+      "number": "258",
+      "section": "Задание 258",
+      "condition": "Задание 258",
+      "solution": "Полукруг одновременно является\n\nи круговым сегментом и\n\nсектором круга.\n\nОтвет: да.",
+      "answer": "Ответ: да.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-258"
+    },
+    {
+      "number": "259",
+      "section": "Задание 259",
+      "condition": "Задание 259",
+      "solution": "R = 5 см.\n\n1) a = 45^:\n\nS_с = aπ R^2360^ - 1/2R^2 45^ =\n\n= 45^ π 25360^ - 25/2 √22 =\n\n= 25π - 25 2√28 = 25≤ft( π - 2√2 )8.\n\nОтвет: 25≤ft( π - 2√2 )8 см^2.\n\n2) a = 330^:\n\nS_с = aπ R^2360^ - 1/2R^2 330^ =\n\n= 330^ π 25360^ + 25/2 1/2 =\n\n= 275π + 25 3/12 = 25(11π + 3)/12.\n\nОтвет: 25(11π + 3)/12 см^2.",
+      "answer": "Ответ: 25(11π + 3)/12 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-259"
+    },
+    {
+      "number": "26",
+      "section": "Задание 26",
+      "condition": "Задание 26",
+      "solution": "Схематический рисунок.\n\nДано:\n\nBD - высота;\n\n∠ A = 60^;\n\n∠ C = 45^;\n\nAB = 10 см.\n\nНайти:\n\nBC.\n\n1) В :\n\n∠ BDA = 90^;\n\n∠ ABD = 90^ - ∠ BAD = 30^;\n\nAD = 1/2AB = 1/2 10 = 5 см;\n\nBD = AB^2 - AD^2 =\n\n= √100 - 25 = √75 = 5√5 см.\n\n2) В :\n\n∠ BDC = 90^; ∠ BCD = 45^;\n\n∠ DBC = 90^ - ∠ BCD = 45^;\n\nCD = BD = √75;\n\nBC = CD^2 + BD^2;\n\nBC = √75 + 75 =\n\n= √150 = 5√6 см.\n\nОтвет: 5√6 см.",
+      "answer": "Ответ: 5√6 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-26"
+    },
+    {
+      "number": "260",
+      "section": "Задание 260",
+      "condition": "Задание 260",
+      "solution": "R = 2 см.\n\n1) a = 60^:\n\nS_с = aπ R^2360^ - 1/2R^2 60^ =\n\n= 60^ π 4360^ - 4/2 √32 =\n\n= 2π/3 - √3 = 2π - 3√33.\n\nОтвет: 2π - 3√33 см^2.\n\n2) a = 300^:\n\nS_с = aπ R^2360^ - 1/2R^2 300^ =\n\n= 300^ π 4360^ + 4/2 √32 =\n\n= 10π/3 + √3 = 10π + 3√33.\n\nОтвет: 10π + 3√33 см^2.",
+      "answer": "Ответ: 10π + 3√33 см^2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-260"
+    },
+    {
+      "number": "261",
+      "section": "Задание 261",
+      "condition": "Задание 261",
+      "solution": "d = 65 см; n = 6:\n\n1) L = 2π R = π d;\n\nL 3,14 65 204.\n\n2) v = 204 6 = 1224 см/с;\n\nv = 1224 3600/100 000 44 км/ч.\n\nОтвет: 44 км/ч.",
+      "answer": "Ответ: 44 км/ч.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-261"
+    },
+    {
+      "number": "262",
+      "section": "Задание 262",
+      "condition": "Задание 262",
+      "solution": "R = 6 см; a = 1 ч:\n\n1) a = 360^ 1/12 = 30^.\n\n2) L = πRa180^ = π 6 30^180^ = π.\n\nОтвет: π см.",
+      "answer": "Ответ: π см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-262"
+    },
+    {
+      "number": "263",
+      "section": "Задание 263",
+      "condition": "Задание 263",
+      "solution": "R = 24 см; a = 40 мин:\n\n1) a = 360^ 40/60 = 240^.\n\n2) L = πRa180^ = 24π 240^180^ = 32π.\n\nОтвет: 32π см.",
+      "answer": "Ответ: 32π см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-263"
+    },
+    {
+      "number": "264",
+      "section": "Задание 264",
+      "condition": "Задание 264",
+      "solution": "R_1 - радиус окружности:\n\nR_2 = R_1 + a.\n\n1) C_1 = 2π R_1.\n\n2) C_2 = 2π R_2 = 2π≤ft( R_1 + a ) =\n\n= 2π R_1 + 2π a = R_1 + 2πa.\n\n3) Увеличение длины:\n\nC_2 - C_1 = 2πa.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-264"
+    },
+    {
+      "number": "265",
+      "section": "Задание 265",
+      "condition": "Задание 265",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAB = 6 см;\n\n∠ A = 50^;\n\n∠ B = 100^.\n\nНайти:\n\nAB;\n\nBC;\n\nAC.\n\nРешение.\n\n1) В :\n\n∠ C = 180^ - ∠ A - ∠ B = 30^;\n\nR = AB2∠ C = 6230^ = 6.\n\n2) Окружность:\n\nC = 2π R = 2π 6 = 12π;\n\nAB = 2 12π 30^360^ = 2π;\n\nBC = 2 12π 50^360^ = 10π/3;\n\nAC = 2 12π 100^360^ = 20π/3.\n\nОтвет: 2π см; 10π/3 см; 20π/3 см.",
+      "answer": "Ответ: 2π см; 10π/3 см; 20π/3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-265"
+    },
+    {
+      "number": "266",
+      "section": "Задание 266",
+      "condition": "Задание 266",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAB = 5√3 см;\n\n∠ A = 35^;\n\n∠ B = 25^.\n\nНайти:\n\nAB;\n\nBC;\n\nAC.\n\nРешение.\n\n1) В :\n\n∠ C = 180^ - ∠ A - ∠ B = 120^;\n\nR = AB2∠ C = 5√32120^ = 5.\n\n2) Окружность:\n\nC = 2π R = 2π 5 = 10π;\n\nAB = 2 10π 120^360^ = 20π/3;\n\nBC = 2 10π 35^360^ = 35π/18;\n\nAC = 2 10π 25^360^ = 25π/18.\n\nОтвет: 20π/3 см; 35π/18 см; 25π/18 см.",
+      "answer": "Ответ: 20π/3 см; 35π/18 см; 25π/18 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-266"
+    },
+    {
+      "number": "267",
+      "section": "Задание 267",
+      "condition": "Задание 267",
+      "solution": "Схематический рисунок.\n\nДано:\n\nO - центр окружности;\n\n∠ C = 90^;\n\n∠ A = 24^;\n\nAC = 20 см.\n\nНайти:\n\nCD.\n\nРешение.\n\nR = 1/2d = 1/2AC = 10;\n\n∠ COD = 2∠ CAD = 48^;\n\nC = 2π R = 2π 10 = 20π;\n\nCD = 20π 48^360^ = 8π/3.\n\nОтвет: 8π/3 см.",
+      "answer": "Ответ: 8π/3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-267"
+    },
+    {
+      "number": "268",
+      "section": "Задание 268",
+      "condition": "Задание 268",
+      "solution": "Схематический рисунок.\n\nДано:\n\nO - центр окружности;\n\nBH - высота;\n\nAB = BC;\n\nBH = 27 см;\n\n∠ A = 70^.\n\nНайти:\n\nEF.\n\nРешение:\n\n1) В :\n\nAB = BC;\n\n∠ A = ∠ C = 70^;\n\n∠ B = 180^ - ∠ A - ∠ C = 40^.\n\n2) Окружность:\n\nR = 1/2d = 1/2BH = 27/2;\n\n∠ EOF = 2∠ EBF = 80^;\n\nC = 2π R = 2π 27/2 = 27π;\n\nEF = 27π 80^360^ = 6π.\n\nОтвет: 6π см.",
+      "answer": "Ответ: 6π см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-268"
+    },
+    {
+      "number": "269",
+      "section": "Задание 269",
+      "condition": "Задание 269",
+      "solution": "Длины отрезков:\n\na_1, a_2, a_3, a_4, a_5, , a_n.\n\nДлины полуокружностей:\n\nS = 1/2≤ft( C_1 + C_2 + C_3 + + C_n ) =\n\n= π R_1 + π R_2 + π R_3 + + π R_n =\n\n= π a_12 + π a_22 + π a_32 + + π a_n2 =\n\n= π/2≤ft( a_1 + a_2 + + a_n ) = π/2AB.\n\nОтвет: 1 :1.",
+      "answer": "Ответ: 1 :1.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-269"
+    },
+    {
+      "number": "27",
+      "section": "Задание 27",
+      "condition": "Задание 27",
+      "solution": "Схематический рисунок.\n\nДано:\n\nBD - высота;\n\n∠ BAC = 150^;\n\nAB = 12 см.\n\nНайти:\n\nBD; AD.\n\nРешение:\n\n1) В :\n\n∠ BAD = 180^ - ∠ BAC = 30^.\n\n2) В :\n\n∠ BDA = 90^; ∠ BAD = 30^;\n\nBD = 1/2AB = 1/2 12 = 6 см.\n\nAD = AB^2 - BD^2 =\n\n= √144 - 36 = √108 = 6√3 см.\n\nОтвет: 6 см; 6√3 см.",
+      "answer": "Ответ: 6 см; 6√3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-27"
+    },
+    {
+      "number": "270",
+      "section": "Задание 270",
+      "condition": "Задание 270",
+      "solution": "Схематический рисунок.\n\nДано:\n\n∠ ACB = 90^.\n\nДоказать:\n\nS_AC + S_BC = S_AB.\n\nДоказательство.\n\n1) ∠ C = 90^:\n\nAB^2 = AC^2 + BC^2.\n\n2) S_AB = 1/2π AB^2 =\n\n= π/2≤ft( AC^2 + BC^2 );\n\nS_AC = 1/2π AC^2;\n\nS_BC = 1/2π BC^2;\n\nS_AC + S_BC = π/2≤ft( AC^2 + BC^2 ) = S_AB.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-270"
+    },
+    {
+      "number": "271",
+      "section": "Задание 271",
+      "condition": "Задание 271",
+      "solution": "d_1 = 30 см; d_2 = 40 см.\n\n1) Площадь сечения:\n\nS_1 = π R_1^2 = π ≤ft( d_12 )^2 =\n\n= π 15^2 = 225π.\n\nS_2 = π R_2^2 = π ≤ft( d_22 )^2 =\n\n= π 20^2 = 400π.\n\n2) Диаметр большой трубы:\n\nS = π R^2 = π ≤ft( d/2 )^2 = 625π\n\nd^24 = 625\n\nd^2 = 2500\n\nd = √2500 = 50 см.\n\nОтвет: 50 см.",
+      "answer": "Ответ: 50 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-271"
+    },
+    {
+      "number": "272",
+      "section": "Задание 272",
+      "condition": "Задание 272",
+      "solution": "R_1 - радиус круга:\n\nR_2 = R_1 1,1.\n\nРешение.\n\n1) S_1 = π R_1^2.\n\n2) S_2 = π R_2^2 = π ≤ft( 1,1R_1 )^2 =\n\n= 1,21π R_1^2 = 1,21S_1.\n\nОтвет: на 21\\%.",
+      "answer": "Ответ: на 21\\%.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-272"
+    },
+    {
+      "number": "273",
+      "section": "Задание 273",
+      "condition": "Задание 273",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - квадрат;\n\nO - центр опис. окружности;\n\nAB = a.\n\nНайти:\n\nS_AB.\n\nРешение.\n\n1) ABCD - квадрат:\n\nAC = AD^2 + CD^2 =\n\n= a^2 + a^2 = a√2;\n\nBO = AO = 1/2AC = a√22;\n\nAC BD;\n\n∠ AOB = 90^.\n\n2) В :\n\nS_AOB = 1/2AO BO = 1/2 a^22 = a^24.\n\n3) Окружность:\n\nS_AOB = π R^2α360^ = π a^22 90^360^ = a^2π8;\n\nS_AB = a^2π8 - a^24 = a^2(π - 2)8.\n\nОтвет: a^2(π - 2)8.",
+      "answer": "Ответ: a^2(π - 2)8.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-273"
+    },
+    {
+      "number": "274",
+      "section": "Задание 274",
+      "condition": "Задание 274",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCDEF - правильный\n\nшестиугольник;\n\nO - центр опис. окружности.\n\nНайти:\n\nS_окр - S_ABCDEFS_окр.\n\nРешение:\n\n1) ABCDEF - шестиугольник:\n\n∠ AOB = 360^6 = 60^;\n\nOA = AB2180^6 = AB230^ = AB.\n\n2) В :\n\nS_AOB = 1/2AB^2 60^ = AB^2√34.\n\n3) Окружность:\n\nS_AOB = π R^2α360^ = π AB^2 60^360^ =\n\n= AB^2π6;\n\nS_AB = AB^2π6 - AB^2√34\n\nAB^2 0,0906;\n\n6S_ABS_окр = 6 AB^2 0,0906π AB^2 0,173.\n\nОтвет: 17,3\\%.",
+      "answer": "Ответ: 17,3\\%.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-274"
+    },
+    {
+      "number": "275",
+      "section": "Задание 275",
+      "condition": "Задание 275",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- равносторонний;\n\nO - центр опис. окружности;\n\nAB = a.\n\nНайти:\n\nS_BC.\n\nРешение.\n\n1) В :\n\nAB = BC = a, ∠ A = ∠ C = 60^;\n\nR = AB2∠ C = a260^ = a√3;\n\n∠ BOC = 360^3 = 120^.\n\n2) В :\n\nS_BOC = 1/2 ≤ft( a√3 )^2 120^ =\n\n= a^26 √32 = a^2√312.\n\n3) Окружность:\n\nS_BOC = π R^2α360^ = π AB^2 120^360^ =\n\n= a^2π9;\n\nS_BC = a^2π9 - a^2√312 =\n\n= 4a^2π - 3a^2√336 =\n\n= a^2≤ft( 4π - 3√3 )36.\n\nОтвет: a^2≤ft( 4π - 3√3 )36.",
+      "answer": "Ответ: a^2≤ft( 4π - 3√3 )36.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-275"
+    },
+    {
+      "number": "276",
+      "section": "Задание 276",
+      "condition": "Задание 276",
+      "solution": "Схематический рисунок.\n\nДано:\n\nE - центр впис. окружности;\n\n∠ AOB = 60^;\n\nOH = R.\n\nНайти:\n\nS_E.\n\nРешение.\n\n1) Окружность с центром O:\n\nAB - касательная;\n\nOH AB.\n\n2) - равносторонний:\n\nOH - бисектриса и высота.\n\nПолучаем:\n\nS_AOB = 1/2 OA OB ∠ AOB =\n\n= 1/2AB^2 √32 = √34AB^2 =\n\n= 1/2AB OH.\n\n√32AB = OH\n\nAB = 2√3R\n\nr = AB2 tg180^3 = 12 tg 60^ 2R√3 =\n\n= 1√3 1√3R = 1/3R.\n\n3) Окружность с центром E:\n\nS = π R_окр^2 = π ≤ft( R/3 )^2 = π R^29.\n\nОтвет: π R^29.",
+      "answer": "Ответ: π R^29.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-276"
+    },
+    {
+      "number": "277",
+      "section": "Задание 277",
+      "condition": "Задание 277",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - квадрат;\n\nR_окр = AB = a.\n\nНайти:\n\n8S_BF.\n\nРешение.\n\n1) ABCD - квадрат:\n\nAC BD = F;\n\nEF AB; E AB;\n\nAE = BE = EF = 1/2AB = a/2.\n\n2) В :\n\nS_BEF = 1/2 BE EF = 1/2 a^24 = a^28.\n\n3) E - центр окружности AB:\n\nS_BEF = π R^2 90^360^ = π a^24 4 = π a^216;\n\nS_BF = π a^216 - a^28 = a^2(π - 2)16;\n\n8S_BF = a^2(π - 2)2 = a^2≤ft( π/2 - 1 ).\n\nОтвет: a^2≤ft( π/2 - 1 ).",
+      "answer": "Ответ: a^2≤ft( π/2 - 1 ).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-277"
+    },
+    {
+      "number": "278",
+      "section": "Задание 278",
+      "condition": "Задание 278",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - квадрат;\n\nR_окр = AB = a.\n\nНайти:\n\nP_MNKP.\n\nРешение.\n\n1) В :\n\nAN = AD = DN = R.\n\nЗгачит:\n\n- равносторонний.\n\nОтсюда:\n\n∠ A = ∠ N = ∠ D = 60^.\n\n2) ABCD - квадрат:\n\n∠ BAN = 90^ - ∠ DAN = 30^.\n\n3) Из симметрии:\n\n∠ DAK = 30^.\n\n4) В ABCD:\n\n∠ NAK = 90^ - ∠ BAN - ∠ DAK =\n\n= 90^ - 30^ - 30^ = 30^.\n\nL_NK = ∠ NAK π R180^ = 30^ π a180^ = π a/6.\n\nP_MNKP = 4 L_NK = 4 π a/6 = 2π a/3.\n\nОтвет: 2π a/3.",
+      "answer": "Ответ: 2π a/3.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-278"
+    },
+    {
+      "number": "279",
+      "section": "Задание 279",
+      "condition": "Задание 279",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - прямоугольник;\n\nO - центр опис. окружности.\n\nДоказать:\n\nS_ABCD = S_закр.\n\nДоказательство.\n\n1) ABCD - прямоугольник:\n\nAB = CD;\n\nBC = AD;\n\nAC^2 = AB^2 + BC^2.\n\n2) Окружность с центром O:\n\nS_окр O = πAC^24;\n\nS_закр + S_незакр =\n\n= πAB^24 + πBC^24 = πAC^24;\n\nS_окр O = S_незакр + S_ABCD;\n\nS_незакр = S_окр O - S_ABCD;\n\nS_закр + πAC^24 - S_ABCD = πAC^24\n\nS_закр = S_ABCD;\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-279"
+    },
+    {
+      "number": "28",
+      "section": "Задание 28",
+      "condition": "Задание 28",
+      "solution": "1) AB = 5 см; BC = 8 см;\n\n∠ B = 60^:\n\nAC^2 =\n\n= AB^2 + BC^2 - 2AB BC ∠ B =\n\n= 25 + 64 - 2 5 8 60^ =\n\n= 89 - 80 1/2 = 89 - 40 = 49;\n\nAC = √49 = 7 см.\n\nОтвет: 7 см.\n\n2) AB = 3 см; AC = 2√2 см;\n\n∠ A = 135^:\n\nBC^2 =\n\n= AB^2 + AC^2 - 2AB AC ∠ A =\n\n= 9 + 8 - 2 3 2√2 135^ =\n\n= 17 + 12√2 √22 =\n\n= 17 + 12 = 29;\n\nBC = √29 см.\n\nОтвет: √29 см.",
+      "answer": "Ответ: √29 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-28"
+    },
+    {
+      "number": "280",
+      "section": "Задание 280",
+      "condition": "Задание 280",
+      "solution": "Два квадрата:\n\na = 1 см.\n\nРешение.\n\nКвадраты имеют общий центр,\n\nзначит в них вписана одна\n\nокружность:\n\nr = 12 tg180^4 = 12 tg 45^ = 1/2 см.\n\nОкружность является общей\n\nчастью, вне зависимости от\n\nвращения:\n\nS = π r^2 = π ≤ft( 1/2 )^2 = π/4 см^2.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-280"
+    },
+    {
+      "number": "281",
+      "section": "Задание 281",
+      "condition": "Задание 281",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - ромб;\n\nBH - высота;\n\n∠ BAC = 15^;\n\nBH = 6 см.\n\nНайти:\n\nAB.\n\nРешение:\n\n1) ABCD - ромб:\n\n∠ BAD = 2∠ BAC = 30^.\n\n2) В :\n\n∠ AHB = 90^;\n\n∠ BAH = 30^;\n\nAB = 2BH = 12 см.\n\nОтвет: 12 см.",
+      "answer": "Ответ: 12 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-281"
+    },
+    {
+      "number": "282",
+      "section": "Задание 282",
+      "condition": "Задание 282",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - прямоугольник;\n\nAM - биссектриса ∠ BAD;\n\nBM = 10 см;\n\nMC = 14 см.\n\nНайти:\n\nBE; DE.\n\nРешение.\n\n1) ABCD - прямоугольник:\n\n∠ A = ∠ B = 90^;\n\nAD = BC;\n\nBC = BM + MC = 24;\n\n∠ BAM = ∠ DAE = 1/2∠ A = 45^.\n\n2) В :\n\n∠ B = 90^;\n\n∠ A = 45^;\n\n∠ M = 180^ - ∠ B - ∠ A = 45^;\n\nAB = BM = 10.\n\n3) В :\n\n∠ A = 90^;\n\nBD = AB^2 + AD^2;\n\nBD = √100 + 576 = √676 = 26.\n\n4) - по двум углам:\n\n∠ BME = ∠ DAE;\n\n∠ BEM = ∠ DEA - вертикальные.\n\nОтсюда:\n\nDEBE = ADBM = 24/10\n\nDE = 24/10BE;\n\nBD = DE + BE = 26;\n\n24/10BE + BE = 26\n\n34/10BE = 26\n\nBE = 130/17.\n\nDE = 24/10 130/17 = 312/17.\n\nОтвет: 130/17 см; 312/17 см.",
+      "answer": "Ответ: 130/17 см; 312/17 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-282"
+    },
+    {
+      "number": "283",
+      "section": "Задание 283",
+      "condition": "Задание 283",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - трапеция;\n\n∠ A + ∠ D = 90^;\n\nAE = DE;\n\nBF = CF.\n\nДоказать:\n\nFE = AD - BC/2.\n\nДоказательство.\n\n1) Дополнительное построение:\n\nFM AB; M AD;\n\nFN CD; N AD.\n\n2) ABFM - параллелограмм:\n\nAM = BF;\n\n∠ FMN = ∠ A.\n\n3) CFDN - параллелограмм:\n\nDN = CF = BF = AM;\n\n∠ FNM = ∠ D.\n\n4) В :\n\n∠ F = 180^ - ∠ M - ∠ N = 90^;\n\nME = AE - AM =\n\n= DE - DN = NE.\n\nFE - медиана:\n\nFE = 1/2MN = ME;\n\nME = AE - BF = AD - BC/2.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-283"
+    },
+    {
+      "number": "284",
+      "section": "Задание 284",
+      "condition": "Задание 284",
+      "solution": "1) A(3) и B(7):\n\nL = |3 - 7| = | - 4| = 4.\n\n2) A( - 2) и B(4):\n\nL = | - 2 - 4| = | - 6| = 6.\n\n3) A( - 2) и B( - 6):\n\nL = | - 2 + 6| = |4| = 4.\n\n4) A(a) и B(b):\n\nL = |a - b|.",
+      "answer": "L = |a - b|.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-284"
+    },
+    {
+      "number": "285",
+      "section": "Задание 285",
+      "condition": "Задание 285",
+      "solution": "1) A( - 1; - 6), B(5; - 6):\n\nC_x = - 1 + 5/2 = 2;\n\nC_y = - 6 - 6/2 = - 6.\n\nОтвет: C(2; - 6).\n\n2) A(3; 1), B(3; 5):\n\nC_x = 3 + 3/2 = 3;\n\nC_y = 1 + 5/2 = 3.\n\nОтвет: C(3; 3).\n\n3) A(3; - 5), B( - 1; 3):\n\nC_x = 3 - 1/2 = 1;\n\nC_y = - 5 + 3/2 = - 1.\n\nОтвет: C(1; - 1).",
+      "answer": "Ответ: C(1; - 1).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-285"
+    },
+    {
+      "number": "286",
+      "section": "Задание 286",
+      "condition": "Задание 286",
+      "solution": "A(5; - 1);B( - 3; 5); C( - 3; - 1).\n\n1)\n\n2) AB = (5 + 3)^2 + ( - 1 - 5)^2 =\n\n= √64 + 36 = 10.\n\nBC = ( - 3 + 3)^2 + (5 + 1)^2 =\n\n= √0 + 36 = 6.\n\nAC = (5 + 3)^2 + ( - 1 + 1)^2 =\n\n= √64 + 0 = 8.\n\nОтвет: 6; 8; 10.",
+      "answer": "Ответ: 6; 8; 10.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-286"
+    },
+    {
+      "number": "287",
+      "section": "Задание 287",
+      "condition": "Задание 287",
+      "solution": "1) A(3; - 4):\n\nx = 3 > 0;\n\ny = - 4 < 0.\n\nОтвет: в IV.\n\n2) B( - 3; 1):\n\nx = - 3 < 0;\n\ny = 1 > 0.\n\nОтвет: во II.\n\n3) C( - 4; - 5):\n\nx = - 4 < 0;\n\ny = - 5 < 0.\n\nОтвет: в III.\n\n4) D(1; 9):\n\nx = 1 > 0;\n\ny = 9 > 0.\n\nОтвет: в I.",
+      "answer": "Ответ: в I.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-287"
+    },
+    {
+      "number": "288",
+      "section": "Задание 288",
+      "condition": "Задание 288",
+      "solution": "1) x > 0, y < 0:\n\nв IV.\n\n2) xy < 0:\n\nx < 0, y > 0 или x > 0, y < 0;\n\nво II или IV.\n\n3) x < 0, y < 0:\n\nв III.",
+      "answer": "в III.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-288"
+    },
+    {
+      "number": "289",
+      "section": "Задание 289",
+      "condition": "Задание 289",
+      "solution": "1) A лежит на оси абсцисс:\n\ny = 0.\n\n2) A лежит на оси ординат:\n\nx = 0.\n\n3) A лежит на биссектрисе\n\nчетвертого угла:\n\nx > 0, y < 0, y = - x.\n\n4) A лежит на биссектрисе\n\nтретьего угла:\n\nx < 0, y < 0, y = x.\n\n5) A лежит на биссектрисе\n\nпервого угла:\n\nx > 0, y > 0, y = x.",
+      "answer": "x > 0, y > 0, y = x.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-289"
+    },
+    {
+      "number": "29",
+      "section": "Задание 29",
+      "condition": "Задание 29",
+      "solution": "1) DE = 4 см;DF = 2√3 см;\n\n∠ D = 30^:\n\nEF^2 =\n\n= DE^2 + DF^2 - 2DE DF ∠ D =\n\n= 16 + 12 - 2 4 2√3 30^ =\n\n= 28 - 16√3 √32 = 28 - 24 = 4;\n\nEF = √4 = 2 см.\n\nОтвет: 2 см.\n\n2) DF = 3 см; EF = 5 см;\n\n∠ F = 120^:\n\nDE^2 =\n\n= DF^2 + EF^2 - 2DF EF ∠ F =\n\n= 9 + 25 - 2 3 5 120^ =\n\n= 34 + 30 1/2 = 34 + 15 = 49;\n\nDE = √49 = 7 см.\n\nОтвет: 7 см.",
+      "answer": "Ответ: 7 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-29"
+    },
+    {
+      "number": "290",
+      "section": "Задание 290",
+      "condition": "Задание 290",
+      "solution": "Координаты вершин\n\nпрямоугольника ABCD:\n\nA( - 1; 1); B(2; 1); C(2; - 2); D( - 1; - 2).",
+      "answer": "A( - 1; 1); B(2; 1); C(2; - 2); D( - 1; - 2).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-290"
+    },
+    {
+      "number": "291",
+      "section": "Задание 291",
+      "condition": "Задание 291",
+      "solution": "1) A(10; 14), B(5; 2):\n\nAB = (10 - 5)^2 + (14 - 2)^2 =\n\n= 5^2 + 12^2 = √25 + 144 =\n\n= √169 = 13.\n\nОтвет: 13.\n\n2) A( - 1; 2), B(4; - 3):\n\nAB = ( - 1 - 4)^2 + (2 + 3)^2 =\n\n= 5^2 + 5^2 = √25 + 25 =\n\n= √50 = 5√2.\n\nОтвет: 5√2.",
+      "answer": "Ответ: 5√2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-291"
+    },
+    {
+      "number": "292",
+      "section": "Задание 292",
+      "condition": "Задание 292",
+      "solution": "1) C( - 2; - 4), D(4; - 12):\n\nCD = ( - 2 - 4)^2 + ( - 4 + 12)^2 =\n\n= 6^2 + 8^2 = √36 + 64 =\n\n= √100 = 10.\n\nОтвет: 10.\n\n2) C(6; 3), D(7; - 1):\n\nCD = (6 - 7)^2 + (3 + 1)^2 =\n\n= 1^2 + 4^2 = √17.\n\nОтвет: √17.",
+      "answer": "Ответ: √17.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-292"
+    },
+    {
+      "number": "293",
+      "section": "Задание 293",
+      "condition": "Задание 293",
+      "solution": "Вершины треугольника ABC:\n\nA( - 1; 3), B(5; 9), C(6; 2).\n\nДоказательство.\n\nAB = ( - 1 - 5)^2 + (3 - 9)^2 =\n\n= √36 + 36 = 6√2;\n\nBC = (5 - 6)^2 + (9 - 2)^2 =\n\n= √1 + 49 = 5√2;\n\nAC = ( - 1 - 6)^2 + (3 - 2)^2 =\n\n= √49 + 1 = 5√2.\n\nBC = AC - значит,\n\nтреугольник ABC\n\nравнобедренный.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-293"
+    },
+    {
+      "number": "294",
+      "section": "Задание 294",
+      "condition": "Задание 294",
+      "solution": "Вершины треугольника ABC:\n\nA(6; - 9), B( - 6; 7), C(8; 5).\n\nM(0; - 1) - центр окружности.\n\nДоказательство.\n\nAM = (6 - 0)^2 + ( - 9 + 1)^2 =\n\n= √36 + 64 = 10;\n\nBM = ( - 6 - 0)^2 + (7 + 1)^2 =\n\n= √36 + 64 = 10;\n\nCM = (8 - 0)^2 + (5 + 1)^2 =\n\n= √64 + 36 = 10.\n\nТак как расстояние от вершин\n\nдо точки M одинаковое, она\n\nявляется центром описанной\n\nокружности.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-294"
+    },
+    {
+      "number": "295",
+      "section": "Задание 295",
+      "condition": "Задание 295",
+      "solution": "Вершины треугольника ABC:\n\nA(5; - 7);\n\nB( - 3; 8);\n\nC( - 10; - 15).\n\nДоказательство.\n\nAB = (5 + 3)^2 + ( - 7 - 8)^2 =\n\n= √64 + 225 = 17;\n\nAC = (5 + 10)^2 + ( - 7 + 15)^2 =\n\n= √225 + 64 = 17.\n\nТак как стороны равны,\n\nтреугольник - равнобедренный.\n\nОтсюда:\n\n∠ B = ∠ C.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-295"
+    },
+    {
+      "number": "296",
+      "section": "Задание 296",
+      "condition": "Задание 296",
+      "solution": "1) B(5; 4), C(3; 2):\n\nx = 5 + 3/2 = 8/2 = 4;\n\ny = 4 + 2/2 = 6/2 = 3.\n\nОтвет: (4; 3).\n\n2) B( - 2; - 1), C( - 1; 7):\n\nx = - 2 - 1/2 = - 3/2 = - 1,5;\n\ny = - 1 + 7/2 = 6/2 = 3.\n\nОтвет: ( - 1,5; 3).",
+      "answer": "Ответ: ( - 1,5; 3).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-296"
+    },
+    {
+      "number": "297",
+      "section": "Задание 297",
+      "condition": "Задание 297",
+      "solution": "C - середина отрезка AB.\n\n1) A(3; - 4), C(2; 1):\n\n2 = 3 + x/2\n\n3 + x = 4\n\nx = 1.\n\n1 = - 4 + y/2\n\ny - 4 = 2\n\ny = 6.\n\nОтвет: B(1; 6).\n\n2) A( - 1; 1), C(0,5; - 1):\n\n0,5 = - 1 + x/2\n\nx - 1 = 1\n\nx = 2.\n\n- 1 = 1 + y/2\n\n1 + y = - 2\n\ny = - 3.\n\nОтвет: B(2; - 3).",
+      "answer": "Ответ: B(2; - 3).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-297"
+    },
+    {
+      "number": "298",
+      "section": "Задание 298",
+      "condition": "Задание 298",
+      "solution": "K - середина отрезка AD.\n\nТочка\n\nКоординаты точки\n\nA\n\n( - 3; 1)\n\n( - 8; 2)\n\n(11; 2)\n\nD\n\n( - 1; - 3)\n\n(0; 10)\n\n( - 9; 2)\n\nK\n\n( - 2; - 1)\n\n( - 4; 6)\n\n(1; 2)\n\nx_1 = - 3 - 1/2 = - 2;\n\ny_1 = 1 - 3/2 = - 1.\n\nx_2 = 2 ( - 4) + 8 = 0;\n\ny_2 = 2 6 - 2 = 10.\n\nx_3 = 2 1 + 9 = 11;\n\ny_3 = 2 2 - 2 = 2.",
+      "answer": "y_3 = 2 2 - 2 = 2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-298"
+    },
+    {
+      "number": "299",
+      "section": "Задание 299",
+      "condition": "Задание 299",
+      "solution": "Вершины треугольника ABC:\n\nA(3; - 2), B(2; 3), C(7; 4).\n\n1) Середина AC:\n\nx = 3 + 7/2 = 5;\n\ny = - 2 + 4/2 = 1.\n\n2) BM = (2 - 5)^2 + (3 - 1)^2 =\n\n= 3^2 + 2^2 = √9 + 4 = √13.\n\nОтвет: √13.",
+      "answer": "Ответ: √13.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-299"
+    },
+    {
+      "number": "3",
+      "section": "Задание 3",
+      "condition": "Задание 3",
+      "solution": "α и β - смежные углы;\n\nα = - 1/6.\n\n1)β = (180^ - α)\n\nβ = - α = 1/6.\n\nОтвет: 1/6.\n\n2)α < 0; β > 0:\n\n90^ < α < 180^;\n\n0^ < β < 90^.\n\nОтвет: a - тупой; β - острый.",
+      "answer": "Ответ: a - тупой; β - острый.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-3"
+    },
+    {
+      "number": "30",
+      "section": "Задание 30",
+      "condition": "Задание 30",
+      "solution": "Стороны треугольника:\n\na = 12 см;b = 20 см;c = 28 см.\n\nРешение.\n\nПо теореме косинусов:\n\nc^2 = a^2 + b^2 - 2ab ∠ c\n\n784 = 144 + 400 - 2 12 20 ∠ c\n\n480 ∠ c = - 240\n\n∠ c = - 1/2\n\n∠ c = ≤ft( - 1/2 ) = 120^.\n\nОтвет: 120^.",
+      "answer": "Ответ: 120^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-30"
+    },
+    {
+      "number": "300",
+      "section": "Задание 300",
+      "condition": "Задание 300",
+      "solution": "A( - 2; 4), B(2; - 8).\n\n1) Середина AB:\n\nx = - 2 + 2/2 = 0;\n\ny = 4 - 8/2 = - 2.\n\n2) OC = (0 - 0)^2 + (0 + 2)^2 = 2.\n\nОтвет: 2.",
+      "answer": "Ответ: 2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-300"
+    },
+    {
+      "number": "301",
+      "section": "Задание 301",
+      "condition": "Задание 301",
+      "solution": "Вершины треугольника ABC:\n\nA(2; 7), B( - 1; 4), C(1; 2).\n\n1) AB = (2 + 1)^2 + (7 - 4)^2 =\n\n= √9 + 9 = √18;\n\nBC = ( - 1 - 1)^2 + (4 - 2)^2 =\n\n= √4 + 4 = √8;\n\nAC = (2 - 1)^2 + (7 - 2)^2 =\n\n= √1 + 25 = √26.\n\n2) По теореме косинусов:\n\n∠ B = AB^2 + BC^2 - AC^22AB BC =\n\n= 18 + 8 - 262 √18 √8 = 0/24 = 0;\n\n∠ B = 0 = 90^.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-301"
+    },
+    {
+      "number": "302",
+      "section": "Задание 302",
+      "condition": "Задание 302",
+      "solution": "- прямоугольный:\n\nA( - 1; 2), B(7; 4).\n\n1) C(7; 2):\n\nAB = ( - 1 - 7)^2 + (2 - 4)^2 =\n\n= √64 + 4 = √68;\n\nBC = (7 - 7)^2 + (4 - 2)^2 =\n\n= √0 + 4 = 2;\n\nAC = (7 + 1)^2 + (2 - 2)^2 =\n\n= √64 + 0 = 8.\n\n∠ C = AC^2 + BC^2 - AB^22AC BC =\n\n= 64 + 4 - 68/2 8 2 = 0;\n\n∠ C = 0 = 90^.\n\nОтвет: да.\n\n2) C(2; - 3):\n\nAB = ( - 1 - 7)^2 + (2 - 4)^2 =\n\n= √64 + 4 = √68;\n\nBC = (7 - 2)^2 + (4 + 3)^2 =\n\n= √25 + 49 = √74;\n\nAC = ( - 1 - 2)^2 + (2 + 3)^2 =\n\n= √9 + 25 = √34;\n\n∠ A = AB^2 + AC^2 - BC^22AB AC =\n\n= 68 + 34 - 742√68 √34 ≠ 0;\n\n∠ A ≠ 0 = 90^.\n\nОтвет: нет.",
+      "answer": "Ответ: нет.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-302"
+    },
+    {
+      "number": "303",
+      "section": "Задание 303",
+      "condition": "Задание 303",
+      "solution": "1) A( - 2; - 7), B( - 1; - 4), C(5; 14):\n\nAB = ( - 2 + 1)^2 + ( - 7 + 4)^2 =\n\n= √1 + 9 = √10;\n\nBC = ( - 1 - 5)^2 + ( - 4 - 14)^2 =\n\n= √36 + 324 = 6√10;\n\nAC = ( - 2 - 5)^2 + ( - 7 - 14)^2 =\n\n= √49 + 441 = 7√10;\n\nAC = AB + BC.\n\nОтвет: B.\n\n2) D( - 1; 3), E(2; 13), F(5; 21):\n\nDE = ( - 1 - 2)^2 + (3 - 13)^2 =\n\n= √9 + 100 = √109;\n\nEF = (2 - 5)^2 + (13 - 21)^2 =\n\n= √9 + 64 = √73;\n\nDF = ( - 1 - 5)^2 + (3 - 21)^2 =\n\n= √36 + 324 = √360;\n\nDF ≠ DE + EF.\n\nОтвет: нет.",
+      "answer": "Ответ: нет.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-303"
+    },
+    {
+      "number": "304",
+      "section": "Задание 304",
+      "condition": "Задание 304",
+      "solution": "M( - 4; 5), N( - 10; 7), K(8; 1):\n\nMN = ( - 4 + 10)^2 + (5 - 7)^2 =\n\n= √36 + 4 = 2√10;\n\nNK = ( - 10 - 8)^2 + (7 - 1)^2 =\n\n= √324 + 36 = 6√10;\n\nMK = ( - 4 - 8)^2 + (5 - 1)^2 =\n\n= √144 + 16 = 4√10;\n\nNK = MN + MK.\n\nОтвет: M.",
+      "answer": "Ответ: M.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-304"
+    },
+    {
+      "number": "305",
+      "section": "Задание 305",
+      "condition": "Задание 305",
+      "solution": "C(3; 2);D(x; - 1);CD = 5:\n\nCD^2 = (3 - x)^2 + (2 + 1)^2\n\n9 - 6x + x^2 + 9 = 25\n\nx^2 - 6x - 7 = 0\n\nD = 6^2 + 4 7 = 36 + 28 = 64\n\nx_1 = 6 - 8/2 = - 1;\n\nx_2 = 6 + 8/2 = 7.\n\nОтвет: - 1; 7.",
+      "answer": "Ответ: - 1; 7.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-305"
+    },
+    {
+      "number": "306",
+      "section": "Задание 306",
+      "condition": "Задание 306",
+      "solution": "A( - 1; - 1), B(2; 4):\n\nAC = BC;\n\nAC^2 = BC^2;\n\n( - 1 - x)^2 + ( - 1)^2 = (2 - x)^2 + 4^2\n\nx^2 + 2x + 1 + 1 = x^2 - 4x + 4 + 16\n\n6x = 18\n\nx = 3.\n\nОтвет: (3; 0).",
+      "answer": "Ответ: (3; 0).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-306"
+    },
+    {
+      "number": "307",
+      "section": "Задание 307",
+      "condition": "Задание 307",
+      "solution": "D( - 2; - 3); E(4; 1):\n\nDF = EF; DF^2 = EF^2;\n\n( - 2)^2 + ( - 3 - y)^2 = 4^2 + (1 - y)^2\n\n4 + y^2 + 6y + 9 = 16 + y^2 - 2y + 1\n\n8y = 4\n\ny = 0,5.\n\nОтвет: (0; 0,5).",
+      "answer": "Ответ: (0; 0,5).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-307"
+    },
+    {
+      "number": "308",
+      "section": "Задание 308",
+      "condition": "Задание 308",
+      "solution": "A(5; - 3);B( - 3; 7);ACBC = 1/3:\n\nСередина AB:\n\nx = 5 - 3/2 = 1;\n\ny = - 3 + 7/2 = 2.\n\nСередина AK:\n\nx = 5 + 1/2 = 3;\n\ny = 2 - 3/2 = - 0,5.\n\nОтвет: (3; - 0,5).",
+      "answer": "Ответ: (3; - 0,5).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-308"
+    },
+    {
+      "number": "309",
+      "section": "Задание 309",
+      "condition": "Задание 309",
+      "solution": "Параллелограмм ABCD:\n\nA( - 5; 1), B( - 4; 4), C( - 1; 5).\n\nA удалена от точки B:\n\n= - 5 + 4 = - 1;\n\n= 1 - 4 = - 3.\n\nD удалена от точки C:\n\nx = - 1 - 1 = - 2;\n\ny = 5 - 3 = 2.\n\nОтвет: ( - 2; 2).",
+      "answer": "Ответ: ( - 2; 2).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-309"
+    },
+    {
+      "number": "31",
+      "section": "Задание 31",
+      "condition": "Задание 31",
+      "solution": "Стороны треугольника:\n\na = √18 см; b = 5 см; c = 7 см.\n\nРешение.\n\nПо теореме косинусов:\n\nb^2 = a^2 + c^2 - 2ac ∠ b\n\n25 = 18 + 49 - 2 √18 7 ∠ c\n\n14 3√2 ∠ c = 42\n\n∠ c = √22\n\n∠ c = √22 = 45^.\n\nОтвет: 45^.",
+      "answer": "Ответ: 45^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-31"
+    },
+    {
+      "number": "310",
+      "section": "Задание 310",
+      "condition": "Задание 310",
+      "solution": "Параллелограмм ABCD:\n\nA( - 2; - 2),C(4; 1),D( - 1; 1).\n\nC удалена от точки D:\n\n= 4 + 1 = 5;\n\n= 1 - 1 = 0.\n\nB удалена от точки A:\n\nx = - 2 + 5 = 3;\n\ny = - 2 + 0 = - 2.\n\nОтвет: (3; - 2).",
+      "answer": "Ответ: (3; - 2).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-310"
+    },
+    {
+      "number": "32",
+      "section": "Задание 32",
+      "condition": "Задание 32",
+      "solution": "1) 5 см; 7 см; 9 см:\n\n5^2 + 7^2 = 25 + 49 = 74;\n\n9^2 = 81 > 5^2 + 7^2.\n\nОтвет: тупоугольный.\n\n2) 5 см; 12 см; 13 см:\n\n5^2 + 12^2 = 25 + 144 = 169;\n\n13^2 = 169 = 5^2 + 12^2.\n\nОтвет: прямоугольный.\n\n3) 10 см; 15 см; 18 см:\n\n10^2 + 15^2 = 100 + 225 = 325;\n\n18^2 = 324 < 10^2 + 15^2.\n\nОтвет: остроугольный.",
+      "answer": "Ответ: остроугольный.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-32"
+    },
+    {
+      "number": "33",
+      "section": "Задание 33",
+      "condition": "Задание 33",
+      "solution": "1) 7 см; 8 см; 12 см:\n\n7^2 + 8^2 = 49 + 81 = 130;\n\n12^2 = 144 > 7^2 + 8^2.\n\nОтвет: тупоугольный.\n\n2) 8 см; 15 см; 17 см:\n\n8^2 + 15^2 = 64 + 225 = 289;\n\n17^2 = 289 = 8^2 + 15^2.\n\nОтвет: прямоугольный.",
+      "answer": "Ответ: прямоугольный.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-33"
+    },
+    {
+      "number": "34",
+      "section": "Задание 34",
+      "condition": "Задание 34",
+      "solution": "1) Следует измерить две\n\nпротивоположные стороны\n\nкрышки, если они равны, то\n\nизмерить вторую пару сторон,\n\nесли они также равны, то\n\nкрышка имеет форму\n\nпараллелограмма.\n\n2) Затем требуется измерить\n\nобе диагонали крышки, если\n\nони будут равны, то крышка\n\nимеет форму прямоугольника.",
+      "answer": "имеет форму прямоугольника.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-34"
+    },
+    {
+      "number": "35",
+      "section": "Задание 35",
+      "condition": "Задание 35",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - параллелограмм;\n\nAB = 2√2 см;\n\nAD = 5 см;\n\n∠ A = ∠ C = 45^.\n\nНайти:\n\nAC; BD.\n\nРешение.\n\n1) В :\n\nBD^2 =\n\n= AB^2 + AD^2 - 2AB AD ∠ A;\n\n= 8 + 25 - 2 2√2 5 45^ =\n\n= 33 - 20√2 √22 =\n\n= 33 - 20 = 13.\n\nBD = √13 см.\n\n2) В ABCD:\n\n∠ B = 180^ - ∠ A = 135^;\n\nBC = AD = 5 см.\n\n3) В :\n\nAC^2 =\n\n= AB^2 + BC^2 - 2AB BC ∠ B =\n\n= 8 + 25 - 2 2√2 5 135^ =\n\n= 33 + 20√2 √22 =\n\n= 33 + 20 = 53.\n\nAC = √53.\n\nОтвет: √13 см; √53 см.",
+      "answer": "Ответ: √13 см; √53 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-35"
+    },
+    {
+      "number": "36",
+      "section": "Задание 36",
+      "condition": "Задание 36",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - трапеция;\n\nBC = 3 см;\n\nAD = 10 см;\n\nCD = 4 см;\n\n∠ D = 60^.\n\nНайти:\n\nAC; BD.\n\nРешение.\n\n1) В :\n\nAC^2 =\n\n= AD^2 + CD^2 - 2AD CD ∠ D =\n\n= 100 + 16 - 2 10 4 60^ =\n\n= 116 - 80 1/2 = 116 - 40 = 76;\n\nAC = √76 = 2√19 см.\n\n2) В ABCD:\n\n∠ C = 180^ - ∠ D = 120^.\n\n3) В :\n\nBD^2 =\n\n= BC^2 + CD^2 - 2BC CD ∠ C =\n\n= 9 + 16 - 2 3 4 120^ =\n\n= 25 + 24 1/2 = 25 + 12 = 37;\n\nBD = √37 см.\n\nОтвет: 2√19 см; √37 см.",
+      "answer": "Ответ: 2√19 см; √37 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-36"
+    },
+    {
+      "number": "37",
+      "section": "Задание 37",
+      "condition": "Задание 37",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- равносторонний;\n\nAD :BD = 2 :1;\n\nAB = 6 см.\n\nНайти:\n\nCD.\n\nРешение:\n\n1) В :\n\nAC = AB = 6;\n\n∠ A = 60^;\n\nAD = 2/1 + 2 AB = 2/3AB = 4 см.\n\n2) В :\n\nCD^2 =\n\n= AD^2 + AC^2 - 2AD AC ∠ A =\n\n= 16 + 36 - 2 4 6 60^ =\n\n= 52 - 48 1/2 = 52 - 24 = 28;\n\nCD = √28 = 2√7 см.\n\nОтвет: 2√7 см.",
+      "answer": "Ответ: 2√7 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-37"
+    },
+    {
+      "number": "38",
+      "section": "Задание 38",
+      "condition": "Задание 38",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- прямоугольник;\n\nAM :BM = 1 :3;\n\nAC = BC = 4 см.\n\nНайти:\n\nCM.\n\nРешение.\n\n1) В :\n\n∠ C = 90^;\n\n∠ A = ∠ B = 45^;\n\nAB = AC^2 + BC^2 =\n\n= √16 + 16 = √32 = 4√2 см;\n\nAM = 1/1 + 3 AB = 1/4AB = √2 см.\n\n2) В :\n\nCM^2 =\n\n= AM^2 + AC^2 - 2AM AC ∠ A =\n\n= 2 + 16 - 2 √2 4 45^ =\n\n= 18 - 8√2 √22 = 18 - 8 = 10;\n\nCM = √10 см.\n\nОтвет: √10 см.",
+      "answer": "Ответ: √10 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-38"
+    },
+    {
+      "number": "39",
+      "section": "Задание 39",
+      "condition": "Задание 39",
+      "solution": "a = 3 см; b = 4 см;\n\n∠ c = √356.\n\n1) ∠ c = ± 1 - ^2∠ c =\n\n= ± √1 - 35/36 = ± √1/36 = ± 1/6.\n\n2) ∠ c = - 1/6:\n\nc^2 = a^2 + b^2 - 2ab ∠ c =\n\n= 9 + 16 - 2 3 4 ≤ft( - 1/6 ) =\n\n= 25 + 4 = 29;\n\nc = √29 см.\n\n3) ∠ c = 1/6:\n\nc^2 = a^2 + b^2 - 2ab ∠ c =\n\n= 9 + 16 - 2 3 4 1/6 =\n\n= 25 - 4 = 21;\n\nc = √21 см.\n\nОтвет: √21 см; √29 см.",
+      "answer": "Ответ: √21 см; √29 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-39"
+    },
+    {
+      "number": "4",
+      "section": "Задание 4",
+      "condition": "Задание 4",
+      "solution": "1) 290^ + 30^ =\n\n= 2 1 + 3 1 = 5.\n\n2) 30^ - 5180^ =\n\n= 3 1 - 5 ( - 1) = 8.\n\n3) tg 23^ tg 0^ tg 106^ =\n\n= tg 23^ 0 tg 106^ = 0.\n\n4) 6 tg 180^ + 5180^ + ctg 90^ =\n\n= 6 0 + 5 0 + 0 = 0.\n\n5)^2165^ + ^2165^ = 1.\n\n6) 0^ + 90^0^ - 90^ = 0 + 1/1 - 0 = 1.",
+      "answer": "6) 0^ + 90^0^ - 90^ = 0 + 1/1 - 0 = 1.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-4"
+    },
+    {
+      "number": "40",
+      "section": "Задание 40",
+      "condition": "Задание 40",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- прямоугольный;\n\n∠ C = 90^;\n\nAC = 20 см;\n\nBC = 15 см;\n\nBM = 4 см.\n\nНайти:\n\nCM.\n\nРешение:\n\n1) В :\n\n∠ BCA = 90^;\n\nAB = AC^2 + BC^2 =\n\n= √400 + 225 = √625 = 25;\n\n∠ B = BCAB = 15/25 = 3/5.\n\n2) В :\n\nCM^2 =\n\n= BM^2 + BC^2 - 2BM BC∠ B =\n\n= 16 + 225 - 2 4 15 3/5 =\n\n= 241 - 72 = 169;\n\nCM = 13 см.\n\nОтвет: 13 см.",
+      "answer": "Ответ: 13 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-40"
+    },
+    {
+      "number": "41",
+      "section": "Задание 41",
+      "condition": "Задание 41",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- прямоугольный;\n\nBD = BC; ∠ C = 90^;\n\nBD = AC = BC = a.\n\nНайти:\n\nCD.\n\n1) В :\n\n∠ C = 90^;\n\n∠ B = ∠ A = 45^;\n\n∠ CBD = 180^ - ∠ B = 135^.\n\n2) В :\n\nCD^2 =\n\n= BC^2 + BD^2 - 2BC BD∠ B =\n\n= a^2 + a^2 - 2 a a ≤ft( - √22 ) =\n\n= 2a^2 + √2a^2 = a^2≤ft( 2 + √2 );\n\nCD = a2 + √2.\n\nОтвет: a2 + √2.",
+      "answer": "Ответ: a2 + √2.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-41"
+    },
+    {
+      "number": "42",
+      "section": "Задание 42",
+      "condition": "Задание 42",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- прямоугольный;\n\n∠ C = 90^;\n\nAB = 13 см;\n\nAC = 12 см;\n\nBD = 26 см.\n\nНайти:\n\nCD.\n\nРешение.\n\n1) В :\n\n∠ C = 90^;\n\nBC = AB^2 - AC^2;\n\nBC = √169 - 144 = √25 = 5 см.\n\n∠ B = BCAB = 5/13;\n\n∠ CBD = 180^ - ∠ B;\n\n∠ CBD = - ∠ B = - 5/13.\n\n2) В :\n\nCD^2 =\n\n= BC^2 + BD^2 - 2BC BD∠ B =\n\n= 25 + 676 - 2 5 26 ≤ft( - 5/13 ) =\n\n= 701 + 100 = 801;\n\nCD = √801 = 3√89 см.\n\nОтвет: 3√89 см.",
+      "answer": "Ответ: 3√89 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-42"
+    },
+    {
+      "number": "43",
+      "section": "Задание 43",
+      "condition": "Задание 43",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- прямоугольный;\n\n∠ C = 90^;\n\nO - центр впис. окружности;\n\nOA = a см;\n\nOB = b см.\n\nНайти:\n\nAB.\n\nРешение:\n\n1) В :\n\n∠ C = 90^;\n\n∠ A + ∠ B = 90^;\n\nO - центр впис. окружности;\n\nAO - биссектриса ∠ BAC;\n\nBO - биссектриса ∠ ABC.\n\n2) В :\n\n∠ AOB = 180^ - (∠ BAO + ∠ OBA) =\n\n= 180^ - 1/2(∠ A + ∠ B) = 135^;\n\nAB^2 =\n\n= AO^2 + BO^2 - 2AO BO∠ O =\n\n= a^2 + b^2 - 2ab 135^ =\n\n= a^2 + b^2 - 2ab ≤ft( - √22 ) =\n\n= a^2 + b^2 + ab√2;\n\nAB = a^2 + b^2 + ab√2.\n\nОтвет: a^2 + b^2 + ab√2 см.",
+      "answer": "Ответ: a^2 + b^2 + ab√2 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-43"
+    },
+    {
+      "number": "44",
+      "section": "Задание 44",
+      "condition": "Задание 44",
+      "solution": "Схематический рисунок.\n\nДано:\n\nO - центр впис. окружности;\n\nBC = a;\n\nAC = b;\n\n∠ AOB = 120^.\n\nНайти:\n\nAB.\n\nРешение:\n\n1) В :\n\n∠ OAB + ∠ OBA =\n\n= 180^ - ∠ AOB = 60^.\n\n2) В :\n\nO - центр впис. окружности;\n\nAO - биссектриса ∠ BAC;\n\nBO - биссектриса ∠ ABC;\n\n∠ C = 180^ - (∠ A + ∠ B) =\n\n= 180^ - 2(∠ AOB + ∠ OBA) =\n\n= 180^ - 2 60^ =\n\n= 180^ - 120^ = 60^;\n\nAB^2 =\n\n= AC^2 + BC^2 - 2AC BC ∠ C =\n\n= b^2 + a^2 - 2ba 60^ =\n\n= b^2 + a^2 - 2ba 1/2 =\n\n= a^2 + b^2 - ab;\n\nAB = a^2 + b^2 - ab.\n\nОтвет: a^2 + b^2 - ab.",
+      "answer": "Ответ: a^2 + b^2 - ab.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-44"
+    },
+    {
+      "number": "45",
+      "section": "Задание 45",
+      "condition": "Задание 45",
+      "solution": "Дано:\n\n;\n\n∠ B = 60^;\n\nAB :BC = 5 :8;\n\nAC = 21 см.\n\nРешение.\n\n441 = 25/64BC^2 + BC^2 - 5/4BC^2 1/2\n\n49/64BC^2 = 441\n\nBC^2 = 576\n\nBC = 24 см.\n\nAB = 5/8 24 = 5 3 = 15 см.\n\nОтвет: 15 см; 24 см.",
+      "answer": "Ответ: 15 см; 24 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-45"
+    },
+    {
+      "number": "46",
+      "section": "Задание 46",
+      "condition": "Задание 46",
+      "solution": "Дано:\n\n;\n\n∠ B = 30^;\n\nAB :BC = 1 :2√3;\n\nAC = 2√7 см.\n\nРешение.\n\n28 = AB^2 + 12AB^2 - 4√3AB^2 √32\n\n7AB^2 = 28\n\nAB^2 = 4\n\nAB = 2 см.\n\nBC = 2 2√3 = 4√3 см.\n\nОтвет: 2 см; 4√3 см.",
+      "answer": "Ответ: 2 см; 4√3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-46"
+    },
+    {
+      "number": "47",
+      "section": "Задание 47",
+      "condition": "Задание 47",
+      "solution": "Дано:\n\n;\n\n∠ B = 120^;\n\nAB + BC = 8 см;\n\nAC = 7 см.\n\nРешение.\n\nAB^2 - 8AB + 15 = 0\n\nD = 8^2 - 4 15 = 64 - 60 = 4\n\nAB_1 = 8 - 2/2 = 3 см.\n\nAB_2 = 8 + 2/2 = 5 см.\n\nBC_1 = 8 - 3 = 5 см.\n\nBC_2 = 8 - 5 = 3 см.\n\nОтвет: 3 см; 5 см.",
+      "answer": "Ответ: 3 см; 5 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-47"
+    },
+    {
+      "number": "48",
+      "section": "Задание 48",
+      "condition": "Задание 48",
+      "solution": "Дано:\n\n;\n\n∠ B = 120^;\n\nBC :AB = 5 :3;\n\nP_ABC = 30 см.\n\nРешение:\n\nP_ABC = AB + BC + AC = 30\n\nAB + 5/3AB + AC = 30\n\nAC = 30 - 8/3AB.\n\n900 - 160AB + 64/9AB^2 = 49/9AB^2\n\n5/3AB^2 - 160AB + 900 = 0\n\nAB^2 - 96AB + 540 = 0\n\nD = 96^2 - 4 540 =\n\n= 9216 - 2160 = 7056\n\nAB_1 = 96 - 84/2 = 6 см;\n\nAB_2 = 96 + 84/2 = 90 см;\n\nBC_1 = 5/3 6 = 10 см;\n\nBC_2 = 5/3 90 = 150 см;\n\nAC_1 = 30 - 8/3 6 = 14 см;\n\nAC_2 = 30 - 8/3 90 = - 210 см.\n\nОтвет: 6 см; 10 см; 14 см.",
+      "answer": "Ответ: 6 см; 10 см; 14 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-48"
+    },
+    {
+      "number": "49",
+      "section": "Задание 49",
+      "condition": "Задание 49",
+      "solution": "Дано:\n\n;\n\nAB = 16 см;\n\nBC = 14 см;\n\n∠ A = 60^.\n\nРешение.\n\n196 = 256 + AC^2 - 2 16 AC 1/2\n\nAC^2 - 16AC + 60 = 0\n\nD = 16^2 - 4 60 = 16\n\nAC_1 = 16 - 4/2 = 6 см;\n\nAC_2 = 16 + 4/2 = 10 см.\n\nОтвет: 6 см; 10 см.",
+      "answer": "Ответ: 6 см; 10 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-49"
+    },
+    {
+      "number": "5",
+      "section": "Задание 5",
+      "condition": "Задание 5",
+      "solution": "1) 490^ + 2180^ - ctg 90^ =\n\n= 4 0 + 2 ( - 1) - 0 =\n\n= 0 - 2 = - 2.\n\n2)0^ - 180^ + 90^ =\n\n= 1 - ( - 1) + 1 = 1 + 1 + 1 = 3.",
+      "answer": "= 1 - ( - 1) + 1 = 1 + 1 + 1 = 3.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-5"
+    },
+    {
+      "number": "50",
+      "section": "Задание 50",
+      "condition": "Задание 50",
+      "solution": "Дано:\n\n;\n\nAB = 15 см;\n\nBC = 35 см;\n\n∠ A = 120^.\n\nРешение.\n\nBC^2 = AB^2 + AC^2 - 2AB AC ∠ A\n\n1225 = 225 + AC^2 + 2 15 AC 1/2\n\nAC^2 + 15AC - 1000 = 0\n\nD = 15^2 + 4 1000 =\n\n= 225 + 4000 = 4225\n\nAC_1 = - 15 - 65/2 = - 40;\n\nAC_2 = - 15 + 65/2 = 25 см.\n\nP_ABC = AB + BC + AC =\n\n= 15 + 35 + 25 = 75 см.\n\nОтвет: 75 см.",
+      "answer": "Ответ: 75 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-50"
+    },
+    {
+      "number": "51",
+      "section": "Задание 51",
+      "condition": "Задание 51",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\nCD = 14 см;\n\nAB = 37 см;\n\nBC = 44 см;\n\nAC = 15 см.\n\nРешение.\n\n1) В :\n\n1320∠ C = 792\n\n∠ C = 3/5.\n\n2) В :\n\n= 225 + 196 - 2 15 14 3/5 =\n\n= 421 - 252 = 169;\n\nAD = 13 см.\n\nОтвет: 13 см.",
+      "answer": "Ответ: 13 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-51"
+    },
+    {
+      "number": "52",
+      "section": "Задание 52",
+      "condition": "Задание 52",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAB = 15 см;\n\nBC = 7 см;\n\nAC = 13 см;\n\nAK = 8 см;\n\nMC = 3 см.\n\nНайти:\n\nMK.\n\nРешение.\n\n1) В :\n\n169 = 225 + 49 - 2 15 7 ∠ B\n\n210∠ B = 105\n\n∠ B = 1/2.\n\n2) В :\n\nBK = AB - AK = 15 - 8 = 7 см.\n\nBM = BC + CM = 7 + 3 = 10 см.\n\n= 49 + 100 - 2 7 10 1/2 =\n\nMK^2 = 149 - 70 = 79\n\nMK = √79 см.\n\nОтвет: √79 см.",
+      "answer": "Ответ: √79 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-52"
+    },
+    {
+      "number": "53",
+      "section": "Задание 53",
+      "condition": "Задание 53",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAB = 2AC;\n\n∠ BAC = 60^.\n\nДоказать:\n\n∠ C = 90^.\n\nДоказательство.\n\n= 5AC^2 - 4AC^2 1/2 = 3AC^2\n\nBC = √3AC.\n\n2√3AC^2 ∠ C = 0\n\n∠ C = 0\n\n∠ C = 90^.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-53"
+    },
+    {
+      "number": "54",
+      "section": "Задание 54",
+      "condition": "Задание 54",
+      "solution": "Дано:\n\n;\n\nAC^2 = AB^2 + AB BC + BC^2.\n\nДоказать:\n\n∠ B = 120^.\n\nДоказательство.\n\nAC^2 = AB^2 + BC^2 - 2AB BC∠ B\n\nAB BC = - 2AB BC ∠ B\n\n∠ B = - 1/2\n\n∠ B = 120^.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-54"
+    },
+    {
+      "number": "55",
+      "section": "Задание 55",
+      "condition": "Задание 55",
+      "solution": "Дано:\n\n;\n\nAC^2 = AB^2 - AB BC + BC^2.\n\nДоказать:\n\n∠ B = 60^.\n\nДоказательство.\n\nAC^2 = AB^2 + BC^2 - 2AB BC∠ B\n\n- AB BC = - 2AB BC ∠ B\n\n∠ B = 1/2\n\n∠ B = 60^.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-55"
+    },
+    {
+      "number": "56",
+      "section": "Задание 56",
+      "condition": "Задание 56",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - параллелограмм;\n\nAB = 7 см;\n\nAD = 11 см;\n\nBD = 12 см.\n\nНайти:\n\nAC.\n\nРешение:\n\n1) В :\n\n144 = 49 + 121 - 2 7 11 ∠ A\n\n154∠ A = 26\n\n∠ A = 13/77.\n\n2) В параллелограмме ABCD:\n\n∠ D = 180^ - ∠ A\n\n∠ D = - ∠ A = - 13/77\n\nCD = AB = 7 см.\n\n3) В :\n\nAC^2 = AD^2 + CD^2 - 2AD CD ∠ D =\n\n= 121 + 49 - 2 11 7 ≤ft( - 13/77 ) =\n\nAC^2 = 170 + 26 = 196\n\nAC = 14 см.\n\nОтвет: 14 см.",
+      "answer": "Ответ: 14 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-56"
+    },
+    {
+      "number": "57",
+      "section": "Задание 57",
+      "condition": "Задание 57",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - параллелограмм;\n\nAC = 13 см;\n\nBD = 11 см;\n\nAD = 9 см.\n\nНайти:\n\nP_ABCD.\n\nРешение.\n\n1) AO = 1/2AC = 6,5;\n\nDO = BO = 1/2BD = 5,5.\n\n2) В :\n\n71,5∠ AOD = - 8,5\n\n∠ AOD = - 17/143;\n\n∠ BOA = 180^ - ∠ AOD\n\n∠ BOA = - ∠ AOD = 17/143.\n\n3) В :\n\n= 42,25 + 30,25 - 2 6,5 5,5 17/143 =\n\n= 72,5 - 8,5 = 64;\n\nAB = 8 см.\n\n4) P_ABCD = 2AB + 2AD =\n\n= 16 + 18 = 34 см.\n\nОтвет: 34 см.",
+      "answer": "Ответ: 34 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-57"
+    },
+    {
+      "number": "58",
+      "section": "Задание 58",
+      "condition": "Задание 58",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - параллелограмм;\n\nBD = 8 см;\n\nAC = 14 см;\n\nAB = AD + 2 см.\n\nНайти:\n\nAB; AD.\n\n1) AO = 1/2AC = 7 см;\n\nDO = BO = 1/2BD = 4 см.\n\n2) В :\n\n= 49 + 16 - 2 7 4 ∠ AOD =\n\n= 65 - 56 ∠ AOD\n\n∠ AOD = 65 - AD^256;\n\n∠ BOA = 180^ - ∠ AOD\n\n∠ BOA = - ∠ AOD =\n\n= AD^2 - 6556.\n\n3) В :\n\n= 49 + 16 - 2 7 4 AD^2 - 6556\n\n(AD + 2)^2 = 65 - AD^2 + 65\n\nAD^2 + 4AD + 4 = 130 - AD^2\n\n2AD^2 + 4AD - 126 = 0\n\nAD^2 + 2AD - 63 = 0\n\nD = 2^2 + 4 63 = 4 + 252 = 256\n\nAD_1 = - 2 - 16/2 = - 9;\n\nAD_2 = - 2 + 16/2 = 7 см.\n\nAB_1 = - 9 + 2 = - 7;\n\nAB_2 = 7 + 2 = 9 см.\n\nОтвет: 7 см; 9 см.",
+      "answer": "Ответ: 7 см; 9 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-58"
+    },
+    {
+      "number": "59",
+      "section": "Задание 59",
+      "condition": "Задание 59",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - параллелограмм;\n\nAB = 11 см;\n\nAD = 23 см;\n\nBD :AC = 2 :3.\n\nНайти:\n\nBD; AC.\n\nРешение.\n\n1) ∠ B = 180^ - ∠ A;\n\n∠ B = - ∠ A;\n\nBC = AD = 23 см.\n\n2) В :\n\n= 121 + 529 - 2 11 23 ∠ A =\n\n= 650 - 506∠ A;\n\n∠ A = 650 - BD^2506.\n\n3) В :\n\n= 650 - BD^2 + 650\n\n≤ft( 3/2BD )^2 = 1300 - BD^2\n\n9/4BD^2 = 1300 - BD^2\n\n13/4BD^2 = 1300\n\nBD^2 = 400\n\nBD = 20 см.\n\nAC = 3/2 20 = 30 см.\n\nОтвет: 20 см; 30 см.",
+      "answer": "Ответ: 20 см; 30 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-59"
+    },
+    {
+      "number": "6",
+      "section": "Задание 6",
+      "condition": "Задание 6",
+      "solution": "Найдем синус.\n\n1) a = 1:\n\n^2a = 1 - ^2a = 0\n\na = ± √0 = 0.\n\n2) a = 0:\n\n^2a = 1 - ^2a = 1\n\na = ± √1 = ± 1.\n\nНайдем тангенс.\n\n1) ctg a = 1:\n\ntg a = 1ctg a = 1.\n\n2) ctg a = - 1/3:\n\ntg a = 1ctg a = - 3.",
+      "answer": "tg a = 1ctg a = - 3.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-6"
+    },
+    {
+      "number": "60",
+      "section": "Задание 60",
+      "condition": "Задание 60",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - трапеция;\n\nAB = 5 см;\n\nBC = 9 см;\n\nAD = 16 см;\n\n∠ A = 1/7.\n\nНайти:\n\nCD.\n\nРешение:\n\n1) Дополнительное построение:\n\nCE AB;\n\nE AD.\n\n2) Параллелограмм ABCE:\n\nAE = BC = 9;\n\nCE = AB = 5;\n\n∠ E = 180^ - ∠ A;\n\n∠ CED = 180^ - ∠ E = ∠ A.\n\n3) В :\n\nDE = AD - AE = 16 - 9 = 7 см;\n\n= 25 + 49 - 2 5 7 ∠ A =\n\n= 74 - 10 = 64;\n\nCD = 8 см.\n\nОтвет: 8 см.",
+      "answer": "Ответ: 8 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-60"
+    },
+    {
+      "number": "61",
+      "section": "Задание 61",
+      "condition": "Задание 61",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - трапеция;\n\nAB = √15 см;\n\nBC = 6 см;\n\nCD = 4 см;\n\nAD = 11 см.\n\nНайти:\n\n∠ D.\n\nРешение.\n\n1) Дополнительное построение:\n\nBE CD;\n\nE AD.\n\n2) Параллелограмм BCDE:\n\nDE = BC = 6 см;\n\nBE = CD = 4 см;\n\n∠ E = 180^ - ∠ D;\n\n∠ AEB = 180^ - ∠ E = ∠ D.\n\n3) В :\n\nAE = AD - DE = 11 - 6 = 5 см;\n\n15 = 25 + 16 - 2 5 4 ∠ D\n\n40∠ D = 26\n\n∠ D = 13/20.\n\nОтвет: 13/20.",
+      "answer": "Ответ: 13/20.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-61"
+    },
+    {
+      "number": "62",
+      "section": "Задание 62",
+      "condition": "Задание 62",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - вписанный;\n\nAB = 3 см;\n\nBC = 4 см;\n\nCD = 5 см;\n\nAD = 6 см.\n\nНайти:\n\nAC.\n\nРешение.\n\n1) ∠ A + ∠ C = ∠ B + ∠ D = 180^\n\n∠ B = 180^ - ∠ D\n\n∠ B = - ∠ D.\n\n2) В :\n\n= 9 + 16 + 2 3 4 ∠ D =\n\n= 25 + 24∠ D\n\n∠ D = AC^2 - 2524.\n\n3) В :\n\n= 36 + 25 - 2 6 5 AC^2 - 2524 =\n\n= 61 - 2,5AC^2 + 62,5;\n\n3,5AC^2 = 123,5\n\nAC^2 = 247/7\n\nAC = √247/7 см.\n\nОтвет: √247/7 см.",
+      "answer": "Ответ: √247/7 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-62"
+    },
+    {
+      "number": "63",
+      "section": "Задание 63",
+      "condition": "Задание 63",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAB = 4 см;\n\nAD = 3 см;\n\nBD = 6 см;\n\n∠ C = 30^.\n\nОпределить:\n\nABCD - вписанный?\n\nРешение.\n\n1) В :\n\n36 = 16 + 9 - 2 4 3 ∠ A\n\n24∠ A = - 11\n\n∠ A = - 11/24.\n\n2) Четырехугольник ABCD:\n\n∠ A + ∠ C = 180^\n\n∠ A + 30^ = 180^\n\n∠ A = 150^\n\n∠ A = - √32.\n\nОтвет: нет.",
+      "answer": "Ответ: нет.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-63"
+    },
+    {
+      "number": "64",
+      "section": "Задание 64",
+      "condition": "Задание 64",
+      "solution": "Схематический рисунок.\n\nПараллелограмм ABCD:\n\nAB = CD;\n\nBC = AD;\n\n∠ B = 180^ - ∠ A;\n\n∠ B = - ∠ A.\n\nВ :\n\n= AB^2 + BC^2 - 2AB BC ∠ A.\n\nВ :\n\n= AB^2 + BC^2 + 2AB BC ∠ A.\n\n1) ∠ B > ∠ A:\n\n∠ A < 90^;\n\n∠ A > 0;\n\nAC^2 > BD^2;\n\nAC > BD.\n\n2) AC > BD:\n\nAC^2 > BD^2;\n\n∠ A > 0;\n\n∠ A < 90^;\n\n∠ A < ∠ B.\n\nЧто и требовалось доказать.\n\nПротив большей диагонали\n\nпараллелограмма лежит\n\nбольший угол.",
+      "answer": "больший угол.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-64"
+    },
+    {
+      "number": "65",
+      "section": "Задание 65",
+      "condition": "Задание 65",
+      "solution": "Схематический рисунок.\n\nДано:\n\nBD - биссектриса ∠ B;\n\nAB = 12 см;\n\nBC = 15 см;\n\nAC = 18 см.\n\nНайти:\n\nBD.\n\nРешение:\n\n1) В :\n\nADCD = ABBC = 12/15 = 4/5\n\nAD = 4/5CD;\n\nAC = AD + CD =\n\n= 4/5CD + CD = 18\n\n9/5CD = 18\n\nCD = 18 · 5/9 = 10 см;\n\nAD = 4/5 10 = 8 см.\n\n432∠ A = 243\n\n∠ A = 9/16.\n\n2) В :\n\n= 144 + 64 - 2 12 8 9/16 =\n\n= 208 - 108 = 100;\n\nBD = 10 см.\n\nОтвет: 10 см.",
+      "answer": "Ответ: 10 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-65"
+    },
+    {
+      "number": "66",
+      "section": "Задание 66",
+      "condition": "Задание 66",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- ранобедренный;\n\nAC = 5 см;\n\nAB = BC = 20 см;\n\nAD - биссектриса ∠ A.\n\nНайти:\n\nAD.\n\nРешение.\n\n1) В :\n\nBDCD = ABAC = 20/5 = 4\n\nBD = 4CD;\n\nBC = BD + CD = 4CD + CD = 20\n\n5CD = 20\n\nCD = 4 см.\n\n400 = 25 + 400 - 2 5 20 ∠ C\n\n200∠ C = 25\n\n∠ C = 1/8.\n\n2) В :\n\nAD^2 = 25 + 16 - 2 5 4 1/8\n\nAD^2 = 41 - 5 = 36;\n\nAD = 6 см.\n\nОтвет: 6 см.",
+      "answer": "Ответ: 6 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-66"
+    },
+    {
+      "number": "67",
+      "section": "Задание 67",
+      "condition": "Задание 67",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\nBM - медиана;\n\nAB = 16 см;\n\nBC = 18 см;\n\nAC = 26 см.\n\nНайти:\n\nBM.\n\nРешение.\n\n1) AM = 1/2AC = 1/2 26 = 13 см.\n\n832∠ A = 608\n\n∠ A = 19/26.\n\n2) В :\n\n= 256 + 169 - 2 16 13 19/26 =\n\n= 425 - 304 = 121;\n\nBM = 11 см.\n\nОтвет: 11 см.",
+      "answer": "Ответ: 11 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-67"
+    },
+    {
+      "number": "68",
+      "section": "Задание 68",
+      "condition": "Задание 68",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- равнобедренный;\n\nAC = 4√2 см;\n\nAM - медиана;\n\nAM = 5 см.\n\nНайти:\n\nAB.\n\nРешение.\n\n1) В :\n\nAB = BC;\n\nBM = 1/2BC = 1/2AB;\n\nAB^2 - AB^2 ∠ B = 16\n\nAB^2 ∠ B = AB^2 - 16\n\n∠ B = 1 - 16AB^2.\n\n2) В :\n\n5/4AB^2 - AB^2 + 16 = 25\n\n1/4AB^2 = 9\n\nAB^2 = 36\n\nAB = 6 см.\n\nОтвет: 6 см.",
+      "answer": "Ответ: 6 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-68"
+    },
+    {
+      "number": "69",
+      "section": "Задание 69",
+      "condition": "Задание 69",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\nBM - медиана;\n\nAB = 12 см;\n\nBC = 14 см;\n\nBM = 7 см.\n\nНайти:\n\nAC.\n\nРешение.\n\n1) В :\n\nAM = CM = 1/2AC;\n\nAC^2 - 24AC ∠ A = 52\n\n24AC ∠ A = AC^2 - 52\n\n∠ A = AC^2 - 5224AC.\n\n2) В :\n\n1/4AC^2 - 1/2≤ft( AC^2 - 52 ) + 95 = 0\n\n- 1/4AC^2 + 26 = - 95\n\n1/4AC^2 = 121\n\nAC^2 = 484\n\nAC = 22 см.\n\nОтвет: 22 см.",
+      "answer": "Ответ: 22 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-69"
+    },
+    {
+      "number": "7",
+      "section": "Задание 7",
+      "condition": "Задание 7",
+      "solution": "Найдем косинус.\n\n1) a = 1:\n\n^2a = 1 - ^2a = 0\n\na = ± √0 = 0.\n\n2) a = 0:\n\n^2a = 1 - ^2a = 1\n\na = ± √1 = ± 1.\n\nНайдем котангенс.\n\n1) tg a = - 1:\n\nctg a = 1tg a = - 1.\n\n2) tg a = 3:\n\nctg a = 1tg a = 1/3.",
+      "answer": "ctg a = 1tg a = 1/3.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-7"
+    },
+    {
+      "number": "70",
+      "section": "Задание 70",
+      "condition": "Задание 70",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\nAB = BC;\n\n∠ ABC = 120^;\n\nBD = 2AB.\n\nДоказать:\n\n- равнобедренный.\n\nДоказательство.\n\n1) В :\n\n∠ CBD = 180^ - ∠ B = 60^.\n\n2) В :\n\n3) В :\n\nAC^2 = CD^2\n\nAC = CD.\n\n- равнобедренный;\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-70"
+    },
+    {
+      "number": "71",
+      "section": "Задание 71",
+      "condition": "Задание 71",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\nCM - медиана;\n\nBC = a;\n\nAC = b;\n\nAB = c;\n\nCM = m_c.\n\nДоказать:\n\nm_c = 2a^2 + 2b^2 - c^22.\n\nДоказательство.\n\n1) В :\n\nAM = 1/2AB = 1/2c;\n\na^2 = c^2 + b^2 - 2cb ∠ A\n\n2cb ∠ A = c^2 + b^2 - a^2\n\n∠ A = c^2 + b^2 - a^22cb.\n\n2) В :\n\n4m_c^2 = 2b^2 + 2a^2 - c^2\n\nm_c^2 = 1/4≤ft( 2b^2 + 2a^2 - c^2 )\n\nm_c = 1/22b^2 + 2a^2 - c^2.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-71"
+    },
+    {
+      "number": "72",
+      "section": "Задание 72",
+      "condition": "Задание 72",
+      "solution": "Схематический рисунок.\n\nДано:\n\nO - центр окружности;\n\nAC - диаметр;\n\nAB = R.\n\nНайти:\n\n∠ A; ∠ B; ∠ C.\n\nРешение.\n\n1) В окружности:\n\nAO = BO = CO = R;\n\nAC - диаметр;\n\n∠ ABC = 90^.\n\n2) В :\n\nAB = AO = BO;\n\n- равносторонний;\n\n∠ BAC = 60^.\n\n3) В :\n\n∠ C = 180^ - ∠ A - ∠ B = 30^.\n\nОтвет: 30^; 60^; 90^.",
+      "answer": "Ответ: 30^; 60^; 90^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-72"
+    },
+    {
+      "number": "73",
+      "section": "Задание 73",
+      "condition": "Задание 73",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - параллелограмм;\n\nBE - биссектриса ∠ B;\n\n∠ BEA = ∠ BAD.\n\nНайти:\n\n∠ A; ∠ B.\n\nРешение:\n\n1) В :\n\n∠ A + ∠ ABE + ∠ E = 180^\n\n∠ A + ∠ ABE + ∠ A = 180^\n\n∠ ABE = 180^ - 2∠ A.\n\n2) В ABCD:\n\n∠ ABC = 2∠ ABE;\n\n180^ - ∠ A = 360^ - 4∠ A\n\n3∠ A = 180^\n\n∠ A = 60^.\n\n∠ B = 2 60^ = 120^.\n\nОтвет: 60^; 120^.",
+      "answer": "Ответ: 60^; 120^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-73"
+    },
+    {
+      "number": "74",
+      "section": "Задание 74",
+      "condition": "Задание 74",
+      "solution": "Схематический рисунок.\n\nДано:\n\nADEF - параллелограмм;\n\nAB = 8 см;\n\nAC = 12 см;\n\nAD :AF = 2 :3.\n\nНайти:\n\nAD; AF.\n\nРешение.\n\n1) Для прямых AC и DE и\n\nсекущей BC:\n\n∠ BED = ∠ BCA - соответственные\n\n2) В ADEF:\n\nDE = AF;\n\nAD = 2/3AF.\n\n3) - по двум углам:\n\n∠ BED = ∠ BCA;\n\n∠ B - общий.\n\nОтсюда:\n\nBDAB = DEAC;\n\nBD = AB - AD;\n\nAB - AD/8 = DE12\n\n12≤ft( 8 - 2/3AF ) = 8AF\n\n96 - 8AF = 8AF\n\n16AF = 96\n\nAF = 6 см.\n\nAD = 2/3 6 = 4 см.\n\nОтвет: 4 см; 6 см.",
+      "answer": "Ответ: 4 см; 6 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-74"
+    },
+    {
+      "number": "75",
+      "section": "Задание 75",
+      "condition": "Задание 75",
+      "solution": "Рисунок в учебнике.\n\nДано:\n\nABCD - вписанный;\n\n∠ ABC = 140^.\n\nНайти:\n\n∠ ADC.\n\nРешение.\n\n∠ ABC + ∠ ADC = 180^\n\n140^ + ∠ ADC = 180^\n\n∠ ADC = 40^.\n\nОтвет: 40^.",
+      "answer": "Ответ: 40^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-75"
+    },
+    {
+      "number": "76",
+      "section": "Задание 76",
+      "condition": "Задание 76",
+      "solution": "Рисунок в учебнике.\n\nДано:\n\n∠ ADC = 43^.\n\nНайти:\n\n∠ ABC.\n\nРешение.\n\nРассмотрим окружность:\n\n∠ ABC = 1/2 AC;\n\n∠ ADC = 1/2 AC;\n\n∠ ABC = ∠ ADC = 43^.\n\nОтвет: 43^.",
+      "answer": "Ответ: 43^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-76"
+    },
+    {
+      "number": "77",
+      "section": "Задание 77",
+      "condition": "Задание 77",
+      "solution": "Рисунок в учебнике.\n\nДано:\n\nO - центр окружности;\n\nAB - диаметр;\n\n∠ ABC = a;\n\nAB = 2R.\n\nНайти:\n\nAC.\n\nРешение.\n\n1) Рассмотрим окружность:\n\nAB - диаметр;\n\n∠ ACB = 90^.\n\n2) В :\n\n∠ ABC = ACAB\n\nAC = AB ∠ ABC\n\nAC = 2R a.\n\nОтвет: 2R a.",
+      "answer": "Ответ: 2R a.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-77"
+    },
+    {
+      "number": "78",
+      "section": "Задание 78",
+      "condition": "Задание 78",
+      "solution": "Рисунок в учебнике.\n\nДано:\n\nAC = 4√2;\n\n∠ A = 60^;\n\n∠ B = 45^.\n\nНайти:\n\nBC.\n\nРешение.\n\nAC∠ B = BC∠ A\n\nBC = AC ∠ A∠ B\n\nBC = 4√2 60^45^\n\nBC = 4√2 √32 :√22 =\n\n= 4√2 √3√2 = 4√3 см.\n\nОтвет: 4√3 см.",
+      "answer": "Ответ: 4√3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-78"
+    },
+    {
+      "number": "79",
+      "section": "Задание 79",
+      "condition": "Задание 79",
+      "solution": "Рисунок в учебнике.\n\nДано:\n\nAB = 6√2;\n\nBC = 6;\n\n∠ C = 45^.\n\nНайти:\n\n∠ A.\n\nРешение.\n\nAB∠ C = BC∠ A\n\n∠ A = BC ∠ CAB\n\n∠ A = 6 45^6√2 =\n\n= 1√2 √22 = 1/2\n\n∠ A = 1/2 = 30^.\n\nОтвет: 30^.",
+      "answer": "Ответ: 30^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-79"
+    },
+    {
+      "number": "8",
+      "section": "Задание 8",
+      "condition": "Задание 8",
+      "solution": "1)135^ = (90^ + 45^) =\n\n= 45^ = √22;\n\n2)135^ = (90^ + 45^) =\n\n= - 45^ = - √22;\n\n3) tg 135^ = 135^135^ =\n\n= √22 :≤ft( - √22 ) = - 1;\n\n4) ctg 135^ = 1tg 135^ = - 1.",
+      "answer": "4) ctg 135^ = 1tg 135^ = - 1.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-8"
+    },
+    {
+      "number": "80",
+      "section": "Задание 80",
+      "condition": "Задание 80",
+      "solution": "Дано:\n\n;\n\nAC = √6 см;\n\n∠ B = 120^;\n\n∠ C = 45^.\n\nНайти:\n\nAB.\n\nРешение.\n\nAB∠ C = AC∠ B\n\nAB = AC ∠ C∠ B\n\nAB = √6 45^120^\n\nAB = √6 √22 :√32 =\n\n= √6 √2√3 = 2 см.\n\nОтвет: 2 см.",
+      "answer": "Ответ: 2 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-80"
+    },
+    {
+      "number": "81",
+      "section": "Задание 81",
+      "condition": "Задание 81",
+      "solution": "Дано:\n\n;\n\nAB = 12 см;\n\nBC = 10 см;\n\n∠ A = 0,2.\n\nНайти:\n\n∠ C.\n\nРешение.\n\nAB∠ C = BC∠ A;\n\n∠ C = AB ∠ ABC;\n\n∠ C = 12 0,2/10 = 0,24.\n\nОтвет: 0,24.",
+      "answer": "Ответ: 0,24.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-81"
+    },
+    {
+      "number": "82",
+      "section": "Задание 82",
+      "condition": "Задание 82",
+      "solution": "Схематический рисунок.\n\nДано:\n\nDE = 16 см;\n\n∠ F = 50^;\n\n∠ D = 38^.\n\nРешение.\n\nDE∠ F = EF∠ D\n\nEF = DE ∠ D∠ F\n\nEF = 16 38^50^ 16 0,62/0,77\n\n12,9 см.\n\nОтвет: 12,9 см.",
+      "answer": "Ответ: 12,9 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-82"
+    },
+    {
+      "number": "83",
+      "section": "Задание 83",
+      "condition": "Задание 83",
+      "solution": "Схематический рисунок.\n\nДано:\n\nKP = 8 см;\n\n∠ K = 106^;\n\n∠ P = 32^.\n\nРешение.\n\n∠ M = 180^ - ∠ K - ∠ P = 42^;\n\nKP∠ M = MP∠ K\n\nMP = KP ∠ K∠ M\n\nMP = 8 106^42^ 8 0,96/0,67\n\n11,5 см.\n\nОтвет: 11,5 см.",
+      "answer": "Ответ: 11,5 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-83"
+    },
+    {
+      "number": "84",
+      "section": "Задание 84",
+      "condition": "Задание 84",
+      "solution": "Рисунок в учебнике.\n\nДано:\n\n∠ BAC = 42^;\n\n∠ ACB = 64^;\n\nAC = 20 м.\n\nНайти:\n\nAB.\n\nРешение:\n\n∠ B = 180^ - ∠ A - ∠ C = 74^;\n\nAC∠ B = AB∠ C\n\nAB = AC ∠ C∠ B\n\nAB = 20 64^74^\n\n20 0,898/0,96 18,7 м.\n\nОтвет: 18,7 м.",
+      "answer": "Ответ: 18,7 м.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-84"
+    },
+    {
+      "number": "85",
+      "section": "Задание 85",
+      "condition": "Задание 85",
+      "solution": "Дано:\n\n;\n\nBC = a;\n\n∠ A = α;\n\n∠ C = .\n\nНайти:\n\nAB; AC.\n\nРешение.\n\n∠ B = 180^ - (∠ A + ∠ C)\n\n∠ B = (∠ A + ∠ C);\n\nBC∠ A = AB∠ C = AC∠ B\n\nAB = BC ∠ C∠ A = a/α\n\nAC = BC ∠ B∠ A = a(α + )/α.\n\nОтвет: a/α; a(α + )/α.",
+      "answer": "Ответ: a/α; a(α + )/α.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-85"
+    },
+    {
+      "number": "86",
+      "section": "Задание 86",
+      "condition": "Задание 86",
+      "solution": "Схематический рисунок.\n\nДано:\n\nABCD - параллелограмм;\n\n∠ BAC = α;\n\n∠ DAC = β;\n\nAC = d.\n\nНайти:\n\nAB; AD.\n\nРешение\n\n1) ∠ A = ∠ BAC + ∠ DAC = α + β;\n\n∠ B = 180^ - ∠ A = 180^ - α - β\n\n∠ D = ∠ B = (α + β).\n\n2) В :\n\nAC∠ B = BC∠ BAC\n\nd/(α + β) = BCα\n\nAD = BC = dα/(α + β).\n\n3) В :\n\nAC∠ D = CD∠ DAC\n\nd/(α + β) = CDβ\n\nAB = CD = dβ/(α + β).\n\nОтвет: dα/(α + β); dβ/(α + β).",
+      "answer": "Ответ: dα/(α + β); dβ/(α + β).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-86"
+    },
+    {
+      "number": "87",
+      "section": "Задание 87",
+      "condition": "Задание 87",
+      "solution": "Дан .\n\nAC∠ B = BC∠ A\n\n∠ A = BC ∠ BAC.\n\n1) AC = 2 см;BC = 1 см;\n\n∠ B = 135^:\n\n∠ A = 1/2 135^\n\n∠ A = 1/2 √22 = √24\n\n∠ A = √24 21^.\n\n2) AC = √2 см;BC = √3 см;\n\n∠ B = 45^:\n\n∠ A = √3√2 45^\n\n∠ A = √3√2 √22 = √32\n\n∠ A = √32 = 60^\n\n∠ A = 180^ - 60^ = 120^.\n\nОтвет: 1) 21^; 2) 60^; 120^.",
+      "answer": "Ответ: 1) 21^; 2) 60^; 120^.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-87"
+    },
+    {
+      "number": "88",
+      "section": "Задание 88",
+      "condition": "Задание 88",
+      "solution": "Дано:\n\n∠ A = 0,4;\n\nAC = 18 см;\n\nBC = 6 см.\n\nРешение:\n\nAC∠ B = BC∠ A\n\n18∠ B = 6/0,4\n\n∠ B = 18 0,4/6 = 1,2.\n\nОтвет: не существует.",
+      "answer": "Ответ: не существует.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-88"
+    },
+    {
+      "number": "89",
+      "section": "Задание 89",
+      "condition": "Задание 89",
+      "solution": "Дано:\n\n;\n\nDE = 8 см;\n\n∠ F = 0,16.\n\nНайти:\n\nR_опис. окр.\n\nРешение.\n\nR = DE2∠ F;\n\nR = 8/2 0,16 = 50/2 = 25 см.\n\nОтвет: 25 см.",
+      "answer": "Ответ: 25 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-89"
+    },
+    {
+      "number": "9",
+      "section": "Задание 9",
+      "condition": "Задание 9",
+      "solution": "1)150^ = (90^ + 60^) =\n\n= 60^ = 1/2;\n\n2)150^ = (90^ + 60^) =\n\n= - 60^ = - √32;\n\n3) tg 150^ = 150^150^ =\n\n= 1/2 :≤ft( - √32 ) = - 1√3;\n\n4) ctg 150^ = 1tg 150^ = - √3.",
+      "answer": "4) ctg 150^ = 1tg 150^ = - √3.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-9"
+    },
+    {
+      "number": "90",
+      "section": "Задание 90",
+      "condition": "Задание 90",
+      "solution": "Дано:\n\n;\n\nR_опис. окр = 5 см;\n\n∠ M = 0,7.\n\nНайти:\n\nKP.\n\nРешение.\n\nR = KP2∠ M\n\nKP = 2R ∠ M\n\nKP = 2 5 0,7 = 7 см.\n\nОтвет: 7 см.",
+      "answer": "Ответ: 7 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-90"
+    },
+    {
+      "number": "91",
+      "section": "Задание 91",
+      "condition": "Задание 91",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\n∠ ABC = 60^;\n\n∠ ADC = 45^;\n\nR_ = 4 см.\n\nНайти:\n\nR_.\n\nРешение.\n\n1) В :\n\nR = AC2∠ B\n\nAC = 2R∠ B =\n\n= 2 4 60^ = 8 √32 = 4√3.\n\n2) В\n\nR = AC2∠ D = 4√3245^ =\n\n= 2√3 :√22 = 2√3 √2 = 2√6 см.\n\nОтвет: 2√6 см.",
+      "answer": "Ответ: 2√6 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-91"
+    },
+    {
+      "number": "92",
+      "section": "Задание 92",
+      "condition": "Задание 92",
+      "solution": "Схематический рисунок.\n\nДано:\n\nR_ = 6 см;\n\nAO - биссектриса ∠ A;\n\nCO - биссектриса ∠ C;\n\n∠ ABC = 60^.\n\nНайти:\n\nR_.\n\nРешение.\n\n1) R = AC2∠ B\n\nAC = 2R∠ B = 2 6 60^ =\n\n= 12 √32 = 6√3 см.\n\n∠ A + ∠ C = 180^ - ∠ B = 120^;\n\n∠ OAC + ∠ OCA = 1/2(∠ A + ∠ C) = 60^.\n\n2) В :\n\n∠ O = 180^ - (∠ A + ∠ C) = 120^\n\nR = AC2∠ O = 6√32 120^\n\nR = 3√3 :√32 = 3√3 2√3 = 6 см.\n\nОтвет: 6 см.",
+      "answer": "Ответ: 6 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-92"
+    },
+    {
+      "number": "93",
+      "section": "Задание 93",
+      "condition": "Задание 93",
+      "solution": "Рисунок в учебнике.\n\nДано:\n\nCD = a;\n\n∠ BAC = ;\n\n∠ DBA = β.\n\nНайти:\n\nAD.\n\nРешение.\n\n1) В :\n\n∠ D = 180^ - ∠ A - ∠ B =\n\n= 180^ - - β;\n\n∠ CDB = 180^ - ∠ D = + β.\n\n2) В :\n\n∠ C = 90^;\n\n∠ CDB = CDBD;\n\nBD = CD∠ CDB = a/(β + ).\n\n3) В :\n\nAD∠ B = BD∠ A\n\nAD = BD ∠ B∠ A\n\nAD = aβ(β + ).\n\nОтвет: aβ(β + ).",
+      "answer": "Ответ: aβ(β + ).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-93"
+    },
+    {
+      "number": "94",
+      "section": "Задание 94",
+      "condition": "Задание 94",
+      "solution": "Рисунок в учебнике.\n\nДано:\n\nBD = m;\n\n∠ ABC = α;\n\n∠ ADC = β.\n\nНайти:\n\nAC.\n\nРешение.\n\n1) В :\n\n∠ ABD = 180^ - ∠ B = 180^ - α.\n\n2) В :\n\n∠ BAD = 180^ - ∠ ABD - ∠ ADB\n\n∠ BAD = α - β;\n\nBD∠ BAD = AB∠ ADB\n\nAB = BD ∠ ADB∠ BAD =\n\n= mβ/(α - β).\n\n3) В :\n\n∠ C = 90^;\n\n∠ B = ACAB;\n\nAC = AB ∠ B = mαβ/(α - β).\n\nОтвет: mαβ/(α - β).",
+      "answer": "Ответ: mαβ/(α - β).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-94"
+    },
+    {
+      "number": "95",
+      "section": "Задание 95",
+      "condition": "Задание 95",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\n∠ AMC = ;\n\nAB = c;\n\n∠ A = α;\n\n∠ ACB = .\n\nНайти:\n\nCM.\n\nРешение.\n\n1) В :\n\nAB∠ ACB = BC∠ A;\n\nBC = AB ∠ A∠ ACB = cα/;\n\n∠ BMC = 180^ - ∠ AMC =\n\n= 180^ - ;\n\n∠ BMC = (180^ - ) = ;\n\n∠ B = 180^ - ∠ A - ∠ C =\n\n= 180^ - α - ;\n\n∠ B = (180^ - α - ) =\n\n= (a + ).\n\n2) В :\n\nBC∠ BMC = CM∠ MBC\n\nCM = BC ∠ MBC∠ BMC =\n\n= cα(a + )/.\n\nОтвет: cα(a + )/.",
+      "answer": "Ответ: cα(a + )/.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-95"
+    },
+    {
+      "number": "96",
+      "section": "Задание 96",
+      "condition": "Задание 96",
+      "solution": "Схематический рисунок.\n\nДано:\n\n∠ A = α;\n\n∠ B = β;\n\n∠ ADB = ;\n\nAD = m.\n\nНайти:\n\nBC.\n\nРешение.\n\n1) В :\n\n∠ ADC = 180^ - ∠ ADB =\n\n= 180^ - ;\n\n∠ ADC = (180^ - ) =\n\n= .\n\n2) В :\n\n∠ C = 180^ - ∠ A - ∠ B =\n\n= 180^ - α - β;\n\n∠ C = (180^ - α - β) =\n\n= (α + β).\n\n3) В :\n\nAC∠ ADC = AD∠ ACD\n\nAC = AD ∠ ADC∠ ACD =\n\n= m/(α + β).\n\n4) В :\n\nBC∠ A = AC∠ B\n\nBC = AC ∠ A∠ B =\n\n= mα/β(α + β).\n\nОтвет: mα/β(α + β).",
+      "answer": "Ответ: mα/β(α + β).",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-96"
+    },
+    {
+      "number": "97",
+      "section": "Задание 97",
+      "condition": "Задание 97",
+      "solution": "Схематический рисунок.\n\nДано:\n\n;\n\nBD - биссектриса ∠ B.\n\nДоказать:\n\nADCD = ∠ C∠ A.\n\nДоказательство.\n\n1) В :\n\n∠ ABD = ∠ CBD = 1/2∠ B.\n\n2) В :\n\nAD∠ ABD = BD∠ A\n\nBD = AD ∠ A≤ft( 1/2∠ B ).\n\n3) В :\n\nCD∠ CBD = BD∠ C\n\nBD = CD ∠ C≤ft( 1/2∠ B );\n\nAD ∠ A = CD ∠ C;\n\nAD :CD = ∠ C :∠ A.\n\nЧто и требовалось доказать.",
+      "answer": "Что и требовалось доказать.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-97"
+    },
+    {
+      "number": "98",
+      "section": "Задание 98",
+      "condition": "Задание 98",
+      "solution": "Схематический рисунок.\n\nДано:\n\nAB = 6 см;\n\nBC = 12 см;\n\nBH - высота;\n\nBH = 4 см.\n\nНайти:\n\nR_опис. окр.\n\nРешение:\n\n1) В :\n\n∠ BHC = 90^;\n\n∠ C = BHBC = 4/12 = 1/3.\n\n2) В :\n\nR = AB2∠ C;\n\nR = 6/2 :1/3 = 3 3 = 9 см.\n\nОтвет: 9 см.",
+      "answer": "Ответ: 9 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-98"
+    },
+    {
+      "number": "99",
+      "section": "Задание 99",
+      "condition": "Задание 99",
+      "solution": "Схематический рисунок.\n\nДано:\n\n- равнобедренный;\n\nAC = 16 см;\n\nAB = BC = 10 см.\n\nНайти:\n\nR_опис. окр.\n\nРешение.\n\n320∠ A = 256\n\n∠ A = 4/5.\n\n∠ A = 1 - ^2∠ A;\n\n∠ A = √1 - 16/25 = √9/25 = 3/5.\n\nR = BC2∠ A = 10/2 :3/5 = 5 5/3 = 25/3 см.\n\nОтвет: 25/3 см.",
+      "answer": "Ответ: 25/3 см.",
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/geometriya/9_klass/merzlyak-897/zadanie-99"
+    }
+  ]
+}

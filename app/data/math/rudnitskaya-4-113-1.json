@@ -1,0 +1,24 @@
+{
+  "subject": "math",
+  "textbook": "rudnitskaya-4-113-1",
+  "author": "Рудницкая, Юдачева",
+  "year": "2024",
+  "source": "parsed",
+  "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/reshebnik-4-klass-rudnitskaya-udacheva-113",
+  "parsedAt": "2026-10-21T16:10:56Z",
+  "tasks": [
+    {
+      "number": "126",
+      "section": "Тонна. Центнер",
+      "condition": "Тонна. Центнер. Решение на изображении.",
+      "solution": "",
+      "answer": "",
+      "images": [
+        "https://imgs.euroki.org/books/gdzs/5186/2624892.png?v=1671480272"
+      ],
+      "source": "euroki.org",
+      "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/4_klass/reshebnik-4-klass-rudnitskaya-udacheva-113/chast-1-18-tonna-tsentner-zadanie-puteshestvie-v-proshloe-str-126"
+    }
+  ],
+  "part": 1
+}

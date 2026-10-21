@@ -1666,20 +1666,34 @@ h1, h2, h3 {
 .border-choice .border-neon { box-shadow: 0 0 0 2px #7C5CFF, 0 0 9px #7C5CFF; }
 .border-choice .border-fire { box-shadow: 0 0 0 2px #FF5C2B, 0 0 9px rgba(255,92,43,.8); }
 .border-choice .border-minimal { box-shadow: 0 0 0 1px #fff; }
-.color-picker { display: flex; flex-wrap: wrap; gap: 9px; }
+.color-picker { display: flex; flex-wrap: wrap; gap: 10px; }
 .color-picker button {
-  width: 34px; height: 34px; padding: 3px; border-radius: 50%;
+  width: 40px; height: 40px; padding: 4px; border-radius: 50%;
   border: 1px solid var(--c-border); background: transparent; cursor: pointer;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
+.color-picker button:hover { transform: translateY(-1px); border-color: var(--c-primary); }
+.color-picker button:focus-visible { outline: 2px solid var(--c-link); outline-offset: 2px; }
 .color-picker button[aria-checked="true"] { border-color: var(--c-primary); box-shadow: 0 0 0 2px rgba(26,163,163,.2); }
 .color-dot { display: block; width: 100%; height: 100%; border-radius: 50%; background: var(--grad-btn); }
 .color-dot.color-default { background: var(--c-surface-2); border: 1px dashed var(--c-text-muted); }
-.comment-form { display: grid; gap: 8px; max-width: 620px; }
+/* цвета вынесены в классы, чтобы точки не зависели от inline-стилей */
+.color-dot.sw-gold { background: #E5B80B; }
+.color-dot.sw-rose { background: #FF3B6B; }
+.color-dot.sw-teal { background: #1AA3A3; }
+.color-dot.sw-violet { background: #7C5CFF; }
+.color-dot.sw-green { background: #2E7D32; }
+.color-dot.sw-emerald { background: #102A2A; }
+.color-dot.sw-plum { background: #22152E; }
+.color-dot.sw-bordo { background: #2B1616; }
+.color-dot.sw-navy { background: #12243A; }
+.comment-form { display: grid; gap: 10px; margin: 4px 0 0; max-width: 620px; }
 .comment-form textarea {
-  width: 100%; resize: vertical; min-height: 74px;
-  padding: 10px 12px; border: 1px solid var(--c-border); border-radius: 10px;
+  width: 100%; resize: vertical; min-height: 88px;
+  padding: 11px 13px; border: 1px solid var(--c-border); border-radius: 10px;
   background: var(--c-surface); color: var(--c-text); font: inherit;
 }
+.comment-form #comment-send { justify-self: start; }
 .comment-list { display: grid; gap: 10px; margin-top: 16px; }
 .comment-item {
   display: flex; gap: 12px; padding: 13px 14px;
