@@ -1128,13 +1128,6 @@
 
         solutionSectionHtml(task) +
 
-        (String(task.answer || '').trim()
-          ? '<section class="task-block task-block--answer">' +
-            '<p class="task-label">Ответ</p>' +
-            '<div class="answer">' + textToHtml(task.answer) + '</div>' +
-            '</section>'
-          : '') +
-
         '<div class="task-actions no-print">' +
         '<button class="btn btn-outline btn-sm" id="bm-btn" type="button" aria-pressed="' + bookmarked + '">' +
         '<span class="icon ' + (bookmarked ? 'i-star-filled' : 'i-star') + '" aria-hidden="true"></span>' +
@@ -1280,10 +1273,11 @@
   // блок решения: пошаговый текст, картинки из источника и «столбик» с переключателем
   function solutionSectionHtml(task) {
     var hasSolution = String(task.solution || '').trim().length > 0;
+    var answer = String(task.answer || '').trim();
     var images = Array.isArray(task.images) ? task.images.filter(Boolean) : [];
     var column = String(task.column_solution || '');
 
-    var html = '<section class="task-block" id="solution-block">' +
+    var html = '<section class="task-block task-block--solution solution-card" id="solution-block">' +
       '<div class="solution-head">' +
       '<p class="task-label">Решение</p>' +
       (hasSolution || images.length || column
@@ -1319,6 +1313,18 @@
         '</div>' +
         '<div class="math-column-wrap" id="math-column-wrap">' +
         '<pre class="math-column" aria-label="Вычисление в столбик">' + esc(column) + '</pre>' +
+        '</div>';
+    }
+
+    if (answer) {
+      var answerHtml = answer.split(/\n+/)
+        .map(function (line) { return line.trim(); })
+        .filter(Boolean)
+        .map(mathHtml)
+        .join('<br>');
+      html += '<div class="solution-answer task-block--answer">' +
+        '<hr class="solution-divider">' +
+        '<p class="answer"><span class="answer-label">Ответ:</span> ' + answerHtml + '</p>' +
         '</div>';
     }
 

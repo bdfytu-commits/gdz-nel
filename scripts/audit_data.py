@@ -499,7 +499,9 @@ def build_report(
         if removed.get("tasks"):
             lines.append(f"- точечно удалено заданий: **{removed['tasks']}** (битые/пустые).")
         if removed.get("fake_solutions"):
-            lines.append(f"- очищено фейковых решений: **{removed['fake_solutions']}** (условие и ответ сохранены).")
+            lines.append(f"- очищено фейковых решений: **{removed['fake_solutions']}**; связанные ответы удалены.")
+        if removed.get("fake_answers"):
+            lines.append(f"- очищено ответов от ранее удалённых фейковых решений: **{removed['fake_answers']}**.")
         if removed.get("bad_answers"):
             lines.append(f"- очищено ответов не по заданию: **{removed['bad_answers']}** (решение сохранено).")
         if removed.get("sections"):
@@ -687,7 +689,10 @@ def main() -> int:
     books = list(iter_catalog_books(catalog))
     rows = [audit_book(book) for book in books]
     duplicates = find_duplicate_image_books(rows)
-    removed: dict[str, Any] = {"books": [], "tasks": 0, "fake_solutions": 0, "bad_answers": 0, "sections": 0}
+    removed: dict[str, Any] = {
+        "books": [], "tasks": 0, "fake_solutions": 0,
+        "fake_answers": 0, "bad_answers": 0, "sections": 0,
+    }
 
     if args.apply:
         duplicate_files = {item["file"] for item in duplicates if item.get("auto_delete")}
@@ -711,7 +716,9 @@ def main() -> int:
         for row in rows:
             if row["file"] in duplicate_files:
                 continue
-            needs_tasks = bool(row["broken"] or row["empty"] or row["fake_solutions"] or row["bad_answers"])
+            needs_tasks = bool(
+                row["broken"] or row["empty"] or row["fake_solutions"] or row["bad_answers"]
+            )
             needs_sections = row["sections"]["broken"]
             if not needs_tasks and not needs_sections:
                 continue
@@ -740,12 +747,16 @@ def main() -> int:
             for index, task in enumerate(tasks):
                 if index in indexes:
                     continue
-                if index in bad_answer_indexes and task.get("answer"):
+                if index in fake_solution_indexes:
+                    if task.get("solution"):
+                        task["solution"] = ""
+                        removed["fake_solutions"] += 1
+                    if task.get("answer"):
+                        task["answer"] = ""
+                        removed["fake_answers"] += 1
+                elif index in bad_answer_indexes and task.get("answer"):
                     task["answer"] = ""
                     removed["bad_answers"] += 1
-                if index in fake_solution_indexes and task.get("solution"):
-                    task["solution"] = ""
-                    removed["fake_solutions"] += 1
             if indexes:
                 tasks = remove_task_indexes(tasks, indexes)
                 doc["tasks"] = tasks
