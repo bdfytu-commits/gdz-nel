@@ -12,3 +12,6 @@ scripts/tests/.env.local
 # аудит данных: резервные копии мусора не публикуем
 app/data/_audit_quarantine/
 docs/data-audit.json
+
+# локальные ключи деплоя
+.env.keys

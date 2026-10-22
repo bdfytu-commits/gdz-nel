@@ -86,7 +86,10 @@
 
   // серверный лог запросов + rate limit 50/мин на IP.
   // Это не замена Cloudflare WAF, а прикладной слой для админки.
-  if (navigator.onLine !== false) {
+  // локальные тесты и file:// не шлём: у Edge Function нет CORS для них.
+  var canLog = /^https?:$/.test(location.protocol) &&
+    !/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+  if (canLog && navigator.onLine !== false) {
     try {
       fetch(SUPABASE_URL + '/functions/v1/log-request', {
         method: 'POST',

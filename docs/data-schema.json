@@ -87,8 +87,8 @@
               },
               "section": {
                 "type": "string",
-                "minLength": 1,
-                "description": "Раздел/параграф/модуль"
+                "minLength": 0,
+                "description": "Раздел/параграф/модуль; пустая строка — без раздела"
               },
               "condition": {
                 "type": "string",
