@@ -206,6 +206,17 @@
         <p class="form-status" id="history-status" role="status" aria-live="polite"></p>
       </section>
 
+      <!-- офлайн-учебники -->
+      <section class="panel-section" id="offline-section">
+        <h2 class="section-title"><span class="icon i-download" aria-hidden="true"></span>Офлайн-учебники</h2>
+        <p class="panel-sub">Скачанные книги открываются без интернета: задания и картинки решений хранятся в браузере.</p>
+        <ul class="offline-books" id="offline-books"></ul>
+        <p class="offline-empty" id="offline-empty">Пока ничего не скачано. Открой предмет в приложении и нажми «Скачать для офлайна».</p>
+        <p class="panel-sub" id="offline-estimate"></p>
+        <p class="form-status" id="offline-status" role="status" aria-live="polite"></p>
+        <a class="btn btn-outline btn-sm" href="app/index.html">Открыть приложение</a>
+      </section>
+
       <!-- смена пароля (Ф11.9) -->
       <section class="panel-section">
         <h2 class="section-title"><span class="icon i-key" aria-hidden="true"></span>Смена пароля</h2>
@@ -257,7 +268,7 @@
       <div class="footer-brand">
         <img src="assets/img/logo-160.png" alt="" width="52" height="52">
         <p class="footer-name">ГДЗ НЭЛ</p>
-        <p class="footer-meta">3–11 классы, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
+        <p class="footer-meta">1–11 классы, Новосибирский экономический лицей.<br>2026–2027 учебный год.</p>
       </div>
       <nav class="footer-col" aria-label="Документы">
         <h3>Документы</h3>
@@ -273,6 +284,8 @@
   </footer>
 
   <script src="assets/analytics.js" defer></script>
+  <script src="app/assets/offline-db.js"></script>
+  <script src="assets/offline-profile.js"></script>
   <script src="assets/script.js"></script>
   <script type="module">
     import {
@@ -347,6 +360,8 @@
         document.getElementById('achievements-section').hidden = true;
         document.getElementById('premium-section').hidden = true;
         document.getElementById('history-section').hidden = true;
+        var offlineSection = document.getElementById('offline-section');
+        if (offlineSection) offlineSection.hidden = true;
         document.getElementById('delete-account').closest('.danger-zone').hidden = true;
         document.querySelectorAll('#profile-form, #password-form').forEach(function (el) { el.hidden = true; });
         document.querySelector('.profile-actions').hidden = true;
@@ -756,21 +771,71 @@
       historySection.hidden = false;
     }
 
+    // История из БД + локальный дубль из app (localStorage). Если запись
+    // в Supabase почему-то не дошла, пользователь всё равно видит свои задачи.
+    function localHistoryRows() {
+      try {
+        var list = JSON.parse(localStorage.getItem('gdz-nel-history') || '[]');
+        return (Array.isArray(list) ? list : []).map(function (e) {
+          return {
+            task_id: e.book + ':' + e.number,
+            viewed_at: new Date(e.viewedAt || Date.now()).toISOString(),
+            local: true
+          };
+        });
+      } catch (err) {
+        return [];
+      }
+    }
+
+    function mergeHistory(dbRows, localRows) {
+      var seen = {};
+      var out = [];
+      dbRows.forEach(function (r) {
+        var key = String(r.task_id);
+        if (seen[key]) return;
+        seen[key] = 1;
+        out.push(r);
+      });
+      localRows.forEach(function (r) {
+        var key = String(r.task_id);
+        if (seen[key]) return;
+        seen[key] = 1;
+        out.push(r);
+      });
+      out.sort(function (a, b) { return String(b.viewed_at).localeCompare(String(a.viewed_at)); });
+      return out.slice(0, 30);
+    }
+
     try {
       var histRes = await supabase.from('history')
         .select('task_id, viewed_at')
+        .eq('user_id', session.user.id)
         .order('viewed_at', { ascending: false })
-        .limit(30);
-      renderHistory(histRes.data || []);
-    } catch (err) { /* блок просто не покажется */ }
+        .limit(50);
+      var dbRows = (histRes.data || []);
+      var rows = mergeHistory(dbRows, localHistoryRows());
+      renderHistory(rows);
+      if (histRes.error) {
+        historyStatus.className = 'form-status is-err';
+        historyStatus.textContent = 'Часть истории хранится только в этом браузере: ' + histRes.error.message;
+      } else if (dbRows.length < rows.length) {
+        historyStatus.className = 'form-status';
+        historyStatus.textContent = 'Показаны и локальные просмотры этого браузера.';
+      }
+    } catch (err) {
+      renderHistory(localHistoryRows());
+    }
 
     historyClear.addEventListener('click', async function () {
       historyClear.disabled = true;
       var del = await supabase.from('history').delete().eq('user_id', session.user.id);
       historyClear.disabled = false;
+      try { localStorage.removeItem('gdz-nel-history'); } catch (err) { /* ignore */ }
       if (del.error) {
         historyStatus.className = 'form-status is-err';
-        historyStatus.textContent = 'Не получилось очистить: ' + del.error.message;
+        historyStatus.textContent = 'Серверная история не очистилась: ' + del.error.message;
+        renderHistory([]);
         return;
       }
       historyStatus.className = 'form-status is-ok';

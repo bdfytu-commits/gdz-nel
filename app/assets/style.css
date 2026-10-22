@@ -1644,3 +1644,49 @@ mark {
   .sk-page .sk,
   .reviews-list .sk { animation: none !important; }
 }
+
+/* ---------- офлайн-скачивание учебников ---------- */
+
+.bookcard-shell {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.bookcard-shell .bookcard { flex: 1; }
+
+.bookcard-offline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+  padding: 8px 4px 0;
+}
+
+.offline-btn { flex: none; }
+
+.offline-note {
+  font-size: 12px;
+  color: var(--c-text-muted);
+}
+
+.offline-progress {
+  flex: 1 1 100%;
+  height: 6px;
+  overflow: hidden;
+  border-radius: 3px;
+  background: var(--c-surface-2);
+}
+
+.offline-progress span {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: 3px;
+  background: var(--grad-main);
+  transition: width 180ms var(--ease);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .offline-progress span { transition: none; }
+}

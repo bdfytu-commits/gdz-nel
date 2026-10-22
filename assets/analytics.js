@@ -17,8 +17,49 @@
 
   var sentVitals = false;
 
+  // Уникальный посетитель: стабильный id в localStorage. Нужен, чтобы
+  // отличать живые просмотры от повторных заходов и ботов без хранилища.
+  var VISITOR_KEY = 'gdz-nel-visitor';
+
+  function visitorId() {
+    try {
+      var id = localStorage.getItem(VISITOR_KEY);
+      if (!id) {
+        id = 'v-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 10);
+        localStorage.setItem(VISITOR_KEY, id);
+      }
+      return id;
+    } catch (err) {
+      return 'anon';
+    }
+  }
+
+  var visitor = visitorId();
+
+  function dayKey() {
+    var d = new Date();
+    return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+  }
+
+  // Один page_view на страницу в сутки с одного браузера.
+  function seenToday(name, path) {
+    try {
+      var key = 'gdz-nel-ev:' + dayKey() + ':' + name + ':' + path;
+      if (localStorage.getItem(key)) return true;
+      localStorage.setItem(key, '1');
+      return false;
+    } catch (err) {
+      return false;
+    }
+  }
+
   function send(name, meta) {
     if (!name) return;
+    // офлайн: не шумим ошибками в консоли и не копим очередь
+    if (typeof navigator !== 'undefined' && navigator.onLine === false) return;
+    var path = (location.pathname + location.hash).slice(0, 300);
+    if (name === 'page_view' && seenToday(name, path)) return;
+    var payload = meta ? Object.assign({ visitor: visitor }, meta) : { visitor: visitor };
     try {
       fetch(SUPABASE_URL + '/rest/v1/events', {
         method: 'POST',
@@ -30,8 +71,8 @@
         },
         body: JSON.stringify({
           name: String(name).slice(0, 64),
-          path: (location.pathname + location.hash).slice(0, 300),
-          meta: meta || {}
+          path: path,
+          meta: payload
         }),
         keepalive: true
       }).catch(function () { /* офлайн — не страшно */ });

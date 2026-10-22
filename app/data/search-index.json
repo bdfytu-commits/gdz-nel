@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-21T16:56:42Z",
- "count": 298940,
+ "generatedAt": "2026-10-22T07:32:03Z",
+ "count": 310775,
  "shards": [
   {
    "file": "search-index-5-math.json",
@@ -348,7 +348,7 @@
    "file": "search-index-4-math.json",
    "grade": "4",
    "subject": "math",
-   "count": 9462
+   "count": 9429
   },
   {
    "file": "search-index-4-russian.json",
@@ -378,7 +378,7 @@
    "file": "search-index-3-math.json",
    "grade": "3",
    "subject": "math",
-   "count": 9524
+   "count": 9508
   },
   {
    "file": "search-index-3-russian.json",
@@ -480,7 +480,7 @@
    "file": "search-index-11-english.json",
    "grade": "11",
    "subject": "english",
-   "count": 642
+   "count": 816
   },
   {
    "file": "search-index-11-algebra.json",
@@ -498,13 +498,13 @@
    "file": "search-index-11-physics.json",
    "grade": "11",
    "subject": "physics",
-   "count": 618
+   "count": 1854
   },
   {
    "file": "search-index-11-chemistry.json",
    "grade": "11",
    "subject": "chemistry",
-   "count": 269
+   "count": 723
   },
   {
    "file": "search-index-11-biology.json",
@@ -516,7 +516,7 @@
    "file": "search-index-11-history.json",
    "grade": "11",
    "subject": "history",
-   "count": 586
+   "count": 943
   },
   {
    "file": "search-index-11-social.json",
@@ -535,6 +535,60 @@
    "grade": "11",
    "subject": "literature",
    "count": 371
+  },
+  {
+   "file": "search-index-1-math.json",
+   "grade": "1",
+   "subject": "math",
+   "count": 1033
+  },
+  {
+   "file": "search-index-1-russian.json",
+   "grade": "1",
+   "subject": "russian",
+   "count": 482
+  },
+  {
+   "file": "search-index-1-world.json",
+   "grade": "1",
+   "subject": "world",
+   "count": 455
+  },
+  {
+   "file": "search-index-1-literature.json",
+   "grade": "1",
+   "subject": "literature",
+   "count": 289
+  },
+  {
+   "file": "search-index-2-math.json",
+   "grade": "2",
+   "subject": "math",
+   "count": 2187
+  },
+  {
+   "file": "search-index-2-russian.json",
+   "grade": "2",
+   "subject": "russian",
+   "count": 1704
+  },
+  {
+   "file": "search-index-2-english.json",
+   "grade": "2",
+   "subject": "english",
+   "count": 1759
+  },
+  {
+   "file": "search-index-2-world.json",
+   "grade": "2",
+   "subject": "world",
+   "count": 533
+  },
+  {
+   "file": "search-index-2-literature.json",
+   "grade": "2",
+   "subject": "literature",
+   "count": 1221
   }
  ]
 }

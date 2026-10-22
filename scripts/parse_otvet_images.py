@@ -43,6 +43,13 @@ BOOKS = [
         "url": "https://otvet.plus/11-klass/fizika/myakishev/",
         "title": "Мякишев. Физика 11",
     },
+    {
+        "id": "rudzitis-11",
+        "grade": 11,
+        "subject": "chemistry",
+        "url": "https://otvet.plus/11-klass/himija/rudzitis/",
+        "title": "Рудзитис. Химия 11",
+    },
 ]
 
 

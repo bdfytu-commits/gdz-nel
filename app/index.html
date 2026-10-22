@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>ГДЗ НЭЛ — приложение</title>
-  <meta name="description" content="Приложение ГДЗ НЭЛ: готовые домашние задания для 3–11 классов лицея. Поиск по номеру и тексту, избранное, история, отзывы, решение по фото, тёмная тема, офлайн-режим.">
+  <title>ГДЗ НЭЛ — приложение для 1–11 классов</title>
+  <meta name="description" content="Приложение ГДЗ НЭЛ: задания и решения для 1–11 классов. Поиск по номеру, избранное, история, офлайн-учебники и тёмная тема.">
   <meta name="robots" content="index, follow">
 
   <!-- домен-плейсхолдер: заменить USER после деплоя (см. docs/CHANGELOG.md) -->
@@ -14,7 +14,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ГДЗ НЭЛ">
   <meta property="og:locale" content="ru_RU">
-  <meta property="og:title" content="ГДЗ НЭЛ — приложение для 3–11 классов">
+  <meta property="og:title" content="ГДЗ НЭЛ — приложение для 1–11 классов">
   <meta property="og:description" content="Условия, пошаговые решения и ответы. Поиск, избранное, офлайн.">
   <meta property="og:image" content="https://gdz-nel.pages.dev/assets/img/screens/og-1200x630.png">
   <meta property="og:url" content="https://gdz-nel.pages.dev/app/">
@@ -87,7 +87,7 @@
   <!-- офлайн-плашка (Ф15) -->
   <div class="offline-bar no-print" id="offline-bar" hidden role="status">
     <span class="icon i-alert" aria-hidden="true"></span>
-    <span>Нет подключения — показываю данные из кэша</span>
+    <span>Нет подключения — показываю скачанные данные</span>
   </div>
 
   <!-- обновление приложения (Ф15.8) -->
@@ -133,7 +133,7 @@
     "applicationCategory": "EducationalApplication",
     "operatingSystem": "Any",
     "inLanguage": "ru",
-    "description": "Условия, пошаговые решения и ответы для 3–11 классов Новосибирского экономического лицея.",
+    "description": "Условия, пошаговые решения и ответы для 1–11 классов Новосибирского экономического лицея.",
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -142,6 +142,7 @@
   }
   </script>
   <script src="../assets/analytics.js" defer></script>
+  <script src="assets/offline-db.js"></script>
   <script src="assets/script.js"></script>
   <script type="module">
     // Мост к Supabase: script.js ждёт window.gdzSupabase (или событие ниже).

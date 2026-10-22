@@ -99,6 +99,8 @@ SUBJECT_PAGES = [
     ("physics", "fizika"),
     ("chemistry", "himiya"),
     ("informatics", "informatika"),
+    ("world", "okruzhayushchiy-mir"),
+    ("literature", "literaturnoe-chtenie"),
 ]
 
 # Популярные издательства из ТЗ 3.0. Список используется как приоритетный

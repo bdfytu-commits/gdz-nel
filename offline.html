@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Нет сети — ГДЗ НЭЛ</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#1AA3A3">
+  <style>
+    :root { --brand: #0d7c74; --ink: #102a2a; --muted: #5d7373; --line: #dbe7e5; --bg: #f6fbfa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Segoe UI", Roboto, Arial, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
+    a { color: var(--brand); }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 28px 20px 60px; }
+    .top { display: flex; align-items: center; gap: 12px; margin-bottom: 28px; }
+    .logo { width: 44px; height: 44px; border-radius: 12px; background: linear-gradient(135deg, #1AA3A3, #0d7c74); color: #fff; display: grid; place-items: center; font-weight: 800; }
+    .brand { font-weight: 800; font-size: 20px; }
+    .badge { display: inline-block; padding: 4px 10px; border-radius: 999px; background: #fff3cd; color: #6b4e00; font-size: 12px; font-weight: 700; }
+    h1 { font-size: 28px; margin: 12px 0; }
+    .lead { color: var(--muted); margin: 0 0 22px; }
+    .card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 20px; margin: 16px 0; }
+    .card h2 { font-size: 17px; margin: 0 0 10px; }
+    .books { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+    .book { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 14px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; }
+    .book a { font-weight: 700; text-decoration: none; }
+    .book small { display: block; color: var(--muted); font-size: 12px; }
+    .empty { color: var(--muted); }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+    .btn { display: inline-block; padding: 11px 18px; border-radius: 10px; background: var(--brand); color: #fff; text-decoration: none; font-weight: 700; border: 0; cursor: pointer; font-size: 15px; }
+    .btn.secondary { background: #fff; color: var(--brand); border: 1px solid var(--line); }
+    .status { color: var(--muted); font-size: 13px; }
+    footer { margin-top: 26px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="top">
+      <span class="logo" aria-hidden="true">НЭ</span>
+      <span class="brand">ГДЗ НЭЛ</span>
+    </div>
+
+    <span class="badge">нет подключения</span>
+    <h1>Интернет недоступен</h1>
+    <p class="lead">Страница не загрузилась из сети. Скачанные учебники открываются и без интернета — они хранятся в памяти браузера.</p>
+
+    <section class="card">
+      <h2>Офлайн-учебники</h2>
+      <ul class="books" id="offline-books"></ul>
+      <p class="empty" id="offline-empty">Пока ничего не скачано. Когда появится сеть, откройте предмет в приложении и нажмите «Скачать для офлайна».</p>
+      <p class="status" id="offline-estimate"></p>
+    </section>
+
+    <div class="actions">
+      <a class="btn" href="app/index.html">Открыть приложение</a>
+      <button class="btn secondary" type="button" id="retry">Проверить сеть</button>
+    </div>
+    <p class="status" id="retry-status" role="status" aria-live="polite"></p>
+
+    <footer>ГДЗ НЭЛ · условия, решения и ответы для 1–11 классов. Материалы для самопроверки.</footer>
+  </main>
+
+  <script src="app/assets/offline-db.js"></script>
+  <script>
+    (function () {
+      var list = document.getElementById('offline-books');
+      var empty = document.getElementById('offline-empty');
+      var estimate = document.getElementById('offline-estimate');
+      var retry = document.getElementById('retry');
+      var retryStatus = document.getElementById('retry-status');
+
+      function bytes(value) {
+        var n = Number(value) || 0;
+        if (n < 1024) return n + ' Б';
+        if (n < 1024 * 1024) return (n / 1024).toFixed(1).replace('.', ',') + ' КБ';
+        return (n / (1024 * 1024)).toFixed(1).replace('.', ',') + ' МБ';
+      }
+
+      function readBooks() {
+        if (window.GdzOffline && window.GdzOffline.listOfflineBooks) {
+          return window.GdzOffline.listOfflineBooks();
+        }
+        // страховка, если внешний скрипт не успел загрузиться офлайн
+        return new Promise(function (resolve, reject) {
+          if (!('indexedDB' in window)) { resolve([]); return; }
+          var request = indexedDB.open('gdz-nel-offline', 1);
+          request.onupgradeneeded = function () {
+            var db = request.result;
+            if (!db.objectStoreNames.contains('books')) db.createObjectStore('books', { keyPath: 'file' });
+            if (!db.objectStoreNames.contains('tasks')) {
+              var store = db.createObjectStore('tasks', { keyPath: 'key' });
+              store.createIndex('file', 'file', { unique: false });
+            }
+            if (!db.objectStoreNames.contains('images')) {
+              var images = db.createObjectStore('images', { keyPath: 'url' });
+              images.createIndex('file', 'file', { unique: false });
+            }
+          };
+          request.onerror = function () { reject(request.error); };
+          request.onsuccess = function () {
+            var tx = request.result.transaction('books', 'readonly');
+            var get = tx.objectStore('books').getAll();
+            get.onsuccess = function () { resolve(get.result || []); };
+            get.onerror = function () { reject(get.error); };
+          };
+        });
+      }
+
+      function render() {
+        readBooks().then(function (books) {
+          list.innerHTML = books.map(function (book) {
+            var href = 'app/index.html#/' + encodeURIComponent(book.grade || '') + '/' +
+              encodeURIComponent(book.subject || '') + '/' + encodeURIComponent(book.id || '');
+            var meta = [];
+            if (book.taskCount) meta.push(book.taskCount + ' заданий');
+            if (book.bytes) meta.push(bytes(book.bytes));
+            if (book.imageCount) meta.push(book.imageCount + ' картинок');
+            return '<li class="book"><span><a href="' + href + '">' +
+              String(book.title || book.file).replace(/[&<>"]/g, function (c) {
+                return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+              }) + '</a><small>' + meta.join(' · ') + '</small></span></li>';
+          }).join('');
+          empty.hidden = books.length > 0;
+          var totalBytes = books.reduce(function (sum, book) { return sum + (Number(book.bytes) || 0); }, 0);
+          var totalTasks = books.reduce(function (sum, book) { return sum + (Number(book.taskCount) || 0); }, 0);
+          estimate.textContent = books.length
+            ? 'Всего: ' + books.length + ' кн. · ' + bytes(totalBytes) + ' · ' + totalTasks + ' заданий'
+            : '';
+        }).catch(function () {
+          empty.textContent = 'Не удалось прочитать офлайн-хранилище.';
+        });
+      }
+
+      retry.addEventListener('click', function () {
+        retryStatus.textContent = 'Проверяю…';
+        if (navigator.onLine) {
+          location.href = 'app/index.html';
+        } else {
+          retryStatus.textContent = 'Сети по-прежнему нет. Скачанные учебники доступны ниже.';
+        }
+      });
+
+      window.addEventListener('online', function () {
+        retryStatus.textContent = 'Сеть появилась — можно открыть приложение.';
+      });
+
+      render();
+      window.addEventListener('gdz-offline-change', render);
+    })();
+  </script>
+</body>
+</html>

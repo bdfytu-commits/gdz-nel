@@ -424,6 +424,20 @@
     return getJSON(DATA_DIR + file).then(function (data) {
       bookCache[file] = data;
       return data;
+    }).catch(function (err) {
+      // нет сети / SW не отдал JSON — пробуем явно скачанный учебник
+      if (window.GdzOffline && window.GdzOffline.getBookFromOffline) {
+        return window.GdzOffline.getBookFromOffline(file).then(function (data) {
+          if (!data || !data.tasks || !data.tasks.length) {
+            if (!navigator.onLine) location.replace('offline.html');
+            throw err;
+          }
+          bookCache[file] = data;
+          return data;
+        });
+      }
+      if (!navigator.onLine) location.replace('offline.html');
+      throw err;
     });
   }
 
@@ -789,17 +803,129 @@
         if (gstats && gstats.books && typeof gstats.books[b.file] === 'number') {
           count = gstats.books[b.file];
         }
-        html += '<a class="bookcard" href="#/' + esc(grade.id) + '/' + esc(subject.id) + '/' + esc(b.id) + '">' +
+        html += '<div class="bookcard-shell" data-file="' + esc(b.file) + '" data-id="' + esc(b.id) + '" ' +
+          'data-title="' + esc(b.title) + '" data-author="' + esc(b.author || '') + '" data-year="' + esc(b.year || '') + '" ' +
+          'data-grade="' + esc(grade.id) + '" data-grade-title="' + esc(grade.title) + '" ' +
+          'data-subject="' + esc(subject.id) + '" data-subject-title="' + esc(subject.title) + '">' +
+          '<a class="bookcard" href="#/' + esc(grade.id) + '/' + esc(subject.id) + '/' + esc(b.id) + '">' +
           '<span class="bookcover"><span class="icon i-' + esc(subject.icon || subject.id) + '" aria-hidden="true"></span>' +
           '<span class="bookcover-part">' + esc(partLabel) + '</span></span>' +
           '<span class="bookmeta"><h2>' + esc(b.title) + '</h2>' +
           '<p>' + esc(b.author || '') + '</p>' +
           '<p>' + esc(b.year || '') + '</p>' +
-          '<span class="bookcount">' + (count === null ? 'открыть задания' : tasksWord(count)) + '</span></span></a>';
+          '<span class="bookcount">' + (count === null ? 'открыть задания' : tasksWord(count)) + '</span></span></a>' +
+          '<div class="bookcard-offline">' +
+          '<button class="btn btn-outline btn-sm offline-btn" type="button">' +
+          '<span class="icon i-download" aria-hidden="true"></span>' +
+          '<span class="offline-btn-label">Скачать для офлайна</span></button>' +
+          '<span class="offline-note"></span>' +
+          '<div class="offline-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" hidden><span></span></div>' +
+          '</div></div>';
       });
 
       html += '</div>';
       screenEl.innerHTML = html;
+      initOfflineControls();
+    });
+  }
+
+  /* =========================================================
+     офлайн-скачивание учебников
+     ========================================================= */
+
+  function formatBytes(bytes) {
+    var value = Number(bytes) || 0;
+    if (value < 1024) return value + ' Б';
+    if (value < 1024 * 1024) return (value / 1024).toFixed(1).replace('.', ',') + ' КБ';
+    return (value / (1024 * 1024)).toFixed(1).replace('.', ',') + ' МБ';
+  }
+
+  function initOfflineControls() {
+    var shells = screenEl.querySelectorAll('.bookcard-shell');
+    if (!shells.length) return;
+
+    Array.prototype.forEach.call(shells, function (shell) {
+      var btn = shell.querySelector('.offline-btn');
+      var label = shell.querySelector('.offline-btn-label');
+      var note = shell.querySelector('.offline-note');
+      var bar = shell.querySelector('.offline-progress');
+      var fill = bar ? bar.querySelector('span') : null;
+      var file = shell.getAttribute('data-file') || '';
+
+      if (!window.GdzOffline || !window.GdzOffline.supported) {
+        btn.disabled = true;
+        label.textContent = 'Офлайн недоступен';
+        note.textContent = 'Браузер не поддерживает IndexedDB';
+        return;
+      }
+
+      function markDownloaded(meta) {
+        btn.dataset.done = '1';
+        btn.title = 'Скачать заново';
+        label.textContent = 'Скачано';
+        var details = [];
+        if (meta && meta.taskCount) details.push(meta.taskCount + ' ' + tasksWord(meta.taskCount));
+        if (meta && meta.bytes) details.push(formatBytes(meta.bytes));
+        if (meta && meta.failedImages) details.push('без ' + meta.failedImages + ' картинок');
+        note.textContent = details.join(' · ');
+      }
+
+      window.GdzOffline.isBookOffline(file).then(function (offline) {
+        if (!offline) return;
+        window.GdzOffline.listOfflineBooks().then(function (books) {
+          var meta = books.filter(function (b) { return b.file === file; })[0];
+          markDownloaded(meta);
+        });
+      });
+
+      btn.addEventListener('click', function () {
+        if (btn.dataset.busy === '1') return;
+        btn.dataset.busy = '1';
+        btn.disabled = true;
+        label.textContent = 'Скачиваю…';
+        note.textContent = 'Задания, затем картинки';
+        if (bar) {
+          bar.hidden = false;
+          bar.setAttribute('aria-valuenow', '0');
+          if (fill) fill.style.width = '0%';
+        }
+
+        var meta = {
+          file: file,
+          id: shell.getAttribute('data-id') || '',
+          title: shell.getAttribute('data-title') || '',
+          author: shell.getAttribute('data-author') || '',
+          year: shell.getAttribute('data-year') || '',
+          grade: shell.getAttribute('data-grade') || '',
+          gradeTitle: shell.getAttribute('data-grade-title') || '',
+          subject: shell.getAttribute('data-subject') || '',
+          subjectTitle: shell.getAttribute('data-subject-title') || ''
+        };
+
+        window.GdzOffline.downloadBook(meta, function (progress) {
+          if (!bar) return;
+          var percent = Math.max(0, Math.min(100, Number(progress.percent) || 0));
+          bar.setAttribute('aria-valuenow', String(percent));
+          if (fill) fill.style.width = percent + '%';
+          if (progress.phase === 'images' && progress.total) {
+            label.textContent = 'Картинки ' + progress.done + '/' + progress.total;
+          } else if (progress.phase === 'tasks') {
+            label.textContent = 'Задания…';
+          }
+        }).then(function (saved) {
+          btn.dataset.busy = '';
+          btn.disabled = false;
+          if (bar) bar.hidden = true;
+          markDownloaded(saved);
+          showToast('Учебник сохранён для офлайна');
+        }).catch(function (err) {
+          btn.dataset.busy = '';
+          btn.disabled = false;
+          label.textContent = 'Скачать для офлайна';
+          note.textContent = 'Не получилось: ' + (err && err.message ? err.message : 'нет связи');
+          if (bar) bar.hidden = true;
+        });
+      });
     });
   }
 

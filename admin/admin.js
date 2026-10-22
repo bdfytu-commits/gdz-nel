@@ -216,16 +216,22 @@ async function renderOverview() {
     countOf('reviews'),
     countOf('reviews', function (q) { return q.eq('ai_status', 'pending'); }),
     countOf('photo_requests', function (q) { return q.gte('created_at', dayAgo); }),
-    countOf('events', function (q) { return q.gte('created_at', dayAgo); }),
+    countOf('events', function (q) { return q.eq('name', 'page_view').gte('created_at', dayAgo); }),
     countOf('achievements'),
     supabase.from('reviews').select('id, username, task_id, ai_status, created_at').gte('created_at', weeksAgo).limit(1000),
     supabase.from('photo_requests').select('id, created_at').gte('created_at', weeksAgo).limit(1000),
-    supabase.from('events').select('name, path, created_at').gte('created_at', weeksAgo).limit(1000),
+    fetchAllChunks(function () {
+      return supabase.from('events').select('id, name, path, meta, created_at')
+        .eq('name', 'page_view').gte('created_at', weeksAgo)
+        .order('created_at', { ascending: false });
+    }, 20000),
     supabase.from('admin_logs').select('action, target, created_at').order('created_at', { ascending: false }).limit(6),
     supabase.from('reviews').select('id, username, task_id, ai_status, created_at').order('created_at', { ascending: false }).limit(5),
     supabase.from('photo_requests').select('id, created_at').order('created_at', { ascending: false }).limit(4),
     countOf('profiles', function (q) { return q.eq('is_premium', true).gt('premium_until', new Date().toISOString()); }),
-    countOf('payments')
+    countOf('payments'),
+    countOf('profiles', function (q) { return q.gte('created_at', dayAgo); }),
+    countOf('payments', function (q) { return q.gte('created_at', dayAgo); })
   ]);
 
   var usersCount = res[0];
@@ -236,12 +242,14 @@ async function renderOverview() {
   var badgesCount = res[5];
   var reviewRows = res[6].data || [];
   var photoRows = res[7].data || [];
-  var eventRows = res[8].data || [];
+  var eventRows = res[8].rows || [];
   var logRows = res[9].data || [];
   var lastReviews = res[10].data || [];
   var lastPhotos = res[11].data || [];
   var premiumCount = res[12];
   var paymentsCount = res[13];
+  var registrationsToday = res[14];
+  var paymentsToday = res[15];
 
   // дни за 2 недели
   var days = [];
@@ -251,14 +259,22 @@ async function renderOverview() {
     var item = {
       key: d.toISOString().slice(0, 10),
       label: d.toLocaleDateString('ru-RU', { day: 'numeric', month: 'short' }),
-      reviews: 0, photos: 0, events: 0
+      reviews: 0, photos: 0, events: 0, visitors: {}
     };
     days.push(item);
     byKey[item.key] = item;
   }
   reviewRows.forEach(function (r) { var b = byKey[String(r.created_at).slice(0, 10)]; if (b) b.reviews++; });
   photoRows.forEach(function (r) { var b = byKey[String(r.created_at).slice(0, 10)]; if (b) b.photos++; });
-  eventRows.forEach(function (r) { var b = byKey[String(r.created_at).slice(0, 10)]; if (b) b.events++; });
+  eventRows.forEach(function (r) {
+    var b = byKey[String(r.created_at).slice(0, 10)];
+    if (!b) return;
+    b.events++;
+    if (r.name === 'page_view') {
+      var v = (r.meta && r.meta.visitor) || ('row-' + r.id);
+      b.visitors[v] = 1;
+    }
+  });
 
   // топ пользователей по отзывам (Ф16.12)
   var byUser = {};
@@ -271,12 +287,29 @@ async function renderOverview() {
 
   // популярные страницы по событиям
   var byPath = {};
+  var visitorsToday = {};
   eventRows.forEach(function (e) {
     if (e.name !== 'page_view' || !e.path) return;
-    byPath[e.path] = (byPath[e.path] || 0) + 1;
+    var visitor = (e.meta && e.meta.visitor) || ('row-' + e.id);
+    if (!byPath[e.path]) byPath[e.path] = {};
+    byPath[e.path][visitor] = 1;
+    if (String(e.created_at) >= dayAgo) visitorsToday[visitor] = 1;
   });
-  var topPages = Object.keys(byPath).map(function (p) { return { path: p, count: byPath[p] }; })
-    .sort(function (a, b) { return b.count - a.count; }).slice(0, 5);
+  var topPages = Object.keys(byPath).map(function (p) {
+    return { path: p, count: Object.keys(byPath[p]).length };
+  }).sort(function (a, b) { return b.count - a.count; }).slice(0, 5);
+  var visitorsTodayCount = Object.keys(visitorsToday).length;
+
+  // уникальные просмотры = пары «страница + посетитель» за сутки
+  var uniqueToday = {};
+  eventRows.forEach(function (e) {
+    if (e.name !== 'page_view' || !e.path || String(e.created_at) < dayAgo) return;
+    var v = (e.meta && e.meta.visitor) || ('row-' + e.id);
+    uniqueToday[e.path + '|' + v] = 1;
+  });
+  eventsToday = Object.keys(uniqueToday).length;
+  var regRate = visitorsTodayCount ? Math.round(registrationsToday / visitorsTodayCount * 100) : 0;
+  var payRate = registrationsToday ? Math.round(paymentsToday / registrationsToday * 100) : 0;
 
   // лента
   var statusWord = { pending: 'на проверке', approved: 'одобрен', rejected: 'отклонён' };
@@ -317,7 +350,10 @@ async function renderOverview() {
     card('i-message', reviewsCount, 'Отзывов') +
     card('i-clock', pendingCount, 'Ждут модерации') +
     card('i-camera', photosToday, 'Фото за сутки') +
-    card('i-chart', eventsToday, 'Просмотров за сутки') +
+    card('i-chart', eventsToday, 'Уникальных просмотров') +
+    card('i-eye', visitorsTodayCount, 'Посетителей за сутки') +
+    card('i-user', registrationsToday, 'Регистраций за сутки') +
+    card('i-check', paymentsToday, 'Оплат за сутки') +
     card('i-award', badgesCount, 'Выдано достижений') +
     card('i-star-filled', premiumCount, 'ГДЗ+ активных') +
     card('i-check', paymentsCount, 'Платежей') +
@@ -328,7 +364,7 @@ async function renderOverview() {
     '<div class="chart-legend">' +
     '<span><i class="dot dot--reviews"></i>отзывы</span>' +
     '<span><i class="dot dot--photos"></i>фото</span>' +
-    '<span><i class="dot dot--events"></i>просмотры</span>' +
+    '<span><i class="dot dot--events"></i>посетители</span>' +
     '</div></div>' +
     '<div class="panel"><h2>Последние действия</h2>' + feedHtml + '</div>' +
     '</div>' +
@@ -336,9 +372,18 @@ async function renderOverview() {
     listBlock('Топ авторов отзывов', top, function (t) {
       return '<li><span>' + esc(t.name) + '</span><b>' + t.count + '</b></li>';
     }) +
-    listBlock('Популярные страницы', topPages, function (t) {
+    listBlock('Популярные страницы (уникальные)', topPages, function (t) {
       return '<li><span class="cell-task">' + esc(t.path) + '</span><b>' + t.count + '</b></li>';
     }) +
+    '</div>' +
+    '<div class="dash-grid">' +
+    '<div class="panel"><h2>Воронка за сутки</h2>' +
+    '<ul class="mini-list">' +
+    '<li><span>Посетители</span><b>' + visitorsTodayCount + '</b></li>' +
+    '<li><span>Регистрации</span><b>' + registrationsToday + ' · ' + regRate + '%</b></li>' +
+    '<li><span>Оплаты</span><b>' + paymentsToday + ' · ' + payRate + '%</b></li>' +
+    '</ul>' +
+    '<p class="admin-muted">Просмотры считаются по уникальным браузерам за сутки: повторные заходы и боты без localStorage не раздувают цифры.</p></div>' +
     '</div>';
 
   drawChart(days);
@@ -353,9 +398,9 @@ function drawChart(days) {
   if (typeof window.Chart === 'undefined') {
     // офлайн/CDN недоступен — рисуем простые столбики
     var max = 1;
-    days.forEach(function (d) { max = Math.max(max, d.reviews + d.photos + d.events); });
+    days.forEach(function (d) { max = Math.max(max, d.reviews + d.photos + Object.keys(d.visitors).length); });
     var bars = days.map(function (d) {
-      var total = d.reviews + d.photos + d.events;
+      var total = d.reviews + d.photos + Object.keys(d.visitors).length;
       var h = total ? Math.max(3, Math.round(total / max * 110)) : 3;
       return '<div class="chart-col"><span class="chart-count">' + (total || '') + '</span>' +
         '<span class="chart-bar" style="height:' + h + 'px"></span>' +
@@ -378,7 +423,7 @@ function drawChart(days) {
       datasets: [
         { label: 'Отзывы', data: days.map(function (d) { return d.reviews; }), borderColor: '#1AA3A3', backgroundColor: 'rgba(26,163,163,0.15)', tension: 0.35, fill: true, pointRadius: 2 },
         { label: 'Фото', data: days.map(function (d) { return d.photos; }), borderColor: '#E5A13A', backgroundColor: 'rgba(229,161,58,0.15)', tension: 0.35, fill: true, pointRadius: 2 },
-        { label: 'Просмотры', data: days.map(function (d) { return d.events; }), borderColor: '#8B5CF6', backgroundColor: 'rgba(139,92,246,0.12)', tension: 0.35, fill: true, pointRadius: 2 }
+        { label: 'Посетители', data: days.map(function (d) { return Object.keys(d.visitors).length; }), borderColor: '#8B5CF6', backgroundColor: 'rgba(139,92,246,0.12)', tension: 0.35, fill: true, pointRadius: 2 }
       ]
     },
     options: {

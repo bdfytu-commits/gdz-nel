@@ -1,0 +1,1668 @@
+{
+  "subject": "english",
+  "textbook": "baranova-2-2",
+  "author": "Баранова К. М., Дули Д., Копылова В. В",
+  "year": "2023",
+  "source": "parsed",
+  "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/",
+  "parsedAt": "2026-10-22T07:06:25Z",
+  "tasks": [
+    {
+      "number": "4.1",
+      "section": "Страница 4",
+      "condition": "Match the words (1 – 6) and the pictures (a – f). Then say: It’s an elephant. It’s a ...\nНайди соответствующие картинкам (a – f) названия животных и насекомых (1 – 6). Запиши их в тетрадь. Составь предложения по образцу.",
+      "solution": "1 butterfly – c\n2 frog – f\n3 monkey – b\n4 bird – a\n5 elephant – d\n6 spider – e\nIt’s an elephant. It’s a butterfly. It’s a monkey. It’s frog. It’s a bird. It’s a spider.\n1 бабочка – с\n2 лягушка – f\n3 обезьяна – b\n4 птица – a\n5 слон – d\n6 паук – e\nЭто слон. Это бабочка. Это обезьяна. Это лягушка. Это птица. Это паук.",
+      "answer": "Это слон. Это бабочка. Это обезьяна. Это лягушка. Это птица. Это паук.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-4/"
+    },
+    {
+      "number": "4.2",
+      "section": "Страница 4",
+      "condition": "Listen to the song and sing it along.\nПрослушай песенку и спой её.",
+      "solution": "The little green frog goes\n“la di da di da,\nla di da di da, la di da di da”.\nThe little green frog goes\n“la di da di da”\nAnd it can jump and swim!\nThe little blue bird goes\n“la di da di da,\nla di da di da, la di da di da”.\nThe little blue bird goes\n“la di da di da”\nAnd it can fly and sing!\nМаленькая зеленая лягушка поет\n“ла-ди-да-ди-да,\nла-ди-да-ди-да, ла-ди-да-ди-да”.\nМаленькая зеленая лягушка поет\n“ла-ди-да-ди-да”\nИ она умеет прыгать и плавать!\nМаленькая синяя птичка поет\n“ла-ди-да-ди-да,\nла-ди-да-ди-да, ла-ди-да-ди-да”.\nМаленькая синяя птичка поет\n“ла-ди-да-ди-да”\nИ она умеет летать и петь!",
+      "answer": "И она умеет летать и петь!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-4/"
+    },
+    {
+      "number": "5.3",
+      "section": "Страница 5",
+      "condition": "What can the animals and insects do? What can’t they do?\nLook and say: A bird can ..., but it can’t ...\nПосмотри на картинки. Составь предложения, как показано в образце.",
+      "solution": "A bird can fly but it can’t run.\nA spider can run, but it can’t swim.\nA frog can jump, but it can’t draw.\nA butterfly can fly, but it can’t run.\nПтица может летать, но не может бегать.\nПаук может бегать, но не умеет плавать.\nЛягушка может прыгать, но не умеет рисовать.\nБабочка может летать, но не может бегать.",
+      "answer": "Бабочка может летать, но не может бегать.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-5/"
+    },
+    {
+      "number": "5.4",
+      "section": "Страница 5",
+      "condition": "Use the templates to make spinners. Play with your friend.\nСделайте волчок и сыграйте в игру.",
+      "solution": "A bird can’t draw!\nThat’s right.\nAn elephant can’t climb!\nThat’s right.\nA butterfly can’t swim!\nThat’s right.\nA frog can’t sing!\nThat’s right.\nA monkey can’t fly!\nThat’s right.\nA spider can’t swim!\nThat’s right.\nПтица не умеет рисовать!\nВерно.\nСлон не может карабкаться!\nВерно.\nБабочка не умеет плавать!\nВерно.\nЛягушка не умеет петь!\nВерно.\nОбезьяна не умеет летать!\nВерно.\nПаук не умеет плавать!\nВерно.",
+      "answer": "Верно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-5/"
+    },
+    {
+      "number": "6.1",
+      "section": "Страница 6",
+      "condition": "Complete the song. Then listen and sing it along.\nЗакончи песенку, добавив в её текст нужные цифры. Прослушай песенку и спой её.\nA bird has got two legs,\nOne bird, two legs.\nSix birds, 12 legs.\nA spider has got eight legs,\nOne spider, eight legs.\nTwo spiders, ... legs.\nAn elephant has got four legs,\nOne elephant, four legs.\nFive elephants, ... legs.",
+      "solution": "A bird has got two legs,\nOne bird, two legs.\nSix birds, 12 legs.\nA spider has got eight legs,\nOne spider, eight legs.\nTwo spiders, 16 legs.\nAn elephant has got four legs,\nOne elephant, four legs.\nFive elephants, 20 legs.\nУ птицы две ноги,\nУ одной птицы две ноги.\nУ шести птиц 12 ног.\nУ паука восемь ног,\nУ одного паука восемь ног.\nУ двух пауков 16 ног.\nУ слона четыре ноги,\nУ одного слона четыре ноги.\nПять слонов, 20 ног.",
+      "answer": "Пять слонов, 20 ног.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-6/"
+    },
+    {
+      "number": "6.2",
+      "section": "Страница 6",
+      "condition": "How many legs have they got? Count and say” A frog has got ... legs. Four frogs have got ...\nСколько лап у лягушек? Сосчитай и составь предложения по образцу.",
+      "solution": "One frog has got 4 legs.\nFour frogs have got 16 legs.\nУ одной лягушки 4 лапы.\nУ четырех лягушек по 16 лап.",
+      "answer": "У четырех лягушек по 16 лап.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-6/"
+    },
+    {
+      "number": "7.3",
+      "section": "Страница 7",
+      "condition": "Listen and choose the numbers.\nПрослушай запись и выбери правильную цифру.\na\nsixteen\nthirteen\nb\nnineteen\nfifteen\nc\nseventeen\neighteen\nd\neleven\ntwelve\ne\nsixteen\ntwenty\nf\nfourteen\nthirteen",
+      "solution": "a\nsixteen\nthirteen\n16\n13\nb\nnineteen\nfifteen\n19\n15\nc\nseventeen\neighteen\n17\n18\nd\neleven\ntwelve\n11\n12\ne\nsixteen\ntwenty\n16\n20\nf\nfourteen\nthirteen\n14\n13\nа\nшестнадцать\nтринадцать\n16\n13\nb\nдевятнадцать\nпятнадцать\n19\n15\nс\nсемнадцать\nвосемнадцать\n17\n18\nd\nодиннадцать\nдвенадцать\n11\n12\ne\nшестнадцать\nдвадцать\n16\n20\nf\nчетырнадцать\nтринадцать\n14\n13",
+      "answer": "13",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-7/"
+    },
+    {
+      "number": "7.4",
+      "section": "Страница 7",
+      "condition": "Choose two different numbers to get 20. Write five examples in your note book and read them. Say: ... and ... is twenty.\nСоставь примеры с разными цифрами, чтобы в ответе получилось 20. Напиши пять примеров в тетради по образцу и прочитай их.",
+      "solution": "Three and seventeen is twenty.\nFour and sixteen is twenty.\nFive and fifteen is twenty.\nTwo and eighteen is twenty.\nSeven and thirteen is twenty.\nТри и семнадцать равно двадцать.\nЧетыре и шестнадцать равно двадцать.\nПять и пятнадцать равно двадцать.\nДва и восемнадцать равно двадцать.\nСемь и тринадцать равно двадцать.",
+      "answer": "Семь и тринадцать равно двадцать.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-7/"
+    },
+    {
+      "number": "9.1",
+      "section": "Страница 9",
+      "condition": "Listen to the dialogue and point to the pictures.\nСлушай диалог и смотри на картинки.",
+      "solution": "1.\n– Frosty, this is Cathy!\n– Hello, Cathy!\n2.\n– You've got small legs!\n– Yes, but I can climb!\n3.\n– You've got a small mouth!\n– Yes, but I can eat!\n4.\n– Can you fly?\n– No, I can't.\nNext week...\n5.\n– Can you see Cathy?\n– No, I can't.\n6.\n– Look! A buttefly!\n– It's me! Cathy!\n7.\n– Look at me! I can fly!\n8.\n– And I can dance, too!\n– Wow! Magic!\n1.\n– Фрости, это Кэти!\n– Привет, Кэти!\n2.\n– У тебя маленькие ножки!\n– Да, но я умею лазать!\n3.\n– У тебя маленький рот!\n– Да, но я могу есть!\n4.\n– Ты умеешь летать?\n– Нет, я не могу.\nСледующая неделя...\n5.\n– Ты видишь Кэти?\n– Нет, я не могу.\n6.\n– Смотри! Бабочка!\n– Это я! Кэти!\n7.\n– Посмотри на меня! Я умею летать!\n8.\n– И я тоже умею танцевать!\n– Ух ты! Волшебство!",
+      "answer": "– Ух ты! Волшебство!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-9/"
+    },
+    {
+      "number": "10.1",
+      "section": "Страница 10",
+      "condition": "Look, point and say: A green egg.\nУкажи на картинку и составь словосочетание, как показано в образце.",
+      "solution": "A green egg.\nA purple caterpillar.\nA yellow chrysalis.\nA red (pink) butterfly.\nЗеленое яйцо.\nФиолетовая гусеница.\nЖелтая куколка.\nКрасная (розовая) бабочка.",
+      "answer": "Красная (розовая) бабочка.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-10/"
+    },
+    {
+      "number": "11.2",
+      "section": "Страница 11",
+      "condition": "Read and match the sentences to the pictures. Then act out.\nПрочитай тексты (1 – 4) и найди соответствующие им картинки (a – d). Повтори движения.",
+      "solution": "1. I’m an egg. I’m a small egg. Look at me.\n2. Now I’m a caterpillar. I can climb. I’ve got a small mouth, but I can eat a lot!\n3. I’m a chrysalis. I’m sleeping. Goodnight, everyone!\n4. I’m a butterfly. Look at me. I can fly!\n1 – с\n2 – d\n3 – a\n4 – b\n1. Я – яичко. Я – маленькое яичко. Взгляни на меня.\n2. Теперь я гусеничка. Я умею лазать. У меня маленький ротик, но я много ем!\n3. Я куколка. Я легла спать. Всем спокойной ночи!\n4. Я – бабочка. Взгляни на меня. Я умею летать!\n1 – с\n2 – d\n3 – a\n4 – b",
+      "answer": "4 – b",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-11/"
+    },
+    {
+      "number": "12.1",
+      "section": "Страница 12",
+      "condition": "Listen and number the pictures (a – d) in your notebook. Then point and say: It’s got big eyes. It can lump. It’s green.\nПрослушай запись и пронумеруй рисунки у себя в тетради. Укажи на них и составь предложения, как показано в образце.",
+      "solution": "1. I've got eight legs. I can run. I'm pink.\n2. I've got big ears. I can climb. I'm red.\n3. I've got big ears and a big nose. I can swim. I'm blue.\n4. I've got a big mouth. I can jump. I'm green.\n1 – b. It’s got eight legs. It can run. It’s pink.\n2 – c. It’s got big ears. It can climb. It’s red.\n3 – d. It’s got big ears and a big nose. It can swim. It’s blue.\n4 – a. It’s got big eyes. It can jump. It’s green.\n1. У меня восемь ног. Я умею бегать. Я розовый.\n2. У меня большие уши. Я умею лазать. Я рыжий.\n3. У меня большие уши и большой нос. Я умею плавать. Я голубой.\n4. У меня большой рот. Я умею прыгать. Я зеленый.\n1 – b. У него восемь ног. Он может бегать. Он розовый.\n2 – c. У него большие уши. Он умеет лазать. Он красный.\n3 – d. У него большие уши и большой нос. Он умеет плавать. Он голубой.\n4 – a. У него большие глаза. Он умеет прыгать. Он зеленый.",
+      "answer": "4 – a. У него большие глаза. Он умеет прыгать. Он зеленый.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-12/"
+    },
+    {
+      "number": "12.2",
+      "section": "Страница 12",
+      "condition": "Copy the table in your notebook. Play the Number Bingo game.\nПерерисуй табличку в свою тетрадь. Сыграйте в лото (Number Bingo).",
+      "solution": "12, 3, 8, 17, 6, 20, 11, 5, 9, 18.",
+      "answer": "12, 3, 8, 17, 6, 20, 11, 5, 9, 18.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-12/"
+    },
+    {
+      "number": "13.3",
+      "section": "Страница 13",
+      "condition": "Read the texts and answer the questions.\nПрочитай тексты и ответь на опросы.\nThis is a butterfly. It’s got six legs. It can fly very fast. It‘s orange and black.\nThis is a frog. It‘s got four legs and two big eyes. It can jump and swim. It‘s green.\n1 How many legs have they got?\n2 What can they do?\n3 What colour are they?",
+      "solution": "This is a butterfly. It’s got six legs. It can fly very fast. It‘s orange and black.\nThis is a frog. It‘s got four legs and two big eyes. It can jump and swim. It‘s green.\n1 They have got 10 (ten) legs\n2 They can fly very fast, jump and swim.\n3 They are orange, black and green.\nЭто бабочка. У нее шесть ног. Она может летать очень быстро. Она оранжево-черная.\nЭто лягушка. У нее четыре ноги и два больших глаза. Она может прыгать и плавать. Она зеленая.\n1 У них 10 (десять) ног\n2 Они могут очень быстро летать, прыгать и плавать.\n3 Они оранжевые, черные и зеленые.",
+      "answer": "3 Они оранжевые, черные и зеленые.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-13/"
+    },
+    {
+      "number": "13.4",
+      "section": "Страница 13",
+      "condition": "Draw your favourite animal or insect. Present it to the class.\nНарисуй своё любимое животное или насекомое и напиши о нём. Сделай презентацию своего рисунка в классе.",
+      "solution": "This is a cat. It has got four legs. It can run and climb very fast. It is black.\nЭто кот. У него четыре ноги. Он умеет бегать и взбирается вверх очень быстро. Он – черный.",
+      "answer": "Это кот. У него четыре ноги. Он умеет бегать и взбирается вверх очень быстро. Он – черный.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-13/"
+    },
+    {
+      "number": "14.1",
+      "section": "Страница 14",
+      "condition": "Look at the pictures and choose the right words.\nПосмотри на картинки и выбери правильное слово.",
+      "solution": "1. flower / flowers\n2. cap / caps\n3. ghost / ghosts\n4. umbrella / umbrellas\n5. puppet / puppets\n6. zebra / zebras\n1 – flowers\n2 – caps\n3 – ghost\n4 – umbrellas\n5 – puppet\n6 – zebra\n1. цветок / цветы\n2. кепка / кепки\n3. привидение / привидения\n4. зонт / зонты\n5. марионетка / марионетки\n6. зебра / зебры\n1 – цветы\n2 – кепка\n3 – привидение\n4 – зонтики\n5 – марионетка\n6 – зебра",
+      "answer": "6 – зебра",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-14/"
+    },
+    {
+      "number": "15.2",
+      "section": "Страница 15",
+      "condition": "Look and make sentences.\nПосмотри на картинку и составь предложения, как показано в образце.",
+      "solution": "1 These are his eyes\n2 These are his arms\n3 These are his legs\n4 these are his ears\n5 These are his noses\n1 Это его глаза\n2 Это его руки\n3 Это его ноги\n4 это его уши\n5 Это его носы\nМир Грамматики.\nОдна лиса          две лисы\n– ies согласная + y          -ies\n– ies гласная (a, e, o, u) + y -s          одна бабочка          две бабочки",
+      "answer": "– ies гласная (a, e, o, u) + y -s          одна бабочка          две бабочки",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-15/"
+    },
+    {
+      "number": "16.3",
+      "section": "Страница 16",
+      "condition": "Write the plural forms of the words.\nЗакончи словосочетания, написав множественное число существительных в тетради.\n1. one spider – two spiders\n2. one glass – two ...\n3. one sandwich – two ...\n4. one tooth – two ...\n5. one cake – two ...\n6. one cherry – two ...\n7. one foot – two ...\n8. one monkey – two ...\n9. one butterfly – two ...\n10. one puppy – two ... .",
+      "solution": "1. one spider – two spiders\n2. one glass – two glasses\n3. one sandwich – two sandwiches\n4. one tooth – two teeth\n5. one cake – two cakes\n6. one cherry – two cherries\n7. one foot – two feet\n8. one monkey – two monkeys\n9. one butterfly – two butterflies\n10. one puppy – two puppies.\n1. один паук – два паука\n2. один стакан – два стакана\n3. один бутерброд – два бутерброда\n4. один зуб – два зуба\n5. один торт – два торта\n6. одна вишня – две вишни\n7. одна нога – две ноги\n8. одна обезьяна – две обезьяны\n9. одна бабочка – две бабочки\n10. один щенок – два щенка.",
+      "answer": "10. один щенок – два щенка.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-16/"
+    },
+    {
+      "number": "17.4",
+      "section": "Страница 17",
+      "condition": "What are they? Look and write.\nЧто это такое? Посмотри на картинки и напиши предложения в тетради по образцу.",
+      "solution": "1 They’re buckets\n2 They’re glasses\n3 They’re bikes\n4 They’re birds\n5 They’re frogs\n6 They’re pears\n1 Это ведра\n2 Это стаканы\n3 Это велосипеды\n4 Это птицы\n5 Это лягушки\n6 Это груши",
+      "answer": "6 Это груши",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-17/"
+    },
+    {
+      "number": "17.5",
+      "section": "Страница 17",
+      "condition": "Look at the picture, count and write.\nПосмотри на картинку, сосчитай предметы и животных. В тетради напиши словосочетания по образцу.",
+      "solution": "One elephant\nThree dogs\nEight bananas\nFive apples\nTwo monkeys\nSix glasses\nFour mugs\nTwo butterflies\nОдин слон\nТри собаки\nВосемь бананов\nПять яблок\nДве обезьяны\nШесть стаканов\nЧетыре кружки\nДве бабочки",
+      "answer": "Две бабочки",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-17/"
+    },
+    {
+      "number": "18.1",
+      "section": "Страница 18",
+      "condition": "Read and complete the sentences.\nЗакончи предложения в своей тетради и прочитай их.\nfly\nclimb\njump\nrun\nsing\n1 A butterfly can fly.\n2 A frog can ... .\n3 A monkey can ... .\n4 A bird can ... .\n5 An elephant can ... .",
+      "solution": "fly\nclimb\njump\nrun\nsing\n1 A butterfly can fly.\n2 A frog can jump.\n3 A monkey can climb.\n4 A bird can sing.\n5 An elephant can run.\nлетать\nвзбираться\nпрыгать\nбегать\nпеть\n1 Бабочка может летать.\n2 Лягушка может прыгать.\n3 Обезьяна может лазать.\n4 Птица может петь.\n5 Слон может бегать.",
+      "answer": "5 Слон может бегать.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-18/"
+    },
+    {
+      "number": "18.2",
+      "section": "Страница 18",
+      "condition": "Look at the pictures and choose the right words.\nПосмотри на картинки и выбери правильное слово.",
+      "solution": "1 bird / bat\n2 duck / frog\n3 monkey / spider\n4 elephant / fox\n5 snail / spider\n6 butterfly / ant\n1 птица / летучая мышь\n2 утка / лягушка\n3 обезьяна / паук\n4 слон / лиса\n5 улитка / паук\n6 бабочка / муравей",
+      "answer": "6 бабочка / муравей",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-18/"
+    },
+    {
+      "number": "18.3",
+      "section": "Страница 18",
+      "condition": "What am I? Read and write.\nПрочитай предложения и напиши ответы на вопросы.\n1 I’ve got four legs. I can swim. I’m grey. What am I? ... .\n2 I’ve got two legs. I haven’t got any arms. I can sing. What am I? ... .\n3 I’ve got six legs. I can fly. What am I? ... .\n4 I’ve got eight legs. I can climb. What am I? ... .",
+      "solution": "1 I’ve got four legs. I can swim. I’m grey. What am I? An elephant.\n2 I’ve got two legs. I haven’t got any arms. I can sing. What am I? A bird.\n3 I’ve got six legs. I can fly. What am I? Aa butterfly.\n4 I’ve got eight legs. I can climb. What am I? A spider.\n1 У меня четыре ноги. Я умею плавать. Я серый. Кто я такой? Слон.\n2 У меня две ноги. У меня нет рук. Я умею петь. Кто я такой? Птица.\n3. У меня шесть ног. Я умею летать. Кто я такой? Бабочка.\n4 У меня восемь ног. Я умею лазать. Кто я такой? Паук.",
+      "answer": "4 У меня восемь ног. Я умею лазать. Кто я такой? Паук.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-18/"
+    },
+    {
+      "number": "19.4",
+      "section": "Страница 19",
+      "condition": "Read and choose the right words.\nПосмотри на цифры, прочитай слова и выбери правильное слов.",
+      "solution": "20 – twenty / two\n15 – fifteen / sixteen\n19 – thirteen / nineteen\n12 – twelve / fourteen\n17 – eighteen / seventeen\n11 – eleven / ten\n20 – двадцать / два\n15 – пятнадцать / шестнадцать\n19 – тринадцать / девятнадцать\n12 – двенадцать / четырнадцать\n17 – восемнадцать / семнадцать\n11 – одиннадцать / десять\n20 – twenty\n15 – fifteen\n19 – nineteen\n12 – twelve\n17 – seventeen\n11 – eleven\n20 – двадцать\n15 – пятнадцать\n19 – девятнадцать\n12 – двенадцать\n17 – семнадцать\n11 – одиннадцать",
+      "answer": "11 – одиннадцать",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-19/"
+    },
+    {
+      "number": "19.5",
+      "section": "Страница 19",
+      "condition": "Count and choose the right number.\nРеши примеры и выбери правильный ответ.\nA eleven + nine = eighteen /nineteen / twenty.\nB twenty – twelve = eight / nine / ten.\nC twenty – ten = nine / ten / eleven.\nD ten + five = fourteen / fifteen / sixteen.\nE ten + seven = fifteen / sixteen / seventeen.",
+      "solution": "A eleven + nine = twenty.\nB twenty – twelve = eight.\nC twenty – ten = ten.\nD ten + five = fifteen.\nE ten + seven = seventeen.\nА. одиннадцать + девять = восемнадцать / девятнадцать / двадцать.\nB. двадцать − двенадцать = восемь / девять / десять.\nC. двадцать − десять = девять / десять / одиннадцать.\nD. десять + пять = четырнадцать / пятнадцать / шестнадцать.\nE. десять + семь = пятнадцать / шестнадцать / семнадцать.\nA одиннадцать + девять = двадцать.\nB двадцать двенадцать = восемь.\nC двадцать десять = десять.\nD десять + пять = пятнадцать.\nОдиннадцать + семь = семнадцать.",
+      "answer": "Одиннадцать + семь = семнадцать.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-19/"
+    },
+    {
+      "number": "20.1",
+      "section": "Страница 20",
+      "condition": "Read and complete.\nЗакончи тексты в своей тетради и прочитай их.\nThis is a Horse Show in Great Britain. Look at the horse. It can ... really well!\nLook at these elephants from Thailand. They can play ...! They play with a big ball",
+      "solution": "This is a Horse Show in Great Britain. Look at the horse. It can jump really well!\nLook at these elephants from Thailand. They can play football! They play with a big ball\nЭто конное шоу в Великобритании. Посмотрите на лошадь. Она умеет очень хорошо прыгать!\nПосмотрите на этих слонов из Таиланда. Они умеют играть в футбол! Они играют большим мячом.",
+      "answer": "Посмотрите на этих слонов из Таиланда. Они умеют играть в футбол! Они играют большим мячом.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-20/"
+    },
+    {
+      "number": "21.2",
+      "section": "Страница 21",
+      "condition": "a) Read the text and say yes or no.\nb) Use this link http://gotourl.ru/12154 and say if there are cat theatres in other countries.\na) Прочитай текст и скажи yes, если предложение правильное, или no, если предложение неправильное.\nb) Используй эту ссылку и скажи, есть ли театры кошек в других странах.\nThis is the Moscow Cats Theatre. There are 35 cats, 1 dog and 5 clowns! The cats are fantastic. They can dance and ride a bike, too! It’s a lovely show for all the family.\nIn the Moscow Cats Theatre you can ...\n1. see cats.\n2. see ten clowns.\n3. see monkeys.\n4. go with your family.",
+      "solution": "a)\nThis is the Moscow Cats Theatre. There are 35 cats, 1 dog and 5 clowns! The cats are fantastic. They can dance and ride a bike, too! It’s a lovely show for all the family.\nIn the Moscow Cats Theatre you can ...\n1. see cats.\n2. see ten clowns.\n3. see monkeys.\n4. go with your family.\n1. yes\n2. no\n3. no\n4. yes\nЭто Московский театр кошек. Здесь 35 кошек, 1 собака и 5 клоунов! Кошки просто фантастические. Они умеют танцевать и кататься на велосипеде! Это прекрасное представление для всей семьи.\nВ Московском театре кошек вы можете ...\n1. увидеть кошек.\n2. увидеть десять клоунов.\n3. увидеть обезьян.\n4. пойти с семьей.\n1. да\n2. нет\n3. нет\n4. да\nb)\nThere are no Cat theatres in the world except Russia.\nВ мире нет театра кошек, кроме России.",
+      "answer": "В мире нет театра кошек, кроме России.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-21/"
+    },
+    {
+      "number": "21.3",
+      "section": "Страница 21",
+      "condition": "Draw and write about your Animals Theatre. Talk about it with your friend.\nНарисуй свой театр животных. Напиши и расскажи о нём своим одноклассникам.",
+      "solution": "This is my Animals Theatre. There are 7 monkeys, 3 dogs, 5 cats. Monkeys can jump and climb high. Dogs can play football and cats can dance.\nЭто мой театр животных. Здесь живут 7 обезьян, 3 собаки и 5 кошек. Обезьяны умеют прыгать и лазать высоко. Собаки могут играть в футбол, а кошки – танцевать.",
+      "answer": "Это мой театр животных. Здесь живут 7 обезьян, 3 собаки и 5 кошек. Обезьяны умеют прыгать и лазать высоко. Собаки могут играть в футбол, а кошки – танцевать.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-21/"
+    },
+    {
+      "number": "22.1",
+      "section": "Страница 22",
+      "condition": "Ксения Кудряшева\nЗадание на полях страницы.\nListen, point to the pictures and say.\nПрослушай слова, покажи соответствующие им картинки и повтори слова за диктором.",
+      "solution": "scream\nslap\nhigh waves\npalace\nthrone\nguard\nкричать\nшлепать\nвысокие волны\nдворец\nтрон\nстражник\nЗадание в низу страницы.\nListen and read the story.\nПрослушай и прочитай продолжение сказки.",
+      "answer": "Прослушай и прочитай продолжение сказки.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-22/"
+    },
+    {
+      "number": "22.2",
+      "section": "Страница 22",
+      "condition": "scream\nslap\nhigh waves\npalace\nthrone\nguard\nкричать\nшлепать\nвысокие волны\nдворец\nтрон\nстражник\nЗадание в низу страницы.\nListen and read the story.\nПрослушай и прочитай продолжение сказки.",
+      "solution": "The next week, the fisherman’s wife asks to see him. “I want to be Queen of the Land!” she screams.\n“Queen of the Land?” says the fisherman. “Are you mad, old woman?” She slaps him and tells him to go.\nThe fisherman goes to the sea. Now the sky is black and the waves are very high. He calls the fish and it swims up to him.\n“Dear fish,” says the poor old man, “I don’t know what to do! My wife wants to be Queen of the Land!”\n“OK. You can have your wish. Go home now,” says the fish and swims away. The fisherman goes home. He sees a beautiful palace. His wife is sitting on a golden throne. There are two guards standing in front of the throne. “Who are you?” they ask.\n“What do you want, old man?”\nНеделей позже, старуха просит встречи с рыбаком. «Я хочу стать королевой Суши!» – закричала она.\n«Владычицей Суши?» – переспрашивает старик. «Ты обезумела?». Она бьёт ему по лицу и приказывает уходить.\nРыбак уходит к морю. Небо почернело, а море разволновалось. Старик зовёт золотую рыбку, и она подплывает к нему.\n«Дорогая рыбка, – молвит рыбак, – я не представляю, что мне делать! Моя старуха хочет стать Владычицей Суши!»\n«Хорошо. Я исполню твоё желание. Ступай», – говорит золотая рыбка и исчезает в воде. Рыбак возвращается домой. Перед ним красивый дворец. Старуха сидит на золотом троне. Перед троном стоят два стражника. «Ты кто?» – спрашивают они.\n«Чего надо, старый человек?»",
+      "answer": "«Чего надо, старый человек?»",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-22/"
+    },
+    {
+      "number": "23.1",
+      "section": "Страница 23",
+      "condition": "Read the story again and say who is saying the sentences.\nПрочитай сказку ещё раз и скажи, кто сказал эти фразы (F – рыбак, W – его жена, G – золотая рыбка).\n1. I want to be Queen.\n2. Are you mad?\n3. I don’t know what to do.\n4. Go home now!",
+      "solution": "1. I want to be Queen.\n2. Are you mad?\n3. I don’t know what to do.\n4. Go home now!\n1 W\n2 F\n3 F\n4 G\n1. Я хочу быть королевой.\n2. Ты сошла с ума?\n3. Я не знаю, что делать.\n4. Иди домой сейчас же!\n1 Жена рыбака\n2 рыбак\n3 рыбак\n4 золотая рыбка",
+      "answer": "4 золотая рыбка",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-23/"
+    },
+    {
+      "number": "23.2",
+      "section": "Страница 23",
+      "condition": "Find 13 words from the story. Write them in your notebook.\nНайди в таблице 13 слов из сказки. Запиши их в тетрадь.",
+      "solution": "FISHERMAN, THRONE, SEA, WAVE, LAND, WISH, GUARD, PALACE, WOMAN, QUEEN, SCREAM, MAD, ASK\nРЫБАК, ТРОН, МОРЕ, ВОЛНА, ЖЕЛАНИЕ, СТРАЖ, ДВОРЕЦ, ЖЕНЩИНА, КОРОЛЕВА, КРИЧАТЬ, СУМАСШЕДШИЙ, ПРОСИТЬ",
+      "answer": "РЫБАК, ТРОН, МОРЕ, ВОЛНА, ЖЕЛАНИЕ, СТРАЖ, ДВОРЕЦ, ЖЕНЩИНА, КОРОЛЕВА, КРИЧАТЬ, СУМАСШЕДШИЙ, ПРОСИТЬ",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-23/"
+    },
+    {
+      "number": "23.3",
+      "section": "Страница 23",
+      "condition": "You want to visit Queen of the Land. Complete the permit.\nПредставь себе, что ты хочешь нанести визит Королеве Земли. Заполни анкету.\nPERMIT TO VISIT THE QUEEN OF THE LAND\nPLEASE FILL IN YOUR DETAILS\nName: ...\nAge: ...\nAddress: ...\nPhone number: ...",
+      "solution": "PERMIT TO VISIT THE QUEEN OF THE LAND\nPLEASE FILL IN YOUR DETAILS\nName: Stuey\nAge: 8\nAddress: 25A, building. 1 Khoroshevskoe sh., Moscow\nPhone number: 837691\nРАЗРЕШЕНИЕ ПОСЕТИТЬ КОРОЛЕВУ СТРАНЫ\nПОЖАЛУЙСТА, ВВЕДИТЕ СВОИ ДАННЫЕ\nИмя: Стьюи\nВозраст: 8 лет\nАдрес: Москва, Хорошёвское шоссе, дом 25А, корп. 1\nНомер телефона: 837691",
+      "answer": "Номер телефона: 837691",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-23/"
+    },
+    {
+      "number": "24.4",
+      "section": "Страница 24",
+      "condition": "Listen and sing.\nПрослушай песенку и спой её.",
+      "solution": "Kneel down, old man\nKneel down and bend your head,\nBend your head! Bend your head!\nKneel down, old man\nKneel down and bend your head,\nBend your head! Bend your head!\nLeave now, old man\nYou cannot see the Queen!\nGo away! Go away!\nВстань на колени, старик\nВстань на колени и наклонись,\nпоклонись! Поклонись!\nВстань на колени, старик\nВстань на колени и наклонись,\nпоклонись! Поклонись!\nУходи, старик\nТы не можешь видеть королеву!\nУходи! Уходи!",
+      "answer": "Уходи! Уходи!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-24/"
+    },
+    {
+      "number": "25.1",
+      "section": "Страница 25",
+      "condition": "Read the words/sentences to your friend.\nПрочитай слова и предложения своим одноклассникам.",
+      "solution": "/æ/ Dan the bat\nDan is a bat. Dan has got a cap. It’s a black cap.\n/ɜ:/ Urma the nurse\nUrma works as a nurse. “What’s the matter?” she asks a little girl. “My arm hurts,” says the girl. Urma looks at her arm. “Oh dear!” she says. “Let’s call the doctor!”\n/e/ Meg the elephant\nMeg is an elephant. She wears a red dress. She wears a red hat on her head. She wears red socks, too. She likes red.\n/ʊ/ put, book, good, look, foot, full\nput\nput that\nput that purple\nput that purple book\nput that big purple book on\nPut that big purple book on my desk, please.\n/æ/ Дэн – летучая мышь\nДэн – это летучая мышь. У Дэна есть кепка. Это черная кепка.\n/ɜ:/ Урма – медсестра.\nУрма работает медсестрой. “Что случилось?” спрашивает она маленькую девочку. “У меня болит рука”, – говорит девочка. Бурма смотрит на свою руку. “О боже!” – говорит она. – Давайте вызовем врача! – крикнул я.\n/e/ Слон Мэг\nМэг – это слониха. Она носит красное платье. На голове у нее красная шапочка. Она также носит красные носки. Ей нравится красный цвет.\n/ʊ/ класть, книжка, хорошо, смотреть, ступня, полный\nположи\nположи это\nположи ту фиолетовую\nположи ту фиолетовую книгу\nположи ту большую фиолетовую книгу на\nПоложи ту большую фиолетовую книгу на мой стол, пожалуйста.",
+      "answer": "Положи ту большую фиолетовую книгу на мой стол, пожалуйста.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-25/"
+    },
+    {
+      "number": "25.2",
+      "section": "Страница 25",
+      "condition": "Listen and choose the right pictures.\nПрослушай запись и выбери соответствующую картинку.",
+      "solution": "1. hand\n2. zebra\n3. girl\n4. book\n1 a\n2 a\n3 a\n4 a\n1. рука\n2. зебра\n3. девочка\n4. книга\n1 а\n2 а\n3 а\n4 а",
+      "answer": "4 а",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-25/"
+    },
+    {
+      "number": "25.3",
+      "section": "Страница 25",
+      "condition": "Listen and sing.\nПрослушай песенку и спой её.",
+      "solution": "The bird has got a yellow book,\nIn a purple nest.\nThe girl has got a black book,\nIt’s better than the rest!\nУ птички есть желтая книжка,\nВ фиолетовом гнезде.\nУ девочки есть черная книжка,\nона лучше остальных!",
+      "answer": "она лучше остальных!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-25/"
+    },
+    {
+      "number": "26.1",
+      "section": "Страница 26",
+      "condition": "Look, read and write yes or no in your notebook.\nПосмотри на картинки и скажи yes, если предложение правильное, и no, если предложение неправильное.",
+      "solution": "0. This is a bird. yes\n1. This is an ant. no\n2. This is a duck. no\n3. This is a spider. yes\n4. This is an elephant. yes\n0. Это птица. да\n1. Это муравей. нет\n2. Это утка. нет\n3. Это паук. да\n4. Это слон. Да",
+      "answer": "4. Это слон. Да",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-26/"
+    },
+    {
+      "number": "26.2",
+      "section": "Страница 26",
+      "condition": "Match.\nКак называются цифры? Напиши словами их названия в тетради.",
+      "solution": "0. twelve – 12\n1. twenty – 20\n2. fifteen – 15\n3. eighteen – 18\n4. eleven – 11\n5. fourteen – 14\n6. sixteen – 16\n7. thirteen – 13\n0. двенадцать – 12\n1. двадцать – 20\n2. пятнадцать – 15\n3. восемнадцать – 18\n4. одиннадцать – 11\n5. четырнадцать – 14\n6. шестнадцать – 16\n7. тринадцать – 13\nГрамматика",
+      "answer": "Грамматика",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-26/"
+    },
+    {
+      "number": "26.3",
+      "section": "Страница 26",
+      "condition": "Look and choose.\nПосмотри на картинки и выбери правильную подпись.",
+      "solution": "1. elephant / elephants\n2. frog / frogs\n3. bike / bikes\n4. hat / hats\n5. computer / computers\n6. lamp / lamps\n7. robot / robots\n8. clock / clocks\n1. слон / слоны\n2. лягушка / лягушки\n3. велосипед / велосипеды\n4. шляпа / шляпы\n5. компьютер / компьютеры\n6. лампа / лампы\n7. робот / роботы\n8. часы / часы",
+      "answer": "8. часы / часы",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-26/"
+    },
+    {
+      "number": "27.4",
+      "section": "Страница 27",
+      "condition": "Find the differences in picture B.\nНайди отличия на картинках А и B. Запиши их в тетрадь.",
+      "solution": "In picture B I can see ...\n0. three apples\n1 two monkeys\n2 two frogs\n3 two foxes\n4 three apples\n5 four cherries\n6 four sandwiches\n7 two books\n8 two glasses\nНа картинке В я вижу...\n0. три яблока\n1. две обезьяны\n2. две лягушки\n3. две лисы\n4. три яблока\n5. четыре вишни\n6. четыре бутерброда\n7. две книги\n8. два стакана\nЧтение и письмо",
+      "answer": "Чтение и письмо",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-27/"
+    },
+    {
+      "number": "27.5",
+      "section": "Страница 27",
+      "condition": "Read, choose and complete.\nПрочитай текст и закончи его, выбрав правильный ответ.\nSpiders 0) have got eight legs, but they haven’t got any 1) ... . Spiders can climb 2) ... . Some people have got pet spiders in 3) ... homes. I want 4) ... spider as a pet.\n0. have / are / can\n1. arm's / arm / arms\n2. trees / tree / tree's\n3. your / their / our\n4. a / an / the",
+      "solution": "0. have / are / can\n1. arm's / arm / arms\n2. trees / tree / tree's\n3. your / their / our\n4. a / an / the\nSpiders 0) have got eight legs, but they haven’t got any 1) arms. Spiders can climb 2) trees. Some people have got pet spiders in 3) their homes. I want 4) a spider as a pet.\nУ пауков 0) восемь ног, но у них нет ни одной 1) руки. Пауки могут лазать 2) по деревьям. Некоторые люди держат домашних пауков в 3) своих домах. Я хочу 4) паука в качестве домашнего животного.",
+      "answer": "У пауков 0) восемь ног, но у них нет ни одной 1) руки. Пауки могут лазать 2) по деревьям. Некоторые люди держат домашних пауков в 3) своих домах. Я хочу 4) паука в качестве домашнего животного.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-27/"
+    },
+    {
+      "number": "28.1",
+      "section": "Страница 28",
+      "condition": "Match the words (1 – 5) to the items (a – e). Then point and say: I’ve got a sweet tooth. I love (jam)!\nПодбери слова (1 – 5) к картинкам (a – e). По образцу составь предложения и произнеси их.",
+      "solution": "1. lollipops – b.\n2. chocolate – a.\n3. cake – d.\n4. juice – e.\n5. jam – c.\nI’ve got a sweet tooth. I love lollipops.\nI’ve got a sweet tooth. I love chocolate.\nI’ve got a sweet tooth. I love cake.\nI’ve got a sweet tooth. I love juice.\nI’ve got a sweet tooth. I love jam.\n1. леденцы на палочке – b.\n2. шоколад – a.\n3. торт – d.\n4. сок – e.\n5. джем – c.\nЯ сладкоежка. Я люблю леденцы на палочке.\nЯ сладкоежка. Я люблю шоколад.\nЯ люблю сладкое. Я люблю торты.\nЯ люблю сладкое. Я люблю соки.\nЯ люблю сладкое. Я люблю джем.",
+      "answer": "Я люблю сладкое. Я люблю джем.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-28/"
+    },
+    {
+      "number": "28.2",
+      "section": "Страница 28",
+      "condition": "Listen and sing.\nПрослушай песенку и спой её.",
+      "solution": "I’m a Sweet Monster\nAnd I’ve got a sweet tooth!\nI love lollipops\nAnd chocolate, too!\nI love jam\nAnd cake and juice!\nI’m a Sweet Monster\nAnd I’ve got a sweet tooth!\nЯ Сладкий Монстр\nИ я сладкоежка!\nЯ люблю леденцы на палочке\nИ шоколад тоже!\nЯ люблю джем\nИ пирожные, и соки!\nЯ Сладкий монстр\nИ я сладкоежка!",
+      "answer": "И я сладкоежка!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-28/"
+    },
+    {
+      "number": "29.3",
+      "section": "Страница 29",
+      "condition": "Listen and choose yes or no. Then talk with your friend: Do you like lollipops? Yes, I do / No, I don’t.\nПослушай и выбери yes или no. Побеседуй со своим одноклассником, используя образец.",
+      "solution": "1. lollipops yes / no\n2. chocolate yes / no\n3. sweets yes / no\n4. cake yes / no\nDo you like chocolate? Yes, I do / No, I don’t.\nDo you like sweets? Yes, I do / No, I don’t.\nDo you like cake? Yes, I do / No, I don’t.\n1. леденцы на палочке да / нет\n2. шоколад да / нет\n3. сладости да / нет\n4. торт да / нет\nТы любишь шоколад? Да, я люблю / Нет, я не люблю.\nТы любишь сладости? Да, люблю / Нет, не люблю.\nТы любишь торты? Да, люблю / Нет, не люблю.",
+      "answer": "Ты любишь торты? Да, люблю / Нет, не люблю.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-29/"
+    },
+    {
+      "number": "29.4",
+      "section": "Страница 29",
+      "condition": "Use smarties to spell out your favourite sweet. Talk with your fiend. Remember the punctuation marks.\nВыложи из драже название своей любимой сладости. Поговори со своим одноклассником, используя образец. Обрати внимание на знаки препинания.",
+      "solution": "Chocolate.\nChocolate! Do you like chocolate?\nYes, I do. I love chocolate!\nLollipops.\nLollipops! Do you like lollipops?\nYes, I do. I love lollipops.\nJuice.\nJuice! Do you like juice?\nYes, I do. I love juice.\nJam\nJam! Do you like jam?\nYes, I do. I love jam.\nSweets.\nSweets! Do you like sweets?\nYes, I do. I love sweets.\nШоколад.\nШоколад! Ты любишь шоколад?\nДа. Я люблю шоколад!\nЛеденцы на палочке.\nЛеденцы на палочке! Ты любишь леденцы на палочке?\nДа. Я люблю леденцы на палочке.\nСок.\nСок! Ты любишь сок?\nДа. Я люблю сок.\nВаренье\nВаренье! Вы любите варенье?\nДа. Я люблю варенье (джем).\nСладости.\nСладости! Вы любите сладости?\nДа. Я люблю сладкое.",
+      "answer": "Да. Я люблю сладкое.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-29/"
+    },
+    {
+      "number": "30.1",
+      "section": "Страница 30",
+      "condition": "Look at the pictures. Then point and say: Eat (tomatoes). They’re good for you.\nПосмотри на картинки. Покажи их и составь предложения, как показано в образце.",
+      "solution": "Eat apples. They’re good for you.\nEat pears. They’re good for you.\nEat peas. They’re good for you.\nEat oranges. They’re good for you.\nEat carrots. They’re good for you.\nEat potatoes. They’re good for you.\nЕшь яблоки. Они полезны для здоровья.\nЕшь груши. Они полезны для здоровья.\nЕшь горох. Он полезен для здоровья.\nЕшь апельсины. Они полезны для здоровья.\nЕшь морковь. Она полезна для здоровья.\nЕшь картофель. Он полезен для здоровья.",
+      "answer": "Ешь картофель. Он полезен для здоровья.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-30/"
+    },
+    {
+      "number": "30.2",
+      "section": "Страница 30",
+      "condition": "Listen and sing.\nПрослушай песенку и спой её.",
+      "solution": "Rainbow food is good for you:\nRed tomatoes and apples, too!\nGreen peas, green pears all for you.\nOrange for carrots and oranges, too!\nYummy potatoes,\nRed, yellow, green.\nRainbow food,\nA rainbow dream!\nРадужная еда полезна и для тебя!\nКрасные помидоры и яблоки тоже хороши!\nЗеленый горошек, зеленый горошек – все для тебя.\nАпельсин – для моркови и апельсинов тоже!\nВкусная картошка,\nкрасная, желтая, зеленая.\nРадужная еда,\nРадужная мечта!",
+      "answer": "Радужная мечта!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-30/"
+    },
+    {
+      "number": "31.3",
+      "section": "Страница 31",
+      "condition": "Play the Rainbow game.\nСыграйте в игру «Радуга» (Rainbow).",
+      "solution": "START.\n1. green peas\n2. an orange\n3. a red apple\n4. a green pear\n5. Oh, no!\n6. a yellow banana\n7. an orange carrot\n8. a red tomato\n9. green peas\n10. Great!\n11. an orange\n12. a red apple\n13. a yellow banana\n14. an orange carrot\n15. a green pear\n16. a red tomato\nFINISH\nСТАРТ.\n1. зеленый горошек\n2. апельсин\n3. красное яблоко\n4. зеленая груша\n5. О, нет!\n6. желтый банан\n7. оранжевая морковь\n8. красный помидор\n9. зеленый горошек\n10. Отлично!\n11. апельсин\n12. красное яблоко\n13. желтый банан\n14. оранжевая морковь\n15. зеленая груша\n16. красный помидор\nФИНИШ",
+      "answer": "ФИНИШ",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-31/"
+    },
+    {
+      "number": "33.1",
+      "section": "Страница 33",
+      "condition": "Listen to the dialogue and point the pictures.\nСлушай диалог и смотри на картинки.",
+      "solution": "1.\n– Hooray! The Sweet Monster!\n– Do you like chocolate?\n2.\n– Yes, I do! I love chocolate!\n3.\n– Do you like lollipops?\n4.\n– Yes, I do! I love lollipops!\n5.\n– Do you like cake?\n6.\n– Yes, I do! I love cake!\n7.\n– What's the matter?\n– My tummy hurts!\n8.\n– No more sweets!\n1.\n– Ура! Сладкий монстр!\n– Ты любишь шоколад?\n2.\n– Да, люблю! Я обожаю шоколад!\n3.\n– Ты любишь леденцы на палочке?\n4.\n– Да, знаю! Я обожаю леденцы на палочке!\n5.\n– Ты любишь пирожные?\n6.\n– Да, я люблю! Я обожаю торты!\n7.\n– В чем дело?\n– У меня болит живот!\n8.\n– Больше никаких сладостей!",
+      "answer": "– Больше никаких сладостей!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-33/"
+    },
+    {
+      "number": "34.1",
+      "section": "Страница 34",
+      "condition": "Look and match. Then say which are fruits, and which are vegetables.\nПосмотри на картинки и назови сначала фрукты, а потом овощи.",
+      "solution": "A – Vegetables.\n1, 3, 5, 6.\nPotato, peas, carrots, tomatoes.\nB – Fruits.\n2, 4.\nPears, oranges.\nА – Овощи.\n1, 3, 5, 6.\nКартофель, горох, морковь, помидоры.\nB – Фрукты.\n2, 4.\nГруши, апельсины.",
+      "answer": "Груши, апельсины.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-34/"
+    },
+    {
+      "number": "34.2",
+      "section": "Страница 34",
+      "condition": "Use the templates to make fruit/vegetable men/women. Talk with your friend.\nВырежи фруктового/овощного человечка. По образцу скажи своим одноклассникам кто ты.",
+      "solution": "I’m Mrs. Pear. I’m a fruit.\nI’m Mr. Potato. I’m a vegetable.\nI’m Mr. Orange. I’m a vegetable.\nI’m Mr. Banana. I’m a fruit.\nI’m Mr. Apple. I’m a fruit.\nI’m Mr. Peas. I’m a vegetable.\nЯ миссис Груша. Я фрукт.\nЯ мистер Картошка. Я овощ.\nЯ мистер Апельсин. Я овощ.\nЯ мистер Банан. Я фрукт.\nЯ мистер Яблоко. Я фрукт.\nЯ мистер Горошек. Я овощ.",
+      "answer": "Я мистер Горошек. Я овощ.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-34/"
+    },
+    {
+      "number": "35.3",
+      "section": "Страница 35",
+      "condition": "Copy the picture in your notebook. Then read the questions and sentences. Write or draw.\nПерерисуй картинку в свою тетрадь. Прочитай вопросы и предложения.  Напиши или нарисуй в своей тетради ответы на них.\n1. How many trees are there?\n...\n2. Draw two oranges on each tree.\n3. How many oranges are there?\n... + ... + ... + ... = ...\n4. Draw three carrots under each tree.\n5. How many carrots are there?\n... + ... + ... + ... = ...e\n6. Write 3 more fruits that grow on trees.\n...\n7. Write 1 more vegetable that grows underground.\n...",
+      "solution": "1. How many trees are there?\nFour\n2. Draw two oranges on each tree.\n3. How many oranges are there?\ntwo + two + two + two = eight\n4. Draw three carrots under each tree.\n5. How many carrots are there?\nthree + three + three + three = twelve\n6. Write 3 more fruits that grow on trees.\nBananas, apples, oranges / pears\n7. Write 1 more vegetable that grows underground.\nPotato\n1. Сколько здесь деревьев?\nЧетыре\n2. Нарисуй по два апельсина на каждом дереве.\n3. Сколько всего апельсинов?\nдва + два + два + два = восемь\n4. Нарисуй по три морковки под каждым деревом.\n5. Сколько всего морковок?\nтри + три + три + три = двенадцать\n6. Напиши еще 3 фрукта, которые растут на деревьях.\nБананы, яблоки, апельсины /груши\n7. Напиши еще 1 овощ, который растет под землей.\nКартофель",
+      "answer": "Картофель",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-35/"
+    },
+    {
+      "number": "36.1",
+      "section": "Страница 36",
+      "condition": "Talk with your friends.\nУзнай у своих одноклассников, какие у них любимые овощи и фрукты.",
+      "solution": "What’s your favourite fruit?\nOrange! I love oranges!\nWhat’s your favourite fruit?\nApple! I love apples!\nWhat’s your favourite fruit?\nPear! I love pears.\nWhat’s your favourite vegetable?\nTomato! I love tomatoes!\nWhat’s your favourite vegetable?\nCarrot! I love carrots.\nWhat’s your favourite vegetable?\nPeas! I love peas!\nWhat’s your favourite vegetable?\nPotato! I love potatoes!\nКакой твой любимый фрукт?\nАпельсин! Я люблю апельсины!\nКакой твой любимый фрукт?\nЯблоко! Я люблю яблоки!\nКакой твой любимый фрукт?\nГруша! Я люблю груши.\nКакой твой любимый овощ?\nПомидор! Я люблю помидоры!\nКакой твой любимый овощ?\nМорковь! Я люблю морковь.\nКакой твой любимый овощ?\nГорох! Я люблю горох!\nКакой твой любимый овощ?\nКартофель! Я обожаю картофель!",
+      "answer": "Картофель! Я обожаю картофель!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-36/"
+    },
+    {
+      "number": "36.2",
+      "section": "Страница 36",
+      "condition": "Look at the pictures and write the words in your notebook. What’s the secret word?\nПерерисуй кроссворд в свою тетрадь. Какое слово спрятано в колонке по вертикали?",
+      "solution": "TOMATOES\nPEARS\nORANGES\nPOTATOES\nPEAS\nThe secret word is CARROT\nПОМИДОРЫ\nГРУШИ\nАПЕЛЬСИНЫ\nКАРТОФЕЛЬ\nГОРОХ\nСекретное слово – МОРКОВЬ",
+      "answer": "Секретное слово – МОРКОВЬ",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-36/"
+    },
+    {
+      "number": "37.3",
+      "section": "Страница 37",
+      "condition": "Read and complete the texts in your notebook.\nПо образцу закончи тексты и напиши их в своей тетради. Прочитай эти тексты.",
+      "solution": "Jim, 7:\nI love vegetables, I really do! They’re so good for me. I like potatoes and 1) carrots. My favourite vegetable is 2) peas. Yummy!\nKelly, 8:\nI love fruits, I really do! They’re so good for me. I like bananas and 3) pears. My favourite fruit is 4) oranges. Yummy!\nДжим, 7 лет:\nЯ люблю овощи, правда люблю! Они мне очень нравятся. Я люблю картофель и 1) морковь. Мой любимый овощ – 2) горошек. Вкуснятина!\nКелли, 8 лет:\nЯ люблю фрукты, правда люблю! Они мне очень нравятся. Я люблю бананы и 3) груши. Мои любимые фрукты – 4) апельсины. Вкуснятина!",
+      "answer": "Я люблю фрукты, правда люблю! Они мне очень нравятся. Я люблю бананы и 3) груши. Мои любимые фрукты – 4) апельсины. Вкуснятина!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-37/"
+    },
+    {
+      "number": "37.4",
+      "section": "Страница 37",
+      "condition": "Draw your favourite fruit and vegetable. Present it to the class.\nНарисуй свои любимые фрукты или овощи и напиши их названия. Сделай презентацию своего рисунка в классе.",
+      "solution": "My favourite fruit and vegetable!\napples               potatoes\npears                 peas\noranges             tomatoes\nМои любимые фрукты и овощи!\nЯблоки               картофель\nгруши                 горошек\nапельсины        помидоры",
+      "answer": "апельсины        помидоры",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-37/"
+    },
+    {
+      "number": "38.1",
+      "section": "Страница 38",
+      "condition": "Write the 3rd person singular.\nНапиши глаголы в третьем лице единственного числа.\n1. I like – he likes\n2. I listen – he ...\n3. I sing – he ...\n4. I draw – he ...\n5. I read – he ...\n6. I make – he ...\n7. I play – he ...\n8. I dance – he ...\n9. I ride – he ...\n10. I swim – he ...\n11. I run – he ...\n12. I jump – he ...",
+      "solution": "1. I like – he likes\n2. I listen – he listens\n3. I sing – he sings\n4. I draw – he draws\n5. I read – he reads\n6. I make – he makes\n7. I play – he plays\n8. I dance – he dances\n9. I ride – he rides\n10. I swim – he swims\n11. I run – he runs\n12. I jump – he jumps\n1. Мне нравится – ему нравится\n2. Я слушаю – он слушает\n3. Я пою – он поет\n4. Я рисую – он рисует\n5. Я читаю – он читает\n6. Я создаю – он создает\n7. Я играю – он играет\n8. Я танцую – он танцует\n9. Я еду верхом – он едет верхом\n10. Я плаваю – он плавает\n11. Я бегаю – он бегает\n12. Я прыгаю – он прыгает\nВторой номер и его продолжение на следующей странице.",
+      "answer": "Второй номер и его продолжение на следующей странице.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-38/"
+    },
+    {
+      "number": "39.2",
+      "section": "Страница 39",
+      "condition": "Read and complete the sentences.\nЗакончи предложения и прочитай их.\n1. He does not play football.\nHe doesn’t play football.\n2. I ... like popcorn.\nI ... like popcorn.\n3. She ... ride a bike.\nShe ... ride a bike.\n4. I ... play the piano.\nI ... play the piano.\n5. They ... listen to me!\nThey ... listen to me!\n6. We ... like peas.\nWe ... like peas.",
+      "solution": "1. He does not play football.\nHe doesn’t play football.\n2. I do not like popcorn.\nI don’t like popcorn.\n3. She does not ride a bike.\nShe doesn’t ride a bike.\n4. I do not play the piano.\nI don’t play the piano.\n5. They do not listen to me!\nThey don’t listen to me!\n6. We do not like peas.\nWe don’ like peas.\n1. Он не играет в футбол.\nОн не играет в футбол.\n2. Я не люблю попкорн.\nЯ не люблю попкорн.\n3. Она не ездит на велосипеде.\nОна не ездит на велосипеде.\n4. Я не играю на пианино.\nЯ не играю на пианино.\n5. Они меня не слушают!\nОни меня не слушают!\n6. Мы не любим горох.\nМы не любим горох.",
+      "answer": "Мы не любим горох.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-39/"
+    },
+    {
+      "number": "39.3",
+      "section": "Страница 39",
+      "condition": "Copy the table in your notebook. Complete it with verbs. Say the verbs to your friend.\nПерерисуй таблицу в свою тетрадь и впиши в неё соответствующие глаголы. Прочитай глаголы своим одноклассникам.",
+      "solution": "makes, plays, likes, eats, writes, sings, jumps, reads",
+      "answer": "makes, plays, likes, eats, writes, sings, jumps, reads",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-39/"
+    },
+    {
+      "number": "39.4",
+      "section": "Страница 39",
+      "condition": "Look at the pictures and complete the sentences.\nПосмотри на картинки. Закончи предложения в своей тетради и прочитай их.",
+      "solution": "1. I like sweets.\n2. We don't like bananas.\n3. She doesn’t like apples.\n4. I don’t like peas.\n5. They like sandwiches.\n6. We like chocolate.\n1. Я люблю сладкое.\n2. Мы не любим бананы.\n3. Она не любит яблоки.\n4. Я не люблю горох.\n5. Они любят бутерброды.\n6. Мы любим шоколад.",
+      "answer": "6. Мы любим шоколад.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-39/"
+    },
+    {
+      "number": "40.5",
+      "section": "Страница 40",
+      "condition": "Look and complete the sentences. What about yourself? Tell your friend.\nПосмотри на таблицу. По образцу закончи и напиши предложения в своей тетради. Скажи своим одноклассникам, что ты любишь.",
+      "solution": "1. Sam likes football. He doesn’t like chocolate. He likes fruit likes vegetables and fruit.\n2. Tina doesn’t like football. She likes chocolate. She doesn’t like vegetables.\n3. Alice likes football, and chocolate. She doesn’t like vegetables. She doesn’t like fruit.\n4. Scott doesn’t like football. He likes vegetables and fruit. He doesn’t like chocolate.\nI like fruits, and chocolate, I don’t like football. I don’t like vegetables.\n1. Сэм обожает футбол. Он не ест шоколад. Он ест овощи и фрукты.\n2. Тине не нравится футбол. Она ест шоколад. Она не ест овощи.\n3. Элис обожает футбол и шоколад. Она не ест овощи. Она не ест фрукты.\n4. Скотту не нравится футбол. Он ест овощи и фрукты. Он не ест шоколад.\nЯ ем фрукты и шоколад, но мне не нравится футбол. Я не ем овощи.",
+      "answer": "Я ем фрукты и шоколад, но мне не нравится футбол. Я не ем овощи.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-40/"
+    },
+    {
+      "number": "40.6",
+      "section": "Страница 40",
+      "condition": "Read and complete the questions and the answers.\nСоставь вопросы и ответы и прочитай их.\n1. Do you like jam? Yes, I do.\n2. ... you like carrots? No, I ... .\n3. ... your friend like lollipops? Yes, he ... .\n4. ... your friends like apple juice? Yes, they ... .\n5. ... Kelly like oranges? No, she ... .\n6. ... your daddy like tomatoes? Yes, he ... .",
+      "solution": "1. Do you like jam? Yes, I do.\n2. Do you like carrots? No, I don’t.\n3. Does your friend like lollipops? Yes, he does.\n4. Do your friends like apple juice? Yes, they do.\n5. Does Kelly like oranges? No, she doesn’t.\n6. Does your daddy like tomatoes? Yes, he does.\n1. Ты любишь варенье? да, я люблю.\n2. Вы любите морковь? Нет, не люблю.\n3. Любит ли твой друг леденцы на палочке? Да, любит.\n4. Любят ли твои друзья яблочный сок? Да, любят.\n5. Любит ли Келли апельсины? Нет, не любит.\n6. Твой папа любит помидоры? Да, любит.",
+      "answer": "6. Твой папа любит помидоры? Да, любит.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-40/"
+    },
+    {
+      "number": "40.7",
+      "section": "Страница 40",
+      "condition": "Read about Betty and complete the text.\nЗакончи и напиши текст о Бэтти в своей тетради. Прочитай его.\nBetty 1) is (be) eight. She 2) ... (like) football. Every Sunday she 3) ... (play) football with her friends in the park. Her mum 4) ... (make) her a big breakfast on Sunday morning. Kelly 5) ... (eat) it and 6) ... (meet) her friends. Betty 7) ... (love) Sundays! They 8) ... (be) so much fun!",
+      "solution": "Betty 1) is eight. She 2) likes football. Every Sunday she 3) plays football with her friends in the park. Her mum 4) makes her a big breakfast on Sunday morning. Kelly 5) eats it and 6) meets her friends. Betty 7) loves Sundays! They 8) are so much fun!\nБетти 1) восемь лет. Она 2) увлекается футболом. Она проводит каждое воскресенье в парке с друзьями, 3) играя в футбол. Её мама, 4) приготовила для неё вкусный завтрак в воскресенье утром. Келли, 5) съедает его, а потом 6) проводит время в компании своих друзей. Бетти, просто, 7) обожает воскресенья! Они, 8) такие весёлые!\nПричем здесь Kelly?",
+      "answer": "Причем здесь Kelly?",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-40/"
+    },
+    {
+      "number": "41.8",
+      "section": "Страница 41",
+      "condition": "Read about Sweet Monsters and match the sentences to the pictures.\nПрочитай предложения о монстрах-сладкоежках (a – e) и соедини их с соответствующими картинками (1 – 4).",
+      "solution": "a. Sweet Monsters live in the Magic Forest.\nb. They eat chocolate, cake and sweets.\nc. They don’t like vegetables.\nd. They love children.\ne. They don’t like dentists.\n1 – e\n2 – d\n3 – a\n4 – c\n5 – b\nПоследняя картинка без номера, вероятно, это номер 5.\nа. В Волшебном лесу живут милые монстры.\nб. Они едят шоколад, торты и сладости.\nв. Они не любят овощи.\nг. Они любят детей.\nд. Они не любят стоматологов.\n1 – е\n2 – d\n3 – a\n4 – с\n5 – b",
+      "answer": "5 – b",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-41/"
+    },
+    {
+      "number": "41.9",
+      "section": "Страница 41",
+      "condition": "Read about Sweet Monsters again and answer the questions.\nПрочитай предложения о монстрах-сладкоежках ещё раз и ответь на вопросы.\n1. Do Sweet Monsters live in the Magic Forest?\n2. Do they eat chocolate?\n3. Do they like vegetables?\n4. Do they love children?\n5. Do they like dentists?",
+      "solution": "1. Do Sweet Monsters live in the Magic Forest?\n2. Do they eat chocolate?\n3. Do they like vegetables?\n4. Do they love children?\n5. Do they like dentists?\n1. Yes, they do.\n2. Yes, they do.\n3. No, they don’t.\n4. Yes, they do.\n5. No, they don’t.\n1. Живут ли в Волшебном лесу милые монстры?\n2. Едят ли они шоколад?\n3. Любят ли они овощи?\n4. Любят ли они детей?\n5. Любят ли они стоматологов?\n1. Да, живут.\n2. Да, едят.\n3. Нет, не едят.\n4. Да, они любят.\n5. Нет, они не любят.",
+      "answer": "5. Нет, они не любят.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-41/"
+    },
+    {
+      "number": "42.1",
+      "section": "Страница 42",
+      "condition": "Look at the pictures, find and write the words in your notebook.\nВ этих словах перепутались буквы. Реши, как надо подписать картинки (1 – 6). Напиши эти слова в тетради.",
+      "solution": "1 – sweets\n2 – jam\n3 – lollipops\n4 – cake\n5 – chocolate\n6 – juice\n1 – конфеты\n2 – джем\n3 – леденцы на палочке\n4 – торт\n5 – шоколад\n6 – сок",
+      "answer": "6 – сок",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-42/"
+    },
+    {
+      "number": "42.2",
+      "section": "Страница 42",
+      "condition": "Look at the pictures and find the words.\nПосмотри на картинки, найди в таблице названия этих овощей и фруктов. Напиши слова в тетради.",
+      "solution": "POTATOES\nCARROTS\nORANGES\nPEARS\nPEAS\nTOMATOES\nКАРТОФЕЛЬ\nМОРКОВЬ\nАПЕЛЬСИНЫ\nГРУШИ\nГОРОХ\nПОМИДОРЫ",
+      "answer": "ПОМИДОРЫ",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-42/"
+    },
+    {
+      "number": "43.3",
+      "section": "Страница 43",
+      "condition": "What do I love? Break the code and find out.\nЧто я люблю? Разгадай ребус и найди ответ. Запиши его в тетрадь.",
+      "solution": "LOLLIPOPS.\nLion – Orange – Leg – Lamp – Ice cream – Peas – One – Potato – Sweets\nЛЕДЕНЦЫ НА ПАЛОЧКЕ.\nлев – апельсин – нога – лампа – мороженое – горошек – одна картофелина – сладости",
+      "answer": "лев – апельсин – нога – лампа – мороженое – горошек – одна картофелина – сладости",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-43/"
+    },
+    {
+      "number": "43.4",
+      "section": "Страница 43",
+      "condition": "Read and match the sentences to the pictures.\nПрочитай предложения (A – H) и подбери соответствующие им картинки (1 – 8). Запиши фразы в тетрадь.\nA. I don’t like chocolate. I like jam.\nB. I like cake. I like lollipops.\nC. I don’t like cake. I don’t like sweets.\nD. I like carrots. I like chocolate.\nE. I don’t like potatoes. I like jam.\nF. I like carrots. I don’t like cake.\nG. I don’t like peas. I like lollipops.\nH. I don’t like jam. I like tomatoes.",
+      "solution": "A. I don’t like chocolate. I like jam.\nB. I like cake. I like lollipops.\nC. I don’t like cake. I don’t like sweets.\nD. I like carrots. I like chocolate.\nE. I don’t like potatoes. I like jam.\nF. I like carrots. I don’t like cake.\nG. I don’t like peas. I like lollipops.\nH. I don’t like jam. I like tomatoes.\n1 – C\n2 – G\n3 – A\n4 – B\n5 – D\n6 – E\n7 – H\n8 – F\nА. Я не люблю шоколад. Я люблю джем.\nB. Я люблю торты. Я люблю леденцы на палочке.\nC. Я не люблю торты. Я не люблю сладости.\nD. Я люблю морковь. Я люблю шоколад.\nE. Я не люблю картофель. Я люблю джем.\nF. Я люблю морковь. Я не люблю пирожные.\nG. Я не люблю горох. Я люблю леденцы на палочке.\nH. Я не люблю джем. Я люблю помидоры.\n1 – С\n2 – G\n3 – A\n4 – B\n5 – D\n6 – E\n7 – H\n8 – F",
+      "answer": "8 – F",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-43/"
+    },
+    {
+      "number": "44.1",
+      "section": "Страница 44",
+      "condition": "Look at the pictures. Then play the Ice Cream Van game.\nПосмотри на картинки. Сыграйте в игру «Вагончик с мороженым» (“Ice Cream Van”).",
+      "solution": "A chocolate ice cream, please.\nHere you are.\nThank you.\nШоколадное мороженое, пожалуйста.\nПожалуйста.\nСпасибо.",
+      "answer": "Спасибо.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-44/"
+    },
+    {
+      "number": "45.2",
+      "section": "Страница 45",
+      "condition": "Read Masha’s text and answer the questions. Say what punctuation mark is missing at the end of the last question.\nПрочитай текст о Маше и ответь на вопросы. Скажи, какой знак препинания отсутствует в конце последнего предложения.\n1. What’s Masha’s favourite ice cream?\n2. Where does Masha go with her family and friends?\nThis is me! This ice cream is so yummy!\nI love ice cream. I eat ice cream when it’s hot. I eat ice cream when it’s cold, too! I like chocolate ice cream, vanilla ice cream and strawberry ice cream! I go to ice cream cafés with my friends and my family. It’s great\nThis is a kiosk. You can buy ice cream here.\nThis is my favourite ice cream. Try it!",
+      "solution": "This is me! This ice cream is so yummy!\nI love ice cream. I eat ice cream when it’s hot. I eat ice cream when it’s cold, too! I like chocolate ice cream, vanilla ice cream and strawberry ice cream! I go to ice cream cafés with my friends and my family. It’s great!\nThis is the best ice cream in Russia. Try it!\nThis is a kiosk. You can buy ice cream here.\n1. What’s Masha’s favourite ice cream?\n2. Where does Masha go with her family and friends?\n1. Masha’s likes chocolate ice cream, vanilla ice cream and strawberry ice cream.\n2. Masha goes to ice cream cafes with her friends and family.\nЭто я! Это мороженое такое вкусное!\nЯ люблю мороженое. Я ем его когда жарко. Я ем мороженое и когда холодно! Я люблю шоколадное мороженое, ванильное мороженое и клубничное мороженое! Я хожу в кафе-мороженое со своими друзьями и семьей. Это здорово!\nЭто лучшее мороженое в России. Попробуйте!\nЭто киоск. Здесь можно купить мороженое.\n1. Какое любимое мороженое у Маши?\n2. Куда Маша ходит со своей семьей и друзьями?\n1. Маша любит шоколадное мороженое, ванильное мороженое и клубничное мороженое.\n2. Маша ходит в кафе-мороженое со своими друзьями и семьей.",
+      "answer": "2. Маша ходит в кафе-мороженое со своими друзьями и семьей.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-45/"
+    },
+    {
+      "number": "45.3",
+      "section": "Страница 45",
+      "condition": "Answer the questions about yourself. Then write about your favourite ice cream.\nОтветь на вопросы о себе. Напиши в тетради, какое мороженое ты любишь больше всего.\n1. Do you like ice cream?\n2. Do you eat ice cream only when it’s hot?\n3. What’s your favourite ice cream?",
+      "solution": "1. Do you like ice cream?\n2. Do you eat ice cream only when it’s hot?\n3. What’s your favourite ice cream?\n1. Yes, I do. I like ice cream.\n2. No, I don’t. I eat ice cream when it’s cold too!\n3. My favourite ice cream is strawberry ice cream, banana ice cream and chocolate ice cream.\n1. Ты любишь мороженое?\n2. Ты ешь мороженое только когда жарко?\n3. Какое твое любимое мороженое?\n1. Да, люблю. Я люблю мороженое.\n2. Нет, не люблю. Я ем мороженое и в холодное время года!\n3. Мое любимое мороженое – клубничное, банановое и шоколадное.",
+      "answer": "3. Мое любимое мороженое – клубничное, банановое и шоколадное.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-45/"
+    },
+    {
+      "number": "46.1",
+      "section": "Страница 46",
+      "condition": "Ксения Кудряшева\nЗадание на полях страницы.\nListen, point to the pictures and say.\nПрослушай слова, покажи соответствующие им картинки и повтори слова за диктором.",
+      "solution": "frightened\nkneel\nplate\ncup\nservant\nиспуганный\nстоять на коленях\nтарелка\nчаша\nслуга\nЗадание в низу страницы.\nListen and read the story.\nПрослушай и прочитай продолжение сказки.\nThe old man is frightened. He asks to see the Queen. She is sitting on her throne. “Kneel down, old man!” the guard says. “Greetings, your Majesty,” the old man says, “I hope you are happy!”\nHis wife does not answer. She sends him away.\nA week later the Queen asks to see the fisherman. “Kneel down, old man!” the guard says. The Queen is eating from a gold plate and she is drinking from a gold cup. Her dress and her shoes are gold. There are servants everywhere. But the fisherman’s wife does not look happy.",
+      "answer": "A week later the Queen asks to see the fisherman. “Kneel down, old man!” the guard says. The Queen is eating from a gold plate and she is drinking from a gold cup. Her dress and her shoes are gold. There are servants everywhere. But the fisherman’s wife does not look happy.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-46/"
+    },
+    {
+      "number": "46.2",
+      "section": "Страница 46",
+      "condition": "frightened\nkneel\nplate\ncup\nservant\nиспуганный\nстоять на коленях\nтарелка\nчаша\nслуга\nЗадание в низу страницы.\nListen and read the story.\nПрослушай и прочитай продолжение сказки.\nThe old man is frightened. He asks to see the Queen. She is sitting on her throne. “Kneel down, old man!” the guard says. “Greetings, your Majesty,” the old man says, “I hope you are happy!”\nHis wife does not answer. She sends him away.\nA week later the Queen asks to see the fisherman. “Kneel down, old man!” the guard says. The Queen is eating from a gold plate and she is drinking from a gold cup. Her dress and her shoes are gold. There are servants everywhere. But the fisherman’s wife does not look happy.",
+      "solution": "The old man is frightened. He asks to see the Queen. She is sitting on her throne. “Kneel down, old man!” the guard says. “Greetings, your Majesty,” the old man says, “I hope you are happy!”\nHis wife does not answer. She sends him away.\nA week later the Queen asks to see the fisherman. “Kneel down, old man!” the guard says. The Queen is eating from a gold plate and she is drinking from a gold cup. Her dress and her shoes are gold. There are servants everywhere. But the fisherman’s wife does not look happy.\nРыбак сильно напуган. Он просит разрешения увидеть Владычицу. Старуха сидит на своем троне. «Преклони колени перед Владычицей, старикашка!» – говорит рыбаку стражник. «Здравствуйте, Ваше Величество, – молвит старик, – теперь, я полагаю, Вы счастливы!”\nВладычица не отвечает. Она прогоняет его прочь.\nЧерез неделю Владычица требует встречи с рыбаком. «Встань на колени перед Владычицей, старикашка!»” – приказывает стражник. Владычица ест из золотой тарелки и пьет из золотого кубка. Её платье и обувь из золота. Повсюду прислуга. Но старуха не выглядит счастливой.",
+      "answer": "Через неделю Владычица требует встречи с рыбаком. «Встань на колени перед Владычицей, старикашка!»” – приказывает стражник. Владычица ест из золотой тарелки и пьет из золотого кубка. Её платье и обувь из золота. Повсюду прислуга. Но старуха не выглядит счастливой.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-46/"
+    },
+    {
+      "number": "47.1",
+      "section": "Страница 47",
+      "condition": "Read the story again and correct the sentences in your notebook.\nПрочитай сказку ещё раз и напиши исправленные предложения в тетради.\n1 The fisherman is happy. ...\n2 The Queen is sitting on her bed. ...\n3 The Queen is drinking from a gold bucket. ...\n4 There are fish everywhere. ...\n5 The Queen does not look frightened. ...",
+      "solution": "1 The fisherman is happy. The fisherman is frightened.\n2 The Queen is sitting on her bed. The Queen is sitting on her throne.\n3 The Queen is drinking from a gold bucket. The Queen is drinking from a gold cup.\n4 There are fish everywhere. There are servants everywhere.\n5 The Queen does not look frightened. The Queen does not look happy.\n1 Рыбак счастлив. – Рыбак испуган.\n2 Владычица сидит на кровати. – Владычица сидит на троне.\n3 Владычица пьёт из золотого ведра. – Владычица пьёт из золотого кубка.\n4 Повсюду рыбы. – Повсюду слуги.\n5 Владычица не выглядит испуганной – Владычица не выглядит счастливой.",
+      "answer": "5 Владычица не выглядит испуганной – Владычица не выглядит счастливой.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-47/"
+    },
+    {
+      "number": "47.2",
+      "section": "Страница 47",
+      "condition": "Find the words from the story.\nНайди слова из сказки.",
+      "solution": "Kneel, plate, cup, servant\nJewel – не встречается в данном отрывке\nСтановиться на колени, тарелка, чаша, слуга\nДрагоценность – не встречается в данном отрывке",
+      "answer": "Драгоценность – не встречается в данном отрывке",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-47/"
+    },
+    {
+      "number": "47.3",
+      "section": "Страница 47",
+      "condition": "Read and complete.\nСоставь из букв слова и напиши их в тетради. Закончи текст и прочитай его.",
+      "solution": "Dear Diary,\nMy wife lives in a 1) palace now. She’s 2) Queen of the Land. She eats from gold 3) plates and drinks from gold 4) cups. Her clothes and shoes are 5) gold, too! She’s got a lot of 6) servants, but she isn’t 7) happy. Not at all! I don’t know what to do.\nДорогой дневник,\nМоя жена сейчас живет во 1) дворце. Она 2) Владычица Суши. Она ест из золотых 3) тарелок и пьет из золотых 4) кубков. Её одежда и обувь тоже из 5) золота. У нее много 6) прислуги, но она 7) несчастлива. Совсем нет! Я не знаю, что делать.",
+      "answer": "Моя жена сейчас живет во 1) дворце. Она 2) Владычица Суши. Она ест из золотых 3) тарелок и пьет из золотых 4) кубков. Её одежда и обувь тоже из 5) золота. У нее много 6) прислуги, но она 7) несчастлива. Совсем нет! Я не знаю, что делать.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-47/"
+    },
+    {
+      "number": "48.4",
+      "section": "Страница 48",
+      "condition": "Listen and sing.\nПрослушай песенку и спой её.",
+      "solution": "Oh, the Queen does not look happy!\nNot at all!\nOh, the Queen does not look happy!\nNot at all!\nThe Queen does not look happy!\nShe’s angry and she’s snappy –\nThe Queen does not look happy!\nNot at all!\nО, Владычица не выглядит счастливой!\nСовсем нет!\nО, Владычица не выглядит счастливой!\nСовсем нет!\nВладычица не выглядит счастливой!\nОна злая и раздражительная –\nВладычица не выглядит счастливой!\nСовсем нет!",
+      "answer": "Совсем нет!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-48/"
+    },
+    {
+      "number": "49.1",
+      "section": "Страница 49",
+      "condition": "Listen and repeat the sound and the word.\nПовтори звук и слово за диктором и покажи соответствующую ему картинку.",
+      "solution": "Kn → /n/kn eel\nKneel\nВстать на колени",
+      "answer": "Встать на колени",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-49/"
+    },
+    {
+      "number": "49.2",
+      "section": "Страница 49",
+      "condition": "Read the words/sentences to your friend.\nПрочитай слова и предложения вслух своим одноклассникам.",
+      "solution": "/n/ kneel, know, knee, knife\nkneel\nkneel in\nkneel in front of\nThey kneel in front of the Queen\n/i:/ Pete the bee\nPete is a bee, but he likes sweets. One day he sees a sheep under a big tree. “Hello,” says Pete. “Hi,” says the sheep. “Dear sheep,” says Pete, “have you got any sweets to eat, please?” “No,” says the sheep, “but I’ve got these peas.” So, Pete eats the peas and says, “Thank you. They’re very sweet!”\n/n/ встать на колени, знать, колено, нож\nвстать на колени\nсклоняться\nвстать на колени перед ...\nОни преклоняют колени перед Королевой\n/i:/ Пчела Пит\nПит – пчела, но он любит сладости. Однажды он видит овцу под большим деревом. «Привет», – говорит Пит. «Привет», – говорит овца. «Дорогая овца», – говорит Пит. – «Не найдется ли у тебя чего-нибудь вкусненького, пожалуйста?» «Нет», – говорит овца, – «но у меня есть этот горошек». Итак, Пит ест горошек и говорит: «Спасибо. Он очень сладкий!»",
+      "answer": "Пит – пчела, но он любит сладости. Однажды он видит овцу под большим деревом. «Привет», – говорит Пит. «Привет», – говорит овца. «Дорогая овца», – говорит Пит. – «Не найдется ли у тебя чего-нибудь вкусненького, пожалуйста?» «Нет», – говорит овца, – «но у меня есть этот горошек». Итак, Пит ест горошек и говорит: «Спасибо. Он очень сладкий!»",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-49/"
+    },
+    {
+      "number": "49.3",
+      "section": "Страница 49",
+      "condition": "Say the words. Find the words that have got a different sound.\nПрочитай слова в колонках вслух. Выбери слово, которое звучит иначе, чем все остальные.",
+      "solution": "1. queen / kneel / send / she\n2. jam / love / tummy / drum\n3. likes / plays / jumps / eats\n4. runs / reads / draws / makes\n1 send\n2 jam\n3 plays\n4 makes\n1. королева / стоять на коленях / отправлять / она\n2. варенье / любовь / живот / барабан\n3. любит / играет / прыгает / ест\n4. бегает / читает / рисует / делает\n1 отправляет\n2 варенье\n3 играет\n4 делает",
+      "answer": "4 делает",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-49/"
+    },
+    {
+      "number": "49.4",
+      "section": "Страница 49",
+      "condition": "Listen and sing.\nПрослушай песенку и спой её.",
+      "solution": "Bend your knees\nTouch your feet\nWho’s the one\nYou want to meet?\nWith a knock, knock, knock, knock\nOne, two, three and four,\nWho’s that knocking on the door?\nСогни ноги в коленях\nПрикоснись к своим ногам\nКто же этот единственный\nС кем ты хочешь встретиться?\nСо стуком, стуком, стуком, стуком\nОдин, два, три и четыре,\nКто это стучит в дверь?",
+      "answer": "Кто это стучит в дверь?",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-49/"
+    },
+    {
+      "number": "50.1",
+      "section": "Страница 50",
+      "condition": "Choose.\nВыбери правильные подписи к картинкам.",
+      "solution": "0. chocolate / sweets\n1. juice / jam\n2. cake / lollipops\n3. carrots / bananas\n4. tomatoes / potatoes\n5. peas / pears\n0. шоколад / конфеты\n1. сок / джем\n2. пирожное / леденцы на палочке\n3. морковь / бананы\n4. помидоры / картофель\n5. горох / груши\nГрамматика",
+      "answer": "Грамматика",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-50/"
+    },
+    {
+      "number": "50.2",
+      "section": "Страница 50",
+      "condition": "Ask and answer.\nПосмотри на картинки и по образцу составь вопросы и ответы. Напиши их в тетради.\n0. Do they like music? Yes, they do.\n1. ... Yes, ...\n2. ... No, ...\n3. ... Yes, ...",
+      "solution": "music\nsweets\nchocolate\nfootball\n0. Do they like music? Yes, they do.\n1. Does he like sweets? Yes, he does.\n2. Does she like chocolate? No, she doesn’t.\n3. Do they like football? Yes, they do.\nмузыка\nсладости\nшоколад\nфутбол\n0. Любят ли они музыку? Да, они любят.\n1. Любит ли он сладости? Да, он любит.\n2. Любит ли она шоколад? Нет, она не любит.\n3. Любят ли они футбол? Да, они любят.",
+      "answer": "3. Любят ли они футбол? Да, они любят.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-50/"
+    },
+    {
+      "number": "51.3",
+      "section": "Страница 51",
+      "condition": "Read and choose. Write punctuation mark at the end of the sentences.\nПрочитай предложения и выбери правильное слово. Вставь знаки препинания в конце предложений.\n0. Do/Does you like carrots\n1. We sing/sings songs at Miss Gray’s Class\n2. Harry like/likes chocolate cakes\n3. They don’t/doesn’t ride their bikes to school\n4. Tom and I play/plays for the school football team\n5. Do/Does she like peas",
+      "solution": "0. Do/Does you like carrots?\n1. We sing/sings songs at Miss Gray’s Class.\n2. Harry like/likes chocolate cakes.\n3. They don’t/doesn’t ride their bikes to school.\n4. Tom and I play/plays for the school football team.\n5. Do/Does she like peas?\n0. Любишь ли ты морковь?\n1. Мы поем песни на уроке мисс Грей.\n2. Гарри нравятся шоколадные пирожные.\n3. Они не ездят в школу на велосипедах.\n4. Мы с Томом играем за школьную футбольную команду.\n5. Любит ли она горошек?\nЧтение и письмо",
+      "answer": "Чтение и письмо",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-51/"
+    },
+    {
+      "number": "51.4",
+      "section": "Страница 51",
+      "condition": "Complete in your notebook.\nЗакончи и напиши текст в своей тетради. Прочитай его.\nTim 0) is (be) seven. He 1) ... (like) animals. Every Sunday he 2) ... (ride) his bike to his friend’s farm. He and his friend 3) ... (play) with Molly, the monkey. Molly 4) ... (be) so clever! She 5) ... (like) to climb and jump. Tim 6) ... (eat) lunch with his friend. Then his mummy 7) ... (come) and takes him home. Tim 8) ... (love) Sundays. Sundays 9) ... (be) lots of fun!",
+      "solution": "Tim 0) is seven. He 1) likes animals. Every Sunday he 2) rides his bike to his friend’s farm. He and his friend 3) play with Molly, the monkey. Molly 4) is so clever! She 5) likes to climb and jump. Tim 6) eats lunch with his friend. Then his mummy 7) comes and takes him home. Tim 8) loves Sundays. Sundays 9) are lots of fun!\nТиму 0) семь лет. Он 1) любит животных. Каждое воскресенье он 2) ездит на велосипеде на ферму к своему другу. Он и его подруга 3) играют с обезьянкой Молли. Молли 4) такая умная! Она 5) любит лазать и прыгать. Тим 6) обедает со своим другом. Затем приходит его мама 7) и забирает его домой. Тим 8) любит воскресенья. По воскресеньям 9) очень весело!",
+      "answer": "Тиму 0) семь лет. Он 1) любит животных. Каждое воскресенье он 2) ездит на велосипеде на ферму к своему другу. Он и его подруга 3) играют с обезьянкой Молли. Молли 4) такая умная! Она 5) любит лазать и прыгать. Тим 6) обедает со своим другом. Затем приходит его мама 7) и забирает его домой. Тим 8) любит воскресенья. По воскресеньям 9) очень весело!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-51/"
+    },
+    {
+      "number": "51.5",
+      "section": "Страница 51",
+      "condition": "Read again and write yes or no in your notebook.\nПрочитай текст ещё раз и напиши в тетради yes, если предложение правильное, или no, если предложение неправильное.\n0. Tim is eight. no\n1. He likes animals. ...\n2. Molly is a cat. ...\n3. Molly is very clever. ...\n4. Tim’s daddy takes him home. ...",
+      "solution": "0. Tim is eight. no\n1. He likes animals. yes\n2. Molly is a cat. no\n3. Molly is very clever. yes\n4. Tim’s daddy takes him home. no\n0. Тиму восемь. нет\n1. Он любит животных. да\n2. Молли – кошка. нет\n3. Молли очень умная. да\n4. Папа Тима забирает его домой. нет",
+      "answer": "4. Папа Тима забирает его домой. нет",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-51/"
+    },
+    {
+      "number": "52.1",
+      "section": "Страница 52",
+      "condition": "Listen and point. Then listen and sing.\nПрослушай песенку и покажи соответствующие картинки. Прослушай песенку ещё раз и спой её.",
+      "solution": "What’s the weather like today?\nCan you say? Can you say?\nWhat’s the weather like today?\nIt’s sunny! It’s sunny today!\n...It’s hot!\n...It’s raining!\n...It’s snowing!\nКакая сегодня погода?\nМожешь ли ты сказать? Можешь ли ты сказать?\nКакая сегодня погода?\nСолнечно! Сегодня солнечно!\n...Жарко!\n...Идет дождь!\n...Идет снег!",
+      "answer": "...Идет снег!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-52/"
+    },
+    {
+      "number": "52.2",
+      "section": "Страница 52",
+      "condition": "Look at the pictures and match them to the sentences. Then say: It’s hot. Number 3.\nПрочитай предложения (a – e) и подбери к ним соответствующие картинки (1 – 5). Составь предложения, как показано в образце.\na. It’s hot. 3\nb. It’s snowing.\nc. It’s sunny.\nd. It’s raining.\ne. It’s cold.",
+      "solution": "a. It’s hot. Number 3.\nb. It’s snowing. Number 1.\nc. It’s sunny. Number 2.\nd. It’s raining. Number 4.\ne. It’s cold. Number 5.\nа. Жарко. Номер 3.\nb. Идет снег. Номер 1.\nc. Солнечно. Номер 2.\nd. Идет дождь. Номер 4.\ne. Холодно. Номер 5.",
+      "answer": "e. Холодно. Номер 5.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-52/"
+    },
+    {
+      "number": "53.3",
+      "section": "Страница 53",
+      "condition": "Look at the pictures and talk with your friend.\nПосмотри на картинки и побеседуй со своим одноклассником о погоде, как показано в образце.",
+      "solution": "What’s the weather like today?\n– It’s raining.\nWhat’s the weather like today?\n– It’s snowing.\nWhat’s the weather like today?\n– It’s hot.\nWhat’s the weather like today?\n– It’s cold.\nКакая сегодня погода?\n– Идет дождь.\nКакая сегодня погода?\n– Идет снег.\nКакая сегодня погода?\n– Жарко.\nКакая сегодня погода?\n– Холодно.",
+      "answer": "– Холодно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-53/"
+    },
+    {
+      "number": "53.4",
+      "section": "Страница 53",
+      "condition": "Play the Weather game.\nСыграйте в игру «Погода» (Weather).",
+      "solution": "It’s snowing.\nIt’s raining.\nIt’s hot.\nIt’s cold.\nIt’s sunny.\nИдет снег.\nИдет дождь.\nЖарко.\nХолодно.\nСолнечно.",
+      "answer": "Солнечно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-53/"
+    },
+    {
+      "number": "54.1",
+      "section": "Страница 54",
+      "condition": "Look at the pictures, then point and say: Look! It’s spring ...\nПосмотри на картинки и назови соответствующие времена года, как показано в образце.",
+      "solution": "Look! It’s spring.\nLook! It’s summer.\nLook! It’s autumn.\nLook! It’s winter.\nСмотри! Сейчас весна.\nСмотри! Сейчас лето.\nСмотри! Сейчас осень.\nСмотри! Сейчас зима.",
+      "answer": "Смотри! Сейчас зима.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-54/"
+    },
+    {
+      "number": "55.2",
+      "section": "Страница 55",
+      "condition": "Listen and match. Then say: (Erlina’s) favourite season is ... because (she) loves ...\nПрослушай запись, подбери для героев (1 – 4) соответствующие картинки с временами года (a – d). Составь предложения, как показано в образце.",
+      "solution": "1 – a\n2 – c\n3 – d\n4 – b.\nErlina’s favourite season is spring, because she loves flowers.\nFrosty’s favourite season is winter, because he loves the snow.\nAlvin’s favourite season is autumn, because he loves the rain.\nWoddy’s favourite season is summer, because he loves the sun.\nЛюбимое время года Эрлины – весна, так как ей нравятся цветы.\nЛюбимое время года Фрости – зима, так как ему нравится снег.\nЛюбимое время года Элвина – осень, так как ему нравится дождь.\nЛюбимое время года Вудди – лето, так как ему нравится солнце.",
+      "answer": "Любимое время года Вудди – лето, так как ему нравится солнце.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-55/"
+    },
+    {
+      "number": "55.3",
+      "section": "Страница 55",
+      "condition": "Listen and sing.\nПрослушай песенку и спой её.",
+      "solution": "Spring is my favourite season\nAnd let me tell you the reason:\nI love spring because I love flowers.\nSpring is my favourite season!\nSummer is my favourite season\nAnd let me tell you the reason:\nI love summer because I love the sun.\nSummer is my favourite season!\nAutumn is my favourite season\nAnd let me tell you the reason:\nI love autumn because I love the rain.\nAutumn is my favourite season!\nWinter is my favourite season\nAnd let me tell you the reason:\nI love winter because I love the snow.\nWinter is my favourite season!\nМеня всегда восхищает весна.\nДавайте я объясню вам почему.\nЯ обожаю цветы и весну в целом.\nМне нравится весна.\nМне нравится лето\nДавайте я объясню вам почему.\nИменно из-за того, что мне нравится солнце, мне нравится лето.\nМне нравятся летние месяцы.\nМне нравится осень\nДавайте я объясню вам почему.\nДля меня является приятной осень, так как в это время я люблю дождь.\nВсю осень я испытываю любовь к осени!\nМне нравится зима.\nДавайте я объясню вам почему.\nЯ испытываю любовь к зиме, так как мне нравится снег.\nМне нравится зима!",
+      "answer": "Мне нравится зима!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-55/"
+    },
+    {
+      "number": "57.1",
+      "section": "Страница 57",
+      "condition": "Listen to the dialogue and point to the pictures.\nСлушай диалог и смотри на картинки.",
+      "solution": "1.\n– What's the weather like today?\n2.\n– It's hot and sunny.\n– Let's go for a swim.\n3.\n– Look, Woody. Ice cream!\n4.\n– Two ice creams, please!\n5.\n– Frosty! Oh, no!\n6.\n– What's the matter?\n– Look! Poor Frosty!\n7.\n– Alvin! Woody! Come on!\n– Oh, Frosty!\n8.\n– Summer is my favourite season!\n1.\n– Какая сегодня погода?\n2.\n– Сегодня жарко и солнечно.\n– Пойдем искупаемся.\n3.\n– Смотри, Вуди. Мороженое!\n4.\n– Два мороженых, пожалуйста!\n5.\n– Фрости! О, нет!\n6.\n– В чем дело?\n– Смотрите! Бедный Фрости!\n7.\n– Элвин! Вуди! Давайте!\n– О, Фрости!\n8.\n– Лето – мое любимое время года!",
+      "answer": "– Лето – мое любимое время года!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-57/"
+    },
+    {
+      "number": "58.1",
+      "section": "Страница 58",
+      "condition": "Who needs water? Look and choose. Then say: a (child) needs water.\nКому из них нужна вода для жизни? Покажи соответствующие картинки и составь предложения, как показано в образце.",
+      "solution": "a – a child needs water.\nb – a dog needs water.\nc – a bird needs water.\nd – a frog needs water.\ne – a tree needs water.\nh – a flower needs water.\na – ребенку нужна вода.\nb – собаке нужна вода.\nc – птице нужна вода.\nd – лягушке нужна вода.\ne – дереву нужна вода.\nh – цветку нужна вода.",
+      "answer": "h – цветку нужна вода.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-58/"
+    },
+    {
+      "number": "59.2",
+      "section": "Страница 59",
+      "condition": "Play the board game.\nСыграйте в настольную игру.",
+      "solution": "START\nYou can't find any fresh water. Miss a turn.\nYou can't find a forest. Go back 1 square.\nThe weather is good. Go forward 3 squares.\nIt's snowing. Miss a turn.\nIt's very cold. go back 5 squares.\nThere's a lot of food and water. Go forward 1 square.\nIt's raining. Miss a turn.\nFINISH\nСТАРТ\nТы не можешь найти пресную воду. Пропусти ход.\nТы не можешь найти лес. Вернись на 1 клетку назад.\nПогода хорошая. Пройди 3 клетки вперед.\nИдет снег. Пропусти ход.\nОчень холодно. Вернись на 5 клеток назад.\nТам много еды и воды. Пройди вперед на 1 клетку.\nИдет дождь. Пропусти ход.\nФИНИШ",
+      "answer": "ФИНИШ",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-59/"
+    },
+    {
+      "number": "60.1",
+      "section": "Страница 60",
+      "condition": "What’s the season? Write in your notebook. Then choose the right pictures.\nВставь пропущенные буквы в слова и напиши в тетради название времен года. Подбери для каждого сезона подходящую картинку (a или b).",
+      "solution": "Summer – b.\nWinter – b.\nAutumn – a.\nSpring – a.\nЛето – b.\nЗима – b.\nОсень – a.\nВесна – a.",
+      "answer": "Весна – a.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-60/"
+    },
+    {
+      "number": "60.2",
+      "section": "Страница 60",
+      "condition": "Look, read and write.\nПосмотри на картинки. Закончи текст и прочитай его.",
+      "solution": "My Mummy’s favourite season is summer, because she loves ice cream!\nЛюбимое время года моей мамы – лето, потому что она обожает мороженое!",
+      "answer": "Любимое время года моей мамы – лето, потому что она обожает мороженое!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-60/"
+    },
+    {
+      "number": "61.3",
+      "section": "Страница 61",
+      "condition": "Read the texts and match them to the pictures.\nПрочитай тексты и скажи, какие картинки (a или b) к ним относятся.",
+      "solution": "1 – b\n2 – a\n1. My favourite season is winter. In winter it’s very cold and it snows. I like winter because I love the snow. I can ski with my family in winter. It’s great fun!\nHelen, 9 – b\n2. My favourite season is spring. In spring it’s sunny, but it’s cold, too. I like spring because I love flowers. Our garden is full of flowers in spring!\nMark, 8 – a\n1. Мое любимое время года – зима. Зимой очень холодно и идет снег. Я люблю зиму, потому что люблю снег. Зимой я могу кататься на лыжах со своей семьей. Это очень весело!\nХелен, 9 лет – b\n2. Мое любимое время года – весна. Весной здесь солнечно, но и холодно тоже. Я люблю весну, потому что люблю цветы. Весной наш сад полон цветов!\nМарк, 8 лет – а",
+      "answer": "Марк, 8 лет – а",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-61/"
+    },
+    {
+      "number": "61.4",
+      "section": "Страница 61",
+      "condition": "Read the texts again and answer the questions.\nПрочитай тексты ещё раз и ответь на вопросы.\n1 Which is Mark’s favourite season? Why?\n2 Which is Helen’s favourite season? Why?",
+      "solution": "1 Which is Mark’s favourite season? Why? – Mark’s favourite swason is spring, because he loves flowers.\n2 Which is Helen’s favourite season? Why? – Helen’s favourite season is winter, because she loves the snow.\n1 Какое время года нравится Марку больше всего? Почему? – Любимое время года Марка – весна, потому что он любит цветы.\n2 Какое любимое время года Хелен? Почему? – Любимое время года Хелен – зима, потому что она любит снег.",
+      "answer": "2 Какое любимое время года Хелен? Почему? – Любимое время года Хелен – зима, потому что она любит снег.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-61/"
+    },
+    {
+      "number": "61.5",
+      "section": "Страница 61",
+      "condition": "Draw your favourite season and write about it. Present it to the class.\nНарисуй своё любимое время года и напиши о нём. Сделай презентацию своего рисунка в классе.",
+      "solution": "My favourite season is spring, as I love the sun and flowers. In spring it can be hot and cold. I can wear T-shirts. It’s great!\nMy favourite season is summer, as I love a lot of sun. In summer, I can eat a lot of ice cream and swim. It’s great!\nMy favourite season is autumn, as it’s not really hot. In autumn leaves are colourful. That’s cool!\nMy favourite season is winter, as I love snow. I can ski with my family. It’s a real fun!\nМне нравится весна, так как я люблю солнце и цветы. Весной бывает и жарко, и холодно. Я могу носить футболки. Это весело!\nМне нравится лето, так как я люблю солнце. Летом я могу съесть много мороженого и поплавать. Это здорово!\nМне нравится осень, так как погода стоит не жаркая. Осенью листья становятся разноцветными. Это здорово!\nМне нравится зима, так как я люблю снег. Я могу кататься на лыжах со своей семьей. Это по-настоящему весело!",
+      "answer": "Мне нравится зима, так как я люблю снег. Я могу кататься на лыжах со своей семьей. Это по-настоящему весело!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-61/"
+    },
+    {
+      "number": "62.1",
+      "section": "Страница 62",
+      "condition": "Write the -ing form of the verbs.\nНапиши глаголы с окончанием -ing, как показано в образце.\n1 rain – raining\n2 play – ...\n3 listen – ...\n4 look – ...\n5 draw – ...\n6 rain – ...\n7 snow – ...\n8 jump – ...\n9 fly – ...\n10 read – ...",
+      "solution": "1 rain – raining\n2 play – playing\n3 listen – listening\n4 look – looking\n5 draw – drawing\n6 rain – raining\n7 snow – snowing\n8 jump – jumping\n9 fly – flying\n10 read – reading\n1 дождь – идет дождь\n2 игра – играют\n3 слушать – прослушивать\n4 смотреть – выглядеть\n5 розыгрыш – рисование\n6 дождь – идет дождь\n7 снег – идет снег\n8 прыгать – прыгает\n9 летать – летает\n10 читать – читают",
+      "answer": "10 читать – читают",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-62/"
+    },
+    {
+      "number": "62.2",
+      "section": "Страница 62",
+      "condition": "Read and complete the sentences.\nЗаполни пропуски формами глагола to be и прочитай предложения.\n1 It is raining.\n2 It ... flying.\n3 We ... reading a book.\n4 I ... drawing a picture.\n5 He ... listening to music.\n6 They ... playing football.",
+      "solution": "1 It is raining.\n2 It is flying.\n3 We are reading a book.\n4 I am drawing a picture.\n5 He is listening to music.\n6 They are playing football.\n1 Идет дождь.\n2 Летит самолет.\n3 Мы читаем книгу.\n4 Я рисую картинку.\n5 Он слушает музыку.\n6 Они играют в футбол.",
+      "answer": "6 Они играют в футбол.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-62/"
+    },
+    {
+      "number": "62.3",
+      "section": "Страница 62",
+      "condition": "Make sentences.\nСоставь предложения, поставив слова в правильном порядке. Запиши их в тетрадь.\n1 eating – I’m – banana – a. I’m eating a banana.\n2 They’re – game. – a – playing ...\n3 reading – book. – a  – He’s ...\n4 music. – listening – She’s – to ...\n5 We’re – football. – playing ...",
+      "solution": "1 I’m eating a banana.\n2 They’re playing a game.\n3 He’s reading a book.\n4 She’s listening to music.\n5 We’re playing football.\n1 Я ем банан.\n2 Они играют в игру.\n3 Он читает книгу.\n4 Она слушает музыку.\n5 Мы играем в футбол.",
+      "answer": "5 Мы играем в футбол.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-62/"
+    },
+    {
+      "number": "63.4",
+      "section": "Страница 63",
+      "condition": "Look at the picture and complete the sentences.\nПосмотри на картинку. Заполни пропуски, чтобы закончить предложения.\n1 My name is Bob. I am playing football.\n2 Her name is Sara. She ... a picture.\n3 Their names are Mike and Pete. They ... a sandwich.\n4 His name is Tom. He ... a book.",
+      "solution": "1 My name is Bob. I am playing football.\n2 Her name is Sara. She is drawing a picture.\n3 Their names are Mike and Pete. They are eating a sandwich.\n4 His name is Tom. He is reading a book.\n1 Меня зовут Боб. Я играю в футбол.\n2 Ее зовут Сара. Она рисует картинку.\n3 Их зовут Майк и Пит. Они едят сэндвич.\n4 Его зовут Том. Он читает книгу.",
+      "answer": "4 Его зовут Том. Он читает книгу.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-63/"
+    },
+    {
+      "number": "63.5",
+      "section": "Страница 63",
+      "condition": "Look, read and match to make sentences. Say what items are missing in the picture.\nПосмотри на картинку и составь правильные предложения. Скажи, какие предметы не изображены на картинке.\n1.Mummy is ...\n2.Diana is ...\n3.George is ...\na. listening to music.\nb. reading a book.\nc. eating an apple.",
+      "solution": "1.Mummy is reading a book. – b\n2.Diana is eating an apple. – c\n3.George is listening to music. – a\na. listening to music.\nb. reading a book.\nc. eating an apple.\n1.Мама читает книгу. – b\n2.Диана ест яблоко. – c\n3.Джордж слушает музыку. – а",
+      "answer": "3.Джордж слушает музыку. – а",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-63/"
+    },
+    {
+      "number": "64.1",
+      "section": "Страница 64",
+      "condition": "Look, read and match the pictures to the seasons.\nПрочитай названия времён года и подбери к ним соответствующие картинки (a – d).",
+      "solution": "Autumn – c\nWinter – d\nSummer – b\nSpring – a\nОсень – c\nЗима – d\nЛето – b\nВесна – a",
+      "answer": "Весна – a",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-64/"
+    },
+    {
+      "number": "64.2",
+      "section": "Страница 64",
+      "condition": "What’s the weather like? Look and write.\nНапиши в тетради, какая погода изображена на картинках, как показано в образце.",
+      "solution": "1. It’s hot.\n2. It’s sunny.\n3. It’s snowing.\n4. It’s raining.\n5. It’s cold.\n1. Жарко.\n2. Солнечно.\n3. Идет снег.\n4. Идет дождь.\n5. Холодно.",
+      "answer": "5. Холодно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-64/"
+    },
+    {
+      "number": "65.3",
+      "section": "Страница 65",
+      "condition": "Look, read and complete in your notebook.\nПосмотри на картинки. Закончи предложения в тетради по образцу и прочитай их.\n1 In Greece it’s hot and sunny today.\n2 In the UK it’s cold and it’s ... .\n3 In Russia it’s cold and it’s ... .",
+      "solution": "1 In Greece it’s hot and sunny today.\n2 In the UK it’s cold and it’s raining today.\n3 In Russia it’s cold and it’s snowing today.\n1 В Греции сегодня жарко и солнечно.\n2 В Великобритании сегодня холодно и идет дождь.\n3 В России сегодня холодно и идет снег.",
+      "answer": "3 В России сегодня холодно и идет снег.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-65/"
+    },
+    {
+      "number": "65.4",
+      "section": "Страница 65",
+      "condition": "Read the poems and choose the right season.\nПрочитай стихотворения и выбери соответствующие им названия времени года.",
+      "solution": "1.\nYellow leaves are falling down,\nFalling down, falling down.\nYellow leaves are falling down,\nAll over the town!\nautumn\n2.\nIt’s snowing, it’s cold,\nAll day and all night.\nLook out of the window:\nThe world is so white!\nwinter\n3.\nI can hear the bees\nAnd the birds in the trees. I\ncan see the flowers\nAnd I can play for hours!\nspring\n4.\nIt’s sunny days.\nIt’s sea and waves.\nIt’s playing outside.\nIt’s going for a ride.\nIt’s girls and boys\nAnd lots of noise.\nIt’s a clear blue sky.\nit’s ..., that’s why!\nsummer\n1.\nПадают желтые листья,\nПадают, падают вниз.\nЖелтые листья падают вниз,\nПо всему городу!\nосень\n2.\nИдет снег, холодно,\nВесь день и всю ночь.\nВыгляни в окно:\nМир такой белый!\nзима\n3.\nЯ слышу жужжание пчел\nИ птиц на деревьях. Я\nвижу цветы\nИ я могу играть часами!\nвесна\n4.\nЭто солнечные дни.\nЭто море и волны.\nНа улице играют.\nОн собирается прокатиться.\nЭто девочки и мальчики\nИ много шума.\nЭто чистое голубое небо.\nэто..., вот почему!\nлето",
+      "answer": "лето",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-65/"
+    },
+    {
+      "number": "65.5",
+      "section": "Страница 65",
+      "condition": "Think of a season. Write a poem about it.\nНапиши стихотворение о любом времени года.",
+      "solution": "Wintertime, wintertime!\nGo and play outside.\nIt’s time for fun and lots of snow.\nI love those snowy days!\nЗима, зима!\nИди и поиграй на улице.\nПришло время веселья и много снега.\nЯ люблю эти снежные дни!",
+      "answer": "Я люблю эти снежные дни!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-65/"
+    },
+    {
+      "number": "66.1",
+      "section": "Страница 66",
+      "condition": "Look, read and match.\nПосмотри на картинки. Прочитай тексты и реши, какая подпись (A или B) подходит к ним.",
+      "solution": "It’s raining in London every day.\nIn the UK, the sky is grey. – B (It’s raining)\nWinter in Athens is sunny and bright.\nGreece is full of sunshine and light. – A (It’s hot and sunny).\nВ Лондоне каждый день идет дождь.\nВ Великобритании небо серое. – В (Идет дождь)\nЗима в Афинах солнечная и ясная.\nГреция полна солнечного света. – А (Жарко и солнечно).",
+      "answer": "Греция полна солнечного света. – А (Жарко и солнечно).",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-66/"
+    },
+    {
+      "number": "67.2",
+      "section": "Страница 67",
+      "condition": "Read Sergei’s texts and find words connected with winter and summer. Write them in your notebook. Can you think of other words about winter and summer?\nПрочитай, что написал Сергей про зиму и лето. Найди в текстах слова об этих временах года и выпиши их в тетрадь. А какие ещё слова помогут рассказать об этих сезонах?\nIt’s hot and sunny in Moscow in summer. I like summer in Moscow, too because I can play with my friends in the park and I can go for a swim.\nThis is Moscow in winter. In winter, it’s very cold and there is a lot of snow. I like winter in Moscow because I can skate and play in the snow!",
+      "solution": "It’s hot and sunny in Moscow in summer. I like summer in Moscow, too because I can play with my friends in the park and I can go for a swim.\nSummer – hot, sunny, swim.\nThis is Moscow in winter. In winter, it’s very cold and there is a lot of snow. I like winter in Moscow because I can skate and play in the snow!\nWinter – snow, cold, skate.\nWinter – snowman, slippery, skiing, tangerine.\nSummer – holidays, fun, flowers, bees.\nЛетом в Москве жарко и солнечно. Мне тоже нравится лето в Москве, потому что я могу поиграть с друзьями в парке и поплавать.\nЛето – жаркое, солнечное, можно поплавать.\nТакова Москва зимой. Зимой здесь очень холодно и выпадает много снега. Мне нравится зима в Москве, потому что я могу кататься на коньках и играть в снежки\nЗима – снег, холодно, кататься на коньках.\nЗима – снеговик, гололед, лыжи, мандарины.\nЛето – каникулы, веселье, цветы, пчелы.",
+      "answer": "Лето – каникулы, веселье, цветы, пчелы.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-67/"
+    },
+    {
+      "number": "67.3",
+      "section": "Страница 67",
+      "condition": "Answer the questions about yourself.\nОтветь на вопросы о себе.\nIn your town / city ...\n1. What’s the weather like in winter / spring / summer / autumn?\n2. Which is your favourite season? Why?",
+      "solution": "1. It’s cold and raining in Moscow in autumn.\nIt’s hot in summer, and there is a lot of snow in winter.\nIt’s warm and sunny in spring.\n2. My favourite season is summer, because I can swim every day, eat my favourite banana ice cream, and play with my friends.\nВ твоём городе ...\n1. Какая погода зимой / весной / летом / осенью?\n2. Какое твоё любимое время года? Почему?\n1. Осенью в Москве холодно и идут дожди. Летом здесь жарко, а зимой много снега. Весной тепло и солнечно.\n2. Мое любимое время года - лето, потому что я могу каждый день купаться, есть свое любимое банановое мороженое и играть со своими друзьями.",
+      "answer": "2. Мое любимое время года - лето, потому что я могу каждый день купаться, есть свое любимое банановое мороженое и играть со своими друзьями.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-67/"
+    },
+    {
+      "number": "67.4",
+      "section": "Страница 67",
+      "condition": "Write about your town/city\nНапиши о том месте, где ты живёшь.",
+      "solution": "My city is Domodedovo. It’s the biggest city in the Moscow region. It’s green and big. I love my city in summer, because I can go out and spend time with my friends.\nЯ живу в Домодедово. Домодедово – самый большой город в Московской области. Он зеленый и большой. Я люблю мой город летом потому, что я могу гулять и проводить время с моими друзьями.",
+      "answer": "Я живу в Домодедово. Домодедово – самый большой город в Московской области. Он зеленый и большой. Я люблю мой город летом потому, что я могу гулять и проводить время с моими друзьями.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-67/"
+    },
+    {
+      "number": "68.1",
+      "section": "Страница 68",
+      "condition": "Ксения Кудряшева\nЗадание на полях страницы.\nListen, point to the pictures and say.\nПрослушай слова, покажи соответствующие им картинки и повтори слова за диктором.",
+      "solution": "Storm\nThunder\nA flash of lightning\nWet\nШторм\nГром\nВспышка молнии\nМокрый\nЗадание в низу страницы.\nListen and read the story.\nПрослушай и прочитай сказку.",
+      "answer": "Прослушай и прочитай сказку.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-68/"
+    },
+    {
+      "number": "68.2",
+      "section": "Страница 68",
+      "condition": "Storm\nThunder\nA flash of lightning\nWet\nШторм\nГром\nВспышка молнии\nМокрый\nЗадание в низу страницы.\nListen and read the story.\nПрослушай и прочитай сказку.",
+      "solution": "“Your Majesty,” says the old man, frightened, “what can I do for you?” “I am Queen of the Land!” she says. “But I want to be Queen of the Land and Sea. I want the golden fish to be my servant. Go away, old man, and tell the fish!” The old man is very sad. He goes back to the sea again. There is a big storm at sea. The sky is black and it is raining. There is a lot of thunder. The old man calls the fish. Suddenly, there is a big flash of lightning. The fish swims up to the old man. The fisherman is very wet and he looks very sad.\n«Ваше Величество, – испуганно спрашивает рыбак, «Чем я могу быть полезен для Вас?» «Я Владычица Суши!» – молвит она. «Но я хочу быть Владычицей Суши и Моря. Я хочу, чтобы золотая рыбка стала моей прислугой. Иди, старик и передай рыбке»! Рыбак очень опечален. Он снова возвращается к морю. На море сильный шторм. Небо черное, и идет дождь. Слышится сильный гром. Рыбак зовёт золотую рыбку. Внезапно сверкает яркая молния. Рыбка подплывает к рыбаку. Рыбак сильно промок и выглядит очень грустным.",
+      "answer": "«Ваше Величество, – испуганно спрашивает рыбак, «Чем я могу быть полезен для Вас?» «Я Владычица Суши!» – молвит она. «Но я хочу быть Владычицей Суши и Моря. Я хочу, чтобы золотая рыбка стала моей прислугой. Иди, старик и передай рыбке»! Рыбак очень опечален. Он снова возвращается к морю. На море сильный шторм. Небо черное, и идет дождь. Слышится сильный гром. Рыбак зовёт золотую рыбку. Внезапно сверкает яркая молния. Рыбка подплывает к рыбаку. Рыбак сильно промок и выглядит очень грустным.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-68/"
+    },
+    {
+      "number": "69.1",
+      "section": "Страница 69",
+      "condition": "Read the story again and answer the questions.\nПрочитай сказку ещё раз и ответь на вопросы.\n1 What does the fisherman’s wife want to be?\n2 What’s the weather like?\n3 How does the fisherman feel?",
+      "solution": "1 The fisherman’s wife wants to be Queen of the Land and Sea.\n2 There is a big storm at the sea. The sky is black and it’s raining. There is a lot of thunder and a big flash of lightning.\n3 The fisherman is very sad.\n1 Кем хочет стать жена рыбака?\n2 Какая сейчас погода?\n3 Что чувствует рыбак?\n1 Жена рыбака хочет быть Владычицей Суши и Моря.\n2 На море сильный шторм. Небо черное, и идет дождь. Слышится сильный гром и сверкает молния.\n3 Рыбак очень печален.",
+      "answer": "3 Рыбак очень печален.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-69/"
+    },
+    {
+      "number": "69.2",
+      "section": "Страница 69",
+      "condition": "Read and choose the right words.\nПрочитай предложения и выбери правильный ответ.\n1 Go away/up. I don’t want to talk to you.\n2 What can I do for/about you?\n3 Let’s all go to/in the sea today!\n4 There’s a big ship at/in sea.",
+      "solution": "1 Go away/up. I don’t want to talk to you.\n2 What can I do for/about you?\n3 Let’s all go to/in the sea today!\n4 There’s a big ship at/in sea.\n1. Уходи. Я не хочу с тобой разговаривать.\n2 Что я могу для тебя сделать?\n3 Поехали к морю сегодня!\n4 В море большой корабль.",
+      "answer": "4 В море большой корабль.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-69/"
+    },
+    {
+      "number": "69.3",
+      "section": "Страница 69",
+      "condition": "Read and complete the text.\nЗакончи текст и прочитай его.\nI am Queen of the 1) Land, but I want to be Queen of the 2) ..., too. I am very 3) ... . I live in a 4) ... . I want the golden fish to be my 5) ... .",
+      "solution": "I am Queen of the 1) Land, but I want to be Queen of the 2) Sea, too. I am very 3) rich. I live in a 4) palace. I want the golden fish to be my 5) servant.\nЯ Владычица 1) Суши. Но я хочу стать Владычицей 2) Моря. Я очень 3) богатая. Я живу во 4) дворце. Я хочу, чтобы золотая рыбка была моей 5) слугой.",
+      "answer": "Я Владычица 1) Суши. Но я хочу стать Владычицей 2) Моря. Я очень 3) богатая. Я живу во 4) дворце. Я хочу, чтобы золотая рыбка была моей 5) слугой.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-69/"
+    },
+    {
+      "number": "70.4",
+      "section": "Страница 70",
+      "condition": "Listen and sing.\nПрослушай песенку и спой её.",
+      "solution": "Thunder, thunder,\nThunder and lightning!\nThunder, thunder,\nIt’s very frightening!\nThunder, thunder, can you hear it?\nListen to it ... BOOM BOOM BOOM!\nГром, раскат грома,\nГром и молния!\nГром, раскат грома,\nЭто очень пугает!\nГром, гром, ты слышишь его?\nПослушай его ... БУМ-БУМ-БУМ!",
+      "answer": "Послушай его ... БУМ-БУМ-БУМ!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-70/"
+    },
+    {
+      "number": "71.1",
+      "section": "Страница 71",
+      "condition": "Read the words and texts to your friend.\nПрочитай слова и тексты своим одноклассникам.",
+      "solution": "/ai/ lightning, bright, light, night, tonight, frightening, frightened.\nStar light, star bright,\nFirst star I see tonight.\nI wish for a flash of lightning!\n/ᴐ:/–/əυ/ A storm in a teacup\nTom Little is a very small boy. One morning, he goes for a walk. He sees a fork on a table. He walks up the fork, but then he falls into a teacup! Tom calls for help. Suddenly, he looks up. “Oh no!” he says. “A storm!” The cup fills with water. Tom swims and climbs out. “Time to go home for tea!” Tom says.\n/ᴧ/ A little puppy\n“Mummy, come and see!” says Gus. “There’s a puppy in our garden.” They run to the garden and they see a beautiful puppy. “Look at the puppy!” says Mummy. “It can run and jump.” “We need a name for the little puppy,” says Mummy. “I know,” says Gus, “Let’s call him Thunder!”\n/ai/ молния, яркий, свет, ночь, сегодня ночью, пугающий, испуганный.\nЗвёздный свет, яркая звезда,\nСегодняшним вечером я увидела первую звезду.\nМне хочется, чтобы молния ударила в небо!\n/ᴐ:/–/əυ/ – Шторм в чайной чашке.\nТом Литтл является довольно-таки маленьким мальчиком. В одно утро он решил прогуляться. Ему удалось обнаружить вилку на столе. И он начал восхождение по вилке, однако затем скатился вниз, прямо в чашку! Упав в чашку для чая, Том просит о помощи. Неожиданно он поднимает свою голову. «О нет!» – восклицает он. «Здравствуй, буря!», и вода льётся в чашку. У Тома получается проплыть и вылезти из воды. «Пора возвращаться домой, чтобы выпить чашечку чая», – говорит Том.\n/ᴧ/ Маленький щенок\nМаленькая собака\n«Мамочка, подойди и посмотри!» – просит Гус. «Мы обнаружили у себя в саду щенка». Бегом они устремляются в сад, чтобы увидеть щенка. «Подними глаза к щенку!» – просит мать. «У него есть навыки в прыжках и беге». «Нам необходимо дать имя маленькому щенку», – говорит мама. И Гус соглашается с этим: «Давай назовем его Громом!»",
+      "answer": "«Мамочка, подойди и посмотри!» – просит Гус. «Мы обнаружили у себя в саду щенка». Бегом они устремляются в сад, чтобы увидеть щенка. «Подними глаза к щенку!» – просит мать. «У него есть навыки в прыжках и беге». «Нам необходимо дать имя маленькому щенку», – говорит мама. И Гус соглашается с этим: «Давай назовем его Громом!»",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-71/"
+    },
+    {
+      "number": "71.2",
+      "section": "Страница 71",
+      "condition": "Say the words. Complete the lists in your notebook.\nПрочитай слова вслух. Распредели их по колонкам и напиши в тетради.\nraining, friend, dance, girl, snowing, birthday, farm, can’t, clever, servant, spring, leg.",
+      "solution": "/ᵑ/ raining, snowing, spring.\n/з:/ girl, birthday, servant.\n/a:/ dance, farm, can’t.\n/e/ friend, clever, leg.\n/ᵑ/ идет дождь, идет снег, весна.\n/з:/ девочка, день рождения, слуга.\n/a:/ танцевать, ферма, не мочь.\n/e/ друг, умный, нога.",
+      "answer": "/e/ друг, умный, нога.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-71/"
+    },
+    {
+      "number": "72.1",
+      "section": "Страница 72",
+      "condition": "Number.\nПрочитай предложения (a – e) и найди соответствующие им картинки (1 – 4).\na it’s hot.\nb it’s cold.\nс it’s sunny.\nd it’s raining.\ne it’s snowing.",
+      "solution": "0 – a (it’s hot)\n1 – d (it’s raining)\n2 – e (it’s snowing)\n3 – b (it’s cold)\n4 – с (it’s sunny)\n0 – a (жарко)\n1 – d (идет дождь)\n2 – e (идет снег)\n3 – b (холодно)\n4 – c (солнечно)",
+      "answer": "4 – c (солнечно)",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-72/"
+    },
+    {
+      "number": "72.2",
+      "section": "Страница 72",
+      "condition": "Complete.\nЗакончи подписи под картинками и напиши слова в тетради.",
+      "solution": "0 spring\n1 summer\n2 autumn\n3 winter\n0 весна\n1 лето\n2 осень\n3 зима\nГрамматика",
+      "answer": "Грамматика",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-72/"
+    },
+    {
+      "number": "72.3",
+      "section": "Страница 72",
+      "condition": "Make sentences.\nСоставь предложения и напиши их в тетради.\n0 listening – They’re – music. – to They’re listening to music.\n1 today. – raining – It’s ...\n2 drawing – a – She’s – picture. ...\n3 He’s – book. – reading – a ...\n4 We’re – football. – playing ...\n5 singing. – They’re ...",
+      "solution": "0 They’re listening to music.\n1 It’s raining today.\n2 She’s drawing a picture.\n3 He’s reading a book.\n4 We’re playing football.\n5 They’re singing.\n0 Они слушают музыку.\n1 Сегодня дождливо.\n2 Она рисует картину.\n3 Он читает книгу.\n4 Мы играем в футбол.\n5 Они поют.",
+      "answer": "5 Они поют.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-72/"
+    },
+    {
+      "number": "73.4",
+      "section": "Страница 73",
+      "condition": "Choose.\nЗакончи предложения, выбрав правильный ответ (A или B).\n0 Listen. The bird is ...! A singing B sing\n1 Tom and I ... going to the sea. A are B am\n2 She ... looking at our garden. A are B is\n3 Harry ... playing the guitar. A are B is\n4 Look! It ... ! A is snow B is snowing\n5 We ... to Spain. A are flying B is flying",
+      "solution": "0 Listen. The bird is singing!\n1 Tom and I are going to the sea.\n2 She is looking at our garden.\n3 Harry is playing the guitar.\n4 Look! It is snowing!\n5 We are flying to Spain.\n0 Послушай. Птица поёт!\n1 Том, и я собираемся на море.\n2 Она смотрит на наш сад.\n3 Гарри играет на гитаре.\n4 Смотри. Идет снег!\n5 Мы летим в Испанию.\nЧтение и письмо",
+      "answer": "Чтение и письмо",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-73/"
+    },
+    {
+      "number": "73.5",
+      "section": "Страница 73",
+      "condition": "Read and write their names in your notebook. Write punctuation marks at the end of the sentences.\nПрочитай текст и скажи, как зовут детей на картинке. Запиши в тетрадь их имена.  Вставь знаки препинания в конце предложений.\nThe children are in the park today. Can you see Sam? He’s playing football with Frank. And that’s Kelly. She’s drawing a picture. The boy under the tree is Jim. Jim is playing with his dog, Spike. Can you see Tina? She’s singing. The children are having a great time in the park today.",
+      "solution": "0 Sam\n1 Frank\n2 Kelly\n3 Jim\n4 Spike\n5 Tina\nThe children are in the park today. Can you see Sam? He’s playing football with Frank. And that’s Kelly. She’s drawing a picture. The boy under the tree is Jim. Jim is playing with his dog, Spike. Can you see Tina? She’s singing. The children are having a great time in the park today.\n0 Сэм\n1 Фрэнк\n2 Келли\n3 Джим\n4 Спайк\n5 Тина\nСегодня дети гуляют в парке. Ты видишь Сэма? Он играет в футбол с Фрэнком. А это Келли. Она рисует картинку. Мальчик под деревом – это Джим. Джим играет со своей собакой Спайком. Вы видите Тину? Она поет. Дети сегодня отлично проводят время в парке.",
+      "answer": "Сегодня дети гуляют в парке. Ты видишь Сэма? Он играет в футбол с Фрэнком. А это Келли. Она рисует картинку. Мальчик под деревом – это Джим. Джим играет со своей собакой Спайком. Вы видите Тину? Она поет. Дети сегодня отлично проводят время в парке.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-73/"
+    },
+    {
+      "number": "74.1",
+      "section": "Страница 74",
+      "condition": "Look, read and match.\nПосмотри на картинку и соедини названия предметов одежды (1 – 5) с героями (a – e).",
+      "solution": "1 jacket – c\n2 boots – d\n3 hat – e\n4 jumper – a\n5 jeans – b\n1 куртка – c\n2 ботинки – d\n3 шапка – e\n4 джемпер – a\n5 джинсы – b",
+      "answer": "5 джинсы – b",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-74/"
+    },
+    {
+      "number": "74.2",
+      "section": "Страница 74",
+      "condition": "Listen and sing.\nПрослушай песенку и спой её.",
+      "solution": "I’m looking good,\nI’m looking great!\nI’m wearing my new clothes!\nI’m looking good,\nI’m looking great!\nFrom my feet up to my nose!\nJumper, jacket,\nJeans, boots.\nI’m looking great,\nI’m looking good!\nЯ отлично выгляжу!\nЯ отлично выгляжу!\nНа мне моя новая одежда!\nЯ отлично выгляжу!\nЯ отлично выгляжу!\nС ног до головы!\nДжемпер, куртка,\nджинсы, ботинки.\nЯ отлично выгляжу!\nЯ отлично выгляжу!",
+      "answer": "Я отлично выгляжу!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-74/"
+    },
+    {
+      "number": "75.3",
+      "section": "Страница 75",
+      "condition": "Look at the pictures and choose. Say A or B.\nПосмотри на картинки и скажи, что надето на девочке (A), а что на мальчике (B).",
+      "solution": "A\nBoots, dress, hat.\nB\nJeans, jacket, jumper.\nA\nСапоги, платье, шляпа.\nB\nДжинсы, куртка, джемпер.",
+      "answer": "Джинсы, куртка, джемпер.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-75/"
+    },
+    {
+      "number": "75.4",
+      "section": "Страница 75",
+      "condition": "Use the templates to draw and yourself. Then take roles and talk with your friend.\nСделай бумажных кукол и нарисуй одежду для них. Поговори со своим одноклассником, как показано в образце.",
+      "solution": "I’m wearing boots, dress and hat.\nI’m wearing jacket, jumper and jeans.\nНа мне сапоги, платье и шляпа.\nНа мне куртка, джемпер и джинсы.",
+      "answer": "На мне куртка, джемпер и джинсы.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-75/"
+    },
+    {
+      "number": "76.1",
+      "section": "Страница 76",
+      "condition": "Match the clothes to Daddy or Baby Bear. Then say: Daddy Bear’s shorts are big.\nПодбери медвежонку и его папе соответствующую одежду. Опиши её, как показано в образце.",
+      "solution": "Daddy Bear’s shorts are big.\nDaddy Bear’s vest is big.\nDaddy Bear’s T-shirt is big.\nDaddy Bear’s shoes are big.\nBaby Bear’s shorts are small.\nBaby Bear’s vest is small.\nBaby Bear’s T-shirt is small.\nBaby Bear’s shoes are small.\nШорты у папы Мишки большие.\nЖилет у папы Мишки большой.\nФутболка у папы Мишки большая.\nБотинки у папы Мишки большие.\nШорты у медвежонка маленькие.\nЖилет у медвежонка маленький.\nФутболка у медвежонка маленькая.\nБашмачки медвежонка маленькие.",
+      "answer": "Башмачки медвежонка маленькие.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-76/"
+    },
+    {
+      "number": "77.2",
+      "section": "Страница 77",
+      "condition": "Read the sentences, look at the pictures and match them.\nПодбери к предложениям (A – D) соответствующие картинки (1 – 4).",
+      "solution": "A. Take off your shoes. – 1\nB. Take off your socks – 3\nC. Put on your T-shirt – 4\nD. Put on your cap – 2\nA. Сними свою обувь. – 1\nB. Сними носки – 3\nC. Надень футболку – 4\nD. Надень кепку – 2",
+      "answer": "D. Надень кепку – 2",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-77/"
+    },
+    {
+      "number": "77.3",
+      "section": "Страница 77",
+      "condition": "Listen to the song and sing it along.\nПрослушай песенку и спой её.",
+      "solution": "Get ready, get ready to go.\nGet ready for some fun!\nGet ready, get ready to go.\nGet ready, everyone!\nTake off your shoes.\nTake off your socks.\nGet ready for some fun!\nPut on your T−shirt.\nPut on your cap.\nGet ready for the sun!\nПриготовься, приготовься идти.\nПриготовься повеселиться!\nПриготовься, приготовься идти.\nПриготовьтесь все!\nСнимите обувь.\nСнимите носки.\nПриготовьтесь повеселиться!\nНаденьте футболку.\nНаденьте шапочку.\nПриготовьтесь к солнцу!",
+      "answer": "Приготовьтесь к солнцу!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-77/"
+    },
+    {
+      "number": "79.1",
+      "section": "Страница 79",
+      "condition": "Listen to the dialogue and point to the pictures.\nСлушай диалог и смотри на картинки.",
+      "solution": "1.\n– It's holiday time!\n– Come on! Get ready!\n2.\n– Put on your jumper.\n3.\n– Put on your jacket.\n– OK.\n4.\n– Wow! I'm looking good!\n– Me, too!\n5.\n– I'm wearing my big boots!\n– I'm wearing my sun hat!\n6.\n– OK! Get ready to go!\n7.\nHappy Holidays!\n1.\n– Сейчас каникулы!\n– Давай! Приготовься!\n2.\n– Надень свой джемпер.\n3.\n– Надень куртку.\n– хорошо.\n4.\n– Вау! Я хорошо выгляжу!\n– Я тоже!\n5.\n– На мне мои большие ботинки!\n– На мне моя шляпа от солнца!\n6.\n– Хорошо! Приготовься идти!\n7.\nСчастливых каникул!",
+      "answer": "Счастливых каникул!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-79/"
+    },
+    {
+      "number": "80.1",
+      "section": "Страница 80",
+      "condition": "Look at the pictures and say: He is wearing a (yellow) hat, ...\nСкажи, во что одето пугало, как показано в образце.",
+      "solution": "He is wearing a yellow hat, blue jacket, green jumper, red jeans, blue shoes.\nОн одет в желтую шляпу, синюю куртку, зеленый джемпер, красные джинсы, синие ботинки.",
+      "answer": "Он одет в желтую шляпу, синюю куртку, зеленый джемпер, красные джинсы, синие ботинки.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-80/"
+    },
+    {
+      "number": "81.2",
+      "section": "Страница 81",
+      "condition": "Read and complete the story in your notebook.\nЗакончи рассказ в своей тетради и прочитай его.",
+      "solution": "This is Sally the scarecrow.\nSally works on Mr. Smith’s 1) farm. She’s got an important job. She keeps all the 2) birds away from Mr. Smith’s fruit and 3) vegetables. But Sally is very 4) frustrated. She hasn’t got any friends. “I want a friend”, she says one day. The next day, Mr. Smith makes a new 5) scarecrow, Scruff. Now, Sally is 6) happy. She’s got a friend.\nЭто Салли Пугало.\nВ качестве работника Салли трудится на 1) ферме мистера Смита. Ее работа – очень важная. Она старалась держать всех 2) птиц на расстоянии от 3) овощей и фруктов мистера Смита. Однако, Салли пребывает в состоянии 4) тревоги. У нее отсутствует круг общения. И однажды она сказала хозяину: «Я хочу иметь друга». Мистер Смит, в свою очередь, на следующий день создает новое 5) пугало, по имени Скрафф. В настоящее время Салли 6) чувствует себя счастливой. Ее спутник является ее другом.",
+      "answer": "В качестве работника Салли трудится на 1) ферме мистера Смита. Ее работа – очень важная. Она старалась держать всех 2) птиц на расстоянии от 3) овощей и фруктов мистера Смита. Однако, Салли пребывает в состоянии 4) тревоги. У нее отсутствует круг общения. И однажды она сказала хозяину: «Я хочу иметь друга». Мистер Смит, в свою очередь, на следующий день создает новое 5) пугало, по имени Скрафф. В настоящее время Салли 6) чувствует себя счастливой. Ее спутник является ее другом.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-81/"
+    },
+    {
+      "number": "81.3",
+      "section": "Страница 81",
+      "condition": "Read the story again and choose the best title.\nПрочитай рассказ ещё раз и скажи, какое заглавие ты бы для него выбрал(а).\nSally’s new friend.\nMr Smith's new farm.",
+      "solution": "Sally’s new friend.\nНовый друг Салли.",
+      "answer": "Новый друг Салли.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-81/"
+    },
+    {
+      "number": "82.1",
+      "section": "Страница 82",
+      "condition": "Listen and choose the right picture.\nПрослушай запись и выбери правильную картинку (a или b).",
+      "solution": "1 It's raining. I'm wearing my jacket. – a\n2 It's hot and sunny. I'm wearing my cap. – b\n3 It's cold and it's snowing. I'm wearing my boots. – a\n1 Идет дождь. На мне куртка. – а\n2 Жарко и солнечно. На мне кепка. – b\n3 Холодно и идет снег. На мне ботинки. – а",
+      "answer": "3 Холодно и идет снег. На мне ботинки. – а",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-82/"
+    },
+    {
+      "number": "82.2",
+      "section": "Страница 82",
+      "condition": "Play the Memory game.\nСыграйте в игру «Проверь свою память» (Memory).",
+      "solution": "It’s red.\nA T-shirt!\nIt’s blue.\nShorts!\nIt’s green.\nA vest!\nIt’s pink.\nSocks!\nIt’s yellow.\nA cap!\nЭто красное.\nФутболка!\nЭто синее.\nШорты!\nЭто зеленое.\nЖилет!\nЭто розовое.\nНоски!\nЭто желтое.\nКепка!",
+      "answer": "Кепка!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-82/"
+    },
+    {
+      "number": "83.3",
+      "section": "Страница 83",
+      "condition": "Read the texts and answer the questions.\nПрочитай тексты и ответь на вопросы.\nHello. My name is Jack. In this photo, I’m with my little brother. It’s sunny. We’re wearing our caps, T−shirts and shorts. We’re riding our bikes.\nHello. I’m Sue. In this photo, I’m with my Mummy, Daddy and my little sister. It’s very cold. We’re wearing our jackets and jumpers. We’re making a snowman!\n1. What’s the weather like?\n2. What are they wearing?\n3. What are they doing?",
+      "solution": "Hello. My name is Jack. In this photo, I’m with my little brother. It’s sunny. We’re wearing our caps, T−shirts and shorts. We’re riding our bikes.\nHello. I’m Sue. In this photo, I’m with my Mummy, Daddy and my little sister. It’s very cold. We’re wearing our jackets and jumpers. We’re making a snowman!\nJack\n1. What’s the weather like? – it’s sunny.\n2. What are they wearing? – They’re wearing their caps, T-shirts and shorts.\n3. What are they doing? – They’re riding their bikes.\nSue\n1. What’s the weather like? – it’s very cold.\n2. What are they wearing? – They’re wearing their jackets and jumpers.\n3. What are they doing? – They’re making a snowman.\nЗдравствуйте. Меня зовут Джек. На этой фотографии я со своим младшим братом. Солнечно. На нас бейсболки, футболки и шорты. Мы катаемся на велосипедах.\nЗдравствуйте. Я Сью. На этой фотографии я со своими мамой, папой и младшей сестренкой. На улице очень холодно. Мы в куртках и джемперах. Мы лепим снеговика!\nДжек\n1. Какая сегодня погода? – солнечно.\n2. Во что они одеты? – На них бейсболки, футболки и шорты.\n3. Что они делают? – Они катаются на велосипедах.\nСью\n1. Какая сейчас погода? – очень холодно.\n2. Во что они одеты? – На них обычные куртки и джемпера.\n3. Что они делают? – Они лепят снеговика.",
+      "answer": "3. Что они делают? – Они лепят снеговика.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-83/"
+    },
+    {
+      "number": "83.4",
+      "section": "Страница 83",
+      "condition": "Draw what you are wearing today and write about it. Present it to the class.\nНарисуй и напиши, во что ты сегодня одет(а). Сделай презентацию своего рисунка в классе.",
+      "solution": "It’s very cold and slippery. I’m wearing jacket, jumper, socks and boots.\nIt’s very cold. I’m wearing jacket, jumper, jeans, socks and boots.\nIt’s hot. I’m wearing a T-shirt and shorts, a cap.\nIt’s hot. I’m wearing a dress and a cap.\nIt’s hot and sunny. I’m wearing a T-shirt, jeans, a cap.\nНа улице очень холодно и скользко. На мне куртка, джемпер, носки и ботинки.\nОчень холодно. На мне куртка, джемпер, джинсы, носки и ботинки.\nЖарко. На мне футболка, шорты и кепка.\nЖарко. На мне платье и кепка.\nЖарко и солнечно. На мне футболка, джинсы, кепка.",
+      "answer": "Жарко и солнечно. На мне футболка, джинсы, кепка.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-83/"
+    },
+    {
+      "number": "85.1",
+      "section": "Страница 85",
+      "condition": "Look at the pictures. Then write.\nПосмотри на картинки, закончи предложения, как показано в образце и напиши их в тетради.",
+      "solution": "1\nI am reading.\nI am not drawing\n2\nShe is drawing.\nShe is not flying.\n3\nIt is raining.\nIt is not snowing.\n4\nThey are jumping.\nThey are not flying.\n5\nHe is playing football.\nHe is not playing the piano.\n6\nWe are wearing dresses.\nWe are not wearing jeans.\n1\nЯ читаю.\nЯ не рисую\n2\nОна рисует.\nОна не летает.\n3\nИдет дождь.\nЭтого не видно.\n4\nОни прыгают.\nОни не летают.\n5\nОн играет в футбол.\nОн не играет на пианино.\n6\nМы одеты в платья.\nМы не носим джинсы.",
+      "answer": "Мы не носим джинсы.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-85/"
+    },
+    {
+      "number": "86.2",
+      "section": "Страница 86",
+      "condition": "Complete the sentences. Then look and choose the right answer.\nЗакончи предложения. Посмотри на картинку и выбери правильные ответы на вопросы.\n1 Is she wearing a blue dress? No, she isn’t. She’s wearing a red dress. Who is she?\n(A) Pam (B) Fiona\n2 ... he wear... blue shorts? No, he ... . He’s wear... green shorts. Who is he?\n(A) Alex (B) Tom\n3 ... I play... the drum? No, I... ... . I’m play... the tambourine. Who am I?\n(A) Kelly (B) Jenny\n4 ... it stand... on the wall? No, it ... . It’s climb... a tree. What is it?\n(A) A cat (B) A dog\n5 ... they play... a game? No, they ... . They’re sing... . Who are they?\n(A) Jack and Roy (B) Molly and Emma",
+      "solution": "1 Is she wearing a blue dress? No, she isn’t. She’s wearing a red dress. Who is she?\nFiona (B)\n2 Is he wearing blue shorts? No, he isn’t. He’s wearing green shorts. Who is he?\nAlex (A)\n3 Am I playing the drum? No, I’m not. I’m playing a tambourine. Who am I?\nJenny (B)\n4 Is it standing on the wall? No, it isn’t. It’s climbing a tree. What is it?\nA cat (A)\n5 Are they playing a game? No, they aren’t. They’re singing. Who are they?\nMolly and Emma (B)\n1 На ней синее платье? Нет. На ней красное платье. Кто она?\nФиона (B)\n2. На нем синие шорты? Нет. На нем зеленые шорты. Кто он?\nАлекс (А)\n3 Я играю на барабане? Нет, я не играю. Я играю на тамбурине (бубне). Кто я?\nДженни (род.)\n4 Оно стоит на стене? Не. Оно взбирается на дерево. Что это такое?\nКот (А)\n5 Они играют в какую-то игру? Нет. Они поют. Кто они?\nМолли и Эмма (B)",
+      "answer": "Молли и Эмма (B)",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-86/"
+    },
+    {
+      "number": "87.3",
+      "section": "Страница 87",
+      "condition": "Look at the pictures and complete the questions and answers.\nПосмотри на картинки, закончи вопросы и ответы. Напиши их в тетради.\n1 What are the monkeys doing? – They are playing football.\n2 What ... the snakes ...? – ... .\n3 What ... the birds ...? – ... to music.\n4 What ... the frog ...? – ... the guitar.\n5 What ... the spider ...? – ... a book.\n6 What ... the elephant ...? – ... .\n7 What ... the lion ...? – ... the drum.",
+      "solution": "1 What are the monkeys doing? – They are playing football.\n2 What are the snakes doing? – They are flying.\n3 What are the birds doing? – They are listening to music.\n4 What is the frog doing? – It is playing a guitar.\n5 What is the spider doing? – It is reading a book.\n6 What is the elephant doing? – It is drawing.\n7 What is the lion doing? – It is playing a drum.\n1 Что делают обезьяны? – Они играют в футбол.\n2 Что делают змеи? – Они летают?\n3 Что делают птицы? – Они слушают музыку.\n4 Что делает лягушка? – Она играет на гитаре.\n5 Что делает паук? – Он читает книгу.\n6 Что делает слон? – Он рисует.\n7 Что делает лев? – Он играет на барабане.",
+      "answer": "7 Что делает лев? – Он играет на барабане.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-87/"
+    },
+    {
+      "number": "88.1",
+      "section": "Страница 88",
+      "condition": "Look at the pictures and complete the sentences.\nПосмотри на картинки и закончи предложения, заполнив пропуски.",
+      "solution": "1. Put on your hat.\n2. Put on your jacket.\n3. Put on your socks.\n1. Надень шляпу.\n2. Надень куртку.\n3. Надень носки.",
+      "answer": "3. Надень носки.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-88/"
+    },
+    {
+      "number": "88.2",
+      "section": "Страница 88",
+      "condition": "Look at the pictures and match them to the words.\nПосмотри на картинки (a – f) и соедини их с названиями предметов одежды (1 – 6).",
+      "solution": "1 hat – a\n2 jeans – f\n3 jumper – b\n4 boots – c\n5 dress – d\n6 jacket – e\n1 шляпа – a\n2 джинсы – f\n3 джемпер – b\n4 ботинки – c\n5 платье – d\n6 куртка – e",
+      "answer": "6 куртка – e",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-88/"
+    },
+    {
+      "number": "89.3",
+      "section": "Страница 89",
+      "condition": "Look at the pictures, find and write the words.\nВ этих словах перепутались буквы. Составь слова и напиши их в тетради.",
+      "solution": "1 socks\n2 T-shirt\n3 shorts\n4 cap\n5 vest\n6 shoes\n1 носки\n2 футболка\n3 шорты\n4 кепка\n5 жилет\n6 ботинки (кроссовки)",
+      "answer": "6 ботинки (кроссовки)",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-89/"
+    },
+    {
+      "number": "89.4",
+      "section": "Страница 89",
+      "condition": "Look at the pictures and answer the questions.\nПосмотри на картинку и ответь на вопросы.\nWhat colour are the “t” words?\nWhat colour are the “s” words?\nWhat colour are the “c” words?\nWhat colour are the “b” words?\nWhat colour are the “j” words?",
+      "solution": "What colour are the “t” words? – red\nWhat colour are the “s” words? – green\nWhat colour are the “c” words? – yellow\nWhat colour are the “b” words? – pink\nWhat colour are the “j” words? – blue\nКакого цвета слова на “t”? – красные\nКакого цвета слова на “s” – зелёные\nКакого цвета слова на “c” – жёлтые\nКакого цвета слова на “b” – розовые\nКакого цвета слова на “j” – синие",
+      "answer": "Какого цвета слова на “j” – синие",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-89/"
+    },
+    {
+      "number": "90.1",
+      "section": "Страница 90",
+      "condition": "Look at the pictures and choose the right word.\nВыбери нужные слова, чтобы закончить тексты. Прочитай их.\nThis is Steve. He is from Scotland. Scotland is a part of Great Britain. Look at him. He’s wearing a (kilt/cap).\nThis is Miki. She is from Japan. Look at her. She’s wearing a (jacket/kimono).",
+      "solution": "This is Steve. He is from Scotland. Scotland is a part of Great Britain. Look at him. He’s wearing a kilt.\nThis is Miki. She is from Japan. Look at her. She’s wearing a kimono.\nЭто Стив. Он из Шотландии. Шотландия является частью Великобритании. Посмотри на него. Он носит килт.\nЭто Мики. Она из Японии. Посмотри на неё. На ней кимоно.",
+      "answer": "Это Мики. Она из Японии. Посмотри на неё. На ней кимоно.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-90/"
+    },
+    {
+      "number": "91.2",
+      "section": "Страница 91",
+      "condition": "a) Read Olga’s text and find the words.\n1 a word that means clothes\n2 two colours\nb) Use this link http://gotourl.ru/12158 and say if there are some other colours in traditional Russian costumes.\na) Прочитай рассказ, который написала Ольга, и найди слова по подсказкам (1 – слово, название одежды; 2) – два слова, обозначающие цвет).\nb) Используй эту ссылку и скажи, есть ли другие цвета в традиционных русских костюмах.",
+      "solution": "These dancers are from Russia. They’re wearing traditional Russian costumes. Look. They’re wearing red and white dresses. Look at the colourful headdresses. They’re so lovely!\nЭти танцоры из России. Они одеты в традиционные русские костюмы. Смотри. На них красные и белые платья. Посмотрите на их разноцветные головные уборы. Они такие милые!\na) 1 costumes\n2 red, white\nb) golden colour, black, blue, green.\na) 1 костюмы\n2 красный, белый\nb) золотой, чёрный, синий и зелёный цвета.",
+      "answer": "b) золотой, чёрный, синий и зелёный цвета.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-91/"
+    },
+    {
+      "number": "91.3",
+      "section": "Страница 91",
+      "condition": "Answer the questions. Then write about traditional costumes in your region.\nОтветь на вопросы. Напиши о национальных костюмах своего родного края.\n1. Is there a traditional costume in your region?\n2. What colour is it?\n1. Есть ли в вашем регионе традиционный костюм?\n2. Какого он цвета?",
+      "solution": "1. Yes, there is. There is a traditional costume in Moscow.\n2. It’s white, red, golden, yellow, black, pink.\n1. Да, есть. В Москве есть традиционный костюм.\n2. Он белый. Красный, золотой, жёлтый, черный, розовый.",
+      "answer": "2. Он белый. Красный, золотой, жёлтый, черный, розовый.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-91/"
+    },
+    {
+      "number": "92.1",
+      "section": "Страница 92",
+      "condition": "Ксения Кудряшева\nЗадание в низу станицы.\nListen and read the story.\nПрослушай и прочитай окончание сказки.",
+      "solution": "“Please, don’t be angry, dear fish! Now my wife wants to be Queen of the Land and Sea,” says the fisherman. “And she wants you to be her servant!” The golden fish does not answer. It turns and swims far away. The old man calls and calls. He waits all day, but the fish does not come back again.The old man feels very sad and he goes back home. He can’t see the palace. He can’t see the guards. He can’t see the servants! All he can see is his small house. His wife is poor again and she is wearing old clothes. In front of her is the dirty old bucket.\n«Милая рыбка, прошу тебя не обижайся! В настоящее время моя супруга воспылала желанием быть владычицей суши и моря», – говорит старик. «Она хочет, чтобы ты была ее верным слугой!» Золотая рыбка не произнесла ни слова. Она разворачивается, уплывает далеко-далеко. Мужчина призывает и зовет золотую рыбку. В течение целого дня он ждет возвращения рыбки, но этого не происходит. По возвращении домой, старик чувствует себя очень грустно. На данный момент он не может разглядеть дворец. Его глаза не видят охранников. Он даже не подозревает о существовании слуг! Он видит лишь свой старый дом. Он обнаружил, что его жена стала бедной и одета в старые вещи. В ее поле зрения только старое грязное ведро.",
+      "answer": "«Милая рыбка, прошу тебя не обижайся! В настоящее время моя супруга воспылала желанием быть владычицей суши и моря», – говорит старик. «Она хочет, чтобы ты была ее верным слугой!» Золотая рыбка не произнесла ни слова. Она разворачивается, уплывает далеко-далеко. Мужчина призывает и зовет золотую рыбку. В течение целого дня он ждет возвращения рыбки, но этого не происходит. По возвращении домой, старик чувствует себя очень грустно. На данный момент он не может разглядеть дворец. Его глаза не видят охранников. Он даже не подозревает о существовании слуг! Он видит лишь свой старый дом. Он обнаружил, что его жена стала бедной и одета в старые вещи. В ее поле зрения только старое грязное ведро.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-92/"
+    },
+    {
+      "number": "93.1",
+      "section": "Страница 93",
+      "condition": "Go through the whole story and write what the fisherman’s wife wants.\nПрочитай всю сказку ещё раз и напиши все желания жены рыбака.\n1 I want a new bucket!\n2 ...\n3 ...\n4 ...\n5 ...\n6 ...",
+      "solution": "1 I want a new bucket!\n2 I want a new house!\n3 I want to be rich! / I want jewelry / I want new clothes!\n4 I want to be a Queen of the Land!\n5 I want to be a Queen of the Land and Sea!\n6 I want the golden fish to be my servant!\n1 Я хочу новое корыто!\n2 Я хочу новый дом!\n3 Я стать богатой! / Я хочу украшения! / Я хочу новую одежду!\n4 Я хочу стать Владычицей Суши (Земли)!\n5 Я хочу стать Владычицей Земли и Моря (Владычицей Морской)!\n6 Я хочу, чтобы золотая рыбка была моей слугой!",
+      "answer": "6 Я хочу, чтобы золотая рыбка была моей слугой!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-93/"
+    },
+    {
+      "number": "93.2",
+      "section": "Страница 93",
+      "condition": "Write words that begin with each letter of the word.\nНапиши по 3 слова, которые начинаются с каждой из букв существительного fisherman.",
+      "solution": "F: fish, four, fruit.\nI: ice, island, item.\nS: sun, star, snow.\nH: house, hat, high.\nE: Earth, egg, end.\nR: red, read, rain.\nM: monkey, music, mouse.\nA: and, angry, apple.\nN: name, neck, nose.\nF: рыба, четыре, фрукт.\nI: лёд, остров, предмет.\nS: солнце. Звезда, снег.\nH: дом, шляпа, высокий.\nE: Земля, яйцо, конец.\nR: красный, читать, дождь.\nM: обезьяна, музыка, мышь.\nA: и, злой, яблоко.\nN: имя, шея, нос.",
+      "answer": "N: имя, шея, нос.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-93/"
+    },
+    {
+      "number": "93.3",
+      "section": "Страница 93",
+      "condition": "Draw the front cover of the story.\nНарисуй обложку книги «Сказка о рыбаке и рыбке».",
+      "solution": "Draw it on your own.\nНарисуй по своему усмотрению.",
+      "answer": "Нарисуй по своему усмотрению.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-93/"
+    },
+    {
+      "number": "94.4",
+      "section": "Страница 94",
+      "condition": "Listen and sing.\nПрослушай песенку и спой её.",
+      "solution": "Say thank you\nWhen people are kind\nDon’t be like the\nOld fisherman’s wife!\nBe kind when you can\nAnd be good,\nDon’t be mean\nAnd don’t be rude!\nГовори спасибо,\nКогда люди добры\nНе будь, как\nЖена старого рыбака!\nБудь добр, когда можешь,\nИ будь хорошим, не будь подлым,\nИ не будь грубым!",
+      "answer": "И не будь грубым!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-94/"
+    },
+    {
+      "number": "95.1",
+      "section": "Страница 95",
+      "condition": "Read the words and the text to your friend.\nПрочитай слова и текст своим одноклассникам.\n/u:/ you, rude, boots, shoes, room, food, fool, hooves, do.\nPuss in Boots\nPuss is a magic cat. He is very clever. He isn’t a fool! Puss is wearing a big hat and red boots. “What do you want, Master?” says Puss to Bruce. “I want new shoes and some food,” says Bruce. “OK,” says Puss. “Here you are!",
+      "solution": "/u:/ you, rude, boots, shoes, room, food, fool, hooves, do.\nPuss in Boots\nPuss is a magic cat. He is very clever. He isn’t a fool! Puss is wearing a big hat and red boots. “What do you want, Master?” says Puss to Bruce. “I want new shoes and some food,” says Bruce. “OK,” says Puss. “Here you are!\n/u:/ ты, грубый, сапоги, башмаки, комната, еда, дурак, копыта, делать.\nКот в сапогах\nКот – волшебный кот. Он очень умный. Он не дурак! На Коте большая шляпа и красные сапоги. «Чего ты хочешь, хозяин?» – спрашивает Кот Брюса. «Я хочу новые ботинки и немного еды», – говорит Брюс. «Хорошо», – говорит Кот. «Вот и ты!».",
+      "answer": "Кот – волшебный кот. Он очень умный. Он не дурак! На Коте большая шляпа и красные сапоги. «Чего ты хочешь, хозяин?» – спрашивает Кот Брюса. «Я хочу новые ботинки и немного еды», – говорит Брюс. «Хорошо», – говорит Кот. «Вот и ты!».",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-95/"
+    },
+    {
+      "number": "95.2",
+      "section": "Страница 95",
+      "condition": "Read the story and find the words.\nWrite them in your notebook.\nПрочитай рассказ, найди в нём слова, записанные в транскрипции, и напиши их в своей тетради.",
+      "solution": "1 /fɒks/ – fox.\n2 /zu:/ – Zoo.\n3 /haυs/ – house.\n4 /fa:m/ – farm.\n5 /pə’teitəυ/ – potato.\n6 /ə’raυnd/ – around (слова нет в тексте).\n7 /wᵌ:ld/ – world.\n8 /pυts/ – puts.\n9 /pᴐ:/ – paw.\n10 /ha:d/ – hard.\n11 /dʒᴧmps/ – jumps.\n12 /kᴧmz/ – comes.\n13 /aυt/ – out.\n14 /’steibl/ – stable.\n15 /ʃaυts/ – shouts.\n16 /gəυ/ – go.\n17 /’mᴧmi/ – mummy.\n18 /rait/ – right.\n1 /fɒks/ – лиса.\n2 /zu:/ – зоопарк.\n3 /haυs/ – дом.\n4 /fa:m/ – ферма.\n5 /pə’teitəυ/ – картофель.\n6 /ə’raυnd/ – вокруг (слова нет в тексте).\n7 /wᵌ:ld/ – мир.\n8 /pυts/ – кладёт.\n9 /pᴐ:/ – лапа.\n10 /ha:d/ – жёсткий.\n11 /dʒᴧmps/ – прыгает.\n12 /kᴧmz/ – приходит.\n13 /aυt/ – из.\n14 /’steibl/ – конюшня.\n15 /ʃaυts/ – кричит.\n16 /gəυ/ – уходить.\n17 /’mᴧmi/ – мамочка.\n18 /rait/ – прав.",
+      "answer": "18 /rait/ – прав.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-95/"
+    },
+    {
+      "number": "96.1",
+      "section": "Страница 96",
+      "condition": "Choose the right answers.\nПосмотри на картинки и выбери правильную подпись.",
+      "solution": "0 boots\n1 jacket\n2 hat\n3 shorts\n4 vest\n5 socks\n0 ботинки\n1 куртка\n2 шляпа\n3 шорты\n4 жилет\n5 носки\nГрамматика",
+      "answer": "Грамматика",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-96/"
+    },
+    {
+      "number": "96.2",
+      "section": "Страница 96",
+      "condition": "Complete the sentences.\nЗакончи предложения. Используй глаголы в скобках в нужном времени (Present Simple или Present Continuous).\n0 I (wear) am wearing my new dress today.\n1 It (not/rain) ... today.\n2 ... (they/play) football in the garden?\n3 Sam (sing) ... a lovely song.\n4 Tina and Sara (not/wear) ... their hats.\n5 ... (she/draw) a picture?\n6 We (read) ... a lovely book.",
+      "solution": "0 I am wearing my new dress today.\n1 It is not raining today.\n2 Are they playing football in the garden?\n3 Sam is singing a lovely song.\n4 Tina and Sara are not wearing their hats.\n5 Is she drawing a picture?\n6 We are reading a lovely book.\n0 Сегодня на мне надето моё новое платье.\n1 Сегодня не идёт дождь.\n2 Они играют в футбол в саду?\n3 Сэм поёт прекрасную песню.\n4 Тина и Сара не одеты в шляпы.\n5 Она рисует картину?\n6 Мы читаем прекрасную книгу.",
+      "answer": "6 Мы читаем прекрасную книгу.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-96/"
+    },
+    {
+      "number": "97.3",
+      "section": "Страница 97",
+      "condition": "Look, ask and answer.\nThen write in your notebook.\nПосмотри на картинки, по образцу составь вопросы и ответы. Напиши их в тетради.\n0 Is Becky wearing shorts? (wear)\nNo, she isn’t.\n1 ... football? (play)\nYes, ... .\n2 ... a red cap? (wear)\nYes, ... .\n3 ... the guitar? (play)\nNo, ... .\n4 ... a picture? (draw)\nYes, ... .",
+      "solution": "0 Is Becky wearing shorts?\nNo, she isn’t.\n1 Are Larry and Bob playing football?\nYes, they are.\n2 Is Kate wearing a red cap?\nYes, she is.\n3 Are Sara and Jill playing the guitar?\nNo, they are not.\n4 Is John drawing a picture?\nYes, he is.\n0 Бекки одета в шорты\nНет.\n1 Ларри и Боб играют в футбол?\nДа.\n2 Кэти носит красную кепку?\nДа.\n3 Сара и Джилл играют на гитаре?\nНет.\n4 Джон рисует картину?\nДа.\nЧтение и письмо",
+      "answer": "Чтение и письмо",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-97/"
+    },
+    {
+      "number": "97.4",
+      "section": "Страница 97",
+      "condition": "Read and answer. Write one-word answers.\nПрочитай вопросы и закончи ответы, добавив в каждый из них одно слово. Запиши ответы в тетрадь.\n0 0 How many children are there?\nfive.\n1 Where are the children?\nat ...\n2 What is the teacher drawing?\nA ...\n3 What is there at the window?\na ...\n4 Where is the girl standing?\non a ...",
+      "solution": "0 How many children are there?\nfive.\n1 Where are the children?\nat school.\n2 What is the teacher drawing?\nA vest.\n3 What is there at the window?\na mouse.\n4 Where is the girl standing?\non a chair.\n0 Сколько всего детей?\nПятеро.\n1 Где дети находятся?\nВ школе.\n2 Что рисует учитель?\nЖилет.\n3 Что в окне?\nМышь.\n4 Где стоит девочка?\nНа стуле.",
+      "answer": "На стуле.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-97/"
+    },
+    {
+      "number": "98.1",
+      "section": "Страница 98",
+      "condition": "Find 8 food items and write them in your notebook.\nUse the remaining letters to write the question.\nНайди в таблице восемь названий еды и напиши их в тетради. Составь из оставшихся букв вопрос и запиши его.",
+      "solution": "1 tomatoes\n2 lollipop\n3 cake\n4 sweets\n5 jam\n6 carrots\n7 pears\n8 oranges\nWhat is your favourite fruit?\n1 помидоры\n2 леденец на палочке\n3 торт\n4 сладости\n5 джем\n6 морковь\n7 груши\n8 апельсины\nКакой твой любимый фрукт?",
+      "answer": "Какой твой любимый фрукт?",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-98/"
+    },
+    {
+      "number": "98.2",
+      "section": "Страница 98",
+      "condition": "Find the presents to get to the party.\nНайди подарки, чтобы добраться до вечеринки.",
+      "solution": "START\nclock\nlamp\nrobot\nkitchen\npuppet\ntriangle\ntree\nnose\nsquare\nyo-yo\nbike\nhead\nrectangle\ncarrots\npeas\nTV\nFINISH\nСТАРТ\nчасы\nлампа\nробот\nкухня\nмарионетка\nтреугольник\nдерево\nнос\nквадрат\nйо-йо\nвелосипед\nголова\nпрямоугольник\nморковь\nгорох\nтелевизор\nФИНИШ",
+      "answer": "ФИНИШ",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-98/"
+    },
+    {
+      "number": "99.3",
+      "section": "Страница 99",
+      "condition": "Write the first letter of each word. What’s the sentence?\nПосмотри на картинки. Составь предложение, используя первую букву слов. Запиши в тетрадь.",
+      "solution": "Iguana\nLollipop\nOrange\nVegetables\nElephant\nEar\nNose\nGarden\nLeg\nIce cream\nSpider\nHat\nI love English.\nИгуана\nЛеденец на палочке\nАпельсин\nОвощи\nСлон\nУхо\nНос\nСад\nНога\nМороженое\nПаук\nШляпа\nЯ люблю английский.",
+      "answer": "Я люблю английский.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-99/"
+    },
+    {
+      "number": "99.4",
+      "section": "Страница 99",
+      "condition": "You are a reporter. Complete the questions, then ask your friend and write his/her answers in your notebook.\nСоставь вопросы, задай их своему однокласснику и запиши его/её ответы в тетрадь.\nHello. Can I ask you some questions?\n1 What is your name? – My name is ... .\n2 ... is your teacher? – My teacher is ... .\n3 ... is your favourite food? – My favourite food is ... .\n4 ... are you wearing today? – I’m wearing ... .\n5 ... is your favourite colour? – My favourite colour is ... .\n6 ... is your best friend? – My best friend is ... .",
+      "solution": "Hello. Can I ask you some questions?\n1 What is your name? – My name is Sam.\n2 Who is your teacher? – My teacher is Miss Smith.\n3 What is your favourite food? – My favourite food are carrots.\n4 What are you wearing today? – I’m wearing T-shirt, jeans, and jacket.\n5 What is your favourite colour? – My favourite colour is yellow.\n6 Who is your best friend? – My best friend is Tom.\nЗдравствуй. Могу я задать несколько вопросов?\n1 Как тебя зовут? – Меня зовут Сэм.\n2 Кто твой учитель? – Мой учитель Мисс Смит\n3 Какая твоя любимая еда? – Моя любимая еда – морковь.\n4 Что на тебе сегодня надето? – На мне джинсы, футболка, куртка.\n5 Какой твой любимый цвет? – Мой любимый цвет – жёлтый.\n6 Кто твой лучший друг? – Мой лучший друг – Том.",
+      "answer": "6 Кто твой лучший друг? – Мой лучший друг – Том.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-99/"
+    },
+    {
+      "number": "100.5",
+      "section": "Страница 100",
+      "condition": "Find the words.\nНайди в таблице эти слова и напиши их в тетради.",
+      "solution": "Birds\nRabbits\nFlowers\nWizards\nAnts\nButterflies\nFrogs\nFruit\nBees\nTrees\nVegetables\nElves\nПтицы\nКролики\nЦветы\nВолшебники\nМуравьи\nБабочки\nЛягушки\nФрукты\nПчелы\nДеревья\nОвощи\nЭльфы",
+      "answer": "Эльфы",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-100/"
+    },
+    {
+      "number": "100.6",
+      "section": "Страница 100",
+      "condition": "Find the words that are different. Write them in your notebook.\nНайди лишнее слово в каждом списке и напиши его в тетради.\n1 mummy\ndaddy\nkitchen\nsister\n2 circle\nhead\ntriangle\nsquare\n3 sing\nbike\nTV\nRobot\n4 carrots\npotatoes\npears\nautumn",
+      "solution": "1 mummy\ndaddy\nkitchen\nsister\nKitchen\n2 circle\nhead\ntriangle\nsquare\nHead\n3 sing\nbike\nTV\nRobot\nSing\n4 carrots\npotatoes\npears\nautumn\nAutumn\n1 мамочка\nпапочка\nкухня\nсестра\nКухня\n2 круг\nголова\nтреугольник\nквадрат\nГолова\n3 петь\nвелосипед\nтелевизор\nробот\nПеть\n4 морковь\nкартофель\nгруши\nосень\nОсень",
+      "answer": "Осень",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-100/"
+    },
+    {
+      "number": "101.7",
+      "section": "Страница 101",
+      "condition": "Read and match. Then write sentences.\nПрочитай имена детей и названия музыкальных инструментов. Напиши в тетради, на каком инструменте играет каждый ребенок.",
+      "solution": "Amber plays the tambourine.\nTara plays the guitar.\nIan plays the piano.\nDerek plays the recorder.\nAngela plays the triangle.\nDrusilla plays the drum.\nЭмбер играет на бубне.\nТара играет на гитаре.\nЯн играет на пианино.\nДерек играет на флейте.\nЭнджела играет на треугольнике.\nДрузилла играет на барабане.",
+      "answer": "Друзилла играет на барабане.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-101/"
+    },
+    {
+      "number": "101.8",
+      "section": "Страница 101",
+      "condition": "Read Mary’s e-mail and write about yourself.\nПрочитай электронное сообщение Мэри и напиши о себе, как показано в образце.",
+      "solution": "Hi\nMy name’s Mary.\nI’m nine years old.\nI’m from the UK.\nI live at 25, Green Hill.\nI play the drums. What are your hobbies?\nLove,\nMary.\nHi, my name’s Lilly. I’m eight years old. I’m from Russia. I live at, 2, Khodynskaya street.\nПривет\nМеня зовут Мэри.\nМне девять лет.\nЯ из Великобритании.\nЯ живу по адресу: Грин Хилл, 25.\nЯ играю на барабанах. Какие у тебя увлечения?\nС любовью,\nМэри.\nПривет. Меня зовут Лилли. Мне 8 лет. Я из России. Я живу по адресу: улица Ходынская, дом 2. Я играю на треугольнике.",
+      "answer": "Привет. Меня зовут Лилли. Мне 8 лет. Я из России. Я живу по адресу: улица Ходынская, дом 2. Я играю на треугольнике.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-101/"
+    },
+    {
+      "number": "102.9",
+      "section": "Страница 102",
+      "condition": "Look and spot the differences. Write them in your notebook.\nЧем отличаются картинки? Напиши в своей тетради, что ты видишь на каждой из них.\nIn picture A I can see three squares, ...\nIn picture B I can see ...",
+      "solution": "In picture A I can see three squares, four circles, two triangles and one rectangle.\nIn picture B I can see two squares, five circles and three triangles.\nНа картинке A я вижу три квадрата, четыре круга, два треугольника, и один прямоугольник.\nНа картинке B я вижу два квадрата, пять кругов и три треугольника.",
+      "answer": "На картинке B я вижу два квадрата, пять кругов и три треугольника.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-102/"
+    },
+    {
+      "number": "102.10",
+      "section": "Страница 102",
+      "condition": "Count and write in your notebook.\nРеши примеры. Составь предложения и напиши их в тетради.",
+      "solution": "Mark\n2/1/4\n1. Two and one and four is seven.  He’s got a ball.\nTom\n4/5/7\n2. Four and five and seven is sixteen. He’s got a robot.\nEric\n8/3/9\n3. Eight and three and nine is twenty. He’s got a computer.\nHelen\n4/2/4\n4. Four and two and four is ten. She’s got a puppet.\nМарк\n2/1/4\n1. Два, один и четыре – семь. У него есть мяч.\nТом\n4/5/7\n2. Четыре, пять, семь – шестнадцать. У него есть робот.\nЭрик\n8/3/9\n3. Восемь, три, девять – двадцать. У него есть компьютер.\nХелен\n4/2/4\nЧетыре, два, четыре – десять. У неё есть марионетка.",
+      "answer": "Четыре, два, четыре – десять. У неё есть марионетка.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-102/"
+    },
+    {
+      "number": "103.11",
+      "section": "Страница 103",
+      "condition": "Look, read and say yes or no.\nПосмотри на картинки и прочитай предложения. Скажи yes, если предложение правильное, или no, если предложение неправильное.\n1 It’s a bat.\n2 It’s a fish.\n3 It’s a cat.\n4 It’s a fox.\n5 It’s a spider.\n6 It’s a lizard.\n7 It’s a pony.\n8 It’s a frog.\n9 It’s a dog.\n10 It’s a koala.\n11 It’s a tiger.\n12 It’s a bird.\n13 It’s a zebra.\n14 It’s a snail.\n15 It’s a sheep.\n16 It’s a lion.\n17 It’s a caterpillar.\n18 It’s an elephant.",
+      "solution": "1 It’s a bat – yes.\n2 It’s a fish – no.\n3 It’s a cat – no.\n4 It’s a fox – yes.\n5 It’s a spider – yes.\n6 It’s a lizard – yes.\n7 It’s a pony – no.\n8 It’s a frog – no.\n9 It’s a dog – yes.\n10 It’s a koala – yes.\n11 It’s a tiger – yes.\n12 It’s a bird – no.\n13 It’s a zebra – no.\n14 It’s a snail – yes.\n15 It’s a sheep – no.\n16 It’s a lion – yes.\n17 It’s a caterpillar – yes.\n18 It’s an elephant – no.\n1 Это летучая мышь – да.\n2 Это рыба – нет.\n3 Это кошка – нет.\n4 Это лиса – да.\n5 Это паук – да.\n6 Это ящерица – да.\n7 Это пони – нет.\n8 Это лягушка – нет.\n9 Это собака – да.\n10 Это коала – да.\n11 Это тигр – да.\n12 Это птица – нет.\n13 Это зебра – нет.\n14 Это улитка – да.\n15 Это овца – нет.\n16 Это лев – да.\n17 Это гусеница – да.\n18 Это слон – нет.",
+      "answer": "18 Это слон – нет.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-103/"
+    },
+    {
+      "number": "105.1",
+      "section": "Страница 105",
+      "condition": "Complete the words in your notebook.\nЗакончи слова (1 – 12) и запиши их в тетрадь.\n1 b _ _ _\n2 f _ _ _\n3 h _ _ _\n4 b _ _ _ _ _ _\n5 c _ _ _ _ _ _ _ _\n6 c _ _\n7 p _ _ _\n8 D _ _ _ _\n9 M _ _ _ _\n10 h _ _\n11 p _ _ _ _\n12 s _ _ _ _ _\n13 o _ _ _ _ _ _\n14 c _ _ _ your h _ _ _ _\n15 a _ _ _ _ _\n16 s _ _ _ _ _\n17 l _ _ _\n18 w _ _ _ _ _\n19 s _ _ _ _ _\n20 j _ _ _ _\n21 d _ _ _\n22 b _ _ _\n23 c _ _ _ _ _ _ _",
+      "solution": "1 bird\n2 frog\n3 head\n4 bedroom\n5 chocolate\n6 cap\n7 peas\n8 Daddy\n9 Mummy\n10 hat\n11 piano\n12 sweets\n13 oranges\n14 clap your hands\n15 autumn\n16 summer\n17 lamp\n18 winter\n19 spring\n20 jeans\n21 drum\n22 bike\n23 computer\n1 птица\n2 лягушка\n3 голова\n4 спальня\n5 шоколад\n6 кепка\n7 горох\n8 Папочка\n9 Мамочка\n10 шляпа\n11 пианино\n12 сладости\n13 апельсины\n14 хлопать в ладоши\n15 осень\n16 лето\n17 лампа\n18 зима\n19 весна\n20 джинсы\n21 барабан\n22 велосипед\n23 компьютер",
+      "answer": "23 компьютер",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-105/"
+    },
+    {
+      "number": "106.1",
+      "section": "СЧАСТЛИВОЙ ПАСХИ",
+      "condition": "Sing and do.\nПой и выполняй движения.",
+      "solution": "Here’s my Easter bunny rabbit,\nWhat a funny bunny!\nA little tail and long ears,\nMy bunny is so funny!\nmy Easter bunny rabbit,\nWhat a funny bunny!\nHe jumps here,\nHe jumps there,\nMy bunny is so funny!\nВот мой пасхальный кролик!\nКакой забавный кролик!\nС маленьким хвостиком и длинными ушами,\nМой кролик такой забавный!\nмой пасхальный кролик-крольчонок,\nКакой забавный кролик!\nОн прыгает здесь,\nОн прыгает там,\nМой кролик такой забавный!",
+      "answer": "Мой кролик такой забавный!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-106/"
+    },
+    {
+      "number": "107.2",
+      "section": "Страница 107",
+      "condition": "Count and match.\nРеши примеры и сложи пасхальные яйца в соответствующие корзинки.",
+      "solution": "A – 10.\nTwo and eight is ten.\nNine and one is ten.\nFife and five is ten.\nSix and four is ten.\nB – 15\nTwelve and three is fifteen.\nNine and six is fifteen.\nEight and seven is fifteen.\nTen and five is fifteen.\nC – 20\nFifteen and five is twenty.\nTen and ten is twenty.\nFourteen and six is twenty.\nNine and eleven is twenty.\nA – 10\nДва и восемь – десять.\nДевять и один – десять.\nПять и пять – десять.\nШесть и четыре – десять.\nB – 15\nДвенадцать и три – пятнадцать.\nДевять и шесть – пятнадцать.\nВосемь и семь – пятнадцать.\nДесять и пять – пятнадцать.\nC – 20\nПятнадцать и пять – двадцать.\nДесять и десять – двадцать.\nЧетырнадцать и шесть – двадцать.\nДевять и одиннадцать – двадцать.",
+      "answer": "Девять и одиннадцать – двадцать.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-107/"
+    },
+    {
+      "number": "107.3",
+      "section": "Страница 107",
+      "condition": "Use the template to make an Easter basket.\nСделай такую же пасхальную корзину, как показано на рисунке.",
+      "solution": "Сделать пасхальную корзину, согласно рисунку.",
+      "answer": "Сделать пасхальную корзину, согласно рисунку.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-107/"
+    },
+    {
+      "number": "108.1",
+      "section": "Страница 108",
+      "condition": "Find the extra letters. Answer the question in your notebook.\nНайди лишние буквы в каждом слове (1 – 6). Напиши их в тетради, чтобы получилось слово.\n1 flowersm\n2 abirds\n3 ytrees\n4 beesp\n5 butterflieso\n6 applesl\n7 erabbits",
+      "solution": "1 flowers – M\n2 birds – A\n3 trees – Y\n4 bees – P\n5 butterflies – O\n6 apples – L\n7 rabbits – E\nWhat is it? It’s a May Pole.\n1 цветы – M\n2 птицы – A\n3 деревья – Y\n4 пчёлы – P\n5 бабочки – O\n6 яблоки – L\n7 кролики – E.\nЧто это? Это Майское Дерево (Майский Столб)",
+      "answer": "Что это? Это Майское Дерево (Майский Столб)",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-108/"
+    },
+    {
+      "number": "109.2",
+      "section": "Страница 109",
+      "condition": "Make a crown for May Day.\nСделай корону к Празднику весны и труда.",
+      "solution": "Сделай любую понравившуюся корону.",
+      "answer": "Сделай любую понравившуюся корону.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-109/"
+    },
+    {
+      "number": "109.3",
+      "section": "Страница 109",
+      "condition": "Sing and do.\nПой и повторяй движения.",
+      "solution": "Ring around the Maypole,\nDance around and around\nButterflies and flowers,\nWe all fall down!\nКружите вокруг майского дерева,\nтанцуйте круг за кругом\nБабочки и цветы,\nМы все падаем вниз!",
+      "answer": "Мы все падаем вниз!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-baranova/2-chast-stranitsa-109/"
+    }
+  ],
+  "part": 2
+}

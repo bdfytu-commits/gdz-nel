@@ -1,35 +1,36 @@
 /* =========================================================
-   service worker ГДЗ НЭЛ — v6 (Ф15, Ф29, контурные карты)
+   service worker ГДЗ НЭЛ — v12 (офлайн-учебники + IndexedDB)
 
    стратегии:
-     - навигация (HTML) — Network First, офлайн из кэша
-     - JSON данных (app/data/*.json) — Stale-While-Revalidate
-     - картинки — Cache First (включая решения с внешнего источника
-       и локальные сканы контурных карт из app/data/.../img/)
+     - навигация — Network First; офлайн: кэш → offline.html
+     - JSON данных — Network First; офлайн: IndexedDB (скачанный
+       учебник) → кэш
+     - картинки — Cache First → IndexedDB (Blob) → сеть
      - шрифты — Cache First
-     - чужие домены, кроме картинок (Supabase REST и прочие API) —
-       только сеть, без кэша: иначе «живые» данные (отзывы, лайки)
-       навсегда залипают в старом состоянии
      - остальная статика — Cache First
 
-   обновление: новая версия ждёт, страница показывает кнопку
-   «Обновить» и шлёт SKIP_WAITING (Ф15.8).
+   Явно скачанные учебники лежат в IndexedDB (gdz-nel-offline),
+   поэтому работают даже после очистки HTTP-кэша.
    ========================================================= */
 
-const VERSION = 'gdz-nel-v11';
+const VERSION = 'gdz-nel-v12';
 const STATIC_CACHE = VERSION + '-static';
 const DATA_CACHE = VERSION + '-data';
-const IMAGE_CACHE = VERSION + '-images';
-const FONT_CACHE = VERSION + '-fonts';
+const IMAGE_CACHE = VERSION + '-image';
+const FONT_CACHE = VERSION + '-font';
+const OFFLINE_URL = './offline.html';
 
 const PRECACHE = [
   './',
   './index.html',
+  './offline.html',
   './assets/style.css',
   './assets/script.js',
+  './assets/offline-db.js',
   './manifest.json',
   './data/catalog.json',
   './data/stats.json',
+  '../offline.html',
   '../index.html',
   '../auth.html',
   '../profile.html',
@@ -43,6 +44,7 @@ const PRECACHE = [
   '../assets/script.js',
   '../assets/supabase.js',
   '../assets/analytics.js',
+  '../assets/offline-profile.js',
   '../assets/vendor/fuse.min.js',
   '../favicon.ico',
   '../favicon.svg',
@@ -134,9 +136,114 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
+  // Страховка для картинок без CORS: страница не может прочитать Blob,
+  // но service worker может положить opaque-ответ в Cache API.
+  if (event.data && event.data.type === 'CACHE_IMAGES' && Array.isArray(event.data.urls)) {
+    event.waitUntil(cacheOpaqueImages(event.data.urls.slice(0, 40)));
+  }
 });
 
-// сеть, при обрыве — кэш
+async function cacheOpaqueImages(urls) {
+  const cache = await caches.open(IMAGE_CACHE);
+  for (const url of urls) {
+    try {
+      const response = await fetch(url, { mode: 'no-cors' });
+      if (response) await cache.put(url, response);
+    } catch (err) { /* источник недоступен — пропускаем */ }
+  }
+}
+
+/* ---------- IndexedDB (та же база, что и у страницы) ---------- */
+
+function openOfflineDB() {
+  return new Promise((resolve) => {
+    if (!self.indexedDB) { resolve(null); return; }
+    const request = indexedDB.open('gdz-nel-offline', 1);
+    request.onupgradeneeded = () => {
+      const db = request.result;
+      if (!db.objectStoreNames.contains('books')) db.createObjectStore('books', { keyPath: 'file' });
+      if (!db.objectStoreNames.contains('tasks')) {
+        const store = db.createObjectStore('tasks', { keyPath: 'key' });
+        store.createIndex('file', 'file', { unique: false });
+      }
+      if (!db.objectStoreNames.contains('images')) {
+        const store = db.createObjectStore('images', { keyPath: 'url' });
+        store.createIndex('file', 'file', { unique: false });
+      }
+    };
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => resolve(null);
+  });
+}
+
+function idbRequest(request) {
+  return new Promise((resolve, reject) => {
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error);
+  });
+}
+
+async function getBookFromIDB(file) {
+  const db = await openOfflineDB();
+  if (!db) return null;
+  try {
+    const tx = db.transaction('tasks', 'readonly');
+    const rows = await idbRequest(tx.objectStore('tasks').index('file').getAll(IDBKeyRange.only(file)));
+    if (!rows || !rows.length) return null;
+    rows.sort((a, b) => a.index - b.index);
+    return { tasks: rows.map((row) => row.data) };
+  } catch (err) {
+    return null;
+  }
+}
+
+async function hasOfflineBooks() {
+  const db = await openOfflineDB();
+  if (!db) return false;
+  try {
+    const tx = db.transaction('books', 'readonly');
+    const count = await idbRequest(tx.objectStore('books').count());
+    return count > 0;
+  } catch (err) {
+    return false;
+  }
+}
+
+// Cloudflare Pages редиректит offline.html → offline. Ответ с редиректом
+// нельзя отдавать на навигацию (браузер даёт net::ERR_FAILED), поэтому
+// пересобираем обычный 200 из тела закэшированной страницы.
+async function withoutRedirect(response) {
+  if (!response || !response.redirected) return response;
+  const body = await response.blob();
+  return new Response(body, {
+    status: 200,
+    headers: { 'content-type': 'text/html; charset=utf-8' }
+  });
+}
+
+async function getOfflinePage() {
+  const cached = await caches.match(OFFLINE_URL, { ignoreSearch: true });
+  if (!cached) return null;
+  return new Response(await cached.text(), {
+    status: 200,
+    headers: { 'content-type': 'text/html; charset=utf-8' }
+  });
+}
+
+async function getImageFromIDB(url) {
+  const db = await openOfflineDB();
+  if (!db) return null;
+  try {
+    const tx = db.transaction('images', 'readonly');
+    const row = await idbRequest(tx.objectStore('images').get(url));
+    return row ? row.blob : null;
+  } catch (err) {
+    return null;
+  }
+}
+
+/* ---------- стратегии ---------- */
+
 async function networkFirst(request, cacheName) {
   const cache = await caches.open(cacheName);
   try {
@@ -144,13 +251,21 @@ async function networkFirst(request, cacheName) {
     if (fresh && fresh.ok) cache.put(request, fresh.clone());
     return fresh;
   } catch (err) {
-    const cached = await cache.match(request);
+    const cached = await cache.match(request, { ignoreSearch: true });
     if (cached) return cached;
     throw err;
   }
 }
 
-// кэш сразу, сеть — в фоне (данные обновятся к следующему заходу)
+async function cacheFirst(request, cacheName) {
+  const cache = await caches.open(cacheName);
+  const cached = await cache.match(request, { ignoreSearch: true });
+  if (cached) return cached;
+  const fresh = await fetch(request);
+  if (fresh && (fresh.ok || fresh.type === 'opaque')) cache.put(request, fresh.clone());
+  return fresh;
+}
+
 async function staleWhileRevalidate(request, cacheName) {
   const cache = await caches.open(cacheName);
   const cached = await cache.match(request);
@@ -161,35 +276,104 @@ async function staleWhileRevalidate(request, cacheName) {
   return cached || network;
 }
 
-// кэш, при промахе — сеть (и кладём в кэш)
-async function cacheFirst(request, cacheName) {
-  const cache = await caches.open(cacheName);
+/* ---------- данные приложения ---------- */
+
+async function dataHandler(request) {
+  const cache = await caches.open(DATA_CACHE);
+  try {
+    const fresh = await fetch(request);
+    if (fresh && fresh.ok) cache.put(request, fresh.clone());
+    return fresh;
+  } catch (err) {
+    const url = new URL(request.url);
+    const marker = '/app/data/';
+    const index = url.pathname.indexOf(marker);
+    if (index !== -1) {
+      const file = url.pathname.slice(index + marker.length);
+      if (!/^(catalog|stats|search-index)\.json$/.test(file) && !file.startsWith('search/')) {
+        const book = await getBookFromIDB(file);
+        if (book) {
+          return new Response(JSON.stringify(book), {
+            status: 200,
+            headers: { 'content-type': 'application/json; charset=utf-8', 'x-gdz-source': 'indexeddb' }
+          });
+        }
+      }
+    }
+    const cached = await cache.match(request, { ignoreSearch: true });
+    if (cached) return cached;
+    throw err;
+  }
+}
+
+async function imageHandler(request) {
+  const cache = await caches.open(IMAGE_CACHE);
   const cached = await cache.match(request, { ignoreSearch: true });
   if (cached) return cached;
 
-  const fresh = await fetch(request);
-  // opaque — картинки и шрифты с чужих CDN без CORS
-  if (fresh && (fresh.ok || fresh.type === 'opaque')) {
-    cache.put(request, fresh.clone());
+  const blob = await getImageFromIDB(request.url);
+  if (blob) {
+    return new Response(blob, {
+      status: 200,
+      headers: {
+        'content-type': blob.type || 'image/png',
+        'cache-control': 'public, max-age=86400',
+        'x-gdz-source': 'indexeddb'
+      }
+    });
   }
+
+  const fresh = await fetch(request);
+  if (fresh && (fresh.ok || fresh.type === 'opaque')) cache.put(request, fresh.clone());
   return fresh;
 }
 
-// переходы: сеть, офлайн — страница из кэша
+/* ---------- навигация ---------- */
+
 async function navigationHandler(request) {
+  const requestUrl = new URL(request.url);
+  if (
+    self.navigator && self.navigator.onLine === false &&
+    requestUrl.pathname.indexOf('/app/') === 0 &&
+    !requestUrl.pathname.endsWith('/offline.html')
+  ) {
+    const books = await hasOfflineBooks();
+    if (!books) {
+      const offlinePage = await getOfflinePage();
+      if (offlinePage) return offlinePage;
+    }
+  }
   try {
-    const fresh = await fetch(request);
+    // no-store: не даём HTTP-кэшу замаскировать отсутствие сети
+    const fresh = await fetch(request, { cache: 'no-store' });
     if (fresh && fresh.ok) {
       const cache = await caches.open(STATIC_CACHE);
       cache.put(request, fresh.clone());
     }
     return fresh;
   } catch (err) {
+    const url = new URL(request.url);
+    // нет сети и ни одного скачанного учебника — показываем offline.html,
+    // а не пустую оболочку приложения
+    if (url.pathname.indexOf('/app/') === 0 && !url.pathname.endsWith('/offline.html')) {
+      const books = await hasOfflineBooks();
+      if (!books) {
+        const offlinePage = await getOfflinePage();
+        if (offlinePage) return offlinePage;
+      }
+    }
     const cached = await caches.match(request, { ignoreSearch: true });
-    if (cached) return cached;
-    const fallback = await caches.match('./index.html') || await caches.match('./');
-    if (fallback) return fallback;
-    throw err;
+    if (cached) return withoutRedirect(cached);
+    const shell = await caches.match('./index.html') || await caches.match('./');
+    if (shell) return withoutRedirect(shell);
+    const offline = await getOfflinePage();
+    if (offline) return offline;
+    return new Response(
+      '<!doctype html><html lang="ru"><meta charset="utf-8"><title>Нет сети — ГДЗ НЭЛ</title>' +
+      '<body style="font-family:system-ui;padding:40px"><h1>Нет подключения</h1>' +
+      '<p>Откройте приложение онлайн хотя бы раз и скачайте учебники для офлайна.</p></body></html>',
+      { status: 200, headers: { 'content-type': 'text/html; charset=utf-8' } }
+    );
   }
 }
 
@@ -199,24 +383,24 @@ self.addEventListener('fetch', (event) => {
 
   const url = new URL(request.url);
 
-  // чужие домены: кэшируем только картинки (решения с внешнего источника),
-  // всё остальное (Supabase REST и прочие API) — всегда через сеть
+  // чужие домены: кэшируем и отдаём из IndexedDB только картинки,
+  // остальное (Supabase REST и API) — всегда через сеть
   if (url.origin !== self.location.origin) {
     if (request.destination === 'image') {
-      event.respondWith(cacheFirst(request, IMAGE_CACHE));
+      event.respondWith(imageHandler(request).catch(() => fetch(request)));
     }
     return;
   }
 
-  // данные приложения (json): сначала кэш, свежее — в фоне
+  // данные приложения (json): сеть, офлайн — IndexedDB/кэш
   if (url.pathname.includes('/app/data/') && !/\.(png|jpe?g|webp|gif|svg|ico)$/i.test(url.pathname)) {
-    event.respondWith(staleWhileRevalidate(request, DATA_CACHE));
+    event.respondWith(dataHandler(request));
     return;
   }
 
-  // картинки (включая решения с внешнего источника): cache first
+  // картинки: кэш → IndexedDB → сеть
   if (request.destination === 'image' || /\.(png|jpe?g|webp|gif|svg|ico)$/i.test(url.pathname)) {
-    event.respondWith(cacheFirst(request, IMAGE_CACHE));
+    event.respondWith(imageHandler(request));
     return;
   }
 

@@ -250,7 +250,7 @@ SUBJECT_MAP = {
 
 
 def map_subject(source_subject: str, grade: int) -> str:
-    if source_subject == "biologiya" and grade in (3, 4):
+    if source_subject == "biologiya" and grade in (1, 2, 3, 4):
         return "world"
     return SUBJECT_MAP[source_subject]
 

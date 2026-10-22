@@ -159,3 +159,31 @@ supabase functions deploy solve-photo
 у него `is_admin = true`. Пароль админа уже сменён 20.10.2026 (старый был
 засвечен в публичном репозитории); при необходимости — Dashboard → Users →
 Reset password.
+
+## OG-картинки: `generate-og`
+
+Функция лежит в `supabase/functions/generate-og/index.ts`, но **не задеплоена**.
+Она отдаёт SVG 1200×630 по query-параметрам `title`, `subtitle`, `badge`.
+
+Для деплоя нужны:
+
+- `SUPABASE_ACCESS_TOKEN` — personal access token из Supabase Dashboard →
+  Account → Access Tokens;
+- project ref `qncqeoklwblztbnoktwk` (или `supabase link --project-ref ...`);
+- Supabase CLI;
+- для PNG-площадок (Telegram/VK) — либо статические `seo/og/*.png`, либо
+  отдельный рендер SVG → PNG (resvg-wasm). Сейчас используются статические PNG.
+
+Команды:
+
+```bash
+supabase link --project-ref qncqeoklwblztbnoktwk
+supabase functions deploy generate-og --no-verify-jwt
+```
+
+Секреты функции не нужны: она не обращается к БД. Проверка после деплоя:
+
+```bash
+curl -sI 'https://qncqeoklwblztbnoktwk.supabase.co/functions/v1/generate-og?title=ГДЗ%20НЭЛ'
+# content-type: image/svg+xml
+```

@@ -1,6 +1,309 @@
 {
   "grades": [
     {
+      "id": "1",
+      "title": "1 класс",
+      "active": true,
+      "subjects": [
+        {
+          "id": "math",
+          "title": "Математика",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "dorofeev-1-1",
+              "title": "Дорофеев. Часть 1",
+              "author": "Дорофеев Г. В., Миракова Т. Н., Бука Т. Б",
+              "year": "2014-2022",
+              "file": "math/dorofeev-1-1.json"
+            },
+            {
+              "id": "dorofeev-1-2",
+              "title": "Дорофеев. Часть 2",
+              "author": "Дорофеев Г. В., Миракова Т. Н., Бука Т. Б",
+              "year": "2014-2022",
+              "file": "math/dorofeev-1-2.json"
+            }
+          ],
+          "icon": "math"
+        },
+        {
+          "id": "russian",
+          "title": "Русский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "aleksandrova-1",
+              "title": "Александрова",
+              "author": "Александрова О. М., Вербицкая Л. А. и др",
+              "year": "2026",
+              "file": "russian/aleksandrova-1.json"
+            },
+            {
+              "id": "kanakina-1",
+              "title": "Канакина",
+              "author": "Канакина В. П., Горецкий В. Г",
+              "year": "2019-2024",
+              "file": "russian/kanakina-1.json"
+            }
+          ],
+          "icon": "russian"
+        },
+        {
+          "id": "world",
+          "title": "Окружающий мир",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "pleshakov-1-1",
+              "title": "Плешаков. Часть 1",
+              "author": "Плешаков А. А",
+              "year": "2021-2023",
+              "file": "world/pleshakov-1-1.json"
+            },
+            {
+              "id": "pleshakov-1-2",
+              "title": "Плешаков. Часть 2",
+              "author": "Плешаков А. А",
+              "year": "2021-2023",
+              "file": "world/pleshakov-1-2.json"
+            }
+          ],
+          "icon": "world"
+        },
+        {
+          "id": "literature",
+          "title": "Литературное чтение",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "klimanova-1-1",
+              "title": "Климанова. Литературное чтение 1. Часть 1",
+              "author": "Климанова Л. Ф., Горецкий В. Г., Голованова М. В. и др",
+              "year": "2026",
+              "file": "literature/klimanova-1-1.json"
+            },
+            {
+              "id": "klimanova-1-2",
+              "title": "Климанова. Литературное чтение 1. Часть 2",
+              "author": "Климанова Л. Ф., Горецкий В. Г., Голованова М. В. и др",
+              "year": "2026",
+              "file": "literature/klimanova-1-2.json"
+            }
+          ],
+          "icon": "literature"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "2 класс",
+      "active": true,
+      "subjects": [
+        {
+          "id": "math",
+          "title": "Математика",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "dorofeev-2-1",
+              "title": "Дорофеев. Часть 1",
+              "author": "Дорофеев Г. В., Миракова Т. Н., Бука Т. Б",
+              "year": "2019-2021",
+              "file": "math/dorofeev-2-1.json"
+            },
+            {
+              "id": "dorofeev-2-2",
+              "title": "Дорофеев. Часть 2",
+              "author": "Дорофеев Г. В., Миракова Т. Н., Бука Т. Б",
+              "year": "2019-2021",
+              "file": "math/dorofeev-2-2.json"
+            },
+            {
+              "id": "moro-2-587-1",
+              "title": "Моро. Часть 1",
+              "author": "Моро",
+              "year": "2020",
+              "file": "math/moro-2-587-1.json"
+            },
+            {
+              "id": "moro-2-587-2",
+              "title": "Моро. Часть 2",
+              "author": "Моро",
+              "year": "2020",
+              "file": "math/moro-2-587-2.json"
+            }
+          ],
+          "icon": "math"
+        },
+        {
+          "id": "russian",
+          "title": "Русский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "aleksandrova-2",
+              "title": "Александрова",
+              "author": "Александрова О. М., Вербицкая Л. А. и др",
+              "year": "2026",
+              "file": "russian/aleksandrova-2.json"
+            },
+            {
+              "id": "kanakina-2-1",
+              "title": "Канакина. Часть 1",
+              "author": "Канакина В. П., Горецкий В. Г",
+              "year": "2019-2026",
+              "file": "russian/kanakina-2-1.json"
+            },
+            {
+              "id": "kanakina-2-2",
+              "title": "Канакина. Часть 2",
+              "author": "Канакина В. П., Горецкий В. Г",
+              "year": "2019-2026",
+              "file": "russian/kanakina-2-2.json"
+            },
+            {
+              "id": "klimanova-2-1",
+              "title": "Климанова. Русский язык 2. Часть 1",
+              "author": "Климанова Л. Ф., Бабушкина Т. В",
+              "year": "2019",
+              "file": "russian/klimanova-2-1.json"
+            },
+            {
+              "id": "klimanova-2-2",
+              "title": "Климанова. Русский язык 2. Часть 2",
+              "author": "Климанова Л. Ф., Бабушкина Т. В",
+              "year": "2019",
+              "file": "russian/klimanova-2-2.json"
+            }
+          ],
+          "icon": "russian"
+        },
+        {
+          "id": "english",
+          "title": "Английский язык",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "afanaseva-2-1",
+              "title": "Афанасьева. Часть 1",
+              "author": "Афанасьева О. В., Михеева И. В",
+              "year": "2020-2024",
+              "file": "english/afanaseva-2-1.json"
+            },
+            {
+              "id": "afanaseva-2-2",
+              "title": "Афанасьева. Часть 2",
+              "author": "Афанасьева О. В., Михеева И. В",
+              "year": "2020-2024",
+              "file": "english/afanaseva-2-2.json"
+            },
+            {
+              "id": "baranova-2-1",
+              "title": "Баранова. Часть 1",
+              "author": "Баранова К. М., Дули Д., Копылова В. В",
+              "year": "2023",
+              "file": "english/baranova-2-1.json"
+            },
+            {
+              "id": "baranova-2-2",
+              "title": "Баранова. Часть 2",
+              "author": "Баранова К. М., Дули Д., Копылова В. В",
+              "year": "2023",
+              "file": "english/baranova-2-2.json"
+            },
+            {
+              "id": "enjoy-english-biboletova-m-z-2012-2",
+              "title": "Биболетова. Enjoy English 2",
+              "author": "Биболетова М.З., Денисенко О.А., Трубанева Н.Н.",
+              "year": "2016-2023",
+              "file": "english/enjoy-english-biboletova-m-z-2012-2.json"
+            },
+            {
+              "id": "bykova-2-1",
+              "title": "Быкова. Часть 1",
+              "author": "Быкова Н. И., Дули Д., Поспелова М. Д",
+              "year": "2023-2026",
+              "file": "english/bykova-2-1.json"
+            },
+            {
+              "id": "bykova-2-2",
+              "title": "Быкова. Часть 2",
+              "author": "Быкова Н. И., Дули Д., Поспелова М. Д",
+              "year": "2023-2026",
+              "file": "english/bykova-2-2.json"
+            },
+            {
+              "id": "verbitskaya-2-1",
+              "title": "Вербицкая. Часть 1",
+              "author": "Вербицкая и др",
+              "year": "2020",
+              "file": "english/verbitskaya-2-1.json"
+            },
+            {
+              "id": "verbitskaya-2-2",
+              "title": "Вербицкая. Часть 2",
+              "author": "Вербицкая и др",
+              "year": "2020",
+              "file": "english/verbitskaya-2-2.json"
+            },
+            {
+              "id": "brilliant-komarova-2",
+              "title": "Комарова, Ларионова. Brilliant 2",
+              "author": "Комарова Ю.А., Ларионова И.В., Перретт Ж.",
+              "year": "2013",
+              "file": "english/brilliant-komarova-2.json"
+            }
+          ],
+          "icon": "english"
+        },
+        {
+          "id": "world",
+          "title": "Окружающий мир",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "pleshakov-2-1",
+              "title": "Плешаков. Часть 1",
+              "author": "Плешаков",
+              "year": "2023",
+              "file": "world/pleshakov-2-1.json"
+            },
+            {
+              "id": "pleshakov-2-2",
+              "title": "Плешаков. Часть 2",
+              "author": "Плешаков",
+              "year": "2023",
+              "file": "world/pleshakov-2-2.json"
+            }
+          ],
+          "icon": "world"
+        },
+        {
+          "id": "literature",
+          "title": "Литературное чтение",
+          "active": true,
+          "textbooks": [
+            {
+              "id": "klimanova-literature-2-1",
+              "title": "Климанова. Литературное чтение 2. Часть 1",
+              "author": "Климанова Л. Ф., Горецкий В. Г. и др",
+              "year": "2021-2026",
+              "file": "literature/klimanova-2-1.json"
+            },
+            {
+              "id": "klimanova-literature-2-2",
+              "title": "Климанова. Литературное чтение 2. Часть 2",
+              "author": "Климанова Л. Ф., Горецкий В. Г. и др",
+              "year": "2021-2026",
+              "file": "literature/klimanova-2-2.json"
+            }
+          ],
+          "icon": "literature"
+        }
+      ]
+    },
+    {
       "id": "3",
       "title": "3 класс",
       "active": true,
@@ -23,20 +326,6 @@
               "author": "Башмаков, Нефедова",
               "year": "2024",
               "file": "math/bashmakov-3-630.json"
-            },
-            {
-              "id": "bashmakov-3-630-1",
-              "title": "Башмаков. Часть 1",
-              "author": "Башмаков, Нефедова",
-              "year": "2024",
-              "file": "math/bashmakov-3-630-1.json"
-            },
-            {
-              "id": "bashmakov-3-630-2",
-              "title": "Башмаков. Часть 2",
-              "author": "Башмаков, Нефедова",
-              "year": "2024",
-              "file": "math/bashmakov-3-630-2.json"
             },
             {
               "id": "davydov-3-665",
@@ -114,20 +403,6 @@
               "author": "Рудницкая, Юдачева",
               "year": "2024",
               "file": "math/rudnitskaya-3-436.json"
-            },
-            {
-              "id": "rudnitskaya-3-436-1",
-              "title": "Рудницкая. Часть 1",
-              "author": "Рудницкая, Юдачева",
-              "year": "2024",
-              "file": "math/rudnitskaya-3-436-1.json"
-            },
-            {
-              "id": "rudnitskaya-3-436-2",
-              "title": "Рудницкая. Часть 2",
-              "author": "Рудницкая, Юдачева",
-              "year": "2024",
-              "file": "math/rudnitskaya-3-436-2.json"
             },
             {
               "id": "chekin-3-314-1",
@@ -625,20 +900,6 @@
               "file": "math/muravin-4-903.json"
             },
             {
-              "id": "muravin-4-903-1",
-              "title": "Муравин. Часть 1",
-              "author": "Муравин",
-              "year": "2024",
-              "file": "math/muravin-4-903-1.json"
-            },
-            {
-              "id": "muravin-4-903-2",
-              "title": "Муравин. Часть 2",
-              "author": "Муравин",
-              "year": "2024",
-              "file": "math/muravin-4-903-2.json"
-            },
-            {
               "id": "peterson-4-73",
               "title": "Петерсон",
               "author": "Петерсон",
@@ -651,13 +912,6 @@
               "author": "Рудницкая, Юдачева",
               "year": "2024",
               "file": "math/rudnitskaya-4-113.json"
-            },
-            {
-              "id": "rudnitskaya-4-113-1",
-              "title": "Рудницкая. Часть 1",
-              "author": "Рудницкая, Юдачева",
-              "year": "2024",
-              "file": "math/rudnitskaya-4-113-1.json"
             },
             {
               "id": "chekin-4-802",
@@ -4435,6 +4689,13 @@
               "author": "Афанасьева О. В., Дули Д., Михеева И. В. и др",
               "year": "2026",
               "file": "english/afanaseva-11.json"
+            },
+            {
+              "id": "reshebnik-enjoy-english-biboletova-2014-11",
+              "title": "Биболетова. Enjoy English 11",
+              "author": "Биболетова М.З., Бабушис Е.Е., Снежко Н.Д.",
+              "year": "2015-2017",
+              "file": "english/reshebnik-enjoy-english-biboletova-2014-11.json"
             }
           ],
           "icon": "english"
@@ -4530,6 +4791,13 @@
               "author": "Мякишев Г.Я., Буховцев Б.Б., Чаругин В.М.",
               "year": "2018",
               "file": "physics/myakishev-11.json"
+            },
+            {
+              "id": "rymkevich-11",
+              "title": "Рымкевич. Физика 10–11, задачник",
+              "author": "А.П. Рымкевич",
+              "year": "2016",
+              "file": "physics/rymkevich-11.json"
             }
           ],
           "icon": "physics"
@@ -4545,6 +4813,13 @@
               "author": "Габриелян О. С",
               "year": "2022",
               "file": "chemistry/gabrielyan-11.json"
+            },
+            {
+              "id": "rudzitis-11",
+              "title": "Рудзитис. Химия 11",
+              "author": "Рудзитис Г.Е., Фельдман Ф.Г.",
+              "year": "2017",
+              "file": "chemistry/rudzitis-11.json"
             }
           ],
           "icon": "chemistry"
@@ -4576,6 +4851,13 @@
           "title": "История",
           "active": true,
           "textbooks": [
+            {
+              "id": "zagladin-11",
+              "title": "Загладин, Петров. История 11",
+              "author": "Загладин Н.В., Петров Ю.А.",
+              "year": "2024",
+              "file": "history/zagladin-11.json"
+            },
             {
               "id": "medinskiy-11",
               "title": "Мединский",

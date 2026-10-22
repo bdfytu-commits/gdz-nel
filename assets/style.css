@@ -1808,3 +1808,41 @@ h1, h2, h3 {
   #custom-controls:not([hidden]),
   .comment-item { animation: none !important; }
 }
+
+/* ---------- офлайн-учебники в профиле и offline.html ---------- */
+
+.offline-books {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.offline-book {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 16px;
+  padding: 12px 14px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-m);
+  background: var(--c-surface);
+}
+
+.offline-book-main { min-width: 0; }
+.offline-book-title { display: block; font-weight: 600; }
+.offline-book-meta { display: block; margin-top: 2px; font-size: 12px; color: var(--c-text-muted); }
+
+.offline-empty {
+  margin: 10px 0 0;
+  color: var(--c-text-muted);
+  font-size: 14px;
+}
+
+.offline-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

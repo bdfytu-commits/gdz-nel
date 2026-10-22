@@ -30,21 +30,39 @@ MANIFEST = DATA / "_gdzru_manifest.json"
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 
 BOOKS = [
-    ("10", "lebedev", "Лебедев. Литература 10"),
-    ("10", "zinin", "Зинин, Сахаров. Литература 10"),
-    ("10", "korovin-uglublennyj-uroven", "Коровин. Литература 10 (углублённый)"),
-    ("10", "kurdyumova", "Курдюмова. Литература 10"),
-    ("11", "mihajlov-2-chastyah-bazovyj-uroven", "Михайлов, Шайтанов. Литература 11"),
-    ("11", "zinin", "Зинин, Чалмаев. Литература 11"),
-    ("11", "korovin-uglublennyj-uroven", "Коровин. Литература 11 (углублённый)"),
-    ("11", "kurdyumova", "Курдюмова. Литература 11"),
+    ("10", "literature", "lebedev", "Лебедев. Литература 10"),
+    ("10", "literature", "zinin", "Зинин, Сахаров. Литература 10"),
+    ("10", "literature", "korovin-uglublennyj-uroven", "Коровин. Литература 10 (углублённый)"),
+    ("10", "literature", "kurdyumova", "Курдюмова. Литература 10"),
+    ("11", "literature", "mihajlov-2-chastyah-bazovyj-uroven", "Михайлов, Шайтанов. Литература 11"),
+    ("11", "literature", "zinin", "Зинин, Чалмаев. Литература 11"),
+    ("11", "literature", "korovin-uglublennyj-uroven", "Коровин. Литература 11 (углублённый)"),
+    ("11", "literature", "kurdyumova", "Курдюмова. Литература 11"),
+    ("11", "physics", "rymkevich", "Рымкевич. Физика 10–11, задачник"),
+    ("11", "history", "zagladin", "Загладин, Петров. История 11"),
+    ("11", "english", "reshebnik-enjoy-english-biboletova-2014", "Биболетова. Enjoy English 11"),
+    ("2", "russian", "aleksandrova", "Александрова. Русский язык 2"),
+    ("2", "english", "spotlight-bikova", "Быкова, Дули. Spotlight 2"),
+    ("2", "english", "rainbow-afanasjeva", "Афанасьева, Михеева. Rainbow English 2"),
+    ("2", "english", "starlight-baranova", "Баранова, Дули. Starlight 2"),
+    ("2", "english", "brilliant-komarova", "Комарова, Ларионова. Brilliant 2"),
+    ("2", "english", "enjoy-english-biboletova-m-z-2012", "Биболетова. Enjoy English 2"),
 ]
 
 
-def fetch(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ru"})
-    with urllib.request.urlopen(req, timeout=40) as resp:
-        return resp.read().decode("utf-8", "replace")
+def fetch(url: str, retries: int = 2) -> str:
+    last: Exception | None = None
+    for attempt in range(retries + 1):
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ru"})
+        try:
+            with urllib.request.urlopen(req, timeout=40) as resp:
+                return resp.read().decode("utf-8", "replace")
+        except Exception as exc:  # noqa: BLE001
+            last = exc
+            if attempt >= retries:
+                break
+            time.sleep(5 * (attempt + 1))
+    raise last  # type: ignore[misc]
 
 
 def book_meta(soup: BeautifulSoup) -> tuple[str, str]:
@@ -86,8 +104,24 @@ def task_images(soup: BeautifulSoup, base: str) -> list[str]:
     return out
 
 
-def parse_book(grade: str, slug: str, title: str, limit: int | None, dry: bool) -> tuple[dict, dict] | None:
-    url = f"https://gdz.ru/class-{grade}/literatura/{slug}/"
+SUBJECT_PATH = {"literature": "literatura", "physics": "fizika", "history": "istoriya", "english": "english", "russian": "russkii_yazik"}
+
+
+def task_number(link: str, fallback: int) -> str:
+    m = re.search(r"/(\d+)-nom/?$", link)
+    if m:
+        return m.group(1)
+    m = re.search(r"/(\d+)-item-(\d+)/?$", link)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
+    m = re.search(r"/(\d+)-prt-(\d+)/?$", link)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
+    return str(fallback)
+
+
+def parse_book(grade: str, subject: str, slug: str, title: str, limit: int | None, dry: bool) -> tuple[dict, dict] | None:
+    url = f"https://gdz.ru/class-{grade}/{SUBJECT_PATH.get(subject, subject)}/{slug}/"
     soup = BeautifulSoup(fetch(url), "html.parser")
     author, year = book_meta(soup)
     links = task_links(soup, url)
@@ -107,14 +141,12 @@ def parse_book(grade: str, slug: str, title: str, limit: int | None, dry: bool) 
         images = task_images(page, link)
         if not images:
             continue
-        m = re.search(r"/(\d+)-prt-(\d+)/?$", link)
-        part, page_num = (m.group(1), m.group(2)) if m else ("1", str(i))
-        number = f"{part}.{page_num}"
-        section = f"Часть {part}, страница {page_num}"
+        number = task_number(link, i)
+        section = f"Задание {number}"
         tasks.append({
             "number": number,
             "section": section,
-            "condition": f"Задание {page_num}. Решение на изображении.",
+            "condition": f"Задание {number}. Решение на изображении.",
             "solution": "Решение на изображении.",
             "answer": "См. изображение.",
             "images": images,
@@ -128,7 +160,7 @@ def parse_book(grade: str, slug: str, title: str, limit: int | None, dry: bool) 
         print(f"!! {slug}: решений-картинок нет", flush=True)
         return None
     doc = {
-        "subject": "literature",
+        "subject": subject,
         "textbook": f"{slug}-{grade}",
         "author": author or "—",
         "year": year or "2024",
@@ -139,9 +171,9 @@ def parse_book(grade: str, slug: str, title: str, limit: int | None, dry: bool) 
     }
     entry = {
         "grade": int(grade),
-        "subject": "literature",
+        "subject": subject,
         "id": f"{slug}-{grade}",
-        "file": f"literature/{slug}-{grade}.json",
+        "file": f"{subject}/{slug}-{grade}.json",
         "title": title,
         "author": doc["author"],
         "year": doc["year"],
@@ -156,6 +188,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=None, help="страниц на книгу, для проверки")
     ap.add_argument("--only", default="")
+    ap.add_argument("--slugs", default="", help="список slug через запятую")
     ap.add_argument("--dry", action="store_true")
     args = ap.parse_args()
     known: dict[str, dict] = {}
@@ -164,11 +197,14 @@ def main() -> int:
             known = {e["id"]: e for e in json.loads(MANIFEST.read_text(encoding="utf-8"))}
         except (OSError, json.JSONDecodeError):
             known = {}
-    books = [b for b in BOOKS if not args.only or args.only in b[1]]
-    for i, (grade, slug, title) in enumerate(books, 1):
-        print(f"\n[{i}/{len(books)}] {grade} literature {slug}", flush=True)
+    wanted = {x.strip() for x in args.slugs.split(",") if x.strip()}
+    books = [b for b in BOOKS if not args.only or args.only in b[2]]
+    if wanted:
+        books = [b for b in books if b[2] in wanted]
+    for i, (grade, subject, slug, title) in enumerate(books, 1):
+        print(f"\n[{i}/{len(books)}] {grade} {subject} {slug}", flush=True)
         try:
-            result = parse_book(grade, slug, title, args.limit, args.dry)
+            result = parse_book(grade, subject, slug, title, args.limit, args.dry)
         except Exception as exc:  # noqa: BLE001
             print(f"!! книга упала: {exc}", flush=True)
             continue

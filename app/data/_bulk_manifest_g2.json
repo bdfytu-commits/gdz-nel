@@ -1,0 +1,72 @@
+[
+ {
+  "grade": 2,
+  "source_subject": "matematika",
+  "subject": "math",
+  "id": "moro-2-587",
+  "file": "math/moro-2-587.json",
+  "title": "Моро",
+  "author": "Моро",
+  "year": "2020",
+  "part": null,
+  "tasks": 3,
+  "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/2_klass/moro-587",
+  "slug": "moro-587"
+ },
+ {
+  "grade": 2,
+  "source_subject": "matematika",
+  "subject": "math",
+  "id": "moro-2-587-1",
+  "file": "math/moro-2-587-1.json",
+  "title": "Моро. Часть 1",
+  "author": "Моро",
+  "year": "2020",
+  "part": 1,
+  "tasks": 471,
+  "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/2_klass/moro-587",
+  "slug": "moro-587"
+ },
+ {
+  "grade": 2,
+  "source_subject": "matematika",
+  "subject": "math",
+  "id": "moro-2-587-2",
+  "file": "math/moro-2-587-2.json",
+  "title": "Моро. Часть 2",
+  "author": "Моро",
+  "year": "2020",
+  "part": 2,
+  "tasks": 610,
+  "sourceUrl": "https://www.euroki.org/gdz/ru/matematika/2_klass/moro-587",
+  "slug": "moro-587"
+ },
+ {
+  "grade": 2,
+  "source_subject": "biologiya",
+  "subject": "world",
+  "id": "pleshakov-2-1",
+  "file": "world/pleshakov-2-1.json",
+  "title": "Плешаков. Часть 1",
+  "author": "Плешаков",
+  "year": "2023",
+  "part": 1,
+  "tasks": 284,
+  "sourceUrl": "https://www.euroki.org/gdz/ru/biologiya/2_klass/pleshakov-fgos-589",
+  "slug": "pleshakov-fgos-589"
+ },
+ {
+  "grade": 2,
+  "source_subject": "biologiya",
+  "subject": "world",
+  "id": "pleshakov-2-2",
+  "file": "world/pleshakov-2-2.json",
+  "title": "Плешаков. Часть 2",
+  "author": "Плешаков",
+  "year": "2023",
+  "part": 2,
+  "tasks": 249,
+  "sourceUrl": "https://www.euroki.org/gdz/ru/biologiya/2_klass/pleshakov-fgos-589",
+  "slug": "pleshakov-fgos-589"
+ }
+]

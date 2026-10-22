@@ -1,5 +1,29 @@
 [
  {
+  "grade": 2,
+  "subject": "english",
+  "id": "brilliant-komarova-2",
+  "file": "english/brilliant-komarova-2.json",
+  "title": "Комарова, Ларионова. Brilliant 2",
+  "author": "Комарова Ю.А., Ларионова И.В., Перретт Ж.",
+  "year": "2013",
+  "tasks": 94,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-2/english/brilliant-komarova/"
+ },
+ {
+  "grade": 2,
+  "subject": "english",
+  "id": "enjoy-english-biboletova-m-z-2012-2",
+  "file": "english/enjoy-english-biboletova-m-z-2012-2.json",
+  "title": "Биболетова. Enjoy English 2",
+  "author": "Биболетова М.З., Денисенко О.А., Трубанева Н.Н.",
+  "year": "2016-2023",
+  "tasks": 125,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-2/english/enjoy-english-biboletova-m-z-2012/"
+ },
+ {
   "grade": 10,
   "subject": "literature",
   "id": "korovin-uglublennyj-uroven-10",
@@ -49,6 +73,30 @@
  },
  {
   "grade": 11,
+  "subject": "english",
+  "id": "reshebnik-enjoy-english-biboletova-2014-11",
+  "file": "english/reshebnik-enjoy-english-biboletova-2014-11.json",
+  "title": "Биболетова. Enjoy English 11",
+  "author": "Биболетова М.З., Бабушис Е.Е., Снежко Н.Д.",
+  "year": "2015-2017",
+  "tasks": 174,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-11/english/reshebnik-enjoy-english-biboletova-2014/"
+ },
+ {
+  "grade": 11,
+  "subject": "history",
+  "id": "zagladin-11",
+  "file": "history/zagladin-11.json",
+  "title": "Загладин, Петров. История 11",
+  "author": "Загладин Н.В., Петров Ю.А.",
+  "year": "2024",
+  "tasks": 357,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-11/istoriya/zagladin/"
+ },
+ {
+  "grade": 11,
   "subject": "literature",
   "id": "korovin-uglublennyj-uroven-11",
   "file": "literature/korovin-uglublennyj-uroven-11.json",
@@ -94,5 +142,17 @@
   "tasks": 89,
   "source": "gdz.ru",
   "sourceUrl": "https://gdz.ru/class-11/literatura/zinin/"
+ },
+ {
+  "grade": 11,
+  "subject": "physics",
+  "id": "rymkevich-11",
+  "file": "physics/rymkevich-11.json",
+  "title": "Рымкевич. Физика 10–11, задачник",
+  "author": "А.П. Рымкевич",
+  "year": "2016",
+  "tasks": 1236,
+  "source": "gdz.ru",
+  "sourceUrl": "https://gdz.ru/class-11/fizika/rymkevich/"
  }
 ]

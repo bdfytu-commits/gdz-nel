@@ -1,5 +1,40 @@
 [
  {
+  "grade": 2,
+  "source_subject": "biologiya",
+  "slug": "pleshakov-fgos-589",
+  "url": "https://www.euroki.org/gdz/ru/biologiya/2_klass/pleshakov-fgos-589",
+  "text": "Окружающий мир 2 класс Авторы: Плешаков ФГОС Год: 2023 Тип: учебник"
+ },
+ {
+  "grade": 2,
+  "source_subject": "matematika",
+  "slug": "moro-587",
+  "url": "https://www.euroki.org/gdz/ru/matematika/2_klass/moro-587",
+  "text": "Математика 2 класс Авторы: Моро Год: 2020 Тип: учебник Часть: 1, 2"
+ },
+ {
+  "grade": 2,
+  "source_subject": "matematika",
+  "slug": "peterson-784",
+  "url": "https://www.euroki.org/gdz/ru/matematika/2_klass/peterson-784",
+  "text": "Математика 2 класс Авторы: Петерсон Год: 2021 Тип: учебник Часть: 1, 2"
+ },
+ {
+  "grade": 2,
+  "source_subject": "russkiy",
+  "slug": "ivanov-747",
+  "url": "https://www.euroki.org/gdz/ru/russkiy/2_klass/ivanov-747",
+  "text": "Русский язык 2 класс Авторы: Иванов Год: 2021 Тип: учебник Часть: 1, 2"
+ },
+ {
+  "grade": 2,
+  "source_subject": "russkiy",
+  "slug": "kanakina-fgos-147",
+  "url": "https://www.euroki.org/gdz/ru/russkiy/2_klass/kanakina-fgos-147",
+  "text": "Русский язык 2 класс Авторы: Канакина ФГОС, Горецкий Год: 2023 Тип: учебник"
+ },
+ {
   "source_subject": "biologiya",
   "grade": 3,
   "slug": "novitskaya-750",

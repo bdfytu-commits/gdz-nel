@@ -1,0 +1,5459 @@
+{
+  "subject": "chemistry",
+  "textbook": "rudzitis-11",
+  "author": "Рудзитис Г.Е., Фельдман Ф.Г.",
+  "year": "2017",
+  "source": "parsed",
+  "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/",
+  "parsedAt": "2026-10-22T04:11:26Z",
+  "tasks": [
+    {
+      "number": "1",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/1-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/1-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/1-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-2",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/1-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-2",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/1-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-2",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/1-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-3",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/1-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-3",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/1-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "Тесты из электронного приложения",
+      "section": "Тестовые задания:",
+      "condition": "Задание Тесты из электронного приложения. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/1-test-el.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-4",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/2-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-5",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/2-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-4",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/2-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-3",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/2-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/2-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-6",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/2-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-5",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/2-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-7",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-6",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-4",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-2",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-8",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-7",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-5",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-3",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-9",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-8",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1.20",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 1.20. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-w-zadah-1-20.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1.21",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 1.21. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-w-zadah-1-21.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1.40",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 1.40. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-w-zadah-1-40.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1.45",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 1.45. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/3-w-zadah-1-45.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-10",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/4-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-9",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/4-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-6",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/4-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-11",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/4-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-10",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/4-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-7",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/4-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-4",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/4-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/4-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-12",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/5-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-11",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/5-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-8",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/5-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-5",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/5-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-13",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/5-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-12",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/5-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-9",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/5-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-6",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/5-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-14",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/6-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-13",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/6-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-10",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/6-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-15",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/6-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-14",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/6-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-11",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/6-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-7",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/6-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-2",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/6-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/6-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/6-pod-7.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-16",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/7-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-17",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/7-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-15",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/7-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-12",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/7-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-18",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/8-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-19",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/8-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-16",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/8-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-13",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/8-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-20",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/8-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-17",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/8-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-21",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/9-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-18",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/9-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-22",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/9-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-19",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/9-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-14",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/9-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-8",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/9-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-3",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/9-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-23",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/9-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-20",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/9-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-24",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/10-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-21",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/10-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-15",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/10-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-25",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/10-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-22",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/10-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-16",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/10-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-9",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/10-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-4",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/10-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-26",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/11-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-23",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/11-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-17",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/11-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-27",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/11-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-24",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/11-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-18",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/11-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-10",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/11-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-5",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/11-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-28",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-29",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-25",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-19",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-11",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-6",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-2",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7-2",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-pod-7.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "8",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 8. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-pod-8.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "9",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 9. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-pod-9.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "10",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 10. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-pod-10.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-30",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-26",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-20",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4.8",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 4.8. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-w-zadah-4-8.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4.9",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 4.9. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-w-zadah-4-9.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4.10",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 4.10. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/12-w-zadah-4-10.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-31",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/13-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-27",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/13-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-32",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/13-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-28",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/13-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-21",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/13-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-33",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/13-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-29",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/13-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.11",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.11. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/13-w-zadah-6-11.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.12",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.12. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/13-w-zadah-6-12.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.13",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.13. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/13-w-zadah-6-13.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-34",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-30",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-22",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-35",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-31",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-23",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-12",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-36",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-32",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.23",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.23. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-w-zadah-6-23.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.30",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.30. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-w-zadah-6-30.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.31",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.31. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-w-zadah-6-31.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-37",
+      "section": "Лабораторный опыт. Изучение влияния различных факторов на скорость химических реакций:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/14-lab.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-38",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/15-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-39",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/15-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-33",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/15-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-24",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/15-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.49",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.49. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/15-w-zadah-6-49.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.50",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.50. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/15-w-zadah-6-50.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-40",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/16-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-34",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/16-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-41",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/16-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-35",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/16-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-25",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/16-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-42",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/16-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-36",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/16-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-43",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/17-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-44",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/17-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-37",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/17-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-26",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/17-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-13",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/17-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-45",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/17-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-38",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/17-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-27",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/17-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3.26",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 3.26. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/17-w-zadah-3-26.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3.41",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 3.41. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/17-w-zadah-3-41.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.37",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.37. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/17-w-zadah-6-37.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.38",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.38. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/17-w-zadah-6-38.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-46",
+      "section": "Практическая работа 1. Приготовление растворов с заданной молярной концентрацией:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/18-pr1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-47",
+      "section": "Лабораторный опыт. Отчёт о работе по приготовлению растворов с заданной молярной концентрацией:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/18-lab.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-48",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-39",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-49",
+      "section": "Лабораторный опыт. Определение реакции среды универсальным индикатором:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-lab.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-50",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-40",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-28",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-14",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-7",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-3",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7-3",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-pod-7.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-51",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-41",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-29",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-15",
+      "section": "Тестовые задания:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/19-test-z-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-52",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/20-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-53",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/20-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-42",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/20-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-30",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/20-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-16",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/20-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-8",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/20-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-54",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/20-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-43",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/20-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-31",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/20-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-55",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/21-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-56",
+      "section": "Лабораторный опыт. Гидролиз солей:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/21-lab.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-57",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/21-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-44",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/21-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-32",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/21-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-17",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/21-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-9",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/21-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-4",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/21-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7-4",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/21-pod-7.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-58",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-45",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-33",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-18",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-59",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-46",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-34",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-19",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-10",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-5",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7-5",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-pod-7.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-60",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-47",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/22-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-61",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-48",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-62",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-49",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-35",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-20",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-11",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-6",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7-6",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-pod-7.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "8-2",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 8. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-pod-8.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "9-2",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 9. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-pod-9.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-63",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-50",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-36",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-21",
+      "section": "Тестовые задания:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-test-z-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.48",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.48. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-w-zadah-6-48.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.50-2",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.50. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-w-zadah-6-50.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7.51",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 7.51. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-w-zadah-7-51.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-64",
+      "section": "Дополнительные задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/23-dop.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-65",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/24-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-51",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/24-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-66",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/24-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-52",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/24-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-37",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/24-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-22",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/24-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-12",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/24-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-7",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/24-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-67",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/24-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-53",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/24-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-68",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/25-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-69",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/25-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-54",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/25-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-38",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/25-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-23",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/25-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-13",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/25-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-8",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/25-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7-7",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/25-pod-7.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-70",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/25-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-55",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/25-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-71",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-56",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-39",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-24",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-72",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-57",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-40",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-25",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-14",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-9",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7-8",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-pod-7.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-73",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-58",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-41",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.32",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.32. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-w-zadah-6-32.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7.20",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 7.20. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-w-zadah-7-20.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-74",
+      "section": "Дополнительные задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/26-dop.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-75",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-59",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-76",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-60",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-42",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-26",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-15",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-10",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7-9",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-pod-7.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "8-3",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 8. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-pod-8.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "9-3",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 9. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-pod-9.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-77",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-61",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-43",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/27-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-78",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/28-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-62",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/28-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-79",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/28-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-63",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/28-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-44",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/28-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-27",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/28-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-80",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/28-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-64",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/28-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7.51-2",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 7.51. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/28-w-zadah-7-51.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-81",
+      "section": "Дополнительные задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/28-dop.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-82",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/29-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-83",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/29-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-65",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/29-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-45",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/29-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-28",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/29-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-84",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/30-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-85",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/30-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-66",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/30-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-46",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/30-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-29",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/30-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-86",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/30-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-67",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/30-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7.5",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 7.5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/30-w-zadah-7-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7.8",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 7.8. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/30-w-zadah-7-8.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-87",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/31-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-68",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/31-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-88",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/31-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-69",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/31-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-47",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/31-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-89",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/31-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-70",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/31-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-48",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/31-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7.6",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 7.6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/31-w-zadah-7-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7.9",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 7.9. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/31-w-zadah-7-9.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-90",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/32-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-91",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/32-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-71",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/32-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-49",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/32-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-30",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/32-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-92",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/32-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-72",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/32-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-50",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/32-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-93",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/33-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-73",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/33-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-51",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/33-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-31",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/33-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-16",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/33-v-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-94",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/33-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-74",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/33-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-52",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/33-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-32",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/33-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-17",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/33-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-11",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/33-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-95",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/34-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-75",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/34-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-53",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/34-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-33",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/34-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-96",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/34-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-76",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/34-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-54",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/34-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-34",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/34-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-18",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/34-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-12",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/34-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-97",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/34-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-77",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/34-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-98",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/35-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-78",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/35-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-55",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/35-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-35",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/35-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-19",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/35-v-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-99",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/36-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-79",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/36-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-56",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/36-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-100",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/36-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-80",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/36-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-57",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/36-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-101",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/36-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-81",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/36-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7.21",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 7.21. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/36-w-zadah-7-21.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7.22",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 7.22. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/36-w-zadah-7-22.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-102",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/37-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-82",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/37-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-58",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/37-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-36",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/37-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-103",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/37-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-83",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/37-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-59",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/37-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-37",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/37-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-104",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/38-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-84",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/38-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-105",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/38-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-85",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/38-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-60",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/38-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-38",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/38-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-20",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/38-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-13",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/38-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-106",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/38-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-86",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/38-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-107",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/39-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-87",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/39-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-108",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/39-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-88",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/39-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-61",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/39-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-39",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/39-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-109",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/39-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-89",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/39-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-110",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/40-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-111",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/40-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-90",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/40-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-62",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/40-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.49-2",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.49. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/40-w-zadah-6-49.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.50-3",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.50. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/40-w-zadah-6-50.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-112",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/41-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-113",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/41-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-114",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/41-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-91",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/41-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-63",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/41-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-40",
+      "section": "Тестовые задания:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/41-test-z-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.35",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.35. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/41-w-zadah-6-35.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.36",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.36. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/41-w-zadah-6-36.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-115",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/42-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-92",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/42-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-64",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/42-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-41",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/42-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-21",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/42-v-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-116",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-93",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-65",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-42",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-117",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-94",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-66",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-43",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-22",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-14",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7-10",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-pod-7.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-118",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-95",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-67",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/43-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-119",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-96",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-68",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-120",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-97",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-69",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-44",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-23",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-pod-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6-15",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 6. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-pod-6.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7-11",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 7. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-pod-7.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "8-4",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 8. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-pod-8.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "9-4",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 9. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-pod-9.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-121",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-98",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-70",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-45",
+      "section": "Тестовые задания:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-test-z-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "5-24",
+      "section": "Тестовые задания:",
+      "condition": "Задание 5. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-test-z-5.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "6.37-2",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 6.37. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-w-zadah-6-37.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7.34",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 7.34. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-w-zadah-7-34.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "7.38",
+      "section": "Задачи из задачника:",
+      "condition": "Задание 7.38. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-w-zadah-7-38.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-122",
+      "section": "Дополнительные задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/44-dop.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-123",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/45-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-99",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/45-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-124",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/45-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-100",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/45-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-71",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/45-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-46",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/45-pod-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-125",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/45-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-101",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/45-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-126",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/46-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-102",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/46-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-72",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/46-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-127",
+      "section": "Тестовые задания:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/46-test-z-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-103",
+      "section": "Тестовые задания:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/46-test-z-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-73",
+      "section": "Тестовые задания:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/46-test-z-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-128",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/47-v-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-104",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/47-v-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-74",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/47-v-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "4-47",
+      "section": "Вопросы до параграфа:",
+      "condition": "Задание 4. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/47-v-4.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "1-129",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 1. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/47-pod-1.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "2-105",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 2. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/47-pod-2.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    },
+    {
+      "number": "3-75",
+      "section": "Подумайте, ответьте, выполните:",
+      "condition": "Задание 3. Решение на изображении.",
+      "solution": "Решение на изображении.",
+      "answer": "См. изображение.",
+      "images": [
+        "https://otvet.plus/img/11-klass-rudzitis/47-pod-3.png"
+      ],
+      "source": "otvet.plus",
+      "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+    }
+  ]
+}

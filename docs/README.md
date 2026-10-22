@@ -56,9 +56,9 @@
 
 В `assetlinks.json` два отпечатка:
 
-- `63:A6:…:EA:60` — текущий релиз **v2.1.0 (versionCode 8)**, собран Gradle
+- `B8:A5:…:3A:1F` — текущий релиз **v3.1.0 (versionCode 9)**, собран Gradle
   и подписан ключом `android-twa/android.keystore`;
-- `B8:A5:…:3A:1F` — старые сборки (v4/v5, `android-signing/keystore.jks`).
+- `63:A6:…:EA:60` — прошлый релиз v2.1.0 (versionCode 8).
 
 Важно: Android разрешает обновлять приложение только тем же ключом, которым
 подписан текущий APK. `android-twa/android.keystore` лежит вне git — сделай
@@ -191,7 +191,7 @@ Cloudflare Pages пересоберёт сайт за 1–2 минуты. Ста
 
 ### 7. APK: пересборка под новый домен
 
-Текущий APK 2.1.0 (versionCode 8) подписан `android-twa/android.keystore`
+Текущий APK 3.1.0 (versionCode 9) подписан `android-twa/android.keystore`
 (отпечаток `63:A6:…:EA:60`). Обновление должно быть подписано **тем же** ключом,
 иначе Android не установит его поверх. `scripts/build_apk.sh` (Bubblewrap)
 подписывает старым `android-signing/keystore.jks` — **не использовать его для

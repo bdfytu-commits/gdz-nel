@@ -65,7 +65,7 @@ def main() -> int:
         existing = {s["id"]: s for s in g.get("subjects", [])}
         for sid, entries in sorted(subjects.items()):
             title, icon = SUBJECTS[sid]
-            if grade in (3, 4) and sid == "literature":
+            if grade in (1, 2, 3, 4) and sid == "literature":
                 title = LITERATURE_PRIMARY
             subj = existing.get(sid)
             if not subj:

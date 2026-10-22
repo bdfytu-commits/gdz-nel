@@ -1,0 +1,930 @@
+{
+  "subject": "english",
+  "textbook": "bykova-2-2",
+  "author": "Быкова Н. И., Дули Д., Поспелова М. Д",
+  "year": "2023-2026",
+  "source": "parsed",
+  "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/",
+  "parsedAt": "2026-10-22T07:08:56Z",
+  "tasks": [
+    {
+      "number": "4.1",
+      "section": "Страница 4",
+      "condition": "Слушай и повторяй за диктором\nSwim – fish\nSing – bird\nRun – horse\nJump – frog\nDance – chimp",
+      "solution": "Swim – fish\nSing – bird\nRun – horse\nJump – frog\nDance – chimp\nПеревод:\nПлавать – рыба\nПеть – птичка\nБежать – лошадь\nПрыгать – лягушка\nТанцевать – шимпанзе",
+      "answer": "Dance – chimp",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-4/"
+    },
+    {
+      "number": "4.2",
+      "section": "Страница 4",
+      "condition": "Поговори со своим одноклассником, используя образец.\nI can jump like a frog.\nI can jump too.",
+      "solution": "— I can run like a horse\n— I can run too\n— I can dance like a chimp\n— I can dance too\n— I can sing like a bird\n— I can sing too\n— I can  swim like a fish\n— I can swim too\nПеревод:\n— Я могу бегать как  лошадь\n— Я тоже\n— Я могу танцевать как шимпанзе\n— Я тоже\n— Я   могу петь как птица\n— Я тоже\n— Я могу плавать как рыба\n— Я тоже",
+      "answer": "— I can swim too",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-4/"
+    },
+    {
+      "number": "5.4",
+      "section": "Страница 5",
+      "condition": "Прочитай диалог ещё раз и составь предложения\n1 Larry can    a jump.\n2 Lulu can      b swim.",
+      "solution": "Larry can swim\nLulu can jump\nПеревод:\nЛарри умеет плавать\nЛулу умеет прыгать",
+      "answer": "Lulu can jump",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-5/"
+    },
+    {
+      "number": "6.1",
+      "section": "Страница 6",
+      "condition": "Прочитай слова, составь предложения и прочитай их\n1 frog\n2 bird\n3 chimp\n4 fish\n5 horse\na sing\nb jump\nc swim\nd run\ne dance\n1 A frog can jump.",
+      "solution": "1. A frog can jump\n2. a bird can sing\n3. a chimp can dance\n4. a fish can swim\n5. a horse can run\nПеревод:\n1. Лягушка может прыгать\n2. Птица может петь\n3. Шимпанзе может танцевать\n4. рыба может плавать\n5. лошадь может бегать",
+      "answer": "5. a horse can run",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-6/"
+    },
+    {
+      "number": "6.2",
+      "section": "Страница 6",
+      "condition": "Что умеют делать дети? Посмотри на картинки и скажи, используя образец.\n1 Larry can dance.\nLarry\nLulu\nBob\nPeter",
+      "solution": "1. Larry can dance\n2. Lulu can jump\n3. Bob can swim\n4. Peter can jump\nПеревод:\n1. Ларри может танцевать\n2. Лулу может прыгать\n3. Боб может плавать\n4. Питер может прыгать",
+      "answer": "4. Peter can jump",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-6/"
+    },
+    {
+      "number": "7.3",
+      "section": "Страница 7",
+      "condition": "Посмотри на картинки и скажи, что умеет делать Чаклз. Затем прослушай песенку и проверь себя",
+      "solution": "Chuckles can sing\nChuckles can run\nChuckles can jump\nChuckles can dance\nChuckles can swim\nПеревод:\nЧаклз может петь\nЧаклз может бегать\nЧаклз может прыгать\nЧаклз может танцевать\nЧаклз может плавать",
+      "answer": "Chuckles can swim",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-7/"
+    },
+    {
+      "number": "8.1",
+      "section": "Страница 8",
+      "condition": "Слушай и повторяй за диктором.\nclimb\nfly\nboy\ngirl",
+      "solution": "Сlimb, fly, boy, girl\nПеревод:\nВзбираться, летать, мальчик, девочка",
+      "answer": "Сlimb, fly, boy, girl",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-8/"
+    },
+    {
+      "number": "8.2",
+      "section": "Страница 8",
+      "condition": "Поговори со своим одноклассником, используя образец.\nCan you jump?\nYes, I can.\nCan you fly?\nNo, I can’t.",
+      "solution": "Вариант 1\n– Can you fly?\n– Yes, I can\nCan  you  jump?\n– Yes, I can\nCan you  climb?\n– Yes, I can\nCan you sing?\n– Yes, I can\nCan you run?\n– Yes, I can\nВариант 2\n– Can you fly?\n– No, I can’t\nCan  you  jump?\n– No, I can’t\nCan you  climb?\n– No, I can’t\nCan you sing?\n– No, I can’t\nCan you run?\n– No, I can’t\nПеревод:\nВариант 1\n– Умеешь летать?\n– Да, умею\n– Умеешь прыгать?\n– Да, умею\n– Умеешь взбираться?\n– Да, умею\n– Умеешь петь?\n– Да, умею\n– Умеешь бегать?\n– Да, умею\nВариант 2\n– Умеешь летать?\n– Нет, не умею\n– Умеешь прыгать?\n– Нет, не умею\n– Умеешь взбираться?\n– Нет, не умею\n– Умеешь петь?\n– Нет, не умею\n– Умеешь бегать?\n– Нет, не умею",
+      "answer": "– No, I can’t",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-8/"
+    },
+    {
+      "number": "9.1",
+      "section": "Страница 9",
+      "condition": "Ксения Кудряшева\nНомер 3.\nСпой песенку.\nI can jump,\nI can run,\nI can climb\nout in the sun!\nI can jump,\nI can run,\nI can swim\nout in the sun!",
+      "solution": "Перевод:\nЯ могу прыгать,\nЯ могу бегать,\nЯ могу взбираться\nна улице, на солнышке!\nЯ могу прыгать,\nЯ могу бегать,\nЯ могу плавать\nна улице, на солнышке!\nНомер 4.\nСкажи, что ты любишь делать.\nI like dancing\nI like jumping\nI like swimming\nI like singing\nI like running\nI like climbing trees",
+      "answer": "I like climbing trees",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-9/"
+    },
+    {
+      "number": "9.2",
+      "section": "Страница 9",
+      "condition": "Перевод:\nЯ могу прыгать,\nЯ могу бегать,\nЯ могу взбираться\nна улице, на солнышке!\nЯ могу прыгать,\nЯ могу бегать,\nЯ могу плавать\nна улице, на солнышке!\nНомер 4.\nСкажи, что ты любишь делать.\nI like dancing\nI like jumping\nI like swimming\nI like singing\nI like running\nI like climbing trees",
+      "solution": "Перевод:\nЯ люблю танцевать\nЯ люблю прыгать\nЯ люблю плавать\nЯ люблю петь\nЯ люблю бегать\nЯ люблю взбираться на деревья",
+      "answer": "Я люблю взбираться на деревья",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-9/"
+    },
+    {
+      "number": "10.1",
+      "section": "Страница 10",
+      "condition": "Посмотри на картинки и скажи, как зовут девочку-обезьянку.\nПрослушай диалог и проверь себя.\n1. Larry:  Chuckles!\nLulu: Chuckles, where are you?\n2. Larry: Look! There’s Chuckles in the tree!\nLulu: Can you climb the tree, Larry?\nLarry: No, I can’t.\n3. Lulu: Look! Who’s that?\nLarry: Ha, ha! It’s a girl chimp.\n4. Lulu: Look, Nanny! Two chimps. A boy and a girl.\nLarry:  Yes, Chuckles and Cherry! Ha,ha.\nNanny: Oh, dear!",
+      "solution": "A girl chimp name is Cherry – Девочку шимпанзе зовут Черри\nПеревод:\n1. Ларри: Чаклз!\nЛулу: Чаклз где ты?\n2. Ларри: Смотри! Чакk на дереве!\nЛулу: Ты можешь залезть на дерево, Ларри?\nЛарри: Нет, не могу.\n3. Лулу: Смотри! Кто это?\nЛарри: Ха-ха. Это девочка шимпанзе\n4. Лулу: Смотри, няня! Два шимпанзе. Мальчик и девочка.\nЛарри: Да, Чаклз и Черри. Ха-ха.\nНяня: О, боже!",
+      "answer": "A girl chimp name is Cherry – Девочку шимпанзе зовут Черри",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-10/"
+    },
+    {
+      "number": "10.2",
+      "section": "Страница 10",
+      "condition": "Прочитай диалог ещё раз и выбери правильные ответы\nLarry can/can`t climb the tree.\nHis/Her name is chuckles.\nHis/Her name is cherry.",
+      "solution": "Larry can’t climb the tree\nHis name is Chuckles\nHer  name is Cherry\nПеревод:\nЛарри не умеет лазить по деревьям\nЕго зовут Чаклз\nЕё зовут Черри",
+      "answer": "Her  name is Cherry",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-10/"
+    },
+    {
+      "number": "11.4",
+      "section": "Страница 11",
+      "condition": "Скажи, что умеешь делать ты и твой друг.",
+      "solution": "I can run\nI can dance\nI can sing\nI can jump\nMy friend can climb\nMy friend can jump\nMy friend can run\nMy friend can dance\nПеревод:\nЯ умею бегать\nЯ умею танцевать\nЯ умею петь\nЯ умею прыгать\nМой друг умеет взбираться\nМой друг умеет прыгать\nМой друг умеет бегать\nМой друг умеет танцевать",
+      "answer": "My friend can dance",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-11/"
+    },
+    {
+      "number": "12.1",
+      "section": "Страница 12",
+      "condition": "Слушай и повторяй за диктором.\nclown\ncircus\nmagician\nswing",
+      "solution": "Clown, circus, magician, swing\nПеревод:\nКлоун, цирк, фокусник, раскачиваться",
+      "answer": "Clown, circus, magician, swing",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-12/"
+    },
+    {
+      "number": "13.3",
+      "section": "Страница 13",
+      "condition": "Посмотри на картинки.  Почему счастлив фокусник? Закончи предложение, а затем прослушай диалог и проверь себя.\n1. Larry: Wow, the circus! Look, a clown.\nLulu: Look, a magician.\nMagician: Cherry,  Cherry, where are you?\n2. Nanny: Cherry’s here!\nMagician: Oh, thank you! Do you want to come  to the circus today?\nLarry & Lulu: Ooh, yes, please!\n3. Magician: Now, boys and girls! Look at Cherry.  And…\nAbracadabra, Alacazam! Look!\n4. Nanny: Bravo! Bravo!",
+      "solution": "He can see Cherry and boys and girls want to come  to the circus – Он увидел Черри и мальчиков и девочек, которые хотят в цирк\nПеревод:\n1. Ларри: Ух ты, цирк! Смотри, клоун.\nЛулу: Смотри, фокусник!\nФокусник:  Черри, Черри, ты где?\n2. Няня: Черри здесь!\nФокусник: Спасибо вам! Хотите пойти в цирк сегодня?\nЛарри и Лулу:  Оо,  да, пожалуйста!\n3. Фокусник: А сейчас, мальчики  и девочки! Смотрите на Черри. И…\nАбракадабра, Алаказам! Смотрите!\n4. Няня: Браво! Браво!",
+      "answer": "He can see Cherry and boys and girls want to come  to the circus – Он увидел Черри и мальчиков и девочек, которые хотят в цирк",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-13/"
+    },
+    {
+      "number": "13.4",
+      "section": "Страница 13",
+      "condition": "Прочитай диалог и выбери правильный ответ.\nNow, boys and girls, look at ...   a Chuckles. b Cherry.",
+      "solution": "Now, boys and girls, look at Cherry – А сейчас, мальчики  и девочки, смотрите на Черри",
+      "answer": "Now, boys and girls, look at Cherry – А сейчас, мальчики  и девочки, смотрите на Черри",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-13/"
+    },
+    {
+      "number": "14.1",
+      "section": "Страница 14",
+      "condition": "Скажи, кто выступает в цирке, используя таблицу и образец.\nThere is a clown at the circus.\nThere are dogs at the circus.",
+      "solution": "There is a clown at the circus\nThere are dogs at the circus\nThere is a rabbit at the circus.\nThere are horses at the circus\nThere is a magician at the circus\nПеревод:\nВ цирке есть клоун\nВ  цирке есть собаки\nВ цирке есть кролик\nВ цирке есть лошади\nВ цирке есть фокусник",
+      "answer": "There is a magician at the circus",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-14/"
+    },
+    {
+      "number": "15.1",
+      "section": "Страница 15",
+      "condition": "Ксения Кудряшева\nНомер 4.\nДавай сделаем  маску.\nНомер 5.\nСпой песенку, сопровождая её движениями.\nI'm a horse! I'm a horse!\nAnd I can jump, of course!\nLook at me! Look at me!\nI'm a cat! I'm a cat!\nAnd I can climb like that!\nLook at me! Look at me!\nI'm a fish! I'm a fish!\nAnd I can swim, splish, splish!\nLook at me! Look at me!\nI'm a chimp! I'm a chimp!\nAnd I can climb abd swing!\nLook at me! Look at mq!",
+      "solution": "Перевод:\nЯ – лошадь! Я – лошадь!\nИ конечно же,  я могу прыгать!\nПосмотри на меня! Посмотри на меня!\nЯ – кошка! Я – кошка!\nИ я могу взбираться так!\nПосмотри на меня! Посмотри на меня!\nЯ – рыба! Я – рыба!\nИ я могу плавать, бульк, бульк!\nПосмотри на меня! Посмотри на меня!\nЯ – Шимпанзе! Я – Шимпанзе!\nЯ могу взбираться и качаться!\nПосмотри на меня! Посмотри на меня!",
+      "answer": "Посмотри на меня! Посмотри на меня!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-15/"
+    },
+    {
+      "number": "16.1",
+      "section": "Страница 16",
+      "condition": "Прочитай и расскажи  одноклассникам, что ты умеешь делать, используя образец.\nА что умеют делать большинство ребят в твоём классе? Выполни проект.\nI can sing and I can dance.\nI can jump like a frog too!",
+      "solution": "Вариант 1\nI can dance and I can jump!\nI can jump like a kangaroo too!\nI can sing and I swing.\nI can swing like a  monkey too!\nI can climb and I can run.\nI can run like a cheetah too.\nВариант 2\nI can dance and I can jump!\nI can dance like a chimp too!\nI can sing and I swing.\nI can sing like a bird too!\nI can climb and I can run.\nI can climb like a cat too!\nВариант 1\nЯ могу танцевать и я могу прыгать!\nЯ могу прыгать как кенгуру тоже!\nЯ могу петь и я могу раскачиваться.\nЯ могу раскачиваться как  шимпанзе тоже!\nЯ могу лазить и я могу бегать.\nЯ могу бегать как  гепард тоже\nВариант 2\nЯ могу танцевать и я могу прыгать!\nЯ могу  танцевать как шимпанзе тоже!\nЯ могу петь и я могу раскачиваться.\nЯ могу петь как птичка тоже\nЯ могу лазить и я могу бегать.\nЯ могу лазить как кошка тоже!\nCrazy  about Animals!\nПрочитай текст про популярные клички домашних питомцев в Великобритании. А какие клички популярны в России?\nPeople in the UK love animals, especially cats and dogs. Popular names for cats are: Fluffy, Sam, Kitty, Smokey and Tiger!\nCat – Meow!\nPopular names for dogs are: Blackie, Max, Patch, Prince and Spot!\nDog – Woof!\nIn Russia popular names for girl-cats are: Musya, Murka, Muska, Sonya and Marusya.\nAmong the names for boy-cats, Fluff, Badger, Vaska, Ginger, Murzik and Kuzya are most often found\nIn Russia names for dogs are: Nayda, Zhuzha, Archie, Rex, Sharik, Max.\nPeople in the UK love animals, especially cats and dogs. Popular names for cats are: Fluffy, Sam, Kitty, Smokey and Tiger!\nCat – Meow!\nPopular names for dogs are: Blackie, Max, Patch, Prince and Spot!\nDog – Woof!\nIn Russia popular names for girl-cats are: Musya, Murka, Muska, Sonya and Marusya.\nAmong the names for boy-cats, Fluff, Badger, Vaska, Ginger, Murzik and Kuzya are most often found\nIn Russia names for dogs are: Nayda, Zhuzha, Archie, Rex, Sharik, Max.\nЖители Великобритании любят животных, особенно кошек и собак. Популярные клички для кошек: Флаффи, Сэм, Китти, Смоки и Тайгер!\nКот – Мяу!\nПопулярные клички для собак: Блэки, Макс, Патч, Принц и Спот!\nСобачка – Гав!\nВ России популярными именами для девочек-кошечек являются: Муся, Мурка, Муська, Саня и Маруся.\nСреди имен для мальчиков-кошек чаще всего встречаются Пушок, Барсук, Васька, Рыжик, Мурзик и Кузя\nВ России для собак используют такие имена, как Найда, Жужа, Арчи, Рекс, Шурик, Макс.",
+      "answer": "В России для собак используют такие имена, как Найда, Жужа, Арчи, Рекс, Шурик, Макс.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-16/"
+    },
+    {
+      "number": "17.1",
+      "section": "Страница 17",
+      "condition": "Прочитай текст и скажи,  что могут делать цирковые артисты.\nCircus performers\nChildren like  going to the circus. They are happy there. Clowns are verry funny, they jump and run.\nAcrobats can climb, swing and fly. Magicians show a lot of tricks. Do you like the circus?",
+      "solution": "Clowns can jump and run. Acrobats can climb, swing and fly. Magicians show a lot of tricks.\nПеревод:\nАртисты цирка\nДетям нравится ходить в цирк. Они счастливы там. Клоуны очень смешные, они прыгают и бегают.\nАкробаты могут карабкаться, раскачиваться и летать. Фокусник показывает много фокусов. Тебе нравится цирк,\nКлоуны прыгают и бегают. Акробаты могут карабкаться, раскачиваться и летать. Фокусник показывает много фокусов.",
+      "answer": "Clowns can jump and run. Acrobats can climb, swing and fly. Magicians show a lot of tricks.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-17/"
+    },
+    {
+      "number": "17.2",
+      "section": "Страница 17",
+      "condition": "Посмотри на слова, обозначающие профессии этих людей. Какие из них похожи на русские слова?\ndoctor\nmanager\nfarmer\nactor\nworker\nteacher\ncook\ndriver",
+      "solution": "Doctor, manager, farmer, actor, worker, teacher, cook, driver\nПеревод:\nДоктор (врач), менеджер, фермер, актёр, рабочий, учитель, повар, водитель",
+      "answer": "Doctor, manager, farmer, actor, worker, teacher, cook, driver",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-17/"
+    },
+    {
+      "number": "17.3",
+      "section": "Страница 17",
+      "condition": "Скажи, чем занимаются члены твоей семьи.",
+      "solution": "My mum’s a doctor\nMy dad’s a driver\nMy granny’s a teacher\nMy grandpa’s a cook\nMy brother’s a manager\nПеревод:\nМоя мама – врач\nМой папа – водитель\nМоя бабушка – учитель\nМой дедушка – повар\nМой брат – менеджер",
+      "answer": "My brother’s a manager",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-17/"
+    },
+    {
+      "number": "20.1",
+      "section": "Страница 20",
+      "condition": "Поговори со своим одноклассником, используя образец.\nCan a horse run?\nYes, it can.\nCan a frog fly?\nNo, it can't.\n• chimp\n• climb\n• frog\n• fly\n• fish\n• sing\n• bird\n• swim\n• horse\n• run",
+      "solution": "– Can a horse run?\n– Yes, it can.\n– Can a frog fly?\n– No, it can’t\n– Can a horse run?\n– Yes, it can.\n– Can a chimp climb?\n– Yes, it can.\n– Can a fish sing?\n– No, it can’t\n–  Can a bird swim?\n– Yes, it can/ No, it can’t\nПеревод:\n– Умеет лягушка летать?\n– Нет, не умеет\n– Умеет ли лошадь бегать?\n– Да, умеет.\n– Умеет ли шимпанзе взбираться?\n– Да, умеет.\n– Умеет ли рыба петь?\n– Нет, не умеет.\n– Умеет ли птица плавать?\n– Да умеет / нет, не умеет.",
+      "answer": "– Yes, it can/ No, it can’t",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-20/"
+    },
+    {
+      "number": "20.2",
+      "section": "Страница 20",
+      "condition": "Перепиши слова в тетрадь, вставляя, пропущенные буквы.\n1 c_r_u_\n2 m_g_c_ _n\n3 _l_w_\n4 _ _ _mp",
+      "solution": "1. Circus, 2. Magician, 3. Clown, 4. Chimp\nПеревод:\n1. Цирк, 2. Фокусник, 3. Клоун, 4. Шимпанзе",
+      "answer": "1. Circus, 2. Magician, 3. Clown, 4. Chimp",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-20/"
+    },
+    {
+      "number": "21.3",
+      "section": "Страница 21",
+      "condition": "Прочитай предложения, вставляя прощенные слова.\nBod\nChuckles\nAlan\nSam\n1 ... can dsnce.\n2 ... can sing.\n3 ... can swing.\n4 ... can run.",
+      "solution": "1. Chuckles can dance\n2. Alan can sing\n3. Sam can swing\n4. Bob can run\nПеревод:\n1. Чаклз умеет танцевать\n2. Алан умеет петь\n3. Сэм умеет раскачиваться\n4. Боб умеет бегать",
+      "answer": "4. Bob can run",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-21/"
+    },
+    {
+      "number": "21.3-2",
+      "section": "Страница 21",
+      "condition": "Прочитай предложения, вставляя соответствующие имена.\nBob\nChuckles\nAlan\nSam\n1 ... can dance.\n2 ... can sing.\n3 ... can swing.\n4 ... can run.",
+      "solution": "1. Chuckles can dance\n2. Alan can sing\n3. Sam can swing\n4. Bob can run\nПеревод:\n1. Чаклз умеет танцевать.\n2. Алан умеет петь.\n3. Сэм умеет раскачиваться.\n4. Боб умеет бегать.",
+      "answer": "4. Bob can run",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-21/"
+    },
+    {
+      "number": "21.4",
+      "section": "Страница 21",
+      "condition": "Прочитай вопросы, посмотри на картинки и скажи, что  ответят дети.\n1 Can you swim? Yes, i can./No, i can`t.\n2 Can you climb? Yes, i can./No, i can`t.\n3 Can you run? Yes, i can./No, i can`t.\n4 Can you jamp? Yes, i can./No, i can`t.\n5 Can you sing? Yes, i can./No, i can`t.",
+      "solution": "1. Can  you swim?\n– Yes, I can.\n2. Can you climb?\n– No, I can’t.\n3.Can you run?\n– No, I can’t.\n4. Can you jump?\n– Yes, I can.\n5. Can you sing?\n– Yes, I can.\nПеревод:\n1. Ты умеешь плавать?\n– Да, умею\n2. Ты умеешь взбираться?\n– Нет, не умею\n3. Можешь ли ты бегать?\n– Нет, не могу\n4. Ты умеешь прыгать?\n– Да, умею\n5. Ты умеешь петь?\n– Да умею",
+      "answer": "– Yes, I can.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-21/"
+    },
+    {
+      "number": "22.1",
+      "section": "Страница 22",
+      "condition": "Слушай и повторяй за диктором.\nTeddy bear, pink, ballerina, on, under, in, toy box, toy soldier, near, shelf",
+      "solution": "Teddy bear, pink, ballerina, on, under, in, toy box, toy soldier, near, shelf\nПеревод:\nМишка Тедди, розовый, балерина, на, под, в, коробка для игрушек, игрушечный солдатик, рядом, полка",
+      "answer": "Teddy bear, pink, ballerina, on, under, in, toy box, toy soldier, near, shelf",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-22/"
+    },
+    {
+      "number": "22.2",
+      "section": "Страница 22",
+      "condition": "Поговори со своим одноклассником, используя образец.\nWhere’s the teddy bear?\nIt’s on the table.\nWhere are the teddy bears?\nThey are under the shelf.",
+      "solution": "— Where’s the teddy bear?\n— It’s on the table.\n-Where are the teddy bears?\n— They are under the shelf.\n— Where’s the teddy bear?\n— It’s near the chair.\n— Where’s the teddy bear?\n— It’s in the box.\n— Where’s the teddy bear?\n— It’s on the bed.\nПеревод:\n— Где мишка Тедди?\n—  Он на столе.\n— Где мишки Тедди?\n— Они под полкой.\n— Где мишка Тедди?\n— Он рядом со стулом/табуреткой.\n—  Где мишка Тедди?\n— Он в коробке.\n—   Где мишка Тедди?\n— Он на кровати.",
+      "answer": "— It’s on the bed.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-22/"
+    },
+    {
+      "number": "23.4",
+      "section": "Страница 23",
+      "condition": "Прочитай диалог ещё раз и выпиши в тетрадь, какие игрушки есть у героев.\nLarry: ...\nLulu: ...\nChuckles: ...",
+      "solution": "Larry: the toy soldier\nLulu: the ballerina\nChuckles: the teddy bear\nПеревод:\nЛарри: игрушечный солдатик\nЛулу: кукла-балерина\nЧаклз: медвежонок Тедди",
+      "answer": "Chuckles: the teddy bear",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-23/"
+    },
+    {
+      "number": "24.1",
+      "section": "Страница 24",
+      "condition": "Прочитай предложения, выбирая нужный предлог.\n1 The toys are in/in the box\n2 The teddy bear is on/under the table\n3 The teddy bear is near/on the shelf\n4 The ballerinas are near/on the beds",
+      "solution": "1 The toys are in the box\n2 The teddy bear is on the table\n3 The teddy bear is near the shelf\n4 The ballerinas are on the beds\nПеревод:\n1 Игрушки находятся в коробке\n2 Мишка Тедди стоит на столе\n3 Мишка Тедди стоит рядом с полкой\n4 Балерины стоят на кроватях",
+      "answer": "4 The ballerinas are on the beds",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-24/"
+    },
+    {
+      "number": "24.2",
+      "section": "Страница 24",
+      "condition": "А теперь скажи, пользуясь таблицей, каких игрушек нет в коробке с игрушками.",
+      "solution": "There isn’t a cat in the toy box.\nThere aren’t dogs in the toy box.\nThere aren’t elephants in the toy box.\nThere isn’t a ballerina in the toy box.\nThere isn’t a rabbit in the toy box.\nThere aren’t yachts in the toy box.\nПеревод:\nВ коробке для игрушек нет кошки.\nВ коробке для игрушек нет собачек.\nВ коробке для игрушек нет слоников.\nВ коробке для игрушек нет балерины.\nВ коробке для игрушек нет кролика.\nВ коробке для игрушек нет яхт.",
+      "answer": "There aren’t yachts in the toy box.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-24/"
+    },
+    {
+      "number": "25.4",
+      "section": "Страница 25",
+      "condition": "Прочитай, что говорят дети о своих игрушках в упр. 3.",
+      "solution": "These are my dolls!\nThis is my toy soldier!\nThis my teddy bear!\nПеревод:\nЭто мои куклы!\nЭто мой игрушечный солдатик!\nЭто мой мишка Тедди!",
+      "answer": "This my teddy bear!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-25/"
+    },
+    {
+      "number": "25.5",
+      "section": "Страница 25",
+      "condition": "Расскажи одноклассникам о  своей любимой плюшевой игрушке. Используй образец.\nThis is my toy dog. It can jump and run. It can’t fly.",
+      "solution": "This is my teddy bear. It can sing and speak. It can’t run.\nПеревод:\nЭто мой мишка Тедди. Он может петь и говорить. Он не может бегать.",
+      "answer": "This is my teddy bear. It can sing and speak. It can’t run.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-25/"
+    },
+    {
+      "number": "26.1",
+      "section": "Страница 26",
+      "condition": "Слушай и повторяй за диктором.\nDark hair\nnose\neyes\nmouth\nears",
+      "solution": "Dark hair, nose, eyes, mouth, ears.\nПеревод:\nТёмные волосы, нос, глаза, рот, уши.",
+      "answer": "Dark hair, nose, eyes, mouth, ears.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-26/"
+    },
+    {
+      "number": "26.2",
+      "section": "Страница 26",
+      "condition": "Поговори со своим одноклассником, используя образец.\nI’ve got brown eyes!\nI’ve got blue eyes.",
+      "solution": "– I’ve got brown eyes!\n– I’ve got grey eyes.\n– I’ve got grey-green eyes!\n– I’ve got brown-green eyes.\n– I’ve black eyes!\n– I’ve got grey-blue eyes.\nПеревод:\n– У меня карие глаза!\n– У меня серые глаза.\n— У меня серо-зелёные глаза!\n— У меня каре-зелёные глаза.\n– У меня чёрные глаза!\n– У меня серо-голубые глаза.",
+      "answer": "– I’ve got grey-blue eyes.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-26/"
+    },
+    {
+      "number": "27.1",
+      "section": "Страница 27",
+      "condition": "Ксения Кудряшева\nНомер 3.\nСпой песенку.\nI've got two eyes,\nA mouth and a nose!\nI've got two feet,\nBut I haven't got toes!\nTwo hands, two ears,\nAnd lots of hair!\nWhat am I?\nI'm – teddy bear!",
+      "solution": "Перевод:\nУ меня два глаза,\nРот и нос!\nУ меня две лапки,\nНо без пальцев!\nДве руки, два уха,\nИ много шерсти!\nКто я?\nЯ – медвежонок Тедди!\nНомер 4.\nПрочитай и запомни формы множественного числа этих существительных.\nFoot – feet\nMouse – mice\nChild – children\nMan – men",
+      "answer": "Man – men",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-27/"
+    },
+    {
+      "number": "27.2",
+      "section": "Страница 27",
+      "condition": "Перевод:\nУ меня два глаза,\nРот и нос!\nУ меня две лапки,\nНо без пальцев!\nДве руки, два уха,\nИ много шерсти!\nКто я?\nЯ – медвежонок Тедди!\nНомер 4.\nПрочитай и запомни формы множественного числа этих существительных.\nFoot – feet\nMouse – mice\nChild – children\nMan – men",
+      "solution": "Перевод:\nНога – ноги\nМышь – мыши\nРебёнок – дети\nЧеловек – люди",
+      "answer": "Человек – люди",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-27/"
+    },
+    {
+      "number": "28.1",
+      "section": "Страница 28",
+      "condition": "Посмотри на картинку 3. Как ты думаешь, что ищет Чаклз? Прослушай диалог и проверь себя.\n1. Lulu: Nanny, look  at my ballerina! She’s got blue eyes!\nNanny: Yes, she’s very pretty!\n2. Larry: Look at my toy soldier! He’s got dark hair!\nNanny: Oh, yes. He’s wonderful! But what about Chuckes’ teddy bear?\n3. Larry: Chuckles, what have you got? Is it your teddy bear?\nLulu: Oh, clever Chuckles!\n4. Larry: Oh, no! Look at the teddy bear!\nNanny: Oh, Chuckles! Don’t be sad!",
+      "solution": "He’s looking for his teddy bear – Он ищет медвежонка Тедди.\nПеревод:\n1. Лулу: Няня, посмотри на мою балерину! У неё голубые глаза!\nНяня: Да, она прелестна.\n2. Ларри: Посмотри на моего солдатика! У него тёмные волосы.\nНяня: Да. Он прекрасен! Но, что насчёт медвежонка Тедди Чаклза?\n3. Ларри: Чаклз, что это у тебя? Это твой медвежонок Тедди?\nЛулу: Какой умный Чаклз!\n4. Ларри: О, нет! Посмотрите  на медвежонка!\nНяня: Ох, Чаклз! Не грусти!",
+      "answer": "He’s looking for his teddy bear – Он ищет медвежонка Тедди.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-28/"
+    },
+    {
+      "number": "28.2",
+      "section": "Страница 28",
+      "condition": "Прочитай диалог и вставь пропущенные слова.\n1 My ballerina`s got ... eyes.\n2 My toy soldier`s got ... hair.",
+      "solution": "1 My ballerina’s got blue eyes.\n2 My toy soldier’s got dark hair.\nПеревод:\n1 У моей балерины голубые глаза.\n2 У моего солдатика тёмные волосы.",
+      "answer": "2 My toy soldier’s got dark hair.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-28/"
+    },
+    {
+      "number": "29.4",
+      "section": "Страница 29",
+      "condition": "Спроси у одноклассника, какие игрушки есть в коробке из утр. 3, используя таблицу  и выбирая нужный ответ.",
+      "solution": "Is there a teddy bear? – Yes, there is\nAre there toy soldiers? – Yes, there are\nIs there a ball? – Yes, there is\nIs there a house? – Yes, there is\nAre there cars? – No, there isn’t\nПеревод:\nВ коробке есть медвежонок Тедди? – Да, есть\nВ коробке есть солдатики? – Да, есть\nВ коробке есть мячик? – Да, есть\nВ коробке есть дом? – Да, есть\nВ коробке есть машинки? – Нет",
+      "answer": "Are there cars? – No, there isn’t",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-29/"
+    },
+    {
+      "number": "30.1",
+      "section": "Страница 30",
+      "condition": "Слушай и повторяй за диктором.\nFair hair\npuppet\njack-in-the-box\nbig\nsmall",
+      "solution": "Fair hair, puppet, jack-in-the-box, big, small\nПеревод:\nСветлые волосы, кукла/марионетка, чёрт из табакерки/ Джек в коробке/ попрыгунчик, большой, маленький.",
+      "answer": "Fair hair, puppet, jack-in-the-box, big, small",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-30/"
+    },
+    {
+      "number": "31.4",
+      "section": "Страница 31",
+      "condition": "Прочитай диалог ещё раз и вставь пропущенные слова.\n1 He’s got two ... eyes.\n2 He’s got a ... black nose.",
+      "solution": "1 He’s got two big eyes\n2 He’s got a small black nose\nПеревод:\n1 У него два больших глаза\n2 У него маленький чёрный носик",
+      "answer": "2 He’s got a small black nose",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-31/"
+    },
+    {
+      "number": "32.1",
+      "section": "Страница 32",
+      "condition": "Давай поиграем.",
+      "solution": "— It’s got dark hair,  a big nose, a big mouth and small  ears.\n— The puppet\n— It’s got a  pink dress,  fair hair, two big eyes, long feet and it can jump.\n— The ballerina\n—  It’s big red hat and uniform, small nose, two small eyes and big gun.\n— The  toy soldier\n— It’s situated in the box. It’s got small ears, big mouth, green short hair, big red nose.\n— The jack-from-the-box\nПеревод:\n— У него тёмные волосы, большой нос, большой рот, и маленькие уши.\n— Марионетка\n— У неё розовое платье, светлые волосы, большие глаза, длинные ноги, и она умеет прыгать.\n— Балерина\n— У него красная шапка и униформа, маленький нос,  два маленьких глаза и большое оружие.\n— Солдатик\n— Он находится в коробке. У него маленькие уши, большой рот, зелёные короткие волосы, большой красный нос.\n— Джек в коробке",
+      "answer": "— The jack-from-the-box",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-32/"
+    },
+    {
+      "number": "32.2",
+      "section": "Страница 32",
+      "condition": "Слушай и повторяй за диктором.\nA happy teddy  with a y ellow y oy o!",
+      "solution": "Весёлый медвежонок с жёлтым йо-йо.",
+      "answer": "Весёлый медвежонок с жёлтым йо-йо.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-32/"
+    },
+    {
+      "number": "33.6",
+      "section": "Страница 33",
+      "condition": "Посмотри на картинку из упражнения 5 и ответь на вопрос: How many puppets are there on the wall?\nА теперь расспроси одноклассников об их игрушках по образцу\nОбразец: How many toy dogs are there in your toy box?",
+      "solution": "How many puppets are there on the wall? – There are nine puppets on the wall.\nHow many toy cats are there in your toy box?\nHow many cars are there in your toy box?\nHow many toy soldiers are there in your toy box?\nHow many toy mice are there in your toy box?\nHow many yachts are there in your toy box?\nПеревод:\nСколько куколок сидят на стене? – На стене сидят 9 (девять) куколок.\nКак много игрушечных котов у тебя лежит в коробке для игрушек?\nКак много машинок у тебя лежит в коробке для игрушек?\nКак много солдатиков у тебя лежит в коробке для игрушек?\nКак много игрушечных мышек у тебя лежит в коробке для игрушек?\nКак много яхт у тебя лежит в коробке для игрушек?",
+      "answer": "How many yachts are there in your toy box?",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-33/"
+    },
+    {
+      "number": "34.1",
+      "section": "Страница 34",
+      "condition": "Прочитай и расскажи о своей любимой игрушке, используя образец. Есть ли у вас общие любимые игрушки? Выполни проект.\nLook at my toy soldier. It's got two eyes, a nose and a mouth. It's got dark hair too. My toy soldier is very nice!\nПосмотрите на моего игрушечного солдатика. У него два глаза, нос и рот. Также у него есть тёмные волосы. Мой игрушечный солдатик очень красивый!",
+      "solution": "Look at my toy mouse. It’s got two small eyes, a long nose, a mouth. It’s got a long tail too. It’s grey. My toy mouse is very nice\nПосмотрите на мою игрушечную мышь. У неё два глаза, нос и рот. Также у неё есть длинный хвост. Она серого цвета. Моя мышь классная!\nTeddy Bear Shops\nПрочитай текст и скажи, какие бывают плюшевые мишки в России.\nIn Great Britain children love teddy bears! You can see all kinds of teddy bears: big and small and all different colours. Some teddy bears wear  clothes and hats too. They’re very cute!\nВ Великобритании дети любят плюшевых медвежат. Ты можешь найти все типы медвежат: большие и маленькие, и все разных цветов. Некоторые медвежата носят одежду и шляпы. Они такие милые!\nIn Russia you can see teddy bears, stuffed with sawdust, with fat and short hands and feet, all different colours. Some teddy bears wear clothes. The most famous USSR /Russia Teddy bear is Olympic Teddy Bear.\nВ  России ты можешь найти медвежат, набитых соломой, с толстеньки коротеньки руками и ногами, все  разных цветов. Некоторые медвежата носят одежду. Самым знаменитым медвежонком CCCP/ России является Олимпийский мишка.",
+      "answer": "В  России ты можешь найти медвежат, набитых соломой, с толстеньки коротеньки руками и ногами, все  разных цветов. Некоторые медвежата носят одежду. Самым знаменитым медвежонком CCCP/ России является Олимпийский мишка.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-34/"
+    },
+    {
+      "number": "35.1",
+      "section": "Страница 35",
+      "condition": "Прочитай слова и скажи, что находится рядом с твоим домом, как показано в образце.\nОбразец: There is a school near my house",
+      "solution": "There is a school near my house\nThere is a shop near my house\nThere is a park near my house\nThere is a bus stop my house\nThere is hospital near my house\nThere is a circus near my house\nThere is a zoo near my house\nThere is a cinema near my house\nПеревод:\nОколо моего дома находится школа\nОколо моего дома находится магазин\nОколо моего дома находится парк\nОколо моего дома находится автобусная остановка\nОколо моего дома находится больница\nОколо моего дома находится цирк\nОколо моего дома находится зоопарк\nОколо моего дома находится кинотеатр",
+      "answer": "There is a cinema near my house",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-35/"
+    },
+    {
+      "number": "35.2",
+      "section": "Страница 35",
+      "condition": "Пригласи друзей пойти куда-нибудь в выходные, как показано в образце. Используй данные слова.\nLet’s go to the cinema. We can see a film there.\nLet’s go to the ... .    We can ... there.\na zoo/see animals\nb circus/see a funny clown",
+      "solution": "Let’s go to the zoo. We can see animals there\nLet’s go to the circus. We can see a funny clown there.\nПеревод:\nПойдём в зоопарк. Там можно увидеть животных.\nПойдём в цирк. Там можно увидеть смешного клоуна.",
+      "answer": "Let’s go to the circus. We can see a funny clown there.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-35/"
+    },
+    {
+      "number": "35.3",
+      "section": "Страница 35",
+      "condition": "Продолжи рассказ.\nI like going to the zoo. There are funny animals there. The chimp can swing ... .",
+      "solution": "I like going  to the zoo. There are funny animals there. The chimp can swing I like going  to the zoo. There are funny animals there. The chimp can swing from branch to branch, colourful parrots flutter. Majestic lions lying on the sun. The zoo is full of beauty.\nПеревод:\nМне нравится ходить в зоопарк. Там много забавных животных. Шимпанзе может прыгать с ветки на ветку, яркие попугаи щебечут. Большие львы лежат на солнце. В зоопарке очень красиво.",
+      "answer": "I like going  to the zoo. There are funny animals there. The chimp can swing I like going  to the zoo. There are funny animals there. The chimp can swing from branch to branch, colourful parrots flutter. Majestic lions lying on the sun. The zoo is full of beauty.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-35/"
+    },
+    {
+      "number": "38.1",
+      "section": "Страница 38",
+      "condition": "Поговори со своим одноклассником, используя образец.\nWhere’s the teddy bear?\nIt’s in the toy box.",
+      "solution": "– Where’s the teddy bear?\n– It’s on the bed\n–  Where’s the teddy bear?\n– It’s near the shelf\nИли\n– It’s under the shelf\nПеревод:\n– Где Медвежонок Тедди?\n– Он на кровати\n– Где медвежонок Тедди?\n– Он рядом с полкой\nИли\n– Он под полкой",
+      "answer": "– It’s under the shelf",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-38/"
+    },
+    {
+      "number": "38.2",
+      "section": "Страница 38",
+      "condition": "Посмотри на образец и расскажи однокласснику, где находятся игрушки в твоей комнате.\nОбразец: There is a ball under the bed\nThere are toys in the toy box.",
+      "solution": "There is a teddy bear on the shelf\nThere are cars on the table\nThere is a toy soldier near the computer\nThere are toy cat and toy dog under the chair\nПеревод:\nНа полке стоит медвежонок Тедди\nНа столе лежат машинки\nРядом с компьютером стоит солдатик\nПод стулом лежат игрушечные коты и собаки",
+      "answer": "There are toy cat and toy dog under the chair",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-38/"
+    },
+    {
+      "number": "38.3",
+      "section": "Страница 38",
+      "condition": "Прочитай предложения, выбирая нужное слово.\n1. She’s got dark/fair hair\n2. He’s got small/big ears\n3. It’s got a big/small nose\n4. She’s got blue/brown eyes",
+      "solution": "1. She’s got fair hair\n2. He’s got small ears\n3. It’s got a big nose\n4. She’s got blue eyes\nПеревод:\n1. У неё светлые волосы\n2. У него маленькие уши\n3. У куклы большой нос\n4. У неё голубые глаза",
+      "answer": "4. She’s got blue eyes",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-38/"
+    },
+    {
+      "number": "39.4",
+      "section": "Страница 39",
+      "condition": "Прочитай слова и подбери соответствующие картинки.",
+      "solution": "1 jack-in-the-box – a\n2 puppet – d\n3 toy soldier – с\n4 ballerina – b\nПеревод:\n1 Джек в коробке – a\n2 куколка – d\n3 игрушечный солдатик – с\n4 кукла-балерина – b",
+      "answer": "4 ballerina – b",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-39/"
+    },
+    {
+      "number": "39.5",
+      "section": "Страница 39",
+      "condition": "Прочитай предложения и выбери соответствующую картинку.",
+      "solution": "It’s got fair hair – A\nIt’s got a big nose – С\nIt’s got small ears – B\nПеревод:\nУ него светлые волосы – A\nУ него большой нос – С\nУ него маленькие уши – B",
+      "answer": "It’s got small ears – B",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-39/"
+    },
+    {
+      "number": "40.1",
+      "section": "Страница 40",
+      "condition": "Слушай и повторяй за диктором\nIt’s sunny!\nIt’s hot!\nIt’s raining!\nJacket\ncoat\ntake off\nput  on\nshorts\nhat",
+      "solution": "It’s sunny! It’s hot! It’s raining! Jacket, coat, take off, put  on, shorts, hat.\nПеревод:\nСолнечно! Жарко! Идёт дождь! (Дождливо!) Куртка, пальто/куртка, снимать, надевать, шорты, шляпа.",
+      "answer": "It’s sunny! It’s hot! It’s raining! Jacket, coat, take off, put  on, shorts, hat.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-40/"
+    },
+    {
+      "number": "40.2",
+      "section": "Страница 40",
+      "condition": "Поговори со своим одноклассником, используя образец.\nIt’s hot!\nPut on your hat!\nIt’s hot!\nTake off your jacket!\nyour hat\nyour jacket\nyour shorts\nyour coat",
+      "solution": "— It’s hot!\n— Put on your hat!\n— It’s hot!\n— Take off your jacket!\n— It’s hot!\n— Put on your shorts!\n— It’s hot!\n— Put off your coat!\nПеревод:\n— Жарко!\n— Надень шляпу/кепку\n— Жарко!\n— Сними куртку!\n-Жарко!\n— Надень шорты!\n— Жарко!\n— Сними пальто/куртку!",
+      "answer": "— Put off your coat!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-40/"
+    },
+    {
+      "number": "41.3",
+      "section": "Страница 41",
+      "condition": "Посмотри на картинки и скажи, почему на Ларри шляпа на картинках 1 и 3. Прослушай диалог и проверь себя.\n1 Larry: It’s sunny  today! Can  we   go in the boat, Nanny?\nNanny: Of course! We’re on holiday!\nLarry: Look I’m wearing my hat!\nLulu: Oh, Chuckles! Take off your jacket! It’s hot today!\n2 Larrry: I love summer holidays.\nLulu: I love boats.\nNanny: Yes, this is a lovely holiday.\n3 Larry: Oh no! What’s that?\nNanny: Oh dear! It’s raining! Lulu, put  on your hat.\nLulu: Nanny, what can we do now?\nLarry: Look! At our boat!\nLulu: Oh, Nanny! HELP!",
+      "solution": "Larry wears a hat on picture 1, because it’s sunny – Ларри носит панамку на картинке 1, потому что солнечно\nLarry wears a hat on picture 3, because it’s raining – Ларри носит панамку на картинке 3, потому что пошёл дождь\nПеревод:\n1 Ларри: Сегодня солнечно! Можно мы поплаваем на лодке, няня?\nНяня: Конечно! Мы на каникулах!\nЛарри: Смотри я надеваю панамку!\nЛулу: О, Чаклз! Снимай куртку. Сегодня жарко!\n2 Ларри: Я люблю летние каникулы!\nЛулу: Я люблю лодки.\nНяня: Да, это прекрасные каникулы\n3 Ларри: О, нет! Что такое?\nНяня: О, боже! Пошёл дождь! Лулу, надень свою панамку.\nЛулу: Няня, что нам делать?\nЛарри: Смотрите! Наша лодка!\nЛулу: Няня! ПОМОГИ/СПАСИ!",
+      "answer": "Larry wears a hat on picture 3, because it’s raining – Ларри носит панамку на картинке 3, потому что пошёл дождь",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-41/"
+    },
+    {
+      "number": "41.4",
+      "section": "Страница 41",
+      "condition": "Прочитай диалог и закончи предложения.\n1 Larry loves ... .\n2 Lulu loves ... .",
+      "solution": "1 Larry loves summer holidays\n2 Lulu loves boats\nПеревод:\n1 Ларри нравятся летние каникулы\n2 Лулу нравятся лодки",
+      "answer": "2 Lulu loves boats",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-41/"
+    },
+    {
+      "number": "42.1",
+      "section": "Страница 42",
+      "condition": "Прочитай предложения и подбери соответствующую картинку.",
+      "solution": "a It’s sunny! – 3\nb It’s hot! – 1\nс It’s raining – 2\nПеревод:\na Солнечно! – 3\nb Жарко! – 1\nс Идёт дождь! – 2",
+      "answer": "с It’s raining – 2",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-42/"
+    },
+    {
+      "number": "42.2",
+      "section": "Страница 42",
+      "condition": "Прочитай предложения и закончи их.\n1 It’s hot today. I’m wearing my green ... !\n2 Look! He’s wearing his blue ... !\n3 Look! She’s wearing her red ... !",
+      "solution": "1 It’s hot today. I’m wearing my green shorts!\n2 Look! He’s wearing his blue jacket!\n3 Look! She’s wearing her red coat!\nПеревод:\n1 Сегодня жарко. Я надел свои зелёные шорты!\n2 Смотри! На нём   его синяя куртка!\n3 Смотри! На ней её красное пальто!",
+      "answer": "3 Look! She’s wearing her red coat!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-42/"
+    },
+    {
+      "number": "43.1",
+      "section": "Страница 43",
+      "condition": "Ксения Кудряшева\nНомер 3.\nСпой песенку, сопровождая её движениями.\nIt's hot today,\nPut on your hat!\nTake off your jacket,\nIt's hot!\nIt's raining, it's raining,\nPut on your coat!\nIt's raining cats and dogs!\nIt's sunny today,\nI'm wearing my hat!\nIt's sunny,\nIt's sunny today!\nIt's raining, it's raining,\nI'm wearing my jzcket.\nSo can i go out to play?",
+      "solution": "Перевод:\nСегодня жарко,\nНадень панамку!\nСними куртку,\nСегодня жарко!\nПошёл дождь, пошёл дождь,\nНадень свою куртку/ пальто!\nНа улице ливень!\nСегодня солнечно,\nЯ надел панамку!\nСегодня солнечно,\nСолнечно сегодня!\nПошёл дождь, пошёл дождь,\nЯ надел свою куртку.\nМожно мне пойти поиграть на улицу?\n*raining cats and dogs –  буквально «Дождит кошками и собаками», т.е. «Идет очень сильный дождь».\nСкорее всего, это выражение появилось из-за того, что раньше в Англии кошки и собаки любили прятаться в соломенных крышах домов, чтобы согреться и хорошо отдохнуть в мягкой и теплой соломе. Когда начинался внезапный дождь, животные покидали свои убежища с дикой скоростью, буквально спрыгивая и падая с крыш.",
+      "answer": "Скорее всего, это выражение появилось из-за того, что раньше в Англии кошки и собаки любили прятаться в соломенных крышах домов, чтобы согреться и хорошо отдохнуть в мягкой и теплой соломе. Когда начинался внезапный дождь, животные покидали свои убежища с дикой скоростью, буквально спрыгивая и падая с крыш.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-43/"
+    },
+    {
+      "number": "44.1",
+      "section": "Страница 44",
+      "condition": "Слушай и повторяй за диктором.\nIt’s windy!\nIt’s cold!\nIsland\nsocks\nT-shirt\njeans\nshoes\nskirt",
+      "solution": "It’s windy! It’s cold! Island, socks, T-shirt, jeans, shoes, skirt.\nПеревод:\nВетрено! Холодно! Остров, носки, футболка, джинсы, ботинки, юбка.",
+      "answer": "It’s windy! It’s cold! Island, socks, T-shirt, jeans, shoes, skirt.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-44/"
+    },
+    {
+      "number": "44.2",
+      "section": "Страница 44",
+      "condition": "Поговори со своим одноклассником, используя образец.\nWhat’s the weather like?\nIt’s cold!",
+      "solution": "– It’s cold!\n1 It’s What’s the weather like?\nIt’s It’s windy!\n2 It’s What’s the weather like?\nIt’s It’s sunny!\n3 It’s What’s the weather like?\nIt’s It’s raining.\nПеревод:\n1 It’s Какая сейчас погода?\nIt’s Ветрено!\n2 It’s Какая сейчас погода?\nIt’s Солнечно!\n3 It’s Какая сейчас погода?\nIt’s Идёт дождь.",
+      "answer": "It’s It’s raining.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-44/"
+    },
+    {
+      "number": "45.1",
+      "section": "Страница 45",
+      "condition": "Ксения Кудряшева\nНомер 3.\nСпой песенку.\nClose your eyes,\nCount one, two, three,\nCome to my magic island with me!\nIt's hot, it's cold, it's windy too,\nIt's a magic island,\nJust for you!\nClose your eyes,\nCount one, two, three,\nThe magic word is\nRiddle-dee-dee!",
+      "solution": "Перевод:\nЗакрой свои глазки,\nПосчитай один, два, три,\nПойдём на мой волшебный остров!\nЖарко, холодно, ветрено тоже,\nЭто волшебный   остров\nТолько для тебя!\nЗакрой свои глазки,\nПосчитай один, два, три,\nВолшебное слово\nРиддл-ди-ди (Загадка-ди-ди)",
+      "answer": "Риддл-ди-ди (Загадка-ди-ди)",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-45/"
+    },
+    {
+      "number": "46.2",
+      "section": "Страница 46",
+      "condition": "Прочитай диалог ещё раз и выбери правильный ответ.\nLook! a A garden!\nb An island!",
+      "solution": "Look! b An island!\nПеревод:\nСмотри! Остров!",
+      "answer": "Look! b An island!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-46/"
+    },
+    {
+      "number": "47.4",
+      "section": "Страница 47",
+      "condition": "Прочитай предложения и подбери соответствующий вопрос-просьбу.\n1 It's hot today. – a Can I wear my jeans?\n2 It's sunny today. – b Can I play at home?\n3 It's cold today. – c Can I take off my jacket?\n4 It's raining today. – d Can we go in the boat?",
+      "solution": "1 It's hot today. – c Can I take off my jacket?\n2 It's sunny today. – d Can we go in the boat?\n3 It's cold today. – a Can I wear my jeans?\n4 It's raining today. – b Can I play at home?\nПеревод:\n1 Сегодня жарко. – c Можно мне снять куртку?\n2 Сегодня солнечно. – d Можно нам покататься на лодке?\n3 Сегодня холодно. – a Можно мне надеть джинсы?\n4 Сегодня идет дождь. – b Можно мне поиграть дома?",
+      "answer": "4 It's raining today. – b Can I play at home?",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-47/"
+    },
+    {
+      "number": "48.1",
+      "section": "Страница 48",
+      "condition": "Слушай и повторяй за диктором.\nflowers\nmusic\nsummer\nwinter\nautumn\nspring",
+      "solution": "flowers\nmusic\nsummer\nwinter\nautumn\nspring\nПеревод:\nцветы\nмузыка\nлето\nзима\nосень\nвесна",
+      "answer": "spring",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-48/"
+    },
+    {
+      "number": "48.3",
+      "section": "Страница 48",
+      "condition": "Ларри и Лулу поют о себе:\nWe're on our summer holiday.\nМы на летних каникулах.\nНяня Шайн скажет про них:\nThey're on their summer holiday.\nОни на летних каникулах.\nПрочитай предложения и вставь нужное слово.\n1 They're in ... house.\n2 We're in ... room.\n3 We play with ... toys.",
+      "solution": "1 They're in their house.\n2 We're in our room.\n3 We play with our toys.\nПеревод:\n1 Они в своем доме.\n2 Мы в своей комнате.\n3 Мы играем со своими игрушками.",
+      "answer": "3 We play with our toys.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-48/"
+    },
+    {
+      "number": "49.5",
+      "section": "Страница 49",
+      "condition": "Прослушай диалог ещё раз и вставь пропущенное слово.\nLaryy and Lulu are on their ... holiday!",
+      "solution": "Larry and Lulu are on their summer holiday!\nПеревод:\nЛарри и Лулу на летних каникулах!",
+      "answer": "Larry and Lulu are on their summer holiday!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-49/"
+    },
+    {
+      "number": "50.1",
+      "section": "Страница 50",
+      "condition": "Давай поиграем!\nHe’s wearing a yellow T-shirt!\nHe’s wearing a red T-shirt!",
+      "solution": "He’s wearing a yellow T-shirt!\nHe’s wearing a red T-shirt!\nHe’s wearing a brown jacket!\nHe’s wearing a black jacket!\nShe’s wearing a green hat!\nShe’s wearing a pink hat!\nShe’s wearing a blue T-shirt!\nShe’s wearing a yellow T-shirt!\nShe’s wearing pink socks!\nShe’s wearing green socks!\nПеревод:\nОн в желтой футболке!\nОн в красной футболке!\nОн в коричневой куртке!\nОн в черной куртке!\nОна в зеленой шляпе!\nОна в розовой шляпе!\nОна в синей футболке!\nОна в желтой футболке!\nОна в розовых носках!\nОна в зеленых носках!",
+      "answer": "She’s wearing green socks!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-50/"
+    },
+    {
+      "number": "51.4",
+      "section": "Страница 51",
+      "condition": "Давай оденем Ларри и Лулу!",
+      "solution": "Larry is wearing a green T-shirt, аn orange jacket, blue jeans, white socks and red shoes.\nLulu is wearing a pink shirt, a brown coat, a black skirt, yellow socks and white shoes.\nПеревод:\nЛарри одет в зеленую футболку, оранжевую куртку, синие джинсы, белые носки и красные туфли.\nЛулу одета в розовую рубашку, коричневое пальто, черную юбку, желтые носки и белые туфли.",
+      "answer": "Lulu is wearing a pink shirt, a brown coat, a black skirt, yellow socks and white shoes.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-51/"
+    },
+    {
+      "number": "52.1",
+      "section": "Страница 52",
+      "condition": "Прочитай и представь, что сейчас летние каникулы. Расскажи о себе одноклассникам, используя образец. А какую летнюю одежду предпочитают твои одноклассники? Выполни проект.\nThis is me on my summer holiday. I am\nwearing red shorts and a blue and white\nT-shirt. I'm wearing a hat too. It's hot\ntoday.\nЭто я на летних каникулах. На мне красные шорты и сине-белая футболка, а также шляпа. Сегодня очень жарко.",
+      "solution": "This is me on my summer holiday. I am wearing blue shorts and a red and green T-shirt. I'm wearing a white hat too. It's hot and sunny today.\nЭто я на летних каникулах. На мне синие шорты и красно-зеленая футболка, а также белая шляпа. Сегодня жарко и солнечно.\nGreat Britain\nПрочитай текст про Великобританию и ответь на вопрос.\nWhat is the capital of Great Britain?\nLook at the British flag: it's red, blue and white. A lot of people go to Great Britain on holiday. People have a lot of fun there. They like visiting the capital city London. In London they can see red buses, red telephone boxes and black cabs. The English like tea with milk. Do you like it?\nКакая столица Великобритании?\nПосмотри на британский флаг: он красного, синего и белого цвета. Многие люди ездят в Великобританию на каникулы. Там они много веселятся. Они любят посещать столичный город – Лондон. В Лондоне они могут увидеть красные автобусы, красные телефонные будки и черные такси. Англичане любят чай с молоком. А тебе он нравится?\nПрочитай текст ещё раз, назови символы Великобритании и сравни их с символами России. А как называется столица России по-английски?\nThe capital of Great Britain is London.\nThe symbols of Great Britain are red, blue and white flag, red buses, red telephone boxes, black cabs and tea with milk. The symbol of Russia is red, blue and white flag, too! Other symbols are bears, balalaika, birch, matryoshka and tea with lemon.\nThe capital of Russia is Moscow.\nСтолица Великобритании — Лондон.\nСимволы Великобритании — красно-сине-белый флаг, красные автобусы, красные телефонные будки, черные такси и чай с молоком. Символ России — тоже красно-сине-белый флаг! Другие символы — медведи, балалайка, береза, матрешка и чай с лимоном.\nСтолица России — Москва.",
+      "answer": "Столица России — Москва.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-52/"
+    },
+    {
+      "number": "56.1",
+      "section": "NOW I KNOW",
+      "condition": "Поговори со своим одноклассником, используя образец.\nWhat’s the weather like?\nIt’s hot.",
+      "solution": "1.\tWhat’s the weather like? – It’s hot.\n2.\tWhat’s the weather like? – It’s rainy.\n3.\tWhat’s the weather like? – It’s windy.\n4.\tWhat’s the weather like? – It’s cold.\nПеревод:\n1.\tКакая погода? – Жарко.\n2.\tКакая погода? – Дождливая.\n3.\tКакая погода? – Ветрено.\n4.\tКакая погода? – Холодно.",
+      "answer": "4.\tWhat’s the weather like? – It’s cold.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-56/"
+    },
+    {
+      "number": "56.2",
+      "section": "NOW I KNOW",
+      "condition": "Прочитай слова и подбери соответствующую им картинку.",
+      "solution": "a.\tSummer – 4\nb.\tAutumn – 2\nc.\tWinter – 3\nd.\tSpring – 1\nПеревод:\na.\tЛето – 4\nb.\tОсень – 2\nc.\tЗима – 3\nd.\tВесна – 1",
+      "answer": "d.\tSpring – 1",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-56/"
+    },
+    {
+      "number": "57.3",
+      "section": "Страница 57",
+      "condition": "Прочитай слова и подбери соответствующие им картинки.\nskirt\nshoes\njeans\nshorts\nT-shirt\njacket",
+      "solution": "skirt – 2\nshoes – 6\njeans – 4\nshorts – 1\nT-shirt – 5\njacket – 3\nПеревод:\nюбка – 2\nтуфли – 6\nджинсы – 4\nшорты – 1\nфутболка – 5\nкуртка – 3",
+      "answer": "jacket – 3",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-57/"
+    },
+    {
+      "number": "57.4",
+      "section": "Страница 57",
+      "condition": "I'm, He's или She's?\n1.\tI'm wearing my yellow T-shirt!\n2.\t... wearing her red skirt!\n3.\t... wearing his green shoes!\n4.\t... wearing my blue jeans!",
+      "solution": "1.\tI'm wearing my yellow T-shirt!\n2.\tShe’s wearing her red skirt!\n3.\tHe’s wearing his green shoes!\n4.\tI'm wearing my blue jeans!\nПеревод:\n1.\tЯ в своей желтой футболке!\n2.\tОна в своей красной юбке!\n3.\tОн в своих зеленых ботинках!\n4.\tЯ в своих синих джинсах!",
+      "answer": "4.\tI'm wearing my blue jeans!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-57/"
+    },
+    {
+      "number": "58.1",
+      "section": "Страница 58",
+      "condition": "Соотнеси слова с картинками.",
+      "solution": "1.\tLiving room – b\n2.\tChips – a\n3.\tChair – c\nПеревод:\n1.\tГостиная – b\n2.\tКартофель фри – a\n3.\tСтул – c",
+      "answer": "3.\tChair – c",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-58/"
+    },
+    {
+      "number": "58.2",
+      "section": "Страница 58",
+      "condition": "Прочитай текст, закончи предложения и нарисуй спальню городского мышонка.\nThis is Town Mouse's bedroom. Look!\nThere's a big ... and a lovely ... .\nThere's a nice ... in his bedroom too.",
+      "solution": "This is Town Mouse's bedroom. Look! There's a big bed and a lovely lamp.\nThere's a nice table in his bedroom too.\nПеревод:\nЭто спальня Городской Мыши. Смотри! Там большая кровать и красивая лампа.\nВ её спальне ещё есть хороший стол.",
+      "answer": "There's a nice table in his bedroom too.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-58/"
+    },
+    {
+      "number": "59.1",
+      "section": "Страница 59",
+      "condition": "Посмотри на картинку и опиши городскую мышку, выбирая соответствующие слова из рамочки. Одно слово лишнее.\nbig  meat  yellow  black  small\nThe Town Mouse has got ... eyes.\nHe has got a ... nose and big ears.\nHe likes ....",
+      "solution": "The Town Mouse has got black eyes. He has got a small nose and big ears. He likes meat.\nПеревод:\nбольшой мясной желтый черный маленький\nУ Городской Мыши черные глаза. У неё маленький нос и большие уши. Она любит мясо.",
+      "answer": "The Town Mouse has got black eyes. He has got a small nose and big ears. He likes meat.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-59/"
+    },
+    {
+      "number": "59.2",
+      "section": "Страница 59",
+      "condition": "Прочитай предложения, выбирая нужный предлог.\n1.\tWhere are the dogs? Under/On the table.\n2.\tWhere's the bed? In/on the bedroom.\n3.\tWhere are the mice? Near/on the table.",
+      "solution": "1.\tWhere are the dogs? On the table.\n2.\tWhere's the bed? In the bedroom.\n3.\tWhere are the mice? Near the table.\nПеревод:\n1.\tГде собаки? На столе.\n2.\tГде кровать? В спальне.\n3.\tГде мыши? Возле стола.",
+      "answer": "3.\tWhere are the mice? Near the table.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-59/"
+    },
+    {
+      "number": "60.1",
+      "section": "Страница 60",
+      "condition": "Посмотри на картинки и подбери правильные названия.",
+      "solution": "1.\t– bees\n2.\t– ants\n3.\t– frogs\n4.\t– a shabby house\nПеревод:\n1.\t– пчелы\n2.\t– муравьи\n3.\t– лягушки\n4.\t– обшарпанный дом",
+      "answer": "4.\t– a shabby house",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-60/"
+    },
+    {
+      "number": "60.2",
+      "section": "Страница 60",
+      "condition": "Скажи, где хотят жить мышки.\nThe Country Mouse: I want to live in the ... .\nThe Town Mouse: I want to live in the ... .",
+      "solution": "The Country Mouse: I want to live in the country.\nThe Town Mouse: I want to live in the town.\nПеревод:\nСельская мышь: Я хочу жить в деревне.\nГородская мышь: Я хочу жить в городе.",
+      "answer": "The Town Mouse: I want to live in the town.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-60/"
+    },
+    {
+      "number": "60.3",
+      "section": "Страница 60",
+      "condition": "Сделай табличку для своего дома и расскажи, где ты живёшь.\nI’m from Russia. I live in ... .",
+      "solution": "I’m from Russia. I live in the town. I live in Moscow. My house is big and nice.\nПеревод:\nЯ из России. Я живу в городе. Я живу в Москве. Мой дом большой и красивый.",
+      "answer": "I’m from Russia. I live in the town. I live in Moscow. My house is big and nice.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-60/"
+    },
+    {
+      "number": "62.1",
+      "section": "Страница 62",
+      "condition": "Ксения Кудряшева\n4. Russian Souvenirs\nIn the pictures you can see traditional Russian wooden toys. People from other countries like to take these toys home as souvenirs. Do you like them?\nКакие сувениры можно увидеть в этом музее? Где он находится? http://gotourl.ru/12635\nПеревод:\n4. Русские сувениры\nНа этих фотографиях можно увидеть традиционные русские деревянные игрушки. Люди из других стран любят привозить эти игрушки домой в качестве сувениров. Они тебе нравятся?",
+      "solution": "You can see boxes, eggs and matryoshka dolls in this museum. It is in Russia.\nПеревод:\nВ этом музее можно увидеть шкатулки, яйца и матрешки. Он находится в России.",
+      "answer": "В этом музее можно увидеть шкатулки, яйца и матрешки. Он находится в России.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-62/"
+    },
+    {
+      "number": "64.1",
+      "section": "Страница 64",
+      "condition": "Ксения Кудряшева\nShowtime!\nНомер 1.\nСпой песенку, сопровождая её движениями.\nEat your eggs\nAnd drink your juice,\nToday it's showtime, folks!\nPut on your hat\nAnd socks and shoes,\nToday it's showtime, folks!\nIt's showtime,\nBoys and girls,\nIt's time to dance and sing!\nIt's showtime,\nBoys and girls,\nMy very favourite thing!\nGet your costume,\nHurry, let's go!\nToday it's showtime, folks!\nPlease, don't forget\nTo watch our show!\nToday it's showtime, folks!",
+      "solution": "Перевод:\nЕшьте яйца\nИ пейте сок,\nСегодня у нас шоу, друзья!\nНаденьте шляпы,\nНоски и ботинки,\nСегодня у нас шоу, друзья!\nВремя шоу,\nМальчики и девочки,\nПора танцевать и петь!\nВремя шоу,\nМальчики и девочки,\nЭто моё любимое время!\nНадевайте костюмы,\nСкорее, давайте!\nСегодня у нас шоу, друзья!\nПожалуйста, не забудьте\nПосмотреть наше шоу!\nСегодня у нас шоу, друзья!\nЕшьте яйца\nИ пейте сок,\nСегодня у нас шоу, друзья!\nНаденьте шляпы,\nНоски и ботинки,\nСегодня у нас шоу, друзья!\nВремя шоу,\nМальчики и девочки,\nПора танцевать и петь!\nВремя шоу,\nМальчики и девочки,\nЭто моё любимое время!\nНадевайте костюмы,\nСкорее, давайте!\nСегодня у нас шоу, друзья!\nПожалуйста, не забудьте\nПосмотреть наше шоу!\nСегодня у нас шоу, друзья!",
+      "answer": "Сегодня у нас шоу, друзья!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-64/"
+    },
+    {
+      "number": "65.3",
+      "section": "Страница 65",
+      "condition": "Перечитай диалог и закончи предложение.\nChuckles is wearing my teddy bear ... !",
+      "solution": "Chuckles is wearing my teddy bear costume!\nПеревод:\nЧаклз одет в мой костюм плюшевого медвежонка!",
+      "answer": "Chuckles is wearing my teddy bear costume!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-65/"
+    },
+    {
+      "number": "65.3-2",
+      "section": "Страница 65",
+      "condition": "Прочитай диалог ещё раз и закончи предложение.\nChuckles is wearing my teddy bear ... !",
+      "solution": "Chuckles is wearing my teddy bear costume!\nПеревод:\nЧаклз одет в мой костюм плюшевого медвежонка!",
+      "answer": "Chuckles is wearing my teddy bear costume!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-65/"
+    },
+    {
+      "number": "66.1-2",
+      "section": "Страница 66",
+      "condition": "Спой песенку, сопровождая её соответствующими движениями.",
+      "solution": "Teddy bear, teddy bear,\nTurn around!\nTeddy bear, teddy bear,\nTouch the ground!\nTeddy bear, teddy bear,\nClimb the stairs!\nTeddy bear, teddy bear,\nSay your prayers!\nTeddy bear, teddy bear,\nTurn off the lights!\nTeddy bear, teddy bear,\nSay goodnight!\nGoodnight and goodbye!!!\nПеревод:\nМедвежонок, медвежонок,\nПовернись!\nМедвежонок, медвежонок,\nКоснись земли!\nМедвежонок, медвежонок,\nПоднимись по лестнице!\nМедвежонок, медвежонок,\nПрочти молитвы!\nМедвежонок, медвежонок,\nВыключи свет!\nМедвежонок, медвежонок,\nСкажи спокойной ночи!\nСпокойной ночи и до свидания!!!",
+      "answer": "Goodnight and goodbye!!!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-66/"
+    },
+    {
+      "number": "67.3",
+      "section": "Страница 67",
+      "condition": "Прочитай диалог ещё раз и выбери правильное слово.\nChuckles says hello/goodbye!",
+      "solution": "Chuckles says goodbye!\nПеревод:\nЧаклз говорит до свидания!",
+      "answer": "Chuckles says goodbye!",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-67/"
+    },
+    {
+      "number": "68.1",
+      "section": "Страница 68",
+      "condition": "Ксения Кудряшева\nFirst steps to reading\nНомер 1.\nРабота в парах. Прочитайте слова друг другу.\n/æ/\ncat, fat, hat, bat, cap, black, can, hand, man, Dan, and, have, ant, has, Pam\n/eɪ/\ncake, snake, lake, plane, Jane, name, plate, Dave",
+      "solution": "Перевод:\n/æ/\nкот, толстый, шляпа, летучая мышь, кепка, черный, может, рука, мужчина, Дэн, и, иметь, муравей, имеет, Пэм\n/eɪ/\nторт, змея, озеро, самолет, Джейн, имя, тарелка, Дэйв\nНомер 2.\nРабота в парах. Прочитайте друг другу слова, словосочетания и предложения.\n/ɪ/\nmilk, pink, Kim, sit, big, swim, rich, is, sister, kitten, little, listen\n/aɪ/\nbike, like, Mike, kite, write, white, fine, nine, ride, drive, five, ice, I, hi",
+      "answer": "bike, like, Mike, kite, write, white, fine, nine, ride, drive, five, ice, I, hi",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-68/"
+    },
+    {
+      "number": "68.2",
+      "section": "Страница 68",
+      "condition": "Перевод:\n/æ/\nкот, толстый, шляпа, летучая мышь, кепка, черный, может, рука, мужчина, Дэн, и, иметь, муравей, имеет, Пэм\n/eɪ/\nторт, змея, озеро, самолет, Джейн, имя, тарелка, Дэйв\nНомер 2.\nРабота в парах. Прочитайте друг другу слова, словосочетания и предложения.\n/ɪ/\nmilk, pink, Kim, sit, big, swim, rich, is, sister, kitten, little, listen\n/aɪ/\nbike, like, Mike, kite, write, white, fine, nine, ride, drive, five, ice, I, hi",
+      "solution": "Перевод:\n/ɪ/\nмолоко, розовый, Ким, сидеть, большой, плавать, богатый, есть, сестра, котенок, маленький, слушать\n/aɪ/\nвелосипед, нравится, Майк, воздушный змей, писать, белый, хорошо, девять, ехать, водить, пять, лед, я, привет\n/ɪ/ /aɪ/\nкотенок\nбелый котенок\nмаленький белый котенок\nУ меня есть маленький белый котенок.\n/æ/\nкот\nтолстый кот\nтолстый черный кот\nМак — толстый черный кот.\nНомер 3.\nРабота в парах. Прочитайте слова друг другу.\n/i:/\nwe, me, be, he, she, Pete\n/e/\nzebra, seven, desk, men, ten, pen, hen, red, bed, wet, egg, leg, dress, elf, Ken",
+      "answer": "zebra, seven, desk, men, ten, pen, hen, red, bed, wet, egg, leg, dress, elf, Ken",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-68/"
+    },
+    {
+      "number": "68.3",
+      "section": "Страница 68",
+      "condition": "Перевод:\n/ɪ/\nмолоко, розовый, Ким, сидеть, большой, плавать, богатый, есть, сестра, котенок, маленький, слушать\n/aɪ/\nвелосипед, нравится, Майк, воздушный змей, писать, белый, хорошо, девять, ехать, водить, пять, лед, я, привет\n/ɪ/ /aɪ/\nкотенок\nбелый котенок\nмаленький белый котенок\nУ меня есть маленький белый котенок.\n/æ/\nкот\nтолстый кот\nтолстый черный кот\nМак — толстый черный кот.\nНомер 3.\nРабота в парах. Прочитайте слова друг другу.\n/i:/\nwe, me, be, he, she, Pete\n/e/\nzebra, seven, desk, men, ten, pen, hen, red, bed, wet, egg, leg, dress, elf, Ken",
+      "solution": "Перевод:\n/i:/\nмы, я, быть, он, она, Пит\n/e/\nзебра, семь, стол, мужчины, десять, ручка, курица, красный, кровать, мокрый, яйцо, нога, платье, эльф, Кен",
+      "answer": "зебра, семь, стол, мужчины, десять, ручка, курица, красный, кровать, мокрый, яйцо, нога, платье, эльф, Кен",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-68/"
+    },
+    {
+      "number": "69.1",
+      "section": "Страница 69",
+      "condition": "Ксения Кудряшева\nНомер 4.\nРабота в парах. Прочитайте друг другу слова, словосочетания и предложения.\n/aɪ/ fly, sky, bye, my\n/ɪ/ baby, teddy, pretty, family",
+      "solution": "Перевод:\n/aɪ/ летать, небо, пока, мой\n/ɪ/ ребенок, плюшевый мишка, милый, семья\n/aɪ/ /ɪ/ (звук ай) (звук краткий и)\nмой воздушный змей\nмой розовый воздушный змей\nзапускать моего розового воздушного змея\nМне нравится запускать моего розового воздушного змея.\n/ɪ/ (звук краткий и)\nребенок\nмаленький ребенок\nмилый маленький ребенок\nПока, милый маленький ребенок.\nНомер 5.\nРабота в парах. Прочитайте слова друг другу.\n/ǝu/ home, bone, rose, go, ghost, rope, nose, no, Tony\n/ɒ/ frog, dog, stop, hot, got, on, Donna",
+      "answer": "/ɒ/ frog, dog, stop, hot, got, on, Donna",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-69/"
+    },
+    {
+      "number": "69.2",
+      "section": "Страница 69",
+      "condition": "Перевод:\n/aɪ/ летать, небо, пока, мой\n/ɪ/ ребенок, плюшевый мишка, милый, семья\n/aɪ/ /ɪ/ (звук ай) (звук краткий и)\nмой воздушный змей\nмой розовый воздушный змей\nзапускать моего розового воздушного змея\nМне нравится запускать моего розового воздушного змея.\n/ɪ/ (звук краткий и)\nребенок\nмаленький ребенок\nмилый маленький ребенок\nПока, милый маленький ребенок.\nНомер 5.\nРабота в парах. Прочитайте слова друг другу.\n/ǝu/ home, bone, rose, go, ghost, rope, nose, no, Tony\n/ɒ/ frog, dog, stop, hot, got, on, Donna",
+      "solution": "Перевод:\n/ǝu/ (звук оу) дом, кость, роза, идти, призрак, веревка, нос, нет, Тони\n/ɒ/ (звук о)  лягушка, собака, стой, горячий, получил, на, Донна",
+      "answer": "/ɒ/ (звук о)  лягушка, собака, стой, горячий, получил, на, Донна",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-69/"
+    },
+    {
+      "number": "70.1",
+      "section": "Страница 70",
+      "condition": "Ксения Кудряшева\nНомер 6.\nРабота в парах. Прочитайте друг другу слова, словосочетания и предложения.\n/ju:/\npupil, cute, computer, use, student, music\n/i:/\nnut, but, drum, sun, fun, run, bus, cup, jump, puppy, rubber, Russia\n/ju:/\nthe computer\non the computer\nplay on the computer\ni like to play on the computer\n/i:/\na puppy\na funny puppy\nrun, funny puppy\nRun home, funny puppy.",
+      "solution": "Перевод:\n/ju:/ (звук ю)\nученик, милый, компьютер, использовать, студент, музыка\n/i:/ (звук долгий и)\nорех, но, барабан, солнце, веселье, бег, автобус, чашка, прыжок, щенок, ластик, Россия\n/ju:/ (звук ю)\nкомпьютер\nна компьютере\nиграть на компьютере\nМне нравится играть на компьютере.\n/ʌ/ (звук а)\nщенок\nсмешной щенок\nбеги, смешной щенок\nБеги домой, смешной щенок.\nНомер 7.\nРабота в парах. Прочитайте слова и текст друг другу.\n/i:/\nbee, tree, feet, deep, feel, sweets, green, queen, eat, meat, team, read, jeans, peas, please\nMy name is Pete.\nI am nine.\nI have got a dog.\nMy dog is funny.\nHe likes bones and sweets.",
+      "answer": "He likes bones and sweets.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-70/"
+    },
+    {
+      "number": "70.2",
+      "section": "Страница 70",
+      "condition": "Перевод:\n/ju:/ (звук ю)\nученик, милый, компьютер, использовать, студент, музыка\n/i:/ (звук долгий и)\nорех, но, барабан, солнце, веселье, бег, автобус, чашка, прыжок, щенок, ластик, Россия\n/ju:/ (звук ю)\nкомпьютер\nна компьютере\nиграть на компьютере\nМне нравится играть на компьютере.\n/ʌ/ (звук а)\nщенок\nсмешной щенок\nбеги, смешной щенок\nБеги домой, смешной щенок.\nНомер 7.\nРабота в парах. Прочитайте слова и текст друг другу.\n/i:/\nbee, tree, feet, deep, feel, sweets, green, queen, eat, meat, team, read, jeans, peas, please\nMy name is Pete.\nI am nine.\nI have got a dog.\nMy dog is funny.\nHe likes bones and sweets.",
+      "solution": "Перевод:\n/i:/ (звук долгий и)\nпчела, дерево, ноги, глубоко, чувствовать, сладости, зеленый, королева, есть, мясо, команда, читать, джинсы, горох, пожалуйста\nМеня зовут Пит.\nМне девять.\nУ меня есть собака.\nМоя собака забавная.\nЕй нравятся кости и сладости.",
+      "answer": "Ей нравятся кости и сладости.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-70/"
+    },
+    {
+      "number": "71.1",
+      "section": "Страница 71",
+      "condition": "Ксения Кудряшева\nНомер 8.\nРабота в парах. Прочитайте слова и вопросы друг другу.\n/ð/\nmother, brother, with, this, they, then, that, the\n/θ/ teeth, thanks, three, think\n/w/ whale, white, when, why, what\n/h/ who\nTony\nWho is that?\nWhat is his name?\nWhy is he in the big green plane?",
+      "solution": "Перевод:\n/ð/ (межзубный з)\nмать, брат, с, это, они, тогда, тот\n/θ/ (межзубный з) зубы, спасибо, три, думать\n/w/ (аналога звука в русском языке нет).  кит, белый, когда, почему, что\n/h/(звук х)  кто\nТони\nКто это?\nКак его зовут?\nПочему он в большом зеленом самолете?\nНомер 9.\nРабота в парах. Прочитайте слова и предложения друг другу.\n/ʃ/ ship, she, shell, shine, shop, fish, wish; She sells sea shells by the sea.\n/f/ phone, dolphin, elephant; Seven elephants and five dolphins.\n/tʃ/ cheese, chips, chimp, chin, cherry, chocolate, beach, teacher; Can I have a cherry on my chocolate cake?",
+      "answer": "/tʃ/ cheese, chips, chimp, chin, cherry, chocolate, beach, teacher; Can I have a cherry on my chocolate cake?",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-71/"
+    },
+    {
+      "number": "71.2",
+      "section": "Страница 71",
+      "condition": "Перевод:\n/ð/ (межзубный з)\nмать, брат, с, это, они, тогда, тот\n/θ/ (межзубный з) зубы, спасибо, три, думать\n/w/ (аналога звука в русском языке нет).  кит, белый, когда, почему, что\n/h/(звук х)  кто\nТони\nКто это?\nКак его зовут?\nПочему он в большом зеленом самолете?\nНомер 9.\nРабота в парах. Прочитайте слова и предложения друг другу.\n/ʃ/ ship, she, shell, shine, shop, fish, wish; She sells sea shells by the sea.\n/f/ phone, dolphin, elephant; Seven elephants and five dolphins.\n/tʃ/ cheese, chips, chimp, chin, cherry, chocolate, beach, teacher; Can I have a cherry on my chocolate cake?",
+      "solution": "Перевод:\n/ʃ/ (звук ш) корабль, она, ракушка, блестеть, магазин, рыбка, желание; Она продаёт ракушки у моря.\n/f/ (звук ф)  телефон, дельфин, слон; Семь слоников и пять дельфинчиков.\n/tʃ/ (звук ч) сыр, ччипсы, шимпанзе, подбородок, вишенка, шоколад, пляж, учитель; Можно мне вишенку на шоколадном тортике?\nНомер 10.\nРабота в парах. Прочитайте слова и текст друг другу.\nChicken Licken thinks\nThe sky is going to crack.\nHe wants to tell the King\nAnd so he starts to pack.\n/ŋ/\nking, sing, ring, song, strong, long, going, jungle\n/k/\nsocks, clock, duck, crack, pack, quick, kick, Nick, chicken",
+      "answer": "socks, clock, duck, crack, pack, quick, kick, Nick, chicken",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-71/"
+    },
+    {
+      "number": "71.3",
+      "section": "Страница 71",
+      "condition": "Перевод:\n/ʃ/ (звук ш) корабль, она, ракушка, блестеть, магазин, рыбка, желание; Она продаёт ракушки у моря.\n/f/ (звук ф)  телефон, дельфин, слон; Семь слоников и пять дельфинчиков.\n/tʃ/ (звук ч) сыр, ччипсы, шимпанзе, подбородок, вишенка, шоколад, пляж, учитель; Можно мне вишенку на шоколадном тортике?\nНомер 10.\nРабота в парах. Прочитайте слова и текст друг другу.\nChicken Licken thinks\nThe sky is going to crack.\nHe wants to tell the King\nAnd so he starts to pack.\n/ŋ/\nking, sing, ring, song, strong, long, going, jungle\n/k/\nsocks, clock, duck, crack, pack, quick, kick, Nick, chicken",
+      "solution": "Перевод:\n/ŋ/ (аналога в русском языке нет. Заменяют на звук н)\nкороль, петь, звенеть, песня, сильный, длинный, идущий, джунгли\n/k/ (звук к)\nноски, часы, утка, трещина, упаковывать, быстро, пинок, Ник, цыплёнок\nЧикен Ликен думает,\nчто небо треснет.\nОн хочет сказать королю,\nИ поэтому он начинает собираться.",
+      "answer": "И поэтому он начинает собираться.",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-71/"
+    },
+    {
+      "number": "72.1",
+      "section": "Страница 72",
+      "condition": "Ксения Кудряшева\nНомер 11.\nРабота в парах. Прочитайте слова и текст друг другу.\nToday is Friday. It's play\nday! \"Miss Gray, let's play\nwith the toys.\" I like to\nplay with the big grey\nteddy. His name is Ray. He\ncan say: Please play with\nme! He is very funny.\n/eɪ/\nplay, grey, day, way, say, pay, away, today, Friday\n/ɔɪ/\nboy, toy",
+      "solution": "Перевод:\n/eɪ/ (звук эй)\nиграть, серый, день, путь, сказать, платить, прочь, сегодня, пятница\n/ɔɪ/ (звук ой)\nмальчик, игрушка\nСегодня пятница — день игр! «Мисс Грей, давайте поиграем с игрушками». Мне нравится играть с большим серым плюшевым медведем, которого зовут Рэй. Он может сказать: «Пожалуйста, поиграй со мной!» Рэй очень забавный!\nНомер 12.\nРабота в парах. Прочитайте слова и текст друг другу.\n/eǝ/\nwhere, there, pear, square, wear, bear, hare, share\n/ɔː/\nball, call, fall, all, tall, wall, small\nWhere, oh where\nIs my teddy bear?\nIs it there, on the wall?\nIs it by the big red ball?",
+      "answer": "Is it by the big red ball?",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-72/"
+    },
+    {
+      "number": "72.2",
+      "section": "Страница 72",
+      "condition": "Перевод:\n/eɪ/ (звук эй)\nиграть, серый, день, путь, сказать, платить, прочь, сегодня, пятница\n/ɔɪ/ (звук ой)\nмальчик, игрушка\nСегодня пятница — день игр! «Мисс Грей, давайте поиграем с игрушками». Мне нравится играть с большим серым плюшевым медведем, которого зовут Рэй. Он может сказать: «Пожалуйста, поиграй со мной!» Рэй очень забавный!\nНомер 12.\nРабота в парах. Прочитайте слова и текст друг другу.\n/eǝ/\nwhere, there, pear, square, wear, bear, hare, share\n/ɔː/\nball, call, fall, all, tall, wall, small\nWhere, oh where\nIs my teddy bear?\nIs it there, on the wall?\nIs it by the big red ball?",
+      "solution": "Перевод:\n/eǝ/ (звук эа)\nгде, там, груша, квадрат, носить, медвежонок, заяц, делиться\n/ɔː/  (долгий звук о)\nмяч, звать, падать, все, высокий, стена, маленький\nГде, о, где же\nМой плюшевый медвежонок?\nОн там, на стене?\nОн возле большого красного мяча?",
+      "answer": "Он возле большого красного мяча?",
+      "source": "gdz-raketa.ru",
+      "sourceUrl": "https://gdz-raketa.ru/english/2-klass/uchebnik-bikova/2-chast-stranitsa-72/"
+    }
+  ],
+  "part": 2
+}

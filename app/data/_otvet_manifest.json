@@ -13,6 +13,18 @@
  },
  {
   "grade": 11,
+  "subject": "chemistry",
+  "id": "rudzitis-11",
+  "file": "chemistry/rudzitis-11.json",
+  "title": "Рудзитис. Химия 11",
+  "author": "Рудзитис Г.Е., Фельдман Ф.Г.",
+  "year": "2017",
+  "tasks": 454,
+  "source": "otvet.plus",
+  "sourceUrl": "https://otvet.plus/11-klass/himija/rudzitis/"
+ },
+ {
+  "grade": 11,
   "subject": "physics",
   "id": "myakishev-11",
   "file": "physics/myakishev-11.json",
