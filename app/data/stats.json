@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T07:31:56Z",
+  "generatedAt": "2026-10-22T13:57:10Z",
   "subjects": {
     "math": {
       "title": "Математика",
@@ -9,7 +9,7 @@
     "russian": {
       "title": "Русский язык",
       "icon": "russian",
-      "tasks": 34734
+      "tasks": 33981
     },
     "world": {
       "title": "Окружающий мир",
@@ -321,7 +321,6 @@
     "russian/aleksandrova-6-701.json": 199,
     "russian/bystrova-6-521-1.json": 366,
     "russian/bystrova-6-521-2.json": 303,
-    "russian/ladyzhenskaya-6-124.json": 753,
     "russian/ladyzhenskaya-6-1.json": 383,
     "russian/ladyzhenskaya-6-2.json": 332,
     "russian/razumovskaya-6-531.json": 749,
@@ -1076,7 +1075,7 @@
         "russian": {
           "title": "Русский язык",
           "icon": "russian",
-          "tasks": 4088
+          "tasks": 3335
         },
         "english": {
           "title": "Английский язык",
@@ -1141,7 +1140,6 @@
         "russian/aleksandrova-6-701.json": 199,
         "russian/bystrova-6-521-1.json": 366,
         "russian/bystrova-6-521-2.json": 303,
-        "russian/ladyzhenskaya-6-124.json": 753,
         "russian/ladyzhenskaya-6-1.json": 383,
         "russian/ladyzhenskaya-6-2.json": 332,
         "russian/razumovskaya-6-531.json": 749,
@@ -1196,8 +1194,8 @@
         "informatics/semenov-6.json": 275,
         "history-maps/torop-6.json": 22
       },
-      "total": 42160,
-      "textbooks": 75
+      "total": 41407,
+      "textbooks": 74
     },
     "7": {
       "title": "7 класс",
@@ -1826,6 +1824,6 @@
       "textbooks": 21
     }
   },
-  "total": 310775,
-  "textbooks": 578
+  "total": 310022,
+  "textbooks": 577
 }

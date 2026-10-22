@@ -116,6 +116,7 @@ h1, h2, h3 {
 .i-book { --icon: url(img/icons/book.svg); }
 .i-camera { --icon: url(img/icons/camera.svg); }
 .i-chart { --icon: url(img/icons/chart.svg); }
+.i-mic { --icon: url(img/icons/mic.svg); }
 .i-check { --icon: url(img/icons/check.svg); }
 .i-chevron-down { --icon: url(img/icons/chevron-down.svg); }
 .i-chevron-right { --icon: url(img/icons/chevron-right.svg); }
@@ -1845,4 +1846,176 @@ h1, h2, h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+/* ---------- v4: живые счётчики и «продолжить» ---------- */
+
+.hero-live {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 22px auto 0;
+  padding: 8px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.11);
+  color: #fff;
+  font-size: 13px;
+  backdrop-filter: blur(8px);
+}
+
+.hero-live b { font-weight: 700; }
+.hero-live .live-sep { opacity: 0.55; margin: 0 3px; }
+
+.live-dot {
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  border-radius: 50%;
+  background: #76F7C4;
+  box-shadow: 0 0 0 0 rgba(118, 247, 196, 0.6);
+  animation: live-pulse 2s infinite;
+}
+
+@keyframes live-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(118, 247, 196, 0.55); }
+  70% { box-shadow: 0 0 0 8px rgba(118, 247, 196, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(118, 247, 196, 0); }
+}
+
+.continue-wrap {
+  position: relative;
+  z-index: 2;
+  max-width: 960px;
+  margin: -34px auto 0;
+  padding: 0 20px;
+}
+
+.continue-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  border: 1px solid var(--c-border);
+  border-radius: 22px;
+  background: var(--c-surface);
+  box-shadow: 0 18px 44px rgba(12, 60, 60, 0.16);
+}
+
+.continue-icon {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  background: var(--grad-main);
+  color: #fff;
+}
+
+.continue-icon .icon { width: 22px; height: 22px; }
+.continue-body { min-width: 0; flex: 1; }
+.continue-kicker { margin: 0 0 2px; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--c-accent); }
+.continue-title { margin: 0; font-weight: 600; }
+.continue-snippet { margin: 3px 0 0; overflow: hidden; color: var(--c-text-muted); font-size: 13px; text-overflow: ellipsis; white-space: nowrap; }
+.continue-card .btn { flex: none; }
+
+@media (max-width: 640px) {
+  .hero-live { margin-top: 18px; font-size: 12px; }
+  .continue-wrap { margin-top: -20px; padding: 0 14px; }
+  .continue-card { flex-wrap: wrap; padding: 15px; }
+  .continue-body { flex-basis: calc(100% - 64px); }
+  .continue-card .btn { width: 100%; justify-content: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .live-dot { animation: none; }
+}
+
+/* =========================================================
+   ГДЗ НЭЛ 4.0 — прогресс, рефералка и промокод в профиле.
+   ========================================================= */
+
+.progress-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+  gap: 12px;
+}
+
+.progress-card {
+  padding: 16px;
+  border: 1px solid var(--c-border);
+  border-radius: 16px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--c-primary) 10%, transparent), transparent 64%),
+    var(--c-surface);
+  box-shadow: var(--shadow-1);
+}
+
+.progress-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.progress-label { color: var(--c-text-muted); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.progress-level { color: var(--c-primary); font: 700 28px/1 var(--font-head); }
+.xp-bar { height: 10px; margin: 12px 0 8px; overflow: hidden; border-radius: 999px; background: var(--c-surface-2); }
+.xp-bar span { display: block; width: 0; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #1AA3A3, #0070C0); transition: width .45s var(--ease); }
+.progress-sub { margin: 0; color: var(--c-text-muted); font-size: 12px; }
+.progress-streak { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 10px; }
+.progress-streak .progress-flame { font-size: 30px; line-height: 1; }
+.progress-streak b { display: block; color: var(--c-primary); font: 700 27px/1 var(--font-head); }
+.progress-streak .progress-sub { grid-column: 1 / -1; }
+
+.referral-box { display: flex; gap: 8px; margin: 12px 0 8px; }
+.referral-box input {
+  min-width: 0; flex: 1; padding: 10px 12px;
+  border: 1px solid var(--c-border); border-radius: 10px;
+  background: var(--c-surface-2); color: var(--c-text) !important;
+  font: 500 13px ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+.promo-form { display: flex; gap: 8px; max-width: 460px; margin-top: 10px; }
+.promo-form input {
+  min-width: 0; flex: 1; padding: 10px 12px;
+  border: 1px solid var(--c-border); border-radius: 10px;
+  background: var(--c-surface-2); color: var(--c-text);
+  font: 600 14px ui-monospace, SFMono-Regular, Consolas, monospace;
+  text-transform: uppercase;
+}
+
+@media (max-width: 640px) {
+  .progress-grid { grid-template-columns: 1fr; }
+  .referral-box, .promo-form { flex-direction: column; }
+  .referral-box .btn, .promo-form .btn { width: 100%; justify-content: center; }
+}
+
+/* ---------- голосовой ввод на странице фото ---------- */
+
+.voice-solve {
+  margin: 22px 0;
+  padding: 18px;
+  border: 1px solid var(--c-border);
+  border-radius: 16px;
+  background: var(--c-surface);
+  box-shadow: var(--shadow-1);
+}
+.voice-head { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+.voice-head h2 { margin: 0 0 3px; font-size: 17px; }
+.voice-head p { margin: 0; color: var(--c-text-muted); font-size: 13px; }
+.voice-mic-icon {
+  display: grid; place-items: center; flex: none;
+  width: 42px; height: 42px; border-radius: 13px;
+  color: #fff; background: var(--grad-btn);
+}
+.voice-solve textarea {
+  width: 100%; min-height: 92px; padding: 12px;
+  border: 1px solid var(--c-border); border-radius: 10px;
+  background: var(--c-surface-2); color: var(--c-text);
+  font: inherit; font-size: 14px; resize: vertical;
+}
+.voice-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.voice-hint { margin: 9px 0 0; color: var(--c-text-muted); font-size: 12px; }
+#voice-mic.is-listening { color: #fff; border-color: transparent; background: var(--c-red); }
+#voice-mic.is-listening .icon { animation: voice-pulse .85s ease-in-out infinite alternate; }
+@keyframes voice-pulse { to { transform: scale(1.22); } }
+@media (max-width: 640px) {
+  .voice-actions .btn { flex: 1 1 100%; justify-content: center; }
 }

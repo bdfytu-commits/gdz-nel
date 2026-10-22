@@ -8,7 +8,7 @@
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: camera=(self), microphone=(), geolocation=(), payment=(self "https://widget.lava.top")
+  Permissions-Policy: camera=(self), microphone=(self), geolocation=(), payment=(self "https://widget.lava.top")
   Cross-Origin-Opener-Policy: same-origin-allow-popups
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://js.hcaptcha.com https://*.hcaptcha.com https://mc.yandex.ru; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https://imgs.euroki.org https://otvet.plus https://gdz.ru https://*.supabase.co https://*.hcaptcha.com https://mc.yandex.ru; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://api.web3forms.com https://*.hcaptcha.com https://mc.yandex.ru; frame-src https://widget.lava.top https://*.lava.top https://*.hcaptcha.com; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://api.web3forms.com; frame-ancestors 'self'; manifest-src 'self'; worker-src 'self'
 

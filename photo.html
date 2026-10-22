@@ -102,6 +102,28 @@
       </div>
 
       <p class="photo-limit" id="photo-limit">Лимит: 5 фото в сутки на аккаунт.</p>
+      <section class="voice-solve" aria-labelledby="voice-title">
+        <div class="voice-head">
+          <span class="voice-mic-icon"><span class="icon i-mic" aria-hidden="true"></span></span>
+          <div>
+            <h2 id="voice-title">Скажи задачу голосом</h2>
+            <p>Не хочешь фотографировать? Надиктуй условие — ИИ решит его текстом.</p>
+          </div>
+        </div>
+        <label class="visually-hidden" for="voice-text">Текст задачи</label>
+        <textarea id="voice-text" rows="3" maxlength="5000" placeholder="Например: найди площадь прямоугольника со сторонами 8 и 5 сантиметров"></textarea>
+        <div class="voice-actions">
+          <button class="btn btn-outline btn-sm" type="button" id="voice-mic" aria-pressed="false">
+            <span class="icon i-mic" aria-hidden="true"></span><span id="voice-mic-label">Говорить</span>
+          </button>
+          <button class="btn btn-primary btn-sm" type="button" id="voice-solve">
+            <span class="icon i-sparkles" aria-hidden="true"></span><span>Решить текстом</span>
+          </button>
+        </div>
+        <p class="voice-hint" id="voice-hint">Работает в Chrome, Edge и Safari. Разреши доступ к микрофону.</p>
+        <div class="ai-output" id="voice-output" role="status" aria-live="polite" hidden></div>
+      </section>
+
 
       <div class="photo-model" id="photo-model" hidden>
         <p class="photo-model-title">
@@ -160,6 +182,7 @@
   </footer>
 
   <script src="assets/script.js"></script>
+  <script src="assets/photo-voice.js" type="module"></script>
   <script type="module">
     import { supabase, requireSession, escapeHtml, initHeaderAuth } from './assets/supabase.js';
 

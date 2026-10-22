@@ -206,6 +206,13 @@
     }
     var next = safeNext(params.get('next'));
 
+    // реферальный код: сохраняем на время регистрации и отправляем в metadata
+    var ref = String(params.get('ref') || '').toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 16);
+    try {
+      if (ref) sessionStorage.setItem('gdz-ref', ref);
+      else ref = sessionStorage.getItem('gdz-ref') || '';
+    } catch (err) { /* приватный режим */ }
+
     var loginForm = document.getElementById('form-login');
     var registerForm = document.getElementById('form-register');
     var loginStatus = document.getElementById('login-status');
@@ -327,6 +334,10 @@
       authNote.hidden = false;
     });
 
+    if (ref) {
+      try { if (typeof showTab === 'function') showTab('register'); } catch (err) { /* ignore */ }
+    }
+
     /* ---------- вход ---------- */
 
     loginForm.addEventListener('submit', async function (event) {
@@ -389,7 +400,9 @@
       btn.disabled = true;
 
       try {
-        var redirectUrl = location.origin + location.pathname + (next ? '?next=' + encodeURIComponent(next) : '');
+        var redirectUrl = location.origin + location.pathname +
+          (next ? '?next=' + encodeURIComponent(next) : '') +
+          (ref ? (next ? '&' : '?') + 'ref=' + encodeURIComponent(ref) : '');
         var res = await supabase.auth.signUp({
           email: email,
           password: password,
@@ -401,7 +414,8 @@
               age: age,
               gender: gender || null,
               favorite_subject: favSubject || null,
-              terms_accepted: true
+              terms_accepted: true,
+              ref: ref || null
             }
           }
         });

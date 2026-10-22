@@ -100,15 +100,15 @@
       // лендинг показывает общие счётчики по всем классам
       var scope = stats;
 
-      if (tasksEl) tasksEl.textContent = scope.total;
-      if (booksEl) booksEl.textContent = scope.textbooks;
+      if (tasksEl) tasksEl.textContent = Number(scope.total).toLocaleString('ru-RU');
+      if (booksEl) booksEl.textContent = Number(scope.textbooks).toLocaleString('ru-RU');
       if (subjectsEl && scope.subjects) subjectsEl.textContent = Object.keys(scope.subjects).length;
 
       if (footerEl && scope.subjects) {
         var subjectsCount = Object.keys(scope.subjects).length;
         footerEl.textContent =
-          scope.total + ' ' + plural(scope.total, 'задание', 'задания', 'заданий') +
-          ' · ' + scope.textbooks + ' ' + plural(scope.textbooks, 'учебник', 'учебника', 'учебников') +
+          Number(scope.total).toLocaleString('ru-RU') + ' ' + plural(scope.total, 'задание', 'задания', 'заданий') +
+          ' · ' + Number(scope.textbooks).toLocaleString('ru-RU') + ' ' + plural(scope.textbooks, 'учебник', 'учебника', 'учебников') +
           ' · ' + subjectsCount + ' ' + plural(subjectsCount, 'предмет', 'предмета', 'предметов');
       }
 
@@ -116,11 +116,39 @@
         var card = el.closest('[data-subject]');
         var subject = card && scope.subjects && scope.subjects[card.getAttribute('data-subject')];
         if (subject) {
-          el.textContent = subject.tasks + ' ' + plural(subject.tasks, 'задание', 'задания', 'заданий');
+          el.textContent = Number(subject.tasks).toLocaleString('ru-RU') + ' ' +
+            plural(subject.tasks, 'задание', 'задания', 'заданий');
         }
       });
     })
     .catch(function () { /* без статистики страница просто остаётся с базовыми числами */ });
+
+  /* ---------- 5. продолжить последнее задание ---------- */
+
+  (function () {
+    var card = document.getElementById('continue-card');
+    if (!card) return;
+    var list;
+    try { list = JSON.parse(localStorage.getItem('gdz-nel-history') || '[]'); } catch (err) { return; }
+    if (!Array.isArray(list) || !list.length) return;
+    var entry = list[0];
+    if (!entry || !entry.book || !entry.number) return;
+
+    var title = document.getElementById('continue-title');
+    var snippet = document.getElementById('continue-snippet');
+    var link = document.getElementById('continue-link');
+    if (title) title.textContent = entry.title || ('Задание ' + entry.number);
+    if (snippet) {
+      snippet.textContent = entry.snippet || '';
+      snippet.hidden = !entry.snippet;
+    }
+    if (link) {
+      link.href = 'app/index.html#/' + [
+        entry.grade || '6', entry.subject, entry.book, entry.number
+      ].map(encodeURIComponent).join('/');
+    }
+    card.hidden = false;
+  })();
 
   function plural(n, one, few, many) {
     var m10 = n % 10;

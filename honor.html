@@ -25,133 +25,133 @@
   <link rel="stylesheet" href="assets/style.css">
   <style>
     .honor-page {
-      --hb-bg: #0B0B0F;
-      --hb-card: #15151C;
-      --hb-card-2: #1D1D27;
-      --hb-text: #F3F3F7;
-      --hb-muted: #A5A5B4;
-      --hb-line: rgba(255,255,255,.09);
-      --hb-pink: #FF3B6B;
-      background: var(--hb-bg);
+      --hb-bg: #F2FBFA;
+      --hb-card: #FFFFFF;
+      --hb-text: #123236;
+      --hb-muted: #5D7478;
+      --hb-line: #D5E9E7;
+      --hb-teal: #128080;
+      --hb-teal-dark: #0B5F63;
+      --hb-mint: #D9F4EF;
+      background:
+        radial-gradient(circle at 8% 0, rgba(26,163,163,.15), transparent 32rem),
+        radial-gradient(circle at 100% 18%, rgba(0,112,192,.09), transparent 30rem),
+        var(--hb-bg);
       color: var(--hb-text);
       min-height: 100vh;
     }
     .honor-page .site-header {
-      position: sticky;
-      background: rgba(11,11,15,.88);
+      position: sticky; top: 0; z-index: 20;
+      background: rgba(242,251,250,.86);
       border-bottom: 1px solid var(--hb-line);
       backdrop-filter: blur(14px);
     }
-    .honor-page .brand-name,
-    .honor-page .site-nav a { color: var(--hb-text); }
-    .honor-main { max-width: 720px; margin: 0 auto; padding: 28px 18px 80px; }
-    .honor-hero { padding: 18px 2px 24px; }
+    .honor-page .brand-name, .honor-page .site-nav a { color: var(--hb-text); }
+    .honor-page .site-nav a[aria-current="page"] { color: var(--hb-teal); }
+    .honor-main { max-width: 760px; margin: 0 auto; padding: 34px 18px 90px; }
+    .honor-hero { padding: 16px 4px 26px; }
     .honor-kicker {
-      display: inline-flex; align-items: center; gap: 8px;
-      font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
-      color: #FF7C9A; font-weight: 700;
+      display: inline-flex; align-items: center; gap: 9px;
+      color: var(--hb-teal); font: 700 11px/1 var(--font-head);
+      letter-spacing: .1em; text-transform: uppercase;
     }
-    .honor-kicker::before { content: ""; width: 24px; height: 2px; background: var(--hb-pink); }
-    .honor-hero h1 { margin: 12px 0 8px; font-size: clamp(30px, 6vw, 46px); color: #fff; }
-    .honor-hero p { margin: 0; color: var(--hb-muted); max-width: 560px; }
+    .honor-kicker::before { content: ""; width: 26px; height: 3px; border-radius: 3px; background: var(--hb-teal); }
+    .honor-hero h1 {
+      margin: 14px 0 9px; color: var(--hb-text);
+      font: 700 clamp(31px, 6vw, 50px)/1.08 var(--font-head);
+      letter-spacing: -.03em;
+    }
+    .honor-hero p { margin: 0; max-width: 590px; color: var(--hb-muted); font-size: 15px; }
     .honor-feed {
       display: grid; gap: 18px;
-      max-height: calc(100vh - 230px);
-      overflow-y: auto;
-      scroll-snap-type: y proximity;
-      padding: 4px 4px 40px;
+      padding: 4px 2px 30px;
       scrollbar-width: thin;
-      scrollbar-color: #3A3A48 transparent;
+      scrollbar-color: #9CCFCA transparent;
     }
     .honor-card {
-      scroll-snap-align: start;
-      position: relative;
-      overflow: hidden;
-      background: linear-gradient(145deg, var(--hb-card-2), var(--hb-card));
-      border: 1px solid var(--hb-line);
-      border-radius: 22px;
-      padding: 24px 22px 18px;
-      min-height: 230px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      box-shadow: 0 18px 44px rgba(0,0,0,.35);
-      transition: transform .2s var(--ease), border-color .2s var(--ease), box-shadow .2s var(--ease);
-      animation: honor-in .45s var(--ease) both;
-      animation-delay: calc(var(--stagger, 0) * 55ms);
+      position: relative; overflow: hidden;
+      display: flex; flex-direction: column; justify-content: space-between;
+      min-height: 210px; padding: 24px 24px 18px;
+      border: 1px solid var(--hb-line); border-radius: 24px;
+      background: var(--hb-card);
+      box-shadow: 0 16px 40px rgba(18,128,128,.10), 0 2px 6px rgba(18,50,54,.04);
+      transition: transform .2s var(--ease), box-shadow .2s var(--ease), border-color .2s var(--ease);
+      animation: honor-in .5s var(--ease) both;
+      animation-delay: calc(var(--stagger, 0) * 65ms);
     }
-    .honor-card:hover { transform: translateY(-2px); border-color: rgba(255,92,131,.3); box-shadow: 0 22px 52px rgba(0,0,0,.42); }
+    .honor-card:hover { transform: translateY(-3px); border-color: #A9DCD6; box-shadow: 0 22px 54px rgba(18,128,128,.16); }
     .honor-card::after {
-      content: ""; position: absolute; inset: -60% -20% auto auto;
+      content: ""; position: absolute; top: -84px; right: -54px;
       width: 220px; height: 220px; border-radius: 50%;
-      background: radial-gradient(circle, rgba(255,59,107,.19), transparent 68%);
+      background: radial-gradient(circle, rgba(26,163,163,.14), transparent 68%);
       pointer-events: none;
     }
-    @keyframes honor-in { from { opacity: 0; transform: translateY(14px); } }
-    .honor-card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+    @keyframes honor-in { from { opacity: 0; transform: translateY(18px); } }
+    .honor-card-top { position: relative; z-index: 1; display: flex; align-items: center; gap: 11px; margin-bottom: 15px; }
     .honor-avatar {
-      width: 38px; height: 38px; border-radius: 50%;
-      display: grid; place-items: center;
-      background: linear-gradient(135deg, #FF3B6B, #8E44AD);
-      color: #fff; font-weight: 800; font-size: 15px;
+      display: grid; place-items: center; flex: none;
+      width: 42px; height: 42px; border-radius: 14px;
+      color: #fff; font: 700 15px var(--font-head);
+      background: linear-gradient(135deg, #1AA3A3, #0B5F63);
+      box-shadow: 0 7px 18px rgba(18,128,128,.22);
     }
-    .honor-author { font-weight: 700; font-size: 14px; }
-    .honor-time { color: var(--hb-muted); font-size: 12px; margin-top: 1px; }
-    .honor-text { font-size: clamp(18px, 2.4vw, 23px); line-height: 1.45; margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
-    .honor-actions { display: flex; align-items: center; gap: 10px; margin-top: 22px; }
+    .honor-author { font-size: 14px; font-weight: 800; }
+    .honor-time { margin-top: 1px; color: var(--hb-muted); font-size: 12px; }
+    .honor-text {
+      position: relative; z-index: 1;
+      margin: 0; color: var(--hb-text);
+      font-size: clamp(17px, 2.4vw, 22px); line-height: 1.5;
+      white-space: pre-wrap; overflow-wrap: anywhere;
+    }
+    .honor-actions { position: relative; z-index: 1; display: flex; align-items: center; gap: 10px; margin-top: 24px; }
     .honor-like {
       display: inline-flex; align-items: center; gap: 8px;
-      background: rgba(255,255,255,.06);
-      border: 1px solid var(--hb-line);
-      color: var(--hb-text);
-      border-radius: 999px;
-      padding: 10px 16px;
-      font: inherit; font-weight: 700; font-size: 14px;
-      cursor: pointer;
-      transition: transform .18s var(--ease), background .18s var(--ease), border-color .18s var(--ease);
+      padding: 10px 17px; border: 1px solid #CFE7E4; border-radius: 999px;
+      background: #F5FCFB; color: var(--hb-teal-dark);
+      font: 700 14px var(--font-body); cursor: pointer;
+      transition: transform .18s var(--ease), background .18s var(--ease), border-color .18s var(--ease), color .18s var(--ease);
     }
-    .honor-like:hover { transform: translateY(-1px); background: rgba(255,59,107,.12); border-color: rgba(255,59,107,.4); }
+    .honor-like:hover { transform: translateY(-1px); border-color: #8CCFC8; background: var(--hb-mint); }
     .honor-like svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 2; transition: fill .18s; }
-    .honor-like.is-liked { color: #FF5C83; border-color: rgba(255,92,131,.55); background: rgba(255,59,107,.14); }
+    .honor-like.is-liked { color: #fff; border-color: transparent; background: linear-gradient(135deg, #1AA3A3, #0B5F63); }
     .honor-like.is-liked svg { fill: currentColor; }
     .honor-like:disabled { opacity: .55; cursor: wait; }
     .honor-like.is-popping { animation: like-pop .28s var(--ease); }
     .honor-like.is-popping svg { animation: heart-pop .28s var(--ease); }
-    @keyframes like-pop {
-      0% { transform: scale(1); }
-      45% { transform: scale(1.16); }
-      100% { transform: scale(1); }
-    }
-    @keyframes heart-pop {
-      0% { transform: scale(1); }
-      45% { transform: scale(1.35) rotate(-8deg); }
-      100% { transform: scale(1) rotate(0); }
-    }
-    .honor-skeleton { display: grid; gap: 18px; padding: 2px 0; }
+    @keyframes like-pop { 45% { transform: scale(1.14); } }
+    @keyframes heart-pop { 45% { transform: scale(1.32) rotate(-8deg); } }
+    .honor-skeleton { display: grid; gap: 18px; }
     .honor-skeleton-card {
-      min-height: 230px; border-radius: 22px;
-      background: linear-gradient(105deg, #17171F 24%, #242431 48%, #17171F 72%);
+      min-height: 210px; border-radius: 24px;
+      background: linear-gradient(105deg, #E7F4F2 24%, #F8FEFD 48%, #E7F4F2 72%);
       background-size: 220% 100%;
       animation: honor-shimmer 1.15s linear infinite;
     }
     @keyframes honor-shimmer { from { background-position: 100% 0; } to { background-position: -100% 0; } }
     .honor-like:focus-visible, .honor-login:focus-visible, .honor-card a:focus-visible {
-      outline: 2px solid #FF5C83; outline-offset: 3px;
+      outline: 3px solid #49BDB4; outline-offset: 3px;
     }
-    .honor-empty { border: 1px dashed var(--hb-line); border-radius: 20px; padding: 38px 24px; color: var(--hb-muted); text-align: center; }
-    .honor-note { margin-top: 14px; font-size: 12px; color: #74748A; text-align: center; }
-    .honor-login { color: #FF8FA8; text-decoration: underline; text-underline-offset: 3px; }
+    .honor-empty {
+      padding: 42px 24px; border: 1px dashed #A9DCD6; border-radius: 22px;
+      background: rgba(255,255,255,.62); color: var(--hb-muted); text-align: center;
+    }
+    .honor-note { margin-top: 16px; color: #789094; font-size: 12px; text-align: center; }
+    .honor-login { color: var(--hb-teal); text-decoration: underline; text-underline-offset: 3px; }
     @media (max-width: 640px) {
-      .honor-main { padding: 18px 12px 60px; }
-      .honor-feed { max-height: none; overflow: visible; }
-      .honor-card { border-radius: 18px; min-height: 200px; }
-      .honor-skeleton-card { min-height: 200px; border-radius: 18px; }
+      .honor-main { padding: 20px 12px 64px; }
+      .honor-card { min-height: 190px; padding: 20px 18px 16px; border-radius: 20px; }
+      .honor-skeleton-card { min-height: 190px; border-radius: 20px; }
+      .honor-hero h1 { font-size: clamp(29px, 9vw, 38px); }
+    }
+    @media (max-width: 375px) {
+      .honor-main { padding-left: 10px; padding-right: 10px; }
+      .honor-hero { padding-top: 8px; }
+      .honor-hero h1 { font-size: 28px; }
+      .honor-card { border-radius: 18px; padding: 18px 15px 14px; }
+      .honor-like { padding: 9px 14px; }
     }
     @media (prefers-reduced-motion: reduce) {
-      .honor-card, .honor-like, .honor-like svg, .honor-skeleton-card {
-        animation: none !important;
-        transition: none !important;
-      }
+      .honor-card, .honor-like, .honor-like svg, .honor-skeleton-card { animation: none !important; transition: none !important; }
     }
   </style>
 </head>

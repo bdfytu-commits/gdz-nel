@@ -103,10 +103,31 @@
           </a>
         </div>
         <dl class="hero-stats">
-          <div><dt id="stat-subjects">15</dt><dd>предметов</dd></div>
-          <div><dt id="stat-tasks">310 775</dt><dd>заданий с решениями</dd></div>
-          <div><dt id="stat-books">578</dt><dd>учебников</dd></div>
+          <div><dt><span id="stat-subjects">…</span></dt><dd>предметов</dd></div>
+          <div><dt><span id="stat-tasks">…</span></dt><dd>заданий с решениями</dd></div>
+          <div><dt><span id="stat-books">…</span></dt><dd>учебников</dd></div>
         </dl>
+        <p class="hero-live" aria-live="polite">
+          <span class="live-dot" aria-hidden="true"></span>
+          Сейчас на сайте: <b id="online-now">…</b>
+          <span class="live-sep">·</span>
+          Всего учеников: <b id="total-users">…</b>
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= продолжить ================= -->
+    <section class="continue-wrap" id="continue-card" hidden>
+      <div class="continue-card">
+        <span class="continue-icon"><span class="icon i-clock" aria-hidden="true"></span></span>
+        <div class="continue-body">
+          <p class="continue-kicker">Ты остановился здесь</p>
+          <p class="continue-title" id="continue-title"></p>
+          <p class="continue-snippet" id="continue-snippet"></p>
+        </div>
+        <a class="btn btn-primary btn-sm" id="continue-link" href="app/index.html">
+          <span>Продолжить</span><span class="icon i-arrow-right" aria-hidden="true"></span>
+        </a>
       </div>
     </section>
 
@@ -309,7 +330,7 @@
     </div>
     <div class="footer-bottom">
       <span>Сделано для учеников и родителей лицея</span>
-      <span id="footer-stats">310 775 заданий · 578 учебников · 15 предметов</span>
+      <span id="footer-stats">310 022 заданий · 577 учебников · 15 предметов</span>
     </div>
     <p class="footer-legal">Материалы для личного использования. Сайт не является официальным ресурсом МАОУ НЭЛ.</p>
   </footer>
@@ -318,7 +339,7 @@
   <script type="module">
     // «Войти» превращается в аватар, если пользователь уже вошёл.
     // Если модуль не загрузился (офлайн) — остаётся статичная кнопка «Войти».
-    import { initHeaderAuth, getProfile, isPremiumActive } from './assets/supabase.js';
+    import { supabase, initHeaderAuth, getProfile, isPremiumActive } from './assets/supabase.js';
     initHeaderAuth();
 
     // Рекламная плашка: бесплатным показываем, подписчикам ГДЗ+ — нет.
@@ -328,6 +349,58 @@
       getProfile().then((profile) => {
         if (!isPremiumActive(profile)) adSlot.hidden = false;
       }).catch(() => {});
+    }
+
+    /* ---------- живые счётчики: Presence и ученики ---------- */
+    const onlineEl = document.getElementById('online-now');
+    const usersEl = document.getElementById('total-users');
+
+    function visitorId() {
+      try {
+        let id = localStorage.getItem('gdz-nel-visitor');
+        if (!id) {
+          id = 'v-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 10);
+          localStorage.setItem('gdz-nel-visitor', id);
+        }
+        return id;
+      } catch (err) {
+        return 'anon-' + Math.random().toString(36).slice(2, 10);
+      }
+    }
+
+    if (usersEl) {
+      supabase.rpc('get_user_count').then(({ data, error }) => {
+        if (error || data == null) { usersEl.textContent = '—'; return; }
+        usersEl.textContent = Number(data).toLocaleString('ru-RU');
+      }).catch(() => { usersEl.textContent = '—'; });
+    }
+
+    if (onlineEl) {
+      const channel = supabase.channel('site-presence', {
+        config: { presence: { key: visitorId() } }
+      });
+
+      channel.on('presence', { event: 'sync' }, () => {
+        const state = channel.presenceState();
+        const count = Object.keys(state).length;
+        onlineEl.textContent = count.toLocaleString('ru-RU');
+      });
+
+      channel.subscribe((status) => {
+        if (status === 'SUBSCRIBED') {
+          channel.track({ at: Date.now() }).catch(() => {
+            onlineEl.textContent = '1';
+          });
+          if (!onlineEl.textContent || onlineEl.textContent === '…') onlineEl.textContent = '1';
+        } else if (status === 'CHANNEL_ERROR' || status === 'TIMED_OUT') {
+          if (onlineEl.textContent === '…') onlineEl.textContent = '—';
+        }
+      });
+
+      window.addEventListener('pagehide', () => {
+        channel.untrack().catch(() => {});
+        supabase.removeChannel(channel).catch(() => {});
+      });
     }
   </script>
 </body>

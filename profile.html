@@ -116,6 +116,45 @@
       </form>
 
       <!-- кастомизация профиля (ГДЗ+) -->
+      <section class="panel-section" id="progress-section" hidden>
+        <h2 class="section-title"><span class="icon i-chart" aria-hidden="true"></span>Прогресс</h2>
+        <div class="progress-grid">
+          <div class="progress-card">
+            <div class="progress-top"><span class="progress-label">Уровень</span><b class="progress-level" id="xp-level">1</b></div>
+            <div class="xp-bar" role="progressbar" aria-label="Опыт до следующего уровня" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="xp-bar">
+              <span id="xp-fill"></span>
+            </div>
+            <p class="progress-sub" id="xp-text">0 XP · до уровня 2 осталось 100 XP</p>
+          </div>
+          <div class="progress-card progress-streak">
+            <span class="progress-flame" aria-hidden="true">🔥</span>
+            <div><b id="streak-days">0</b><span class="progress-label">дней подряд</span></div>
+            <p class="progress-sub">Заходи каждый день — серия растёт.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel-section" id="referral-section" hidden>
+        <h2 class="section-title"><span class="icon i-user" aria-hidden="true"></span>Пригласи друга</h2>
+        <p class="panel-sub">Друг получит помощь, а ты — <b>+3 дня ГДЗ+</b> за каждого, кто зарегистрируется по ссылке.</p>
+        <div class="referral-box">
+          <input id="referral-link" type="text" readonly aria-label="Реферальная ссылка">
+          <button class="btn btn-primary btn-sm" id="referral-copy" type="button">Скопировать</button>
+        </div>
+        <p class="progress-sub" id="referral-status">Приглашено: 0</p>
+        <p class="form-status" id="referral-note" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="panel-section" id="promo-section" hidden>
+        <h2 class="section-title"><span class="icon i-award" aria-hidden="true"></span>Промокод</h2>
+        <p class="panel-sub">Введи код от администратора — дни ГДЗ+ добавятся к текущей подписке.</p>
+        <form class="promo-form" id="promo-form" novalidate>
+          <input id="promo-input" type="text" maxlength="40" autocomplete="off" placeholder="НАПРИМЕР, GDZ10" aria-label="Промокод" required>
+          <button class="btn btn-primary btn-sm" type="submit" id="promo-submit">Применить</button>
+        </form>
+        <p class="form-status" id="promo-status" role="status" aria-live="polite"></p>
+      </section>
+
       <section class="panel-section" id="custom-section" hidden>
         <h2 class="section-title"><span class="icon i-sparkles" aria-hidden="true"></span>Оформление профиля</h2>
         <p class="panel-sub">Рамка аватара, цвет ника и фон — возможность ГДЗ+.</p>
@@ -287,6 +326,7 @@
   <script src="app/assets/offline-db.js"></script>
   <script src="assets/offline-profile.js"></script>
   <script src="assets/script.js"></script>
+  <script src="assets/profile-v4.js" type="module"></script>
   <script type="module">
     import {
       supabase, requireSession, avatarColor, escapeHtml,

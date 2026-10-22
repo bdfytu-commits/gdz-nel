@@ -25,7 +25,9 @@ var state = {
   photos: { rows: [], page: 0, count: 0 },
   achievements: { rows: [], page: 0, count: 0 },
   honor: { rows: [] },
-  comments: { rows: [] }
+  comments: { rows: [] },
+  logs: { rows: [], bans: [] },
+  promo: { rows: [] }
 };
 
 function $(id) { return document.getElementById(id); }
@@ -1202,6 +1204,11 @@ function onContentClick(event) {
   if (act === 'honor-create') { createHonorPost(); return; }
   if (act === 'honor-delete') { deleteHonorPost(el.getAttribute('data-id')); return; }
   if (act === 'comment-delete') { deleteProfileComment(el.getAttribute('data-id')); return; }
+  if (act === 'unban') { unbanIp(el.getAttribute('data-ip')); return; }
+  if (act === 'promo-create') { createPromo(); return; }
+  if (act === 'promo-random') { randomPromo(); return; }
+  if (act === 'promo-toggle') { togglePromo(el.getAttribute('data-id'), el.getAttribute('data-active') === '1'); return; }
+  if (act === 'promo-delete') { deletePromo(el.getAttribute('data-id'), el.getAttribute('data-code')); return; }
 }
 
 var searchTimer = 0;
@@ -1234,11 +1241,201 @@ function onContentChange(event) {
   }
 }
 
+
+/* ---------- логи запросов, баны и промокоды ---------- */
+
+async function loadLogs() {
+  var content = $('admin-content');
+  content.innerHTML = skeleton(6);
+  var dayAgo = new Date(Date.now() - 24 * 3600 * 1000).toISOString();
+
+  var res = await Promise.all([
+    supabase.from('request_logs').select('id, ip, path, method, user_agent, status, is_ddos, created_at', { count: 'exact' })
+      .order('created_at', { ascending: false }).limit(100),
+    supabase.from('ip_bans').select('ip, banned_until, reason, is_ddos, created_at')
+      .order('created_at', { ascending: false }).limit(100),
+    countOf('request_logs', function (q) { return q.gte('created_at', dayAgo); }),
+    countOf('request_logs', function (q) { return q.eq('is_ddos', true).gte('created_at', dayAgo); }),
+    countOf('ip_bans', function (q) { return q.gt('banned_until', new Date().toISOString()); })
+  ]);
+
+  if (res[0].error || res[1].error) {
+    content.innerHTML = '<p class="empty-note">Не получилось загрузить логи: ' +
+      esc((res[0].error || res[1].error).message) + '</p>';
+    return;
+  }
+
+  state.logs.rows = res[0].data || [];
+  state.logs.bans = res[1].data || [];
+
+  var html = '<div class="dash-cards">' +
+    '<div class="dash-card"><span class="dash-card-icon"><span class="icon i-eye" aria-hidden="true"></span></span>' +
+    '<span><span class="dash-card-value">' + res[0].count + '</span><br><span class="dash-card-label">Запросов всего</span></span></div>' +
+    '<div class="dash-card"><span class="dash-card-icon"><span class="icon i-clock" aria-hidden="true"></span></span>' +
+    '<span><span class="dash-card-value">' + res[2] + '</span><br><span class="dash-card-label">За сутки</span></span></div>' +
+    '<div class="dash-card"><span class="dash-card-icon"><span class="icon i-ban" aria-hidden="true"></span></span>' +
+    '<span><span class="dash-card-value">' + res[3] + '</span><br><span class="dash-card-label">DDoS-событий за сутки</span></span></div>' +
+    '<div class="dash-card"><span class="dash-card-icon"><span class="icon i-shield" aria-hidden="true"></span></span>' +
+    '<span><span class="dash-card-value">' + res[4] + '</span><br><span class="dash-card-label">Активных банов</span></span></div>' +
+    '</div>';
+
+  html += '<div class="panel"><h2>Активные баны</h2>';
+  if (!state.logs.bans.length) {
+    html += '<p class="admin-muted">Активных банов нет. Rate limit срабатывает после 50 запросов в минуту.</p>';
+  } else {
+    html += '<div class="table-wrap"><table class="admin-table"><thead><tr>' +
+      '<th>IP</th><th>До</th><th>Причина</th><th>DDoS</th><th></th></tr></thead><tbody>';
+    state.logs.bans.forEach(function (b) {
+      html += '<tr><td><code>' + esc(b.ip) + '</code></td><td>' + fmtDate(b.banned_until) + '</td>' +
+        '<td>' + esc(b.reason) + '</td><td>' + (b.is_ddos ? 'да' : 'нет') + '</td>' +
+        '<td class="row-actions"><button class="btn btn-outline btn-sm" type="button" data-act="unban" data-ip="' + esc(b.ip) + '">Разбанить</button></td></tr>';
+    });
+    html += '</tbody></table></div>';
+  }
+  html += '</div>';
+
+  html += '<div class="panel"><h2>Последние запросы</h2>';
+  if (!state.logs.rows.length) {
+    html += '<p class="admin-muted">Логов пока нет. Они появятся после вызовов функции log-request.</p>';
+  } else {
+    html += '<div class="table-wrap"><table class="admin-table"><thead><tr>' +
+      '<th>Время</th><th>IP</th><th>Путь</th><th>Метод</th><th>Статус</th><th>User-Agent</th><th>Флаг</th>' +
+      '</tr></thead><tbody>';
+    state.logs.rows.forEach(function (r) {
+      html += '<tr><td>' + fmtDate(r.created_at) + '</td><td><code>' + esc(r.ip) + '</code></td>' +
+        '<td class="cell-task">' + esc(r.path) + '</td><td>' + esc(r.method) + '</td>' +
+        '<td>' + esc(r.status) + '</td><td><div class="cell-text">' + esc(r.user_agent || '—') + '</div></td>' +
+        '<td>' + (r.is_ddos ? '<span class="badge is-rejected">DDoS</span>' : '—') + '</td></tr>';
+    });
+    html += '</tbody></table></div>';
+  }
+  html += '</div>';
+  content.innerHTML = html;
+}
+
+async function loadPromo() {
+  var content = $('admin-content');
+  content.innerHTML = skeleton(6);
+  var res = await supabase.from('promo_codes')
+    .select('id, code, days, max_uses, uses, active, expires_at, created_at')
+    .order('created_at', { ascending: false }).limit(200);
+  if (res.error) {
+    content.innerHTML = '<p class="empty-note">Не получилось загрузить промокоды: ' + esc(res.error.message) + '</p>';
+    return;
+  }
+  state.promo.rows = res.data || [];
+
+  var html = '<div class="panel"><h2>Новый промокод</h2>' +
+    '<div class="toolbar" style="flex-wrap:wrap;align-items:flex-end">' +
+    '<label>Код<br><input id="promo-code" type="text" maxlength="40" placeholder="GDZ10" autocomplete="off"></label>' +
+    '<label>Дней ГДЗ+<br><input id="promo-days" type="number" min="1" max="365" value="10"></label>' +
+    '<label>Использований<br><input id="promo-max" type="number" min="1" max="10000" value="1"></label>' +
+    '<label>Действует до<br><input id="promo-expires" type="date"></label>' +
+    '<button class="btn btn-primary btn-sm" type="button" data-act="promo-create">Создать</button>' +
+    '<button class="btn btn-outline btn-sm" type="button" data-act="promo-random">Случайный код</button>' +
+    '</div><p class="admin-muted" style="margin:10px 0 0">Код нечувствителен к регистру. Один аккаунт может применить код один раз.</p></div>';
+
+  html += '<div class="panel"><h2>Все промокоды</h2>';
+  if (!state.promo.rows.length) {
+    html += '<p class="admin-muted">Промокодов пока нет.</p>';
+  } else {
+    html += '<div class="table-wrap"><table class="admin-table"><thead><tr>' +
+      '<th>Код</th><th>Дней</th><th>Использовано</th><th>Статус</th><th>До</th><th>Создан</th><th>Действия</th>' +
+      '</tr></thead><tbody>';
+    state.promo.rows.forEach(function (p) {
+      var expired = p.expires_at && new Date(p.expires_at) <= new Date();
+      var status = !p.active ? '<span class="badge is-rejected">выключен</span>' :
+        expired ? '<span class="badge is-pending">истёк</span>' :
+        p.uses >= p.max_uses ? '<span class="badge is-pending">использован</span>' :
+        '<span class="badge is-approved">активен</span>';
+      html += '<tr><td><code>' + esc(p.code) + '</code></td><td>' + p.days + '</td>' +
+        '<td>' + p.uses + ' / ' + p.max_uses + '</td><td>' + status + '</td>' +
+        '<td>' + (p.expires_at ? fmtDate(p.expires_at) : '—') + '</td><td>' + fmtDate(p.created_at) + '</td>' +
+        '<td class="row-actions">' +
+        '<button class="btn btn-outline btn-sm" type="button" data-act="promo-toggle" data-id="' + p.id + '" data-active="' + (p.active ? '1' : '0') + '">' +
+        (p.active ? 'Выключить' : 'Включить') + '</button> ' +
+        '<button class="btn btn-danger btn-sm" type="button" data-act="promo-delete" data-id="' + p.id + '" data-code="' + esc(p.code) + '">Удалить</button>' +
+        '</td></tr>';
+    });
+    html += '</tbody></table></div>';
+  }
+  html += '</div>';
+  content.innerHTML = html;
+}
+
+
+async function unbanIp(ip) {
+  if (!ip) return;
+  var res = await supabase.from('ip_bans').delete().eq('ip', ip);
+  if (res.error) { toast(res.error.message, true); return; }
+  logAction('unban_ip', ip);
+  toast('IP разбанен');
+  loadLogs();
+}
+
+function randomPromo() {
+  var alphabet = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  var bytes = new Uint8Array(6);
+  crypto.getRandomValues(bytes);
+  var code = 'GDZ';
+  for (var i = 0; i < bytes.length; i += 1) code += alphabet[bytes[i] % alphabet.length];
+  var input = $('promo-code');
+  if (input) { input.value = code; input.focus(); }
+}
+
+async function createPromo() {
+  var code = String(($('promo-code') || {}).value || '').trim().toUpperCase();
+  var days = Number(($('promo-days') || {}).value || 0);
+  var maxUses = Number(($('promo-max') || {}).value || 0);
+  var expires = String(($('promo-expires') || {}).value || '');
+  if (!/^[A-Z0-9_-]{3,40}$/.test(code)) { toast('Код: 3–40 латинских букв, цифр, _ или -', true); return; }
+  if (!Number.isInteger(days) || days < 1 || days > 365) { toast('Дней ГДЗ+: от 1 до 365', true); return; }
+  if (!Number.isInteger(maxUses) || maxUses < 1 || maxUses > 10000) { toast('Использований: от 1 до 10000', true); return; }
+  var payload = {
+    code: code,
+    days: days,
+    max_uses: maxUses,
+    active: true,
+    expires_at: expires ? new Date(expires + 'T23:59:59').toISOString() : null,
+    created_by: state.me ? state.me.id : null
+  };
+  var res = await supabase.from('promo_codes').insert(payload);
+  if (res.error) { toast(res.error.message, true); return; }
+  logAction('create_promo', code, { days: days, max_uses: maxUses });
+  toast('Промокод создан');
+  loadPromo();
+}
+
+async function togglePromo(id, active) {
+  if (!id) return;
+  var res = await supabase.from('promo_codes').update({ active: !active }).eq('id', id);
+  if (res.error) { toast(res.error.message, true); return; }
+  logAction('toggle_promo', id, { active: !active });
+  toast(active ? 'Промокод выключен' : 'Промокод включён');
+  loadPromo();
+}
+
+async function deletePromo(id, code) {
+  if (!id) return;
+  var ok = await openModal({
+    title: 'Удалить промокод?',
+    body: '<p><b>' + esc(code || '') + '</b> исчезнет. Уже полученные дни ГДЗ+ у пользователей останутся.</p>',
+    confirmText: 'Удалить',
+    danger: true
+  });
+  if (!ok) return;
+  var res = await supabase.from('promo_codes').delete().eq('id', id);
+  if (res.error) { toast(res.error.message, true); return; }
+  logAction('delete_promo', code || id);
+  toast('Промокод удалён');
+  loadPromo();
+}
+
 /* ---------- роутинг ---------- */
 
 function route() {
   var tab = (location.hash || '#overview').replace('#', '') || 'overview';
-  if (['overview', 'users', 'reviews', 'ai', 'photos', 'achievements', 'honor', 'comments'].indexOf(tab) === -1) tab = 'overview';
+  if (['overview', 'users', 'reviews', 'ai', 'photos', 'achievements', 'honor', 'comments', 'logs', 'promo'].indexOf(tab) === -1) tab = 'overview';
   state.tab = tab;
 
   Array.prototype.forEach.call(document.querySelectorAll('.admin-nav a'), function (a) {
@@ -1253,7 +1450,9 @@ function route() {
     photos: 'Фото-логи',
     achievements: 'Достижения',
     honor: 'Доска почёта',
-    comments: 'Комментарии профилей'
+    comments: 'Комментарии профилей',
+    logs: 'Логи запросов и баны',
+    promo: 'Промокоды'
   };
   $('admin-title').textContent = titles[tab];
 
@@ -1264,6 +1463,8 @@ function route() {
   else if (tab === 'achievements') loadAchievements();
   else if (tab === 'honor') loadHonor();
   else if (tab === 'comments') loadCommentsMod();
+  else if (tab === 'logs') loadLogs();
+  else if (tab === 'promo') loadPromo();
   else loadPhotos();
 }
 

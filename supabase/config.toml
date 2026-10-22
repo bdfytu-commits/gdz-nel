@@ -11,6 +11,14 @@ verify_jwt = false
 [functions.solve-photo]
 verify_jwt = true
 
+# ИИ-репетитор: только для залогиненных, ключ Groq остаётся на сервере.
+[functions.ai-tutor]
+verify_jwt = true
+
+# request_logs: вызывается и для гостей, JWT не обязателен.
+[functions.log-request]
+verify_jwt = false
+
 # lava-webhook зовёт сервис оплаты Lava.top — JWT у него нет,
 # защита — подпись тела (секрет LAVA_WEBHOOK_SECRET).
 [functions.lava-webhook]

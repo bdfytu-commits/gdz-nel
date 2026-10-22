@@ -421,7 +421,7 @@ def _looks_like_heading(line: str, allow_numbered: bool = True) -> bool:
 
 def _heading_before(lines: list[str], first_idx: int, default: str = "",
                     allow_numbered: bool = True) -> str:
-    """Заголовок (раздел/модуль/параграф) перед первой задачей страницы."""
+    """Устаревшая эвристика по строкам. Оставлена для совместимости."""
     meta_end = 0
     for i in range(first_idx):
         if _META_LABEL_RE.match(lines[i]):
@@ -439,12 +439,59 @@ def _heading_before(lines: list[str], first_idx: int, default: str = "",
     return candidates[-1] if candidates else default
 
 
+SECTION_STOP_RE = re.compile(
+    r"^(?:войдите|вход|регистрация|вам может быть интересно|рекомендуем посмотреть|"
+    r"похожие|комментарии|отзывы|твой лучший помощник|заполните форму|"
+    r"премиум подписка|материал подготовила|материал подготовил|автор)\b",
+    re.IGNORECASE,
+)
+
+
+def _section_from_html(soup: BeautifulSoup, default: str = "") -> str:
+    """Раздел только из семантического h2 до первого задания.
+
+    На страницах gdz-raketa главы/модули размечены h2. Раньше парсер
+    вытаскивал «заголовок» из любого текста перед заданием и цеплял
+    инструкции вроде «С какими разновидностями...» или условие соседнего
+    упражнения. Из-за этого задания скакали по разделам. Если h2 нет —
+    раздела нет; никаких угадываний.
+    """
+    main = soup.select_one("main") or soup.body
+    if main is None:
+        return default
+    last_heading = ""
+    for el in main.find_all(["h2", "p"]):
+        text = " ".join(el.get_text(" ", strip=True).split())
+        if not text:
+            continue
+        if el.name == "h2":
+            if len(text) <= 120 and not SECTION_STOP_RE.match(text):
+                last_heading = text.rstrip(".")
+            continue
+        if NUMBER_RE.match(text):
+            break
+    return last_heading or default
+
+
+def _marker_number(soup: BeautifulSoup) -> str | None:
+    """Номер задания из семантического маркера <b class="nomer-bold">."""
+    main = soup.select_one("main") or soup.body
+    if main is None:
+        return None
+    for bold in main.select("b.nomer-bold"):
+        match = NUMBER_RE.match(" ".join(bold.get_text(" ", strip=True).split()))
+        if match:
+            return match.group(1)
+    return None
+
+
 NUMBER_RE = re.compile(r"^(?:Номер|Задание)\.?\s+([0-9]+(?:\.[0-9]+)*)\.?$")
 _ANSWER_RE = re.compile(r"^ответ\s*:?\s*$", re.I)
 _TRANS_RE = re.compile(r"^перевод\s*:?\s*$", re.I)
 
 
-def parse_single_task(soup: BeautifulSoup, expected: str | None = None) -> dict | None:
+def parse_single_task(soup: BeautifulSoup, expected: str | None = None,
+                      default_section: str = "") -> dict | None:
     """Страница с одной задачей: math, russian.
 
     expected — номер из адреса страницы: сайт иногда лепит в заголовок
@@ -455,7 +502,7 @@ def parse_single_task(soup: BeautifulSoup, expected: str | None = None) -> dict 
     idx = next((i for i, l in enumerate(lines) if NUMBER_RE.match(l)), None)
     if idx is None:
         return None
-    marker = NUMBER_RE.match(lines[idx]).group(1)
+    marker = _marker_number(soup) or NUMBER_RE.match(lines[idx]).group(1)
     number = expected or marker
 
     cond: list[str] = []
@@ -490,7 +537,7 @@ def parse_single_task(soup: BeautifulSoup, expected: str | None = None) -> dict 
         solution += "\nПеревод:\n" + "\n".join(trans)
     return {
         "number": number,
-        "section": _heading_before(lines, idx),
+        "section": _section_from_html(soup, default_section),
         "condition": "\n".join(cond),
         "solution": solution,
         "answer": sol[-1],
@@ -504,7 +551,7 @@ def parse_page_tasks(soup: BeautifulSoup, page: str) -> list[dict]:
     if not marks:
         return []
 
-    section = _heading_before(lines, marks[0], allow_numbered=False)
+    section = _section_from_html(soup)
     out: list[dict] = []
     used: dict[str, int] = {}
     for pos, idx in enumerate(marks):
@@ -1202,7 +1249,7 @@ def collect(book_id: str, limit: int | None = None, resume: bool = False) -> dic
                 print(f"  {len(tasks):4d} задач  {i}/{total}  {num:>9}")
                 continue
             if cfg["kind"] == "single":
-                task = parse_single_task(soup, key)
+                task = parse_single_task(soup, key, cfg.get("section", ""))
                 take(task, url)
                 num = f"№{task['number']}" if task else "пропуск"
                 print(f"  {len(tasks):4d} задач  {i}/{total}  {num:>9}  "

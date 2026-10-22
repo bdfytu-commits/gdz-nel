@@ -22,7 +22,7 @@
 
 (function () {
   var DB_NAME = 'gdz-nel-offline';
-  var DB_VERSION = 1;
+  var DB_VERSION = 2;
   var IMAGE_CONCURRENCY = 4;
   var dbPromise = null;
 
@@ -46,6 +46,9 @@
         if (!db.objectStoreNames.contains('images')) {
           var images = db.createObjectStore('images', { keyPath: 'url' });
           images.createIndex('file', 'file', { unique: false });
+        }
+        if (!db.objectStoreNames.contains('queue')) {
+          db.createObjectStore('queue', { keyPath: 'file' });
         }
       };
       request.onsuccess = function () { resolve(request.result); };
@@ -352,6 +355,36 @@
     }).then(function (row) { return row ? row.blob : null; });
   }
 
+  function queueAutoBooks(books) {
+    var list = Array.isArray(books) ? books.filter(function (book) { return book && book.file; }) : [];
+    if (!list.length) return Promise.resolve(0);
+    return openDB().then(function (db) {
+      var tx = db.transaction('queue', 'readwrite');
+      var store = tx.objectStore('queue');
+      list.forEach(function (book) {
+        store.put(Object.assign({}, book, { queuedAt: Date.now(), auto: true }));
+      });
+      return transactionDone(tx).then(function () { return list.length; });
+    });
+  }
+
+  function listAutoQueue() {
+    return openDB().then(function (db) {
+      var tx = db.transaction('queue', 'readonly');
+      return requestResult(tx.objectStore('queue').getAll());
+    }).then(function (rows) {
+      return (rows || []).sort(function (a, b) { return (a.queuedAt || 0) - (b.queuedAt || 0); });
+    });
+  }
+
+  function removeAutoBook(file) {
+    return openDB().then(function (db) {
+      var tx = db.transaction('queue', 'readwrite');
+      tx.objectStore('queue').delete(file);
+      return transactionDone(tx);
+    });
+  }
+
   function estimate() {
     return listOfflineBooks().then(function (books) {
       var bytes = books.reduce(function (sum, book) { return sum + (book.bytes || 0); }, 0);
@@ -373,6 +406,9 @@
     isBookOffline: isBookOffline,
     clearTextbookFromOffline: clearTextbookFromOffline,
     removeBook: clearTextbookFromOffline,
+    queueAutoBooks: queueAutoBooks,
+    listAutoQueue: listAutoQueue,
+    removeAutoBook: removeAutoBook,
     getImage: getImage,
     estimate: estimate
   };

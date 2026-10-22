@@ -84,6 +84,23 @@
   // просмотр страницы
   send('page_view');
 
+  // серверный лог запросов + rate limit 50/мин на IP.
+  // Это не замена Cloudflare WAF, а прикладной слой для админки.
+  if (navigator.onLine !== false) {
+    try {
+      fetch(SUPABASE_URL + '/functions/v1/log-request', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          apikey: SUPABASE_KEY,
+          Authorization: 'Bearer ' + SUPABASE_KEY
+        },
+        body: JSON.stringify({ path: (location.pathname + location.hash).slice(0, 300) }),
+        keepalive: true
+      }).catch(function () { /* лог не должен ломать страницу */ });
+    } catch (err) { /* ignore */ }
+  }
+
   // скачивание APK — клик по любой ссылке с app.apk (Ф26.5)
   document.addEventListener('click', function (event) {
     var link = event.target && event.target.closest ? event.target.closest('a[href*="app.apk"]') : null;

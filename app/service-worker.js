@@ -13,7 +13,7 @@
    поэтому работают даже после очистки HTTP-кэша.
    ========================================================= */
 
-const VERSION = 'gdz-nel-v12';
+const VERSION = 'gdz-nel-v13';
 const STATIC_CACHE = VERSION + '-static';
 const DATA_CACHE = VERSION + '-data';
 const IMAGE_CACHE = VERSION + '-image';
@@ -27,6 +27,7 @@ const PRECACHE = [
   './assets/style.css',
   './assets/script.js',
   './assets/offline-db.js',
+  './assets/v4.js',
   './manifest.json',
   './data/catalog.json',
   './data/stats.json',
@@ -45,6 +46,7 @@ const PRECACHE = [
   '../assets/supabase.js',
   '../assets/analytics.js',
   '../assets/offline-profile.js',
+  '../assets/profile-v4.js',
   '../assets/vendor/fuse.min.js',
   '../favicon.ico',
   '../favicon.svg',
@@ -141,7 +143,137 @@ self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'CACHE_IMAGES' && Array.isArray(event.data.urls)) {
     event.waitUntil(cacheOpaqueImages(event.data.urls.slice(0, 40)));
   }
+  if (event.data && event.data.type === 'PROCESS_AUTO_OFFLINE') {
+    event.waitUntil(processAutoQueue());
+  }
 });
+
+/* ---------- PRO: фоновое скачивание последних учебников ---------- */
+
+self.addEventListener('sync', (event) => {
+  if (event.tag === 'gdz-auto-offline') event.waitUntil(processAutoQueue());
+});
+
+function txDone(tx) {
+  return new Promise((resolve, reject) => {
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+    tx.onabort = () => reject(tx.error);
+  });
+}
+
+async function saveAutoBook(db, entry, doc) {
+  const tasks = Array.isArray(doc.tasks) ? doc.tasks : [];
+  if (!tasks.length) return false;
+  const meta = {
+    file: entry.file,
+    id: entry.id || '',
+    title: entry.title || doc.textbook || '',
+    author: entry.author || doc.author || '',
+    year: entry.year || doc.year || '',
+    grade: entry.grade || '',
+    gradeTitle: entry.gradeTitle || '',
+    subject: entry.subject || doc.subject || '',
+    subjectTitle: entry.subjectTitle || '',
+    taskCount: tasks.length,
+    imageCount: 0,
+    failedImages: 0,
+    bytes: 0,
+    auto: true,
+    downloadedAt: Date.now()
+  };
+
+  const tx = db.transaction(['tasks', 'books'], 'readwrite');
+  const taskStore = tx.objectStore('tasks');
+  tasks.forEach((task, index) => {
+    taskStore.put({
+      key: entry.file + '::' + String(task.number),
+      file: entry.file,
+      number: String(task.number),
+      index,
+      data: task
+    });
+  });
+  tx.objectStore('books').put(meta);
+  await txDone(tx);
+
+  // Картинки сохраняем best-effort: не валим фоновую загрузку из-за CORS/404.
+  const urls = [];
+  const seen = new Set();
+  for (const task of tasks) {
+    for (const raw of (Array.isArray(task.images) ? task.images : [])) {
+      let url = raw;
+      try { url = new URL(raw, entry.pageUrl || self.registration.scope).href; } catch { continue; }
+      if (seen.has(url) || url.startsWith('data:')) continue;
+      seen.add(url);
+      urls.push(url);
+      if (urls.length >= 120) break;
+    }
+    if (urls.length >= 120) break;
+  }
+
+  let saved = 0;
+  let failed = 0;
+  let bytes = 0;
+  for (const url of urls) {
+    try {
+      const response = await fetch(url, { mode: 'no-cors' });
+      if (!response) throw new Error('нет ответа');
+      const blob = await response.blob();
+      if (!blob || !blob.size) throw new Error('пусто');
+      // Каждую картинку пишем отдельной транзакцией: ждать fetch внутри
+      // одной транзакции нельзя — IndexedDB закроет её между задачами.
+      const imgTx = db.transaction('images', 'readwrite');
+      imgTx.objectStore('images').put({
+        url, file: entry.file, blob, bytes: blob.size, type: blob.type || '', savedAt: Date.now()
+      });
+      await txDone(imgTx);
+      saved++;
+      bytes += blob.size;
+    } catch (err) {
+      failed++;
+    }
+  }
+
+  meta.imageCount = saved;
+  meta.failedImages = failed;
+  meta.bytes = bytes;
+  const metaTx = db.transaction('books', 'readwrite');
+  metaTx.objectStore('books').put(meta);
+  await txDone(metaTx);
+  return true;
+}
+
+async function processAutoQueue() {
+  const db = await openOfflineDB();
+  if (!db) return;
+  let rows = [];
+  try {
+    const tx = db.transaction('queue', 'readonly');
+    rows = await idbRequest(tx.objectStore('queue').getAll());
+  } catch (err) {
+    return;
+  }
+  rows.sort((a, b) => (a.queuedAt || 0) - (b.queuedAt || 0));
+
+  for (const entry of rows.slice(0, 5)) {
+    try {
+      const path = entry.url || ('data/' + entry.file);
+      const res = await fetch(new URL(path, self.registration.scope), { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const doc = await res.json();
+      await saveAutoBook(db, entry, doc);
+      const rm = db.transaction('queue', 'readwrite');
+      rm.objectStore('queue').delete(entry.file);
+      await txDone(rm);
+    } catch (err) {
+      // оставляем в очереди: Background Sync попробует позже
+    }
+  }
+
+  const clients = await self.clients.matchAll({ includeUncontrolled: true });
+  clients.forEach((client) => client.postMessage({ type: 'AUTO_OFFLINE_DONE' }));
+}
 
 async function cacheOpaqueImages(urls) {
   const cache = await caches.open(IMAGE_CACHE);
@@ -158,7 +290,7 @@ async function cacheOpaqueImages(urls) {
 function openOfflineDB() {
   return new Promise((resolve) => {
     if (!self.indexedDB) { resolve(null); return; }
-    const request = indexedDB.open('gdz-nel-offline', 1);
+    const request = indexedDB.open('gdz-nel-offline', 2);
     request.onupgradeneeded = () => {
       const db = request.result;
       if (!db.objectStoreNames.contains('books')) db.createObjectStore('books', { keyPath: 'file' });
@@ -169,6 +301,9 @@ function openOfflineDB() {
       if (!db.objectStoreNames.contains('images')) {
         const store = db.createObjectStore('images', { keyPath: 'url' });
         store.createIndex('file', 'file', { unique: false });
+      }
+      if (!db.objectStoreNames.contains('queue')) {
+        db.createObjectStore('queue', { keyPath: 'file' });
       }
     };
     request.onsuccess = () => resolve(request.result);

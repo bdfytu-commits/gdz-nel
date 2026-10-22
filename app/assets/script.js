@@ -1053,6 +1053,9 @@
     Array.prototype.forEach.call(cells, function (cell) {
       var show = cell.getAttribute('data-number').indexOf(query) === 0;
       cell.hidden = !show;
+      if (cell.parentElement && cell.parentElement.classList.contains('task-pick-wrap')) {
+        cell.parentElement.hidden = !show;
+      }
       if (show) visible++;
     });
 
@@ -1220,6 +1223,10 @@
 
       // поделиться
       byId('share-btn').addEventListener('click', function () {
+        if (window.GdzV4 && window.GdzV4.shareTask) {
+          window.GdzV4.shareTask();
+          return;
+        }
         if (navigator.share) {
           navigator.share({ title: entry.title, text: entry.snippet, url: location.href })
             .catch(function () { /* пользователь отменил */ });
@@ -1674,6 +1681,7 @@
         }
         showToast('Отзыв успешно добавлен');
         if (res.data) res.data.author_premium = premiumActive;
+        db.rpc('award_xp', { p_kind: 'review', p_ref: ctx.taskId }).catch(function () { /* XP — не критично */ });
         renderReviewForm(lib, db, session, res.data, ctx, token);
         // отзыв публикуется сразу — через секунду обновим список принудительно
         setTimeout(function () {
