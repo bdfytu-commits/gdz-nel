@@ -1,5 +1,5 @@
 /* =========================================================
-   service worker ГДЗ НЭЛ — v12 (офлайн-учебники + IndexedDB)
+   service worker ГДЗ НЭЛ — v14 (офлайн-учебники + IndexedDB)
 
    стратегии:
      - навигация — Network First; офлайн: кэш → offline.html
@@ -13,7 +13,7 @@
    поэтому работают даже после очистки HTTP-кэша.
    ========================================================= */
 
-const VERSION = 'gdz-nel-v13';
+const VERSION = 'gdz-nel-v14';
 const STATIC_CACHE = VERSION + '-static';
 const DATA_CACHE = VERSION + '-data';
 const IMAGE_CACHE = VERSION + '-image';

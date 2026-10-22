@@ -623,7 +623,7 @@ a:hover { color: var(--c-accent); }
 
 .task-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(76px, 1fr));
   gap: 8px;
 }
 
@@ -632,14 +632,18 @@ a:hover { color: var(--c-accent); }
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 56px;
+  min-height: 64px;
+  padding: 0 6px;
   border: 1px solid var(--c-border);
   border-radius: var(--radius-m);
   background: var(--c-surface);
   color: var(--c-text);
   font: inherit;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 20px;
+  white-space: nowrap;
   overflow: hidden;
   transition:
     transform var(--t-fast) var(--ease),
@@ -1209,7 +1213,7 @@ mark {
   /* сетка задач — ровно 4 колонки (Ф14.3) */
   .task-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
 
-  .task-cell { min-height: 52px; font-size: 15px; }
+  .task-cell { min-height: 64px; font-size: 14px; }
 
   .group-head { top: calc(var(--header-h) + 4px); }
 
@@ -1881,16 +1885,16 @@ mark {
 .task-pick-wrap > .task-cell { width: 100%; height: 100%; }
 .task-pick {
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: 4px;
+  right: 4px;
   z-index: 2;
-  width: 23px;
-  height: 23px;
+  width: 18px;
+  height: 18px;
   margin: 0;
-  border-radius: 7px;
+  border-radius: 5px;
   accent-color: var(--c-primary);
   cursor: pointer;
-  box-shadow: 0 2px 8px rgba(15, 23, 42, .18);
+  box-shadow: 0 1px 4px rgba(15, 23, 42, .12);
 }
 .task-pick-wrap:has(.task-pick:checked) > .task-cell {
   border-color: var(--c-primary);
