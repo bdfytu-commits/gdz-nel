@@ -111,12 +111,14 @@
           </div>
         </div>
         <label class="visually-hidden" for="voice-text">Текст задачи</label>
-        <textarea id="voice-text" rows="3" maxlength="5000" placeholder="Например: найди площадь прямоугольника со сторонами 8 и 5 сантиметров"></textarea>
-        <div class="voice-actions">
-          <button class="btn btn-outline btn-sm" type="button" id="voice-mic" aria-pressed="false">
+        <div class="voice-input-row">
+          <textarea id="voice-text" rows="3" maxlength="5000" placeholder="Например: найди площадь прямоугольника со сторонами 8 и 5 сантиметров"></textarea>
+          <button class="btn btn-outline" type="button" id="voice-mic" aria-pressed="false">
             <span class="icon i-mic" aria-hidden="true"></span><span id="voice-mic-label">Говорить</span>
           </button>
-          <button class="btn btn-primary btn-sm" type="button" id="voice-solve">
+        </div>
+        <div class="voice-actions">
+          <button class="btn btn-primary" type="button" id="voice-solve">
             <span class="icon i-sparkles" aria-hidden="true"></span><span>Решить текстом</span>
           </button>
         </div>
@@ -134,15 +136,15 @@
         <div class="photo-model-options" role="radiogroup" aria-label="Выбор модели ИИ">
           <label class="model-chip">
             <input type="radio" name="ai-model" value="standard" checked>
-            <span>Стандарт<small>быстро, для типовых задач</small></span>
+            <span><b>Стандарт</b><small>быстро, для типовых задач</small></span>
           </label>
           <label class="model-chip">
             <input type="radio" name="ai-model" value="smart">
-            <span>Точная<small>подробнее и аккуратнее</small></span>
+            <span><b>Точная</b><small>подробнее и аккуратнее</small></span>
           </label>
           <label class="model-chip">
             <input type="radio" name="ai-model" value="deep">
-            <span>Разбор<small>самая сильная, дольше</small></span>
+            <span><b>Разбор</b><small>самая сильная, дольше</small></span>
           </label>
         </div>
       </div>
