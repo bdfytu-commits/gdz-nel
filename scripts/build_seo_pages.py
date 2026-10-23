@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Генерирует статические SEO-страницы под длинные запросы.
 
-10 популярных учебников × 5 заданий = 50 страниц. Каждая страница:
-условие, решение, ответ, ссылка в приложение, canonical, OG-теги,
-JSON-LD и своя OG-картинка 1200×630 (Pillow).
+10 популярных учебников × 5 заданий = 50 старых страниц плюс 20 длинных
+запросов (Виленкин 6 класс №1.2–1.11, Ладыженская 6 класс №2–5, 62–66,
+223) = 70 страниц. Каждая страница: условие, решение, ответ, ссылка в
+приложение, canonical, OG-теги, JSON-LD и своя OG-картинка 1200×630
+(Pillow).
 
 Запуск:
     python3 scripts/build_seo_pages.py
@@ -70,6 +72,54 @@ BOOKS = [
 ]
 
 PER_BOOK = 5
+
+# Старые 50 страниц уже проиндексированы. Фиксируем номера Канакиной,
+# чтобы обновление данных не меняло URL и не выбрасывало страницы из sitemap.
+BOOK_TASK_OVERRIDES = {
+    "kanakina-4-1": ("6.1", "39.60", "68.113", "93.163", "118.227"),
+}
+
+# Дополнительные 20 страниц под длинные запросы. Это не замена BOOKS:
+# 50 старых страниц остаются, новые добавляются к ним.
+VILENKIN_EXTRA = {
+    "id": "vilenkin-6-1", "file": "math/vilenkin-6-1.json", "grade": 6,
+    "subject": "math", "query": "решебник по математике 6 класс виленкин",
+    "title_query": "Решебник по математике 6 класс Виленкин", "author": "Виленкин",
+}
+LADYZHENSKAYA = {
+    "id": "ladyzhenskaya-6-1", "file": "russian/ladyzhenskaya-6-1.json",
+    "grade": 6, "subject": "russian",
+    "query": "гдз по русскому ладыженская 6 класс",
+    "title_query": "ГДЗ по русскому языку Ладыженская 6 класс",
+    "author": "Ладыженская",
+}
+
+EXTRA_PAGES = [
+    {"book": VILENKIN_EXTRA, "number": number}
+    for number in ("1.2", "1.3", "1.4", "1.5", "1.6",
+                   "1.7", "1.8", "1.9", "1.10", "1.11")
+] + [
+    {"book": LADYZHENSKAYA, "number": number}
+    for number in ("2", "3", "4", "5", "62", "63", "64", "65", "66", "223")
+]
+
+SEO_OVERRIDES = {
+    "ladyzhenskaya-6-1-223": {
+        "solution": (
+            "Олицетворения в тексте: деревья пели, кипели, переливались, текли; "
+            "река убегает; полночь входит; след бежал; берёзки улыбнулись, "
+            "растрепали шёлковые косы; зима поёт, аукает, лес баюкает.\n\n"
+            "Примеры прямого значения: деревья росли у дороги; птицы пели в саду; "
+            "вода кипела в чайнике; краски переливались на солнце; реки текли на север."
+        ),
+        "answer": (
+            "Олицетворения: деревья пели, кипели, переливались, текли; река убегает; "
+            "полночь входит; след бежал; берёзки улыбнулись и растрепали косы; "
+            "зима поёт и аукает, лес баюкает. Прямые значения закрепляются "
+            "самостоятельно составленными предложениями."
+        ),
+    }
+}
 FONT_BOLD = "/usr/share/fonts/TTF/DejaVuSans-Bold.ttf"
 FONT_REG = "/usr/share/fonts/TTF/DejaVuSans.ttf"
 
@@ -161,10 +211,11 @@ footer{border-top:1px solid var(--line);margin-top:36px;padding:24px 0;color:var
 def page_html(book: dict, task: dict, slug: str, siblings: list[tuple[str, str]]) -> str:
     subject = SUBJECT_TITLES.get(book["subject"], book["subject"])
     number = str(task["number"])
-    query = book["query"]
-    title = f"{query.capitalize()} номер {number} — решение и ответ | ГДЗ НЭЛ"
+    title_query = book.get("title_query") or book["query"].capitalize()
+    kind = "упражнения" if book["subject"] == "russian" else "задания"
+    title = f"{title_query} номер {number} — решение и ответ | ГДЗ НЭЛ"
     description = (
-        f"Готовое решение задания {number} по предмету «{subject}» для {book['grade']} класса: "
+        f"Готовое решение {kind} {number} по предмету «{subject}» для {book['grade']} класса: "
         "условие, шаги решения и ответ. Открывайте на ГДЗ НЭЛ."
     )
     canonical = f"{SITE}/seo/{slug}/"
@@ -244,16 +295,51 @@ def main() -> int:
     args = ap.parse_args()
 
     pages: list[dict] = []
+    seen_slugs: set[str] = set()
+
+    def add_page(book: dict, task: dict) -> None:
+        slug = slugify(f"{book['id']} {task['number']}")
+        if slug in seen_slugs:
+            return
+        seen_slugs.add(slug)
+        pages.append({"book": book, "task": task, "slug": slug})
+
     for book in BOOKS:
         path = DATA / book["file"]
         if not path.exists():
             print(f"!! нет файла {path}", flush=True)
             continue
         doc = json.loads(path.read_text(encoding="utf-8"))
-        tasks = pick_tasks(doc.get("tasks", []))
+        numbers = BOOK_TASK_OVERRIDES.get(book["id"])
+        if numbers:
+            task_map = {str(task.get("number")): task for task in doc.get("tasks", [])}
+            tasks = [task_map[number] for number in numbers if number in task_map]
+        else:
+            tasks = pick_tasks(doc.get("tasks", []))
         for task in tasks:
-            slug = slugify(f"{book['id']} {task['number']}")
-            pages.append({"book": book, "task": task, "slug": slug})
+            add_page(book, task)
+
+    # 20 дополнительных длинных запросов: 10 Виленкин + 10 Ладыженская.
+    extra_books = {book["id"]: book for book in (VILENKIN_EXTRA, LADYZHENSKAYA)}
+    task_maps: dict[str, dict[str, dict]] = {}
+    for book_id, book in extra_books.items():
+        path = DATA / book["file"]
+        if not path.exists():
+            print(f"!! нет файла {path}", flush=True)
+            continue
+        doc = json.loads(path.read_text(encoding="utf-8"))
+        task_maps[book_id] = {str(t.get("number")): t for t in doc.get("tasks", [])}
+
+    for extra in EXTRA_PAGES:
+        book = extra["book"]
+        task = task_maps.get(book["id"], {}).get(extra["number"])
+        if not task:
+            print(f"!! нет задания {book['id']} №{extra['number']}", flush=True)
+            continue
+        task = dict(task)
+        slug = slugify(f"{book['id']} {task['number']}")
+        task.update(SEO_OVERRIDES.get(slug, {}))
+        add_page(book, task)
 
     if not pages:
         print("нечего генерировать")
@@ -282,7 +368,7 @@ def main() -> int:
     index_html = ['<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8">',
                   '<meta name="viewport" content="width=device-width, initial-scale=1">',
                   '<title>Разборы заданий — ГДЗ НЭЛ</title>',
-                  '<meta name="description" content="50 разборов популярных заданий: условие, решение и ответ. Математика, русский, английский, история и общество.">',
+                  f'<meta name="description" content="{len(pages)} разборов популярных заданий: условие, решение и ответ. Математика, русский, английский, история и общество.">',
                   '<link rel="canonical" href="' + SITE + '/seo/">',
                   '<link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/assets/style.css">',
                   f'<style>{PAGE_CSS}</style></head><body><header><div class="wrap top">'
@@ -291,7 +377,10 @@ def main() -> int:
                   '<nav class="crumbs"><a href="/">Главная</a> / <span>Разборы</span></nav>'
                   '<h1>Разборы заданий</h1><p>Условие, решение и ответ для популярных номеров. '
                   'Полная книга — в приложении.</p>']
-    for book in BOOKS:
+    index_books = list(BOOKS)
+    if LADYZHENSKAYA["id"] not in {book["id"] for book in index_books}:
+        index_books.append(LADYZHENSKAYA)
+    for book in index_books:
         items = by_book.get(book["id"], [])
         if not items:
             continue

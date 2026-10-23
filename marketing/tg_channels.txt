@@ -1,0 +1,3 @@
+# Каналы, где @gdz_nel_bot администратор.
+# Перед отправкой tg_poster.py всё равно проверяет getChatMember.
+@gdz_nel
